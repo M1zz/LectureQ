@@ -1,0 +1,7 @@
+.DS_Store
+build/
+DerivedData/
+*.xcuserstate
+xcuserdata/
+# xcodegen이 project.yml에서 생성하므로 프로젝트 파일은 커밋 제외 가능
+LectureQ.xcodeproj/
