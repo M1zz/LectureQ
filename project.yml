@@ -21,6 +21,10 @@ targets:
     deploymentTarget: "14.0"
     sources:
       - path: LectureQ
+    entitlements:
+      path: LectureQ/LectureQ.entitlements
+      properties:
+        com.apple.security.app-sandbox: true
     info:
       path: LectureQ/Info.plist
       properties:

@@ -49,7 +49,7 @@ open LectureQ.xcodeproj
 강의·질문·메모는 아래 **실제 파일**에 영속 저장됩니다 (앱을 껐다 켜도 유지됩니다).
 
 ```
-~/Library/Application Support/LectureQ/LectureQ.store
+~/Library/Containers/com.lectureq.LectureQ/Data/Library/Application Support/LectureQ/LectureQ.store
 ```
 
 - `LectureQ.store` (본 데이터, SQLite) + `-wal`, `-shm` (SQLite 부속 파일)
