@@ -130,6 +130,13 @@
 - [x] 앱 전 파일의 `.font(...)` 호출을 `.scaledFont(...)`로 일괄 교체(모노스페이스·굵기·디자인 보존)
 - [x] 남은 `.font(.system(size:))`는 배율 모디파이어 내부/aA 버튼/Q 마커 글리프뿐(의도적 고정)
 
+## 완료 (배포 페이지 + 전역 글씨 크기 보강)
+- [x] 퍼블릭 레포 github.com/M1zz/LectureQ 커밋·푸시
+- [x] docs/ 지원·개인정보 처리방침·랜딩 페이지 + GitHub Pages(/docs) 활성화, 라이브 확인
+  - 지원: https://m1zz.github.io/LectureQ/support.html
+  - 개인정보: https://m1zz.github.io/LectureQ/privacy.html
+- [x] 글씨 배율을 각 열/시트에 개별 적용 + 환경 기본 폰트도 배율화(appFontScale) → 앱 전체 텍스트 반영
+
 ## 다음 아이디어 (README 확장 아이디어 참고)
 - [ ] 메뉴바 익스트라 전역 캡처
 - [ ] 그래프 노드 클릭 → 질문 상세 이동
