@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>LectureQ</title>
+<style>
+  :root{--blue:#2E6BE6;--teal:#17B3A3;--bg:#ffffff;--fg:#1c1c1e;--muted:#6b6b70;--card:#f5f6f8;--border:#e6e7ea;}
+  @media (prefers-color-scheme:dark){:root{--bg:#111214;--fg:#f2f2f5;--muted:#9a9aa0;--card:#1b1c1f;--border:#2a2b2f;}}
+  *{box-sizing:border-box;}
+  body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Segoe UI",Roboto,sans-serif;background:var(--bg);color:var(--fg);line-height:1.65;}
+  .wrap{max-width:720px;margin:0 auto;padding:48px 20px 80px;}
+  .logo{width:96px;height:96px;border-radius:24px;background:linear-gradient(160deg,var(--blue),var(--teal));display:flex;align-items:center;justify-content:center;box-shadow:0 8px 28px rgba(0,0,0,.18);margin-bottom:20px;}
+  .logo span{font-size:52px;font-weight:800;color:#fff;}
+  h1{font-size:34px;margin:0 0 6px;letter-spacing:-.5px;}
+  .tag{color:var(--muted);font-size:17px;margin:0 0 32px;}
+  .cards{display:grid;gap:14px;}
+  a.card{display:block;text-decoration:none;color:inherit;background:var(--card);border:1px solid var(--border);border-radius:14px;padding:18px 20px;transition:transform .12s ease,border-color .12s ease;}
+  a.card:hover{transform:translateY(-2px);border-color:var(--teal);}
+  a.card h2{margin:0 0 4px;font-size:18px;}
+  a.card p{margin:0;color:var(--muted);font-size:14px;}
+  footer{margin-top:44px;color:var(--muted);font-size:13px;}
+  footer a{color:var(--teal);}
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="logo"><span>Q</span></div>
+    <h1>LectureQ</h1>
+    <p class="tag">강의를 들으며 질문을 빠르게 남기고, 시간 블록 메모·꼬리질문 위계·관계 그래프로 정리하는 macOS 앱.</p>
+    <div class="cards">
+      <a class="card" href="./support.html">
+        <h2>지원 (Support)</h2>
+        <p>사용법, 자주 묻는 질문, 문의처</p>
+      </a>
+      <a class="card" href="./privacy.html">
+        <h2>개인정보 처리방침 (Privacy Policy)</h2>
+        <p>LectureQ가 데이터를 어떻게 다루는지</p>
+      </a>
+      <a class="card" href="https://github.com/M1zz/LectureQ">
+        <h2>소스 코드 (GitHub)</h2>
+        <p>github.com/M1zz/LectureQ</p>
+      </a>
+    </div>
+    <footer>© 2026 LectureQ · 문의 <a href="mailto:mizzking75@gmail.com">mizzking75@gmail.com</a></footer>
+  </div>
+</body>
+</html>

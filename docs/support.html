@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>LectureQ · 지원</title>
+<style>
+  :root{--blue:#2E6BE6;--teal:#17B3A3;--bg:#ffffff;--fg:#1c1c1e;--muted:#6b6b70;--card:#f5f6f8;--border:#e6e7ea;}
+  @media (prefers-color-scheme:dark){:root{--bg:#111214;--fg:#f2f2f5;--muted:#9a9aa0;--card:#1b1c1f;--border:#2a2b2f;}}
+  *{box-sizing:border-box;}
+  body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Segoe UI",Roboto,sans-serif;background:var(--bg);color:var(--fg);line-height:1.7;}
+  .wrap{max-width:720px;margin:0 auto;padding:40px 20px 80px;}
+  a.back{color:var(--teal);text-decoration:none;font-size:14px;}
+  h1{font-size:30px;margin:18px 0 4px;letter-spacing:-.4px;}
+  .lead{color:var(--muted);font-size:16px;margin:0 0 28px;}
+  h2{font-size:19px;margin:30px 0 10px;}
+  details{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:2px 16px;margin:10px 0;}
+  summary{cursor:pointer;font-weight:600;padding:12px 0;list-style:none;}
+  summary::-webkit-details-marker{display:none;}
+  summary::before{content:"▸ ";color:var(--teal);}
+  details[open] summary::before{content:"▾ ";}
+  details .body{padding:0 0 14px;color:var(--fg);}
+  code{background:var(--bg);border:1px solid var(--border);border-radius:6px;padding:1px 6px;font-size:13px;}
+  kbd{background:var(--card);border:1px solid var(--border);border-bottom-width:2px;border-radius:6px;padding:1px 7px;font-size:13px;font-family:inherit;}
+  .contact{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:18px 20px;margin-top:16px;}
+  .contact a{color:var(--teal);}
+  footer{margin-top:44px;color:var(--muted);font-size:13px;border-top:1px solid var(--border);padding-top:18px;}
+  footer a{color:var(--teal);}
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <a class="back" href="./index.html">← LectureQ</a>
+    <h1>지원 (Support)</h1>
+    <p class="lead">LectureQ 사용 중 궁금한 점이나 문제가 있으면 아래를 확인하고, 해결되지 않으면 이메일로 연락해 주세요.</p>
+
+    <h2>자주 묻는 질문</h2>
+
+    <details>
+      <summary>질문을 빠르게 남기려면?</summary>
+      <div class="body">언제든 <kbd>⌘</kbd> <kbd>⇧</kbd> <kbd>N</kbd> 을 누르면 질문 입력 창이 열립니다.
+      <kbd>Return</kbd> 으로 저장, <kbd>Esc</kbd> 로 닫기, <kbd>⌘</kbd><kbd>Return</kbd> 으로 저장 후 계속 입력할 수 있습니다.</div>
+    </details>
+
+    <details>
+      <summary>타임블록과 질문은 어떻게 연결되나요?</summary>
+      <div class="body">강의 하나에 여러 시간 블록을 만들 수 있고, 각 블록은 만든 시각에 시작해 다음 블록 전까지 이어집니다.
+      질문에 시각(예 <code>14:30</code>)을 적으면 해당 시각의 블록 위에 Q 버튼으로 표시되고, 블록 밖 시각이면 새 블록이 자동으로 만들어집니다.
+      Q 버튼을 누르면 그 질문 상세로 이동합니다.</div>
+    </details>
+
+    <details>
+      <summary>꼬리질문(follow-up)이란?</summary>
+      <div class="body">하나의 질문에서 파생된 질문을 꼬리질문으로 연결하면, 목록·상세·그래프에서 원질문 → 꼬리질문 위계로 보여집니다.</div>
+    </details>
+
+    <details>
+      <summary>내 데이터는 어디에 저장되나요? 백업은?</summary>
+      <div class="body">모든 데이터는 <code>~/Library/Application Support/LectureQ/</code> 폴더에 저장됩니다.
+      이 폴더를 통째로 복사하면 백업, 삭제하면 초기화됩니다. 데이터는 기기 밖으로 전송되지 않습니다.</div>
+    </details>
+
+    <details>
+      <summary>글씨 크기를 바꾸고 싶어요.</summary>
+      <div class="body">툴바의 <kbd>−</kbd> <kbd>aA</kbd> <kbd>+</kbd> 버튼으로 앱 전체 글씨 크기를 조절할 수 있고, 설정은 저장됩니다.</div>
+    </details>
+
+    <details>
+      <summary>소스에서 직접 빌드하려면?</summary>
+      <div class="body">macOS 14 이상 + Xcode에서, 저장소를 클론한 뒤 <code>./run.sh</code> 를 실행하거나
+      <code>xcodegen generate</code> 후 <code>LectureQ.xcodeproj</code> 를 열어 실행하면 됩니다.
+      자세한 내용은 <a href="https://github.com/M1zz/LectureQ">GitHub 저장소</a>를 참고하세요.</div>
+    </details>
+
+    <h2>문의 · 버그 신고</h2>
+    <div class="contact">
+      <p style="margin:0 0 8px;">이메일: <a href="mailto:mizzking75@gmail.com">mizzking75@gmail.com</a></p>
+      <p style="margin:0;">버그·기능 제안: <a href="https://github.com/M1zz/LectureQ/issues">GitHub Issues</a></p>
+    </div>
+
+    <footer>© 2026 LectureQ · <a href="./privacy.html">개인정보 처리방침</a> · <a href="https://github.com/M1zz/LectureQ">GitHub</a></footer>
+  </div>
+</body>
+</html>

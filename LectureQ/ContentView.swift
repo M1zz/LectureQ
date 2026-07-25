@@ -65,6 +65,14 @@ extension View {
                     design: Font.Design = .default, monospacedDigit: Bool = false) -> some View {
         modifier(ScaledStyleFont(style: style, weight: weight, design: design, mono: monospacedDigit))
     }
+
+    /// 앱 글씨 배율을 이 하위 트리에 적용한다.
+    /// - fontScale: scaledFont(...)가 읽는 배율
+    /// - 기본 폰트: 명시적 폰트가 없는 Text 도 배율에 맞게 커지도록 환경 기본 폰트를 배율만큼 키운다.
+    func appFontScale(_ scale: CGFloat) -> some View {
+        self.environment(\.fontScale, scale)
+            .environment(\.font, .system(size: 13 * scale))
+    }
 }
 
 struct ContentView: View {
@@ -93,42 +101,47 @@ struct ContentView: View {
     var body: some View {
         NavigationSplitView {
             sidebar
+                .appFontScale(fontScale)
         } content: {
             memoColumn
+                .appFontScale(fontScale)
         } detail: {
-            if let q = selectedQuestion {
-                QuestionDetailView(question: q)
-                    .id(q.uuid)
-            } else {
-                ContentUnavailableView("질문을 선택하세요",
-                                       systemImage: "questionmark.bubble",
-                                       description: Text("⌘⇧N 으로 언제든 질문을 빠르게 남길 수 있어요"))
+            Group {
+                if let q = selectedQuestion {
+                    QuestionDetailView(question: q)
+                        .id(q.uuid)
+                } else {
+                    ContentUnavailableView("질문을 선택하세요",
+                                           systemImage: "questionmark.bubble",
+                                           description: Text("⌘⇧N 으로 언제든 질문을 빠르게 남길 수 있어요"))
+                }
             }
+            .appFontScale(fontScale)
         }
-        .environment(\.fontScale, fontScale)
+        .appFontScale(fontScale)
         .sheet(isPresented: $showQuickCapture) {
             QuickCaptureView(lecture: selectedLecture ?? lectures.first)
-                .environment(\.fontScale, fontScale)
+                .appFontScale(fontScale)
         }
         .sheet(isPresented: $showGraph) {
             GraphContainerView()
                 .frame(minWidth: 900, minHeight: 640)
-                .environment(\.fontScale, fontScale)
+                .appFontScale(fontScale)
         }
         .sheet(isPresented: $showSummary) {
             if let lecture = selectedLecture {
                 LectureSummaryView(lecture: lecture)
-                    .environment(\.fontScale, fontScale)
+                    .appFontScale(fontScale)
             }
         }
         .sheet(isPresented: $showTimeline) {
             TimelineView()
-                .environment(\.fontScale, fontScale)
+                .appFontScale(fontScale)
         }
         .sheet(isPresented: $showState) {
             if let lecture = selectedLecture {
                 LectureStateView(lecture: lecture)
-                    .environment(\.fontScale, fontScale)
+                    .appFontScale(fontScale)
             }
         }
         .onAppear(perform: restoreSelection)
