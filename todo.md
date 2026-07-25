@@ -137,6 +137,10 @@
   - 개인정보: https://m1zz.github.io/LectureQ/privacy.html
 - [x] 글씨 배율을 각 열/시트에 개별 적용 + 환경 기본 폰트도 배율화(appFontScale) → 앱 전체 텍스트 반영
 
+## 완료 (서명 팀 + 앱 이름)
+- [x] `DEVELOPMENT_TEAM: QGAQ3AY3R3`(hyunho lee) 지정, ad-hoc 서명 제거 → Archive 서명 통과 확인
+- [x] 앱 표시 이름 '질문 노트'(CFBundleName/DisplayName), 번들 ID·product name은 유지
+
 ## 다음 아이디어 (README 확장 아이디어 참고)
 - [ ] 메뉴바 익스트라 전역 캡처
 - [ ] 그래프 노드 클릭 → 질문 상세 이동
