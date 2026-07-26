@@ -1,5 +1,6 @@
 import SwiftUI
 import SwiftData
+import UniformTypeIdentifiers
 
 // MARK: - 앱 글씨 크기 배율 (macOS는 dynamicTypeSize가 안 먹혀서 직접 배율 적용)
 
@@ -78,6 +79,7 @@ extension View {
 struct ContentView: View {
     @Environment(\.modelContext) private var context
     @Query(sort: \Lecture.createdAt, order: .reverse) private var lectures: [Lecture]
+    @Query private var allQuestions: [Question]   // 그래프에서 uuid 로 질문을 찾기 위함
 
     @State private var selectedLecture: Lecture?
     @State private var selectedQuestion: Question?
@@ -87,6 +89,8 @@ struct ContentView: View {
     @State private var showTimeline = false
     @State private var showState = false
     @State private var showUnresolvedOnly = false
+    @State private var showImporter = false
+    @State private var importError: String?
 
     // 마지막으로 보던 강의를 기억했다가 다음 실행 때 복원한다.
     @AppStorage("lastLectureUUID") private var lastLectureUUID = ""
@@ -124,9 +128,11 @@ struct ContentView: View {
                 .appFontScale(fontScale)
         }
         .sheet(isPresented: $showGraph) {
-            GraphContainerView()
-                .frame(minWidth: 900, minHeight: 640)
-                .appFontScale(fontScale)
+            if let lecture = selectedLecture {
+                GraphContainerView(lecture: lecture, onSelectQuestion: navigateToQuestion)
+                    .frame(minWidth: 900, minHeight: 640)
+                    .appFontScale(fontScale)
+            }
         }
         .sheet(isPresented: $showSummary) {
             if let lecture = selectedLecture {
@@ -143,6 +149,29 @@ struct ContentView: View {
                 LectureStateView(lecture: lecture)
                     .appFontScale(fontScale)
             }
+        }
+        .fileImporter(isPresented: $showImporter,
+                      allowedContentTypes: importContentTypes) { result in
+            switch result {
+            case .success(let url):
+                do {
+                    let lecture = try LectureMarkdownImporter.importFile(at: url, in: context)
+                    selectedQuestion = nil
+                    selectedLecture = lecture
+                } catch {
+                    importError = error.localizedDescription
+                }
+            case .failure(let error):
+                importError = error.localizedDescription
+            }
+        }
+        .alert("가져오기 실패", isPresented: .init(
+            get: { importError != nil },
+            set: { if !$0 { importError = nil } }
+        )) {
+            Button("확인", role: .cancel) { importError = nil }
+        } message: {
+            Text(importError ?? "")
         }
         .onAppear(perform: restoreSelection)
         .onChange(of: selectedLecture) { _, newValue in
@@ -191,6 +220,13 @@ struct ContentView: View {
                 .help("미해결 질문만 보기")
 
                 Button {
+                    showImporter = true
+                } label: {
+                    Label("가져오기", systemImage: "square.and.arrow.down")
+                }
+                .help("대화형 마크다운(.md)을 질문·답 강의로 가져오기")
+
+                Button {
                     showTimeline = true
                 } label: {
                     Label("타임블록", systemImage: "calendar.day.timeline.left")
@@ -218,7 +254,8 @@ struct ContentView: View {
                 } label: {
                     Label("그래프", systemImage: "point.3.connected.trianglepath.dotted")
                 }
-                .help("질문 관계 그래프 보기")
+                .disabled(selectedLecture == nil)
+                .help("이 강의의 질문 관계 그래프 보기")
 
                 Button {
                     showQuickCapture = true
@@ -231,6 +268,14 @@ struct ContentView: View {
         }
     }
 
+    /// 가져오기 파일 선택창에서 허용할 타입 (.md, 일반 텍스트).
+    private var importContentTypes: [UTType] {
+        var types: [UTType] = [.plainText, .text]
+        if let md = UTType(filenameExtension: "md") { types.append(md) }
+        if let markdown = UTType("net.daringfireball.markdown") { types.append(markdown) }
+        return types
+    }
+
     // MARK: Sidebar — 질문 리스트만 (강의 선택은 툴바 메뉴로 숨김)
 
     private var sidebar: some View {
@@ -241,9 +286,15 @@ struct ContentView: View {
     /// 툴바에 들어가는 강의 전환·추가·삭제 메뉴 (사이드바에서 숨긴 강의 선택 UI)
     private var lectureMenu: some View {
         Menu {
-            Picker("강의 선택", selection: $selectedLecture) {
+            // 선택 기준을 SwiftData 모델 객체가 아니라 안정적인 uuid 로 둔다.
+            // (@Model 객체를 Picker 선택/태그로 쓰면 insert 직후 영구 ID 부여 시
+            //  hash 가 바뀌어 SwiftUI Picker 내부 캐시가 깨지며 크래시가 남)
+            Picker("강의 선택", selection: Binding<UUID?>(
+                get: { selectedLecture?.uuid },
+                set: { id in selectedLecture = lectures.first { $0.uuid == id } }
+            )) {
                 ForEach(lectures) { lecture in
-                    Text(lecture.title).tag(lecture as Lecture?)
+                    Text(lecture.title).tag(lecture.uuid as UUID?)
                 }
             }
             .pickerStyle(.inline)
@@ -311,6 +362,17 @@ struct ContentView: View {
         } else {
             ContentUnavailableView("강의를 선택하세요", systemImage: "book")
         }
+    }
+
+    /// 그래프에서 "이동"한 질문으로 이동한다.
+    /// 다른 강의의 질문이면 강의를 먼저 바꾼다. (강의 변경 onChange 가 selectedQuestion 을 nil 로
+    /// 만들기 때문에, 질문 선택은 그 다음 런루프로 미뤄 클로버되지 않게 한다.)
+    private func navigateToQuestion(_ id: UUID) {
+        guard let q = allQuestions.first(where: { $0.uuid == id }) else { return }
+        if let lecture = q.lecture, lecture.uuid != selectedLecture?.uuid {
+            selectedLecture = lecture
+        }
+        DispatchQueue.main.async { selectedQuestion = q }
     }
 
     /// 앱을 켤 때: 마지막으로 보던 강의가 있으면 복원하고, 없으면 가장 상단(최신) 강의를 선택한다.

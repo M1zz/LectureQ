@@ -61,6 +61,9 @@ final class Question {
     var text: String          // the question itself
     var answer: String        // the answer, filled in later
     var isResolved: Bool
+    // "배운 점"으로 포함할지 — 해결된 질문 중에서도 실제로 배운 것만 고를 수 있게 한다.
+    // 기본 true(포함), 사용자가 제외 가능. 배운 점 = isResolved && isLearned.
+    var isLearned: Bool = true
     var timeMark: String      // e.g. "12:34" — where in the lecture it came up
     var createdAt: Date
 

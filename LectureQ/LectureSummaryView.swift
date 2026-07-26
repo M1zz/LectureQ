@@ -10,7 +10,10 @@ struct LectureSummaryView: View {
         lecture.questions.sorted { $0.createdAt < $1.createdAt }
     }
     private var toAsk: [Question] { questions.filter { !$0.isResolved } }
-    private var learned: [Question] { questions.filter { $0.isResolved } }
+    // 배운 점 = 해결됐고 + 배운 점으로 포함(isLearned) 한 것
+    private var learned: [Question] { questions.filter { $0.isResolved && $0.isLearned } }
+    // 답은 있지만 "배운 점"에서 뺀 것
+    private var excluded: [Question] { questions.filter { $0.isResolved && !$0.isLearned } }
     private var followUps: Int { questions.filter { !$0.linkedFrom.isEmpty }.count }
 
     var body: some View {
@@ -25,6 +28,9 @@ struct LectureSummaryView: View {
                     }
                     toAskSection
                     learnedSection
+                    if !excluded.isEmpty {
+                        excludedSection
+                    }
                 }
                 .padding(24)
                 .frame(maxWidth: 720, alignment: .leading)
@@ -155,6 +161,16 @@ struct LectureSummaryView: View {
                             Text(q.text)
                                 .scaledFont(.callout, weight: .semibold)
                                 .textSelection(.enabled)
+                            Spacer()
+                            Button {
+                                withAnimation { q.isLearned = false }
+                            } label: {
+                                Label("제외", systemImage: "minus.circle")
+                                    .scaledFont(.caption)
+                            }
+                            .buttonStyle(.borderless)
+                            .foregroundStyle(.secondary)
+                            .help("배운 점에서 제외 (답은 그대로 남아요)")
                         }
                         let answer = q.answer.trimmingCharacters(in: .whitespacesAndNewlines)
                         if answer.isEmpty {
@@ -174,6 +190,40 @@ struct LectureSummaryView: View {
                     .padding(12)
                     .background(.green.opacity(0.08), in: RoundedRectangle(cornerRadius: 10))
                 }
+            }
+        }
+    }
+
+    // MARK: Excluded (답은 있지만 배운 점 아님)
+
+    private var excludedSection: some View {
+        VStack(alignment: .leading, spacing: 10) {
+            sectionTitle("제외한 답", systemImage: "tray",
+                         count: excluded.count, color: .gray)
+            Text("답은 있지만 ‘배운 점’에서 뺀 항목이에요. 다시 넣을 수 있어요.")
+                .scaledFont(.caption)
+                .foregroundStyle(.secondary)
+            ForEach(excluded) { q in
+                HStack(alignment: .top, spacing: 8) {
+                    Image(systemName: "minus.circle")
+                        .foregroundStyle(.secondary)
+                    Text(q.text)
+                        .scaledFont(.callout)
+                        .foregroundStyle(.secondary)
+                        .textSelection(.enabled)
+                    Spacer()
+                    Button {
+                        withAnimation { q.isLearned = true }
+                    } label: {
+                        Label("배운 점에 넣기", systemImage: "plus.circle")
+                            .scaledFont(.caption)
+                    }
+                    .buttonStyle(.borderless)
+                    .help("다시 배운 점으로")
+                }
+                .frame(maxWidth: .infinity, alignment: .leading)
+                .padding(12)
+                .background(.gray.opacity(0.08), in: RoundedRectangle(cornerRadius: 10))
             }
         }
     }

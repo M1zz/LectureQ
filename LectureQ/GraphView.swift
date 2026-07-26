@@ -5,18 +5,28 @@ import SwiftData
 
 struct GraphContainerView: View {
     @Environment(\.dismiss) private var dismiss
-    @Query private var lectures: [Lecture]
-    @Query private var questions: [Question]
+
+    /// 그래프는 이 강의 하나만(그 강의의 질문들) 보여준다.
+    let lecture: Lecture
+
+    /// 노드에서 "이동"을 누르면 해당 질문 uuid 를 상위(ContentView)로 전달한다.
+    var onSelectQuestion: (UUID) -> Void = { _ in }
 
     @StateObject private var model = GraphModel()
+    @State private var magnifyBase: CGFloat = 1   // 핀치 줌 기준 배율
 
     var body: some View {
         VStack(spacing: 0) {
             HStack {
                 Label("질문 그래프", systemImage: "point.3.connected.trianglepath.dotted")
                     .scaledFont(.headline)
+                Text(lecture.title)
+                    .scaledFont(.subheadline)
+                    .foregroundStyle(.secondary)
+                    .lineLimit(1)
                 Spacer()
                 legend
+                zoomControls
                 Button("닫기") { dismiss() }
                     .keyboardShortcut(.escape, modifiers: [])
             }
@@ -25,20 +35,61 @@ struct GraphContainerView: View {
             Divider()
 
             GeometryReader { geo in
-                GraphCanvas(model: model)
-                    .onAppear {
-                        model.canvasSize = geo.size
-                        model.sync(lectures: lectures, questions: questions)
-                        model.start()
-                    }
-                    .onChange(of: geo.size) { _, newSize in
-                        model.canvasSize = newSize
-                        model.relayout()
-                    }
-                    .onDisappear { model.stop() }
+                ScrollView([.horizontal, .vertical]) {
+                    GraphCanvas(model: model, viewport: geo.size,
+                                onSelect: { id in
+                                    onSelectQuestion(id)
+                                    dismiss()
+                                })
+                }
+                .background(Color(nsColor: .textBackgroundColor))
+                .gesture(
+                    MagnifyGesture()
+                        .onChanged { value in
+                            model.setScale(magnifyBase * value.magnification)
+                        }
+                        .onEnded { _ in magnifyBase = model.scale }
+                )
+                .onAppear {
+                    model.canvasSize = geo.size
+                    model.sync(lectures: [lecture], questions: lecture.questions)
+                    model.fitToScreen()
+                    magnifyBase = model.scale
+                }
+                .onChange(of: geo.size) { _, newSize in
+                    model.canvasSize = newSize   // fit 계산·가운데 정렬 기준 갱신
+                }
+                .onDisappear { model.stop() }
             }
-            .background(Color(nsColor: .textBackgroundColor))
         }
+    }
+
+    private var zoomControls: some View {
+        HStack(spacing: 6) {
+            Button { model.zoom(by: 1 / 1.2) } label: {
+                Image(systemName: "minus.magnifyingglass")
+            }
+            .help("축소")
+
+            Button {
+                model.fitToScreen()
+                magnifyBase = model.scale
+            } label: {
+                Text("\(Int((model.scale * 100).rounded()))%")
+                    .monospacedDigit()
+                    .frame(width: 42)
+            }
+            .help("화면에 맞추기")
+
+            Button { model.zoom(by: 1.2) } label: {
+                Image(systemName: "plus.magnifyingglass")
+            }
+            .help("확대")
+        }
+        .buttonStyle(.bordered)
+        .controlSize(.small)
+        .scaledFont(.caption)
+        .padding(.trailing, 8)
     }
 
     private var legend: some View {
@@ -91,6 +142,11 @@ struct GraphNode: Identifiable {
         }
     }
 
+    var isQuestion: Bool {
+        if case .question = kind { return true }
+        return false
+    }
+
     /// 답 내용이 있으면 꽉 찬 원, 없으면(질문만) 빈 원(테두리)으로 그린다.
     var isFilled: Bool {
         switch kind {
@@ -118,9 +174,14 @@ struct GraphEdge {
 @MainActor
 final class GraphModel: ObservableObject {
     @Published var positions: [UUID: CGPoint] = [:]
+    @Published var contentSize: CGSize = .zero   // 그래프 전체(줌 1.0 기준) 크기
+    @Published var scale: CGFloat = 1            // 화면 배율 (fit/줌)
     var nodes: [GraphNode] = []
     var edges: [GraphEdge] = []
     var canvasSize: CGSize = CGSize(width: 800, height: 600)
+
+    private let minScale: CGFloat = 0.2
+    private let maxScale: CGFloat = 2.5
 
     // 트리 자식 관계: 강의 → 최상위 질문, 질문 → 꼬리질문
     private var childMap: [UUID: [UUID]] = [:]
@@ -165,11 +226,24 @@ final class GraphModel: ObservableObject {
         }
 
         layoutTree()
+        fitToScreen()
     }
 
     func relayout() { layoutTree() }
     func start() { layoutTree() }   // 시뮬레이션 없음 — 진입 시 한 번 배치
     func stop() {}
+
+    /// 그래프 전체가 캔버스에 들어오도록 배율을 맞춘다(작으면 확대하진 않음).
+    func fitToScreen() {
+        guard contentSize.width > 0, contentSize.height > 0,
+              canvasSize.width > 0, canvasSize.height > 0 else { return }
+        let s = min(canvasSize.width / contentSize.width,
+                    canvasSize.height / contentSize.height)
+        scale = min(1, max(minScale, s))
+    }
+
+    func zoom(by factor: CGFloat) { setScale(scale * factor) }
+    func setScale(_ s: CGFloat) { scale = min(maxScale, max(minScale, s)) }
 
     /// 위에서 아래로 내려가는 트리 배치. 강의가 맨 위 루트.
     func layoutTree() {
@@ -203,11 +277,14 @@ final class GraphModel: ObservableObject {
         // 강의에 속하지 않은 고아 질문 등은 루트로 취급해 마저 배치
         for node in nodes where !placed.contains(node.id) { _ = place(node.id, 0) }
 
-        // 전체를 캔버스 가로 가운데로 정렬
+        // 자연 좌표로 정규화(왼쪽 여백 확보) + 전체 콘텐츠 크기 계산.
+        // 캔버스에 억지로 맞추지 않고, 실제 크기를 재서 fit/줌/스크롤이 처리하게 한다.
         let xs = xPos.values
         let minX = xs.min() ?? 0
         let maxX = xs.max() ?? 0
-        let offsetX = canvasSize.width / 2 - (minX + maxX) / 2
+        let maxY = yPos.values.max() ?? topMargin
+        let sideMargin: CGFloat = 90
+        let offsetX = sideMargin - minX
 
         var newPositions: [UUID: CGPoint] = [:]
         for node in nodes {
@@ -216,6 +293,8 @@ final class GraphModel: ObservableObject {
             newPositions[node.id] = CGPoint(x: x, y: y)
         }
         positions = newPositions
+        contentSize = CGSize(width: (maxX - minX) + sideMargin * 2,
+                             height: maxY + 130)
     }
 
     func beginDrag(_ id: UUID, to point: CGPoint) {
@@ -229,10 +308,30 @@ final class GraphModel: ObservableObject {
 
 struct GraphCanvas: View {
     @ObservedObject var model: GraphModel
+    var viewport: CGSize = .zero
+    var onSelect: (UUID) -> Void = { _ in }
     @State private var hoveredID: UUID?
+    @State private var tappedID: UUID?      // 이동 팝오버를 띄운 질문 노드
 
     var body: some View {
-        ZStack {
+        let content = model.contentSize
+        let scale = model.scale
+        graph
+            .frame(width: max(content.width, 1),
+                   height: max(content.height, 1),
+                   alignment: .topLeading)
+            .scaleEffect(scale, anchor: .topLeading)
+            // 스크롤뷰가 배율 적용된 실제 크기를 알도록 다시 프레임을 준다.
+            .frame(width: max(content.width * scale, 1),
+                   height: max(content.height * scale, 1),
+                   alignment: .topLeading)
+            // 콘텐츠가 뷰포트보다 작으면 가운데 정렬(스크롤 없이 중앙에), 크면 스크롤.
+            .frame(minWidth: viewport.width, minHeight: viewport.height,
+                   alignment: .center)
+    }
+
+    private var graph: some View {
+        ZStack(alignment: .topLeading) {
             // Edges
             Canvas { ctx, _ in
                 for edge in model.edges {
@@ -280,13 +379,26 @@ struct GraphCanvas: View {
             ForEach(model.nodes) { node in
                 if let pos = model.positions[node.id] {
                     nodeView(node)
+                        .popover(isPresented: Binding(
+                            get: { tappedID == node.id },
+                            set: { if !$0 { tappedID = nil } }
+                        ), arrowEdge: .top) {
+                            nodeActionPopover(node)
+                        }
                         .position(pos)
                         .gesture(
-                            DragGesture(minimumDistance: 1)
+                            // minimumDistance 0 으로 탭도 받되, 이동량이 작으면 탭으로 처리
+                            DragGesture(minimumDistance: 0)
                                 .onChanged { value in
-                                    model.beginDrag(node.id, to: value.location)
+                                    if dragDistance(value) > 6 {
+                                        model.beginDrag(node.id, to: value.location)
+                                    }
                                 }
-                                .onEnded { _ in
+                                .onEnded { value in
+                                    if dragDistance(value) <= 6 {
+                                        // 탭: 질문 노드면 이동 팝오버, 강의 노드는 무시
+                                        tappedID = node.isQuestion ? node.id : nil
+                                    }
                                     model.endDrag(node.id)
                                 }
                         )
@@ -296,6 +408,37 @@ struct GraphCanvas: View {
                 }
             }
         }
+    }
+
+    private func dragDistance(_ value: DragGesture.Value) -> CGFloat {
+        hypot(value.translation.width, value.translation.height)
+    }
+
+    /// 노드를 탭했을 때 뜨는 "이 질문으로 이동" 팝오버.
+    private func nodeActionPopover(_ node: GraphNode) -> some View {
+        VStack(alignment: .leading, spacing: 12) {
+            Text(node.label)
+                .scaledFont(.callout, weight: .semibold)
+                .lineLimit(4)
+                .frame(maxWidth: 260, alignment: .leading)
+
+            HStack {
+                Button("닫기") { tappedID = nil }
+                    .keyboardShortcut(.cancelAction)
+                Spacer()
+                Button {
+                    let id = node.id
+                    tappedID = nil
+                    onSelect(id)
+                } label: {
+                    Label("이 질문으로 이동", systemImage: "arrow.right.circle.fill")
+                }
+                .buttonStyle(.borderedProminent)
+                .keyboardShortcut(.defaultAction)
+            }
+        }
+        .padding(16)
+        .frame(width: 300)
     }
 
     private func nodeView(_ node: GraphNode) -> some View {

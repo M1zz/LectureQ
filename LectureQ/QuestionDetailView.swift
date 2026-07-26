@@ -22,6 +22,17 @@ struct QuestionDetailView: View {
                     .tint(question.isResolved ? .green : .orange)
                     .buttonStyle(.borderedProminent)
 
+                    // 배운 점으로 포함할지 — 요약의 "배운 점"은 해결됨 + 이 토글이 켜진 것만 모은다.
+                    Button {
+                        withAnimation { question.isLearned.toggle() }
+                    } label: {
+                        Label(question.isLearned ? "배운 점" : "배운 점 아님",
+                              systemImage: question.isLearned ? "star.fill" : "star")
+                    }
+                    .tint(.yellow)
+                    .buttonStyle(.bordered)
+                    .help("요약의 ‘배운 점’ 목록에 넣을지 선택")
+
                     Spacer()
 
                     HStack(spacing: 4) {

@@ -141,7 +141,31 @@
 - [x] `DEVELOPMENT_TEAM: QGAQ3AY3R3`(hyunho lee) 지정, ad-hoc 서명 제거 → Archive 서명 통과 확인
 - [x] 앱 표시 이름 '질문 노트'(CFBundleName/DisplayName), 번들 ID·product name은 유지
 
+## 완료 (대화형 마크다운 → 강의 가져오기)
+- [x] `MarkdownImport.swift`: `**화자** — 내용` 반복 대화 md를 파싱하는 순수 임포터(`LectureMarkdownImporter`)
+  - `# 제목`→강의, `## 섹션`→주제 묶음(첫 질문=원질문, 이어지는 질문=꼬리질문), 질문자=첫 화자
+  - 답변자 발화→해당 질문 `answer`(배운 점) 누적 + `isResolved=true`, 코드펜스/여러 줄 답변/`>`메타 처리
+  - 시간 없는 임포트라 now를 덮는 블록 1개 선생성(커버리지 헛블록 방지)
+- [x] ContentView 툴바 "가져오기" 버튼 + `.fileImporter`(.md/텍스트) + 실패 알럿, 가져온 강의 자동 선택
+- [x] 실제 전문(회고-앱-설계-대화-전문.md) 파싱 검증: 제목/질문자/10섹션 트리 정상, 빌드 성공
+
+## 완료 (import 크래시 수정 + 그래프 줌 + 노드 이동)
+- [x] import 크래시 원인 = 강의 선택 Picker에 @Model(Lecture) 객체를 직접 selection/tag로 사용
+      → insert 직후 영구 ID 부여로 hash 변경, Picker 내부 Dictionary 캐시 깨짐(SIGTRAP)
+      → Picker 선택을 안정적인 uuid(UUID) 기반 Binding으로 변경
+- [x] 샌드박스 파일 읽기 엔타이틀먼트(user-selected.read-only) 추가(.entitlements + project.yml)
+- [x] 그래프: 캔버스 중앙정렬 고정 → 자연 좌표 + contentSize 계산, 열 때 자동 화면 맞춤(fit)
+- [x] 그래프 줌: 헤더 −/%/+ 버튼 + 트랙패드 핀치(MagnifyGesture) + 가로·세로 스크롤
+- [x] 그래프 노드 탭 → "이 질문으로 이동" 팝오버 → 그래프 닫고 해당 질문 상세로 이동
+      (다른 강의면 강의 전환 후 async로 질문 선택해 onChange 클로버 방지)
+
+## 완료 (배운 점 고르기 + 그래프 강의 단위)
+- [x] 그래프를 선택된 강의 하나만 표시(GraphContainerView가 lecture 받음), 헤더에 강의명, 강의 없으면 버튼 비활성
+- [x] Question에 `isLearned`(기본 true) 추가 — 배운 점 = isResolved && isLearned (경량 마이그레이션)
+- [x] 요약: 배운 점 항목마다 "제외" 버튼, "제외한 답" 섹션에서 다시 넣기(답은 유지, 던질질문으로 안 돌아감)
+- [x] 질문 상세: 배운 점(별) 토글 추가 — 요약 배운 점 목록 포함 여부 선택
+- [x] import는 기존대로 다 포함하되 이제 골라서 뺄 수 있음
+
 ## 다음 아이디어 (README 확장 아이디어 참고)
 - [ ] 메뉴바 익스트라 전역 캡처
-- [ ] 그래프 노드 클릭 → 질문 상세 이동
 - [ ] 미해결 질문 spaced-repetition 리마인더
