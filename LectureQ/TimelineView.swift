@@ -56,6 +56,15 @@ func parseClock(_ s: String) -> (h: Int, m: Int, s: Int)? {
     return nil
 }
 
+/// 시각을 timeMark 표기("HH:mm", 24시간)로 만든다.
+/// 로케일과 무관하게 `parseClock`이 다시 읽을 수 있는 고정 형식을 쓴다(오전/오후 표기 방지).
+func timeMarkString(_ date: Date = .now) -> String {
+    let f = DateFormatter()
+    f.locale = Locale(identifier: "en_US_POSIX")
+    f.dateFormat = "HH:mm"
+    return f.string(from: date)
+}
+
 /// 기준 날짜(day)의 연·월·일에 timeMark 의 시:분:초를 합쳐 Date 를 만든다.
 func clockDate(on day: Date, timeMark: String) -> Date? {
     guard let t = parseClock(timeMark) else { return nil }
@@ -70,6 +79,7 @@ func clockDate(on day: Date, timeMark: String) -> Date? {
 struct TimelineView: View {
     @Query(sort: \Block.startTime) private var blocks: [Block]
     @Environment(\.dismiss) private var dismiss
+    @Environment(\.modelContext) private var context
 
     var body: some View {
         VStack(spacing: 0) {
@@ -91,7 +101,7 @@ struct TimelineView: View {
             } else {
                 ScrollView {
                     VStack(spacing: 14) {
-                        ForEach(blocks) { block in
+                        ForEach(blocks, id: \.uuid) { block in
                             VStack(alignment: .leading, spacing: 4) {
                                 if let title = block.lecture?.title, !title.isEmpty {
                                     Text(title)
@@ -99,7 +109,12 @@ struct TimelineView: View {
                                         .foregroundStyle(.secondary)
                                         .padding(.leading, 66)
                                 }
-                                BlockView(block: block, markers: markers(for: block))
+                                BlockView(block: block,
+                                          markers: markers(for: block),
+                                          onDelete: { delete(block) })
+                                    .contextMenu {
+                                        Button("블록 삭제", role: .destructive) { delete(block) }
+                                    }
                             }
                         }
                     }
@@ -116,6 +131,14 @@ struct TimelineView: View {
         guard let lecture = block.lecture else { return [] }
         return computeBlockMarkers(for: lecture)[block.uuid] ?? []
     }
+
+    /// 메인 화면과 동일한 규칙으로 지운다(역관계 해제 + 자동 블록 생성 끄기).
+    private func delete(_ block: Block) {
+        block.lecture?.autoBlockCoverage = false
+        block.lecture = nil
+        context.delete(block)
+        try? context.save()
+    }
 }
 
 // MARK: - 단일 블록 뷰: 왼쪽 시간 게이지(질문 점) + 오른쪽 카드(시간·메모)
@@ -127,8 +150,11 @@ struct BlockView: View {
     var fillsHeight: Bool = false
     /// 질문 점을 눌렀을 때 호출 (질문 상세로 이동). nil이면 점은 표시만 됨.
     var onSelectQuestion: ((Question) -> Void)? = nil
+    /// 블록 삭제 동작. nil이면 설정 팝오버에 삭제 버튼을 띄우지 않는다.
+    var onDelete: (() -> Void)? = nil
 
     @State private var showSettings = false
+    @State private var confirmingDelete = false
     private let durationOptions = [15, 30, 45, 60, 75, 90, 120, 150, 180]
 
     private var blockHeight: CGFloat {
@@ -190,9 +216,40 @@ struct BlockView: View {
                 }
                 .fixedSize()
             }
+
+            if let onDelete {
+                Divider()
+                if confirmingDelete {
+                    HStack {
+                        Text("이 블록을 지울까요? 메모도 함께 사라져요.")
+                            .scaledFont(.caption)
+                            .foregroundStyle(.secondary)
+                        Spacer()
+                        Button("취소") { confirmingDelete = false }
+                        Button("삭제", role: .destructive) {
+                            confirmingDelete = false
+                            showSettings = false
+                            onDelete()
+                        }
+                    }
+                } else {
+                    Button(role: .destructive) {
+                        confirmingDelete = true
+                    } label: {
+                        Label("블록 삭제", systemImage: "trash")
+                            .frame(maxWidth: .infinity, alignment: .leading)
+                    }
+                    .buttonStyle(.plain)
+                    .foregroundStyle(.red)
+                    .contentShape(Rectangle())
+                }
+            }
         }
         .padding(16)
         .frame(width: 300)
+        .onChange(of: showSettings) { _, shown in
+            if !shown { confirmingDelete = false }   // 팝오버를 닫으면 확인 상태 초기화
+        }
     }
 
     private var timeGutter: some View {
@@ -292,18 +349,20 @@ struct BlockView: View {
             // "..." 설정 버튼 (색상·시작·기간)
             HStack {
                 Spacer()
+                // "..." 만 있으면 무슨 버튼인지 알 수 없어 글자를 함께 보여준다.
                 Button {
                     showSettings = true
                 } label: {
-                    Image(systemName: "ellipsis")
-                        .scaledFont(.body, weight: .semibold)
+                    Label("블록 설정", systemImage: "gearshape")
+                        .labelStyle(.titleAndIcon)
+                        .scaledFont(.caption, weight: .medium)
                         .foregroundStyle(.secondary)
                         .padding(.horizontal, 6)
                         .padding(.vertical, 2)
                         .contentShape(Rectangle())
                 }
                 .buttonStyle(.plain)
-                .help("블록 설정 (색상·시작·기간)")
+                .help("이 블록의 색상·시작 시각·기간을 바꾸거나 블록을 지웁니다")
                 .popover(isPresented: $showSettings, arrowEdge: .top) {
                     settingsPopover
                 }

@@ -192,80 +192,104 @@ struct ContentView: View {
                 lectureMenu
             }
 
+            // 아이콘만 늘어놓으면 뭐가 뭔지 알기 어려워, 자주 쓰는 것만 남기고 나머지는 "보기" 메뉴로 묶는다.
+            // (메뉴 안에서는 글자와 단축키가 함께 보인다)
             ToolbarItemGroup {
-                Button {
-                    fontScaleIndex = max(0, fontScaleIndex - 1)
-                } label: {
-                    Image(systemName: "minus")
-                }
-                .disabled(fontScaleIndex == 0)
-                .help("글씨 작게")
-                Button {
-                    fontScaleIndex = 1
-                } label: {
-                    Text("aA").font(.system(size: 13, weight: .semibold))
-                }
-                .help("기본 글씨 크기")
-                Button {
-                    fontScaleIndex = min(fontScales.count - 1, fontScaleIndex + 1)
-                } label: {
-                    Image(systemName: "plus")
-                }
-                .disabled(fontScaleIndex == fontScales.count - 1)
-                .help("글씨 크게")
-
                 Toggle(isOn: $showUnresolvedOnly) {
                     Label("미해결만", systemImage: "circle.dashed")
                 }
                 .help("미해결 질문만 보기")
 
-                Button {
-                    showImporter = true
-                } label: {
-                    Label("가져오기", systemImage: "square.and.arrow.down")
-                }
-                .help("대화형 마크다운(.md)을 질문·답 강의로 가져오기")
-
-                Button {
-                    showTimeline = true
-                } label: {
-                    Label("타임블록", systemImage: "calendar.day.timeline.left")
-                }
-                .help("강의를 타임블록으로 보고 메모 적기")
-
-                Button {
-                    showState = true
-                } label: {
-                    Label("학습 상태", systemImage: "list.bullet.clipboard")
-                }
-                .disabled(selectedLecture == nil)
-                .help("나의 상태·목표·배우고 싶은 것 적기")
-
-                Button {
-                    showSummary = true
-                } label: {
-                    Label("요약", systemImage: "doc.text.magnifyingglass")
-                }
-                .disabled(selectedLecture == nil)
-                .help("이 강의의 질문·배운 점 한눈에 보기")
-
-                Button {
-                    showGraph = true
-                } label: {
-                    Label("그래프", systemImage: "point.3.connected.trianglepath.dotted")
-                }
-                .disabled(selectedLecture == nil)
-                .help("이 강의의 질문 관계 그래프 보기")
+                viewMenu
 
                 Button {
                     showQuickCapture = true
                 } label: {
                     Label("빠른 질문", systemImage: "plus.bubble")
                 }
+                .labelStyle(.titleAndIcon)   // 가장 자주 쓰는 동작이라 글자까지 노출
                 .keyboardShortcut("n", modifiers: [.command, .shift])
                 .help("빠른 질문 입력 (⌘⇧N)")
             }
         }
+    }
+
+    /// 강의를 다르게 보는 화면들 + 글씨 크기를 한 곳에 모은 메뉴.
+    private var viewMenu: some View {
+        Menu {
+            Button {
+                showSummary = true
+            } label: {
+                Label("요약 — 질문·배운 점 한눈에", systemImage: "doc.text.magnifyingglass")
+            }
+            .disabled(selectedLecture == nil)
+            .keyboardShortcut("1", modifiers: .command)
+
+            Button {
+                showGraph = true
+            } label: {
+                Label("그래프 — 질문 관계도", systemImage: "point.3.connected.trianglepath.dotted")
+            }
+            .disabled(selectedLecture == nil)
+            .keyboardShortcut("2", modifiers: .command)
+
+            Button {
+                showTimeline = true
+            } label: {
+                Label("타임블록 — 시간순 블록 모아보기", systemImage: "calendar.day.timeline.left")
+            }
+            .keyboardShortcut("3", modifiers: .command)
+
+            Button {
+                showState = true
+            } label: {
+                Label("학습 상태 — 지금·목표·배우고 싶은 것", systemImage: "list.bullet.clipboard")
+            }
+            .disabled(selectedLecture == nil)
+            .keyboardShortcut("4", modifiers: .command)
+
+            Divider()
+
+            Menu {
+                Button {
+                    fontScaleIndex = min(fontScales.count - 1, fontScaleIndex + 1)
+                } label: {
+                    Label("글씨 크게", systemImage: "plus.magnifyingglass")
+                }
+                .disabled(fontScaleIndex == fontScales.count - 1)
+                .keyboardShortcut("+", modifiers: .command)
+
+                Button {
+                    fontScaleIndex = max(0, fontScaleIndex - 1)
+                } label: {
+                    Label("글씨 작게", systemImage: "minus.magnifyingglass")
+                }
+                .disabled(fontScaleIndex == 0)
+                .keyboardShortcut("-", modifiers: .command)
+
+                Button {
+                    fontScaleIndex = 1
+                } label: {
+                    Label("기본 크기로", systemImage: "textformat.size")
+                }
+                .disabled(fontScaleIndex == 1)
+                .keyboardShortcut("0", modifiers: .command)
+            } label: {
+                Label("글씨 크기 (\(Int(fontScale * 100))%)", systemImage: "textformat.size")
+            }
+
+            Divider()
+
+            // 답을 찾으러 갈 때(= AI에게 물으러 갈 때) 바로 꺼내 볼 수 있게 메뉴에 둔다.
+            if let guide = URL(string: "https://m1zz.github.io/LectureQ/ai-guide.html") {
+                Link(destination: guide) {
+                    Label("AI로 답 찾기 가이드", systemImage: "sparkles")
+                }
+            }
+        } label: {
+            Label("보기", systemImage: "square.grid.2x2")
+        }
+        .help("요약·그래프·타임블록·학습 상태·글씨 크기")
     }
 
     /// 가져오기 파일 선택창에서 허용할 타입 (.md, 일반 텍스트).
@@ -293,7 +317,7 @@ struct ContentView: View {
                 get: { selectedLecture?.uuid },
                 set: { id in selectedLecture = lectures.first { $0.uuid == id } }
             )) {
-                ForEach(lectures) { lecture in
+                ForEach(lectures, id: \.uuid) { lecture in
                     Text(lecture.title).tag(lecture.uuid as UUID?)
                 }
             }
@@ -304,6 +328,12 @@ struct ContentView: View {
                 addLectureQuick()
             } label: {
                 Label("강의 추가", systemImage: "plus")
+            }
+            // 가져오기도 결국 "강의를 하나 만드는" 동작이라 이 메뉴에 둔다.
+            Button {
+                showImporter = true
+            } label: {
+                Label("마크다운에서 가져오기…", systemImage: "square.and.arrow.down")
             }
             if selectedLecture != nil {
                 Button(role: .destructive) {
@@ -325,14 +355,24 @@ struct ContentView: View {
             let rows = orderedHierarchy(lecture)
                 .filter { showUnresolvedOnly ? !$0.question.isResolved : true }
 
-            List(selection: $selectedQuestion) {
+            // 선택·행 식별을 @Model(Question) 객체가 아니라 안정적인 uuid 로 둔다.
+            // (@Model 객체를 List selection/tag/ForEach id 로 쓰면 insert·save 시점에 영구 ID가 부여되며
+            //  hash 가 바뀌어 SwiftUI 내부 Dictionary 가 깨진다 — "Duplicate keys of type 'Question'" 크래시)
+            List(selection: Binding<UUID?>(
+                get: { selectedQuestion?.uuid },
+                set: { id in
+                    selectedQuestion = id.flatMap { uid in
+                        lecture.questions.first { $0.uuid == uid }
+                    }
+                }
+            )) {
                 Section("질문") {
-                    ForEach(rows, id: \.question) { row in
+                    ForEach(rows, id: \.question.uuid) { row in
                         QuestionRow(question: row.question, depth: row.depth)
-                            .tag(row.question)
+                            .tag(row.question.uuid as UUID?)
                             .contextMenu {
                                 Button("삭제", role: .destructive) {
-                                    if selectedQuestion == row.question { selectedQuestion = nil }
+                                    if selectedQuestion?.uuid == row.question.uuid { selectedQuestion = nil }
                                     context.delete(row.question)
                                 }
                             }
@@ -419,9 +459,20 @@ struct ContentView: View {
         context.insert(block)
     }
 
+    /// 블록을 지운다. 역관계를 먼저 끊어 강의의 blocks 배열에서 즉시 사라지게 하고,
+    /// 그 강의의 자동 블록 생성을 꺼서 지운 블록이 커버리지 보정으로 되살아나지 않게 한다.
+    private func deleteBlock(_ block: Block) {
+        let lecture = block.lecture
+        lecture?.autoBlockCoverage = false
+        block.lecture = nil
+        context.delete(block)
+        try? context.save()
+    }
+
     /// 강의에 블록이 하나도 없으면(신규/레거시) 레거시 메모·시간으로 초기 블록을 만든다.
+    /// 단, 사용자가 블록을 직접 지운 강의(autoBlockCoverage == false)는 건드리지 않는다.
     private func ensureBlocks(_ lecture: Lecture?) {
-        guard let lecture, lecture.blocks.isEmpty else { return }
+        guard let lecture, lecture.blocks.isEmpty, lecture.autoBlockCoverage else { return }
         let block = Block(startTime: lecture.startTime,
                           durationMinutes: lecture.durationMinutes,
                           notes: lecture.notes)
@@ -431,8 +482,9 @@ struct ContentView: View {
 
     /// 유효 시각(timeMark 또는 작성시각)이 어느 블록에도 안 드는 질문이 있으면,
     /// 그 시각을 담는 작은 블록을(이웃 블록과 겹치지 않게) 만든다. 한 번에 하나씩.
+    /// 사용자가 블록을 직접 지운 강의에서는 동작하지 않는다(지운 블록이 되살아나는 것을 막는다).
     private func ensureCoverage(_ lecture: Lecture?) {
-        guard let lecture else { return }
+        guard let lecture, lecture.autoBlockCoverage else { return }
         let blocks = lecture.blocks.sorted { $0.startTime < $1.startTime }
         guard let first = blocks.first else { return }
 
@@ -491,13 +543,14 @@ struct ContentView: View {
                         .scaledFont(22, weight: .bold)
                         .padding(.leading, 4)
 
-                    ForEach(blocks) { block in
+                    ForEach(blocks, id: \.uuid) { block in
                         BlockView(block: block,
                                   markers: markers[block.uuid] ?? [],
-                                  onSelectQuestion: { selectedQuestion = $0 })
+                                  onSelectQuestion: { selectedQuestion = $0 },
+                                  onDelete: { deleteBlock(block) })
                             .contextMenu {
                                 Button("블록 삭제", role: .destructive) {
-                                    context.delete(block)
+                                    deleteBlock(block)
                                 }
                             }
                     }

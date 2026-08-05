@@ -1,11 +1,15 @@
 import SwiftUI
 import SwiftData
+import AppKit
 
 struct QuestionDetailView: View {
     @Bindable var question: Question
     @Environment(\.modelContext) private var context
 
     @State private var newFollowUp = ""
+    @State private var selectedPrompt: AIPrompt = .ask   // 지금 고른 단계 (라벨에 남는다)
+    @State private var copiedPrompt: AIPrompt?           // 방금 복사한 단계 (확인 표시용)
+    @State private var previewPrompt: AIPrompt?          // 복사 전에 내용을 펼쳐 보는 단계
 
     var body: some View {
         ScrollView {
@@ -35,11 +39,16 @@ struct QuestionDetailView: View {
 
                     Spacer()
 
+                    // 강의 시점 — 언제든 고쳐 쓸 수 있고, "지금"으로 현재 시각을 찍을 수 있다.
                     HStack(spacing: 4) {
                         Image(systemName: "clock")
-                        TextField("시점", text: $question.timeMark)
+                        TextField("HH:mm", text: $question.timeMark)
                             .textFieldStyle(.roundedBorder)
-                            .frame(width: 80)
+                            .frame(width: 76)
+                            .help("강의 시점 (24시간 HH:mm). 타임블록의 Q 위치를 정해요")
+                        Button("지금") { question.timeMark = timeMarkString() }
+                            .buttonStyle(.link)
+                            .help("지금 시각으로 맞추기")
                     }
                     .foregroundStyle(.secondary)
                 }
@@ -52,6 +61,9 @@ struct QuestionDetailView: View {
                         .lineLimit(2...6)
                 }
 
+                // 답을 찾으러 가는 자리 — 앱에 적힌 맥락을 채운 프롬프트를 복사해 AI로 가져간다.
+                aiSection
+
                 // Answer
                 section("답 / 찾은 내용", systemImage: "lightbulb") {
                     TextEditor(text: $question.answer)
@@ -62,12 +74,18 @@ struct QuestionDetailView: View {
                         .background(.quaternary.opacity(0.4), in: RoundedRectangle(cornerRadius: 8))
                         .overlay(alignment: .topLeading) {
                             if question.answer.isEmpty {
-                                Text("답을 찾으면 여기에 기록하세요…")
+                                // 그냥 "기록하세요"가 아니라, 무엇을 어떻게 적어야 남는지 알려준다.
+                                Text("AI 답을 그대로 붙여넣기보다 내 말로 정리해 적어보세요 — 그래야 ★배운 점이 됩니다")
                                     .foregroundStyle(.tertiary)
                                     .padding(12)
                                     .allowsHitTesting(false)
                             }
                         }
+
+                    if !question.answer.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty {
+                        // 적어 둔 답이 있으면 채점 단계를 바로 권한다.
+                        promptButton(.grade)
+                    }
                 }
 
                 // Related questions — shown as a hierarchy:
@@ -86,13 +104,13 @@ struct QuestionDetailView: View {
                                     .scaledFont(.caption2)
                                     .foregroundStyle(.tertiary)
                             }
-                            ForEach(parents) { p in
+                            ForEach(parents, id: \.uuid) { p in
                                 relatedRow(p, role: .parent)
                             }
 
                             currentRow
 
-                            ForEach(children) { c in
+                            ForEach(children, id: \.uuid) { c in
                                 relatedRow(c, role: .child)
                             }
                             if !children.isEmpty {
@@ -114,6 +132,139 @@ struct QuestionDetailView: View {
             .padding(24)
             .frame(maxWidth: 640, alignment: .leading)
         }
+    }
+
+    // MARK: AI로 답 찾기
+
+    /// 답을 찾으러 갈 때 쓰는 자리. 앱에 이미 적힌 맥락(강의·그 시점 메모·학습 상태·원질문)을
+    /// 프롬프트에 채워 복사한다. 단계는 docs/ai-guide.html 의 5단계와 같다.
+    private var aiSection: some View {
+        section("AI로 답 찾기", systemImage: "sparkles") {
+            VStack(alignment: .leading, spacing: 8) {
+                HStack(spacing: 8) {
+                    // 고른 단계가 라벨에 그대로 남는다 (무엇을 복사하려는지 항상 보이게)
+                    Menu {
+                        ForEach(AIPrompt.allCases) { p in
+                            Button {
+                                select(p)
+                            } label: {
+                                Label {
+                                    Text("\(p.badge) \(p.title) — \(p.subtitle)")
+                                } icon: {
+                                    Image(systemName: p == selectedPrompt ? "checkmark" : p.systemImage)
+                                }
+                            }
+                            .disabled(p.unavailableReason(for: question) != nil)
+                        }
+                        Divider()
+                        if let guide = URL(string: "https://m1zz.github.io/LectureQ/ai-guide.html") {
+                            Link(destination: guide) {
+                                Label("AI로 답 찾기 가이드 열기", systemImage: "book")
+                            }
+                        }
+                    } label: {
+                        Label("\(selectedPrompt.badge) \(selectedPrompt.title)",
+                              systemImage: selectedPrompt.systemImage)
+                    }
+                    .fixedSize()
+                    .help("어떤 단계의 프롬프트를 만들지 고릅니다")
+
+                    Button {
+                        copy(selectedPrompt)
+                    } label: {
+                        Label("프롬프트 복사", systemImage: "doc.on.doc")
+                    }
+                    .buttonStyle(.borderedProminent)
+                    .disabled(selectedPrompt.unavailableReason(for: question) != nil)
+                    .help(selectedPrompt.unavailableReason(for: question)
+                          ?? "\(selectedPrompt.title) 프롬프트를 클립보드에 복사합니다")
+
+                    Button {
+                        previewPrompt = selectedPrompt
+                    } label: {
+                        Label("미리 보기", systemImage: "eye")
+                    }
+                    .help("복사될 내용을 먼저 확인합니다")
+
+                    Spacer()
+
+                    if let copied = copiedPrompt {
+                        Label("\(copied.title) 복사됨 — AI 대화창에 붙여넣으세요",
+                              systemImage: "checkmark.circle.fill")
+                            .scaledFont(.caption)
+                            .foregroundStyle(.green)
+                            .transition(.opacity)
+                    }
+                }
+
+                // 고른 단계가 무엇을 하는 단계인지 아래에 한 줄로 남긴다.
+                Text(stepHint)
+                    .scaledFont(.caption)
+                    .foregroundStyle(.tertiary)
+            }
+            .popover(item: $previewPrompt) { p in
+                VStack(alignment: .leading, spacing: 10) {
+                    Text(p.title).scaledFont(.headline)
+                    ScrollView {
+                        Text(makePrompt(p, for: question))
+                            .scaledFont(12, design: .monospaced)
+                            .textSelection(.enabled)
+                            .frame(maxWidth: .infinity, alignment: .leading)
+                    }
+                    .frame(maxHeight: 280)
+                    HStack {
+                        Spacer()
+                        Button("복사") {
+                            copy(p)
+                            previewPrompt = nil
+                        }
+                        .buttonStyle(.borderedProminent)
+                    }
+                }
+                .padding(16)
+                .frame(width: 460)
+            }
+        }
+    }
+
+    /// 고른 단계 아래에 보여줄 안내 — 지금 단계가 무엇이고 다음은 무엇인지.
+    private var stepHint: String {
+        if let blocked = selectedPrompt.unavailableReason(for: question) { return blocked }
+        switch selectedPrompt {
+        case .refine:    return "\(selectedPrompt.subtitle) · 마음에 드는 버전이 나오면 위 질문 문장을 그걸로 고치세요."
+        case .ask:       return "\(selectedPrompt.subtitle) · 강의·그 시점 메모·학습 상태가 자동으로 실립니다."
+        case .verify:    return "\(selectedPrompt.subtitle) · 답을 받은 바로 그 대화창에 이어서 붙여넣으세요."
+        case .followUps: return "\(selectedPrompt.subtitle) · 나온 질문은 아래 ‘새 꼬리질문 입력’에 붙여넣으세요."
+        case .grade:     return "\(selectedPrompt.subtitle) · 여기까지 통과한 것만 ★배운 점으로 남기세요."
+        }
+    }
+
+    /// 단계를 고르면 그 단계로 바꾸고 바로 복사까지 한다 (한 번 더 누르게 하지 않기 위해).
+    private func select(_ p: AIPrompt) {
+        withAnimation { selectedPrompt = p }
+        copy(p)
+    }
+
+    /// 답 칸 아래에서 쓰는 단계 바로가기 버튼 (선택 상태도 함께 바뀐다).
+    private func promptButton(_ p: AIPrompt) -> some View {
+        Button {
+            select(p)
+        } label: {
+            Label("\(p.badge) \(p.title)", systemImage: p.systemImage)
+        }
+        .buttonStyle(.bordered)
+        .disabled(p.unavailableReason(for: question) != nil)
+        .help(p.unavailableReason(for: question)
+              ?? "\(p.subtitle) — 프롬프트를 클립보드에 복사합니다")
+    }
+
+    /// 프롬프트를 클립보드에 넣고, 어떤 단계를 복사했는지 잠깐 보여준다.
+    private func copy(_ p: AIPrompt) {
+        guard p.unavailableReason(for: question) == nil else { return }
+        let pb = NSPasteboard.general
+        pb.clearContents()
+        pb.setString(makePrompt(p, for: question), forType: .string)
+        withAnimation { copiedPrompt = p }
     }
 
     // Candidates: questions in the same lecture, not self, not already linked
@@ -148,7 +299,7 @@ struct QuestionDetailView: View {
             if linkCandidates.isEmpty {
                 Text("연결할 수 있는 질문이 없어요")
             } else {
-                ForEach(linkCandidates) { candidate in
+                ForEach(linkCandidates, id: \.uuid) { candidate in
                     Button(candidate.text) {
                         question.related.append(candidate)
                     }
@@ -164,7 +315,8 @@ struct QuestionDetailView: View {
     private func addFollowUp() {
         let text = newFollowUp.trimmingCharacters(in: .whitespacesAndNewlines)
         guard !text.isEmpty else { return }
-        let child = Question(text: text, lecture: question.lecture)
+        // 꼬리질문도 만든 시점(지금)을 찍어 타임블록에 바로 자리를 잡게 한다.
+        let child = Question(text: text, timeMark: timeMarkString(), lecture: question.lecture)
         context.insert(child)
         question.related.append(child)
         newFollowUp = ""

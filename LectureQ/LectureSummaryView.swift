@@ -121,7 +121,7 @@ struct LectureSummaryView: View {
             if toAsk.isEmpty {
                 emptyLine("아직 던질 질문이 없어요 — 모두 해결됐네요 🎉")
             } else {
-                ForEach(toAsk) { q in
+                ForEach(toAsk, id: \.uuid) { q in
                     HStack(alignment: .top, spacing: 10) {
                         Image(systemName: q.linkedFrom.isEmpty ? "circle" : "arrow.turn.down.right")
                             .foregroundStyle(q.linkedFrom.isEmpty ? .orange : .teal)
@@ -153,7 +153,7 @@ struct LectureSummaryView: View {
             if learned.isEmpty {
                 emptyLine("아직 정리된 배운 점이 없어요. 질문을 해결로 표시하면 여기 모여요.")
             } else {
-                ForEach(learned) { q in
+                ForEach(learned, id: \.uuid) { q in
                     VStack(alignment: .leading, spacing: 6) {
                         HStack(alignment: .top, spacing: 8) {
                             Image(systemName: "checkmark.circle.fill")
@@ -203,7 +203,7 @@ struct LectureSummaryView: View {
             Text("답은 있지만 ‘배운 점’에서 뺀 항목이에요. 다시 넣을 수 있어요.")
                 .scaledFont(.caption)
                 .foregroundStyle(.secondary)
-            ForEach(excluded) { q in
+            ForEach(excluded, id: \.uuid) { q in
                 HStack(alignment: .top, spacing: 8) {
                     Image(systemName: "minus.circle")
                         .foregroundStyle(.secondary)

@@ -12,6 +12,10 @@ final class Lecture {
     var startTime: Date = Date.now
     var durationMinutes: Int = 60
 
+    // 사용자가 블록을 직접 지운 강의는 자동 블록 생성(커버리지 보정)을 멈춘다.
+    // 끄지 않으면 지운 블록 시간대의 질문 때문에 블록이 곧장 다시 생겨 "삭제가 안 되는" 것처럼 보인다.
+    var autoBlockCoverage: Bool = true
+
     // 학습 상태 메모 (평소엔 숨겨두고, 버튼으로 열어 적는다)
     var currentState: String = ""   // 지금 나의 상태
     var goalState: String = ""      // 학습을 마쳤을 때 나의 상태

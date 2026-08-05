@@ -46,9 +46,15 @@ struct QuickCaptureView: View {
             HStack {
                 Image(systemName: "clock")
                     .foregroundStyle(.secondary)
-                TextField("강의 시점 (예: 12:34, 선택)", text: $timeMark)
-                    .textFieldStyle(.plain)
+                // 지금 시각이 미리 채워지고, 그대로 고쳐 쓸 수 있다.
+                TextField("HH:mm", text: $timeMark)
+                    .textFieldStyle(.roundedBorder)
+                    .frame(width: 76)
                     .onSubmit { save() }
+                    .help("강의 시점 (24시간 HH:mm). 지우면 시점 없이 저장돼요")
+                Button("지금") { timeMark = timeMarkString() }
+                    .buttonStyle(.link)
+                    .help("지금 시각으로 다시 맞추기")
 
                 Spacer()
 
@@ -62,7 +68,10 @@ struct QuickCaptureView: View {
         }
         .padding(20)
         .frame(width: 480)
-        .onAppear { focused = true }
+        .onAppear {
+            focused = true
+            if timeMark.isEmpty { timeMark = timeMarkString() }   // 열 때 지금 시각으로 채움
+        }
     }
 
     private func save(keepOpen: Bool = false) {
@@ -73,7 +82,7 @@ struct QuickCaptureView: View {
                          lecture: lecture)
         context.insert(q)
         text = ""
-        timeMark = ""
+        timeMark = timeMarkString()   // 이어서 적을 다음 질문은 그때의 지금 시각으로
         if keepOpen {
             focused = true
         } else {

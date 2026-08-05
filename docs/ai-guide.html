@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>LectureQ · AI로 답 찾기 가이드</title>
+<style>
+  :root{--blue:#2E6BE6;--teal:#17B3A3;--bg:#ffffff;--fg:#1c1c1e;--muted:#6b6b70;--card:#f5f6f8;--border:#e6e7ea;}
+  @media (prefers-color-scheme:dark){:root{--bg:#111214;--fg:#f2f2f5;--muted:#9a9aa0;--card:#1b1c1f;--border:#2a2b2f;}}
+  *{box-sizing:border-box;}
+  body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Segoe UI",Roboto,sans-serif;background:var(--bg);color:var(--fg);line-height:1.7;}
+  .wrap{max-width:760px;margin:0 auto;padding:40px 20px 80px;}
+  a.back{color:var(--teal);text-decoration:none;font-size:14px;}
+  h1{font-size:30px;margin:18px 0 4px;letter-spacing:-.4px;}
+  .lead{color:var(--muted);font-size:16px;margin:0 0 28px;}
+  h2{font-size:20px;margin:38px 0 10px;padding-top:14px;border-top:1px solid var(--border);}
+  h3{font-size:16px;margin:24px 0 6px;}
+  code{background:var(--card);border:1px solid var(--border);border-radius:6px;padding:1px 6px;font-size:13px;}
+  kbd{background:var(--card);border:1px solid var(--border);border-bottom-width:2px;border-radius:6px;padding:1px 7px;font-size:13px;font-family:inherit;}
+  pre{background:var(--card);border:1px solid var(--border);border-left:4px solid var(--teal);border-radius:10px;padding:14px 16px;overflow-x:auto;font-size:13.5px;line-height:1.6;white-space:pre-wrap;}
+  .step{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:16px 20px;margin:14px 0;}
+  .step .n{display:inline-block;min-width:26px;height:26px;line-height:26px;text-align:center;border-radius:8px;background:var(--teal);color:#fff;font-weight:700;font-size:14px;margin-right:8px;}
+  .step h3{display:inline;font-size:17px;}
+  .inapp{color:var(--blue);font-size:13.5px;margin:8px 0 0;}
+  @media (prefers-color-scheme:dark){.inapp{color:#7aa5ff;}}
+  table{border-collapse:collapse;width:100%;margin:14px 0;font-size:14.5px;}
+  th,td{border:1px solid var(--border);padding:10px 12px;text-align:left;vertical-align:top;}
+  th{background:var(--card);font-size:14px;}
+  td .kw{color:var(--muted);font-size:13.5px;}
+  ul{padding-left:20px;}
+  li{margin:5px 0;}
+  .trap{border-left:4px solid #E6892E;background:var(--card);border-radius:10px;padding:12px 16px;margin:10px 0;}
+  .trap b{color:#E6892E;}
+  footer{margin-top:48px;color:var(--muted);font-size:13px;border-top:1px solid var(--border);padding-top:18px;}
+  footer a{color:var(--teal);}
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <a class="back" href="./index.html">← LectureQ</a>
+    <h1>AI로 답 찾기 가이드</h1>
+    <p class="lead">질문 노트에 질문을 남겼다면, 그다음은 답을 찾는 시간입니다.
+    요즘 그 답은 대부분 AI와의 대화에서 나옵니다. 문제는 <b>같은 질문을 해도 사람마다 얻어가는 게 다르다</b>는 것.
+    이 가이드는 질문 노트의 흐름(질문 → 답 → 배운 점)에 맞춰, 그 차이를 만드는 방법을 정리한 것입니다.</p>
+
+    <p><b>이 가이드가 기르려는 역량 한 줄:</b><br>
+    <b>AI와 함께 내 질문을 &lsquo;검증된 앎&rsquo;으로 바꿀 수 있다.</b>
+    — 답을 받는 능력이 아니라, 받은 답을 의심하고 내 것으로 만드는 능력입니다.</p>
+
+    <h2>답을 찾는 5단계</h2>
+    <p>질문 하나에 대화 하나. 한 대화에 여러 질문을 몰아넣으면 답도 섞이고, 나중에 정리도 안 됩니다.</p>
+
+    <div class="step">
+      <span class="n">1</span><h3>질문을 &lsquo;답할 수 있는 형태&rsquo;로 다듬는다</h3>
+      <p>강의 중에 급하게 적은 질문은 대개 흐릿합니다. 흐릿한 질문에는 흐릿한 답이 옵니다.
+      바로 답을 구하지 말고, 질문부터 다시 씁니다.</p>
+<pre>아래는 내가 강의 중에 급히 적은 질문이야. 아직 흐릿해.
+
+"{질문 노트에 적은 질문 그대로}"
+
+이 질문을 '답할 수 있는 질문' 3가지로 다시 써줘.
+각각 그 답을 알면 내가 무엇을 할 수 있게 되는지도 한 줄씩 붙여줘.
+지금은 답하지 말고, 다시 쓴 질문만 보여줘.</pre>
+      <p class="inapp">▸ 마음에 드는 버전이 나오면 질문 노트의 질문 문장을 그걸로 고쳐 두세요. 나중의 나를 위한 투자입니다.</p>
+    </div>
+
+    <div class="step">
+      <span class="n">2</span><h3>맥락 3종을 붙여서 묻는다</h3>
+      <p>AI는 내가 어디까지 아는지 모릅니다. <b>어디서 나온 질문인지 / 내가 지금 아는 수준 / 원하는 답의 형태</b>
+      — 이 셋만 붙여도 답의 질이 확 달라집니다. 세 가지 모두 앱 안에 이미 적혀 있습니다.</p>
+<pre>[내 질문]
+{다듬은 질문}
+
+[맥락]
+- 어디서 나왔나: {강의 이름} / {그 시점의 타임블록 메모}
+- 내가 지금 아는 수준: {학습 상태의 '지금 나의 상태'}
+- 내가 도달하고 싶은 상태: {학습 상태의 '목표'}
+
+[원하는 답]
+1) 핵심 답 3~5줄
+2) 왜 그런지 근거 한 문단
+3) 내가 잘못 알고 있을 법한 지점 1~2개
+4) 직접 확인해볼 수 있는 가장 작은 예시나 실험 하나
+
+확실한 것과 추측을 구분해서 표시해줘. 모르는 건 모른다고 말해줘.</pre>
+      <p class="inapp">▸ 맥락 재료: 툴바 <b>보기 → 학습 상태</b>, 그리고 질문이 놓인 <b>타임블록 메모</b>.</p>
+    </div>
+
+    <div class="step">
+      <span class="n">3</span><h3>첫 답을 끝이라고 생각하지 않는다</h3>
+      <p>그럴듯한 답은 검증을 통과한 답이 아닙니다. 최소한 한 번은 되물어야 합니다.</p>
+<pre>지금 답에서 가장 틀리기 쉬운 부분은 어디야?
+
+- 이 답이 성립하려면 참이어야 하는 전제
+- 반대 입장이나, 이 답이 안 통하는 예외 상황
+- 내가 1차 자료로 직접 확인하려면 무엇을 봐야 해? (공식 문서·스펙·원문 이름)</pre>
+      <p>버전·수치·API 이름·연도처럼 <b>구체적일수록 틀렸을 때 티가 안 나는</b> 정보는 반드시 원문에서 확인하세요.</p>
+    </div>
+
+    <div class="step">
+      <span class="n">4</span><h3>새로 생긴 궁금증을 흘려보내지 않는다</h3>
+      <p>좋은 답은 늘 새로운 모름을 만듭니다. 그게 다음 질문이고, 이 앱의 <b>꼬리질문</b>입니다.</p>
+<pre>지금까지 대화에서, 내가 아직 모르는데 알아야 할 것을 질문 3개로 뽑아줘.
+설명은 하지 말고 질문만. 짧고 구체적으로.</pre>
+      <p class="inapp">▸ 뽑힌 질문을 질문 상세의 <b>&lsquo;새 꼬리질문 입력&rsquo;</b>에 그대로 붙여넣으면 원질문 → 꼬리질문 위계로 남고,
+      <b>그래프</b>에서 내 이해가 어떻게 뻗어나갔는지 보입니다.</p>
+    </div>
+
+    <div class="step">
+      <span class="n">5</span><h3>내 말로 다시 써서 채점받는다</h3>
+      <p>AI의 답을 복사해 붙이면 기록은 남지만 앎은 남지 않습니다.
+      <b>답 / 찾은 내용</b> 칸에는 내 말로 쓰고, 그 문장을 채점받으세요.</p>
+<pre>내가 이해한 걸 내 말로 적어볼게.
+
+"{내가 직접 쓴 요약}"
+
+틀린 곳, 빠진 곳, 과장된 곳을 짚어줘.
+점수 대신, 고쳐 쓴 문장을 보여줘.</pre>
+      <p class="inapp">▸ 여기까지 통과한 것만 <b>해결됨</b> + <b>배운 점(★)</b>으로 표시하세요.
+      <b>보기 → 요약</b>의 &lsquo;배운 점&rsquo; 목록은 그렇게 걸러낸 것만 모일 때 값어치가 생깁니다.</p>
+    </div>
+
+    <h2>알아야 할 지식들</h2>
+    <p>위 5단계를 역량의 언어로 정리하면 이렇습니다. 지금 자신에게 가장 부족한 한 줄부터 골라 연습하세요.</p>
+
+    <table>
+      <tr><th style="width:24%">알아야 할 것</th><th style="width:38%">~ 할 수 있다</th><th>~ 에 대해 안다 / 관련 키워드</th></tr>
+      <tr>
+        <td><b>질문 다듬기</b></td>
+        <td>흐릿한 메모를 답할 수 있는 질문 3가지로 다시 쓸 수 있다</td>
+        <td class="kw">좋은 질문의 조건, 답할 수 있는 질문과 없는 질문, 문제 정의(problem framing)</td>
+      </tr>
+      <tr>
+        <td><b>맥락 주기</b></td>
+        <td>배경·내 수준·원하는 답 형식을 붙여서 물을 수 있다</td>
+        <td class="kw">프롬프트 구조화, 역할·맥락·출력 형식 지정, 컨텍스트 설계</td>
+      </tr>
+      <tr>
+        <td><b>답 검증하기</b></td>
+        <td>답의 전제·반례·1차 출처를 되물어 사실을 가려낼 수 있다</td>
+        <td class="kw">환각(hallucination), 근거와 출처, 반증(falsification), 확증 편향</td>
+      </tr>
+      <tr>
+        <td><b>모름 드러내기</b></td>
+        <td>답 속에서 새 질문을 뽑아 꼬리질문으로 남길 수 있다</td>
+        <td class="kw">메타인지, 지식의 빈틈(knowledge gap), 질문 트리</td>
+      </tr>
+      <tr>
+        <td><b>앎으로 굳히기</b></td>
+        <td>내 말로 다시 쓰고 채점받아 &lsquo;배운 점&rsquo;으로 확정할 수 있다</td>
+        <td class="kw">파인만 기법, 인출 연습(retrieval practice), 간격 반복(spaced repetition)</td>
+      </tr>
+    </table>
+
+    <h2>흔한 함정 넷</h2>
+    <div class="trap"><b>1. 그럴듯하면 맞다고 느낀다.</b> AI의 문장은 항상 자신 있게 쓰여 있습니다.
+    확신의 정도는 문체가 아니라 근거에서 나옵니다. ★(배운 점)은 확인한 다음에.</div>
+    <div class="trap"><b>2. 한 대화에 다 물어본다.</b> 질문 다섯 개를 한 대화에 몰면 답도 얕아지고 정리도 안 됩니다.
+    질문 하나 = 대화 하나 = 질문 노트의 항목 하나.</div>
+    <div class="trap"><b>3. 답만 복사해서 붙인다.</b> 붙여넣은 답은 다시 읽어도 새롭습니다(= 안 남았다는 뜻).
+    한 줄이라도 내 말로 바꿔 쓰세요.</div>
+    <div class="trap"><b>4. 대화가 끝나면 사라진다.</b> 대화창은 지나가고 질문만 남습니다.
+    아래처럼 대화를 통째로 앱에 넣어두면 나중에 &ldquo;내가 왜 그렇게 이해했는지&rdquo;까지 남습니다.</div>
+
+    <h2>AI 대화를 통째로 가져오기</h2>
+    <p>AI와 나눈 대화를 마크다운으로 저장해 두면, 앱이 그것을 <b>질문 트리</b>로 바꿔줍니다
+    (툴바 <b>강의 메뉴 → 마크다운에서 가져오기…</b>).</p>
+<pre># 강의 제목이 되는 줄
+
+## 주제 (여기 첫 질문이 원질문, 이어지는 질문은 꼬리질문이 됩니다)
+
+**나** — 여기에 내가 한 질문
+
+**AI** — 여기에 받은 답 (여러 줄, 코드 블록도 괜찮습니다)</pre>
+    <p>가져오면 질문마다 답이 채워지고 해결됨으로 표시됩니다.
+    그다음 <b>요약</b> 화면에서 진짜 배운 것만 ★로 남기고 나머지는 &lsquo;제외&rsquo;하면,
+    대화 한 판이 나의 배운 점 목록으로 정리됩니다.</p>
+
+    <h2>한 문장으로</h2>
+    <p style="font-size:17px;"><b>AI에게 답을 구하지 말고, 내 질문을 검증할 상대로 쓰세요.</b>
+    질문은 내가 만들고, 의심도 내가 하고, 마지막 문장도 내가 씁니다. 그 과정을 남기는 곳이 질문 노트입니다.</p>
+
+    <footer>© 2026 LectureQ · <a href="./support.html">지원</a> · <a href="./privacy.html">개인정보 처리방침</a> · <a href="https://github.com/M1zz/LectureQ">GitHub</a></footer>
+  </div>
+</body>
+</html>
