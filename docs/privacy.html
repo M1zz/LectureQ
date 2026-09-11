@@ -3,72 +3,86 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>LectureQ · 개인정보 처리방침</title>
+<title>질문 노트 · 개인정보 처리방침</title>
 <style>
   :root{--blue:#2E6BE6;--teal:#17B3A3;--bg:#ffffff;--fg:#1c1c1e;--muted:#6b6b70;--card:#f5f6f8;--border:#e6e7ea;}
   @media (prefers-color-scheme:dark){:root{--bg:#111214;--fg:#f2f2f5;--muted:#9a9aa0;--card:#1b1c1f;--border:#2a2b2f;}}
   *{box-sizing:border-box;}
   body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Segoe UI",Roboto,sans-serif;background:var(--bg);color:var(--fg);line-height:1.7;}
   .wrap{max-width:720px;margin:0 auto;padding:40px 20px 80px;}
-  a.back{color:var(--teal);text-decoration:none;font-size:14px;}
+  a{color:var(--teal);}
+  a.back{text-decoration:none;font-size:14px;}
   h1{font-size:30px;margin:18px 0 4px;letter-spacing:-.4px;}
   .updated{color:var(--muted);font-size:14px;margin:0 0 28px;}
   h2{font-size:19px;margin:32px 0 8px;}
   p,li{color:var(--fg);}
-  .muted{color:var(--muted);}
   ul{padding-left:20px;}
-  code{background:var(--card);border:1px solid var(--border);border-radius:6px;padding:1px 6px;font-size:13px;}
+  code{background:var(--card);border:1px solid var(--border);border-radius:6px;padding:1px 6px;font-size:13px;word-break:break-all;}
   .callout{background:var(--card);border:1px solid var(--border);border-left:4px solid var(--teal);border-radius:10px;padding:14px 16px;margin:18px 0;}
   footer{margin-top:44px;color:var(--muted);font-size:13px;border-top:1px solid var(--border);padding-top:18px;}
-  footer a{color:var(--teal);}
 </style>
 </head>
 <body>
   <div class="wrap">
-    <a class="back" href="./index.html">← LectureQ</a>
+    <a class="back" href="./index.html">← 질문 노트 (LectureQ)</a>
     <h1>개인정보 처리방침</h1>
-    <p class="updated">최종 업데이트: 2026년 7월 25일</p>
+    <p class="updated">최종 업데이트: 2026년 9월 11일</p>
 
     <div class="callout">
-      <strong>요약:</strong> LectureQ는 어떤 개인정보도 수집·전송·판매하지 않습니다.
-      여러분이 입력한 모든 내용(강의·질문·메모)은 오직 여러분의 Mac 안에만 저장됩니다.
+      <strong>요약:</strong> 질문 노트(LectureQ)는 어떤 개인정보도 수집·전송·판매하지 않습니다.
+      여러분이 입력한 모든 내용(강의·질문·답·메모)은 오직 여러분의 Mac 안에만 저장됩니다.
     </div>
 
     <h2>1. 수집하는 정보</h2>
-    <p>LectureQ는 이름, 이메일, 위치, 사용 기록 등 <strong>어떤 개인정보도 수집하지 않습니다.</strong>
+    <p>질문 노트는 이름, 이메일, 위치, 기기 식별자, 사용 기록 등 <strong>어떤 개인정보도 수집하지 않습니다.</strong>
     계정 가입이나 로그인이 없습니다.</p>
 
     <h2>2. 내가 만든 데이터</h2>
-    <p>강의, 시간 블록, 메모, 질문, 답변 등 앱에서 작성하는 모든 데이터는
+    <p>강의, 시간 블록, 메모, 질문, 답, 학습 상태 등 앱에서 작성하는 모든 데이터는
     사용자의 Mac 로컬 저장소(SwiftData)에만 보관됩니다. 저장 위치는 다음과 같습니다.</p>
     <ul>
-      <li><code>~/Library/Containers/com.lectureq.LectureQ/Data/Library/Application Support/LectureQ/LectureQ.store</code></li>
+      <li><code>~/Library/Containers/com.lectureq.LectureQ/Data/Library/Application Support/LectureQ/</code></li>
     </ul>
-    <p>이 데이터는 개발자를 포함한 외부의 누구에게도 전송되지 않습니다.</p>
+    <p>이 데이터는 개발자를 포함한 외부의 누구에게도 전송되지 않으며, iCloud 등 클라우드로 동기화되지 않습니다.</p>
 
-    <h2>3. 네트워크 통신·추적</h2>
-    <p>LectureQ는 서버와 통신하지 않으며, 분석 도구·광고·제3자 추적 기술을
-    일절 사용하지 않습니다. 앱은 인터넷 연결 없이 동작합니다.</p>
+    <h2>3. 파일 가져오기</h2>
+    <p>‘마크다운에서 가져오기’를 사용하면, 사용자가 파일 선택 창에서 <strong>직접 고른 파일만</strong> 읽기 전용으로 엽니다.
+    읽은 내용은 새 강의로 앱의 로컬 저장소에 저장되며, 원본 파일을 바꾸거나 다른 파일에 접근하지 않습니다.</p>
 
-    <h2>4. 제3자 제공</h2>
+    <h2>4. 클립보드와 외부 AI 서비스</h2>
+    <p>‘AI 프롬프트 복사’를 누르면, 선택한 질문과 관련 내용(강의 이름, 그 시점의 메모, 학습 상태, 원질문, 적어 둔 답)이 담긴 글이
+    <strong>사용자가 누른 때에만</strong> Mac의 클립보드에 복사됩니다.</p>
+    <p>질문 노트는 AI 서비스를 포함한 어떤 외부 서비스에도 이 내용을 직접 보내지 않습니다.
+    복사한 내용을 외부 AI 서비스에 붙여넣으면, 그 이후의 처리는 해당 서비스의 개인정보 처리방침을 따릅니다.
+    민감한 내용은 붙여넣기 전에 확인해 주세요.</p>
+
+    <h2>5. 네트워크 통신·추적</h2>
+    <p>질문 노트는 서버와 통신하지 않으며, 분석 도구·광고·제3자 추적 기술을 일절 사용하지 않습니다.
+    앱은 인터넷 연결 없이 동작합니다.</p>
+    <p>앱 안의 ‘AI로 답 찾기 가이드’ 링크는 기본 웹 브라우저에서 이 웹사이트(GitHub Pages)를 엽니다.
+    웹페이지 방문 시의 통신은 브라우저와 GitHub의 정책을 따릅니다.</p>
+
+    <h2>6. 제3자 제공</h2>
     <p>수집하는 정보가 없으므로 제3자에게 제공하거나 공유하는 정보도 없습니다.</p>
 
-    <h2>5. 데이터 보관 및 삭제</h2>
-    <p>데이터는 사용자가 삭제하기 전까지 기기에 유지됩니다. 전체 삭제를 원하시면
-    위 저장 폴더를 삭제하거나 앱을 제거하시면 됩니다.</p>
+    <h2>7. 데이터 보관 및 삭제</h2>
+    <p>데이터는 사용자가 삭제하기 전까지 기기에 유지됩니다.</p>
+    <ul>
+      <li>개별 삭제: 앱에서 질문(우클릭 → 삭제), 블록(설정 → 블록 삭제), 강의(강의 메뉴 → 현재 강의 삭제)를 지울 수 있습니다.</li>
+      <li>전체 삭제: 앱을 종료한 뒤 위 2항의 저장 폴더를 삭제하세요. macOS에서는 앱을 휴지통에 버려도 이 폴더가 남을 수 있습니다.</li>
+    </ul>
 
-    <h2>6. 아동의 개인정보</h2>
-    <p>LectureQ는 아동을 포함한 어떤 사용자의 개인정보도 수집하지 않습니다.</p>
+    <h2>8. 아동의 개인정보</h2>
+    <p>질문 노트는 아동을 포함한 어떤 사용자의 개인정보도 수집하지 않습니다.</p>
 
-    <h2>7. 방침 변경</h2>
-    <p>본 방침이 변경되면 이 페이지에 갱신하여 게시합니다. 중요한 변경 시
-    상단의 갱신일자를 함께 수정합니다.</p>
+    <h2>9. 방침 변경</h2>
+    <p>본 방침이 변경되면 이 페이지에 갱신하여 게시하고, 상단의 최종 업데이트 날짜를 함께 수정합니다.</p>
 
-    <h2>8. 문의</h2>
+    <h2>10. 문의</h2>
     <p>개인정보 처리방침에 대한 문의는 아래로 연락해 주세요.<br>
     이메일: <a href="mailto:mizzking75@gmail.com">mizzking75@gmail.com</a></p>
 
-    <footer>© 2026 LectureQ · <a href="./support.html">지원</a> · <a href="https://github.com/M1zz/LectureQ">GitHub</a></footer>
+    <footer>© 2026 질문 노트 (LectureQ) · <a href="./support.html">지원</a> · <a href="https://github.com/M1zz/LectureQ">GitHub</a></footer>
   </div>
 </body>
 </html>

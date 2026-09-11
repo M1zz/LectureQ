@@ -2,7 +2,14 @@
 
 강의를 들으면서 궁금한 점을 최대한 쉬운 말로 빠르게 남기고, 나중에 답을 찾아 기록하며, 질문·강의·연결 관계를 그래프로 볼 수 있는 macOS 앱입니다.
 
-**링크**: [지원 페이지](https://m1zz.github.io/LectureQ/support.html) · [개인정보 처리방침](https://m1zz.github.io/LectureQ/privacy.html)
+## 링크
+
+| 페이지 | 주소 |
+|---|---|
+| 홈 | https://m1zz.github.io/LectureQ/ |
+| 지원 (Support) | https://m1zz.github.io/LectureQ/support.html |
+| 개인정보 처리방침 (Privacy Policy) | https://m1zz.github.io/LectureQ/privacy.html |
+| AI로 답 찾기 가이드 | https://m1zz.github.io/LectureQ/ai-guide.html |
 
 ## 핵심 기능
 
