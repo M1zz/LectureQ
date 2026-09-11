@@ -196,11 +196,15 @@ struct ContentView: View {
                     .help("미해결 질문만 보기")
 
                 viewMenu
+            }
 
-                // 질문 추가 진입점은 여기 하나만 둔다 (리스트 안 버튼은 스크롤되면 단축키가 안 먹을 수 있음)
+            // 질문 추가 진입점은 여기 하나만 둔다 (리스트 안 버튼은 스크롤되면 단축키가 안 먹을 수 있음)
+            // 가장 자주 쓰는 동작이라 강조색으로 채워 눈에 띄게 한다.
+            ToolbarItem(placement: .primaryAction) {
                 Button("질문 추가") {
                     showQuickCapture = true
                 }
+                .buttonStyle(.borderedProminent)
                 .keyboardShortcut("n", modifiers: [.command, .shift])
                 .help("질문 추가 (⌘⇧N)")
             }
