@@ -18,7 +18,7 @@ struct GraphContainerView: View {
     var body: some View {
         VStack(spacing: 0) {
             HStack {
-                Label("질문 그래프", systemImage: "point.3.connected.trianglepath.dotted")
+                Text("그래프")
                     .scaledFont(.headline)
                 Text(lecture.title)
                     .scaledFont(.subheadline)
@@ -66,10 +66,8 @@ struct GraphContainerView: View {
 
     private var zoomControls: some View {
         HStack(spacing: 6) {
-            Button { model.zoom(by: 1 / 1.2) } label: {
-                Image(systemName: "minus.magnifyingglass")
-            }
-            .help("축소")
+            Button("−") { model.zoom(by: 1 / 1.2) }
+                .help("축소")
 
             Button {
                 model.fitToScreen()
@@ -81,10 +79,8 @@ struct GraphContainerView: View {
             }
             .help("화면에 맞추기")
 
-            Button { model.zoom(by: 1.2) } label: {
-                Image(systemName: "plus.magnifyingglass")
-            }
-            .help("확대")
+            Button("+") { model.zoom(by: 1.2) }
+                .help("확대")
         }
         .buttonStyle(.bordered)
         .controlSize(.small)
@@ -94,22 +90,12 @@ struct GraphContainerView: View {
 
     private var legend: some View {
         HStack(spacing: 14) {
-            legendDot(.blue, "강의")
             legendDot(.orange, "미해결")
             legendDot(.green, "해결")
-            // 꽉 찬 원 = 답 내용 있음 / 빈 원 = 질문만
-            HStack(spacing: 4) {
-                Circle().fill(Color.secondary).frame(width: 9, height: 9)
-                Text("답 있음").foregroundStyle(.secondary)
-            }
+            // 빈 원 = 답 없음 (꽉 찬 원은 답 있음)
             HStack(spacing: 4) {
                 Circle().strokeBorder(Color.secondary, lineWidth: 2).frame(width: 9, height: 9)
-                Text("질문만").foregroundStyle(.secondary)
-            }
-            HStack(spacing: 4) {
-                Image(systemName: "arrow.right")
-                    .foregroundStyle(.teal)
-                Text("꼬리질문").foregroundStyle(.secondary)
+                Text("답 없음").foregroundStyle(.secondary)
             }
         }
         .scaledFont(.caption)
@@ -422,20 +408,14 @@ struct GraphCanvas: View {
                 .lineLimit(4)
                 .frame(maxWidth: 260, alignment: .leading)
 
-            HStack {
-                Button("닫기") { tappedID = nil }
-                    .keyboardShortcut(.cancelAction)
-                Spacer()
-                Button {
-                    let id = node.id
-                    tappedID = nil
-                    onSelect(id)
-                } label: {
-                    Label("이 질문으로 이동", systemImage: "arrow.right.circle.fill")
-                }
-                .buttonStyle(.borderedProminent)
-                .keyboardShortcut(.defaultAction)
+            Button("이 질문으로 이동") {
+                let id = node.id
+                tappedID = nil
+                onSelect(id)
             }
+            .buttonStyle(.borderedProminent)
+            .keyboardShortcut(.defaultAction)
+            .frame(maxWidth: .infinity, alignment: .trailing)
         }
         .padding(16)
         .frame(width: 300)
@@ -444,27 +424,17 @@ struct GraphCanvas: View {
     private func nodeView(_ node: GraphNode) -> some View {
         let isHovered = hoveredID == node.id
         return VStack(spacing: 3) {
-            Group {
-                if node.isFilled {
-                    // 답 내용 있음: 꽉 찬 원
-                    Circle()
-                        .fill(node.color.gradient)
-                        .overlay(Circle().strokeBorder(.white.opacity(0.6), lineWidth: 1.5))
-                } else {
-                    // 질문만(답 없음): 빈 원 — 옅게 채우고 색 테두리만
-                    Circle()
-                        .fill(node.color.opacity(0.12))
-                        .overlay(Circle().strokeBorder(node.color, lineWidth: 2.5))
-                }
-            }
-            .frame(width: node.radius * 2, height: node.radius * 2)
-            .shadow(color: node.color.opacity(isHovered ? 0.6 : 0.25),
-                    radius: isHovered ? 10 : 4)
+            // 답 내용 있음 = 꽉 찬 원 / 질문만 = 빈 원(색 테두리)
+            Circle()
+                .fill(node.isFilled ? node.color : Color(nsColor: .textBackgroundColor))
+                .overlay(Circle().strokeBorder(node.color, lineWidth: 2))
+                .frame(width: node.radius * 2, height: node.radius * 2)
 
             Text(node.label)
                 .scaledFont(.caption2)
                 .lineLimit(isHovered ? 4 : 1)
-                .frame(maxWidth: isHovered ? 220 : 110)
+                // 라벨(+좌우 패딩 10)이 잎 노드 간격(leafSpacing 110)보다 넓으면 이웃 라벨과 겹친다.
+                .frame(maxWidth: isHovered ? 220 : 96)
                 .padding(.horizontal, 5)
                 .padding(.vertical, 2)
                 .background(.regularMaterial, in: RoundedRectangle(cornerRadius: 4))

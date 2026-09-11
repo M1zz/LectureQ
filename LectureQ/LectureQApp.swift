@@ -21,6 +21,9 @@ struct LectureQApp: App {
     /// 경로: ~/Library/Application Support/LectureQ/LectureQ.store
     static func makeContainer() -> ModelContainer {
         let schema = Schema([Lecture.self, Question.self, Block.self])
+        #if DEBUG
+        if DemoMode.isOn { return DemoMode.makeContainer(schema: schema) }
+        #endif
         let storeURL = storeFileURL()
 
         let config = ModelConfiguration(

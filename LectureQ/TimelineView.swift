@@ -84,7 +84,7 @@ struct TimelineView: View {
     var body: some View {
         VStack(spacing: 0) {
             HStack {
-                Label("타임블록", systemImage: "calendar.day.timeline.left")
+                Text("타임블록")
                     .scaledFont(.headline)
                 Spacer()
                 Button("닫기") { dismiss() }
@@ -94,10 +94,7 @@ struct TimelineView: View {
             Divider()
 
             if blocks.isEmpty {
-                ContentUnavailableView("블록이 없어요",
-                                       systemImage: "calendar.badge.plus",
-                                       description: Text("메인 화면에서 ‘블록 추가’로 만들면 여기 모여요"))
-                .frame(maxHeight: .infinity)
+                EmptyHint("블록이 없어요")
             } else {
                 ScrollView {
                     VStack(spacing: 14) {
@@ -194,20 +191,20 @@ struct BlockView: View {
             Text("블록 설정").scaledFont(.headline)
 
             HStack {
-                Label("색상", systemImage: "paintpalette")
+                Text("색상")
                 Spacer()
                 ColorPicker("", selection: colorBinding, supportsOpacity: false)
                     .labelsHidden()
             }
             HStack {
-                Label("시작", systemImage: "clock")
+                Text("시작")
                 Spacer()
                 DatePicker("", selection: $block.startTime,
                            displayedComponents: [.date, .hourAndMinute])
                     .labelsHidden()
             }
             HStack {
-                Label("기간", systemImage: "timer")
+                Text("기간")
                 Spacer()
                 Menu("\(block.durationMinutes)분") {
                     ForEach(durationOptions, id: \.self) { m in
@@ -233,15 +230,11 @@ struct BlockView: View {
                         }
                     }
                 } else {
-                    Button(role: .destructive) {
+                    Button("블록 삭제", role: .destructive) {
                         confirmingDelete = true
-                    } label: {
-                        Label("블록 삭제", systemImage: "trash")
-                            .frame(maxWidth: .infinity, alignment: .leading)
                     }
-                    .buttonStyle(.plain)
+                    .buttonStyle(.borderless)
                     .foregroundStyle(.red)
-                    .contentShape(Rectangle())
                 }
             }
         }
@@ -327,48 +320,33 @@ struct BlockView: View {
         return zip(sorted, ys).map { LaidOutMarker(q: $0.q, y: $1) }
     }
 
-    /// 질문 버튼(Q): 색=해결여부(초록/주황), 채움=답 유무. 눌러서 질문으로 이동.
+    /// 질문 표시(?): 색=해결여부(초록/주황), 채움=답 유무. 눌러서 질문으로 이동. (클릭 영역은 24pt)
     private func questionDot(_ q: Question) -> some View {
         let color: Color = q.isResolved ? .green : .orange
         let hasAnswer = !q.answer.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty
-        return Text("Q")
-            .font(.system(size: 12, weight: .heavy, design: .rounded))
-            .foregroundStyle(hasAnswer ? .white : color)
+        return Image(systemName: hasAnswer ? "questionmark.circle.fill" : "questionmark.circle")
+            .font(.system(size: 17))
+            .foregroundStyle(color)
+            // 심볼 안쪽이 비어 있어 뒤의 세로 줄이 비치지 않도록 불투명 바탕을 깐다
+            .background(Circle().fill(Color(nsColor: .textBackgroundColor)).padding(1))
             .frame(width: 24, height: 24)
-            .background(
-                Circle().fill(hasAnswer
-                              ? AnyShapeStyle(color.gradient)
-                              : AnyShapeStyle(Color(nsColor: .textBackgroundColor)))
-            )
-            .overlay(Circle().strokeBorder(color, lineWidth: hasAnswer ? 1 : 2))
-            .shadow(color: .black.opacity(0.25), radius: 2, y: 1)
+            .contentShape(Circle())
     }
 
     private var card: some View {
         VStack(alignment: .leading, spacing: 8) {
-            // "..." 설정 버튼 (색상·시작·기간)
+            // 설정 버튼 (색상·시작·기간·삭제)
             HStack {
                 Spacer()
-                // "..." 만 있으면 무슨 버튼인지 알 수 없어 글자를 함께 보여준다.
-                Button {
-                    showSettings = true
-                } label: {
-                    Label("블록 설정", systemImage: "gearshape")
-                        .labelStyle(.titleAndIcon)
-                        .scaledFont(.caption, weight: .medium)
-                        .foregroundStyle(.secondary)
-                        .padding(.horizontal, 6)
-                        .padding(.vertical, 2)
-                        .contentShape(Rectangle())
-                }
-                .buttonStyle(.plain)
-                .help("이 블록의 색상·시작 시각·기간을 바꾸거나 블록을 지웁니다")
-                .popover(isPresented: $showSettings, arrowEdge: .top) {
-                    settingsPopover
-                }
+                Button("설정") { showSettings = true }
+                    .buttonStyle(.borderless)
+                    .scaledFont(.caption)
+                    .foregroundStyle(.secondary)
+                    .help("이 블록의 색상·시작 시각·기간을 바꾸거나 블록을 지웁니다")
+                    .popover(isPresented: $showSettings, arrowEdge: .top) {
+                        settingsPopover
+                    }
             }
-
-            Divider()
 
             ZStack(alignment: .topLeading) {
                 TextEditor(text: $block.notes)
@@ -388,13 +366,7 @@ struct BlockView: View {
         .padding(12)
         .frame(height: fillsHeight ? nil : blockHeight, alignment: .top)
         .frame(maxWidth: .infinity, maxHeight: fillsHeight ? .infinity : nil, alignment: .top)
-        .background(accent.opacity(0.18), in: RoundedRectangle(cornerRadius: 12))
-        .overlay(alignment: .leading) {
-            RoundedRectangle(cornerRadius: 3)
-                .fill(accent)
-                .frame(width: 5)
-        }
-        .clipShape(RoundedRectangle(cornerRadius: 12))
+        .background(accent.opacity(0.14), in: RoundedRectangle(cornerRadius: 10))
     }
 }
 

@@ -5,3 +5,7 @@ DerivedData/
 xcuserdata/
 # xcodegen이 project.yml에서 생성하므로 프로젝트 파일은 커밋 제외 가능
 LectureQ.xcodeproj/
+
+# 앱스토어 스크린샷 중간 산출물
+appstore/raw/
+appstore/winlist

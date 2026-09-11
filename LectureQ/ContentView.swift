@@ -115,9 +115,7 @@ struct ContentView: View {
                     QuestionDetailView(question: q)
                         .id(q.uuid)
                 } else {
-                    ContentUnavailableView("질문을 선택하세요",
-                                           systemImage: "questionmark.bubble",
-                                           description: Text("⌘⇧N 으로 언제든 질문을 빠르게 남길 수 있어요"))
+                    EmptyHint("질문을 선택하세요")
                 }
             }
             .appFontScale(fontScale)
@@ -177,7 +175,7 @@ struct ContentView: View {
         .onChange(of: selectedLecture) { _, newValue in
             // 강의를 바꿀 때마다 기억해 둔다. (nil이면 지우지 않고 유지)
             if let lecture = newValue {
-                lastLectureUUID = lecture.uuid.uuidString
+                if !DemoMode.isOn { lastLectureUUID = lecture.uuid.uuidString }
                 selectedQuestion = nil
                 ensureBlocks(lecture)
                 ensureCoverage(lecture)
@@ -192,102 +190,68 @@ struct ContentView: View {
                 lectureMenu
             }
 
-            // 아이콘만 늘어놓으면 뭐가 뭔지 알기 어려워, 자주 쓰는 것만 남기고 나머지는 "보기" 메뉴로 묶는다.
-            // (메뉴 안에서는 글자와 단축키가 함께 보인다)
+            // 아이콘 없이 글자만. 자주 쓰는 것만 남기고 나머지는 "보기" 메뉴로 묶는다.
             ToolbarItemGroup {
-                Toggle(isOn: $showUnresolvedOnly) {
-                    Label("미해결만", systemImage: "circle.dashed")
-                }
-                .help("미해결 질문만 보기")
+                Toggle("미해결만", isOn: $showUnresolvedOnly)
+                    .help("미해결 질문만 보기")
 
                 viewMenu
 
-                Button {
+                // 질문 추가 진입점은 여기 하나만 둔다 (리스트 안 버튼은 스크롤되면 단축키가 안 먹을 수 있음)
+                Button("질문 추가") {
                     showQuickCapture = true
-                } label: {
-                    Label("빠른 질문", systemImage: "plus.bubble")
                 }
-                .labelStyle(.titleAndIcon)   // 가장 자주 쓰는 동작이라 글자까지 노출
                 .keyboardShortcut("n", modifiers: [.command, .shift])
-                .help("빠른 질문 입력 (⌘⇧N)")
+                .help("질문 추가 (⌘⇧N)")
             }
         }
     }
 
     /// 강의를 다르게 보는 화면들 + 글씨 크기를 한 곳에 모은 메뉴.
     private var viewMenu: some View {
-        Menu {
-            Button {
-                showSummary = true
-            } label: {
-                Label("요약 — 질문·배운 점 한눈에", systemImage: "doc.text.magnifyingglass")
-            }
-            .disabled(selectedLecture == nil)
-            .keyboardShortcut("1", modifiers: .command)
+        Menu("보기") {
+            Button("요약") { showSummary = true }
+                .disabled(selectedLecture == nil)
+                .keyboardShortcut("1", modifiers: .command)
 
-            Button {
-                showGraph = true
-            } label: {
-                Label("그래프 — 질문 관계도", systemImage: "point.3.connected.trianglepath.dotted")
-            }
-            .disabled(selectedLecture == nil)
-            .keyboardShortcut("2", modifiers: .command)
+            Button("그래프") { showGraph = true }
+                .disabled(selectedLecture == nil)
+                .keyboardShortcut("2", modifiers: .command)
 
-            Button {
-                showTimeline = true
-            } label: {
-                Label("타임블록 — 시간순 블록 모아보기", systemImage: "calendar.day.timeline.left")
-            }
-            .keyboardShortcut("3", modifiers: .command)
+            Button("타임블록") { showTimeline = true }
+                .keyboardShortcut("3", modifiers: .command)
 
-            Button {
-                showState = true
-            } label: {
-                Label("학습 상태 — 지금·목표·배우고 싶은 것", systemImage: "list.bullet.clipboard")
-            }
-            .disabled(selectedLecture == nil)
-            .keyboardShortcut("4", modifiers: .command)
+            Button("학습 상태") { showState = true }
+                .disabled(selectedLecture == nil)
+                .keyboardShortcut("4", modifiers: .command)
 
             Divider()
 
-            Menu {
-                Button {
+            Menu("글씨 크기 (\(Int(fontScale * 100))%)") {
+                Button("크게") {
                     fontScaleIndex = min(fontScales.count - 1, fontScaleIndex + 1)
-                } label: {
-                    Label("글씨 크게", systemImage: "plus.magnifyingglass")
                 }
                 .disabled(fontScaleIndex == fontScales.count - 1)
                 .keyboardShortcut("+", modifiers: .command)
 
-                Button {
+                Button("작게") {
                     fontScaleIndex = max(0, fontScaleIndex - 1)
-                } label: {
-                    Label("글씨 작게", systemImage: "minus.magnifyingglass")
                 }
                 .disabled(fontScaleIndex == 0)
                 .keyboardShortcut("-", modifiers: .command)
 
-                Button {
+                Button("기본 크기") {
                     fontScaleIndex = 1
-                } label: {
-                    Label("기본 크기로", systemImage: "textformat.size")
                 }
                 .disabled(fontScaleIndex == 1)
                 .keyboardShortcut("0", modifiers: .command)
-            } label: {
-                Label("글씨 크기 (\(Int(fontScale * 100))%)", systemImage: "textformat.size")
             }
 
             Divider()
 
-            // 답을 찾으러 갈 때(= AI에게 물으러 갈 때) 바로 꺼내 볼 수 있게 메뉴에 둔다.
             if let guide = URL(string: "https://m1zz.github.io/LectureQ/ai-guide.html") {
-                Link(destination: guide) {
-                    Label("AI로 답 찾기 가이드", systemImage: "sparkles")
-                }
+                Link("AI로 답 찾기 가이드", destination: guide)
             }
-        } label: {
-            Label("보기", systemImage: "square.grid.2x2")
         }
         .help("요약·그래프·타임블록·학습 상태·글씨 크기")
     }
@@ -324,26 +288,14 @@ struct ContentView: View {
             .pickerStyle(.inline)
 
             Divider()
-            Button {
-                addLectureQuick()
-            } label: {
-                Label("강의 추가", systemImage: "plus")
-            }
+            Button("강의 추가", action: addLectureQuick)
             // 가져오기도 결국 "강의를 하나 만드는" 동작이라 이 메뉴에 둔다.
-            Button {
-                showImporter = true
-            } label: {
-                Label("마크다운에서 가져오기…", systemImage: "square.and.arrow.down")
-            }
+            Button("마크다운에서 가져오기…") { showImporter = true }
             if selectedLecture != nil {
-                Button(role: .destructive) {
-                    deleteCurrentLecture()
-                } label: {
-                    Label("현재 강의 삭제", systemImage: "trash")
-                }
+                Button("현재 강의 삭제", role: .destructive, action: deleteCurrentLecture)
             }
         } label: {
-            Label(selectedLecture?.title ?? "강의 선택", systemImage: "book")
+            Text(selectedLecture?.title ?? "강의 선택")
         }
     }
 
@@ -366,41 +318,24 @@ struct ContentView: View {
                     }
                 }
             )) {
-                Section("질문") {
-                    ForEach(rows, id: \.question.uuid) { row in
-                        QuestionRow(question: row.question, depth: row.depth)
-                            .tag(row.question.uuid as UUID?)
-                            .contextMenu {
-                                Button("삭제", role: .destructive) {
-                                    if selectedQuestion?.uuid == row.question.uuid { selectedQuestion = nil }
-                                    context.delete(row.question)
-                                }
+                ForEach(rows, id: \.question.uuid) { row in
+                    QuestionRow(question: row.question, depth: row.depth)
+                        .tag(row.question.uuid as UUID?)
+                        .contextMenu {
+                            Button("삭제", role: .destructive) {
+                                if selectedQuestion?.uuid == row.question.uuid { selectedQuestion = nil }
+                                context.delete(row.question)
                             }
-                    }
-
-                    // 마지막 질문 아래에 질문 추가 버튼
-                    Button {
-                        showQuickCapture = true
-                    } label: {
-                        Label("질문 추가", systemImage: "plus.bubble.fill")
-                            .frame(maxWidth: .infinity)
-                            .padding(.vertical, 6)
-                    }
-                    .buttonStyle(.plain)
-                    .foregroundStyle(.tint)
-                    .keyboardShortcut("n", modifiers: [.command, .shift])
-                    .listRowSeparator(.hidden)
+                        }
                 }
             }
             .overlay {
                 if rows.isEmpty {
-                    ContentUnavailableView("질문이 없어요",
-                                           systemImage: "plus.bubble",
-                                           description: Text("아래 ‘질문 추가’ 또는 ⌘⇧N 으로 남겨보세요"))
+                    EmptyHint(showUnresolvedOnly ? "미해결 질문이 없어요" : "⌘⇧N 으로 질문을 추가하세요")
                 }
             }
         } else {
-            ContentUnavailableView("강의를 선택하세요", systemImage: "book")
+            EmptyHint("강의를 선택하세요")
         }
     }
 
@@ -424,7 +359,40 @@ struct ContentView: View {
         } else {
             selectedLecture = lectures.first   // 최신순 정렬이므로 first = 가장 상단
         }
+        #if DEBUG
+        applyDemoScreen()
+        #endif
     }
+
+    #if DEBUG
+    /// 스크린샷 데모 모드: 창 크기를 맞추고, 보여줄 질문·시트를 연다.
+    private func applyDemoScreen() {
+        guard DemoMode.isOn else { return }
+        let lecture = lectures.first { $0.title == DemoMode.mainLectureTitle }
+        selectedLecture = lecture
+        // 강의 변경 onChange 가 질문 선택을 지우므로 다음 런루프에서 고른다.
+        DispatchQueue.main.async {
+            DemoMode.sizeMainWindow()
+            selectedQuestion = lecture?.questions.first { $0.text == DemoMode.focusQuestion }
+            DispatchQueue.main.asyncAfter(deadline: .now() + 0.8) {
+                switch DemoMode.screen {
+                case "capture":  showQuickCapture = true
+                case "graph":    showGraph = true
+                case "summary":  showSummary = true
+                case "timeline": showTimeline = true
+                case "state":    showState = true
+                default: break
+                }
+                // 시트의 첫 TextEditor 에 잡힌 커서가 찍히지 않게 포커스를 뺀다 (질문 입력 시트는 제외).
+                if DemoMode.screen != "capture" {
+                    DispatchQueue.main.asyncAfter(deadline: .now() + 0.8) {
+                        NSApp.keyWindow?.makeFirstResponder(nil)
+                    }
+                }
+            }
+        }
+    }
+    #endif
 
     /// 새 강의를 만들고(초기 블록 1개 포함) 바로 선택해 메인에 표시한다.
     private func addLectureQuick() {
@@ -556,27 +524,17 @@ struct ContentView: View {
                     }
 
                     // 마지막 블록 아래에서 새 블록 추가
-                    Button(action: addBlockToCurrent) {
-                        Label("블록 추가", systemImage: "plus")
-                            .scaledFont(.callout, weight: .medium)
-                            .frame(maxWidth: .infinity)
-                            .padding(.vertical, 14)
-                    }
-                    .buttonStyle(.plain)
-                    .foregroundStyle(.secondary)
-                    .background(
-                        RoundedRectangle(cornerRadius: 12)
-                            .strokeBorder(style: StrokeStyle(lineWidth: 1.5, dash: [6, 4]))
-                            .foregroundStyle(.tertiary)
-                    )
-                    .padding(.leading, 66)
+                    Button("블록 추가", action: addBlockToCurrent)
+                        .buttonStyle(.borderless)
+                        .padding(.leading, 66)
                 }
                 .padding(16)
             }
             .navigationTitle(lecture.title)
+            .hidingWindowTitle()   // 강의명은 툴바 메뉴·열 제목에 이미 보이므로 창 제목은 숨긴다
             .navigationSplitViewColumnWidth(min: 340, ideal: 440)
         } else {
-            ContentUnavailableView("강의를 선택하세요", systemImage: "book")
+            EmptyHint("강의를 선택하세요")
         }
     }
 
@@ -612,52 +570,60 @@ struct QuestionRow: View {
     var depth: Int = 0
 
     var body: some View {
-        HStack(alignment: .top, spacing: 8) {
-            if depth > 0 {
-                Image(systemName: "arrow.turn.down.right")
-                    .scaledFont(.caption)
-                    .foregroundStyle(.teal)
-            }
-
+        // 꼬리질문은 들여쓰기만으로 구분한다.
+        HStack(alignment: .firstTextBaseline, spacing: 6) {
+            // 내가 만든 질문임을 보여주는 질문 심볼. 눌러서 해결 여부를 바꾼다.
+            // 미해결 = 주황 빈 ? / 해결 = 초록 꽉 찬 ?
             Button {
                 question.isResolved.toggle()
             } label: {
-                Image(systemName: question.isResolved ? "checkmark.circle.fill" : "circle")
+                Image(systemName: question.isResolved ? "questionmark.circle.fill" : "questionmark.circle")
+                    .scaledFont(14)
                     .foregroundStyle(question.isResolved ? .green : .orange)
-                    .imageScale(.large)
             }
             .buttonStyle(.plain)
+            .help(question.isResolved ? "해결됨 — 눌러서 미해결로" : "미해결 — 눌러서 해결됨으로")
 
-            VStack(alignment: .leading, spacing: 3) {
-                HStack(spacing: 5) {
-                    if depth > 0 {
-                        Text("꼬리")
-                            .scaledFont(.caption2, weight: .bold)
-                            .foregroundStyle(.teal)
-                            .padding(.horizontal, 5)
-                            .padding(.vertical, 1)
-                            .background(.teal.opacity(0.18), in: Capsule())
-                    }
-                    Text(question.text)
-                        .scaledFont(13)
-                        .lineLimit(2)
-                        .strikethrough(question.isResolved, color: .secondary)
-                }
-                HStack(spacing: 6) {
-                    Label(question.createdAt.formatted(date: .numeric, time: .shortened),
-                          systemImage: "calendar")
-                    if !question.timeMark.isEmpty {
-                        Label(question.timeMark, systemImage: "clock")
-                    }
-                    if !question.allRelated.isEmpty {
-                        Label("\(question.allRelated.count)", systemImage: "link")
-                    }
-                }
-                .scaledFont(.caption)
-                .foregroundStyle(.secondary)
+            Text(question.text)
+                .scaledFont(13)
+                .lineLimit(2)
+                .foregroundStyle(question.isResolved ? .secondary : .primary)
+
+            Spacer(minLength: 4)
+
+            if !question.timeMark.isEmpty {
+                Text(question.timeMark)
+                    .scaledFont(.caption, monospacedDigit: true)
+                    .foregroundStyle(.tertiary)
             }
         }
-        .padding(.vertical, 3)
+        .padding(.vertical, 2)
         .padding(.leading, CGFloat(depth) * 18)
+    }
+}
+
+extension View {
+    /// 툴바의 창 제목을 숨긴다 (macOS 15+. 14에서는 그대로 둔다).
+    @ViewBuilder
+    func hidingWindowTitle() -> some View {
+        if #available(macOS 15.0, *) {
+            self.toolbar(removing: .title)
+        } else {
+            self
+        }
+    }
+}
+
+/// 아이콘 없이 글자 한 줄로 보여주는 빈 상태 안내.
+struct EmptyHint: View {
+    let text: String
+    init(_ text: String) { self.text = text }
+
+    var body: some View {
+        Text(text)
+            .foregroundStyle(.secondary)
+            .multilineTextAlignment(.center)
+            .padding()
+            .frame(maxWidth: .infinity, maxHeight: .infinity)
     }
 }

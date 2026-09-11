@@ -14,27 +14,10 @@ struct QuickCaptureView: View {
     @FocusState private var focused: Bool
 
     var body: some View {
-        VStack(alignment: .leading, spacing: 12) {
-            HStack {
-                Image(systemName: "plus.bubble.fill")
-                    .foregroundStyle(.orange)
-                Text(lecture?.title ?? "강의 없음")
-                    .scaledFont(.headline)
-                Spacer()
-                Text("Return: 저장 · Esc: 닫기")
-                    .scaledFont(.caption)
-                    .foregroundStyle(.tertiary)
-                Button {
-                    dismiss()
-                } label: {
-                    Image(systemName: "xmark.circle.fill")
-                        .foregroundStyle(.secondary)
-                        .imageScale(.large)
-                }
-                .buttonStyle(.plain)
-                .keyboardShortcut(.cancelAction)
-                .help("닫기")
-            }
+        VStack(alignment: .leading, spacing: 14) {
+            Text(lecture?.title ?? "강의 없음")
+                .scaledFont(.headline)
+                .foregroundStyle(.secondary)
 
             TextField("궁금한 점을 최대한 쉬운 말로…", text: $text, axis: .vertical)
                 .textFieldStyle(.plain)
@@ -43,21 +26,22 @@ struct QuickCaptureView: View {
                 .focused($focused)
                 .onSubmit { save() }
 
-            HStack {
-                Image(systemName: "clock")
+            HStack(spacing: 6) {
+                Text("시점")
                     .foregroundStyle(.secondary)
                 // 지금 시각이 미리 채워지고, 그대로 고쳐 쓸 수 있다.
                 TextField("HH:mm", text: $timeMark)
                     .textFieldStyle(.roundedBorder)
-                    .frame(width: 76)
+                    .frame(width: 64)
                     .onSubmit { save() }
                     .help("강의 시점 (24시간 HH:mm). 지우면 시점 없이 저장돼요")
                 Button("지금") { timeMark = timeMarkString() }
                     .buttonStyle(.link)
-                    .help("지금 시각으로 다시 맞추기")
 
                 Spacer()
 
+                Button("취소") { dismiss() }
+                    .keyboardShortcut(.cancelAction)
                 Button("저장하고 계속") { save(keepOpen: true) }
                     .keyboardShortcut(.return, modifiers: .command)
                 Button("저장") { save() }
@@ -71,6 +55,18 @@ struct QuickCaptureView: View {
         .onAppear {
             focused = true
             if timeMark.isEmpty { timeMark = timeMarkString() }   // 열 때 지금 시각으로 채움
+            #if DEBUG
+            if DemoMode.isOn {
+                timeMark = DemoMode.captureTimeMark
+                text = DemoMode.captureDraft
+                // 포커스 시 전체 선택되므로, 입력 중인 모습이 되게 커서를 끝으로 옮긴다.
+                DispatchQueue.main.asyncAfter(deadline: .now() + 0.6) {
+                    if let editor = NSApp.keyWindow?.firstResponder as? NSTextView {
+                        editor.setSelectedRange(NSRange(location: (editor.string as NSString).length, length: 0))
+                    }
+                }
+            }
+            #endif
         }
     }
 

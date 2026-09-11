@@ -21,10 +21,12 @@ struct LectureSummaryView: View {
             header
             Divider()
             ScrollView {
-                VStack(alignment: .leading, spacing: 24) {
-                    statRow
+                VStack(alignment: .leading, spacing: 28) {
+                    Text("질문 \(questions.count) · 던질 질문 \(toAsk.count) · 배운 점 \(learned.count) · 꼬리질문 \(followUps)")
+                        .scaledFont(.callout)
+                        .foregroundStyle(.secondary)
                     if !combinedNotes.isEmpty {
-                        notesCard
+                        notesSection
                     }
                     toAskSection
                     learnedSection
@@ -45,8 +47,6 @@ struct LectureSummaryView: View {
     private var header: some View {
         HStack(alignment: .firstTextBaseline) {
             VStack(alignment: .leading, spacing: 2) {
-                Label("강의 요약", systemImage: "doc.text.magnifyingglass")
-                    .scaledFont(.headline)
                 Text(lecture.title)
                     .scaledFont(.title2, weight: .bold)
                 Text(lecture.createdAt.formatted(date: .long, time: .omitted))
@@ -58,31 +58,6 @@ struct LectureSummaryView: View {
                 .keyboardShortcut(.escape, modifiers: [])
         }
         .padding(16)
-    }
-
-    // MARK: Stats
-
-    private var statRow: some View {
-        HStack(spacing: 12) {
-            stat("전체 질문", "\(questions.count)", "questionmark.bubble", .blue)
-            stat("던질 질문", "\(toAsk.count)", "circle.dashed", .orange)
-            stat("배운 점", "\(learned.count)", "checkmark.circle.fill", .green)
-            stat("꼬리질문", "\(followUps)", "arrow.turn.down.right", .teal)
-        }
-    }
-
-    private func stat(_ title: String, _ value: String, _ icon: String, _ color: Color) -> some View {
-        VStack(alignment: .leading, spacing: 6) {
-            Label(title, systemImage: icon)
-                .scaledFont(.caption)
-                .foregroundStyle(.secondary)
-            Text(value)
-                .scaledFont(.title, weight: .bold, design: .rounded)
-                .foregroundStyle(color)
-        }
-        .frame(maxWidth: .infinity, alignment: .leading)
-        .padding(14)
-        .background(color.opacity(0.10), in: RoundedRectangle(cornerRadius: 12))
     }
 
     // MARK: Notes
@@ -98,47 +73,37 @@ struct LectureSummaryView: View {
         return parts.joined(separator: "\n\n")
     }
 
-    private var notesCard: some View {
+    private var notesSection: some View {
         VStack(alignment: .leading, spacing: 8) {
-            Label("강의 메모", systemImage: "note.text")
-                .scaledFont(.subheadline, weight: .semibold)
-                .foregroundStyle(.secondary)
+            sectionTitle("메모")
             Text(combinedNotes)
                 .scaledFont(.body)
                 .textSelection(.enabled)
                 .frame(maxWidth: .infinity, alignment: .leading)
         }
-        .padding(16)
-        .background(.quaternary.opacity(0.4), in: RoundedRectangle(cornerRadius: 12))
     }
 
     // MARK: To-ask (unresolved)
 
     private var toAskSection: some View {
         VStack(alignment: .leading, spacing: 10) {
-            sectionTitle("던질 질문", systemImage: "circle.dashed",
-                         count: toAsk.count, color: .orange)
+            sectionTitle("던질 질문", count: toAsk.count)
             if toAsk.isEmpty {
-                emptyLine("아직 던질 질문이 없어요 — 모두 해결됐네요 🎉")
+                emptyLine("모두 해결했어요")
             } else {
                 ForEach(toAsk, id: \.uuid) { q in
-                    HStack(alignment: .top, spacing: 10) {
-                        Image(systemName: q.linkedFrom.isEmpty ? "circle" : "arrow.turn.down.right")
-                            .foregroundStyle(q.linkedFrom.isEmpty ? .orange : .teal)
-                            .scaledFont(.body)
-                        VStack(alignment: .leading, spacing: 2) {
-                            Text(q.text)
-                                .textSelection(.enabled)
-                            if !q.timeMark.isEmpty {
-                                Label(q.timeMark, systemImage: "clock")
-                                    .scaledFont(.caption)
-                                    .foregroundStyle(.secondary)
-                            }
-                        }
+                    HStack(alignment: .firstTextBaseline) {
+                        Text(q.text)
+                            .textSelection(.enabled)
+                            // 꼬리질문은 들여써서 구분
+                            .padding(.leading, q.linkedFrom.isEmpty ? 0 : 16)
                         Spacer()
+                        if !q.timeMark.isEmpty {
+                            Text(q.timeMark)
+                                .scaledFont(.caption, monospacedDigit: true)
+                                .foregroundStyle(.secondary)
+                        }
                     }
-                    .padding(12)
-                    .background(.orange.opacity(0.08), in: RoundedRectangle(cornerRadius: 10))
                 }
             }
         }
@@ -147,48 +112,33 @@ struct LectureSummaryView: View {
     // MARK: Learned (resolved)
 
     private var learnedSection: some View {
-        VStack(alignment: .leading, spacing: 10) {
-            sectionTitle("배운 점", systemImage: "checkmark.circle.fill",
-                         count: learned.count, color: .green)
+        VStack(alignment: .leading, spacing: 14) {
+            sectionTitle("배운 점", count: learned.count)
             if learned.isEmpty {
-                emptyLine("아직 정리된 배운 점이 없어요. 질문을 해결로 표시하면 여기 모여요.")
+                emptyLine("질문을 해결로 표시하면 여기 모여요")
             } else {
                 ForEach(learned, id: \.uuid) { q in
-                    VStack(alignment: .leading, spacing: 6) {
-                        HStack(alignment: .top, spacing: 8) {
-                            Image(systemName: "checkmark.circle.fill")
-                                .foregroundStyle(.green)
+                    VStack(alignment: .leading, spacing: 4) {
+                        HStack(alignment: .firstTextBaseline) {
                             Text(q.text)
                                 .scaledFont(.callout, weight: .semibold)
                                 .textSelection(.enabled)
                             Spacer()
-                            Button {
+                            Button("제외") {
                                 withAnimation { q.isLearned = false }
-                            } label: {
-                                Label("제외", systemImage: "minus.circle")
-                                    .scaledFont(.caption)
                             }
                             .buttonStyle(.borderless)
+                            .scaledFont(.caption)
                             .foregroundStyle(.secondary)
                             .help("배운 점에서 제외 (답은 그대로 남아요)")
                         }
                         let answer = q.answer.trimmingCharacters(in: .whitespacesAndNewlines)
-                        if answer.isEmpty {
-                            Text("답 메모가 비어 있어요")
-                                .scaledFont(.callout)
-                                .foregroundStyle(.tertiary)
-                                .padding(.leading, 24)
-                        } else {
-                            Text(answer)
-                                .scaledFont(.callout)
-                                .foregroundStyle(.primary)
-                                .textSelection(.enabled)
-                                .padding(.leading, 24)
-                        }
+                        Text(answer.isEmpty ? "답 메모가 비어 있어요" : answer)
+                            .scaledFont(.callout)
+                            .foregroundStyle(answer.isEmpty ? .tertiary : .primary)
+                            .textSelection(.enabled)
                     }
                     .frame(maxWidth: .infinity, alignment: .leading)
-                    .padding(12)
-                    .background(.green.opacity(0.08), in: RoundedRectangle(cornerRadius: 10))
                 }
             }
         }
@@ -198,55 +148,41 @@ struct LectureSummaryView: View {
 
     private var excludedSection: some View {
         VStack(alignment: .leading, spacing: 10) {
-            sectionTitle("제외한 답", systemImage: "tray",
-                         count: excluded.count, color: .gray)
-            Text("답은 있지만 ‘배운 점’에서 뺀 항목이에요. 다시 넣을 수 있어요.")
-                .scaledFont(.caption)
-                .foregroundStyle(.secondary)
+            sectionTitle("제외한 답", count: excluded.count)
             ForEach(excluded, id: \.uuid) { q in
-                HStack(alignment: .top, spacing: 8) {
-                    Image(systemName: "minus.circle")
-                        .foregroundStyle(.secondary)
+                HStack(alignment: .firstTextBaseline) {
                     Text(q.text)
                         .scaledFont(.callout)
                         .foregroundStyle(.secondary)
                         .textSelection(.enabled)
                     Spacer()
-                    Button {
+                    Button("다시 넣기") {
                         withAnimation { q.isLearned = true }
-                    } label: {
-                        Label("배운 점에 넣기", systemImage: "plus.circle")
-                            .scaledFont(.caption)
                     }
                     .buttonStyle(.borderless)
+                    .scaledFont(.caption)
                     .help("다시 배운 점으로")
                 }
-                .frame(maxWidth: .infinity, alignment: .leading)
-                .padding(12)
-                .background(.gray.opacity(0.08), in: RoundedRectangle(cornerRadius: 10))
             }
         }
     }
 
     // MARK: Helpers
 
-    private func sectionTitle(_ title: String, systemImage: String,
-                              count: Int, color: Color) -> some View {
-        HStack(spacing: 8) {
-            Label(title, systemImage: systemImage)
+    private func sectionTitle(_ title: String, count: Int? = nil) -> some View {
+        HStack(alignment: .firstTextBaseline, spacing: 6) {
+            Text(title)
                 .scaledFont(.title3, weight: .semibold)
-            Text("\(count)")
-                .scaledFont(.caption, weight: .bold)
-                .padding(.horizontal, 7)
-                .padding(.vertical, 2)
-                .background(color.opacity(0.2), in: Capsule())
-                .foregroundStyle(color)
+            if let count {
+                Text("\(count)")
+                    .scaledFont(.callout)
+                    .foregroundStyle(.secondary)
+            }
         }
     }
 
     private func emptyLine(_ text: String) -> some View {
         Text(text)
             .foregroundStyle(.tertiary)
-            .padding(.vertical, 4)
     }
 }

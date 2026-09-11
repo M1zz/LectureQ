@@ -12,44 +12,13 @@ enum AIPrompt: String, CaseIterable, Identifiable {
 
     var id: String { rawValue }
 
-    /// 5단계 중 몇 번째인지 (선택기에서 순서를 보여주기 위함)
-    var badge: String {
-        switch self {
-        case .refine:    return "①"
-        case .ask:       return "②"
-        case .verify:    return "③"
-        case .followUps: return "④"
-        case .grade:     return "⑤"
-        }
-    }
-
     var title: String {
         switch self {
         case .refine:    return "질문 다듬기"
-        case .ask:       return "답 찾기 (맥락 포함)"
-        case .verify:    return "답 되묻기 (검증)"
+        case .ask:       return "답 찾기"
+        case .verify:    return "답 되묻기"
         case .followUps: return "꼬리질문 뽑기"
         case .grade:     return "내 답 채점받기"
-        }
-    }
-
-    var subtitle: String {
-        switch self {
-        case .refine:    return "흐릿한 질문을 답할 수 있는 형태로"
-        case .ask:       return "강의·내 상태·원하는 답 형식까지 붙여서"
-        case .verify:    return "전제·반례·1차 출처를 확인"
-        case .followUps: return "대화에서 새로 생긴 모름 찾기"
-        case .grade:     return "적어 둔 답을 고쳐 받기"
-        }
-    }
-
-    var systemImage: String {
-        switch self {
-        case .refine:    return "wand.and.stars"
-        case .ask:       return "sparkles"
-        case .verify:    return "checkmark.shield"
-        case .followUps: return "arrow.turn.down.right"
-        case .grade:     return "pencil.and.outline"
         }
     }
 
