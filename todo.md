@@ -270,6 +270,12 @@
       "앱 제거하면 삭제" → 컨테이너 폴더가 남을 수 있음으로 정정, 최종 업데이트 2026-09-11
 - [x] README에 링크 표(홈·지원·개인정보·AI 가이드) 추가, main 푸시로 GitHub Pages(main /docs) 배포
 
+## 완료 (README · 홈페이지 이름 맞추기)
+- [x] README를 현재 앱 기준으로 갱신: 제목 '질문 노트 (LectureQ)', 핵심 기능(? 표시·타임블록·AI 프롬프트·보기 메뉴·가져오기),
+      데모 모드·`appstore/capture.sh`, 저장 위치(초기화 안내 정정), 파일 구성 12개 + docs/·appstore/, 끝난 확장 아이디어(그래프 노드 이동) 제거
+- [x] `docs/index.html`: 제목·헤더 '질문 노트', 부제 'LectureQ · macOS 앱', 로고 Q → ?, 소개 문구·푸터 갱신
+- [x] `docs/ai-guide.html`: 탭 제목·뒤로 링크·푸터의 'LectureQ' → '질문 노트' (사이트 전체 이름 통일)
+
 ## 다음 아이디어 (README 확장 아이디어 참고)
 - [ ] 메뉴바 익스트라 전역 캡처
 - [ ] 미해결 질문 spaced-repetition 리마인더
