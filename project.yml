@@ -29,6 +29,8 @@ targets:
     info:
       path: LectureQ/Info.plist
       properties:
+        # 수출 규정: 운영체제 암호화(HTTPS 등)만 쓴다 — 심사 때 암호화 질문을 건너뛴다
+        ITSAppUsesNonExemptEncryption: false
         CFBundleName: 질문 노트
         CFBundleDisplayName: 질문 노트
         LSMinimumSystemVersion: "14.0"
