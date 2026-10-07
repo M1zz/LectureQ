@@ -1,11 +1,13 @@
 import SwiftUI
 import SwiftData
+import LeeoKit
 
 @main
 struct LectureQApp: App {
     let container: ModelContainer
 
     init() {
+        LeeoKit.bootstrap(LectureQSpec.self)
         container = Self.makeContainer()
     }
 

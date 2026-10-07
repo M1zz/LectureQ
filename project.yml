@@ -14,6 +14,11 @@ settings:
     DEVELOPMENT_TEAM: QGAQ3AY3R3
     CODE_SIGN_STYLE: Automatic
 
+packages:
+  LeeoKit:
+    url: https://github.com/M1zz/LeeoKit.git
+    majorVersion: 3.16.1
+
 targets:
   LectureQ:
     type: application
@@ -21,6 +26,8 @@ targets:
     deploymentTarget: "14.0"
     sources:
       - path: LectureQ
+    dependencies:
+      - package: LeeoKit
     entitlements:
       path: LectureQ/LectureQ.entitlements
       properties:
