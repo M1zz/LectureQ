@@ -2,7 +2,8 @@
 # 앱스토어 스크린샷 생성: 데모 모드로 앱을 띄워 화면별 창을 캡처하고 2880×1800 이미지로 합성한다.
 #
 # usage: appstore/capture.sh [screen ...]   (기본: main capture summary graph timeline state)
-# 결과: appstore/screenshots/NN_<screen>.png
+# 결과: docs/screenshots/marketing/ko/NN_<screen>.png (DeployBar 가 여기서 읽어 올린다)
+#       원본 창 캡처는 docs/screenshots/raw/ko/<screen>.png
 #
 # - Debug 빌드의 데모 모드(-DemoMode YES)는 메모리 저장소에 예시 데이터를 채우므로 실제 데이터는 건드리지 않는다.
 # - 캡처 동안 앱 창이 잠깐씩 앞으로 나온다. screencapture 에 화면 기록 권한이 필요하다.
@@ -11,7 +12,8 @@ cd "$(dirname "$0")/.."
 ROOT="$(pwd)"
 S="$ROOT/appstore"
 APP="$ROOT/build/Build/Products/Debug/LectureQ.app"
-RAW="$S/raw"
+RAW="$ROOT/docs/screenshots/raw/ko"
+OUT="$ROOT/docs/screenshots/marketing/ko"
 WIN_W=1280; WIN_H=880; FONT_INDEX=1
 SCREENS=("$@")
 [ ${#SCREENS[@]} -eq 0 ] && SCREENS=(main capture summary graph timeline state)
@@ -27,11 +29,13 @@ mkdir -p "$RAW"
 for SCREEN in "${SCREENS[@]}"; do
   echo "▶ 캡처: $SCREEN"
   open -n "$APP" --args -DemoMode YES -DemoScreen "$SCREEN" -fontScaleIndex "$FONT_INDEX" \
-    -DemoWidth "$WIN_W" -DemoHeight "$WIN_H" -ApplePersistenceIgnoreState YES
+    -DemoWidth "$WIN_W" -DemoHeight "$WIN_H" -ApplePersistenceIgnoreState YES \
+    -AppleLanguages "(ko)" -AppleLocale ko_KR
 
   PID=""
   for i in $(seq 1 50); do
-    PID=$(pgrep -f "$APP/Contents/MacOS/LectureQ" | head -1 || true)
+    # 경로로 찾지 않는다 — 한글 폴더 이름은 NFC/NFD 가 달라 pgrep -f 가 놓친다.
+    PID=$(pgrep -nx LectureQ || true)
     [ -n "$PID" ] && break
     sleep 0.2
   done
@@ -46,4 +50,4 @@ for SCREEN in "${SCREENS[@]}"; do
 done
 
 echo "▶ 합성"
-python3 "$S/compose.py" "$RAW" "$S/screenshots"
+python3 "$S/compose.py" "$RAW" "$OUT"

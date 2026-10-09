@@ -62,7 +62,7 @@ open -n build/Build/Products/Debug/LectureQ.app --args -DemoMode YES -DemoScreen
 # DemoScreen: main / capture / graph / summary / timeline / state
 ```
 
-앱스토어 스크린샷은 스크립트 한 번으로 만듭니다 (화면 기록 권한 필요, 결과: `appstore/screenshots/`).
+앱스토어 스크린샷은 스크립트 한 번으로 만듭니다 (화면 기록 권한 필요, 결과: `docs/screenshots/marketing/ko/` — DeployBar 가 여기서 읽어 올린다).
 
 ```bash
 appstore/capture.sh              # 전체
