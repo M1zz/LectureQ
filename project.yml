@@ -1,14 +1,21 @@
 name: LectureQ
 options:
   bundleIdPrefix: com.lectureq
+  # 앱 화면은 한국어 하나다. 개발 언어를 ko 로 두어야 날짜·시각도 한국어 형식으로 나온다
+  # (en 이면 lproj 가 없는 이 앱은 영어로 떨어져 "October 9, 2026" · "10:00 AM" 으로 보인다).
+  developmentLanguage: ko
   deploymentTarget:
     macOS: "14.0"
   createIntermediateGroups: true
 
+# 버전·빌드 번호의 단일 소스 — DeployBar 가 배포할 때 이 파일을 고친다.
+# ⚠️ MARKETING_VERSION · CURRENT_PROJECT_VERSION 을 아래 settings 에 다시 넣지 말 것.
+configFiles:
+  Debug: Config/Version.xcconfig
+  Release: Config/Version.xcconfig
+
 settings:
   base:
-    MARKETING_VERSION: "1.0"
-    CURRENT_PROJECT_VERSION: "1"
     SWIFT_VERSION: "5.0"
     GENERATE_INFOPLIST_FILE: NO
     DEVELOPMENT_TEAM: QGAQ3AY3R3
