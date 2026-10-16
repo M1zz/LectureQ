@@ -41,13 +41,11 @@ struct SettingsView: View {
         let version = Bundle.main.object(forInfoDictionaryKey: "CFBundleShortVersionString") as? String ?? "?"
         let build = Bundle.main.object(forInfoDictionaryKey: "CFBundleVersion") as? String ?? "?"
         let os = ProcessInfo.processInfo.operatingSystemVersionString
-        var c = URLComponents()
-        c.scheme = "mailto"
-        c.path = LectureQSpec.developerEmail
-        c.queryItems = [
+        var c = URLComponents(string: "mailto:\(LectureQSpec.developerEmail)")
+        c?.queryItems = [
             URLQueryItem(name: "subject", value: "[\(LectureQSpec.appName)] 문의"),
             URLQueryItem(name: "body", value: "\n\n\n—\n앱 버전: \(version) (\(build))\nmacOS: \(os)")
         ]
-        return c.url
+        return c?.url
     }
 }
