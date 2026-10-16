@@ -35,6 +35,9 @@ targets:
       - path: LectureQ
     dependencies:
       - package: LeeoKit
+    scheme:
+      testTargets:
+        - LectureQTests
     entitlements:
       path: LectureQ/LectureQ.entitlements
       properties:
@@ -63,3 +66,18 @@ targets:
         ENABLE_HARDENED_RUNTIME: YES
         COMBINE_HIDPI_IMAGES: YES
         ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+
+  # 핵심 순수 로직(마크다운 가져오기 해석 · 시점 계산 · 질문 블록 배치) 단위 테스트.
+  # 앱을 호스트로 띄우되, 앱은 테스트 중엔 메모리 저장소만 쓴다(LectureQApp.isRunningUnitTests).
+  LectureQTests:
+    type: bundle.unit-test
+    platform: macOS
+    deploymentTarget: "14.0"
+    sources:
+      - path: LectureQTests
+    dependencies:
+      - target: LectureQ
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.lectureq.LectureQTests
+        GENERATE_INFOPLIST_FILE: YES

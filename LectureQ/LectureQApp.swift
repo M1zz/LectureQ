@@ -7,6 +7,14 @@ struct LectureQApp: App {
     let container: ModelContainer
 
     init() {
+        // 단위 테스트(LectureQTests)가 이 앱을 호스트로 띄울 때: 사용자의 실제 저장 파일을 열지 않고,
+        // 통계·플래그 네트워크도 타지 않는다. 테스트는 메모리 저장소만 쓴다.
+        if Self.isRunningUnitTests {
+            container = try! ModelContainer(
+                for: Lecture.self, Question.self, Block.self,
+                configurations: ModelConfiguration(isStoredInMemoryOnly: true, cloudKitDatabase: .none))
+            return
+        }
         // LeeoKit 계약을 켜는 한 줄 (→ LectureQSpec.swift). 실행 횟수 기록 · 익명 사용 통계 · DEBUG 프리플라이트.
         // 통계는 피드백 허브(CloudKit)로 간다. 크래시 진단(MetricKit)은 macOS 에선 LeeoKit 안에서 no-op.
         LeeoKit.bootstrap(LectureQSpec.self)
@@ -19,6 +27,11 @@ struct LectureQApp: App {
                 .frame(minWidth: 960, minHeight: 600)
         }
         .modelContainer(container)
+    }
+
+    /// XCTest 가 앱을 호스트로 실행 중인가.
+    static var isRunningUnitTests: Bool {
+        ProcessInfo.processInfo.environment["XCTestConfigurationFilePath"] != nil
     }
 
     /// 데이터가 사라지지 않도록, 눈에 보이는 실제 파일에 SwiftData 저장소를 만든다.
