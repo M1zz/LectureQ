@@ -4,8 +4,8 @@
 //
 //  LeeoKit 계약(LeeoAppSpec) 준수 — 이 앱의 공통 기능 설정값 단일 소스.
 //
-//  ⚠️ 피드백 허브(iCloud.com.Ysoup.FeedbackHub)는 아직 이 앱의 entitlements 에 없다.
-//     (샌드박스에 네트워크 권한도 없다.) 피드백 화면을 켜기 전에 둘 다 먼저 추가해야 한다.
+//  피드백 허브(iCloud.com.Ysoup.FeedbackHub) 컨테이너와 샌드박스 네트워크 권한은
+//  project.yml 의 entitlements 에 있다 (→ LectureQ/LectureQ.entitlements 로 생성된다).
 //
 
 import Foundation
@@ -19,6 +19,10 @@ enum LectureQSpec: LeeoAppSpec {
         containerIdentifier: "iCloud.com.Ysoup.FeedbackHub",
         appIdentifier: "com.lectureq.LectureQ"
     )
+
+    /// 익명 사용 통계 — 설치 수·실행 일수·버전 분포를 피드백 허브로 보낸다.
+    /// 기본값(LeeoNoopAnalytics)이면 부트스트랩이 아무것도 안 보낸다. 무엇을 보내는지는 docs/privacy.html.
+    static let analytics: any LeeoAnalytics = LeeoUsageAnalytics(spec: LectureQSpec.self)
 
     /// 지원·개인정보 페이지 (README.md, docs/).
     static let legal = LeeoLegalConfig(

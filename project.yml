@@ -40,6 +40,12 @@ targets:
       properties:
         com.apple.security.app-sandbox: true
         com.apple.security.files.user-selected.read-only: true
+        # 익명 사용 통계를 피드백 허브(CloudKit)로 보낸다 — 컨테이너 권한 없이 CKContainer 를 만들면 앱이 죽는다.
+        com.apple.security.network.client: true
+        com.apple.developer.icloud-container-identifiers:
+          - iCloud.com.Ysoup.FeedbackHub
+        com.apple.developer.icloud-services:
+          - CloudKit
     info:
       path: LectureQ/Info.plist
       properties:

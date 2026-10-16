@@ -7,6 +7,8 @@ struct LectureQApp: App {
     let container: ModelContainer
 
     init() {
+        // LeeoKit 계약을 켜는 한 줄 (→ LectureQSpec.swift). 실행 횟수 기록 · 익명 사용 통계 · DEBUG 프리플라이트.
+        // 통계는 피드백 허브(CloudKit)로 간다. 크래시 진단(MetricKit)은 macOS 에선 LeeoKit 안에서 no-op.
         LeeoKit.bootstrap(LectureQSpec.self)
         container = Self.makeContainer()
     }
