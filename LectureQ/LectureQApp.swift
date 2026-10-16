@@ -15,9 +15,15 @@ struct LectureQApp: App {
                 configurations: ModelConfiguration(isStoredInMemoryOnly: true, cloudKitDatabase: .none))
             return
         }
-        // LeeoKit 계약을 켜는 한 줄 (→ LectureQSpec.swift). 실행 횟수 기록 · 익명 사용 통계 · DEBUG 프리플라이트.
-        // 통계는 피드백 허브(CloudKit)로 간다. 크래시 진단(MetricKit)은 macOS 에선 LeeoKit 안에서 no-op.
-        LeeoKit.bootstrap(LectureQSpec.self)
+        // LeeoKit 계약을 켜는 한 줄 (→ LectureQSpec.swift). 실행 횟수 기록 · 익명 사용 통계 · 원격 킬스위치 갱신
+        // · DEBUG 프리플라이트. 통계·플래그는 피드백 허브(CloudKit)로 간다.
+        // 크래시 진단(MetricKit)은 macOS 에선 LeeoKit 안에서 no-op.
+        // 통계는 원격 플래그(→ LectureQFlags.swift)로 끌 수 있다 — 지난 실행에서 받아 둔 값을 읽는다.
+        LeeoKit.bootstrap(
+            LectureQSpec.self,
+            flags: LectureQFlag.self,
+            usageReporting: LeeoRemoteFlags.isEnabled(LectureQFlag.usageReportingEnabled)
+        )
         container = Self.makeContainer()
     }
 
@@ -25,8 +31,14 @@ struct LectureQApp: App {
         WindowGroup {
             ContentView()
                 .frame(minWidth: 960, minHeight: 600)
+                .satisfactionCheckIfEnabled()
         }
         .modelContainer(container)
+
+        // 앱 메뉴 ▸ 설정… (⌘,) — 피드백 · 리뷰 · 문의 · 정책 링크
+        Settings {
+            SettingsView()
+        }
     }
 
     /// XCTest 가 앱을 호스트로 실행 중인가.
@@ -76,5 +88,18 @@ struct LectureQApp: App {
             try? fm.createDirectory(at: dir, withIntermediateDirectories: true)
         }
         return dir.appendingPathComponent("LectureQ.store")
+    }
+}
+
+private extension View {
+    /// 만족도 질문("즐겁게 쓰고 계신가요?") — 조건(실행 횟수·설치 일수·질문 해결 같은 긍정 행동)이 맞을 때만
+    /// LeeoKit 이 스스로 묻는다. 원격 플래그로 끌 수 있고, 스크린샷 데모 모드에서는 묻지 않는다.
+    @ViewBuilder
+    func satisfactionCheckIfEnabled() -> some View {
+        if !DemoMode.isOn, LeeoRemoteFlags.isEnabled(LectureQFlag.satisfactionPromptEnabled) {
+            self.leeoSatisfactionCheck(LectureQSpec.self)
+        } else {
+            self
+        }
     }
 }

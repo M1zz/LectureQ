@@ -1,6 +1,7 @@
 import SwiftUI
 import SwiftData
 import AppKit
+import LeeoKit
 
 struct QuestionDetailView: View {
     @Bindable var question: Question
@@ -51,7 +52,14 @@ struct QuestionDetailView: View {
 
     private var statusRow: some View {
         HStack(spacing: 16) {
-            Toggle("해결됨", isOn: $question.isResolved)
+            Toggle("해결됨", isOn: Binding(
+                get: { question.isResolved },
+                set: { resolved in
+                    question.isResolved = resolved
+                    // 질문을 풀어낸 순간 — 만족도 질문의 근거가 되는 긍정 행동
+                    if resolved { LeeoEngagement.shared.registerSignificantEvent() }
+                }
+            ))
             // 요약의 "배운 점"은 해결됨 + 이 토글이 켜진 것만 모은다. 해결 전에는 의미가 없어 숨긴다.
             if question.isResolved {
                 Toggle("배운 점에 포함", isOn: $question.isLearned)
@@ -91,6 +99,8 @@ struct QuestionDetailView: View {
 
             TextEditor(text: $question.answer)
                 .scaledFont(13)
+                .accessibilityLabel("답")
+                .accessibilityHint("이 질문의 답을 내 말로 정리해 적습니다")
                 .frame(minHeight: 160)
                 .scrollContentBackground(.hidden)
                 .padding(8)
