@@ -195,6 +195,7 @@ struct BlockView: View {
                 Spacer()
                 ColorPicker("", selection: colorBinding, supportsOpacity: false)
                     .labelsHidden()
+                    .accessibilityLabel("블록 색상")
             }
             HStack {
                 Text("시작")
@@ -202,6 +203,7 @@ struct BlockView: View {
                 DatePicker("", selection: $block.startTime,
                            displayedComponents: [.date, .hourAndMinute])
                     .labelsHidden()
+                    .accessibilityLabel("블록 시작 시각")
             }
             HStack {
                 Text("기간")
@@ -266,6 +268,11 @@ struct BlockView: View {
                         .buttonStyle(QDotButtonStyle())
                         .disabled(onSelectQuestion == nil)
                         .position(x: geo.size.width / 2, y: item.y)
+                        .accessibilityLabel(item.q.timeMark.isEmpty
+                                            ? item.q.text
+                                            : "\(item.q.timeMark), \(item.q.text)")
+                        .accessibilityValue(item.q.isResolved ? "해결됨" : "미해결")
+                        .accessibilityHint(onSelectQuestion == nil ? "" : "누르면 이 질문으로 이동합니다")
                         .help(item.q.timeMark.isEmpty
                               ? item.q.text
                               : "\(item.q.timeMark) · \(item.q.text)")
@@ -351,6 +358,7 @@ struct BlockView: View {
             ZStack(alignment: .topLeading) {
                 TextEditor(text: $block.notes)
                     .scaledFont(13)
+                    .accessibilityLabel("블록 메모")
                     .scrollContentBackground(.hidden)
                 if block.notes.isEmpty {
                     // TextEditor(NSTextView)의 텍스트 시작 위치(lineFragmentPadding=5)에 맞춰 정렬

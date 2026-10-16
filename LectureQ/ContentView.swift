@@ -1,6 +1,8 @@
 import SwiftUI
 import SwiftData
 import UniformTypeIdentifiers
+import TipKit
+import LeeoKit
 
 // MARK: - 앱 글씨 크기 배율 (macOS는 dynamicTypeSize가 안 먹혀서 직접 배율 적용)
 
@@ -92,6 +94,16 @@ struct ContentView: View {
     @State private var showImporter = false
     @State private var importError: String?
 
+    // 첫 실행 안내(→ OnboardingView.swift). 강의가 하나도 없는 처음 사용자에게만 한 번 띄운다.
+    @AppStorage("hasSeenOnboarding") private var hasSeenOnboarding = false
+    @State private var showOnboarding = false
+
+    // 단축어 "질문 추가"(→ AppShortcuts.swift)가 입력창을 열어 달라고 할 때 받는 곳
+    @ObservedObject private var captureRequest = CaptureRequest.shared
+
+    // 질문이 쌓이면 보기 메뉴(요약·그래프)를 알려 주는 팁 (→ FeatureTips.swift)
+    private let reviewTip = ReviewViewsTip()
+
     // 마지막으로 보던 강의를 기억했다가 다음 실행 때 복원한다.
     @AppStorage("lastLectureUUID") private var lastLectureUUID = ""
 
@@ -121,6 +133,21 @@ struct ContentView: View {
             .appFontScale(fontScale)
         }
         .appFontScale(fontScale)
+        .sheet(isPresented: $showOnboarding) {
+            LectureQOnboardingView(
+                onCreateLecture: {
+                    hasSeenOnboarding = true
+                    showOnboarding = false
+                    addLectureQuick()
+                },
+                onDismiss: {
+                    hasSeenOnboarding = true
+                    showOnboarding = false
+                }
+            )
+            .appFontScale(fontScale)
+            .interactiveDismissDisabled()
+        }
         .sheet(isPresented: $showQuickCapture) {
             QuickCaptureView(lecture: selectedLecture ?? lectures.first)
                 .appFontScale(fontScale)
@@ -156,6 +183,8 @@ struct ContentView: View {
                     let lecture = try LectureMarkdownImporter.importFile(at: url, in: context)
                     selectedQuestion = nil
                     selectedLecture = lecture
+                    // 대화를 강의로 옮겨 온 것 — 만족도 질문의 근거가 되는 긍정 행동
+                    LeeoEngagement.shared.registerSignificantEvent()
                 } catch {
                     importError = error.localizedDescription
                 }
@@ -171,7 +200,15 @@ struct ContentView: View {
         } message: {
             Text(importError ?? "")
         }
-        .onAppear(perform: restoreSelection)
+        .onAppear {
+            restoreSelection()
+            presentOnboardingIfNeeded()
+        }
+        .onReceive(captureRequest.$isPending) { pending in
+            guard pending else { return }
+            captureRequest.isPending = false
+            openCaptureFromShortcut()
+        }
         .onChange(of: selectedLecture) { _, newValue in
             // 강의를 바꿀 때마다 기억해 둔다. (nil이면 지우지 않고 유지)
             if let lecture = newValue {
@@ -214,11 +251,17 @@ struct ContentView: View {
     /// 강의를 다르게 보는 화면들 + 글씨 크기를 한 곳에 모은 메뉴.
     private var viewMenu: some View {
         Menu("보기") {
-            Button("요약") { showSummary = true }
+            Button("요약") {
+                showSummary = true
+                FeatureTips.markReviewOpened()
+            }
                 .disabled(selectedLecture == nil)
                 .keyboardShortcut("1", modifiers: .command)
 
-            Button("그래프") { showGraph = true }
+            Button("그래프") {
+                showGraph = true
+                FeatureTips.markReviewOpened()
+            }
                 .disabled(selectedLecture == nil)
                 .keyboardShortcut("2", modifiers: .command)
 
@@ -258,6 +301,34 @@ struct ContentView: View {
             }
         }
         .help("요약·그래프·타임블록·학습 상태·글씨 크기")
+        .popoverTip(reviewTip, arrowEdge: .top)
+    }
+
+    /// 처음 쓰는 사람(강의 0개)에게만 안내를 띄운다. 이미 강의가 있으면 업데이트 사용자이므로 띄우지 않고 본 것으로 둔다.
+    private func presentOnboardingIfNeeded() {
+        guard !hasSeenOnboarding, !DemoMode.isOn else { return }
+        if lectures.isEmpty, !captureRequest.isPending {
+            showOnboarding = true
+        } else {
+            hasSeenOnboarding = true
+        }
+    }
+
+    /// 단축어 "질문 추가": ⌘⇧N 과 같은 입력창을 연다. 강의가 하나도 없으면 먼저 하나 만든다
+    /// (강의 없이 연 입력창은 저장할 곳이 없다). 열려 있던 다른 창(안내·요약 등)은 닫고 연다.
+    private func openCaptureFromShortcut() {
+        let hadSheet = showOnboarding || showGraph || showSummary || showTimeline || showState
+        if showOnboarding { hasSeenOnboarding = true }
+        showOnboarding = false
+        showGraph = false
+        showSummary = false
+        showTimeline = false
+        showState = false
+        if lectures.isEmpty { addLectureQuick() }
+        // 닫히는 시트와 겹치면 새 시트가 뜨지 않으므로, 닫힌 뒤에 연다.
+        DispatchQueue.main.asyncAfter(deadline: .now() + (hadSheet ? 0.4 : 0)) {
+            showQuickCapture = true
+        }
     }
 
     /// 가져오기 파일 선택창에서 허용할 타입 (.md, 일반 텍스트).
@@ -580,6 +651,8 @@ struct QuestionRow: View {
             // 미해결 = 주황 빈 ? / 해결 = 초록 꽉 찬 ?
             Button {
                 question.isResolved.toggle()
+                // 질문을 풀어낸 순간 — 만족도 질문의 근거가 되는 긍정 행동
+                if question.isResolved { LeeoEngagement.shared.registerSignificantEvent() }
             } label: {
                 Image(systemName: question.isResolved ? "questionmark.circle.fill" : "questionmark.circle")
                     .scaledFont(14)
@@ -587,6 +660,9 @@ struct QuestionRow: View {
             }
             .buttonStyle(.plain)
             .help(question.isResolved ? "해결됨 — 눌러서 미해결로" : "미해결 — 눌러서 해결됨으로")
+            .accessibilityLabel("해결 여부")
+            .accessibilityValue(question.isResolved ? "해결됨" : "미해결")
+            .accessibilityHint(question.isResolved ? "누르면 미해결로 바꿉니다" : "누르면 해결됨으로 바꿉니다")
 
             Text(question.text)
                 .scaledFont(13)

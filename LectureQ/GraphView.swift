@@ -68,6 +68,7 @@ struct GraphContainerView: View {
         HStack(spacing: 6) {
             Button("−") { model.zoom(by: 1 / 1.2) }
                 .help("축소")
+                .accessibilityLabel("축소")
 
             Button {
                 model.fitToScreen()
@@ -78,9 +79,12 @@ struct GraphContainerView: View {
                     .frame(width: 42)
             }
             .help("화면에 맞추기")
+            .accessibilityLabel("화면에 맞추기")
+            .accessibilityValue("\(Int((model.scale * 100).rounded()))%")
 
             Button("+") { model.zoom(by: 1.2) }
                 .help("확대")
+                .accessibilityLabel("확대")
         }
         .buttonStyle(.bordered)
         .controlSize(.small)

@@ -32,6 +32,7 @@ struct QuickCaptureView: View {
                 // 지금 시각이 미리 채워지고, 그대로 고쳐 쓸 수 있다.
                 TextField("HH:mm", text: $timeMark)
                     .textFieldStyle(.roundedBorder)
+                    .accessibilityLabel("강의 시점")
                     .frame(width: 64)
                     .onSubmit { save() }
                     .help("강의 시점 (24시간 HH:mm). 지우면 시점 없이 저장돼요")
@@ -77,6 +78,7 @@ struct QuickCaptureView: View {
                          timeMark: timeMark.trimmingCharacters(in: .whitespaces),
                          lecture: lecture)
         context.insert(q)
+        FeatureTips.donateQuestionSaved()
         text = ""
         timeMark = timeMarkString()   // 이어서 적을 다음 질문은 그때의 지금 시각으로
         if keepOpen {

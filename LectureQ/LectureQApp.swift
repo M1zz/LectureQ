@@ -1,6 +1,7 @@
 import SwiftUI
 import SwiftData
 import LeeoKit
+import TipKit
 
 @main
 struct LectureQApp: App {
@@ -24,6 +25,10 @@ struct LectureQApp: App {
             flags: LectureQFlag.self,
             usageReporting: LeeoRemoteFlags.isEnabled(LectureQFlag.usageReportingEnabled)
         )
+        // 사용 팁(→ FeatureTips.swift). 스크린샷 데모 모드에서는 팁이 찍히지 않게 켜지 않는다.
+        if !DemoMode.isOn {
+            try? Tips.configure([.displayFrequency(.daily)])
+        }
         container = Self.makeContainer()
     }
 

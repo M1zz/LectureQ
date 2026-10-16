@@ -53,6 +53,7 @@ struct LectureStateView: View {
             ZStack(alignment: .topLeading) {
                 TextEditor(text: text)
                     .scaledFont(13)
+                    .accessibilityLabel(title)
                     .frame(minHeight: 100)
                     .scrollContentBackground(.hidden)
                     .padding(8)
