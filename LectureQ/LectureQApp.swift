@@ -29,12 +29,7 @@ struct LectureQApp: App {
         if DemoMode.isOn { return DemoMode.makeContainer(schema: schema) }
         #endif
         let storeURL = storeFileURL()
-
-        let config = ModelConfiguration(
-            schema: schema,
-            url: storeURL,
-            allowsSave: true
-        )
+        let config = storeConfiguration(schema: schema, url: storeURL)
 
         do {
             let container = try ModelContainer(for: schema, configurations: [config])
@@ -48,6 +43,15 @@ struct LectureQApp: App {
             원인: \(error)
             """)
         }
+    }
+
+    /// 저장소 설정. **CloudKit 동기화를 명시적으로 끈다(.none).**
+    /// 기본값(.automatic)은 엔타이틀먼트의 첫 iCloud 컨테이너로 동기화를 시도하는데, 이 앱의 컨테이너
+    /// (iCloud.com.Ysoup.FeedbackHub)는 익명 통계·피드백용이다. 모델이 CloudKit 규칙(모든 속성 기본값)을
+    /// 만족하지 않아 저장소가 열리지 않고 실행 즉시 중단되며, 열린다 해도 공책 내용이 남의 컨테이너로 올라간다.
+    /// 데이터는 이 Mac 에만 둔다(개인정보 처리방침과 같다).
+    static func storeConfiguration(schema: Schema, url: URL) -> ModelConfiguration {
+        ModelConfiguration(schema: schema, url: url, allowsSave: true, cloudKitDatabase: .none)
     }
 
     /// 저장 폴더가 없으면 만들고, 저장 파일의 전체 경로를 돌려준다.

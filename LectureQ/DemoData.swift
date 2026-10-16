@@ -24,7 +24,7 @@ extension DemoMode {
     static let captureTimeMark = "11:52"
 
     static func makeContainer(schema: Schema) -> ModelContainer {
-        let config = ModelConfiguration(schema: schema, isStoredInMemoryOnly: true)
+        let config = ModelConfiguration(schema: schema, isStoredInMemoryOnly: true, cloudKitDatabase: .none)
         let container = try! ModelContainer(for: schema, configurations: [config])
         seed(ModelContext(container))
         NSApplication.shared.appearance = NSAppearance(named: .aqua)
