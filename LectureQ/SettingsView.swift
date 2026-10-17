@@ -15,6 +15,10 @@ struct SettingsView: View {
                 }
 
                 Section {
+                    NavigationLink(LeeoRoadmapText.entry) { RoadmapScreen() }
+                }
+
+                Section {
                     if let mail = Self.mailURL {
                         Link(destination: mail) {
                             Label("메일로 문의하기", systemImage: "envelope")
