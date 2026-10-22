@@ -860,3 +860,69 @@ https://m1zz.github.io/LectureQ/privacy.html
 ### 마케팅 URL
 
 https://m1zz.github.io/LectureQ/
+
+## vi
+
+### 이름
+
+LectureQ: Hỏi đáp bài giảng
+
+### 부제
+
+Biến thắc mắc thành kiến thức
+
+### 키워드
+
+học tập,thi cử,ôn tập,hội thảo,đại học,khóa học,tự học,mindmap,dòng thời gian,prompt,sinh viên
+
+### 프로모션 텍스트
+
+Ghi lại thắc mắc nảy ra giữa giờ học chỉ với một phím tắt. Nó nằm cạnh ghi chú lúc đó, rồi câu hỏi nối tiếp và prompt AI giúp bạn tìm đáp án và biến thành điều đã học.
+
+### 설명
+
+Cuốn sổ học tập trên Mac giúp những câu hỏi nảy ra trong lúc nghe giảng không bị trôi mất.
+Hãy viết câu hỏi bằng những từ đơn giản, giữ nó cạnh ghi chú của thời điểm đó, rồi tìm câu trả lời và viết lại bằng lời của bạn để nó trở thành điều đã học.
+
+Câu hỏi nhanh
+Mở cửa sổ nhập bằng nút Thêm câu hỏi trên thanh công cụ hoặc Command Shift N. Thời điểm tự điền giờ hiện tại. Nhấn Return để lưu, hoặc Command Return để lưu và viết ngay câu hỏi tiếp theo.
+
+Danh sách câu hỏi
+Các câu hỏi nối tiếp xếp thụt vào dưới câu hỏi gốc. Câu hỏi chưa giải quyết và đã giải quyết được phân biệt bằng màu, và bạn có thể chỉ xem những câu chưa giải quyết.
+
+Ghi chú theo khối thời gian
+Chia một bài giảng thành nhiều khối thời gian và ghi chú cho từng khối. Câu hỏi hiện cạnh khối tương ứng, nhấp vào là đến thẳng câu hỏi đó. Nếu bạn để lại câu hỏi vào lúc nằm ngoài các khối, một khối sẽ tự được thêm.
+
+Chi tiết câu hỏi
+Quản lý trong một nơi: đã giải quyết chưa, có tính vào điều đã học không, thời điểm, câu trả lời do bạn viết, câu hỏi gốc và câu hỏi nối tiếp.
+
+Tìm câu trả lời bằng AI
+Năm bước prompt, từ trau chuốt câu hỏi, tìm câu trả lời, hỏi vặn câu trả lời, rút ra câu hỏi nối tiếp đến nhờ chấm điểm câu trả lời của bạn, được sao chép vào bảng nhớ tạm với tên bài giảng và ghi chú của thời điểm đó đã điền sẵn. Bạn chỉ cần dán vào dịch vụ AI đang dùng. Ứng dụng không tự gửi bất cứ gì ra ngoài.
+
+Nhìn tổng quan
+Phần tóm tắt bài giảng chỉ gom các câu hỏi cần hỏi, điều đã học và ghi chú, để đọc như một bản ôn tập. Biểu đồ cho thấy dòng suy nghĩ lan ra từ câu hỏi gốc đến các câu hỏi nối tiếp, còn màn hình khối thời gian giúp bạn lướt lại theo thứ tự thời gian xem đã học gì vào lúc nào.
+
+Trạng thái học tập
+Ghi lại bạn trước khi nghe giảng, bạn muốn trở thành thế nào sau khi học xong và điều muốn học, rồi so sánh.
+
+Nhập cuộc trò chuyện từ Markdown
+Nhập Markdown gồm tiêu đề, các phần và lời thoại theo từng người nói, ứng dụng sẽ tách thành bài giảng, câu hỏi và câu trả lời.
+
+Bạn có thể chỉnh cỡ chữ bằng Command cộng và Command trừ.
+
+Quyền riêng tư
+Không cần tài khoản, và mọi ghi chép chỉ được lưu trên máy Mac này.
+
+Cần macOS 14 trở lên.
+
+### 지원 URL
+
+https://m1zz.github.io/LectureQ/support.html
+
+### 개인정보처리방침 URL
+
+https://m1zz.github.io/LectureQ/privacy.html
+
+### 마케팅 URL
+
+https://m1zz.github.io/LectureQ/

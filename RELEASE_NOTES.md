@@ -82,3 +82,9 @@ Suporte e privacidade renovados
 วันที่และเวลาแสดงตามรูปแบบภาษาของคุณ
 ปรับข้อความและภาพหน้าจอใน App Store ใหม่
 จัดหน้าช่วยเหลือและความเป็นส่วนตัวใหม่
+
+### 앱스토어 (vi)
+
+Ngày giờ hiển thị theo ngôn ngữ của bạn
+Làm mới phần giới thiệu và ảnh App Store
+Làm mới trang hỗ trợ, quyền riêng tư

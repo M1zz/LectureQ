@@ -80,6 +80,12 @@
             "state" : "translated",
             "value" : "\n\n\n—\nเวอร์ชันแอป: %@ (%@)\nmacOS: %@"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "\n\n\n—\nPhiên bản ứng dụng: %@ (%@)\nmacOS: %@"
+          }
         }
       }
     },
@@ -161,6 +167,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "คัดลอก “%@” แล้ว"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đã sao chép “%@”"
           }
         }
       }
@@ -244,6 +256,12 @@
             "state" : "translated",
             "value" : "ขั้นที่ %lld, %@. %@"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bước %lld, %@. %@"
+          }
         }
       }
     },
@@ -325,6 +343,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld นาที"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld phút"
           }
         }
       }
@@ -408,6 +432,12 @@
             "state" : "translated",
             "value" : "คัดลอกพรอมต์ AI"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sao chép prompt AI"
+          }
         }
       }
     },
@@ -489,6 +519,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "คู่มือ: หาคำตอบด้วย AI"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hướng dẫn: tìm câu trả lời bằng AI"
           }
         }
       }
@@ -573,6 +609,12 @@
             "state" : "translated",
             "value" : "ล็อกด้วย Touch ID"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Khóa bằng Touch ID"
+          }
         }
       }
     },
@@ -655,6 +697,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ล็อกแอปด้วย Touch ID เพื่อปกป้องสมุดบันทึกคำถามของคุณ"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Khóa ứng dụng bằng Touch ID để giữ riêng tư cho sổ câu hỏi của bạn."
           }
         }
       }
@@ -739,6 +787,12 @@
             "state" : "translated",
             "value" : "ใช้งานกับ VoiceOver ได้สะดวกขึ้น"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dùng VoiceOver thoải mái hơn"
+          }
         }
       }
     },
@@ -820,6 +874,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "[%@] สอบถาม"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "[%@] Hỏi đáp"
           }
         }
       }
@@ -903,6 +963,12 @@
             "state" : "translated",
             "value" : "กด ⌘⇧N เพื่อเพิ่มคำถาม"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nhấn ⌘⇧N để thêm câu hỏi"
+          }
         }
       }
     },
@@ -984,6 +1050,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "เปิดคู่มือ"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mở hướng dẫn"
           }
         }
       }
@@ -1067,6 +1139,12 @@
             "state" : "translated",
             "value" : "นำเข้าไม่สำเร็จ"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nhập không thành công"
+          }
         }
       }
     },
@@ -1148,6 +1226,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "บทสนทนาที่นำเข้า"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cuộc trò chuyện đã nhập"
           }
         }
       }
@@ -1231,6 +1315,12 @@
             "state" : "translated",
             "value" : "คัดลอกพรอมต์ที่ใส่บริบทของบทเรียนไปยังคลิปบอร์ด"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sao chép vào bảng nhớ tạm một prompt đã điền bối cảnh bài giảng của bạn"
+          }
         }
       }
     },
@@ -1312,6 +1402,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "เลือกบทเรียน"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chọn bài giảng"
           }
         }
       }
@@ -1395,6 +1491,12 @@
             "state" : "translated",
             "value" : "เวลาในบทเรียน"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Thời điểm trong bài giảng"
+          }
         }
       }
     },
@@ -1476,6 +1578,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "เวลาในบทเรียน (24 ชั่วโมง HH:mm)"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Thời điểm trong bài giảng (24 giờ, HH:mm)"
           }
         }
       }
@@ -1559,6 +1667,12 @@
             "state" : "translated",
             "value" : "เวลาในบทเรียน (24 ชั่วโมง HH:mm) หากลบออกจะบันทึกโดยไม่มีเวลา"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Thời điểm trong bài giảng (24 giờ, HH:mm). Nếu xóa, câu hỏi sẽ được lưu không kèm thời điểm"
+          }
         }
       }
     },
@@ -1640,6 +1754,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ไม่มีบทเรียน"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chưa có bài giảng"
           }
         }
       }
@@ -1723,6 +1843,12 @@
             "state" : "translated",
             "value" : "ชื่อบทเรียน"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tên bài giảng"
+          }
         }
       }
     },
@@ -1804,6 +1930,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "สมุดที่เก็บคำถามที่เกิดระหว่างเรียนไว้ เพื่อให้ตอบด้วยคำพูดของตัวเองได้ภายหลัง"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cuốn sổ giữ lại những câu hỏi nảy ra trong lúc nghe giảng để sau này bạn trả lời bằng lời của mình."
           }
         }
       }
@@ -1887,6 +2019,12 @@
             "state" : "translated",
             "value" : "เพิ่มบทเรียน"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Thêm bài giảng"
+          }
         }
       }
     },
@@ -1968,6 +2106,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "จดคำถามที่ผุดขึ้นระหว่างเรียนด้วยคำง่ายๆ เวลาจะถูกใส่เป็นเวลาปัจจุบันให้เอง"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hãy ghi lại câu hỏi nảy ra trong lúc nghe giảng bằng những từ đơn giản nhất. Thời điểm sẽ tự điền giờ hiện tại."
           }
         }
       }
@@ -2051,6 +2195,12 @@
             "state" : "translated",
             "value" : "สร้างบทเรียน"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tạo một bài giảng"
+          }
         }
       }
     },
@@ -2132,6 +2282,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "เลือกบทเรียน"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hãy chọn một bài giảng"
           }
         }
       }
@@ -2216,6 +2372,12 @@
             "state" : "translated",
             "value" : "บันทึกบทเรียนและคำถามเป็นไฟล์ แล้วนำกลับมาใช้ได้ภายหลัง"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lưu bài giảng và câu hỏi vào một tệp rồi nhập lại khi cần."
+          }
         }
       }
     },
@@ -2297,6 +2459,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "สงสัยก็กด ⌘⇧N"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Thắc mắc thì nhấn ⌘⇧N"
           }
         }
       }
@@ -2380,6 +2548,12 @@
             "state" : "translated",
             "value" : "เขียนสิ่งที่สงสัยด้วยคำง่ายๆ ให้มากที่สุด…"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ghi điều bạn thắc mắc bằng những từ đơn giản nhất…"
+          }
         }
       }
     },
@@ -2462,6 +2636,12 @@
             "state" : "translated",
             "value" : "กราฟ"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Biểu đồ"
+          }
         }
       }
     },
@@ -2543,6 +2723,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ขนาดตัวอักษร (%lld%%)"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cỡ chữ (%lld%%)"
           }
         }
       }
@@ -2627,6 +2813,12 @@
             "state" : "translated",
             "value" : "เมื่อขยายตัวอักษร หน้าจอจะจัดเรียงใหม่โดยไม่ถูกตัด"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Khi phóng to chữ, màn hình tự sắp xếp lại thay vì bị cắt mất."
+          }
         }
       }
     },
@@ -2708,6 +2900,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ระยะเวลา"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Thời lượng"
           }
         }
       }
@@ -2791,6 +2989,12 @@
             "state" : "translated",
             "value" : "ขนาดเริ่มต้น"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cỡ mặc định"
+          }
         }
       }
     },
@@ -2872,6 +3076,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "เชื่อมคำถามที่มีอยู่เป็นคำถามต่อยอด"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Liên kết câu hỏi có sẵn làm câu hỏi nối tiếp"
           }
         }
       }
@@ -2955,6 +3165,12 @@
             "state" : "translated",
             "value" : "คำถามต่อยอด"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Câu hỏi nối tiếp"
+          }
         }
       }
     },
@@ -3036,6 +3252,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "สกัดคำถามต่อยอด"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rút ra câu hỏi nối tiếp"
           }
         }
       }
@@ -3119,6 +3341,12 @@
             "state" : "translated",
             "value" : "ภายหลังให้สรุปคำตอบด้วยคำพูดของตัวเอง แล้วคลิกเครื่องหมาย ? หน้าคำถามเพื่อเปลี่ยนเป็นได้คำตอบแล้ว สิ่งที่เรียนรู้จะรวมกันในสรุปของเมนูมุมมอง"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sau đó, hãy tóm tắt câu trả lời bằng lời của bạn rồi nhấp dấu ? trước câu hỏi để đánh dấu đã giải quyết. Điều đã học sẽ tập hợp trong Tóm tắt ở menu Hiển thị."
+          }
         }
       }
     },
@@ -3200,6 +3428,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ให้ AI ตรวจคำตอบของฉัน"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nhờ chấm điểm câu trả lời của tôi"
           }
         }
       }
@@ -3284,6 +3518,12 @@
             "state" : "translated",
             "value" : "ลบข้อมูลของฉันทั้งหมดในครั้งเดียว"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Xóa toàn bộ dữ liệu của tôi cùng lúc"
+          }
         }
       }
     },
@@ -3365,6 +3605,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "จดด้วยคำพูดของตัวเอง"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hãy ghi bằng lời của bạn"
           }
         }
       }
@@ -3448,6 +3694,12 @@
             "state" : "translated",
             "value" : "ทำเครื่องหมายคำถามนี้ว่ายังไม่ได้คำตอบ"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đánh dấu câu hỏi là chưa giải quyết"
+          }
         }
       }
     },
@@ -3530,6 +3782,12 @@
             "state" : "translated",
             "value" : "แตะเพื่อไปที่คำถามนี้"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nhấn để đến câu hỏi này"
+          }
         }
       }
     },
@@ -3611,6 +3869,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ทำเครื่องหมายคำถามนี้ว่าได้คำตอบแล้ว"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đánh dấu câu hỏi là đã giải quyết"
           }
         }
       }
@@ -3695,6 +3959,12 @@
             "state" : "translated",
             "value" : "ใช้บทเรียนและคำถามชุดเดิมต่อบน Mac เครื่องอื่นได้"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tiếp tục dùng cùng các bài giảng và câu hỏi trên bất kỳ máy Mac nào của bạn."
+          }
         }
       }
     },
@@ -3776,6 +4046,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ใส่กลับ"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đưa lại vào"
           }
         }
       }
@@ -3859,6 +4135,12 @@
             "state" : "translated",
             "value" : "ใส่กลับใน “สิ่งที่เรียนรู้”"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đưa lại vào “Điều đã học”"
+          }
         }
       }
     },
@@ -3940,6 +4222,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ปิด"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đóng"
           }
         }
       }
@@ -4023,6 +4311,12 @@
             "state" : "translated",
             "value" : "คำตอบ"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Trả lời"
+          }
         }
       }
     },
@@ -4104,6 +4398,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ถามย้อนคำตอบ"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hỏi vặn câu trả lời"
           }
         }
       }
@@ -4187,6 +4487,12 @@
             "state" : "translated",
             "value" : "บันทึกคำตอบยังว่างอยู่"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ghi chú câu trả lời đang trống"
+          }
         }
       }
     },
@@ -4268,6 +4574,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ยังไม่มีคำตอบ"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chưa có câu trả lời"
           }
         }
       }
@@ -4351,6 +4663,12 @@
             "state" : "translated",
             "value" : "หาคำตอบ"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tìm câu trả lời"
+          }
         }
       }
     },
@@ -4432,6 +4750,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "จดคำตอบแล้วทำเครื่องหมายว่าได้คำตอบ"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ghi câu trả lời và đánh dấu đã giải quyết"
           }
         }
       }
@@ -4516,6 +4840,12 @@
             "state" : "translated",
             "value" : "อ่านเนื้อหาได้ชัดเจน แม้เปิดเพิ่มความคมชัดหรือแยกสีได้ยาก"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nội dung vẫn dễ đọc, kể cả khi bật tăng độ tương phản hoặc khó phân biệt màu."
+          }
         }
       }
     },
@@ -4598,6 +4928,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ใช้แอปได้หลายภาษามากขึ้น"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dùng ứng dụng bằng nhiều ngôn ngữ hơn."
           }
         }
       }
@@ -4682,6 +5018,12 @@
             "state" : "translated",
             "value" : "ภาษาเพิ่มเติม"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Thêm ngôn ngữ"
+          }
         }
       }
     },
@@ -4763,6 +5105,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "คำถามที่ต้องถาม"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Câu hỏi cần hỏi"
           }
         }
       }
@@ -4847,6 +5195,12 @@
             "state" : "translated",
             "value" : "วิดเจ็ตบนเดสก์ท็อป"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tiện ích trên màn hình nền"
+          }
         }
       }
     },
@@ -4928,6 +5282,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ลองดูก่อน"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Xem thử"
           }
         }
       }
@@ -5011,6 +5371,12 @@
             "state" : "translated",
             "value" : "นำเข้าจาก Markdown…"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nhập từ Markdown…"
+          }
         }
       }
     },
@@ -5092,6 +5458,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "กรุณาเขียนสั้นๆ หนึ่งถึงสองบรรทัดด้วยคำพูดของตัวเองในช่องคำตอบก่อน"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Trước hết hãy viết một hai dòng bằng lời của bạn vào ô trả lời"
           }
         }
       }
@@ -5175,6 +5547,12 @@
             "state" : "translated",
             "value" : "บันทึก"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ghi chú"
+          }
         }
       }
     },
@@ -5256,6 +5634,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ติดต่อทางอีเมล"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Liên hệ qua email"
           }
         }
       }
@@ -5339,6 +5723,12 @@
             "state" : "translated",
             "value" : "ได้คำตอบครบแล้ว"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đã giải quyết hết"
+          }
         }
       }
     },
@@ -5420,6 +5810,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "เมื่อติดต่อเรา โปรดระบุเวอร์ชัน macOS และสิ่งที่ทำอยู่ตอนเกิดปัญหา เราจะตรวจสอบได้เร็วขึ้น"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Khi nhắn cho chúng tôi, hãy cho biết phiên bản macOS và thao tác bạn đang làm lúc gặp sự cố để chúng tôi kiểm tra nhanh hơn."
           }
         }
       }
@@ -5503,6 +5899,12 @@
             "state" : "translated",
             "value" : "ยังไม่ได้คำตอบ"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chưa giải quyết"
+          }
         }
       }
     },
@@ -5584,6 +5986,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ยังไม่ได้คำตอบ — คลิกเพื่อเปลี่ยนเป็นได้คำตอบแล้ว"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chưa giải quyết — nhấp để đổi thành đã giải quyết"
           }
         }
       }
@@ -5667,6 +6075,12 @@
             "state" : "translated",
             "value" : "แสดงเฉพาะคำถามที่ยังไม่ได้คำตอบ"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chỉ hiện các câu hỏi chưa giải quyết"
+          }
         }
       }
     },
@@ -5748,6 +6162,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ไม่มีคำถามที่ยังไม่ได้คำตอบ"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Không có câu hỏi nào chưa giải quyết"
           }
         }
       }
@@ -5831,6 +6251,12 @@
             "state" : "translated",
             "value" : "เฉพาะที่ยังไม่ได้คำตอบ"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chỉ chưa giải quyết"
+          }
         }
       }
     },
@@ -5912,6 +6338,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "สิ่งที่อยากเรียนรู้"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Điều tôi muốn học"
           }
         }
       }
@@ -5995,6 +6427,12 @@
             "state" : "translated",
             "value" : "สิ่งที่เรียนรู้"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Điều đã học"
+          }
         }
       }
     },
@@ -6077,6 +6515,12 @@
             "state" : "translated",
             "value" : "รวมใน “สิ่งที่เรียนรู้”"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đưa vào “Điều đã học”"
+          }
         }
       }
     },
@@ -6158,6 +6602,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ไม่รวมใน “สิ่งที่เรียนรู้” (คำตอบยังอยู่)"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Loại khỏi “Điều đã học” (câu trả lời vẫn còn)"
           }
         }
       }
@@ -6242,6 +6692,12 @@
             "state" : "translated",
             "value" : "สำรองข้อมูลและส่งออก"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sao lưu và xuất dữ liệu"
+          }
         }
       }
     },
@@ -6324,6 +6780,12 @@
             "state" : "translated",
             "value" : "มุมมอง"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hiển thị"
+          }
         }
       }
     },
@@ -6405,6 +6867,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ในเมนูมุมมอง “สรุป” (⌘1) แสดงสิ่งที่ยังต้องถามและสิ่งที่เรียนรู้ ส่วน “กราฟ” (⌘2) แสดงความเชื่อมโยงระหว่างคำถามได้ในพริบตา"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Trong menu Hiển thị, Tóm tắt (⌘1) cho thấy điều cần hỏi và điều đã học, còn Biểu đồ (⌘2) cho thấy các câu hỏi liên kết với nhau thế nào."
           }
         }
       }
@@ -6489,6 +6957,12 @@
             "state" : "translated",
             "value" : "สีและคอนทราสต์ที่อ่านสบายขึ้น"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Màu sắc và độ tương phản dễ nhìn hơn"
+          }
         }
       }
     },
@@ -6570,6 +7044,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "บันทึกของช่วงเวลา"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ghi chú của khối"
           }
         }
       }
@@ -6653,6 +7133,12 @@
             "state" : "translated",
             "value" : "ลบช่วงเวลา"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Xóa khối"
+          }
         }
       }
     },
@@ -6734,6 +7220,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "สีของช่วงเวลา"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Màu của khối"
           }
         }
       }
@@ -6817,6 +7309,12 @@
             "state" : "translated",
             "value" : "ตั้งค่าช่วงเวลา"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cài đặt khối"
+          }
         }
       }
     },
@@ -6898,6 +7396,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "เวลาเริ่มของช่วงเวลา"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Giờ bắt đầu của khối"
           }
         }
       }
@@ -6981,6 +7485,12 @@
             "state" : "translated",
             "value" : "เพิ่มช่วงเวลา"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Thêm khối"
+          }
         }
       }
     },
@@ -7062,6 +7572,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ไม่มีช่วงเวลา"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chưa có khối nào"
           }
         }
       }
@@ -7145,6 +7661,12 @@
             "state" : "translated",
             "value" : "ลบ"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Xóa"
+          }
         }
       }
     },
@@ -7226,6 +7748,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "บทเรียนใหม่"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bài giảng mới"
           }
         }
       }
@@ -7309,6 +7837,12 @@
             "state" : "translated",
             "value" : "คำถามต่อยอดใหม่ — กด Return เพื่อเพิ่ม"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Câu hỏi nối tiếp mới — nhấn Return để thêm"
+          }
         }
       }
     },
@@ -7390,6 +7924,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "สี"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Màu"
           }
         }
       }
@@ -7473,6 +8013,12 @@
             "state" : "translated",
             "value" : "ตั้งค่า"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cài đặt"
+          }
         }
       }
     },
@@ -7555,6 +8101,12 @@
             "state" : "translated",
             "value" : "เริ่ม"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bắt đầu"
+          }
         }
       }
     },
@@ -7636,6 +8188,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ช่วงเวลา"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Thời điểm"
           }
         }
       }
@@ -7720,6 +8278,12 @@
             "state" : "translated",
             "value" : "แจ้งเตือนในเวลาที่เหมาะสมเกี่ยวกับคำถามที่ยังไม่ได้คำตอบ"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nhận nhắc nhở đúng lúc về những câu hỏi chưa tìm được câu trả lời."
+          }
         }
       }
     },
@@ -7802,6 +8366,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "การเตือน"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lời nhắc"
           }
         }
       }
@@ -7886,6 +8456,12 @@
             "state" : "translated",
             "value" : "ดูคำถามที่เหลือบนเดสก์ท็อปได้เลยโดยไม่ต้องเปิดแอป"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Xem các câu hỏi còn lại ngay trên màn hình nền mà không cần mở ứng dụng."
+          }
         }
       }
     },
@@ -7968,6 +8544,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ใช้ทั้งแอปเป็นภาษาอังกฤษได้"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dùng toàn bộ ứng dụng bằng tiếng Anh."
           }
         }
       }
@@ -8052,6 +8634,12 @@
             "state" : "translated",
             "value" : "เมื่อเปิดแอปครั้งแรกหลังอัปเดต จะบอกว่ามีอะไรใหม่"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lần đầu mở ứng dụng sau khi cập nhật, bạn sẽ thấy có gì mới."
+          }
         }
       }
     },
@@ -8134,6 +8722,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "มีอะไรใหม่"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Có gì mới"
           }
         }
       }
@@ -8218,6 +8812,12 @@
             "state" : "translated",
             "value" : "ซิงก์ข้าม Mac หลายเครื่อง"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đồng bộ giữa các máy Mac"
+          }
         }
       }
     },
@@ -8300,6 +8900,12 @@
             "state" : "translated",
             "value" : "ยกเลิกการเชื่อม (คำถามจะไม่ถูกลบ)"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bỏ liên kết (câu hỏi không bị xóa)"
+          }
         }
       }
     },
@@ -8381,6 +8987,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ติดต่อเรา"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Liên hệ"
           }
         }
       }
@@ -8465,6 +9077,12 @@
             "state" : "translated",
             "value" : "รองรับภาษาอังกฤษเต็มรูปแบบ"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hỗ trợ tiếng Anh đầy đủ"
+          }
         }
       }
     },
@@ -8546,6 +9164,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "สรุป"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tóm tắt"
           }
         }
       }
@@ -8629,6 +9253,12 @@
             "state" : "translated",
             "value" : "สรุป กราฟ ช่วงเวลา สถานะการเรียนรู้ ขนาดตัวอักษร"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tóm tắt, biểu đồ, khối thời gian, trạng thái học tập, cỡ chữ"
+          }
         }
       }
     },
@@ -8710,6 +9340,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "เลือกว่าจะใส่คำถามนี้ในรายการ “สิ่งที่เรียนรู้” ของสรุปหรือไม่"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chọn có đưa câu hỏi này vào danh sách “Điều đã học” của phần tóm tắt hay không"
           }
         }
       }
@@ -8794,6 +9430,12 @@
             "state" : "translated",
             "value" : "ลดการเคลื่อนไหว"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Giảm chuyển động"
+          }
         }
       }
     },
@@ -8877,6 +9519,12 @@
             "state" : "translated",
             "value" : "เมื่อเปิดลดการเคลื่อนไหว เอฟเฟกต์บนหน้าจอจะนุ่มนวลขึ้น"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Khi bật Giảm chuyển động, hiệu ứng trên màn hình sẽ dịu hơn."
+          }
         }
       }
     },
@@ -8958,6 +9606,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "คำถามตั้งต้น"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Câu hỏi gốc"
           }
         }
       }
@@ -9042,6 +9696,12 @@
             "state" : "translated",
             "value" : "หากต้องการ ลบบทเรียนและคำถามทั้งหมดได้ในแอป"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Khi muốn, bạn có thể xóa mọi bài giảng và câu hỏi ngay trong ứng dụng."
+          }
         }
       }
     },
@@ -9123,6 +9783,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "เมื่อเข้าใจบทเรียนนี้ทั้งหมดแล้ว อยากทำอะไรได้บ้าง…"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Khi hiểu hết bài giảng này, tôi muốn làm được gì…"
           }
         }
       }
@@ -9206,6 +9872,12 @@
             "state" : "translated",
             "value" : "สิ่งที่รู้ก่อนเรียนหรือจนถึงตอนนี้ และจุดที่ติดขัด…"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Điều tôi biết trước bài giảng này hoặc cho đến giờ, và chỗ tôi bị vướng…"
+          }
         }
       }
     },
@@ -9287,6 +9959,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "สิ่งที่อยากได้จากบทเรียนนี้ให้ได้ หัวข้อที่สงสัย…"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Điều tôi nhất định muốn có từ bài giảng này, những chủ đề tôi tò mò…"
           }
         }
       }
@@ -9370,6 +10048,12 @@
             "state" : "translated",
             "value" : "ลบช่วงเวลานี้ไหม บันทึกในช่วงเวลานี้จะถูกลบไปด้วย"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Xóa khối này? Ghi chú trong khối cũng sẽ bị xóa."
+          }
         }
       }
     },
@@ -9451,6 +10135,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "เปลี่ยนสี เวลาเริ่ม และระยะเวลาของช่วงเวลานี้ หรือลบทิ้ง"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đổi màu, giờ bắt đầu và thời lượng của khối này, hoặc xóa khối"
           }
         }
       }
@@ -9534,6 +10224,12 @@
             "state" : "translated",
             "value" : "จดสิ่งที่เรียนรู้และสิ่งที่อยากจำในช่วงเวลานี้…"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ghi lại điều đã học và điều muốn nhớ trong khoảng thời gian này…"
+          }
         }
       }
     },
@@ -9615,6 +10311,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ไปที่คำถามนี้"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đến câu hỏi này"
           }
         }
       }
@@ -9698,6 +10400,12 @@
             "state" : "translated",
             "value" : "สรุปคำตอบของคำถามนี้ด้วยคำพูดของตัวเอง"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ghi câu trả lời cho câu hỏi này bằng lời của bạn"
+          }
         }
       }
     },
@@ -9779,6 +10487,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ติดตามข่าวสารบน Instagram"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Xem tin mới trên Instagram"
           }
         }
       }
@@ -9862,6 +10576,12 @@
             "state" : "translated",
             "value" : "เล็กลง"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nhỏ hơn"
+          }
         }
       }
     },
@@ -9943,6 +10663,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "สร้างเมื่อ %@"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tạo lúc %@"
           }
         }
       }
@@ -10026,6 +10752,12 @@
             "state" : "translated",
             "value" : "บันทึก"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lưu"
+          }
         }
       }
     },
@@ -10107,6 +10839,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "บันทึกแล้วทำต่อ"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lưu và tiếp tục"
           }
         }
       }
@@ -10190,6 +10928,12 @@
             "state" : "translated",
             "value" : "ไม่รวม"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Loại ra"
+          }
         }
       }
     },
@@ -10271,6 +11015,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "คำตอบที่ไม่รวม"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Câu trả lời đã loại"
           }
         }
       }
@@ -10354,6 +11104,12 @@
             "state" : "translated",
             "value" : "ตอนนี้"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bây giờ"
+          }
         }
       }
     },
@@ -10435,6 +11191,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ตอนนี้ฉันอยู่ตรงไหน"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tôi đang ở đâu"
           }
         }
       }
@@ -10518,6 +11280,12 @@
             "state" : "translated",
             "value" : "ช่วยเหลือ"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hỗ trợ"
+          }
         }
       }
     },
@@ -10599,6 +11367,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "คำถาม"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Câu hỏi"
           }
         }
       }
@@ -10682,6 +11456,12 @@
             "state" : "translated",
             "value" : "คำถาม %lld · ที่ต้องถาม %lld · เรียนรู้แล้ว %lld · คำถามต่อยอด %lld"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Câu hỏi %lld · Cần hỏi %lld · Đã học %lld · Câu hỏi nối tiếp %lld"
+          }
         }
       }
     },
@@ -10763,6 +11543,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "เปิดสมุดบันทึกคำถามและแสดงหน้าต่างให้จดคำถามของบทเรียนที่กำลังดูอยู่"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mở Sổ Câu Hỏi và hiện cửa sổ để ghi câu hỏi cho bài giảng bạn đang xem."
           }
         }
       }
@@ -10846,6 +11632,12 @@
             "state" : "translated",
             "value" : "ยินดีต้อนรับสู่สมุดบันทึกคำถาม"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chào mừng đến với Sổ Câu Hỏi"
+          }
         }
       }
     },
@@ -10927,6 +11719,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ขัดเกลาคำถาม"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Trau chuốt câu hỏi"
           }
         }
       }
@@ -11010,6 +11808,12 @@
             "state" : "translated",
             "value" : "เพิ่มคำถาม"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Thêm câu hỏi"
+          }
         }
       }
     },
@@ -11091,6 +11895,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "เพิ่มคำถาม (⌘⇧N)"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Thêm câu hỏi (⌘⇧N)"
           }
         }
       }
@@ -11174,6 +11984,12 @@
             "state" : "translated",
             "value" : "เลือกคำถาม"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chọn một câu hỏi"
+          }
         }
       }
     },
@@ -11255,6 +12071,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "คำถามที่ทำเครื่องหมายว่าได้คำตอบแล้วจะมารวมกันที่นี่"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Các câu hỏi bạn đánh dấu đã giải quyết sẽ tập hợp ở đây"
           }
         }
       }
@@ -11338,6 +12160,12 @@
             "state" : "translated",
             "value" : "คำถามสะสมแล้ว ลองย้อนดูหน่อย"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Câu hỏi đã nhiều rồi, thử nhìn lại nhé"
+          }
         }
       }
     },
@@ -11419,6 +12247,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "สร้างบทเรียนแรก"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tạo bài giảng đầu tiên"
           }
         }
       }
@@ -11502,6 +12336,12 @@
             "state" : "translated",
             "value" : "ซูมออก"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Thu nhỏ"
+          }
         }
       }
     },
@@ -11584,6 +12424,12 @@
             "state" : "translated",
             "value" : "ยกเลิก"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hủy"
+          }
         }
       }
     },
@@ -11665,6 +12511,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ใหญ่ขึ้น"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lớn hơn"
           }
         }
       }
@@ -11749,6 +12601,12 @@
             "state" : "translated",
             "value" : "หน้าจอที่รองรับตัวอักษรขนาดใหญ่"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Giao diện hợp với chữ lớn"
+          }
         }
       }
     },
@@ -11830,6 +12688,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ช่วงเวลา"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Khối thời gian"
           }
         }
       }
@@ -11913,6 +12777,12 @@
             "state" : "translated",
             "value" : "เพิ่มบทเรียนใหม่จากเมนูบทเรียนทางซ้ายของแถบเครื่องมือ หรือนำเข้าไฟล์ Markdown ของบทสนทนา"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Thêm bài giảng mới từ menu bài giảng bên trái thanh công cụ, hoặc nhập tệp Markdown của một cuộc trò chuyện."
+          }
         }
       }
     },
@@ -11994,6 +12864,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "สถานะการเรียนรู้"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Trạng thái học tập"
           }
         }
       }
@@ -12077,6 +12953,12 @@
             "state" : "translated",
             "value" : "สภาพที่อยากเป็นเมื่อเรียนจบ"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tôi muốn đạt được gì khi học xong"
+          }
         }
       }
     },
@@ -12158,6 +13040,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ได้คำตอบแล้ว"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đã giải quyết"
           }
         }
       }
@@ -12241,6 +13129,12 @@
             "state" : "translated",
             "value" : "สถานะการแก้ข้อสงสัย"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Trạng thái giải quyết"
+          }
         }
       }
     },
@@ -12322,6 +13216,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ได้คำตอบแล้ว"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đã giải quyết"
           }
         }
       }
@@ -12405,6 +13305,12 @@
             "state" : "translated",
             "value" : "ได้คำตอบแล้ว — คลิกเพื่อเปลี่ยนเป็นยังไม่ได้คำตอบ"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đã giải quyết — nhấp để đổi thành chưa giải quyết"
+          }
         }
       }
     },
@@ -12487,6 +13393,12 @@
             "state" : "translated",
             "value" : "ยกเลิกการเชื่อม"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bỏ liên kết"
+          }
         }
       }
     },
@@ -12568,6 +13480,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ลบบทเรียนนี้"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Xóa bài giảng hiện tại"
           }
         }
       }
@@ -12652,6 +13570,12 @@
             "state" : "translated",
             "value" : "VoiceOver อ่านปุ่มและบันทึกทั้งหมดตามลำดับที่ถูกต้อง"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "VoiceOver đọc từng nút và ghi chú theo đúng thứ tự."
+          }
         }
       }
     },
@@ -12733,6 +13657,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "พอดีหน้าต่าง"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vừa khung cửa sổ"
           }
         }
       }
@@ -12816,6 +13746,12 @@
             "state" : "translated",
             "value" : "ซูมเข้า"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Phóng to"
+          }
         }
       }
     },
@@ -12897,6 +13833,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ตกลง"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OK"
           }
         }
       }
