@@ -728,3 +728,69 @@ https://m1zz.github.io/LectureQ/privacy.html
 ### 마케팅 URL
 
 https://m1zz.github.io/LectureQ/
+
+## pt-BR
+
+### 이름
+
+LectureQ: Perguntas de aula
+
+### 부제
+
+Dúvidas viram aprendizado
+
+### 키워드
+
+estudo,prova,faculdade,seminário,revisão,curso,vestibular,concurso,cronologia,prompt,webinar,enem
+
+### 프로모션 텍스트
+
+Registre com um atalho a dúvida que surge no meio da aula. Ela fica ao lado das suas anotações daquele momento e, com perguntas de acompanhamento e IA, vira aprendizado.
+
+### 설명
+
+Um caderno de estudos para Mac que não deixa escapar as perguntas que surgem durante uma aula.
+Escreva a dúvida com palavras simples, guarde-a ao lado das anotações daquele momento e, depois, encontre a resposta e reescreva-a com suas palavras: assim ela vira algo que você aprendeu.
+
+Pergunta rápida
+Abra a janela de entrada pelo botão Adicionar pergunta na barra de ferramentas ou com Command Shift N. O momento é preenchido sozinho com a hora atual. Return salva a pergunta, e Command Return salva e já abre espaço para a próxima.
+
+Lista de perguntas
+As perguntas de acompanhamento ficam recuadas abaixo da pergunta original. Perguntas não resolvidas e resolvidas se distinguem pela cor, e você pode ver só as não resolvidas.
+
+Anotações por blocos de tempo
+Divida uma aula em vários blocos de tempo e anote em cada um. As perguntas aparecem ao lado do bloco a que pertencem e, ao clicar, você vai direto até elas. Se registrar uma pergunta num horário fora dos blocos, um bloco é adicionado automaticamente.
+
+Detalhes da pergunta
+Se está resolvida, se entra em “O que aprendi”, o momento, a sua resposta, a pergunta original e as de acompanhamento: tudo em um só lugar.
+
+Respostas com IA
+Cinco etapas de prompts, de lapidar a pergunta e buscar a resposta a questioná-la, extrair perguntas de acompanhamento e pedir nota para a sua resposta, são copiadas para a área de transferência já com o nome da aula e as anotações daquele momento. Basta colar no serviço de IA que você já usa. O app não envia nada para fora por conta própria.
+
+Tudo num relance
+O resumo da aula reúne só as perguntas a fazer, o que você aprendeu e as suas anotações, para ler como uma folha de revisão. No grafo, dá para ver como o raciocínio se ramificou das perguntas originais para as de acompanhamento, e a visão por blocos de tempo permite percorrer em ordem o que você aprendeu e quando.
+
+Estado de aprendizado
+Anote como você está antes da aula, como quer estar depois e o que quer aprender, e compare.
+
+Importar conversas em Markdown
+Importe um Markdown com título, seções e falas separadas por interlocutor, e o app divide tudo em aula, perguntas e respostas.
+
+O tamanho do texto se ajusta com Command mais e Command menos.
+
+Privacidade
+Não há contas, e todos os registros ficam guardados apenas neste Mac.
+
+Requer macOS 14 ou posterior.
+
+### 지원 URL
+
+https://m1zz.github.io/LectureQ/support.html
+
+### 개인정보처리방침 URL
+
+https://m1zz.github.io/LectureQ/privacy.html
+
+### 마케팅 URL
+
+https://m1zz.github.io/LectureQ/

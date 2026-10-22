@@ -70,3 +70,9 @@ Assistance et confidentialité refaites
 Data e ora nel formato della tua lingua
 Testi e screenshot App Store rifatti
 Pagine di supporto e privacy rifatte
+
+### 앱스토어 (pt-BR)
+
+Data e hora no formato do seu idioma
+Textos e capturas da App Store renovados
+Suporte e privacidade renovados
