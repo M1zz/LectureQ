@@ -1388,3 +1388,69 @@ https://m1zz.github.io/LectureQ/privacy.html
 ### 마케팅 URL
 
 https://m1zz.github.io/LectureQ/
+
+## pl
+
+### 이름
+
+LectureQ: Pytania z wykładów
+
+### 부제
+
+Wątpliwości w wiedzę
+
+### 키워드
+
+nauka,notatki,egzamin,powtórka,seminarium,studia,kurs,timeline,prompt,zadania,magisterka,webinar
+
+### 프로모션 텍스트
+
+Zapisz skrótem wątpliwość, która pojawia się w trakcie wykładu. Trafi obok notatki z tej chwili, a pytania uzupełniające i prompty AI pomogą zamienić ją w wiedzę.
+
+### 설명
+
+Notatnik do nauki na Maca, który nie pozwala umknąć pytaniom rodzącym się podczas wykładu.
+Zapisz pytanie prostymi słowami, zachowaj je obok notatki z tej chwili, a później znajdź odpowiedź i ujmij ją własnymi słowami – wtedy stanie się czymś, czego się nauczyłeś(-aś).
+
+Szybkie pytanie
+Okno wprowadzania otworzysz przyciskiem Dodaj pytanie na pasku narzędzi lub skrótem Command Shift N. Moment wypełnia się sam bieżącą godziną. Return zapisuje pytanie, a Command Return zapisuje je i od razu pozwala wpisać następne.
+
+Lista pytań
+Pytania uzupełniające układają się z wcięciem pod pytaniem wyjściowym. Pytania nierozwiązane i rozwiązane różnią się kolorem, a możesz pokazać tylko te nierozwiązane.
+
+Notatki w blokach czasu
+Podziel wykład na kilka bloków czasu i notuj osobno w każdym. Pytania pojawiają się obok bloku, do którego należą, a jedno kliknięcie przenosi Cię prosto do nich. Jeśli zostawisz pytanie w chwili poza blokami, blok doda się automatycznie.
+
+Szczegóły pytania
+W jednym miejscu zarządzasz tym, czy pytanie jest rozwiązane, czy liczy się do tego, czego się nauczyłeś(-aś), momentem, własną odpowiedzią oraz pytaniem wyjściowym i uzupełniającymi.
+
+Szukanie odpowiedzi z AI
+Pięć kroków promptów – doprecyzowanie pytania, znalezienie odpowiedzi, zakwestionowanie jej, wyłuskanie pytań uzupełniających i ocena Twojej odpowiedzi – kopiuje się do schowka z gotową nazwą wykładu i notatką z danej chwili. Wystarczy wkleić je do używanej już usługi AI. Aplikacja sama niczego nie wysyła na zewnątrz.
+
+Wszystko na jednym rzucie oka
+Podsumowanie wykładu zbiera tylko pytania do zadania, to, czego się nauczyłeś(-aś), i Twoje notatki, więc czyta się je jak kartkę do powtórki. Wykres pokazuje, jak Twoje myśli rozgałęziły się od pytań wyjściowych do uzupełniających, a przegląd bloków czasu pozwala po kolei zobaczyć, czego i kiedy się nauczyłeś(-aś).
+
+Stan nauki
+Zapisz, gdzie jesteś przed wykładem, gdzie chcesz być po nim i czego chcesz się nauczyć, i porównuj.
+
+Import rozmów z Markdown
+Zaimportuj Markdown złożony z tytułu, sekcji i wypowiedzi według rozmówców, a aplikacja podzieli go na wykład, pytania i odpowiedzi.
+
+Rozmiar tekstu zmienisz skrótami Command plus i Command minus.
+
+Prywatność
+Nie ma kont, a wszystkie zapisy są przechowywane tylko na tym Macu.
+
+Wymaga macOS 14 lub nowszego.
+
+### 지원 URL
+
+https://m1zz.github.io/LectureQ/support.html
+
+### 개인정보처리방침 URL
+
+https://m1zz.github.io/LectureQ/privacy.html
+
+### 마케팅 URL
+
+https://m1zz.github.io/LectureQ/
