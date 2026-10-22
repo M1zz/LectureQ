@@ -38,6 +38,12 @@
             "state" : "translated",
             "value" : "\n\n\n—\nアプリのバージョン: %@ (%@)\nmacOS: %@"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "\n\n\n—\nВерсия приложения: %@ (%@)\nmacOS: %@"
+          }
         }
       }
     },
@@ -77,6 +83,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "「%@」をコピーしました"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Скопировано: %@"
           }
         }
       }
@@ -118,6 +130,12 @@
             "state" : "translated",
             "value" : "ステップ%lld、%@。%@"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Шаг %lld, %@. %@"
+          }
         }
       }
     },
@@ -157,6 +175,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld分"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld мин"
           }
         }
       }
@@ -198,6 +222,12 @@
             "state" : "translated",
             "value" : "AIプロンプトをコピー"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Скопировать промпт для ИИ"
+          }
         }
       }
     },
@@ -237,6 +267,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "AIで答えを探すガイド"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Руководство: ищем ответы с помощью ИИ"
           }
         }
       }
@@ -279,6 +315,12 @@
             "state" : "translated",
             "value" : "Touch IDロック"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Блокировка Touch ID"
+          }
         }
       }
     },
@@ -319,6 +361,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Touch IDでアプリをロックして、質問ノートを守ります。"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Защитите свои заметки: блокируйте приложение с помощью Touch ID."
           }
         }
       }
@@ -361,6 +409,12 @@
             "state" : "translated",
             "value" : "VoiceOverでもっと使いやすく"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Удобнее с VoiceOver"
+          }
         }
       }
     },
@@ -400,6 +454,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "[%@] お問い合わせ"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "[%@] Обращение"
           }
         }
       }
@@ -441,6 +501,12 @@
             "state" : "translated",
             "value" : "⌘⇧Nで質問を追加できます"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Нажмите ⌘⇧N, чтобы добавить вопрос"
+          }
         }
       }
     },
@@ -480,6 +546,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ガイドを開く"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Открыть руководство"
           }
         }
       }
@@ -521,6 +593,12 @@
             "state" : "translated",
             "value" : "読み込みに失敗しました"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Не удалось импортировать"
+          }
         }
       }
     },
@@ -560,6 +638,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "読み込んだ会話"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Импортированный диалог"
           }
         }
       }
@@ -601,6 +685,12 @@
             "state" : "translated",
             "value" : "講義の文脈を入れたプロンプトをクリップボードにコピーします"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Копирует в буфер обмена промпт с контекстом вашей лекции"
+          }
         }
       }
     },
@@ -640,6 +730,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "講義を選択"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Выбрать лекцию"
           }
         }
       }
@@ -681,6 +777,12 @@
             "state" : "translated",
             "value" : "講義の時点"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Момент лекции"
+          }
         }
       }
     },
@@ -720,6 +822,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "講義の時点（24時間制 HH:mm）"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Момент лекции (24-часовой формат ЧЧ:мм)"
           }
         }
       }
@@ -761,6 +869,12 @@
             "state" : "translated",
             "value" : "講義の時点（24時間制 HH:mm）。消すと時点なしで保存されます"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Момент лекции (24-часовой формат ЧЧ:мм). Если очистить, вопрос сохранится без времени"
+          }
         }
       }
     },
@@ -800,6 +914,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "講義なし"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Нет лекции"
           }
         }
       }
@@ -841,6 +961,12 @@
             "state" : "translated",
             "value" : "講義名"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Название лекции"
+          }
         }
       }
     },
@@ -880,6 +1006,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "講義中に生まれた疑問を逃さず、あとで自分の言葉で答えるためのノートです。"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Блокнот, который сохраняет вопросы, возникшие на лекции, чтобы потом ответить на них своими словами."
           }
         }
       }
@@ -921,6 +1053,12 @@
             "state" : "translated",
             "value" : "講義を追加"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Добавить лекцию"
+          }
         }
       }
     },
@@ -960,6 +1098,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "講義中にふと浮かんだ疑問を、いちばんやさしい言葉で書き留めましょう。時点にはいまの時刻が入ります。"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Запишите вопрос, который пришёл в голову на лекции, самыми простыми словами. Время подставится само."
           }
         }
       }
@@ -1001,6 +1145,12 @@
             "state" : "translated",
             "value" : "講義をつくろう"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Создайте лекцию"
+          }
         }
       }
     },
@@ -1040,6 +1190,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "講義を選択してください"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Выберите лекцию"
           }
         }
       }
@@ -1082,6 +1238,12 @@
             "state" : "translated",
             "value" : "講義と質問をファイルに保存して、あとで読み込めます。"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Сохраняйте лекции и вопросы в файл и возвращайте их обратно."
+          }
         }
       }
     },
@@ -1121,6 +1283,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "気になったらすぐ ⌘⇧N"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Возник вопрос? Жмите ⌘⇧N"
           }
         }
       }
@@ -1162,6 +1330,12 @@
             "state" : "translated",
             "value" : "気になることを、できるだけやさしい言葉で…"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Запишите, что вас интересует, как можно проще…"
+          }
         }
       }
     },
@@ -1202,6 +1376,12 @@
             "state" : "translated",
             "value" : "グラフ"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Граф"
+          }
         }
       }
     },
@@ -1241,6 +1421,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "文字サイズ (%lld%%)"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Размер текста (%lld%%)"
           }
         }
       }
@@ -1283,6 +1469,12 @@
             "state" : "translated",
             "value" : "文字を大きくしても、切れずに見やすくレイアウトし直します。"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "При крупном тексте экраны перестраиваются, ничего не обрезая."
+          }
         }
       }
     },
@@ -1322,6 +1514,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "長さ"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Длительность"
           }
         }
       }
@@ -1363,6 +1561,12 @@
             "state" : "translated",
             "value" : "標準サイズ"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Обычный размер"
+          }
         }
       }
     },
@@ -1402,6 +1606,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "既存の質問を追加の質問として関連づける"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Связать существующий вопрос как уточняющий"
           }
         }
       }
@@ -1443,6 +1653,12 @@
             "state" : "translated",
             "value" : "追加の質問"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Уточняющие вопросы"
+          }
         }
       }
     },
@@ -1482,6 +1698,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "追加の質問を引き出す"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Выделить уточняющие вопросы"
           }
         }
       }
@@ -1523,6 +1745,12 @@
             "state" : "translated",
             "value" : "あとで自分の言葉で答えをまとめ、質問の左の「?」を押して解決済みにします。学んだことは「表示」メニューの「まとめ」に集まります。"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Позже сформулируйте ответ своими словами и нажмите «?» перед вопросом, чтобы отметить его решённым. Усвоенное соберётся в сводке в меню «Вид»."
+          }
         }
       }
     },
@@ -1562,6 +1790,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "自分の答えを採点してもらう"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Оценить мой ответ"
           }
         }
       }
@@ -1604,6 +1838,12 @@
             "state" : "translated",
             "value" : "自分のデータをまとめて削除"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Удалить все мои данные разом"
+          }
         }
       }
     },
@@ -1643,6 +1883,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "自分の言葉でまとめて書いてみましょう"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Запишите своими словами"
           }
         }
       }
@@ -1684,6 +1930,12 @@
             "state" : "translated",
             "value" : "質問を未解決にします"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Отметить вопрос как нерешённый"
+          }
         }
       }
     },
@@ -1724,6 +1976,12 @@
             "state" : "translated",
             "value" : "押すとこの質問へ移動します"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Перейти к этому вопросу"
+          }
         }
       }
     },
@@ -1763,6 +2021,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "質問を解決済みにします"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Отметить вопрос как решённый"
           }
         }
       }
@@ -1805,6 +2069,12 @@
             "state" : "translated",
             "value" : "別のMacでも同じ講義と質問を続けて使えます。"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Продолжайте работать с теми же лекциями и вопросами на другом Mac."
+          }
         }
       }
     },
@@ -1844,6 +2114,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "元に戻す"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Вернуть"
           }
         }
       }
@@ -1885,6 +2161,12 @@
             "state" : "translated",
             "value" : "「学んだこと」に戻す"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Вернуть в «Чему я научился»"
+          }
         }
       }
     },
@@ -1924,6 +2206,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "閉じる"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Закрыть"
           }
         }
       }
@@ -1965,6 +2253,12 @@
             "state" : "translated",
             "value" : "回答"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ответ"
+          }
         }
       }
     },
@@ -2004,6 +2298,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "答えを問い直す"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Переспросить ответ"
           }
         }
       }
@@ -2045,6 +2345,12 @@
             "state" : "translated",
             "value" : "回答メモが空です"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Заметка с ответом пуста"
+          }
         }
       }
     },
@@ -2084,6 +2390,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "回答なし"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Нет ответа"
           }
         }
       }
@@ -2125,6 +2437,12 @@
             "state" : "translated",
             "value" : "答えを探す"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Найти ответ"
+          }
         }
       }
     },
@@ -2164,6 +2482,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "答えを書いて解決しよう"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Запишите ответ и отметьте вопрос решённым"
           }
         }
       }
@@ -2206,6 +2530,12 @@
             "state" : "translated",
             "value" : "コントラストを上げたり、色の区別がつきにくくても、内容を読み取れます。"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Всё остаётся читаемым при повышенной контрастности или если трудно различать цвета."
+          }
         }
       }
     },
@@ -2246,6 +2576,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "より多くの言語でアプリを使えるようにします。"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Приложение станет доступно на большем числе языков."
           }
         }
       }
@@ -2288,6 +2624,12 @@
             "state" : "translated",
             "value" : "対応言語を追加"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Больше языков"
+          }
         }
       }
     },
@@ -2327,6 +2669,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "聞きたいこと"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Что спросить"
           }
         }
       }
@@ -2369,6 +2717,12 @@
             "state" : "translated",
             "value" : "デスクトップウィジェット"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Виджеты на рабочем столе"
+          }
         }
       }
     },
@@ -2408,6 +2762,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "見てみる"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Осмотреться"
           }
         }
       }
@@ -2449,6 +2809,12 @@
             "state" : "translated",
             "value" : "Markdownから読み込む…"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Импорт из Markdown…"
+          }
         }
       }
     },
@@ -2488,6 +2854,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "まず回答欄に自分の言葉で1〜2行書いてください"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Сначала напишите в поле ответа одну-две строки своими словами"
           }
         }
       }
@@ -2529,6 +2901,12 @@
             "state" : "translated",
             "value" : "メモ"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Заметки"
+          }
         }
       }
     },
@@ -2568,6 +2946,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "メールで問い合わせる"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Написать на почту"
           }
         }
       }
@@ -2609,6 +2993,12 @@
             "state" : "translated",
             "value" : "すべて解決しました"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Всё решено"
+          }
         }
       }
     },
@@ -2648,6 +3038,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "お問い合わせの際は、macOSのバージョンと、どの操作で問題が起きたかを書いていただけると、早く確認できます。"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Когда будете писать нам, укажите версию macOS и что вы делали, когда возникла проблема — так мы разберёмся быстрее."
           }
         }
       }
@@ -2689,6 +3085,12 @@
             "state" : "translated",
             "value" : "未解決"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Не решён"
+          }
         }
       }
     },
@@ -2728,6 +3130,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "未解決 — クリックで解決済みにする"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Не решён — нажмите, чтобы отметить решённым"
           }
         }
       }
@@ -2769,6 +3177,12 @@
             "state" : "translated",
             "value" : "未解決の質問だけを表示"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Показывать только нерешённые вопросы"
+          }
         }
       }
     },
@@ -2808,6 +3222,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "未解決の質問はありません"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Нерешённых вопросов нет"
           }
         }
       }
@@ -2849,6 +3269,12 @@
             "state" : "translated",
             "value" : "未解決のみ"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Только нерешённые"
+          }
         }
       }
     },
@@ -2888,6 +3314,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "学びたいこと"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Что я хочу узнать"
           }
         }
       }
@@ -2929,6 +3361,12 @@
             "state" : "translated",
             "value" : "学んだこと"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Чему я научился"
+          }
         }
       }
     },
@@ -2969,6 +3407,12 @@
             "state" : "translated",
             "value" : "「学んだこと」に含める"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Включить в «Чему я научился»"
+          }
         }
       }
     },
@@ -3008,6 +3452,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "「学んだこと」から除外（回答は残ります）"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Исключить из «Чему я научился» (ответ останется)"
           }
         }
       }
@@ -3050,6 +3500,12 @@
             "state" : "translated",
             "value" : "バックアップと書き出し"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Резервные копии и экспорт"
+          }
         }
       }
     },
@@ -3090,6 +3546,12 @@
             "state" : "translated",
             "value" : "表示"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Вид"
+          }
         }
       }
     },
@@ -3129,6 +3591,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "「表示」メニューの「まとめ」(⌘1)では聞きたいことと学んだことを、「グラフ」(⌘2)では質問どうしのつながりをひと目で確認できます。"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "В меню «Вид» пункт «Сводка» (⌘1) покажет, что ещё спросить и чему вы научились, а «Граф» (⌘2) — как связаны ваши вопросы."
           }
         }
       }
@@ -3171,6 +3639,12 @@
             "state" : "translated",
             "value" : "見やすい色とコントラスト"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Удобные цвета и контраст"
+          }
         }
       }
     },
@@ -3210,6 +3684,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ブロックのメモ"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Заметки блока"
           }
         }
       }
@@ -3251,6 +3731,12 @@
             "state" : "translated",
             "value" : "ブロックを削除"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Удалить блок"
+          }
         }
       }
     },
@@ -3290,6 +3776,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ブロックの色"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Цвет блока"
           }
         }
       }
@@ -3331,6 +3823,12 @@
             "state" : "translated",
             "value" : "ブロックの設定"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Параметры блока"
+          }
         }
       }
     },
@@ -3370,6 +3868,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ブロックの開始時刻"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Время начала блока"
           }
         }
       }
@@ -3411,6 +3915,12 @@
             "state" : "translated",
             "value" : "ブロックを追加"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Добавить блок"
+          }
         }
       }
     },
@@ -3450,6 +3960,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ブロックがありません"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Блоков нет"
           }
         }
       }
@@ -3491,6 +4007,12 @@
             "state" : "translated",
             "value" : "削除"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Удалить"
+          }
         }
       }
     },
@@ -3530,6 +4052,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "新しい講義"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Новая лекция"
           }
         }
       }
@@ -3571,6 +4099,12 @@
             "state" : "translated",
             "value" : "新しい追加の質問 — Returnキーで追加"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Новый уточняющий вопрос — нажмите Return, чтобы добавить"
+          }
         }
       }
     },
@@ -3610,6 +4144,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "色"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Цвет"
           }
         }
       }
@@ -3651,6 +4191,12 @@
             "state" : "translated",
             "value" : "設定"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Настройки"
+          }
         }
       }
     },
@@ -3691,6 +4237,12 @@
             "state" : "translated",
             "value" : "開始"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Начало"
+          }
         }
       }
     },
@@ -3730,6 +4282,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "時点"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Время"
           }
         }
       }
@@ -3772,6 +4330,12 @@
             "state" : "translated",
             "value" : "まだ答えが見つかっていない質問を、ちょうどよいタイミングでお知らせします。"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Напомним вовремя о вопросах, на которые вы ещё не нашли ответ."
+          }
         }
       }
     },
@@ -3812,6 +4376,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "通知"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Напоминания"
           }
         }
       }
@@ -3854,6 +4424,12 @@
             "state" : "translated",
             "value" : "アプリを開かなくても、デスクトップで残りの質問を確認できます。"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Смотрите оставшиеся вопросы прямо на рабочем столе, не открывая приложение."
+          }
         }
       }
     },
@@ -3894,6 +4470,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "アプリ全体を英語でも使えます。"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Приложением можно пользоваться и на английском."
           }
         }
       }
@@ -3936,6 +4518,12 @@
             "state" : "translated",
             "value" : "アップデート後に初めて開いたとき、新しくなった点をお知らせします。"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "При первом запуске после обновления вы узнаете, что нового."
+          }
         }
       }
     },
@@ -3976,6 +4564,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "アップデート情報"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Что нового"
           }
         }
       }
@@ -4018,6 +4612,12 @@
             "state" : "translated",
             "value" : "複数のMacで続けて使う"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Синхронизация между Mac"
+          }
         }
       }
     },
@@ -4058,6 +4658,12 @@
             "state" : "translated",
             "value" : "関連づけを解除（質問は削除されません）"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Отвязать (вопрос не будет удалён)"
+          }
         }
       }
     },
@@ -4097,6 +4703,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "お問い合わせ"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Связаться с нами"
           }
         }
       }
@@ -4139,6 +4751,12 @@
             "state" : "translated",
             "value" : "英語に対応"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Полная поддержка английского"
+          }
         }
       }
     },
@@ -4178,6 +4796,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "まとめ"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Сводка"
           }
         }
       }
@@ -4219,6 +4843,12 @@
             "state" : "translated",
             "value" : "まとめ・グラフ・タイムブロック・学習状況・文字サイズ"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Сводка, граф, блоки времени, состояние обучения, размер текста"
+          }
         }
       }
     },
@@ -4258,6 +4888,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "まとめの「学んだこと」の一覧に入れるかどうかを選びます"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Выберите, включать ли вопрос в список «Чему я научился» в сводке"
           }
         }
       }
@@ -4300,6 +4936,12 @@
             "state" : "translated",
             "value" : "視差効果を減らす"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Уменьшение движения"
+          }
         }
       }
     },
@@ -4341,6 +4983,12 @@
             "state" : "translated",
             "value" : "「視差効果を減らす」をオンにすると、画面の動きが穏やかになります。"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "При включённом уменьшении движения эффекты на экране становятся спокойнее."
+          }
         }
       }
     },
@@ -4380,6 +5028,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "元の質問"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Исходный вопрос"
           }
         }
       }
@@ -4422,6 +5076,12 @@
             "state" : "translated",
             "value" : "必要なら、アプリ内で講義と質問をすべて削除できます。"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "При желании можно стереть все лекции и вопросы прямо в приложении."
+          }
         }
       }
     },
@@ -4461,6 +5121,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "この講義を理解できたら、どうなっていたいか…"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Что я хочу уметь, когда пойму эту лекцию целиком…"
           }
         }
       }
@@ -4502,6 +5168,12 @@
             "state" : "translated",
             "value" : "この講義を聞く前、またはいま理解している程度、つまずいている点…"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Что я знаю до лекции или на данный момент, где застреваю…"
+          }
         }
       }
     },
@@ -4541,6 +5213,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "この講義でぜひ得たいこと、気になるテーマ…"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Что я хочу вынести из этой лекции, какие темы интересны…"
           }
         }
       }
@@ -4582,6 +5260,12 @@
             "state" : "translated",
             "value" : "このブロックを削除しますか？ メモも一緒に消えます。"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Удалить этот блок? Заметки в нём тоже будут удалены."
+          }
         }
       }
     },
@@ -4621,6 +5305,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "このブロックの色・開始時刻・長さを変更するか、ブロックを削除します"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Изменить цвет, время начала и длительность блока или удалить его"
           }
         }
       }
@@ -4662,6 +5352,12 @@
             "state" : "translated",
             "value" : "この時間に学んだこと、覚えておきたいことをメモしましょう…"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Запишите, что вы узнали за это время и что хотите запомнить…"
+          }
         }
       }
     },
@@ -4701,6 +5397,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "この質問へ移動"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Перейти к этому вопросу"
           }
         }
       }
@@ -4742,6 +5444,12 @@
             "state" : "translated",
             "value" : "この質問の答えを自分の言葉でまとめて書きます"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Запишите ответ на этот вопрос своими словами"
+          }
         }
       }
     },
@@ -4781,6 +5489,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Instagramで最新情報を見る"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Новости в Instagram"
           }
         }
       }
@@ -4822,6 +5536,12 @@
             "state" : "translated",
             "value" : "小さく"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Мельче"
+          }
         }
       }
     },
@@ -4861,6 +5581,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "作成 %@"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Создано: %@"
           }
         }
       }
@@ -4902,6 +5628,12 @@
             "state" : "translated",
             "value" : "保存"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Сохранить"
+          }
         }
       }
     },
@@ -4941,6 +5673,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "保存して続ける"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Сохранить и продолжить"
           }
         }
       }
@@ -4982,6 +5720,12 @@
             "state" : "translated",
             "value" : "除外"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Исключить"
+          }
         }
       }
     },
@@ -5021,6 +5765,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "除外した回答"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Исключённые ответы"
           }
         }
       }
@@ -5062,6 +5812,12 @@
             "state" : "translated",
             "value" : "いま"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Сейчас"
+          }
         }
       }
     },
@@ -5101,6 +5857,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "いまの自分の状態"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Где я сейчас"
           }
         }
       }
@@ -5142,6 +5904,12 @@
             "state" : "translated",
             "value" : "サポート"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Поддержка"
+          }
         }
       }
     },
@@ -5181,6 +5949,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "質問"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Вопрос"
           }
         }
       }
@@ -5222,6 +5996,12 @@
             "state" : "translated",
             "value" : "質問 %lld ・ 聞きたいこと %lld ・ 学んだこと %lld ・ 追加の質問 %lld"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Вопросов: %lld · Спросить: %lld · Усвоено: %lld · Уточнений: %lld"
+          }
         }
       }
     },
@@ -5261,6 +6041,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "質問ノートを開き、いま見ている講義に質問を書くウインドウを表示します。"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Открывает «Заметки с вопросами» и показывает окно, чтобы записать вопрос к текущей лекции."
           }
         }
       }
@@ -5302,6 +6088,12 @@
             "state" : "translated",
             "value" : "質問ノートへようこそ"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Добро пожаловать в «Заметки с вопросами»"
+          }
         }
       }
     },
@@ -5341,6 +6133,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "質問を磨く"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Уточнить вопрос"
           }
         }
       }
@@ -5382,6 +6180,12 @@
             "state" : "translated",
             "value" : "質問を追加"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Добавить вопрос"
+          }
         }
       }
     },
@@ -5421,6 +6225,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "質問を追加 (⌘⇧N)"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Добавить вопрос (⌘⇧N)"
           }
         }
       }
@@ -5462,6 +6272,12 @@
             "state" : "translated",
             "value" : "質問を選択してください"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Выберите вопрос"
+          }
         }
       }
     },
@@ -5501,6 +6317,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "質問を解決済みにすると、ここに集まります"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Вопросы, отмеченные решёнными, соберутся здесь"
           }
         }
       }
@@ -5542,6 +6364,12 @@
             "state" : "translated",
             "value" : "質問がたまってきたら振り返ってみましょう"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Пора оглянуться на накопившиеся вопросы"
+          }
         }
       }
     },
@@ -5581,6 +6409,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "最初の講義をつくる"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Создать первую лекцию"
           }
         }
       }
@@ -5622,6 +6456,12 @@
             "state" : "translated",
             "value" : "縮小"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Уменьшить"
+          }
         }
       }
     },
@@ -5662,6 +6502,12 @@
             "state" : "translated",
             "value" : "キャンセル"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Отмена"
+          }
         }
       }
     },
@@ -5701,6 +6547,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "大きく"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Крупнее"
           }
         }
       }
@@ -5743,6 +6595,12 @@
             "state" : "translated",
             "value" : "大きな文字に合わせた画面"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Экраны для крупного текста"
+          }
         }
       }
     },
@@ -5782,6 +6640,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "タイムブロック"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Блоки времени"
           }
         }
       }
@@ -5823,6 +6687,12 @@
             "state" : "translated",
             "value" : "ツールバー左の講義メニューから新しい講義を追加するか、会話のMarkdownファイルを読み込めます。"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Добавьте новую лекцию в меню лекций слева на панели инструментов или импортируйте диалог из файла Markdown."
+          }
         }
       }
     },
@@ -5862,6 +6732,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "学習状況"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Состояние обучения"
           }
         }
       }
@@ -5903,6 +6779,12 @@
             "state" : "translated",
             "value" : "学び終えたときの自分の状態"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Каким я хочу стать в конце"
+          }
         }
       }
     },
@@ -5942,6 +6824,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "解決済み"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Решён"
           }
         }
       }
@@ -5983,6 +6871,12 @@
             "state" : "translated",
             "value" : "解決状況"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Статус решения"
+          }
         }
       }
     },
@@ -6022,6 +6916,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "解決済み"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Решён"
           }
         }
       }
@@ -6063,6 +6963,12 @@
             "state" : "translated",
             "value" : "解決済み — クリックで未解決に戻す"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Решён — нажмите, чтобы вернуть в нерешённые"
+          }
         }
       }
     },
@@ -6103,6 +7009,12 @@
             "state" : "translated",
             "value" : "関連づけを解除"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Отвязать"
+          }
         }
       }
     },
@@ -6142,6 +7054,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "現在の講義を削除"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Удалить текущую лекцию"
           }
         }
       }
@@ -6184,6 +7102,12 @@
             "state" : "translated",
             "value" : "VoiceOverがボタンと内容を、漏れなく正しい順序で読み上げます。"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "VoiceOver читает все кнопки и заметки в правильном порядке."
+          }
         }
       }
     },
@@ -6223,6 +7147,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ウインドウに合わせる"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "По размеру окна"
           }
         }
       }
@@ -6264,6 +7194,12 @@
             "state" : "translated",
             "value" : "拡大"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Увеличить"
+          }
         }
       }
     },
@@ -6300,6 +7236,12 @@
           }
         },
         "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OK"
+          }
+        },
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "OK"
