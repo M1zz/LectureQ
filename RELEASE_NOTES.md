@@ -112,3 +112,9 @@ Nye sider om support og privatliv
 Päivämäärä ja kellonaika kielesi mukaan
 Uudet App Storen tekstit ja kuvat
 Uudistetut tuki- ja tietosuojasivut
+
+### 앱스토어 (id)
+
+Tanggal dan jam sesuai bahasamu
+Teks dan tangkapan layar App Store baru
+Halaman dukungan dan privasi dirapikan

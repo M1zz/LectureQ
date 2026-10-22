@@ -1190,3 +1190,69 @@ https://m1zz.github.io/LectureQ/privacy.html
 ### 마케팅 URL
 
 https://m1zz.github.io/LectureQ/
+
+## id
+
+### 이름
+
+LectureQ: Catatan Pertanyaan
+
+### 부제
+
+Ubah keraguan jadi ilmu
+
+### 키워드
+
+belajar,kuliah,ujian,ulangan,seminar,mahasiswa,kursus,linimasa,prompt,tugas,skripsi,webinar
+
+### 프로모션 텍스트
+
+Catat keraguan di tengah kuliah dengan satu pintasan. Ia tersimpan di samping catatan saat itu, lalu pertanyaan lanjutan dan prompt AI membantumu mengubahnya jadi ilmu.
+
+### 설명
+
+Buku catatan belajar untuk Mac yang menjaga pertanyaan yang muncul saat kuliah agar tidak terlewat.
+Tulis pertanyaan dengan kata-kata sederhana, simpan di samping catatan saat itu, lalu cari jawabannya dan tulis ulang dengan kata-katamu sendiri: itulah yang menjadi hal yang sudah kamu pelajari.
+
+Pertanyaan Cepat
+Buka jendela input lewat tombol Tambah Pertanyaan di bilah alat atau dengan Command Shift N. Waktu terisi otomatis dengan jam sekarang. Return menyimpan pertanyaan, dan Command Return menyimpannya sekaligus langsung membuka ruang untuk pertanyaan berikutnya.
+
+Daftar Pertanyaan
+Pertanyaan lanjutan tersusun menjorok di bawah pertanyaan asli. Pertanyaan yang belum terjawab dan yang sudah terjawab dibedakan dengan warna, dan kamu bisa menampilkan yang belum terjawab saja.
+
+Catatan Blok Waktu
+Bagi satu kuliah menjadi beberapa blok waktu dan catat di tiap blok. Pertanyaan muncul di samping blok yang sesuai, dan sekali klik langsung membawamu ke pertanyaan itu. Jika kamu menulis pertanyaan di waktu di luar blok, sebuah blok ditambahkan otomatis.
+
+Detail Pertanyaan
+Kelola di satu tempat: sudah terjawab atau belum, masuk ke yang sudah dipelajari atau tidak, waktu, jawabanmu sendiri, serta pertanyaan asli dan lanjutannya.
+
+Cari Jawaban dengan AI
+Lima langkah prompt, mulai dari merapikan pertanyaan, mencari jawaban, menguji balik jawaban, mengambil pertanyaan lanjutan, sampai meminta nilai untuk jawabanmu sendiri, disalin ke papan klip dengan nama kuliah dan catatan saat itu yang sudah terisi. Tinggal tempel ke layanan AI yang biasa kamu pakai. Aplikasi tidak mengirim apa pun ke luar dengan sendirinya.
+
+Lihat Semuanya Sekilas
+Ringkasan kuliah hanya mengumpulkan pertanyaan yang perlu ditanya, yang sudah dipelajari, dan catatanmu, sehingga bisa dibaca seperti lembar ulasan. Grafik menunjukkan bagaimana pikiranmu bercabang dari pertanyaan asli ke pertanyaan lanjutan, dan tampilan blok waktu memungkinkan kamu menelusuri berurutan apa yang dipelajari dan kapan.
+
+Status Belajar
+Tulis posisimu sebelum kuliah, posisi yang kamu inginkan setelahnya, dan hal yang ingin dipelajari, lalu bandingkan.
+
+Impor Percakapan Markdown
+Impor Markdown berisi judul, bagian, dan ucapan per pembicara, dan aplikasi akan memecahnya menjadi kuliah, pertanyaan, dan jawaban.
+
+Ukuran teks bisa diatur dengan Command plus dan Command minus.
+
+Privasi
+Tidak ada akun, dan semua catatan hanya tersimpan di Mac ini.
+
+Membutuhkan macOS 14 atau lebih baru.
+
+### 지원 URL
+
+https://m1zz.github.io/LectureQ/support.html
+
+### 개인정보처리방침 URL
+
+https://m1zz.github.io/LectureQ/privacy.html
+
+### 마케팅 URL
+
+https://m1zz.github.io/LectureQ/
