@@ -1,7 +1,7 @@
 # 질문노트 App Store 문구
 
 DeployBar 가 배포할 때 이 파일을 읽어 App Store 페이지에 올린다.
-앱은 한국어 하나라 스토어도 한국어 하나다. 기능은 README.md 와 소스에 있는 것만 쓴다.
+앱 화면이 번역된 24개 언어(deploy.env LOCALES)마다 절을 둔다. 지원·개인정보·소개 URL 은 그 언어 페이지(docs/<로케일>/). 기능은 README.md 와 소스에 있는 것만 쓴다.
 
 ## ko
 
@@ -125,15 +125,15 @@ Requires macOS 14 or later.
 
 ### 지원 URL
 
-https://m1zz.github.io/LectureQ/support.html
+https://m1zz.github.io/LectureQ/en/support.html
 
 ### 개인정보처리방침 URL
 
-https://m1zz.github.io/LectureQ/privacy.html
+https://m1zz.github.io/LectureQ/en/privacy.html
 
 ### 마케팅 URL
 
-https://m1zz.github.io/LectureQ/
+https://m1zz.github.io/LectureQ/en/
 
 ## en-GB
 
@@ -191,15 +191,15 @@ Requires macOS 14 or later.
 
 ### 지원 URL
 
-https://m1zz.github.io/LectureQ/support.html
+https://m1zz.github.io/LectureQ/en-GB/support.html
 
 ### 개인정보처리방침 URL
 
-https://m1zz.github.io/LectureQ/privacy.html
+https://m1zz.github.io/LectureQ/en-GB/privacy.html
 
 ### 마케팅 URL
 
-https://m1zz.github.io/LectureQ/
+https://m1zz.github.io/LectureQ/en-GB/
 
 ## zh-Hans
 
@@ -257,15 +257,15 @@ LectureQ：听课提问笔记
 
 ### 지원 URL
 
-https://m1zz.github.io/LectureQ/support.html
+https://m1zz.github.io/LectureQ/zh-Hans/support.html
 
 ### 개인정보처리방침 URL
 
-https://m1zz.github.io/LectureQ/privacy.html
+https://m1zz.github.io/LectureQ/zh-Hans/privacy.html
 
 ### 마케팅 URL
 
-https://m1zz.github.io/LectureQ/
+https://m1zz.github.io/LectureQ/zh-Hans/
 
 ## zh-Hant
 
@@ -323,15 +323,15 @@ LectureQ：上課提問筆記
 
 ### 지원 URL
 
-https://m1zz.github.io/LectureQ/support.html
+https://m1zz.github.io/LectureQ/zh-Hant/support.html
 
 ### 개인정보처리방침 URL
 
-https://m1zz.github.io/LectureQ/privacy.html
+https://m1zz.github.io/LectureQ/zh-Hant/privacy.html
 
 ### 마케팅 URL
 
-https://m1zz.github.io/LectureQ/
+https://m1zz.github.io/LectureQ/zh-Hant/
 
 ## ja
 
@@ -389,15 +389,15 @@ macOS 14以降で使えます。
 
 ### 지원 URL
 
-https://m1zz.github.io/LectureQ/support.html
+https://m1zz.github.io/LectureQ/ja/support.html
 
 ### 개인정보처리방침 URL
 
-https://m1zz.github.io/LectureQ/privacy.html
+https://m1zz.github.io/LectureQ/ja/privacy.html
 
 ### 마케팅 URL
 
-https://m1zz.github.io/LectureQ/
+https://m1zz.github.io/LectureQ/ja/
 
 ## ru
 
@@ -455,15 +455,15 @@ LectureQ: вопросы к лекциям
 
 ### 지원 URL
 
-https://m1zz.github.io/LectureQ/support.html
+https://m1zz.github.io/LectureQ/ru/support.html
 
 ### 개인정보처리방침 URL
 
-https://m1zz.github.io/LectureQ/privacy.html
+https://m1zz.github.io/LectureQ/ru/privacy.html
 
 ### 마케팅 URL
 
-https://m1zz.github.io/LectureQ/
+https://m1zz.github.io/LectureQ/ru/
 
 ## es
 
@@ -521,15 +521,15 @@ Requiere macOS 14 o posterior.
 
 ### 지원 URL
 
-https://m1zz.github.io/LectureQ/support.html
+https://m1zz.github.io/LectureQ/es/support.html
 
 ### 개인정보처리방침 URL
 
-https://m1zz.github.io/LectureQ/privacy.html
+https://m1zz.github.io/LectureQ/es/privacy.html
 
 ### 마케팅 URL
 
-https://m1zz.github.io/LectureQ/
+https://m1zz.github.io/LectureQ/es/
 
 ## de
 
@@ -587,15 +587,15 @@ Erfordert macOS 14 oder neuer.
 
 ### 지원 URL
 
-https://m1zz.github.io/LectureQ/support.html
+https://m1zz.github.io/LectureQ/de/support.html
 
 ### 개인정보처리방침 URL
 
-https://m1zz.github.io/LectureQ/privacy.html
+https://m1zz.github.io/LectureQ/de/privacy.html
 
 ### 마케팅 URL
 
-https://m1zz.github.io/LectureQ/
+https://m1zz.github.io/LectureQ/de/
 
 ## fr
 
@@ -653,15 +653,15 @@ Nécessite macOS 14 ou ultérieur.
 
 ### 지원 URL
 
-https://m1zz.github.io/LectureQ/support.html
+https://m1zz.github.io/LectureQ/fr/support.html
 
 ### 개인정보처리방침 URL
 
-https://m1zz.github.io/LectureQ/privacy.html
+https://m1zz.github.io/LectureQ/fr/privacy.html
 
 ### 마케팅 URL
 
-https://m1zz.github.io/LectureQ/
+https://m1zz.github.io/LectureQ/fr/
 
 ## it
 
@@ -719,15 +719,15 @@ Richiede macOS 14 o successivo.
 
 ### 지원 URL
 
-https://m1zz.github.io/LectureQ/support.html
+https://m1zz.github.io/LectureQ/it/support.html
 
 ### 개인정보처리방침 URL
 
-https://m1zz.github.io/LectureQ/privacy.html
+https://m1zz.github.io/LectureQ/it/privacy.html
 
 ### 마케팅 URL
 
-https://m1zz.github.io/LectureQ/
+https://m1zz.github.io/LectureQ/it/
 
 ## pt-BR
 
@@ -785,15 +785,15 @@ Requer macOS 14 ou posterior.
 
 ### 지원 URL
 
-https://m1zz.github.io/LectureQ/support.html
+https://m1zz.github.io/LectureQ/pt-BR/support.html
 
 ### 개인정보처리방침 URL
 
-https://m1zz.github.io/LectureQ/privacy.html
+https://m1zz.github.io/LectureQ/pt-BR/privacy.html
 
 ### 마케팅 URL
 
-https://m1zz.github.io/LectureQ/
+https://m1zz.github.io/LectureQ/pt-BR/
 
 ## th
 
@@ -851,15 +851,15 @@ LectureQ: จดคำถามในคลาส
 
 ### 지원 URL
 
-https://m1zz.github.io/LectureQ/support.html
+https://m1zz.github.io/LectureQ/th/support.html
 
 ### 개인정보처리방침 URL
 
-https://m1zz.github.io/LectureQ/privacy.html
+https://m1zz.github.io/LectureQ/th/privacy.html
 
 ### 마케팅 URL
 
-https://m1zz.github.io/LectureQ/
+https://m1zz.github.io/LectureQ/th/
 
 ## vi
 
@@ -917,15 +917,15 @@ Cần macOS 14 trở lên.
 
 ### 지원 URL
 
-https://m1zz.github.io/LectureQ/support.html
+https://m1zz.github.io/LectureQ/vi/support.html
 
 ### 개인정보처리방침 URL
 
-https://m1zz.github.io/LectureQ/privacy.html
+https://m1zz.github.io/LectureQ/vi/privacy.html
 
 ### 마케팅 URL
 
-https://m1zz.github.io/LectureQ/
+https://m1zz.github.io/LectureQ/vi/
 
 ## cs
 
@@ -983,15 +983,15 @@ Vyžaduje macOS 14 nebo novější.
 
 ### 지원 URL
 
-https://m1zz.github.io/LectureQ/support.html
+https://m1zz.github.io/LectureQ/cs/support.html
 
 ### 개인정보처리방침 URL
 
-https://m1zz.github.io/LectureQ/privacy.html
+https://m1zz.github.io/LectureQ/cs/privacy.html
 
 ### 마케팅 URL
 
-https://m1zz.github.io/LectureQ/
+https://m1zz.github.io/LectureQ/cs/
 
 ## da
 
@@ -1049,15 +1049,15 @@ Kræver macOS 14 eller nyere.
 
 ### 지원 URL
 
-https://m1zz.github.io/LectureQ/support.html
+https://m1zz.github.io/LectureQ/da/support.html
 
 ### 개인정보처리방침 URL
 
-https://m1zz.github.io/LectureQ/privacy.html
+https://m1zz.github.io/LectureQ/da/privacy.html
 
 ### 마케팅 URL
 
-https://m1zz.github.io/LectureQ/
+https://m1zz.github.io/LectureQ/da/
 
 ## el
 
@@ -1115,15 +1115,15 @@ LectureQ: Ερωτήσεις μαθημάτων
 
 ### 지원 URL
 
-https://m1zz.github.io/LectureQ/support.html
+https://m1zz.github.io/LectureQ/el/support.html
 
 ### 개인정보처리방침 URL
 
-https://m1zz.github.io/LectureQ/privacy.html
+https://m1zz.github.io/LectureQ/el/privacy.html
 
 ### 마케팅 URL
 
-https://m1zz.github.io/LectureQ/
+https://m1zz.github.io/LectureQ/el/
 
 ## fi
 
@@ -1181,15 +1181,15 @@ Vaatii macOS 14:n tai uudemman.
 
 ### 지원 URL
 
-https://m1zz.github.io/LectureQ/support.html
+https://m1zz.github.io/LectureQ/fi/support.html
 
 ### 개인정보처리방침 URL
 
-https://m1zz.github.io/LectureQ/privacy.html
+https://m1zz.github.io/LectureQ/fi/privacy.html
 
 ### 마케팅 URL
 
-https://m1zz.github.io/LectureQ/
+https://m1zz.github.io/LectureQ/fi/
 
 ## id
 
@@ -1247,15 +1247,15 @@ Membutuhkan macOS 14 atau lebih baru.
 
 ### 지원 URL
 
-https://m1zz.github.io/LectureQ/support.html
+https://m1zz.github.io/LectureQ/id/support.html
 
 ### 개인정보처리방침 URL
 
-https://m1zz.github.io/LectureQ/privacy.html
+https://m1zz.github.io/LectureQ/id/privacy.html
 
 ### 마케팅 URL
 
-https://m1zz.github.io/LectureQ/
+https://m1zz.github.io/LectureQ/id/
 
 ## nb
 
@@ -1313,15 +1313,15 @@ Krever macOS 14 eller nyere.
 
 ### 지원 URL
 
-https://m1zz.github.io/LectureQ/support.html
+https://m1zz.github.io/LectureQ/nb/support.html
 
 ### 개인정보처리방침 URL
 
-https://m1zz.github.io/LectureQ/privacy.html
+https://m1zz.github.io/LectureQ/nb/privacy.html
 
 ### 마케팅 URL
 
-https://m1zz.github.io/LectureQ/
+https://m1zz.github.io/LectureQ/nb/
 
 ## nl
 
@@ -1379,15 +1379,15 @@ Vereist macOS 14 of nieuwer.
 
 ### 지원 URL
 
-https://m1zz.github.io/LectureQ/support.html
+https://m1zz.github.io/LectureQ/nl/support.html
 
 ### 개인정보처리방침 URL
 
-https://m1zz.github.io/LectureQ/privacy.html
+https://m1zz.github.io/LectureQ/nl/privacy.html
 
 ### 마케팅 URL
 
-https://m1zz.github.io/LectureQ/
+https://m1zz.github.io/LectureQ/nl/
 
 ## pl
 
@@ -1445,15 +1445,15 @@ Wymaga macOS 14 lub nowszego.
 
 ### 지원 URL
 
-https://m1zz.github.io/LectureQ/support.html
+https://m1zz.github.io/LectureQ/pl/support.html
 
 ### 개인정보처리방침 URL
 
-https://m1zz.github.io/LectureQ/privacy.html
+https://m1zz.github.io/LectureQ/pl/privacy.html
 
 ### 마케팅 URL
 
-https://m1zz.github.io/LectureQ/
+https://m1zz.github.io/LectureQ/pl/
 
 ## sv
 
@@ -1511,15 +1511,15 @@ Kräver macOS 14 eller senare.
 
 ### 지원 URL
 
-https://m1zz.github.io/LectureQ/support.html
+https://m1zz.github.io/LectureQ/sv/support.html
 
 ### 개인정보처리방침 URL
 
-https://m1zz.github.io/LectureQ/privacy.html
+https://m1zz.github.io/LectureQ/sv/privacy.html
 
 ### 마케팅 URL
 
-https://m1zz.github.io/LectureQ/
+https://m1zz.github.io/LectureQ/sv/
 
 ## tr
 
@@ -1577,12 +1577,12 @@ macOS 14 veya üstünü gerektirir.
 
 ### 지원 URL
 
-https://m1zz.github.io/LectureQ/support.html
+https://m1zz.github.io/LectureQ/tr/support.html
 
 ### 개인정보처리방침 URL
 
-https://m1zz.github.io/LectureQ/privacy.html
+https://m1zz.github.io/LectureQ/tr/privacy.html
 
 ### 마케팅 URL
 
-https://m1zz.github.io/LectureQ/
+https://m1zz.github.io/LectureQ/tr/

@@ -1,0 +1,216 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>LectureQ · 指南：用 AI 找答案</title>
+<!--hreflang:start-->
+<link rel="canonical" href="https://m1zz.github.io/LectureQ/zh-Hant/ai-guide.html">
+<link rel="alternate" hreflang="ko" href="https://m1zz.github.io/LectureQ/ai-guide.html">
+<link rel="alternate" hreflang="en" href="https://m1zz.github.io/LectureQ/en/ai-guide.html">
+<link rel="alternate" hreflang="en-GB" href="https://m1zz.github.io/LectureQ/en-GB/ai-guide.html">
+<link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/LectureQ/zh-Hans/ai-guide.html">
+<link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/LectureQ/zh-Hant/ai-guide.html">
+<link rel="alternate" hreflang="ja" href="https://m1zz.github.io/LectureQ/ja/ai-guide.html">
+<link rel="alternate" hreflang="ru" href="https://m1zz.github.io/LectureQ/ru/ai-guide.html">
+<link rel="alternate" hreflang="es" href="https://m1zz.github.io/LectureQ/es/ai-guide.html">
+<link rel="alternate" hreflang="de" href="https://m1zz.github.io/LectureQ/de/ai-guide.html">
+<link rel="alternate" hreflang="fr" href="https://m1zz.github.io/LectureQ/fr/ai-guide.html">
+<link rel="alternate" hreflang="it" href="https://m1zz.github.io/LectureQ/it/ai-guide.html">
+<link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/LectureQ/pt-BR/ai-guide.html">
+<link rel="alternate" hreflang="th" href="https://m1zz.github.io/LectureQ/th/ai-guide.html">
+<link rel="alternate" hreflang="vi" href="https://m1zz.github.io/LectureQ/vi/ai-guide.html">
+<link rel="alternate" hreflang="cs" href="https://m1zz.github.io/LectureQ/cs/ai-guide.html">
+<link rel="alternate" hreflang="da" href="https://m1zz.github.io/LectureQ/da/ai-guide.html">
+<link rel="alternate" hreflang="el" href="https://m1zz.github.io/LectureQ/el/ai-guide.html">
+<link rel="alternate" hreflang="fi" href="https://m1zz.github.io/LectureQ/fi/ai-guide.html">
+<link rel="alternate" hreflang="id" href="https://m1zz.github.io/LectureQ/id/ai-guide.html">
+<link rel="alternate" hreflang="nb" href="https://m1zz.github.io/LectureQ/nb/ai-guide.html">
+<link rel="alternate" hreflang="nl" href="https://m1zz.github.io/LectureQ/nl/ai-guide.html">
+<link rel="alternate" hreflang="pl" href="https://m1zz.github.io/LectureQ/pl/ai-guide.html">
+<link rel="alternate" hreflang="sv" href="https://m1zz.github.io/LectureQ/sv/ai-guide.html">
+<link rel="alternate" hreflang="tr" href="https://m1zz.github.io/LectureQ/tr/ai-guide.html">
+<link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/LectureQ/ai-guide.html">
+<style>.langs{display:flex;flex-wrap:wrap;gap:4px 12px;font-size:13px;margin:0 0 18px;}.langs a{color:var(--muted);text-decoration:none;}.langs a[aria-current]{color:var(--fg);font-weight:600;}.langs a:hover{color:var(--teal);}</style>
+<!--hreflang:end-->
+<style>
+  :root{--blue:#2E6BE6;--teal:#17B3A3;--bg:#ffffff;--fg:#1c1c1e;--muted:#6b6b70;--card:#f5f6f8;--border:#e6e7ea;}
+  @media (prefers-color-scheme:dark){:root{--bg:#111214;--fg:#f2f2f5;--muted:#9a9aa0;--card:#1b1c1f;--border:#2a2b2f;}}
+  *{box-sizing:border-box;}
+  body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"PingFang TC","Apple SD Gothic Neo","Segoe UI",Roboto,sans-serif;background:var(--bg);color:var(--fg);line-height:1.7;}
+  .wrap{max-width:760px;margin:0 auto;padding:40px 20px 80px;}
+  a.back{color:var(--teal);text-decoration:none;font-size:14px;}
+  h1{font-size:30px;margin:18px 0 4px;letter-spacing:-.4px;}
+  .lead{color:var(--muted);font-size:16px;margin:0 0 28px;}
+  h2{font-size:20px;margin:38px 0 10px;padding-top:14px;border-top:1px solid var(--border);}
+  h3{font-size:16px;margin:24px 0 6px;}
+  code{background:var(--card);border:1px solid var(--border);border-radius:6px;padding:1px 6px;font-size:13px;}
+  kbd{background:var(--card);border:1px solid var(--border);border-bottom-width:2px;border-radius:6px;padding:1px 7px;font-size:13px;font-family:inherit;}
+  pre{background:var(--card);border:1px solid var(--border);border-left:4px solid var(--teal);border-radius:10px;padding:14px 16px;overflow-x:auto;font-size:13.5px;line-height:1.6;white-space:pre-wrap;}
+  .step{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:16px 20px;margin:14px 0;}
+  .step .n{display:inline-block;min-width:26px;height:26px;line-height:26px;text-align:center;border-radius:8px;background:var(--teal);color:#fff;font-weight:700;font-size:14px;margin-right:8px;}
+  .step h3{display:inline;font-size:17px;}
+  .inapp{color:var(--blue);font-size:13.5px;margin:8px 0 0;}
+  @media (prefers-color-scheme:dark){.inapp{color:#7aa5ff;}}
+  table{border-collapse:collapse;width:100%;margin:14px 0;font-size:14.5px;}
+  th,td{border:1px solid var(--border);padding:10px 12px;text-align:left;vertical-align:top;}
+  th{background:var(--card);font-size:14px;}
+  td .kw{color:var(--muted);font-size:13.5px;}
+  ul{padding-left:20px;}
+  li{margin:5px 0;}
+  .trap{border-left:4px solid #E6892E;background:var(--card);border-radius:10px;padding:12px 16px;margin:10px 0;}
+  .trap b{color:#E6892E;}
+  footer{margin-top:48px;color:var(--muted);font-size:13px;border-top:1px solid var(--border);padding-top:18px;}
+  footer a{color:var(--teal);}
+</style>
+</head>
+<body>
+  <div class="wrap">
+<!--langswitch:start--><nav class="langs" aria-label="Language"><a href="../ai-guide.html" hreflang="ko" lang="ko">한국어</a> <a href="../en/ai-guide.html" hreflang="en" lang="en">English</a> <a href="../en-GB/ai-guide.html" hreflang="en-GB" lang="en-GB">English (UK)</a> <a href="../zh-Hans/ai-guide.html" hreflang="zh-Hans" lang="zh-Hans">简体中文</a> <a href="../zh-Hant/ai-guide.html" hreflang="zh-Hant" lang="zh-Hant" aria-current="page">繁體中文</a> <a href="../ja/ai-guide.html" hreflang="ja" lang="ja">日本語</a> <a href="../ru/ai-guide.html" hreflang="ru" lang="ru">Русский</a> <a href="../es/ai-guide.html" hreflang="es" lang="es">Español</a> <a href="../de/ai-guide.html" hreflang="de" lang="de">Deutsch</a> <a href="../fr/ai-guide.html" hreflang="fr" lang="fr">Français</a> <a href="../it/ai-guide.html" hreflang="it" lang="it">Italiano</a> <a href="../pt-BR/ai-guide.html" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a> <a href="../th/ai-guide.html" hreflang="th" lang="th">ไทย</a> <a href="../vi/ai-guide.html" hreflang="vi" lang="vi">Tiếng Việt</a> <a href="../cs/ai-guide.html" hreflang="cs" lang="cs">Čeština</a> <a href="../da/ai-guide.html" hreflang="da" lang="da">Dansk</a> <a href="../el/ai-guide.html" hreflang="el" lang="el">Ελληνικά</a> <a href="../fi/ai-guide.html" hreflang="fi" lang="fi">Suomi</a> <a href="../id/ai-guide.html" hreflang="id" lang="id">Bahasa Indonesia</a> <a href="../nb/ai-guide.html" hreflang="nb" lang="nb">Norsk bokmål</a> <a href="../nl/ai-guide.html" hreflang="nl" lang="nl">Nederlands</a> <a href="../pl/ai-guide.html" hreflang="pl" lang="pl">Polski</a> <a href="../sv/ai-guide.html" hreflang="sv" lang="sv">Svenska</a> <a href="../tr/ai-guide.html" hreflang="tr" lang="tr">Türkçe</a></nav><!--langswitch:end-->
+    <a class="back" href="./index.html">← LectureQ：上課提問筆記</a>
+    <h1>指南：用 AI 找答案</h1>
+    <p class="lead">在 LectureQ 記下問題之後，接下來就是找答案的時候了。
+    現在，這些答案大多來自和 AI 的對話。問題是：<b>問同樣的問題，每個人帶走的東西卻不一樣</b>。
+    這份指南依照 LectureQ 的流程（問題 → 答案 → 學到的內容），整理出拉開這個差距的方法。</p>
+
+    <p><b>這份指南想培養的能力，一句話來說：</b><br>
+    <b>能和 AI 一起，把自己的疑問變成&lsquo;經過驗證的知識&rsquo;。</b>
+    — 不是拿到答案的能力，而是懷疑拿到的答案、並把它變成自己東西的能力。</p>
+
+    <h2>找答案的 5 個步驟</h2>
+    <p>一個問題，一段對話。把好幾個問題塞進同一段對話，答案會混在一起，之後也很難整理。</p>
+
+    <div class="step">
+      <span class="n">1</span><h3>把問題梳理成&lsquo;能回答的形式&rsquo;</h3>
+      <p>上課時匆忙寫下的問題，通常都很模糊。模糊的問題，只會換來模糊的答案。
+      先別急著求答案，先把問題重寫一次。</p>
+<pre>以下是我上課時匆忙寫下的問題，現在還很模糊。
+
+"{照抄你在 LectureQ 寫下的問題}"
+
+請把這個問題改寫成 3 個「能回答的問題」。
+每一個都再用一句話說明：知道答案之後，我能做到什麼。
+現在先不要回答，只要給我改寫後的問題。</pre>
+      <p class="inapp">▸ 出現滿意的版本後，就把 LectureQ 裡的問題改成這一版。這是對未來自己的投資。</p>
+    </div>
+
+    <div class="step">
+      <span class="n">2</span><h3>附上 3 種背景再提問</h3>
+      <p>AI 不知道你懂到哪裡。<b>問題從哪裡來／你目前的程度／你想要的答案形式</b>
+      — 只要附上這三點，答案的品質就會差很多。這三點都已經寫在 App 裡了。</p>
+<pre>[我的問題]
+{梳理後的問題}
+
+[背景]
+- 從哪裡來：{課程名稱} / {那個時間點的時間區塊筆記}
+- 我目前的程度：{學習狀態裡的「我現在的狀態」}
+- 我想達到的狀態：{學習狀態裡的「學完之後我想達到的狀態」}
+
+[想要的答案]
+1) 核心答案 3～5 行
+2) 為什麼會這樣，用一段話說明依據
+3) 我可能誤解的地方 1～2 個
+4) 一個我能親手驗證的最小範例或實驗
+
+請分開標示確定的內容和推測的內容。不知道的就直說不知道。</pre>
+      <p class="inapp">▸ 背景素材：工具列 <b>檢視 → 學習狀態</b>，以及問題所在的<b>時間區塊筆記</b>。</p>
+    </div>
+
+    <div class="step">
+      <span class="n">3</span><h3>別把第一個答案當成終點</h3>
+      <p>聽起來合理的答案，不代表通過了驗證。至少要反問一次。</p>
+<pre>剛才的答案中，最容易出錯的是哪個部分？
+
+- 這個答案要成立，必須為真的前提
+- 相反的立場，或這個答案不適用的例外情況
+- 如果我想用第一手資料親自查證，應該看什麼？（官方文件、規格、原文的名稱）</pre>
+      <p>版本、數字、API 名稱、年份這類<b>越具體、錯了越難察覺</b>的資訊，一定要回到原文查證。</p>
+    </div>
+
+    <div class="step">
+      <span class="n">4</span><h3>別讓新冒出來的疑問溜走</h3>
+      <p>好的答案總會帶來新的「不知道」。那就是下一個問題，也就是這個 App 裡的<b>追問</b>。</p>
+<pre>根據到目前為止的對話，請用 3 個問題列出我還不知道、但應該要知道的事。
+不要解釋，只要問題。簡短、具體。</pre>
+      <p class="inapp">▸ 把列出的問題直接貼到問題詳細資料的<b>&lsquo;新增追問&rsquo;</b>欄位，就會以「原問題 → 追問」的層級保存下來，
+      在<b>關係圖</b>中還能看到自己的理解是怎麼一路延伸的。</p>
+    </div>
+
+    <div class="step">
+      <span class="n">5</span><h3>用自己的話重寫，再請 AI 打分數</h3>
+      <p>把 AI 的答案拷貝貼上，留下的是紀錄，而不是知識。
+      在<b>答案</b>欄裡用自己的話寫，再把那段文字拿去打分數。</p>
+<pre>我把自己理解的內容用自己的話寫寫看。
+
+"{我親手寫的摘要}"
+
+請指出錯的地方、漏掉的地方和誇大的地方。
+不用給分數，直接給我改寫後的句子。</pre>
+      <p class="inapp">▸ 只有通過這一步的問題，才標示為<b>已解決</b> + <b>學到的內容（★）</b>。
+      <b>檢視 → 摘要</b>裡的&lsquo;學到的內容&rsquo;列表，只收錄這樣篩選過的內容才有價值。</p>
+    </div>
+
+    <h2>需要具備的知識</h2>
+    <p>把上面 5 個步驟換成能力的說法，就是下面這張表。先從自己現在最缺的那一行開始練習。</p>
+
+    <table>
+      <tr><th style="width:24%">要具備什麼</th><th style="width:38%">能做到……</th><th>了解……／相關關鍵字</th></tr>
+      <tr>
+        <td><b>梳理問題</b></td>
+        <td>能把模糊的筆記改寫成 3 個能回答的問題</td>
+        <td class="kw">好問題的條件、能回答與不能回答的問題、問題界定（problem framing）</td>
+      </tr>
+      <tr>
+        <td><b>提供背景</b></td>
+        <td>提問時能附上背景、自己的程度和想要的答案格式</td>
+        <td class="kw">提示詞結構化、指定角色／背景／輸出格式、脈絡設計</td>
+      </tr>
+      <tr>
+        <td><b>驗證答案</b></td>
+        <td>能反問答案的前提、反例和第一手來源，分辨出事實</td>
+        <td class="kw">幻覺（hallucination）、依據與出處、否證（falsification）、確認偏誤</td>
+      </tr>
+      <tr>
+        <td><b>找出不懂的地方</b></td>
+        <td>能從答案中擷取新問題，並保存為追問</td>
+        <td class="kw">後設認知、知識缺口（knowledge gap）、問題樹</td>
+      </tr>
+      <tr>
+        <td><b>把知識固定下來</b></td>
+        <td>能用自己的話重寫、請 AI 打分數，並確定為&lsquo;學到的內容&rsquo;</td>
+        <td class="kw">費曼學習法、提取練習（retrieval practice）、間隔重複（spaced repetition）</td>
+      </tr>
+    </table>
+
+    <h2>四個常見陷阱</h2>
+    <div class="trap"><b>1. 聽起來合理，就覺得是對的。</b> AI 的語氣永遠很有自信。
+    可信度來自依據，而不是語氣。★（學到的內容）等查證之後再標。</div>
+    <div class="trap"><b>2. 一段對話問到底。</b> 把五個問題塞進同一段對話，答案會變淺，也沒辦法整理。
+    一個問題 = 一段對話 = LectureQ 裡的一個項目。</div>
+    <div class="trap"><b>3. 只把答案拷貝貼上。</b> 貼上的答案，每次重讀都像第一次看到（= 代表根本沒記住）。
+    就算只有一句，也要改成自己的話。</div>
+    <div class="trap"><b>4. 對話結束就消失了。</b> 對話視窗會被沖走，只剩下問題。
+    像下面這樣把整段對話匯入 App，日後連&ldquo;我當時為什麼會這樣理解&rdquo;都能留下來。</div>
+
+    <h2>把 AI 對話整段匯入</h2>
+    <p>把和 AI 的對話存成 Markdown，App 就能把它變成一棵<b>問題樹</b>
+    （工具列 <b>課程選單 → 從 Markdown 匯入…</b>）。</p>
+<pre># 這一行會成為課程標題
+
+## 主題（這裡的第一個問題是原問題，接著的問題會成為追問）
+
+**我** — 這裡寫我問的問題
+
+**AI** — 這裡寫得到的回答（可以多行，也可以有程式碼區塊）</pre>
+    <p>匯入後，每個問題都會填好答案，並標示為已解決。
+    接著在<b>摘要</b>畫面中，只替真正學到的內容標上★，其餘的按&lsquo;排除&rsquo;，
+    一整段對話就整理成你自己的「學到的內容」列表了。</p>
+
+    <h2>一句話總結</h2>
+    <p style="font-size:17px;"><b>別向 AI 要答案，把它當成檢驗自己問題的對手。</b>
+    問題由我提出，懷疑由我來做，最後一句話也由我來寫。記下這段過程的地方，就是 LectureQ。</p>
+
+    <footer>© 2026 LectureQ · <a href="./support.html">支援</a> · <a href="./privacy.html">隱私權政策</a> · <a href="https://github.com/M1zz/LectureQ">GitHub</a></footer>
+  </div>
+</body>
+</html>

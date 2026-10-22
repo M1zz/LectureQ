@@ -1,0 +1,216 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>LectureQ · Rehber: Yapay Zekâ ile Cevap Bul</title>
+<!--hreflang:start-->
+<link rel="canonical" href="https://m1zz.github.io/LectureQ/tr/ai-guide.html">
+<link rel="alternate" hreflang="ko" href="https://m1zz.github.io/LectureQ/ai-guide.html">
+<link rel="alternate" hreflang="en" href="https://m1zz.github.io/LectureQ/en/ai-guide.html">
+<link rel="alternate" hreflang="en-GB" href="https://m1zz.github.io/LectureQ/en-GB/ai-guide.html">
+<link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/LectureQ/zh-Hans/ai-guide.html">
+<link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/LectureQ/zh-Hant/ai-guide.html">
+<link rel="alternate" hreflang="ja" href="https://m1zz.github.io/LectureQ/ja/ai-guide.html">
+<link rel="alternate" hreflang="ru" href="https://m1zz.github.io/LectureQ/ru/ai-guide.html">
+<link rel="alternate" hreflang="es" href="https://m1zz.github.io/LectureQ/es/ai-guide.html">
+<link rel="alternate" hreflang="de" href="https://m1zz.github.io/LectureQ/de/ai-guide.html">
+<link rel="alternate" hreflang="fr" href="https://m1zz.github.io/LectureQ/fr/ai-guide.html">
+<link rel="alternate" hreflang="it" href="https://m1zz.github.io/LectureQ/it/ai-guide.html">
+<link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/LectureQ/pt-BR/ai-guide.html">
+<link rel="alternate" hreflang="th" href="https://m1zz.github.io/LectureQ/th/ai-guide.html">
+<link rel="alternate" hreflang="vi" href="https://m1zz.github.io/LectureQ/vi/ai-guide.html">
+<link rel="alternate" hreflang="cs" href="https://m1zz.github.io/LectureQ/cs/ai-guide.html">
+<link rel="alternate" hreflang="da" href="https://m1zz.github.io/LectureQ/da/ai-guide.html">
+<link rel="alternate" hreflang="el" href="https://m1zz.github.io/LectureQ/el/ai-guide.html">
+<link rel="alternate" hreflang="fi" href="https://m1zz.github.io/LectureQ/fi/ai-guide.html">
+<link rel="alternate" hreflang="id" href="https://m1zz.github.io/LectureQ/id/ai-guide.html">
+<link rel="alternate" hreflang="nb" href="https://m1zz.github.io/LectureQ/nb/ai-guide.html">
+<link rel="alternate" hreflang="nl" href="https://m1zz.github.io/LectureQ/nl/ai-guide.html">
+<link rel="alternate" hreflang="pl" href="https://m1zz.github.io/LectureQ/pl/ai-guide.html">
+<link rel="alternate" hreflang="sv" href="https://m1zz.github.io/LectureQ/sv/ai-guide.html">
+<link rel="alternate" hreflang="tr" href="https://m1zz.github.io/LectureQ/tr/ai-guide.html">
+<link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/LectureQ/ai-guide.html">
+<style>.langs{display:flex;flex-wrap:wrap;gap:4px 12px;font-size:13px;margin:0 0 18px;}.langs a{color:var(--muted);text-decoration:none;}.langs a[aria-current]{color:var(--fg);font-weight:600;}.langs a:hover{color:var(--teal);}</style>
+<!--hreflang:end-->
+<style>
+  :root{--blue:#2E6BE6;--teal:#17B3A3;--bg:#ffffff;--fg:#1c1c1e;--muted:#6b6b70;--card:#f5f6f8;--border:#e6e7ea;}
+  @media (prefers-color-scheme:dark){:root{--bg:#111214;--fg:#f2f2f5;--muted:#9a9aa0;--card:#1b1c1f;--border:#2a2b2f;}}
+  *{box-sizing:border-box;}
+  body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Segoe UI",Roboto,sans-serif;background:var(--bg);color:var(--fg);line-height:1.7;}
+  .wrap{max-width:760px;margin:0 auto;padding:40px 20px 80px;}
+  a.back{color:var(--teal);text-decoration:none;font-size:14px;}
+  h1{font-size:30px;margin:18px 0 4px;letter-spacing:-.4px;}
+  .lead{color:var(--muted);font-size:16px;margin:0 0 28px;}
+  h2{font-size:20px;margin:38px 0 10px;padding-top:14px;border-top:1px solid var(--border);}
+  h3{font-size:16px;margin:24px 0 6px;}
+  code{background:var(--card);border:1px solid var(--border);border-radius:6px;padding:1px 6px;font-size:13px;}
+  kbd{background:var(--card);border:1px solid var(--border);border-bottom-width:2px;border-radius:6px;padding:1px 7px;font-size:13px;font-family:inherit;}
+  pre{background:var(--card);border:1px solid var(--border);border-left:4px solid var(--teal);border-radius:10px;padding:14px 16px;overflow-x:auto;font-size:13.5px;line-height:1.6;white-space:pre-wrap;}
+  .step{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:16px 20px;margin:14px 0;}
+  .step .n{display:inline-block;min-width:26px;height:26px;line-height:26px;text-align:center;border-radius:8px;background:var(--teal);color:#fff;font-weight:700;font-size:14px;margin-right:8px;}
+  .step h3{display:inline;font-size:17px;}
+  .inapp{color:var(--blue);font-size:13.5px;margin:8px 0 0;}
+  @media (prefers-color-scheme:dark){.inapp{color:#7aa5ff;}}
+  table{border-collapse:collapse;width:100%;margin:14px 0;font-size:14.5px;}
+  th,td{border:1px solid var(--border);padding:10px 12px;text-align:left;vertical-align:top;}
+  th{background:var(--card);font-size:14px;}
+  td .kw{color:var(--muted);font-size:13.5px;}
+  ul{padding-left:20px;}
+  li{margin:5px 0;}
+  .trap{border-left:4px solid #E6892E;background:var(--card);border-radius:10px;padding:12px 16px;margin:10px 0;}
+  .trap b{color:#E6892E;}
+  footer{margin-top:48px;color:var(--muted);font-size:13px;border-top:1px solid var(--border);padding-top:18px;}
+  footer a{color:var(--teal);}
+</style>
+</head>
+<body>
+  <div class="wrap">
+<!--langswitch:start--><nav class="langs" aria-label="Language"><a href="../ai-guide.html" hreflang="ko" lang="ko">한국어</a> <a href="../en/ai-guide.html" hreflang="en" lang="en">English</a> <a href="../en-GB/ai-guide.html" hreflang="en-GB" lang="en-GB">English (UK)</a> <a href="../zh-Hans/ai-guide.html" hreflang="zh-Hans" lang="zh-Hans">简体中文</a> <a href="../zh-Hant/ai-guide.html" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a> <a href="../ja/ai-guide.html" hreflang="ja" lang="ja">日本語</a> <a href="../ru/ai-guide.html" hreflang="ru" lang="ru">Русский</a> <a href="../es/ai-guide.html" hreflang="es" lang="es">Español</a> <a href="../de/ai-guide.html" hreflang="de" lang="de">Deutsch</a> <a href="../fr/ai-guide.html" hreflang="fr" lang="fr">Français</a> <a href="../it/ai-guide.html" hreflang="it" lang="it">Italiano</a> <a href="../pt-BR/ai-guide.html" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a> <a href="../th/ai-guide.html" hreflang="th" lang="th">ไทย</a> <a href="../vi/ai-guide.html" hreflang="vi" lang="vi">Tiếng Việt</a> <a href="../cs/ai-guide.html" hreflang="cs" lang="cs">Čeština</a> <a href="../da/ai-guide.html" hreflang="da" lang="da">Dansk</a> <a href="../el/ai-guide.html" hreflang="el" lang="el">Ελληνικά</a> <a href="../fi/ai-guide.html" hreflang="fi" lang="fi">Suomi</a> <a href="../id/ai-guide.html" hreflang="id" lang="id">Bahasa Indonesia</a> <a href="../nb/ai-guide.html" hreflang="nb" lang="nb">Norsk bokmål</a> <a href="../nl/ai-guide.html" hreflang="nl" lang="nl">Nederlands</a> <a href="../pl/ai-guide.html" hreflang="pl" lang="pl">Polski</a> <a href="../sv/ai-guide.html" hreflang="sv" lang="sv">Svenska</a> <a href="../tr/ai-guide.html" hreflang="tr" lang="tr" aria-current="page">Türkçe</a></nav><!--langswitch:end-->
+    <a class="back" href="./index.html">← LectureQ: Ders Soru Notları</a>
+    <h1>Rehber: Yapay Zekâ ile Cevap Bul</h1>
+    <p class="lead">Sorularınızı LectureQ’ya not ettiyseniz sıra cevapları bulmaya geldi.
+    Bugün bu cevaplar çoğunlukla yapay zekâyla yapılan sohbetlerden çıkıyor. Sorun şu: <b>aynı soruyu sorsalar da herkesin aklında kalan farklı oluyor</b>.
+    Bu rehber, uygulamanın akışına (soru → cevap → öğrendiklerim) uyarak bu farkı yaratmanın yollarını derliyor.</p>
+
+    <p><b>Bu rehberin kazandırmak istediği beceri, tek satırda:</b><br>
+    <b>Yapay zekâyla birlikte sorularımı &lsquo;doğrulanmış bilgiye&rsquo; dönüştürebilirim.</b>
+    Bu, cevap alma becerisi değil; aldığınız cevaptan şüphe edip onu kendinize mal etme becerisidir.</p>
+
+    <h2>Cevabı bulmanın 5 adımı</h2>
+    <p>Bir soruya bir sohbet. Bir sohbete birkaç soruyu birden doldurursanız cevaplar da karışır, sonradan düzenlemek de zorlaşır.</p>
+
+    <div class="step">
+      <span class="n">1</span><h3>Soruyu ‘cevaplanabilir’ hâle getirin</h3>
+      <p>Ders sırasında aceleyle yazılan sorular genellikle bulanıktır. Bulanık soruya bulanık cevap gelir.
+      Hemen cevap istemeyin; önce soruyu yeniden yazın.</p>
+<pre>Aşağıdaki soruyu ders sırasında aceleyle yazdım. Henüz bulanık.
+
+"{LectureQ’ya yazdığım soru, olduğu gibi}"
+
+Bu soruyu ‘cevaplanabilir’ 3 soru olarak yeniden yaz.
+Her birine, cevabını öğrendiğimde neyi yapabileceğimi anlatan bir satır ekle.
+Şimdilik cevap verme, yalnızca yeniden yazdığın soruları göster.</pre>
+      <p class="inapp">▸ Beğendiğiniz bir sürüm çıkınca LectureQ’daki soru cümlesini onunla güncelleyin. Bu, gelecekteki kendinize bir yatırımdır.</p>
+    </div>
+
+    <div class="step">
+      <span class="n">2</span><h3>Üç tür bağlam ekleyerek sorun</h3>
+      <p>Yapay zekâ nereye kadar bildiğinizi bilmez. <b>Sorunun nereden çıktığı / şu anki bilgi düzeyiniz / istediğiniz cevap biçimi</b>
+      — yalnızca bu üçünü eklemek bile cevabın kalitesini belirgin biçimde değiştirir. Üçü de zaten uygulamada yazılı.</p>
+<pre>[Sorum]
+{netleştirdiğim soru}
+
+[Bağlam]
+- Nereden çıktı: {ders adı} / {o andaki zaman bloğu notları}
+- Şu anki bilgi düzeyim: {Öğrenme Durumu’ndaki ‘Şu An Neredeyim’}
+- Ulaşmak istediğim durum: {Öğrenme Durumu’ndaki ‘Sonunda Olmak İstediğim Yer’}
+
+[İstediğim cevap]
+1) 3–5 satırlık temel cevap
+2) Nedenini açıklayan bir paragraf
+3) Yanlış biliyor olabileceğim 1–2 nokta
+4) Kendim deneyerek doğrulayabileceğim en küçük örnek ya da deney
+
+Kesin olanla tahmin olanı ayırarak belirt. Bilmediğin bir şey varsa bilmiyorum de.</pre>
+      <p class="inapp">▸ Bağlam malzemesi: araç çubuğunda <b>Görünüm → Öğrenme Durumu</b> ve sorunun bulunduğu <b>zaman bloğu notları</b>.</p>
+    </div>
+
+    <div class="step">
+      <span class="n">3</span><h3>İlk cevabı son cevap saymayın</h3>
+      <p>İkna edici bir cevap, doğrulanmış bir cevap değildir. En az bir kez sorgulayın.</p>
+<pre>Bu cevapta yanılmaya en açık kısım hangisi?
+
+- Bu cevabın geçerli olması için doğru olması gereken varsayımlar
+- Karşıt görüş ya da bu cevabın işe yaramadığı istisnai durumlar
+- Bunu birincil kaynaklardan kendim doğrulamak için neye bakmalıyım? (resmî belge, spesifikasyon, özgün metin adları)</pre>
+      <p>Sürüm, rakam, API adı, yıl gibi <b>ne kadar somutsa yanlış olduğunda o kadar fark edilmeyen</b> bilgileri mutlaka özgün kaynaktan kontrol edin.</p>
+    </div>
+
+    <div class="step">
+      <span class="n">4</span><h3>Yeni doğan merakı kaçırmayın</h3>
+      <p>İyi bir cevap her zaman yeni bir bilinmeyen doğurur. İşte bu bir sonraki sorunuzdur; bu uygulamadaki adıyla <b>devam sorusu</b>.</p>
+<pre>Şu ana kadarki sohbete bakarak, henüz bilmediğim ama bilmem gereken şeyleri 3 soru olarak çıkar.
+Açıklama yapma, yalnızca sorular. Kısa ve somut olsun.</pre>
+      <p class="inapp">▸ Çıkan soruları soru ayrıntısındaki <b>&lsquo;Yeni devam sorusu&rsquo;</b> alanına olduğu gibi yapıştırırsanız asıl soru → devam sorusu hiyerarşisiyle kaydedilir ve
+      <b>Grafik</b>’te anlayışınızın nasıl dallanıp genişlediğini görürsünüz.</p>
+    </div>
+
+    <div class="step">
+      <span class="n">5</span><h3>Kendi sözcüklerinizle yeniden yazıp puanlatın</h3>
+      <p>Yapay zekânın cevabını kopyalayıp yapıştırırsanız kayıt kalır ama bilgi kalmaz.
+      <b>Cevap</b> alanına kendi sözcüklerinizle yazın ve bu cümleleri puanlatın.</p>
+<pre>Anladığımı kendi sözcüklerimle yazıyorum.
+
+"{kendi yazdığım özet}"
+
+Yanlış, eksik ve abartılı yerleri göster.
+Puan yerine, düzeltilmiş cümleleri göster.</pre>
+      <p class="inapp">▸ Yalnızca buraya kadar geçenleri <b>Çözüldü</b> + <b>Öğrendiklerim (★)</b> olarak işaretleyin.
+      <b>Görünüm → Özet</b>’teki ‘Öğrendiklerim’ listesi, yalnızca bu şekilde süzülenler toplandığında değer kazanır.</p>
+    </div>
+
+    <h2>Bilmeniz gerekenler</h2>
+    <p>Yukarıdaki 5 adımı beceri diliyle özetlersek şöyle olur. Şu an en çok eksik olduğunu düşündüğünüz satırı seçip onunla pratik yapın.</p>
+
+    <table>
+      <tr><th style="width:24%">Bilinmesi gereken</th><th style="width:38%">…yapabilirim</th><th>…hakkında bilgi / ilgili anahtar sözcükler</th></tr>
+      <tr>
+        <td><b>Soruyu netleştirme</b></td>
+        <td>Bulanık bir notu cevaplanabilir 3 soruya dönüştürebilirim</td>
+        <td class="kw">iyi sorunun koşulları, cevaplanabilir ve cevaplanamaz sorular, problem tanımlama (problem framing)</td>
+      </tr>
+      <tr>
+        <td><b>Bağlam verme</b></td>
+        <td>Arka planı, düzeyimi ve istediğim cevap biçimini ekleyerek sorabilirim</td>
+        <td class="kw">istemi yapılandırma, rol, bağlam ve çıktı biçimi belirleme, bağlam tasarımı</td>
+      </tr>
+      <tr>
+        <td><b>Cevabı doğrulama</b></td>
+        <td>Cevabın varsayımlarını, karşı örneklerini ve birincil kaynaklarını sorgulayarak gerçeği ayıklayabilirim</td>
+        <td class="kw">halüsinasyon (hallucination), kanıt ve kaynak, yanlışlama (falsification), doğrulama yanlılığı</td>
+      </tr>
+      <tr>
+        <td><b>Bilmediğini ortaya çıkarma</b></td>
+        <td>Cevabın içinden yeni sorular çıkarıp devam sorusu olarak kaydedebilirim</td>
+        <td class="kw">üstbiliş, bilgi boşluğu (knowledge gap), soru ağacı</td>
+      </tr>
+      <tr>
+        <td><b>Bilgiyi pekiştirme</b></td>
+        <td>Kendi sözcüklerimle yeniden yazıp puanlatarak &lsquo;Öğrendiklerim&rsquo; olarak kesinleştirebilirim</td>
+        <td class="kw">Feynman tekniği, geri çağırma pratiği (retrieval practice), aralıklı tekrar (spaced repetition)</td>
+      </tr>
+    </table>
+
+    <h2>Sık düşülen dört tuzak</h2>
+    <div class="trap"><b>1. İkna edici olanı doğru sanmak.</b> Yapay zekânın cümleleri her zaman kendinden emin yazılır.
+    Emin olmanın ölçüsü üslup değil, kanıttır. ★ (Öğrendiklerim) işaretini doğruladıktan sonra koyun.</div>
+    <div class="trap"><b>2. Her şeyi tek sohbette sormak.</b> Beş soruyu tek bir sohbete doldurursanız cevaplar yüzeyselleşir, düzenlemek de imkânsızlaşır.
+    Bir soru = bir sohbet = LectureQ’da bir kayıt.</div>
+    <div class="trap"><b>3. Yalnızca cevabı kopyalayıp yapıştırmak.</b> Yapıştırılan cevap tekrar okunduğunda bile yeni gelir (= aklınızda kalmamış demektir).
+    Tek satır da olsa kendi sözcüklerinizle yeniden yazın.</div>
+    <div class="trap"><b>4. Sohbet bitince her şeyin kaybolması.</b> Sohbet penceresi geçip gider, yalnızca soru kalır.
+    Aşağıdaki gibi sohbetin tamamını uygulamaya aktarırsanız, sonradan &ldquo;neden böyle anladığınız&rdquo; bile kayıtlı kalır.</div>
+
+    <h2>Yapay zekâ sohbetini olduğu gibi içe aktarma</h2>
+    <p>Yapay zekâyla yaptığınız sohbeti Markdown olarak kaydederseniz uygulama onu bir <b>soru ağacına</b> dönüştürür
+    (araç çubuğunda <b>ders menüsü → Markdown’dan İçe Aktar…</b>).</p>
+<pre># Ders başlığı olacak satır
+
+## Konu (buradaki ilk soru asıl soru olur, ardından gelen sorular devam sorusu olur)
+
+**Ben** — buraya sorduğum soru
+
+**AI** — buraya aldığım cevap (birden çok satır olabilir, kod blokları da olur)</pre>
+    <p>İçe aktarınca her sorunun cevabı doldurulur ve çözüldü olarak işaretlenir.
+    Ardından <b>Özet</b> ekranında yalnızca gerçekten öğrendiklerinizi ★ ile bırakıp gerisini &lsquo;Hariç tut&rsquo;arsanız,
+    bir sohbetin tamamı sizin öğrendikleriniz listesine dönüşür.</p>
+
+    <h2>Tek cümleyle</h2>
+    <p style="font-size:17px;"><b>Yapay zekâdan cevap istemeyin; onu sorularınızı sınayacağınız bir muhatap olarak kullanın.</b>
+    Soruyu siz kurarsınız, şüpheyi siz duyarsınız, son cümleyi de siz yazarsınız. Bu süreci kayıt altına aldığınız yer LectureQ’dur.</p>
+
+    <footer>© 2026 LectureQ · <a href="./support.html">Destek</a> · <a href="./privacy.html">Gizlilik Politikası</a> · <a href="https://github.com/M1zz/LectureQ">GitHub</a></footer>
+  </div>
+</body>
+</html>

@@ -1,0 +1,216 @@
+<!doctype html>
+<html lang="nl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>LectureQ · Gids: antwoorden vinden met AI</title>
+<!--hreflang:start-->
+<link rel="canonical" href="https://m1zz.github.io/LectureQ/nl/ai-guide.html">
+<link rel="alternate" hreflang="ko" href="https://m1zz.github.io/LectureQ/ai-guide.html">
+<link rel="alternate" hreflang="en" href="https://m1zz.github.io/LectureQ/en/ai-guide.html">
+<link rel="alternate" hreflang="en-GB" href="https://m1zz.github.io/LectureQ/en-GB/ai-guide.html">
+<link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/LectureQ/zh-Hans/ai-guide.html">
+<link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/LectureQ/zh-Hant/ai-guide.html">
+<link rel="alternate" hreflang="ja" href="https://m1zz.github.io/LectureQ/ja/ai-guide.html">
+<link rel="alternate" hreflang="ru" href="https://m1zz.github.io/LectureQ/ru/ai-guide.html">
+<link rel="alternate" hreflang="es" href="https://m1zz.github.io/LectureQ/es/ai-guide.html">
+<link rel="alternate" hreflang="de" href="https://m1zz.github.io/LectureQ/de/ai-guide.html">
+<link rel="alternate" hreflang="fr" href="https://m1zz.github.io/LectureQ/fr/ai-guide.html">
+<link rel="alternate" hreflang="it" href="https://m1zz.github.io/LectureQ/it/ai-guide.html">
+<link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/LectureQ/pt-BR/ai-guide.html">
+<link rel="alternate" hreflang="th" href="https://m1zz.github.io/LectureQ/th/ai-guide.html">
+<link rel="alternate" hreflang="vi" href="https://m1zz.github.io/LectureQ/vi/ai-guide.html">
+<link rel="alternate" hreflang="cs" href="https://m1zz.github.io/LectureQ/cs/ai-guide.html">
+<link rel="alternate" hreflang="da" href="https://m1zz.github.io/LectureQ/da/ai-guide.html">
+<link rel="alternate" hreflang="el" href="https://m1zz.github.io/LectureQ/el/ai-guide.html">
+<link rel="alternate" hreflang="fi" href="https://m1zz.github.io/LectureQ/fi/ai-guide.html">
+<link rel="alternate" hreflang="id" href="https://m1zz.github.io/LectureQ/id/ai-guide.html">
+<link rel="alternate" hreflang="nb" href="https://m1zz.github.io/LectureQ/nb/ai-guide.html">
+<link rel="alternate" hreflang="nl" href="https://m1zz.github.io/LectureQ/nl/ai-guide.html">
+<link rel="alternate" hreflang="pl" href="https://m1zz.github.io/LectureQ/pl/ai-guide.html">
+<link rel="alternate" hreflang="sv" href="https://m1zz.github.io/LectureQ/sv/ai-guide.html">
+<link rel="alternate" hreflang="tr" href="https://m1zz.github.io/LectureQ/tr/ai-guide.html">
+<link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/LectureQ/ai-guide.html">
+<style>.langs{display:flex;flex-wrap:wrap;gap:4px 12px;font-size:13px;margin:0 0 18px;}.langs a{color:var(--muted);text-decoration:none;}.langs a[aria-current]{color:var(--fg);font-weight:600;}.langs a:hover{color:var(--teal);}</style>
+<!--hreflang:end-->
+<style>
+  :root{--blue:#2E6BE6;--teal:#17B3A3;--bg:#ffffff;--fg:#1c1c1e;--muted:#6b6b70;--card:#f5f6f8;--border:#e6e7ea;}
+  @media (prefers-color-scheme:dark){:root{--bg:#111214;--fg:#f2f2f5;--muted:#9a9aa0;--card:#1b1c1f;--border:#2a2b2f;}}
+  *{box-sizing:border-box;}
+  body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Segoe UI",Roboto,sans-serif;background:var(--bg);color:var(--fg);line-height:1.7;}
+  .wrap{max-width:760px;margin:0 auto;padding:40px 20px 80px;}
+  a.back{color:var(--teal);text-decoration:none;font-size:14px;}
+  h1{font-size:30px;margin:18px 0 4px;letter-spacing:-.4px;}
+  .lead{color:var(--muted);font-size:16px;margin:0 0 28px;}
+  h2{font-size:20px;margin:38px 0 10px;padding-top:14px;border-top:1px solid var(--border);}
+  h3{font-size:16px;margin:24px 0 6px;}
+  code{background:var(--card);border:1px solid var(--border);border-radius:6px;padding:1px 6px;font-size:13px;}
+  kbd{background:var(--card);border:1px solid var(--border);border-bottom-width:2px;border-radius:6px;padding:1px 7px;font-size:13px;font-family:inherit;}
+  pre{background:var(--card);border:1px solid var(--border);border-left:4px solid var(--teal);border-radius:10px;padding:14px 16px;overflow-x:auto;font-size:13.5px;line-height:1.6;white-space:pre-wrap;}
+  .step{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:16px 20px;margin:14px 0;}
+  .step .n{display:inline-block;min-width:26px;height:26px;line-height:26px;text-align:center;border-radius:8px;background:var(--teal);color:#fff;font-weight:700;font-size:14px;margin-right:8px;}
+  .step h3{display:inline;font-size:17px;}
+  .inapp{color:var(--blue);font-size:13.5px;margin:8px 0 0;}
+  @media (prefers-color-scheme:dark){.inapp{color:#7aa5ff;}}
+  table{border-collapse:collapse;width:100%;margin:14px 0;font-size:14.5px;}
+  th,td{border:1px solid var(--border);padding:10px 12px;text-align:left;vertical-align:top;}
+  th{background:var(--card);font-size:14px;}
+  td .kw{color:var(--muted);font-size:13.5px;}
+  ul{padding-left:20px;}
+  li{margin:5px 0;}
+  .trap{border-left:4px solid #E6892E;background:var(--card);border-radius:10px;padding:12px 16px;margin:10px 0;}
+  .trap b{color:#E6892E;}
+  footer{margin-top:48px;color:var(--muted);font-size:13px;border-top:1px solid var(--border);padding-top:18px;}
+  footer a{color:var(--teal);}
+</style>
+</head>
+<body>
+  <div class="wrap">
+<!--langswitch:start--><nav class="langs" aria-label="Language"><a href="../ai-guide.html" hreflang="ko" lang="ko">한국어</a> <a href="../en/ai-guide.html" hreflang="en" lang="en">English</a> <a href="../en-GB/ai-guide.html" hreflang="en-GB" lang="en-GB">English (UK)</a> <a href="../zh-Hans/ai-guide.html" hreflang="zh-Hans" lang="zh-Hans">简体中文</a> <a href="../zh-Hant/ai-guide.html" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a> <a href="../ja/ai-guide.html" hreflang="ja" lang="ja">日本語</a> <a href="../ru/ai-guide.html" hreflang="ru" lang="ru">Русский</a> <a href="../es/ai-guide.html" hreflang="es" lang="es">Español</a> <a href="../de/ai-guide.html" hreflang="de" lang="de">Deutsch</a> <a href="../fr/ai-guide.html" hreflang="fr" lang="fr">Français</a> <a href="../it/ai-guide.html" hreflang="it" lang="it">Italiano</a> <a href="../pt-BR/ai-guide.html" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a> <a href="../th/ai-guide.html" hreflang="th" lang="th">ไทย</a> <a href="../vi/ai-guide.html" hreflang="vi" lang="vi">Tiếng Việt</a> <a href="../cs/ai-guide.html" hreflang="cs" lang="cs">Čeština</a> <a href="../da/ai-guide.html" hreflang="da" lang="da">Dansk</a> <a href="../el/ai-guide.html" hreflang="el" lang="el">Ελληνικά</a> <a href="../fi/ai-guide.html" hreflang="fi" lang="fi">Suomi</a> <a href="../id/ai-guide.html" hreflang="id" lang="id">Bahasa Indonesia</a> <a href="../nb/ai-guide.html" hreflang="nb" lang="nb">Norsk bokmål</a> <a href="../nl/ai-guide.html" hreflang="nl" lang="nl" aria-current="page">Nederlands</a> <a href="../pl/ai-guide.html" hreflang="pl" lang="pl">Polski</a> <a href="../sv/ai-guide.html" hreflang="sv" lang="sv">Svenska</a> <a href="../tr/ai-guide.html" hreflang="tr" lang="tr">Türkçe</a></nav><!--langswitch:end-->
+    <a class="back" href="./index.html">← LectureQ: Collegevragen</a>
+    <h1>Gids: antwoorden vinden met AI</h1>
+    <p class="lead">Heb je je vragen in LectureQ genoteerd? Dan is het tijd om de antwoorden te vinden.
+    Tegenwoordig komen die meestal uit een gesprek met AI. Het probleem: <b>dezelfde vraag levert niet iedereen hetzelfde op</b>.
+    Deze gids laat zien hoe je dat verschil maakt, in de volgorde die LectureQ ook volgt (vraag → antwoord → wat ik heb geleerd).</p>
+
+    <p><b>De vaardigheid die deze gids wil opbouwen, in één regel:</b><br>
+    <b>Samen met AI van je eigen vragen &lsquo;getoetste kennis&rsquo; maken.</b>
+    — Het gaat niet om antwoorden krijgen, maar om het antwoord dat je krijgt te wantrouwen en het je eigen te maken.</p>
+
+    <h2>In 5 stappen naar een antwoord</h2>
+    <p>Eén vraag, één gesprek. Stop je meerdere vragen in hetzelfde gesprek, dan lopen de antwoorden door elkaar en krijg je ze later niet meer geordend.</p>
+
+    <div class="step">
+      <span class="n">1</span><h3>Scherp de vraag aan tot hij &lsquo;te beantwoorden&rsquo; is</h3>
+      <p>Een vraag die je haastig tijdens een college opschrijft, is meestal vaag. Op een vage vraag krijg je een vaag antwoord.
+      Vraag dus niet meteen om het antwoord, maar herschrijf eerst de vraag.</p>
+<pre>Hieronder staat een vraag die ik tijdens een college snel heb opgeschreven. Hij is nog vaag.
+
+"{de vraag precies zoals hij in LectureQ staat}"
+
+Herschrijf deze vraag als 3 vragen die je kunt beantwoorden.
+Zet bij elke vraag in één regel wat ik kan zodra ik het antwoord weet.
+Geef nu nog geen antwoord; laat alleen de herschreven vragen zien.</pre>
+      <p class="inapp">▸ Staat er een versie tussen die je bevalt? Pas dan de tekst van de vraag in LectureQ aan. Een investering in je toekomstige zelf.</p>
+    </div>
+
+    <div class="step">
+      <span class="n">2</span><h3>Geef bij je vraag drie soorten context mee</h3>
+      <p>AI weet niet hoeveel jij al weet. Voeg alleen al <b>waar de vraag vandaan komt / wat je nu weet / welke vorm van antwoord je wilt</b> toe,
+      en de kwaliteit van het antwoord gaat flink omhoog. Alle drie staan al in de app.</p>
+<pre>[Mijn vraag]
+{de aangescherpte vraag}
+
+[Context]
+- Waar komt hij vandaan: {Naam van het college} / {notitie van het tijdblok op dat moment}
+- Wat ik nu weet: {‘Waar ik nu sta’ uit Leerstatus}
+- Waar ik naartoe wil: {‘Waar ik aan het eind wil staan’ uit Leerstatus}
+
+[Gewenst antwoord]
+1) Het kernantwoord in 3 tot 5 regels
+2) Eén alinea over waarom dat zo is
+3) 1 of 2 punten waar ik het waarschijnlijk verkeerd zie
+4) Het kleinste voorbeeld of experiment waarmee ik het zelf kan nagaan
+
+Geef aan wat zeker is en wat een vermoeden is. Zeg het als je iets niet weet.</pre>
+      <p class="inapp">▸ Waar je de context vindt: <b>Weergave → Leerstatus</b> in de knoppenbalk, en de <b>notitie van het tijdblok</b> waarin de vraag staat.</p>
+    </div>
+
+    <div class="step">
+      <span class="n">3</span><h3>Zie het eerste antwoord niet als het laatste woord</h3>
+      <p>Een overtuigend antwoord is nog geen getoetst antwoord. Vraag minstens één keer door.</p>
+<pre>Welk deel van je antwoord is het makkelijkst fout?
+
+- De aannames die waar moeten zijn om dit antwoord te laten kloppen
+- Het tegenovergestelde standpunt, of uitzonderingen waarin dit antwoord niet werkt
+- Wat moet ik bekijken om dit zelf in een primaire bron te controleren? (naam van de officiële documentatie, specificatie of oorspronkelijke tekst)</pre>
+      <p>Informatie zoals versies, getallen, API-namen en jaartallen — <b>hoe specifieker, hoe minder je merkt dat het fout is</b> — controleer je altijd in de oorspronkelijke bron.</p>
+    </div>
+
+    <div class="step">
+      <span class="n">4</span><h3>Laat nieuwe vragen niet wegglippen</h3>
+      <p>Een goed antwoord laat altijd zien wat je nog niet weet. Dat is je volgende vraag, en in deze app een <b>vervolgvraag</b>.</p>
+<pre>Zet op basis van ons gesprek tot nu toe in 3 vragen op een rij wat ik nog niet weet maar wel zou moeten weten.
+Geen uitleg, alleen de vragen. Kort en concreet.</pre>
+      <p class="inapp">▸ Plak de vragen in het veld <b>&lsquo;Nieuwe vervolgvraag&rsquo;</b> in de vraagdetails. Ze worden dan bewaard als oorspronkelijke vraag → vervolgvraag,
+      en in de <b>Grafiek</b> zie je hoe je begrip zich vertakt.</p>
+    </div>
+
+    <div class="step">
+      <span class="n">5</span><h3>Herschrijf het in je eigen woorden en laat het beoordelen</h3>
+      <p>Kopieer en plak je het antwoord van de AI, dan heb je wel een notitie, maar geen kennis.
+      Schrijf in het veld <b>Antwoord</b> in je eigen woorden en laat die tekst beoordelen.</p>
+<pre>Ik schrijf in mijn eigen woorden op wat ik heb begrepen.
+
+"{de samenvatting die ik zelf heb geschreven}"
+
+Wijs aan wat er fout is, wat er ontbreekt en wat overdreven is.
+Geef geen cijfer, maar laat de herschreven tekst zien.</pre>
+      <p class="inapp">▸ Markeer alleen wat al deze stappen heeft doorstaan als <b>Opgelost</b> + <b>Wat ik heb geleerd (★)</b>.
+      De lijst &lsquo;Wat ik heb geleerd&rsquo; onder <b>Weergave → Samenvatting</b> is pas waardevol als er alleen staat wat zo is gefilterd.</p>
+    </div>
+
+    <h2>Wat je moet weten</h2>
+    <p>Vertaald naar vaardigheden zien de 5 stappen er zo uit. Begin met oefenen op de regel waar je nu het zwakst in bent.</p>
+
+    <table>
+      <tr><th style="width:24%">Wat je moet weten</th><th style="width:38%">Je kunt…</th><th>Je weet iets van / trefwoorden</th></tr>
+      <tr>
+        <td><b>Vraag aanscherpen</b></td>
+        <td>een vage notitie herschrijven tot 3 vragen die te beantwoorden zijn</td>
+        <td class="kw">kenmerken van een goede vraag, wel en niet te beantwoorden vragen, probleemdefinitie (problem framing)</td>
+      </tr>
+      <tr>
+        <td><b>Context geven</b></td>
+        <td>vragen met achtergrond, je eigen niveau en de gewenste vorm van het antwoord</td>
+        <td class="kw">prompts structureren, rol, context en uitvoervorm opgeven, contextontwerp</td>
+      </tr>
+      <tr>
+        <td><b>Antwoord toetsen</b></td>
+        <td>doorvragen naar aannames, tegenvoorbeelden en primaire bronnen om feiten te scheiden</td>
+        <td class="kw">hallucinatie (hallucination), onderbouwing en bronnen, falsificatie (falsification), bevestigingsbias</td>
+      </tr>
+      <tr>
+        <td><b>Niet-weten zichtbaar maken</b></td>
+        <td>nieuwe vragen uit een antwoord halen en als vervolgvraag bewaren</td>
+        <td class="kw">metacognitie, kennislacune (knowledge gap), vragenboom</td>
+      </tr>
+      <tr>
+        <td><b>Kennis vastleggen</b></td>
+        <td>het in je eigen woorden herschrijven, laten beoordelen en vastleggen als &lsquo;Wat ik heb geleerd&rsquo;</td>
+        <td class="kw">Feynmantechniek, ophaaloefening (retrieval practice), gespreide herhaling (spaced repetition)</td>
+      </tr>
+    </table>
+
+    <h2>Vier bekende valkuilen</h2>
+    <div class="trap"><b>1. Klinkt het goed, dan voelt het als waar.</b> Teksten van AI klinken altijd zelfverzekerd.
+    Zekerheid komt uit onderbouwing, niet uit de toon. De ★ (Wat ik heb geleerd) pas na controle.</div>
+    <div class="trap"><b>2. Alles in één gesprek vragen.</b> Vijf vragen in één gesprek leveren oppervlakkige antwoorden op die je niet meer kunt ordenen.
+    Eén vraag = één gesprek = één item in LectureQ.</div>
+    <div class="trap"><b>3. Alleen het antwoord kopiëren en plakken.</b> Een geplakt antwoord voelt elke keer weer nieuw als je het herleest (= er is niets blijven hangen).
+    Herschrijf het in je eigen woorden, al is het maar één regel.</div>
+    <div class="trap"><b>4. Na het gesprek is alles weg.</b> Het chatvenster verdwijnt, alleen de vraag blijft over.
+    Bewaar je het hele gesprek in de app zoals hieronder, dan weet je later zelfs nog &ldquo;waarom ik het zo begreep&rdquo;.</div>
+
+    <h2>Een heel AI-gesprek importeren</h2>
+    <p>Bewaar je een gesprek met AI als Markdown, dan maakt de app er een <b>vragenboom</b> van
+    (knoppenbalk: <b>collegemenu → Importeren uit Markdown…</b>).</p>
+<pre># Deze regel wordt de titel van het college
+
+## Onderwerp (de eerste vraag hier is de oorspronkelijke vraag, de volgende worden vervolgvragen)
+
+**Ik** — hier de vraag die ik stelde
+
+**AI** — hier het antwoord dat ik kreeg (meerdere regels en codeblokken kunnen ook)</pre>
+    <p>Na het importeren heeft elke vraag een antwoord en is hij als opgelost gemarkeerd.
+    Laat daarna in de <b>Samenvatting</b> alleen wat je echt hebt geleerd met een ★ staan en zet de rest op &lsquo;Uitsluiten&rsquo;.
+    Zo wordt één gesprek jouw lijst met dingen die je hebt geleerd.</p>
+
+    <h2>In één zin</h2>
+    <p style="font-size:17px;"><b>Vraag AI niet om antwoorden, maar gebruik het om je vragen op de proef te stellen.</b>
+    Jij bedenkt de vraag, jij twijfelt, en jij schrijft de laatste zin. LectureQ is de plek waar dat proces bewaard blijft.</p>
+
+    <footer>© 2026 LectureQ · <a href="./support.html">Support</a> · <a href="./privacy.html">Privacybeleid</a> · <a href="https://github.com/M1zz/LectureQ">GitHub</a></footer>
+  </div>
+</body>
+</html>

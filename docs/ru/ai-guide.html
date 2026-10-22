@@ -1,0 +1,216 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>LectureQ · Руководство: ищем ответы с помощью ИИ</title>
+<!--hreflang:start-->
+<link rel="canonical" href="https://m1zz.github.io/LectureQ/ru/ai-guide.html">
+<link rel="alternate" hreflang="ko" href="https://m1zz.github.io/LectureQ/ai-guide.html">
+<link rel="alternate" hreflang="en" href="https://m1zz.github.io/LectureQ/en/ai-guide.html">
+<link rel="alternate" hreflang="en-GB" href="https://m1zz.github.io/LectureQ/en-GB/ai-guide.html">
+<link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/LectureQ/zh-Hans/ai-guide.html">
+<link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/LectureQ/zh-Hant/ai-guide.html">
+<link rel="alternate" hreflang="ja" href="https://m1zz.github.io/LectureQ/ja/ai-guide.html">
+<link rel="alternate" hreflang="ru" href="https://m1zz.github.io/LectureQ/ru/ai-guide.html">
+<link rel="alternate" hreflang="es" href="https://m1zz.github.io/LectureQ/es/ai-guide.html">
+<link rel="alternate" hreflang="de" href="https://m1zz.github.io/LectureQ/de/ai-guide.html">
+<link rel="alternate" hreflang="fr" href="https://m1zz.github.io/LectureQ/fr/ai-guide.html">
+<link rel="alternate" hreflang="it" href="https://m1zz.github.io/LectureQ/it/ai-guide.html">
+<link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/LectureQ/pt-BR/ai-guide.html">
+<link rel="alternate" hreflang="th" href="https://m1zz.github.io/LectureQ/th/ai-guide.html">
+<link rel="alternate" hreflang="vi" href="https://m1zz.github.io/LectureQ/vi/ai-guide.html">
+<link rel="alternate" hreflang="cs" href="https://m1zz.github.io/LectureQ/cs/ai-guide.html">
+<link rel="alternate" hreflang="da" href="https://m1zz.github.io/LectureQ/da/ai-guide.html">
+<link rel="alternate" hreflang="el" href="https://m1zz.github.io/LectureQ/el/ai-guide.html">
+<link rel="alternate" hreflang="fi" href="https://m1zz.github.io/LectureQ/fi/ai-guide.html">
+<link rel="alternate" hreflang="id" href="https://m1zz.github.io/LectureQ/id/ai-guide.html">
+<link rel="alternate" hreflang="nb" href="https://m1zz.github.io/LectureQ/nb/ai-guide.html">
+<link rel="alternate" hreflang="nl" href="https://m1zz.github.io/LectureQ/nl/ai-guide.html">
+<link rel="alternate" hreflang="pl" href="https://m1zz.github.io/LectureQ/pl/ai-guide.html">
+<link rel="alternate" hreflang="sv" href="https://m1zz.github.io/LectureQ/sv/ai-guide.html">
+<link rel="alternate" hreflang="tr" href="https://m1zz.github.io/LectureQ/tr/ai-guide.html">
+<link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/LectureQ/ai-guide.html">
+<style>.langs{display:flex;flex-wrap:wrap;gap:4px 12px;font-size:13px;margin:0 0 18px;}.langs a{color:var(--muted);text-decoration:none;}.langs a[aria-current]{color:var(--fg);font-weight:600;}.langs a:hover{color:var(--teal);}</style>
+<!--hreflang:end-->
+<style>
+  :root{--blue:#2E6BE6;--teal:#17B3A3;--bg:#ffffff;--fg:#1c1c1e;--muted:#6b6b70;--card:#f5f6f8;--border:#e6e7ea;}
+  @media (prefers-color-scheme:dark){:root{--bg:#111214;--fg:#f2f2f5;--muted:#9a9aa0;--card:#1b1c1f;--border:#2a2b2f;}}
+  *{box-sizing:border-box;}
+  body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Segoe UI",Roboto,sans-serif;background:var(--bg);color:var(--fg);line-height:1.7;}
+  .wrap{max-width:760px;margin:0 auto;padding:40px 20px 80px;}
+  a.back{color:var(--teal);text-decoration:none;font-size:14px;}
+  h1{font-size:30px;margin:18px 0 4px;letter-spacing:-.4px;}
+  .lead{color:var(--muted);font-size:16px;margin:0 0 28px;}
+  h2{font-size:20px;margin:38px 0 10px;padding-top:14px;border-top:1px solid var(--border);}
+  h3{font-size:16px;margin:24px 0 6px;}
+  code{background:var(--card);border:1px solid var(--border);border-radius:6px;padding:1px 6px;font-size:13px;}
+  kbd{background:var(--card);border:1px solid var(--border);border-bottom-width:2px;border-radius:6px;padding:1px 7px;font-size:13px;font-family:inherit;}
+  pre{background:var(--card);border:1px solid var(--border);border-left:4px solid var(--teal);border-radius:10px;padding:14px 16px;overflow-x:auto;font-size:13.5px;line-height:1.6;white-space:pre-wrap;}
+  .step{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:16px 20px;margin:14px 0;}
+  .step .n{display:inline-block;min-width:26px;height:26px;line-height:26px;text-align:center;border-radius:8px;background:var(--teal);color:#fff;font-weight:700;font-size:14px;margin-right:8px;}
+  .step h3{display:inline;font-size:17px;}
+  .inapp{color:var(--blue);font-size:13.5px;margin:8px 0 0;}
+  @media (prefers-color-scheme:dark){.inapp{color:#7aa5ff;}}
+  table{border-collapse:collapse;width:100%;margin:14px 0;font-size:14.5px;}
+  th,td{border:1px solid var(--border);padding:10px 12px;text-align:left;vertical-align:top;}
+  th{background:var(--card);font-size:14px;}
+  td .kw{color:var(--muted);font-size:13.5px;}
+  ul{padding-left:20px;}
+  li{margin:5px 0;}
+  .trap{border-left:4px solid #E6892E;background:var(--card);border-radius:10px;padding:12px 16px;margin:10px 0;}
+  .trap b{color:#E6892E;}
+  footer{margin-top:48px;color:var(--muted);font-size:13px;border-top:1px solid var(--border);padding-top:18px;}
+  footer a{color:var(--teal);}
+</style>
+</head>
+<body>
+  <div class="wrap">
+<!--langswitch:start--><nav class="langs" aria-label="Language"><a href="../ai-guide.html" hreflang="ko" lang="ko">한국어</a> <a href="../en/ai-guide.html" hreflang="en" lang="en">English</a> <a href="../en-GB/ai-guide.html" hreflang="en-GB" lang="en-GB">English (UK)</a> <a href="../zh-Hans/ai-guide.html" hreflang="zh-Hans" lang="zh-Hans">简体中文</a> <a href="../zh-Hant/ai-guide.html" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a> <a href="../ja/ai-guide.html" hreflang="ja" lang="ja">日本語</a> <a href="../ru/ai-guide.html" hreflang="ru" lang="ru" aria-current="page">Русский</a> <a href="../es/ai-guide.html" hreflang="es" lang="es">Español</a> <a href="../de/ai-guide.html" hreflang="de" lang="de">Deutsch</a> <a href="../fr/ai-guide.html" hreflang="fr" lang="fr">Français</a> <a href="../it/ai-guide.html" hreflang="it" lang="it">Italiano</a> <a href="../pt-BR/ai-guide.html" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a> <a href="../th/ai-guide.html" hreflang="th" lang="th">ไทย</a> <a href="../vi/ai-guide.html" hreflang="vi" lang="vi">Tiếng Việt</a> <a href="../cs/ai-guide.html" hreflang="cs" lang="cs">Čeština</a> <a href="../da/ai-guide.html" hreflang="da" lang="da">Dansk</a> <a href="../el/ai-guide.html" hreflang="el" lang="el">Ελληνικά</a> <a href="../fi/ai-guide.html" hreflang="fi" lang="fi">Suomi</a> <a href="../id/ai-guide.html" hreflang="id" lang="id">Bahasa Indonesia</a> <a href="../nb/ai-guide.html" hreflang="nb" lang="nb">Norsk bokmål</a> <a href="../nl/ai-guide.html" hreflang="nl" lang="nl">Nederlands</a> <a href="../pl/ai-guide.html" hreflang="pl" lang="pl">Polski</a> <a href="../sv/ai-guide.html" hreflang="sv" lang="sv">Svenska</a> <a href="../tr/ai-guide.html" hreflang="tr" lang="tr">Türkçe</a></nav><!--langswitch:end-->
+    <a class="back" href="./index.html">← LectureQ: вопросы к лекциям</a>
+    <h1>Руководство: ищем ответы с помощью ИИ</h1>
+    <p class="lead">Вы записали вопросы в LectureQ — теперь пора искать ответы.
+    Сегодня мы чаще всего находим их в разговоре с ИИ. Но вот в чём дело: <b>даже задав один и тот же вопрос, каждый уносит с собой разное</b>.
+    Это руководство идёт по логике приложения (вопрос → ответ → чему я научился) и показывает, как обратить эту разницу в свою пользу.</p>
+
+    <p><b>Навык, который развивает это руководство, одной строкой:</b><br>
+    <b>Я умею вместе с ИИ превращать свои вопросы в &laquo;проверенное знание&raquo;.</b>
+    Речь не о том, чтобы получить ответ, а о том, чтобы усомниться в нём и сделать его своим.</p>
+
+    <h2>Пять шагов к ответу</h2>
+    <p>Один вопрос — один диалог. Если свалить несколько вопросов в один диалог, ответы перемешаются, и потом их не разобрать.</p>
+
+    <div class="step">
+      <span class="n">1</span><h3>Переформулируйте вопрос так, чтобы на него можно было ответить</h3>
+      <p>Вопрос, наспех записанный на лекции, обычно расплывчат. На расплывчатый вопрос приходит расплывчатый ответ.
+      Не просите ответ сразу — сначала перепишите вопрос.</p>
+<pre>Ниже вопрос, который я наспех записал(а) на лекции. Он пока расплывчатый.
+
+"{вопрос в точности так, как он записан в LectureQ}"
+
+Перепиши его в виде 3 вопросов, на которые можно ответить.
+К каждому добавь одну строку: что я смогу делать, когда узнаю ответ.
+Пока не отвечай, покажи только переписанные вопросы.</pre>
+      <p class="inapp">▸ Когда появится вариант, который вам нравится, исправьте на него формулировку вопроса в LectureQ. Это вложение в себя будущего.</p>
+    </div>
+
+    <div class="step">
+      <span class="n">2</span><h3>Задавайте вопрос с тремя видами контекста</h3>
+      <p>ИИ не знает, что вы уже знаете. Добавьте <b>откуда вопрос / ваш текущий уровень / какой ответ вам нужен</b> —
+      и качество ответа заметно изменится. Всё это уже записано в приложении.</p>
+<pre>[Мой вопрос]
+{переформулированный вопрос}
+
+[Контекст]
+- Откуда вопрос: {название лекции} / {заметки блока времени на этот момент}
+- Что я знаю сейчас: {«Где я сейчас» из Состояния обучения}
+- Куда я хочу прийти: {«Каким я хочу стать в конце» из Состояния обучения}
+
+[Какой ответ мне нужен]
+1) Главный ответ в 3–5 строках
+2) Один абзац о том, почему это так
+3) 1–2 места, где я, скорее всего, ошибаюсь
+4) Один самый маленький пример или эксперимент, которым я могу проверить это сам(а)
+
+Отдели то, в чём ты уверен, от предположений. Если чего-то не знаешь, так и скажи.</pre>
+      <p class="inapp">▸ Где взять контекст: на панели инструментов <b>Вид → Состояние обучения</b> и <b>заметки блока времени</b>, в котором стоит вопрос.</p>
+    </div>
+
+    <div class="step">
+      <span class="n">3</span><h3>Не считайте первый ответ окончательным</h3>
+      <p>Правдоподобный ответ ещё не проверенный ответ. Переспросите хотя бы один раз.</p>
+<pre>В какой части твоего ответа проще всего ошибиться?
+
+- Предпосылки, которые должны быть верны, чтобы ответ был правильным
+- Противоположная точка зрения или исключения, где ответ не работает
+- Что мне посмотреть, чтобы проверить это по первоисточникам? (названия официальной документации, спецификаций, оригинальных текстов)</pre>
+      <p>Версии, числа, названия API, годы — <b>чем конкретнее такие сведения, тем незаметнее в них ошибка</b>. Обязательно сверяйте их с первоисточником.</p>
+    </div>
+
+    <div class="step">
+      <span class="n">4</span><h3>Не упускайте новые вопросы</h3>
+      <p>Хороший ответ всегда открывает что-то новое, чего вы не знаете. Это ваш следующий вопрос — в этом приложении <b>уточняющий вопрос</b>.</p>
+<pre>По нашему разговору сформулируй 3 вопроса о том, чего я ещё не знаю, но должен (должна) знать.
+Без объяснений, только вопросы. Коротко и конкретно.</pre>
+      <p class="inapp">▸ Вставьте эти вопросы в поле <b>&laquo;Новый уточняющий вопрос&raquo;</b> в карточке вопроса — они сохранятся в иерархии «исходный вопрос → уточняющий вопрос»,
+      а на <b>Графе</b> будет видно, куда разрасталось ваше понимание.</p>
+    </div>
+
+    <div class="step">
+      <span class="n">5</span><h3>Перескажите своими словами и попросите оценку</h3>
+      <p>Если просто скопировать и вставить ответ ИИ, останется запись, но не знание.
+      В поле <b>Ответ</b> пишите своими словами — и попросите оценить эти фразы.</p>
+<pre>Я запишу своими словами, как я это понял(а).
+
+"{краткий пересказ, написанный мной}"
+
+Укажи, где ошибки, что упущено и что преувеличено.
+Вместо оценки покажи исправленные фразы.</pre>
+      <p class="inapp">▸ Отмечайте как <b>Решён</b> + <b>Чему я научился (★)</b> только то, что прошло все шаги.
+      Список «Чему я научился» в <b>Вид → Сводка</b> ценен лишь тогда, когда в нём собрано только отфильтрованное таким образом.</p>
+    </div>
+
+    <h2>Что нужно уметь</h2>
+    <p>Пять шагов выше, сформулированные как навыки. Выберите строку, которой вам сейчас больше всего не хватает, и начните тренировать её.</p>
+
+    <table>
+      <tr><th style="width:24%">Что нужно</th><th style="width:38%">Я умею…</th><th>Что полезно знать / ключевые слова</th></tr>
+      <tr>
+        <td><b>Уточнить вопрос</b></td>
+        <td>переписать расплывчатую заметку в 3 вопроса, на которые можно ответить</td>
+        <td class="kw">признаки хорошего вопроса, вопросы, на которые можно и нельзя ответить, постановка задачи (problem framing)</td>
+      </tr>
+      <tr>
+        <td><b>Дать контекст</b></td>
+        <td>спрашивать, указывая предысторию, свой уровень и нужную форму ответа</td>
+        <td class="kw">структура промпта, задание роли, контекста и формата вывода, проектирование контекста</td>
+      </tr>
+      <tr>
+        <td><b>Проверить ответ</b></td>
+        <td>переспрашивать о предпосылках, контрпримерах и первоисточниках, отделяя факты</td>
+        <td class="kw">галлюцинации (hallucination), доводы и источники, фальсификация (falsification), предвзятость подтверждения</td>
+      </tr>
+      <tr>
+        <td><b>Обнаружить незнание</b></td>
+        <td>извлекать из ответа новые вопросы и сохранять их как уточняющие</td>
+        <td class="kw">метапознание, пробел в знаниях (knowledge gap), дерево вопросов</td>
+      </tr>
+      <tr>
+        <td><b>Закрепить знание</b></td>
+        <td>пересказать своими словами, получить оценку и зафиксировать в &laquo;Чему я научился&raquo;</td>
+        <td class="kw">техника Фейнмана, практика припоминания (retrieval practice), интервальное повторение (spaced repetition)</td>
+      </tr>
+    </table>
+
+    <h2>Четыре частые ловушки</h2>
+    <div class="trap"><b>1. Звучит правдоподобно — значит, верно.</b> Фразы ИИ всегда звучат уверенно.
+    Но уверенность берётся из доводов, а не из стиля. ★ (Чему я научился) — только после проверки.</div>
+    <div class="trap"><b>2. Всё в одном диалоге.</b> Пять вопросов в одном диалоге — и ответы мельчают, а порядка нет.
+    Один вопрос = один диалог = одна запись в LectureQ.</div>
+    <div class="trap"><b>3. Просто скопировать ответ.</b> Вставленный ответ при каждом перечитывании кажется новым (= ничего не осталось в голове).
+    Перепишите своими словами хотя бы одну строку.</div>
+    <div class="trap"><b>4. Диалог закончился — и всё пропало.</b> Окно чата уходит, остаётся только вопрос.
+    Если сохранить весь диалог в приложении, как описано ниже, останется даже то, &laquo;почему я понял(а) это именно так&raquo;.</div>
+
+    <h2>Импорт всего диалога с ИИ</h2>
+    <p>Если сохранить диалог с ИИ в Markdown, приложение превратит его в <b>дерево вопросов</b>
+    (на панели инструментов <b>меню лекций → Импорт из Markdown…</b>).</p>
+<pre># Строка, которая станет названием лекции
+
+## Тема (первый вопрос здесь — исходный, следующие станут уточняющими)
+
+**Я** — здесь вопрос, который я задал(а)
+
+**ИИ** — здесь полученный ответ (можно в несколько строк, блоки кода тоже подходят)</pre>
+    <p>После импорта у каждого вопроса будет заполнен ответ, и он будет отмечен решённым.
+    Затем в <b>Сводке</b> оставьте ★ только у того, чему вы действительно научились, а остальное &laquo;Исключите&raquo; —
+    и один разговор превратится в ваш список того, чему вы научились.</p>
+
+    <h2>Одной фразой</h2>
+    <p style="font-size:17px;"><b>Не просите у ИИ ответов — используйте его как собеседника, на котором проверяете свои вопросы.</b>
+    Вопрос задаёте вы, сомневаетесь вы, и последнюю фразу тоже пишете вы. LectureQ — место, где этот путь остаётся записанным.</p>
+
+    <footer>© 2026 LectureQ · <a href="./support.html">Поддержка</a> · <a href="./privacy.html">Политика конфиденциальности</a> · <a href="https://github.com/M1zz/LectureQ">GitHub</a></footer>
+  </div>
+</body>
+</html>

@@ -1,0 +1,216 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>LectureQ · Hướng dẫn: tìm câu trả lời bằng AI</title>
+<!--hreflang:start-->
+<link rel="canonical" href="https://m1zz.github.io/LectureQ/vi/ai-guide.html">
+<link rel="alternate" hreflang="ko" href="https://m1zz.github.io/LectureQ/ai-guide.html">
+<link rel="alternate" hreflang="en" href="https://m1zz.github.io/LectureQ/en/ai-guide.html">
+<link rel="alternate" hreflang="en-GB" href="https://m1zz.github.io/LectureQ/en-GB/ai-guide.html">
+<link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/LectureQ/zh-Hans/ai-guide.html">
+<link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/LectureQ/zh-Hant/ai-guide.html">
+<link rel="alternate" hreflang="ja" href="https://m1zz.github.io/LectureQ/ja/ai-guide.html">
+<link rel="alternate" hreflang="ru" href="https://m1zz.github.io/LectureQ/ru/ai-guide.html">
+<link rel="alternate" hreflang="es" href="https://m1zz.github.io/LectureQ/es/ai-guide.html">
+<link rel="alternate" hreflang="de" href="https://m1zz.github.io/LectureQ/de/ai-guide.html">
+<link rel="alternate" hreflang="fr" href="https://m1zz.github.io/LectureQ/fr/ai-guide.html">
+<link rel="alternate" hreflang="it" href="https://m1zz.github.io/LectureQ/it/ai-guide.html">
+<link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/LectureQ/pt-BR/ai-guide.html">
+<link rel="alternate" hreflang="th" href="https://m1zz.github.io/LectureQ/th/ai-guide.html">
+<link rel="alternate" hreflang="vi" href="https://m1zz.github.io/LectureQ/vi/ai-guide.html">
+<link rel="alternate" hreflang="cs" href="https://m1zz.github.io/LectureQ/cs/ai-guide.html">
+<link rel="alternate" hreflang="da" href="https://m1zz.github.io/LectureQ/da/ai-guide.html">
+<link rel="alternate" hreflang="el" href="https://m1zz.github.io/LectureQ/el/ai-guide.html">
+<link rel="alternate" hreflang="fi" href="https://m1zz.github.io/LectureQ/fi/ai-guide.html">
+<link rel="alternate" hreflang="id" href="https://m1zz.github.io/LectureQ/id/ai-guide.html">
+<link rel="alternate" hreflang="nb" href="https://m1zz.github.io/LectureQ/nb/ai-guide.html">
+<link rel="alternate" hreflang="nl" href="https://m1zz.github.io/LectureQ/nl/ai-guide.html">
+<link rel="alternate" hreflang="pl" href="https://m1zz.github.io/LectureQ/pl/ai-guide.html">
+<link rel="alternate" hreflang="sv" href="https://m1zz.github.io/LectureQ/sv/ai-guide.html">
+<link rel="alternate" hreflang="tr" href="https://m1zz.github.io/LectureQ/tr/ai-guide.html">
+<link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/LectureQ/ai-guide.html">
+<style>.langs{display:flex;flex-wrap:wrap;gap:4px 12px;font-size:13px;margin:0 0 18px;}.langs a{color:var(--muted);text-decoration:none;}.langs a[aria-current]{color:var(--fg);font-weight:600;}.langs a:hover{color:var(--teal);}</style>
+<!--hreflang:end-->
+<style>
+  :root{--blue:#2E6BE6;--teal:#17B3A3;--bg:#ffffff;--fg:#1c1c1e;--muted:#6b6b70;--card:#f5f6f8;--border:#e6e7ea;}
+  @media (prefers-color-scheme:dark){:root{--bg:#111214;--fg:#f2f2f5;--muted:#9a9aa0;--card:#1b1c1f;--border:#2a2b2f;}}
+  *{box-sizing:border-box;}
+  body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Segoe UI",Roboto,sans-serif;background:var(--bg);color:var(--fg);line-height:1.7;}
+  .wrap{max-width:760px;margin:0 auto;padding:40px 20px 80px;}
+  a.back{color:var(--teal);text-decoration:none;font-size:14px;}
+  h1{font-size:30px;margin:18px 0 4px;letter-spacing:-.4px;}
+  .lead{color:var(--muted);font-size:16px;margin:0 0 28px;}
+  h2{font-size:20px;margin:38px 0 10px;padding-top:14px;border-top:1px solid var(--border);}
+  h3{font-size:16px;margin:24px 0 6px;}
+  code{background:var(--card);border:1px solid var(--border);border-radius:6px;padding:1px 6px;font-size:13px;}
+  kbd{background:var(--card);border:1px solid var(--border);border-bottom-width:2px;border-radius:6px;padding:1px 7px;font-size:13px;font-family:inherit;}
+  pre{background:var(--card);border:1px solid var(--border);border-left:4px solid var(--teal);border-radius:10px;padding:14px 16px;overflow-x:auto;font-size:13.5px;line-height:1.6;white-space:pre-wrap;}
+  .step{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:16px 20px;margin:14px 0;}
+  .step .n{display:inline-block;min-width:26px;height:26px;line-height:26px;text-align:center;border-radius:8px;background:var(--teal);color:#fff;font-weight:700;font-size:14px;margin-right:8px;}
+  .step h3{display:inline;font-size:17px;}
+  .inapp{color:var(--blue);font-size:13.5px;margin:8px 0 0;}
+  @media (prefers-color-scheme:dark){.inapp{color:#7aa5ff;}}
+  table{border-collapse:collapse;width:100%;margin:14px 0;font-size:14.5px;}
+  th,td{border:1px solid var(--border);padding:10px 12px;text-align:left;vertical-align:top;}
+  th{background:var(--card);font-size:14px;}
+  td .kw{color:var(--muted);font-size:13.5px;}
+  ul{padding-left:20px;}
+  li{margin:5px 0;}
+  .trap{border-left:4px solid #E6892E;background:var(--card);border-radius:10px;padding:12px 16px;margin:10px 0;}
+  .trap b{color:#E6892E;}
+  footer{margin-top:48px;color:var(--muted);font-size:13px;border-top:1px solid var(--border);padding-top:18px;}
+  footer a{color:var(--teal);}
+</style>
+</head>
+<body>
+  <div class="wrap">
+<!--langswitch:start--><nav class="langs" aria-label="Language"><a href="../ai-guide.html" hreflang="ko" lang="ko">한국어</a> <a href="../en/ai-guide.html" hreflang="en" lang="en">English</a> <a href="../en-GB/ai-guide.html" hreflang="en-GB" lang="en-GB">English (UK)</a> <a href="../zh-Hans/ai-guide.html" hreflang="zh-Hans" lang="zh-Hans">简体中文</a> <a href="../zh-Hant/ai-guide.html" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a> <a href="../ja/ai-guide.html" hreflang="ja" lang="ja">日本語</a> <a href="../ru/ai-guide.html" hreflang="ru" lang="ru">Русский</a> <a href="../es/ai-guide.html" hreflang="es" lang="es">Español</a> <a href="../de/ai-guide.html" hreflang="de" lang="de">Deutsch</a> <a href="../fr/ai-guide.html" hreflang="fr" lang="fr">Français</a> <a href="../it/ai-guide.html" hreflang="it" lang="it">Italiano</a> <a href="../pt-BR/ai-guide.html" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a> <a href="../th/ai-guide.html" hreflang="th" lang="th">ไทย</a> <a href="../vi/ai-guide.html" hreflang="vi" lang="vi" aria-current="page">Tiếng Việt</a> <a href="../cs/ai-guide.html" hreflang="cs" lang="cs">Čeština</a> <a href="../da/ai-guide.html" hreflang="da" lang="da">Dansk</a> <a href="../el/ai-guide.html" hreflang="el" lang="el">Ελληνικά</a> <a href="../fi/ai-guide.html" hreflang="fi" lang="fi">Suomi</a> <a href="../id/ai-guide.html" hreflang="id" lang="id">Bahasa Indonesia</a> <a href="../nb/ai-guide.html" hreflang="nb" lang="nb">Norsk bokmål</a> <a href="../nl/ai-guide.html" hreflang="nl" lang="nl">Nederlands</a> <a href="../pl/ai-guide.html" hreflang="pl" lang="pl">Polski</a> <a href="../sv/ai-guide.html" hreflang="sv" lang="sv">Svenska</a> <a href="../tr/ai-guide.html" hreflang="tr" lang="tr">Türkçe</a></nav><!--langswitch:end-->
+    <a class="back" href="./index.html">← LectureQ: Hỏi đáp bài giảng</a>
+    <h1>Hướng dẫn: tìm câu trả lời bằng AI</h1>
+    <p class="lead">Khi đã ghi câu hỏi vào LectureQ, việc tiếp theo là đi tìm câu trả lời.
+    Ngày nay, phần lớn câu trả lời đến từ những cuộc trò chuyện với AI. Vấn đề là <b>cùng một câu hỏi, mỗi người lại thu về những điều khác nhau</b>.
+    Hướng dẫn này đi theo đúng quy trình của LectureQ (câu hỏi → câu trả lời → điều đã học) để chỉ ra cách tạo nên sự khác biệt đó.</p>
+
+    <p><b>Năng lực mà hướng dẫn này muốn rèn, gói gọn trong một câu:</b><br>
+    <b>Cùng AI biến câu hỏi của mình thành &lsquo;kiến thức đã kiểm chứng&rsquo;.</b>
+    — Không phải khả năng nhận được câu trả lời, mà là khả năng nghi ngờ câu trả lời nhận được và biến nó thành của mình.</p>
+
+    <h2>5 bước tìm câu trả lời</h2>
+    <p>Một câu hỏi, một cuộc trò chuyện. Dồn nhiều câu hỏi vào cùng một cuộc trò chuyện thì câu trả lời cũng lẫn vào nhau, và về sau khó mà sắp xếp lại.</p>
+
+    <div class="step">
+      <span class="n">1</span><h3>Trau chuốt câu hỏi thành &lsquo;dạng trả lời được&rsquo;</h3>
+      <p>Câu hỏi ghi vội trong giờ học thường còn mơ hồ. Câu hỏi mơ hồ thì chỉ nhận về câu trả lời mơ hồ.
+      Đừng vội tìm câu trả lời; hãy viết lại câu hỏi trước đã.</p>
+<pre>Dưới đây là câu hỏi tôi ghi vội trong lúc nghe giảng. Nó vẫn còn mơ hồ.
+
+"{nguyên văn câu hỏi bạn đã ghi trong LectureQ}"
+
+Hãy viết lại câu hỏi này thành 3 "câu hỏi có thể trả lời được".
+Với mỗi câu, thêm một dòng cho biết nếu biết câu trả lời thì tôi sẽ làm được gì.
+Đừng trả lời vội, chỉ cho tôi xem các câu hỏi đã viết lại.</pre>
+      <p class="inapp">▸ Khi đã có phiên bản ưng ý, hãy sửa câu hỏi trong LectureQ theo phiên bản đó. Đây là khoản đầu tư cho chính bạn sau này.</p>
+    </div>
+
+    <div class="step">
+      <span class="n">2</span><h3>Hỏi kèm 3 loại bối cảnh</h3>
+      <p>AI không biết bạn đã hiểu đến đâu. <b>Câu hỏi đến từ đâu / trình độ hiện tại của bạn / dạng câu trả lời bạn muốn</b>
+      — chỉ cần thêm ba điều này, chất lượng câu trả lời đã khác hẳn. Cả ba đều đã có sẵn trong ứng dụng.</p>
+<pre>[Câu hỏi của tôi]
+{câu hỏi đã trau chuốt}
+
+[Bối cảnh]
+- Đến từ đâu: {tên bài giảng} / {ghi chú của khối thời gian lúc đó}
+- Trình độ hiện tại của tôi: {"Tôi đang ở đâu" trong Trạng thái học tập}
+- Điều tôi muốn đạt tới: {"Tôi muốn đạt được gì khi học xong" trong Trạng thái học tập}
+
+[Câu trả lời tôi muốn]
+1) Câu trả lời cốt lõi trong 3–5 dòng
+2) Một đoạn giải thích vì sao lại như vậy
+3) 1–2 điểm mà tôi có thể đang hiểu sai
+4) Một ví dụ hoặc thí nghiệm nhỏ nhất mà tôi có thể tự kiểm tra
+
+Hãy đánh dấu rõ đâu là điều chắc chắn, đâu là phỏng đoán. Điều gì không biết thì cứ nói là không biết.</pre>
+      <p class="inapp">▸ Nguyên liệu cho bối cảnh: <b>Hiển thị → Trạng thái học tập</b> trên thanh công cụ, và <b>ghi chú của khối</b> nơi câu hỏi nằm.</p>
+    </div>
+
+    <div class="step">
+      <span class="n">3</span><h3>Đừng coi câu trả lời đầu tiên là điểm kết thúc</h3>
+      <p>Một câu trả lời nghe có vẻ hợp lý chưa phải là câu trả lời đã qua kiểm chứng. Ít nhất hãy hỏi vặn lại một lần.</p>
+<pre>Trong câu trả lời vừa rồi, phần nào dễ sai nhất?
+
+- Những tiền đề phải đúng thì câu trả lời này mới đứng vững
+- Quan điểm ngược lại, hoặc những trường hợp ngoại lệ mà câu trả lời này không áp dụng được
+- Nếu muốn tự kiểm tra bằng nguồn gốc, tôi nên xem gì? (tên tài liệu chính thức, đặc tả, văn bản gốc)</pre>
+      <p>Những thông tin như phiên bản, con số, tên API hay năm tháng — <b>càng cụ thể thì khi sai càng khó nhận ra</b> — nhất định phải kiểm tra lại từ nguồn gốc.</p>
+    </div>
+
+    <div class="step">
+      <span class="n">4</span><h3>Đừng để thắc mắc mới trôi đi</h3>
+      <p>Một câu trả lời tốt luôn sinh ra những điều “chưa biết” mới. Đó chính là câu hỏi tiếp theo, cũng là <b>câu hỏi nối tiếp</b> trong ứng dụng này.</p>
+<pre>Từ cuộc trò chuyện đến giờ, hãy rút ra 3 câu hỏi về những điều tôi chưa biết nhưng cần biết.
+Không giải thích, chỉ đặt câu hỏi. Ngắn gọn và cụ thể.</pre>
+      <p class="inapp">▸ Dán nguyên các câu hỏi vừa rút ra vào ô <b>&lsquo;Câu hỏi nối tiếp mới&rsquo;</b> trong phần chi tiết câu hỏi, chúng sẽ được lưu theo thứ bậc câu hỏi gốc → câu hỏi nối tiếp,
+      và trong <b>Biểu đồ</b> bạn sẽ thấy hiểu biết của mình đã lan rộng ra sao.</p>
+    </div>
+
+    <div class="step">
+      <span class="n">5</span><h3>Viết lại bằng lời của mình rồi nhờ chấm điểm</h3>
+      <p>Sao chép câu trả lời của AI rồi dán vào thì chỉ còn lại bản ghi, không còn lại kiến thức.
+      Ở ô <b>Trả lời</b>, hãy viết bằng lời của bạn, rồi nhờ chấm điểm chính đoạn đó.</p>
+<pre>Tôi sẽ viết lại điều mình hiểu bằng lời của tôi.
+
+"{bản tóm tắt tôi tự viết}"
+
+Hãy chỉ ra chỗ sai, chỗ thiếu và chỗ nói quá.
+Thay vì cho điểm, hãy cho tôi xem câu văn đã được sửa lại.</pre>
+      <p class="inapp">▸ Chỉ đánh dấu <b>Đã giải quyết</b> + <b>Điều đã học (★)</b> cho những gì đã vượt qua bước này.
+      Danh sách &lsquo;Điều đã học&rsquo; trong <b>Hiển thị → Tóm tắt</b> chỉ thật sự có giá trị khi gồm toàn những điều đã được sàng lọc như vậy.</p>
+    </div>
+
+    <h2>Những kiến thức cần có</h2>
+    <p>Nếu diễn đạt 5 bước trên bằng ngôn ngữ năng lực, ta có bảng dưới đây. Hãy chọn dòng bạn đang thiếu nhất để luyện tập trước.</p>
+
+    <table>
+      <tr><th style="width:24%">Cần nắm</th><th style="width:38%">Làm được…</th><th>Hiểu về… / Từ khóa liên quan</th></tr>
+      <tr>
+        <td><b>Trau chuốt câu hỏi</b></td>
+        <td>Viết lại một ghi chú mơ hồ thành 3 câu hỏi có thể trả lời được</td>
+        <td class="kw">Tiêu chí của một câu hỏi hay, câu hỏi trả lời được và không trả lời được, xác định vấn đề (problem framing)</td>
+      </tr>
+      <tr>
+        <td><b>Cung cấp bối cảnh</b></td>
+        <td>Đặt câu hỏi kèm bối cảnh, trình độ của mình và dạng câu trả lời mong muốn</td>
+        <td class="kw">Cấu trúc hóa prompt, chỉ định vai trò, bối cảnh và định dạng đầu ra, thiết kế ngữ cảnh</td>
+      </tr>
+      <tr>
+        <td><b>Kiểm chứng câu trả lời</b></td>
+        <td>Hỏi vặn về tiền đề, phản ví dụ và nguồn gốc để phân biệt đâu là sự thật</td>
+        <td class="kw">Ảo giác của AI (hallucination), bằng chứng và nguồn, phép bác bỏ (falsification), thiên kiến xác nhận</td>
+      </tr>
+      <tr>
+        <td><b>Nhận ra điều chưa biết</b></td>
+        <td>Rút ra câu hỏi mới từ câu trả lời và lưu lại thành câu hỏi nối tiếp</td>
+        <td class="kw">Siêu nhận thức (metacognition), lỗ hổng kiến thức (knowledge gap), cây câu hỏi</td>
+      </tr>
+      <tr>
+        <td><b>Biến thành kiến thức vững chắc</b></td>
+        <td>Viết lại bằng lời của mình, nhờ chấm điểm và chốt lại thành &lsquo;Điều đã học&rsquo;</td>
+        <td class="kw">Kỹ thuật Feynman, luyện tập truy xuất (retrieval practice), lặp lại ngắt quãng (spaced repetition)</td>
+      </tr>
+    </table>
+
+    <h2>Bốn cái bẫy thường gặp</h2>
+    <div class="trap"><b>1. Nghe hợp lý là thấy đúng.</b> Câu chữ của AI lúc nào cũng tự tin.
+    Mức độ chắc chắn đến từ bằng chứng, không phải từ giọng văn. Chỉ gắn ★ (Điều đã học) sau khi đã kiểm tra.</div>
+    <div class="trap"><b>2. Hỏi mọi thứ trong một cuộc trò chuyện.</b> Dồn năm câu hỏi vào một cuộc trò chuyện thì câu trả lời sẽ nông đi và khó sắp xếp.
+    Một câu hỏi = một cuộc trò chuyện = một mục trong LectureQ.</div>
+    <div class="trap"><b>3. Chỉ sao chép rồi dán câu trả lời.</b> Câu trả lời được dán vào đọc lại lần nào cũng thấy mới (= nghĩa là chẳng đọng lại gì).
+    Dù chỉ một dòng, hãy viết lại bằng lời của bạn.</div>
+    <div class="trap"><b>4. Cuộc trò chuyện kết thúc là biến mất.</b> Khung chat trôi qua, chỉ còn lại câu hỏi.
+    Nếu nhập cả cuộc trò chuyện vào ứng dụng như bên dưới, sau này bạn còn giữ được cả &ldquo;vì sao lúc đó mình lại hiểu như vậy&rdquo;.</div>
+
+    <h2>Nhập trọn cuộc trò chuyện với AI</h2>
+    <p>Nếu lưu cuộc trò chuyện với AI dưới dạng Markdown, ứng dụng sẽ biến nó thành một <b>cây câu hỏi</b>
+    (trên thanh công cụ: <b>menu bài giảng → Nhập từ Markdown…</b>).</p>
+<pre># Dòng này sẽ thành tiêu đề bài giảng
+
+## Chủ đề (câu hỏi đầu tiên ở đây là câu hỏi gốc, các câu hỏi tiếp theo sẽ là câu hỏi nối tiếp)
+
+**Tôi** — Câu hỏi tôi đã hỏi
+
+**AI** — Câu trả lời nhận được (nhiều dòng hay có khối mã cũng không sao)</pre>
+    <p>Sau khi nhập, mỗi câu hỏi đều được điền câu trả lời và đánh dấu đã giải quyết.
+    Tiếp đó, trên màn hình <b>Tóm tắt</b>, chỉ giữ ★ cho những điều thật sự đã học và chọn &lsquo;Loại ra&rsquo; với phần còn lại,
+    vậy là cả một cuộc trò chuyện đã được sắp xếp thành danh sách điều đã học của riêng bạn.</p>
+
+    <h2>Tóm lại trong một câu</h2>
+    <p style="font-size:17px;"><b>Đừng xin AI câu trả lời; hãy dùng AI làm người cùng kiểm chứng câu hỏi của bạn.</b>
+    Câu hỏi do mình đặt, nghi ngờ do mình đặt ra, và câu cuối cùng cũng do mình viết. Nơi lưu giữ quá trình đó chính là LectureQ.</p>
+
+    <footer>© 2026 LectureQ · <a href="./support.html">Hỗ trợ</a> · <a href="./privacy.html">Chính sách quyền riêng tư</a> · <a href="https://github.com/M1zz/LectureQ">GitHub</a></footer>
+  </div>
+</body>
+</html>

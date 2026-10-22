@@ -1,0 +1,216 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>LectureQ · Panduan: Cari Jawaban dengan AI</title>
+<!--hreflang:start-->
+<link rel="canonical" href="https://m1zz.github.io/LectureQ/id/ai-guide.html">
+<link rel="alternate" hreflang="ko" href="https://m1zz.github.io/LectureQ/ai-guide.html">
+<link rel="alternate" hreflang="en" href="https://m1zz.github.io/LectureQ/en/ai-guide.html">
+<link rel="alternate" hreflang="en-GB" href="https://m1zz.github.io/LectureQ/en-GB/ai-guide.html">
+<link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/LectureQ/zh-Hans/ai-guide.html">
+<link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/LectureQ/zh-Hant/ai-guide.html">
+<link rel="alternate" hreflang="ja" href="https://m1zz.github.io/LectureQ/ja/ai-guide.html">
+<link rel="alternate" hreflang="ru" href="https://m1zz.github.io/LectureQ/ru/ai-guide.html">
+<link rel="alternate" hreflang="es" href="https://m1zz.github.io/LectureQ/es/ai-guide.html">
+<link rel="alternate" hreflang="de" href="https://m1zz.github.io/LectureQ/de/ai-guide.html">
+<link rel="alternate" hreflang="fr" href="https://m1zz.github.io/LectureQ/fr/ai-guide.html">
+<link rel="alternate" hreflang="it" href="https://m1zz.github.io/LectureQ/it/ai-guide.html">
+<link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/LectureQ/pt-BR/ai-guide.html">
+<link rel="alternate" hreflang="th" href="https://m1zz.github.io/LectureQ/th/ai-guide.html">
+<link rel="alternate" hreflang="vi" href="https://m1zz.github.io/LectureQ/vi/ai-guide.html">
+<link rel="alternate" hreflang="cs" href="https://m1zz.github.io/LectureQ/cs/ai-guide.html">
+<link rel="alternate" hreflang="da" href="https://m1zz.github.io/LectureQ/da/ai-guide.html">
+<link rel="alternate" hreflang="el" href="https://m1zz.github.io/LectureQ/el/ai-guide.html">
+<link rel="alternate" hreflang="fi" href="https://m1zz.github.io/LectureQ/fi/ai-guide.html">
+<link rel="alternate" hreflang="id" href="https://m1zz.github.io/LectureQ/id/ai-guide.html">
+<link rel="alternate" hreflang="nb" href="https://m1zz.github.io/LectureQ/nb/ai-guide.html">
+<link rel="alternate" hreflang="nl" href="https://m1zz.github.io/LectureQ/nl/ai-guide.html">
+<link rel="alternate" hreflang="pl" href="https://m1zz.github.io/LectureQ/pl/ai-guide.html">
+<link rel="alternate" hreflang="sv" href="https://m1zz.github.io/LectureQ/sv/ai-guide.html">
+<link rel="alternate" hreflang="tr" href="https://m1zz.github.io/LectureQ/tr/ai-guide.html">
+<link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/LectureQ/ai-guide.html">
+<style>.langs{display:flex;flex-wrap:wrap;gap:4px 12px;font-size:13px;margin:0 0 18px;}.langs a{color:var(--muted);text-decoration:none;}.langs a[aria-current]{color:var(--fg);font-weight:600;}.langs a:hover{color:var(--teal);}</style>
+<!--hreflang:end-->
+<style>
+  :root{--blue:#2E6BE6;--teal:#17B3A3;--bg:#ffffff;--fg:#1c1c1e;--muted:#6b6b70;--card:#f5f6f8;--border:#e6e7ea;}
+  @media (prefers-color-scheme:dark){:root{--bg:#111214;--fg:#f2f2f5;--muted:#9a9aa0;--card:#1b1c1f;--border:#2a2b2f;}}
+  *{box-sizing:border-box;}
+  body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Segoe UI",Roboto,sans-serif;background:var(--bg);color:var(--fg);line-height:1.7;}
+  .wrap{max-width:760px;margin:0 auto;padding:40px 20px 80px;}
+  a.back{color:var(--teal);text-decoration:none;font-size:14px;}
+  h1{font-size:30px;margin:18px 0 4px;letter-spacing:-.4px;}
+  .lead{color:var(--muted);font-size:16px;margin:0 0 28px;}
+  h2{font-size:20px;margin:38px 0 10px;padding-top:14px;border-top:1px solid var(--border);}
+  h3{font-size:16px;margin:24px 0 6px;}
+  code{background:var(--card);border:1px solid var(--border);border-radius:6px;padding:1px 6px;font-size:13px;}
+  kbd{background:var(--card);border:1px solid var(--border);border-bottom-width:2px;border-radius:6px;padding:1px 7px;font-size:13px;font-family:inherit;}
+  pre{background:var(--card);border:1px solid var(--border);border-left:4px solid var(--teal);border-radius:10px;padding:14px 16px;overflow-x:auto;font-size:13.5px;line-height:1.6;white-space:pre-wrap;}
+  .step{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:16px 20px;margin:14px 0;}
+  .step .n{display:inline-block;min-width:26px;height:26px;line-height:26px;text-align:center;border-radius:8px;background:var(--teal);color:#fff;font-weight:700;font-size:14px;margin-right:8px;}
+  .step h3{display:inline;font-size:17px;}
+  .inapp{color:var(--blue);font-size:13.5px;margin:8px 0 0;}
+  @media (prefers-color-scheme:dark){.inapp{color:#7aa5ff;}}
+  table{border-collapse:collapse;width:100%;margin:14px 0;font-size:14.5px;}
+  th,td{border:1px solid var(--border);padding:10px 12px;text-align:left;vertical-align:top;}
+  th{background:var(--card);font-size:14px;}
+  td .kw{color:var(--muted);font-size:13.5px;}
+  ul{padding-left:20px;}
+  li{margin:5px 0;}
+  .trap{border-left:4px solid #E6892E;background:var(--card);border-radius:10px;padding:12px 16px;margin:10px 0;}
+  .trap b{color:#E6892E;}
+  footer{margin-top:48px;color:var(--muted);font-size:13px;border-top:1px solid var(--border);padding-top:18px;}
+  footer a{color:var(--teal);}
+</style>
+</head>
+<body>
+  <div class="wrap">
+<!--langswitch:start--><nav class="langs" aria-label="Language"><a href="../ai-guide.html" hreflang="ko" lang="ko">한국어</a> <a href="../en/ai-guide.html" hreflang="en" lang="en">English</a> <a href="../en-GB/ai-guide.html" hreflang="en-GB" lang="en-GB">English (UK)</a> <a href="../zh-Hans/ai-guide.html" hreflang="zh-Hans" lang="zh-Hans">简体中文</a> <a href="../zh-Hant/ai-guide.html" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a> <a href="../ja/ai-guide.html" hreflang="ja" lang="ja">日本語</a> <a href="../ru/ai-guide.html" hreflang="ru" lang="ru">Русский</a> <a href="../es/ai-guide.html" hreflang="es" lang="es">Español</a> <a href="../de/ai-guide.html" hreflang="de" lang="de">Deutsch</a> <a href="../fr/ai-guide.html" hreflang="fr" lang="fr">Français</a> <a href="../it/ai-guide.html" hreflang="it" lang="it">Italiano</a> <a href="../pt-BR/ai-guide.html" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a> <a href="../th/ai-guide.html" hreflang="th" lang="th">ไทย</a> <a href="../vi/ai-guide.html" hreflang="vi" lang="vi">Tiếng Việt</a> <a href="../cs/ai-guide.html" hreflang="cs" lang="cs">Čeština</a> <a href="../da/ai-guide.html" hreflang="da" lang="da">Dansk</a> <a href="../el/ai-guide.html" hreflang="el" lang="el">Ελληνικά</a> <a href="../fi/ai-guide.html" hreflang="fi" lang="fi">Suomi</a> <a href="../id/ai-guide.html" hreflang="id" lang="id" aria-current="page">Bahasa Indonesia</a> <a href="../nb/ai-guide.html" hreflang="nb" lang="nb">Norsk bokmål</a> <a href="../nl/ai-guide.html" hreflang="nl" lang="nl">Nederlands</a> <a href="../pl/ai-guide.html" hreflang="pl" lang="pl">Polski</a> <a href="../sv/ai-guide.html" hreflang="sv" lang="sv">Svenska</a> <a href="../tr/ai-guide.html" hreflang="tr" lang="tr">Türkçe</a></nav><!--langswitch:end-->
+    <a class="back" href="./index.html">← LectureQ: Catatan Pertanyaan</a>
+    <h1>Panduan: Cari Jawaban dengan AI</h1>
+    <p class="lead">Kalau kamu sudah mencatat pertanyaan di LectureQ, berikutnya saatnya mencari jawaban.
+    Sekarang, jawaban itu kebanyakan datang dari obrolan dengan AI. Masalahnya, <b>meski pertanyaannya sama, yang didapat tiap orang bisa berbeda</b>.
+    Panduan ini mengikuti alur LectureQ (pertanyaan → jawaban → yang sudah kupelajari) dan merangkum cara membuat perbedaan itu berpihak padamu.</p>
+
+    <p><b>Kemampuan yang ingin dilatih panduan ini, dalam satu kalimat:</b><br>
+    <b>Aku bisa mengubah pertanyaanku menjadi &lsquo;pengetahuan yang teruji&rsquo; bersama AI.</b>
+    Bukan kemampuan menerima jawaban, tetapi kemampuan meragukan jawaban yang diterima dan menjadikannya milikmu.</p>
+
+    <h2>5 langkah mencari jawaban</h2>
+    <p>Satu pertanyaan, satu percakapan. Kalau beberapa pertanyaan dijejalkan ke satu percakapan, jawabannya ikut campur aduk dan sulit dirapikan nanti.</p>
+
+    <div class="step">
+      <span class="n">1</span><h3>Rapikan pertanyaan agar &lsquo;bisa dijawab&rsquo;</h3>
+      <p>Pertanyaan yang ditulis terburu-buru saat kuliah biasanya masih kabur. Pertanyaan kabur akan dibalas jawaban yang kabur.
+      Jangan langsung minta jawaban; tulis ulang pertanyaannya dulu.</p>
+<pre>Ini pertanyaan yang kutulis terburu-buru saat kuliah. Masih kabur.
+
+"{pertanyaan persis seperti yang kutulis di LectureQ}"
+
+Tulis ulang pertanyaan ini menjadi 3 'pertanyaan yang bisa dijawab'.
+Untuk masing-masing, tambahkan satu baris tentang apa yang bisa kulakukan setelah tahu jawabannya.
+Jangan dijawab dulu, tampilkan pertanyaan yang sudah ditulis ulang saja.</pre>
+      <p class="inapp">▸ Kalau sudah ada versi yang kamu suka, ganti kalimat pertanyaan di LectureQ dengan versi itu. Ini investasi untuk dirimu di masa depan.</p>
+    </div>
+
+    <div class="step">
+      <span class="n">2</span><h3>Bertanya dengan 3 jenis konteks</h3>
+      <p>AI tidak tahu sejauh mana kamu paham. Cukup tambahkan <b>dari mana pertanyaan muncul / sejauh mana pemahamanmu sekarang / bentuk jawaban yang kamu mau</b>,
+      dan kualitas jawaban akan jauh berubah. Ketiganya sudah tercatat di aplikasi.</p>
+<pre>[Pertanyaanku]
+{pertanyaan yang sudah dirapikan}
+
+[Konteks]
+- Asal pertanyaan: {nama kuliah} / {catatan blok waktu pada saat itu}
+- Pemahamanku sekarang: {'Posisiku saat ini' di Status Belajar}
+- Kondisi yang ingin kucapai: {'Posisi yang kuinginkan di akhir' di Status Belajar}
+
+[Jawaban yang kumau]
+1) Jawaban inti dalam 3–5 baris
+2) Satu paragraf tentang alasannya
+3) 1–2 hal yang mungkin keliru kupahami
+4) Satu contoh atau percobaan paling kecil yang bisa kucek sendiri
+
+Bedakan mana yang pasti dan mana yang dugaan. Kalau tidak tahu, bilang saja tidak tahu.</pre>
+      <p class="inapp">▸ Bahan konteks: di bilah alat <b>Tampilan → Status Belajar</b>, serta <b>catatan blok waktu</b> tempat pertanyaan itu berada.</p>
+    </div>
+
+    <div class="step">
+      <span class="n">3</span><h3>Jangan anggap jawaban pertama sebagai akhir</h3>
+      <p>Jawaban yang terdengar meyakinkan belum tentu jawaban yang sudah teruji. Setidaknya, tanyakan balik sekali.</p>
+<pre>Bagian mana dari jawabanmu yang paling mungkin salah?
+
+- Asumsi yang harus benar agar jawaban ini berlaku
+- Pandangan sebaliknya, atau situasi pengecualian saat jawaban ini tidak berlaku
+- Apa yang harus kulihat untuk mengecek langsung dari sumber primer? (nama dokumentasi resmi, spesifikasi, teks asli)</pre>
+      <p>Informasi seperti versi, angka, nama API, dan tahun <b>makin spesifik makin tidak kentara kalau salah</b>. Selalu cek di sumber aslinya.</p>
+    </div>
+
+    <div class="step">
+      <span class="n">4</span><h3>Jangan biarkan rasa penasaran baru lewat begitu saja</h3>
+      <p>Jawaban yang baik selalu memunculkan ketidaktahuan baru. Itulah pertanyaan berikutnya, yang di aplikasi ini disebut <b>pertanyaan lanjutan</b>.</p>
+<pre>Dari percakapan sejauh ini, ambil 3 pertanyaan tentang hal yang belum kuketahui tetapi perlu kuketahui.
+Tanpa penjelasan, pertanyaan saja. Singkat dan spesifik.</pre>
+      <p class="inapp">▸ Tempelkan pertanyaan yang didapat ke kolom <b>&lsquo;Pertanyaan lanjutan baru&rsquo;</b> di detail pertanyaan. Pertanyaan itu akan tersimpan dengan hierarki pertanyaan asli → pertanyaan lanjutan,
+      dan di <b>Grafik</b> kamu bisa melihat bagaimana pemahamanmu bercabang.</p>
+    </div>
+
+    <div class="step">
+      <span class="n">5</span><h3>Tulis ulang dengan kata-katamu sendiri, lalu minta dinilai</h3>
+      <p>Kalau jawaban AI hanya disalin dan ditempel, catatannya ada tetapi pemahamannya tidak tertinggal.
+      Di kolom <b>Jawaban</b>, tulis dengan kata-katamu sendiri, lalu minta kalimat itu dinilai.</p>
+<pre>Aku akan menulis pemahamanku dengan kata-kataku sendiri.
+
+"{ringkasan yang kutulis sendiri}"
+
+Tunjukkan bagian yang salah, yang kurang, dan yang berlebihan.
+Daripada memberi skor, tunjukkan kalimat yang sudah diperbaiki.</pre>
+      <p class="inapp">▸ Tandai sebagai <b>Terjawab</b> + <b>Yang Sudah Kupelajari (★)</b> hanya yang lolos sampai tahap ini.
+      Daftar &lsquo;Yang Sudah Kupelajari&rsquo; di <b>Tampilan → Ringkasan</b> baru berharga jika hanya berisi hal yang sudah tersaring seperti ini.</p>
+    </div>
+
+    <h2>Pengetahuan yang perlu dimiliki</h2>
+    <p>Kalau 5 langkah di atas dirangkum dalam bahasa kemampuan, hasilnya seperti ini. Pilih satu baris yang paling kurang darimu sekarang, lalu latih.</p>
+
+    <table>
+      <tr><th style="width:24%">Yang perlu dikuasai</th><th style="width:38%">Aku bisa…</th><th>Yang perlu diketahui / kata kunci terkait</th></tr>
+      <tr>
+        <td><b>Merapikan pertanyaan</b></td>
+        <td>menulis ulang catatan yang kabur menjadi 3 pertanyaan yang bisa dijawab</td>
+        <td class="kw">syarat pertanyaan yang baik, pertanyaan yang bisa dan tidak bisa dijawab, perumusan masalah (problem framing)</td>
+      </tr>
+      <tr>
+        <td><b>Memberi konteks</b></td>
+        <td>bertanya dengan menyertakan latar belakang, tingkat pemahamanku, dan format jawaban yang diinginkan</td>
+        <td class="kw">penyusunan struktur prompt, penentuan peran, konteks, dan format keluaran, perancangan konteks</td>
+      </tr>
+      <tr>
+        <td><b>Menguji jawaban</b></td>
+        <td>menanyakan balik asumsi, contoh bantahan, dan sumber primer untuk memilah fakta</td>
+        <td class="kw">halusinasi (hallucination), dasar dan sumber, falsifikasi (falsification), bias konfirmasi</td>
+      </tr>
+      <tr>
+        <td><b>Menyadari ketidaktahuan</b></td>
+        <td>mengambil pertanyaan baru dari jawaban dan menyimpannya sebagai pertanyaan lanjutan</td>
+        <td class="kw">metakognisi, celah pengetahuan (knowledge gap), pohon pertanyaan</td>
+      </tr>
+      <tr>
+        <td><b>Mengukuhkan pemahaman</b></td>
+        <td>menulis ulang dengan kata-kataku sendiri, minta dinilai, lalu menetapkannya sebagai &lsquo;Yang Sudah Kupelajari&rsquo;</td>
+        <td class="kw">teknik Feynman, latihan mengingat kembali (retrieval practice), pengulangan berjarak (spaced repetition)</td>
+      </tr>
+    </table>
+
+    <h2>Empat jebakan yang sering terjadi</h2>
+    <div class="trap"><b>1. Terdengar meyakinkan, jadi terasa benar.</b> Kalimat AI selalu ditulis dengan percaya diri.
+    Tingkat keyakinan datang dari dasar, bukan dari gaya bahasa. ★ (Yang Sudah Kupelajari) diberikan setelah dicek.</div>
+    <div class="trap"><b>2. Menanyakan semuanya dalam satu percakapan.</b> Lima pertanyaan dalam satu percakapan membuat jawabannya dangkal dan sulit dirapikan.
+    Satu pertanyaan = satu percakapan = satu entri di LectureQ.</div>
+    <div class="trap"><b>3. Hanya menyalin dan menempel jawaban.</b> Jawaban yang ditempel akan terasa baru setiap kali dibaca ulang (= tidak ada yang tertinggal).
+    Tulis ulang dengan kata-katamu sendiri, meski hanya satu baris.</div>
+    <div class="trap"><b>4. Begitu percakapan selesai, semuanya hilang.</b> Jendela obrolan berlalu, hanya pertanyaannya yang tersisa.
+    Kalau seluruh percakapan disimpan di aplikasi seperti di bawah, bahkan &ldquo;kenapa aku memahaminya begitu&rdquo; pun ikut tersimpan.</div>
+
+    <h2>Mengimpor seluruh percakapan dengan AI</h2>
+    <p>Kalau percakapan dengan AI disimpan sebagai Markdown, aplikasi akan mengubahnya menjadi <b>pohon pertanyaan</b>
+    (di bilah alat <b>menu kuliah → Impor dari Markdown…</b>).</p>
+<pre># Baris yang akan menjadi judul kuliah
+
+## Topik (pertanyaan pertama di sini menjadi pertanyaan asli, pertanyaan berikutnya menjadi pertanyaan lanjutan)
+
+**Aku** — pertanyaan yang kuajukan di sini
+
+**AI** — jawaban yang kuterima di sini (boleh beberapa baris, blok kode juga boleh)</pre>
+    <p>Setelah diimpor, setiap pertanyaan terisi jawabannya dan ditandai terjawab.
+    Lalu di layar <b>Ringkasan</b>, sisakan ★ hanya untuk hal yang benar-benar kamu pelajari dan &lsquo;Keluarkan&rsquo; sisanya,
+    maka satu percakapan pun menjadi daftar hal yang sudah kamu pelajari.</p>
+
+    <h2>Dalam satu kalimat</h2>
+    <p style="font-size:17px;"><b>Jangan meminta jawaban dari AI; jadikan AI lawan bicara untuk menguji pertanyaanmu.</b>
+    Pertanyaan kamu yang buat, keraguan kamu yang pegang, dan kalimat terakhir pun kamu yang tulis. LectureQ adalah tempat proses itu tersimpan.</p>
+
+    <footer>© 2026 LectureQ · <a href="./support.html">Dukungan</a> · <a href="./privacy.html">Kebijakan Privasi</a> · <a href="https://github.com/M1zz/LectureQ">GitHub</a></footer>
+  </div>
+</body>
+</html>

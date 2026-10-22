@@ -1,0 +1,216 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>LectureQ · Guida: trova risposte con l’IA</title>
+<!--hreflang:start-->
+<link rel="canonical" href="https://m1zz.github.io/LectureQ/it/ai-guide.html">
+<link rel="alternate" hreflang="ko" href="https://m1zz.github.io/LectureQ/ai-guide.html">
+<link rel="alternate" hreflang="en" href="https://m1zz.github.io/LectureQ/en/ai-guide.html">
+<link rel="alternate" hreflang="en-GB" href="https://m1zz.github.io/LectureQ/en-GB/ai-guide.html">
+<link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/LectureQ/zh-Hans/ai-guide.html">
+<link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/LectureQ/zh-Hant/ai-guide.html">
+<link rel="alternate" hreflang="ja" href="https://m1zz.github.io/LectureQ/ja/ai-guide.html">
+<link rel="alternate" hreflang="ru" href="https://m1zz.github.io/LectureQ/ru/ai-guide.html">
+<link rel="alternate" hreflang="es" href="https://m1zz.github.io/LectureQ/es/ai-guide.html">
+<link rel="alternate" hreflang="de" href="https://m1zz.github.io/LectureQ/de/ai-guide.html">
+<link rel="alternate" hreflang="fr" href="https://m1zz.github.io/LectureQ/fr/ai-guide.html">
+<link rel="alternate" hreflang="it" href="https://m1zz.github.io/LectureQ/it/ai-guide.html">
+<link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/LectureQ/pt-BR/ai-guide.html">
+<link rel="alternate" hreflang="th" href="https://m1zz.github.io/LectureQ/th/ai-guide.html">
+<link rel="alternate" hreflang="vi" href="https://m1zz.github.io/LectureQ/vi/ai-guide.html">
+<link rel="alternate" hreflang="cs" href="https://m1zz.github.io/LectureQ/cs/ai-guide.html">
+<link rel="alternate" hreflang="da" href="https://m1zz.github.io/LectureQ/da/ai-guide.html">
+<link rel="alternate" hreflang="el" href="https://m1zz.github.io/LectureQ/el/ai-guide.html">
+<link rel="alternate" hreflang="fi" href="https://m1zz.github.io/LectureQ/fi/ai-guide.html">
+<link rel="alternate" hreflang="id" href="https://m1zz.github.io/LectureQ/id/ai-guide.html">
+<link rel="alternate" hreflang="nb" href="https://m1zz.github.io/LectureQ/nb/ai-guide.html">
+<link rel="alternate" hreflang="nl" href="https://m1zz.github.io/LectureQ/nl/ai-guide.html">
+<link rel="alternate" hreflang="pl" href="https://m1zz.github.io/LectureQ/pl/ai-guide.html">
+<link rel="alternate" hreflang="sv" href="https://m1zz.github.io/LectureQ/sv/ai-guide.html">
+<link rel="alternate" hreflang="tr" href="https://m1zz.github.io/LectureQ/tr/ai-guide.html">
+<link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/LectureQ/ai-guide.html">
+<style>.langs{display:flex;flex-wrap:wrap;gap:4px 12px;font-size:13px;margin:0 0 18px;}.langs a{color:var(--muted);text-decoration:none;}.langs a[aria-current]{color:var(--fg);font-weight:600;}.langs a:hover{color:var(--teal);}</style>
+<!--hreflang:end-->
+<style>
+  :root{--blue:#2E6BE6;--teal:#17B3A3;--bg:#ffffff;--fg:#1c1c1e;--muted:#6b6b70;--card:#f5f6f8;--border:#e6e7ea;}
+  @media (prefers-color-scheme:dark){:root{--bg:#111214;--fg:#f2f2f5;--muted:#9a9aa0;--card:#1b1c1f;--border:#2a2b2f;}}
+  *{box-sizing:border-box;}
+  body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Segoe UI",Roboto,sans-serif;background:var(--bg);color:var(--fg);line-height:1.7;}
+  .wrap{max-width:760px;margin:0 auto;padding:40px 20px 80px;}
+  a.back{color:var(--teal);text-decoration:none;font-size:14px;}
+  h1{font-size:30px;margin:18px 0 4px;letter-spacing:-.4px;}
+  .lead{color:var(--muted);font-size:16px;margin:0 0 28px;}
+  h2{font-size:20px;margin:38px 0 10px;padding-top:14px;border-top:1px solid var(--border);}
+  h3{font-size:16px;margin:24px 0 6px;}
+  code{background:var(--card);border:1px solid var(--border);border-radius:6px;padding:1px 6px;font-size:13px;}
+  kbd{background:var(--card);border:1px solid var(--border);border-bottom-width:2px;border-radius:6px;padding:1px 7px;font-size:13px;font-family:inherit;}
+  pre{background:var(--card);border:1px solid var(--border);border-left:4px solid var(--teal);border-radius:10px;padding:14px 16px;overflow-x:auto;font-size:13.5px;line-height:1.6;white-space:pre-wrap;}
+  .step{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:16px 20px;margin:14px 0;}
+  .step .n{display:inline-block;min-width:26px;height:26px;line-height:26px;text-align:center;border-radius:8px;background:var(--teal);color:#fff;font-weight:700;font-size:14px;margin-right:8px;}
+  .step h3{display:inline;font-size:17px;}
+  .inapp{color:var(--blue);font-size:13.5px;margin:8px 0 0;}
+  @media (prefers-color-scheme:dark){.inapp{color:#7aa5ff;}}
+  table{border-collapse:collapse;width:100%;margin:14px 0;font-size:14.5px;}
+  th,td{border:1px solid var(--border);padding:10px 12px;text-align:left;vertical-align:top;}
+  th{background:var(--card);font-size:14px;}
+  td .kw{color:var(--muted);font-size:13.5px;}
+  ul{padding-left:20px;}
+  li{margin:5px 0;}
+  .trap{border-left:4px solid #E6892E;background:var(--card);border-radius:10px;padding:12px 16px;margin:10px 0;}
+  .trap b{color:#E6892E;}
+  footer{margin-top:48px;color:var(--muted);font-size:13px;border-top:1px solid var(--border);padding-top:18px;}
+  footer a{color:var(--teal);}
+</style>
+</head>
+<body>
+  <div class="wrap">
+<!--langswitch:start--><nav class="langs" aria-label="Language"><a href="../ai-guide.html" hreflang="ko" lang="ko">한국어</a> <a href="../en/ai-guide.html" hreflang="en" lang="en">English</a> <a href="../en-GB/ai-guide.html" hreflang="en-GB" lang="en-GB">English (UK)</a> <a href="../zh-Hans/ai-guide.html" hreflang="zh-Hans" lang="zh-Hans">简体中文</a> <a href="../zh-Hant/ai-guide.html" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a> <a href="../ja/ai-guide.html" hreflang="ja" lang="ja">日本語</a> <a href="../ru/ai-guide.html" hreflang="ru" lang="ru">Русский</a> <a href="../es/ai-guide.html" hreflang="es" lang="es">Español</a> <a href="../de/ai-guide.html" hreflang="de" lang="de">Deutsch</a> <a href="../fr/ai-guide.html" hreflang="fr" lang="fr">Français</a> <a href="../it/ai-guide.html" hreflang="it" lang="it" aria-current="page">Italiano</a> <a href="../pt-BR/ai-guide.html" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a> <a href="../th/ai-guide.html" hreflang="th" lang="th">ไทย</a> <a href="../vi/ai-guide.html" hreflang="vi" lang="vi">Tiếng Việt</a> <a href="../cs/ai-guide.html" hreflang="cs" lang="cs">Čeština</a> <a href="../da/ai-guide.html" hreflang="da" lang="da">Dansk</a> <a href="../el/ai-guide.html" hreflang="el" lang="el">Ελληνικά</a> <a href="../fi/ai-guide.html" hreflang="fi" lang="fi">Suomi</a> <a href="../id/ai-guide.html" hreflang="id" lang="id">Bahasa Indonesia</a> <a href="../nb/ai-guide.html" hreflang="nb" lang="nb">Norsk bokmål</a> <a href="../nl/ai-guide.html" hreflang="nl" lang="nl">Nederlands</a> <a href="../pl/ai-guide.html" hreflang="pl" lang="pl">Polski</a> <a href="../sv/ai-guide.html" hreflang="sv" lang="sv">Svenska</a> <a href="../tr/ai-guide.html" hreflang="tr" lang="tr">Türkçe</a></nav><!--langswitch:end-->
+    <a class="back" href="./index.html">← LectureQ</a>
+    <h1>Guida: trova risposte con l’IA</h1>
+    <p class="lead">Se hai già annotato le tue domande in LectureQ, adesso è il momento di cercare le risposte.
+    Oggi quasi tutte arrivano da una conversazione con un’IA. Il problema è che <b>con la stessa domanda, ognuno ne ricava qualcosa di diverso</b>.
+    Questa guida segue il flusso di LectureQ (domanda → risposta → cosa ho imparato) e raccoglie ciò che fa la differenza.</p>
+
+    <p><b>La competenza che questa guida vuole allenare, in una riga:</b><br>
+    <b>Trasformare le tue domande, insieme all’IA, in &lsquo;conoscenza verificata&rsquo;.</b>
+    Non si tratta di saper ricevere risposte, ma di saperle mettere in dubbio e farle tue.</p>
+
+    <h2>I 5 passi per trovare la risposta</h2>
+    <p>Una domanda, una conversazione. Se metti più domande nella stessa conversazione, le risposte si mescolano e poi è impossibile riordinarle.</p>
+
+    <div class="step">
+      <span class="n">1</span><h3>Riformula la domanda in modo che abbia risposta</h3>
+      <p>Una domanda scritta di fretta a lezione di solito è vaga, e a una domanda vaga arriva una risposta vaga.
+      Non chiedere subito la risposta: prima riscrivi la domanda.</p>
+<pre>Ecco una domanda che ho scritto di fretta a lezione. È ancora poco chiara.
+
+"{la domanda così come l’hai scritta in LectureQ}"
+
+Riscrivila come 3 domande a cui si possa rispondere.
+Per ognuna aggiungi una riga su cosa sarò in grado di fare conoscendo la risposta.
+Non rispondere ancora: mostrami solo le domande riscritte.</pre>
+      <p class="inapp">▸ Quando trovi una versione che ti convince, sostituisci con quella il testo della domanda in LectureQ. È un investimento per il te stesso di domani.</p>
+    </div>
+
+    <div class="step">
+      <span class="n">2</span><h3>Chiedi aggiungendo tre elementi di contesto</h3>
+      <p>L’IA non sa fin dove arrivi tu. Basta aggiungere <b>da dove nasce la domanda / il tuo livello attuale / la forma di risposta che vuoi</b>
+      e la qualità della risposta cambia del tutto. E tutti e tre sono già scritti nell’app.</p>
+<pre>[La mia domanda]
+{la domanda riformulata}
+
+[Contesto]
+- Da dove nasce: {nome della lezione} / {appunti del blocco orario di quel momento}
+- Cosa so adesso: {«A che punto sono ora» nello stato di apprendimento}
+- Dove voglio arrivare: {«Come voglio essere alla fine» nello stato di apprendimento}
+
+[Risposta che cerco]
+1) La risposta chiave in 3-5 righe
+2) Un paragrafo che spieghi il perché
+3) 1 o 2 punti su cui probabilmente sbaglio
+4) L’esempio o l’esperimento più piccolo che posso verificare da solo
+
+Distingui chiaramente ciò che è certo da ciò che è un’ipotesi. Se non sai qualcosa, dillo.</pre>
+      <p class="inapp">▸ Dove trovare il contesto: nella barra degli strumenti, <b>Vista → Stato di apprendimento</b>, e gli <b>appunti del blocco orario</b> in cui si trova la domanda.</p>
+    </div>
+
+    <div class="step">
+      <span class="n">3</span><h3>Non considerare definitiva la prima risposta</h3>
+      <p>Una risposta convincente non è una risposta verificata. Va messa in discussione almeno una volta.</p>
+<pre>Qual è la parte di questa risposta che ha più probabilità di essere sbagliata?
+
+- Le premesse che devono essere vere perché la risposta regga
+- La posizione opposta, o i casi in cui questa risposta non funziona
+- Cosa dovrei consultare per verificarlo su una fonte primaria? (nomi di documentazione ufficiale, specifiche o testi originali)</pre>
+      <p>Versioni, numeri, nomi di API o anni sono informazioni che, <b>più sono precise, meno si nota quando sono sbagliate</b>: verificale sempre sulla fonte originale.</p>
+    </div>
+
+    <div class="step">
+      <span class="n">4</span><h3>Non lasciarti sfuggire i nuovi dubbi</h3>
+      <p>Una buona risposta fa sempre emergere qualcosa di nuovo che non sai. Quella è la domanda successiva: in questa app, una <b>domanda di approfondimento</b>.</p>
+<pre>Da questa conversazione, ricavami 3 domande su ciò che ancora non so e dovrei sapere.
+Niente spiegazioni, solo le domande. Brevi e concrete.</pre>
+      <p class="inapp">▸ Se incolli queste domande così come sono nel campo <b>&lsquo;Nuova domanda di approfondimento&rsquo;</b> nel dettaglio della domanda, restano agganciate alla domanda originale,
+      e nel <b>Grafo</b> vedi come si è ramificata la tua comprensione.</p>
+    </div>
+
+    <div class="step">
+      <span class="n">5</span><h3>Riscrivilo con parole tue e fallo valutare</h3>
+      <p>Se copi e incolli la risposta dell’IA, ti resta la traccia ma non la conoscenza.
+      Nel campo <b>Risposta</b> scrivi con parole tue e fai valutare quel testo.</p>
+<pre>Provo a scrivere con parole mie quello che ho capito.
+
+"{il riassunto che ho scritto io}"
+
+Indicami cosa è sbagliato, cosa manca e cosa è esagerato.
+Invece di un voto, mostrami il testo corretto.</pre>
+      <p class="inapp">▸ Segna come <b>Risolta</b> + <b>Cosa ho imparato (★)</b> solo ciò che ha superato tutti questi passi.
+      L’elenco «Cosa ho imparato» in <b>Vista → Riepilogo</b> ha valore solo se raccoglie ciò che hai filtrato così.</p>
+    </div>
+
+    <h2>Cosa devi sapere</h2>
+    <p>Ecco i 5 passi espressi come competenze. Inizia ad allenarti dalla riga in cui ti senti più debole.</p>
+
+    <table>
+      <tr><th style="width:24%">Cosa imparare</th><th style="width:38%">Cosa saprai fare</th><th>Cosa conoscere / parole chiave</th></tr>
+      <tr>
+        <td><b>Riformulare la domanda</b></td>
+        <td>Trasformare un appunto vago in 3 domande a cui si può rispondere</td>
+        <td class="kw">Cosa rende buona una domanda, domande con e senza risposta possibile, definizione del problema (problem framing)</td>
+      </tr>
+      <tr>
+        <td><b>Dare contesto</b></td>
+        <td>Chiedere indicando il contesto, il tuo livello e il formato di risposta desiderato</td>
+        <td class="kw">Strutturare i prompt, indicare ruolo, contesto e formato di output, progettazione del contesto</td>
+      </tr>
+      <tr>
+        <td><b>Verificare la risposta</b></td>
+        <td>Distinguere i fatti chiedendo premesse, controesempi e fonti primarie</td>
+        <td class="kw">Allucinazioni (hallucination), prove e fonti, falsificazione (falsification), bias di conferma</td>
+      </tr>
+      <tr>
+        <td><b>Far emergere ciò che non sai</b></td>
+        <td>Ricavare nuove domande da una risposta e salvarle come domande di approfondimento</td>
+        <td class="kw">Metacognizione, lacune di conoscenza (knowledge gap), albero delle domande</td>
+      </tr>
+      <tr>
+        <td><b>Consolidare ciò che hai imparato</b></td>
+        <td>Riscriverlo con parole tue, farlo valutare e fissarlo in &lsquo;Cosa ho imparato&rsquo;</td>
+        <td class="kw">Tecnica di Feynman, pratica di richiamo (retrieval practice), ripetizione dilazionata (spaced repetition)</td>
+      </tr>
+    </table>
+
+    <h2>Quattro trappole comuni</h2>
+    <div class="trap"><b>1. Se suona bene, sembra giusto.</b> L’IA scrive sempre con grande sicurezza.
+    Ma la fiducia deve venire dalle prove, non dallo stile. La ★ (cosa ho imparato) va messa dopo aver verificato.</div>
+    <div class="trap"><b>2. Chiedere tutto nella stessa conversazione.</b> Con cinque domande in un’unica conversazione, le risposte restano superficiali e non si riesce a riordinarle.
+    Una domanda = una conversazione = una voce in LectureQ.</div>
+    <div class="trap"><b>3. Copiare e incollare solo la risposta.</b> Una risposta incollata sembra nuova ogni volta che la rileggi (segno che non ti è rimasta).
+    Anche solo una riga, riscrivila con parole tue.</div>
+    <div class="trap"><b>4. Finita la conversazione, sparisce tutto.</b> La chat passa e resta solo la domanda.
+    Se salvi l’intera conversazione nell’app come spiegato qui sotto, più avanti saprai anche &ldquo;perché l’avevo capita così&rdquo;.</div>
+
+    <h2>Importare un’intera conversazione con l’IA</h2>
+    <p>Se salvi in Markdown una conversazione con l’IA, l’app la trasforma in un <b>albero di domande</b>
+    (nella barra degli strumenti, <b>menu delle lezioni → Importa da Markdown…</b>).</p>
+<pre># Questa riga diventa il titolo della lezione
+
+## Argomento (qui la prima domanda è quella originale, le successive diventano approfondimenti)
+
+**Io** — Qui va la domanda che ho fatto
+
+**IA** — Qui va la risposta che ho ricevuto (anche su più righe, vanno bene pure i blocchi di codice)</pre>
+    <p>Dopo l’importazione, ogni domanda ha già la sua risposta ed è segnata come risolta.
+    Poi, nel <b>Riepilogo</b>, lascia con la ★ solo ciò che hai davvero imparato e usa &lsquo;Escludi&rsquo; per il resto:
+    così un’intera conversazione diventa il tuo elenco di cose imparate.</p>
+
+    <h2>In una frase</h2>
+    <p style="font-size:17px;"><b>Non chiedere risposte all’IA: usala come qualcuno che mette alla prova le tue domande.</b>
+    Le domande le fai tu, i dubbi li sollevi tu e anche l’ultima frase la scrivi tu. LectureQ è il posto dove resta traccia di questo percorso.</p>
+
+    <footer>© 2026 LectureQ · <a href="./support.html">Supporto</a> · <a href="./privacy.html">Informativa sulla privacy</a> · <a href="https://github.com/M1zz/LectureQ">GitHub</a></footer>
+  </div>
+</body>
+</html>

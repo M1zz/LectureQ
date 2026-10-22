@@ -1,0 +1,216 @@
+<!doctype html>
+<html lang="cs">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>LectureQ · Průvodce: hledání odpovědí s AI</title>
+<!--hreflang:start-->
+<link rel="canonical" href="https://m1zz.github.io/LectureQ/cs/ai-guide.html">
+<link rel="alternate" hreflang="ko" href="https://m1zz.github.io/LectureQ/ai-guide.html">
+<link rel="alternate" hreflang="en" href="https://m1zz.github.io/LectureQ/en/ai-guide.html">
+<link rel="alternate" hreflang="en-GB" href="https://m1zz.github.io/LectureQ/en-GB/ai-guide.html">
+<link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/LectureQ/zh-Hans/ai-guide.html">
+<link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/LectureQ/zh-Hant/ai-guide.html">
+<link rel="alternate" hreflang="ja" href="https://m1zz.github.io/LectureQ/ja/ai-guide.html">
+<link rel="alternate" hreflang="ru" href="https://m1zz.github.io/LectureQ/ru/ai-guide.html">
+<link rel="alternate" hreflang="es" href="https://m1zz.github.io/LectureQ/es/ai-guide.html">
+<link rel="alternate" hreflang="de" href="https://m1zz.github.io/LectureQ/de/ai-guide.html">
+<link rel="alternate" hreflang="fr" href="https://m1zz.github.io/LectureQ/fr/ai-guide.html">
+<link rel="alternate" hreflang="it" href="https://m1zz.github.io/LectureQ/it/ai-guide.html">
+<link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/LectureQ/pt-BR/ai-guide.html">
+<link rel="alternate" hreflang="th" href="https://m1zz.github.io/LectureQ/th/ai-guide.html">
+<link rel="alternate" hreflang="vi" href="https://m1zz.github.io/LectureQ/vi/ai-guide.html">
+<link rel="alternate" hreflang="cs" href="https://m1zz.github.io/LectureQ/cs/ai-guide.html">
+<link rel="alternate" hreflang="da" href="https://m1zz.github.io/LectureQ/da/ai-guide.html">
+<link rel="alternate" hreflang="el" href="https://m1zz.github.io/LectureQ/el/ai-guide.html">
+<link rel="alternate" hreflang="fi" href="https://m1zz.github.io/LectureQ/fi/ai-guide.html">
+<link rel="alternate" hreflang="id" href="https://m1zz.github.io/LectureQ/id/ai-guide.html">
+<link rel="alternate" hreflang="nb" href="https://m1zz.github.io/LectureQ/nb/ai-guide.html">
+<link rel="alternate" hreflang="nl" href="https://m1zz.github.io/LectureQ/nl/ai-guide.html">
+<link rel="alternate" hreflang="pl" href="https://m1zz.github.io/LectureQ/pl/ai-guide.html">
+<link rel="alternate" hreflang="sv" href="https://m1zz.github.io/LectureQ/sv/ai-guide.html">
+<link rel="alternate" hreflang="tr" href="https://m1zz.github.io/LectureQ/tr/ai-guide.html">
+<link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/LectureQ/ai-guide.html">
+<style>.langs{display:flex;flex-wrap:wrap;gap:4px 12px;font-size:13px;margin:0 0 18px;}.langs a{color:var(--muted);text-decoration:none;}.langs a[aria-current]{color:var(--fg);font-weight:600;}.langs a:hover{color:var(--teal);}</style>
+<!--hreflang:end-->
+<style>
+  :root{--blue:#2E6BE6;--teal:#17B3A3;--bg:#ffffff;--fg:#1c1c1e;--muted:#6b6b70;--card:#f5f6f8;--border:#e6e7ea;}
+  @media (prefers-color-scheme:dark){:root{--bg:#111214;--fg:#f2f2f5;--muted:#9a9aa0;--card:#1b1c1f;--border:#2a2b2f;}}
+  *{box-sizing:border-box;}
+  body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Segoe UI",Roboto,sans-serif;background:var(--bg);color:var(--fg);line-height:1.7;}
+  .wrap{max-width:760px;margin:0 auto;padding:40px 20px 80px;}
+  a.back{color:var(--teal);text-decoration:none;font-size:14px;}
+  h1{font-size:30px;margin:18px 0 4px;letter-spacing:-.4px;}
+  .lead{color:var(--muted);font-size:16px;margin:0 0 28px;}
+  h2{font-size:20px;margin:38px 0 10px;padding-top:14px;border-top:1px solid var(--border);}
+  h3{font-size:16px;margin:24px 0 6px;}
+  code{background:var(--card);border:1px solid var(--border);border-radius:6px;padding:1px 6px;font-size:13px;}
+  kbd{background:var(--card);border:1px solid var(--border);border-bottom-width:2px;border-radius:6px;padding:1px 7px;font-size:13px;font-family:inherit;}
+  pre{background:var(--card);border:1px solid var(--border);border-left:4px solid var(--teal);border-radius:10px;padding:14px 16px;overflow-x:auto;font-size:13.5px;line-height:1.6;white-space:pre-wrap;}
+  .step{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:16px 20px;margin:14px 0;}
+  .step .n{display:inline-block;min-width:26px;height:26px;line-height:26px;text-align:center;border-radius:8px;background:var(--teal);color:#fff;font-weight:700;font-size:14px;margin-right:8px;}
+  .step h3{display:inline;font-size:17px;}
+  .inapp{color:var(--blue);font-size:13.5px;margin:8px 0 0;}
+  @media (prefers-color-scheme:dark){.inapp{color:#7aa5ff;}}
+  table{border-collapse:collapse;width:100%;margin:14px 0;font-size:14.5px;}
+  th,td{border:1px solid var(--border);padding:10px 12px;text-align:left;vertical-align:top;}
+  th{background:var(--card);font-size:14px;}
+  td .kw{color:var(--muted);font-size:13.5px;}
+  ul{padding-left:20px;}
+  li{margin:5px 0;}
+  .trap{border-left:4px solid #E6892E;background:var(--card);border-radius:10px;padding:12px 16px;margin:10px 0;}
+  .trap b{color:#E6892E;}
+  footer{margin-top:48px;color:var(--muted);font-size:13px;border-top:1px solid var(--border);padding-top:18px;}
+  footer a{color:var(--teal);}
+</style>
+</head>
+<body>
+  <div class="wrap">
+<!--langswitch:start--><nav class="langs" aria-label="Language"><a href="../ai-guide.html" hreflang="ko" lang="ko">한국어</a> <a href="../en/ai-guide.html" hreflang="en" lang="en">English</a> <a href="../en-GB/ai-guide.html" hreflang="en-GB" lang="en-GB">English (UK)</a> <a href="../zh-Hans/ai-guide.html" hreflang="zh-Hans" lang="zh-Hans">简体中文</a> <a href="../zh-Hant/ai-guide.html" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a> <a href="../ja/ai-guide.html" hreflang="ja" lang="ja">日本語</a> <a href="../ru/ai-guide.html" hreflang="ru" lang="ru">Русский</a> <a href="../es/ai-guide.html" hreflang="es" lang="es">Español</a> <a href="../de/ai-guide.html" hreflang="de" lang="de">Deutsch</a> <a href="../fr/ai-guide.html" hreflang="fr" lang="fr">Français</a> <a href="../it/ai-guide.html" hreflang="it" lang="it">Italiano</a> <a href="../pt-BR/ai-guide.html" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a> <a href="../th/ai-guide.html" hreflang="th" lang="th">ไทย</a> <a href="../vi/ai-guide.html" hreflang="vi" lang="vi">Tiếng Việt</a> <a href="../cs/ai-guide.html" hreflang="cs" lang="cs" aria-current="page">Čeština</a> <a href="../da/ai-guide.html" hreflang="da" lang="da">Dansk</a> <a href="../el/ai-guide.html" hreflang="el" lang="el">Ελληνικά</a> <a href="../fi/ai-guide.html" hreflang="fi" lang="fi">Suomi</a> <a href="../id/ai-guide.html" hreflang="id" lang="id">Bahasa Indonesia</a> <a href="../nb/ai-guide.html" hreflang="nb" lang="nb">Norsk bokmål</a> <a href="../nl/ai-guide.html" hreflang="nl" lang="nl">Nederlands</a> <a href="../pl/ai-guide.html" hreflang="pl" lang="pl">Polski</a> <a href="../sv/ai-guide.html" hreflang="sv" lang="sv">Svenska</a> <a href="../tr/ai-guide.html" hreflang="tr" lang="tr">Türkçe</a></nav><!--langswitch:end-->
+    <a class="back" href="./index.html">← LectureQ: Otázky z přednášek</a>
+    <h1>Průvodce: hledání odpovědí s AI</h1>
+    <p class="lead">Když už máte otázky zapsané v LectureQ, přichází čas hledat odpovědi.
+    Dnes je většinou najdeme v rozhovoru s AI. Háček je v tom, že <b>i se stejnou otázkou si každý odnese něco jiného</b>.
+    Tento průvodce sleduje postup aplikace (otázka → odpověď → co jsem se naučil) a ukazuje, jak ten rozdíl udělat ve svůj prospěch.</p>
+
+    <p><b>Dovednost, kterou chce tento průvodce rozvíjet, v jedné větě:</b><br>
+    <b>S pomocí AI dokážu proměnit své otázky v &lsquo;ověřené znalosti&rsquo;.</b>
+    Nejde o to umět získat odpověď, ale umět ji zpochybnit a udělat ji svou.</p>
+
+    <h2>Pět kroků k odpovědi</h2>
+    <p>Jedna otázka, jedna konverzace. Když do jedné konverzace nacpete víc otázek, odpovědi se smíchají a později je neuspořádáte.</p>
+
+    <div class="step">
+      <span class="n">1</span><h3>Přepište otázku tak, aby se na ni dalo odpovědět</h3>
+      <p>Otázka narychlo zapsaná během přednášky bývá mlhavá. Na mlhavou otázku přijde mlhavá odpověď.
+      Nežádejte hned odpověď – nejdřív otázku přepište.</p>
+<pre>Tuhle otázku jsem si narychlo zapsal(a) během přednášky. Je ještě dost mlhavá.
+
+"{otázka přesně tak, jak je zapsaná v LectureQ}"
+
+Přepiš ji do 3 otázek, na které se dá odpovědět.
+Ke každé připiš jednou větou, co budu umět, až odpověď znát budu.
+Zatím neodpovídej, ukaž mi jen přepsané otázky.</pre>
+      <p class="inapp">▸ Až vznikne verze, která se vám líbí, upravte podle ní znění otázky v LectureQ. Investujete tím do svého budoucího já.</p>
+    </div>
+
+    <div class="step">
+      <span class="n">2</span><h3>Ptejte se se třemi druhy kontextu</h3>
+      <p>AI neví, kolik toho už víte. Stačí přidat <b>odkud otázka pochází / co teď umíte / jakou podobu odpovědi chcete</b>
+      a kvalita odpovědi se výrazně změní. Všechny tři věci už máte zapsané v aplikaci.</p>
+<pre>[Moje otázka]
+{přepsaná otázka}
+
+[Kontext]
+- Odkud pochází: {název přednášky} / {poznámky z časového bloku v daném okamžiku}
+- Co teď umím: {„Kde teď jsem“ ze Stavu učení}
+- Kam se chci dostat: {„Kde chci být na konci“ ze Stavu učení}
+
+[Jakou odpověď chci]
+1) Hlavní odpověď ve 3–5 řádcích
+2) Jeden odstavec o tom, proč to tak je
+3) 1–2 místa, kde to nejspíš chápu špatně
+4) Jeden co nejmenší příklad nebo pokus, kterým si to můžu sám/sama ověřit
+
+Odliš, co je jisté a co je odhad. Když něco nevíš, řekni to.</pre>
+      <p class="inapp">▸ Kde vzít kontext: na panelu nástrojů <b>Zobrazení → Stav učení</b> a <b>poznámky časového bloku</b>, ve kterém otázka leží.</p>
+    </div>
+
+    <div class="step">
+      <span class="n">3</span><h3>První odpověď neberte jako konečnou</h3>
+      <p>Věrohodná odpověď ještě není ověřená odpověď. Aspoň jednou se doptejte.</p>
+<pre>Která část tvé odpovědi je nejspíš chybná?
+
+- Předpoklady, které musí platit, aby odpověď platila
+- Opačný názor nebo výjimky, kdy odpověď neplatí
+- Na co se mám podívat, abych si to ověřil(a) v primárních zdrojích? (názvy oficiální dokumentace, specifikace, originálního textu)</pre>
+      <p>Informace jako verze, čísla, názvy API nebo letopočty jsou <b>tím zrádnější, čím jsou konkrétnější</b> – chyba v nich není vidět. Vždy si je ověřte v originálním zdroji.</p>
+    </div>
+
+    <div class="step">
+      <span class="n">4</span><h3>Nenechte nové otázky utéct</h3>
+      <p>Dobrá odpověď vždycky odhalí něco nového, co nevíte. To je vaše další otázka – v této aplikaci <b>doplňující otázka</b>.</p>
+<pre>Vyber z dosavadní konverzace 3 otázky na věci, které ještě nevím, ale měl(a) bych vědět.
+Bez vysvětlování, jen otázky. Krátké a konkrétní.</pre>
+      <p class="inapp">▸ Když vybrané otázky vložíte do pole <b>&lsquo;Nová doplňující otázka&rsquo;</b> v detailu otázky, uloží se jako hierarchie původní otázka → doplňující otázka
+      a v <b>Grafu</b> uvidíte, kam se vaše porozumění rozrůstalo.</p>
+    </div>
+
+    <div class="step">
+      <span class="n">5</span><h3>Napište to vlastními slovy a nechte si to ohodnotit</h3>
+      <p>Když odpověď AI jen zkopírujete a vložíte, zůstane záznam, ale ne znalost.
+      Do pole <b>Odpověď</b> pište vlastními slovy a tyto věty si nechte ohodnotit.</p>
+<pre>Napíšu vlastními slovy, jak jsem to pochopil(a).
+
+"{shrnutí, které jsem napsal(a) sám/sama}"
+
+Ukaž mi, co je špatně, co chybí a co je přehnané.
+Místo známky mi ukaž opravené věty.</pre>
+      <p class="inapp">▸ Jako <b>Vyřešeno</b> + <b>Co jsem se naučil(a) (★)</b> označte jen to, co prošlo až sem.
+      Seznam „Co jsem se naučil(a)“ v <b>Zobrazení → Souhrn</b> má cenu jen tehdy, když se v něm sejde jen to, co takto obstálo.</p>
+    </div>
+
+    <h2>Co je potřeba umět</h2>
+    <p>Pět kroků výše shrnuté jako dovednosti. Vyberte si řádek, který vám teď nejvíc chybí, a ten trénujte.</p>
+
+    <table>
+      <tr><th style="width:24%">Co je potřeba</th><th style="width:38%">Dokážu…</th><th>Co je dobré znát / klíčová slova</th></tr>
+      <tr>
+        <td><b>Vylepšit otázku</b></td>
+        <td>přepsat mlhavou poznámku do 3 otázek, na které se dá odpovědět</td>
+        <td class="kw">znaky dobré otázky, otázky, na které se odpovědět dá a nedá, formulace problému (problem framing)</td>
+      </tr>
+      <tr>
+        <td><b>Dát kontext</b></td>
+        <td>ptát se s uvedením souvislostí, své úrovně a požadované podoby odpovědi</td>
+        <td class="kw">strukturování promptu, určení role, kontextu a formátu výstupu, návrh kontextu</td>
+      </tr>
+      <tr>
+        <td><b>Ověřit odpověď</b></td>
+        <td>doptat se na předpoklady, protipříklady a primární zdroje a oddělit fakta</td>
+        <td class="kw">halucinace (hallucination), důkazy a zdroje, falzifikace (falsification), konfirmační zkreslení</td>
+      </tr>
+      <tr>
+        <td><b>Odhalit, co nevím</b></td>
+        <td>vytáhnout z odpovědi nové otázky a uložit je jako doplňující</td>
+        <td class="kw">metakognice, mezery ve znalostech (knowledge gap), strom otázek</td>
+      </tr>
+      <tr>
+        <td><b>Upevnit znalost</b></td>
+        <td>přepsat to vlastními slovy, nechat si to ohodnotit a potvrdit jako &lsquo;Co jsem se naučil(a)&rsquo;</td>
+        <td class="kw">Feynmanova technika, vybavování (retrieval practice), opakování s rozestupy (spaced repetition)</td>
+      </tr>
+    </table>
+
+    <h2>Čtyři časté pasti</h2>
+    <div class="trap"><b>1. Co zní věrohodně, to se zdá pravdivé.</b> Věty od AI jsou vždycky napsané sebejistě.
+    Míra jistoty ale neplyne ze stylu, nýbrž z důkazů. ★ (Co jsem se naučil(a)) až po ověření.</div>
+    <div class="trap"><b>2. Všechno v jedné konverzaci.</b> Když nacpete pět otázek do jedné konverzace, odpovědi změlčí a nedají se uspořádat.
+    Jedna otázka = jedna konverzace = jedna položka v LectureQ.</div>
+    <div class="trap"><b>3. Jen zkopírovat a vložit odpověď.</b> Vložená odpověď vám i při dalším čtení připadá nová (= nic nezůstalo).
+    Přepište vlastními slovy aspoň jeden řádek.</div>
+    <div class="trap"><b>4. S koncem konverzace vše zmizí.</b> Okno chatu odejde, zůstane jen otázka.
+    Když celou konverzaci uložíte do aplikace, jak je popsáno níže, zůstane vám i to, &bdquo;proč jsem to tak pochopil(a)&ldquo;.</div>
+
+    <h2>Import celé konverzace s AI</h2>
+    <p>Když si konverzaci s AI uložíte v Markdownu, aplikace z ní udělá <b>strom otázek</b>
+    (na panelu nástrojů <b>nabídka přednášek → Importovat z Markdownu…</b>).</p>
+<pre># Řádek, který bude názvem přednášky
+
+## Téma (první otázka zde je původní otázka, další otázky se stanou doplňujícími)
+
+**Já** — sem otázka, kterou jsem položil(a)
+
+**AI** — sem odpověď, kterou jsem dostal(a) (může mít víc řádků, i bloky kódu)</pre>
+    <p>Po importu má každá otázka vyplněnou odpověď a je označená jako vyřešená.
+    Pak v <b>Souhrnu</b> nechte s ★ jen to, co jste se opravdu naučili, a zbytek &lsquo;Vyřaďte&rsquo; –
+    a z jedné konverzace vznikne váš seznam toho, co jste se naučili.</p>
+
+    <h2>V jedné větě</h2>
+    <p style="font-size:17px;"><b>Nechtějte od AI odpovědi – používejte ji jako protivníka, na kterém své otázky prověříte.</b>
+    Otázku vytváříte vy, pochybujete vy a poslední větu píšete taky vy. LectureQ je místo, kde tenhle proces zůstává zachycený.</p>
+
+    <footer>© 2026 LectureQ · <a href="./support.html">Podpora</a> · <a href="./privacy.html">Zásady ochrany osobních údajů</a> · <a href="https://github.com/M1zz/LectureQ">GitHub</a></footer>
+  </div>
+</body>
+</html>

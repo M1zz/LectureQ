@@ -1,0 +1,216 @@
+<!doctype html>
+<html lang="el">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>LectureQ · Οδηγός: βρες απαντήσεις με AI</title>
+<!--hreflang:start-->
+<link rel="canonical" href="https://m1zz.github.io/LectureQ/el/ai-guide.html">
+<link rel="alternate" hreflang="ko" href="https://m1zz.github.io/LectureQ/ai-guide.html">
+<link rel="alternate" hreflang="en" href="https://m1zz.github.io/LectureQ/en/ai-guide.html">
+<link rel="alternate" hreflang="en-GB" href="https://m1zz.github.io/LectureQ/en-GB/ai-guide.html">
+<link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/LectureQ/zh-Hans/ai-guide.html">
+<link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/LectureQ/zh-Hant/ai-guide.html">
+<link rel="alternate" hreflang="ja" href="https://m1zz.github.io/LectureQ/ja/ai-guide.html">
+<link rel="alternate" hreflang="ru" href="https://m1zz.github.io/LectureQ/ru/ai-guide.html">
+<link rel="alternate" hreflang="es" href="https://m1zz.github.io/LectureQ/es/ai-guide.html">
+<link rel="alternate" hreflang="de" href="https://m1zz.github.io/LectureQ/de/ai-guide.html">
+<link rel="alternate" hreflang="fr" href="https://m1zz.github.io/LectureQ/fr/ai-guide.html">
+<link rel="alternate" hreflang="it" href="https://m1zz.github.io/LectureQ/it/ai-guide.html">
+<link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/LectureQ/pt-BR/ai-guide.html">
+<link rel="alternate" hreflang="th" href="https://m1zz.github.io/LectureQ/th/ai-guide.html">
+<link rel="alternate" hreflang="vi" href="https://m1zz.github.io/LectureQ/vi/ai-guide.html">
+<link rel="alternate" hreflang="cs" href="https://m1zz.github.io/LectureQ/cs/ai-guide.html">
+<link rel="alternate" hreflang="da" href="https://m1zz.github.io/LectureQ/da/ai-guide.html">
+<link rel="alternate" hreflang="el" href="https://m1zz.github.io/LectureQ/el/ai-guide.html">
+<link rel="alternate" hreflang="fi" href="https://m1zz.github.io/LectureQ/fi/ai-guide.html">
+<link rel="alternate" hreflang="id" href="https://m1zz.github.io/LectureQ/id/ai-guide.html">
+<link rel="alternate" hreflang="nb" href="https://m1zz.github.io/LectureQ/nb/ai-guide.html">
+<link rel="alternate" hreflang="nl" href="https://m1zz.github.io/LectureQ/nl/ai-guide.html">
+<link rel="alternate" hreflang="pl" href="https://m1zz.github.io/LectureQ/pl/ai-guide.html">
+<link rel="alternate" hreflang="sv" href="https://m1zz.github.io/LectureQ/sv/ai-guide.html">
+<link rel="alternate" hreflang="tr" href="https://m1zz.github.io/LectureQ/tr/ai-guide.html">
+<link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/LectureQ/ai-guide.html">
+<style>.langs{display:flex;flex-wrap:wrap;gap:4px 12px;font-size:13px;margin:0 0 18px;}.langs a{color:var(--muted);text-decoration:none;}.langs a[aria-current]{color:var(--fg);font-weight:600;}.langs a:hover{color:var(--teal);}</style>
+<!--hreflang:end-->
+<style>
+  :root{--blue:#2E6BE6;--teal:#17B3A3;--bg:#ffffff;--fg:#1c1c1e;--muted:#6b6b70;--card:#f5f6f8;--border:#e6e7ea;}
+  @media (prefers-color-scheme:dark){:root{--bg:#111214;--fg:#f2f2f5;--muted:#9a9aa0;--card:#1b1c1f;--border:#2a2b2f;}}
+  *{box-sizing:border-box;}
+  body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Segoe UI",Roboto,sans-serif;background:var(--bg);color:var(--fg);line-height:1.7;}
+  .wrap{max-width:760px;margin:0 auto;padding:40px 20px 80px;}
+  a.back{color:var(--teal);text-decoration:none;font-size:14px;}
+  h1{font-size:30px;margin:18px 0 4px;letter-spacing:-.4px;}
+  .lead{color:var(--muted);font-size:16px;margin:0 0 28px;}
+  h2{font-size:20px;margin:38px 0 10px;padding-top:14px;border-top:1px solid var(--border);}
+  h3{font-size:16px;margin:24px 0 6px;}
+  code{background:var(--card);border:1px solid var(--border);border-radius:6px;padding:1px 6px;font-size:13px;}
+  kbd{background:var(--card);border:1px solid var(--border);border-bottom-width:2px;border-radius:6px;padding:1px 7px;font-size:13px;font-family:inherit;}
+  pre{background:var(--card);border:1px solid var(--border);border-left:4px solid var(--teal);border-radius:10px;padding:14px 16px;overflow-x:auto;font-size:13.5px;line-height:1.6;white-space:pre-wrap;}
+  .step{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:16px 20px;margin:14px 0;}
+  .step .n{display:inline-block;min-width:26px;height:26px;line-height:26px;text-align:center;border-radius:8px;background:var(--teal);color:#fff;font-weight:700;font-size:14px;margin-right:8px;}
+  .step h3{display:inline;font-size:17px;}
+  .inapp{color:var(--blue);font-size:13.5px;margin:8px 0 0;}
+  @media (prefers-color-scheme:dark){.inapp{color:#7aa5ff;}}
+  table{border-collapse:collapse;width:100%;margin:14px 0;font-size:14.5px;}
+  th,td{border:1px solid var(--border);padding:10px 12px;text-align:left;vertical-align:top;}
+  th{background:var(--card);font-size:14px;}
+  td .kw{color:var(--muted);font-size:13.5px;}
+  ul{padding-left:20px;}
+  li{margin:5px 0;}
+  .trap{border-left:4px solid #E6892E;background:var(--card);border-radius:10px;padding:12px 16px;margin:10px 0;}
+  .trap b{color:#E6892E;}
+  footer{margin-top:48px;color:var(--muted);font-size:13px;border-top:1px solid var(--border);padding-top:18px;}
+  footer a{color:var(--teal);}
+</style>
+</head>
+<body>
+  <div class="wrap">
+<!--langswitch:start--><nav class="langs" aria-label="Language"><a href="../ai-guide.html" hreflang="ko" lang="ko">한국어</a> <a href="../en/ai-guide.html" hreflang="en" lang="en">English</a> <a href="../en-GB/ai-guide.html" hreflang="en-GB" lang="en-GB">English (UK)</a> <a href="../zh-Hans/ai-guide.html" hreflang="zh-Hans" lang="zh-Hans">简体中文</a> <a href="../zh-Hant/ai-guide.html" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a> <a href="../ja/ai-guide.html" hreflang="ja" lang="ja">日本語</a> <a href="../ru/ai-guide.html" hreflang="ru" lang="ru">Русский</a> <a href="../es/ai-guide.html" hreflang="es" lang="es">Español</a> <a href="../de/ai-guide.html" hreflang="de" lang="de">Deutsch</a> <a href="../fr/ai-guide.html" hreflang="fr" lang="fr">Français</a> <a href="../it/ai-guide.html" hreflang="it" lang="it">Italiano</a> <a href="../pt-BR/ai-guide.html" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a> <a href="../th/ai-guide.html" hreflang="th" lang="th">ไทย</a> <a href="../vi/ai-guide.html" hreflang="vi" lang="vi">Tiếng Việt</a> <a href="../cs/ai-guide.html" hreflang="cs" lang="cs">Čeština</a> <a href="../da/ai-guide.html" hreflang="da" lang="da">Dansk</a> <a href="../el/ai-guide.html" hreflang="el" lang="el" aria-current="page">Ελληνικά</a> <a href="../fi/ai-guide.html" hreflang="fi" lang="fi">Suomi</a> <a href="../id/ai-guide.html" hreflang="id" lang="id">Bahasa Indonesia</a> <a href="../nb/ai-guide.html" hreflang="nb" lang="nb">Norsk bokmål</a> <a href="../nl/ai-guide.html" hreflang="nl" lang="nl">Nederlands</a> <a href="../pl/ai-guide.html" hreflang="pl" lang="pl">Polski</a> <a href="../sv/ai-guide.html" hreflang="sv" lang="sv">Svenska</a> <a href="../tr/ai-guide.html" hreflang="tr" lang="tr">Türkçe</a></nav><!--langswitch:end-->
+    <a class="back" href="./index.html">← LectureQ: Ερωτήσεις μαθημάτων</a>
+    <h1>Οδηγός: βρες απαντήσεις με AI</h1>
+    <p class="lead">Αφού έγραψες τις ερωτήσεις σου στο LectureQ, ήρθε η ώρα να βρεις απαντήσεις.
+    Σήμερα τις βρίσκουμε συνήθως συζητώντας με μια AI. Το θέμα είναι ότι <b>με την ίδια ερώτηση ο καθένας κερδίζει κάτι διαφορετικό</b>.
+    Αυτός ο οδηγός ακολουθεί τη ροή της εφαρμογής (ερώτηση → απάντηση → τι έμαθα) και δείχνει πώς να κάνεις αυτή τη διαφορά να δουλέψει υπέρ σου.</p>
+
+    <p><b>Η δεξιότητα που θέλει να καλλιεργήσει αυτός ο οδηγός, σε μία γραμμή:</b><br>
+    <b>Μπορώ, μαζί με την AI, να κάνω τις ερωτήσεις μου &lsquo;επαληθευμένη γνώση&rsquo;.</b>
+    Δεν πρόκειται για την ικανότητα να παίρνεις απαντήσεις, αλλά να αμφισβητείς όσες παίρνεις και να τις κάνεις δικές σου.</p>
+
+    <h2>Πέντε βήματα για την απάντηση</h2>
+    <p>Μία ερώτηση, μία συζήτηση. Αν στριμώξεις πολλές ερωτήσεις σε μία συζήτηση, οι απαντήσεις μπερδεύονται και αργότερα δεν μπαίνουν σε τάξη.</p>
+
+    <div class="step">
+      <span class="n">1</span><h3>Ξαναγράψε την ερώτηση ώστε να μπορεί να απαντηθεί</h3>
+      <p>Μια ερώτηση γραμμένη βιαστικά στο μάθημα είναι συνήθως θολή. Και σε θολή ερώτηση έρχεται θολή απάντηση.
+      Μη ζητήσεις αμέσως απάντηση — πρώτα ξαναγράψε την ερώτηση.</p>
+<pre>Παρακάτω είναι μια ερώτηση που έγραψα βιαστικά στο μάθημα. Είναι ακόμη θολή.
+
+"{η ερώτηση ακριβώς όπως είναι γραμμένη στο LectureQ}"
+
+Ξαναγράψ' την ως 3 ερωτήσεις που μπορούν να απαντηθούν.
+Σε καθεμία πρόσθεσε μία γραμμή: τι θα μπορώ να κάνω όταν μάθω την απάντηση.
+Μην απαντήσεις ακόμη, δείξε μου μόνο τις ξαναγραμμένες ερωτήσεις.</pre>
+      <p class="inapp">▸ Όταν βγει μια εκδοχή που σου αρέσει, διόρθωσε με αυτήν τη διατύπωση της ερώτησης στο LectureQ. Είναι επένδυση για τον μελλοντικό εαυτό σου.</p>
+    </div>
+
+    <div class="step">
+      <span class="n">2</span><h3>Ρώτα με τρία είδη πλαισίου</h3>
+      <p>Η AI δεν ξέρει πόσα ξέρεις ήδη. Αρκεί να προσθέσεις <b>από πού προέκυψε η ερώτηση / τι επίπεδο έχεις τώρα / τι μορφή απάντησης θέλεις</b>
+      και η ποιότητα της απάντησης αλλάζει αισθητά. Και τα τρία είναι ήδη γραμμένα μέσα στην εφαρμογή.</p>
+<pre>[Η ερώτησή μου]
+{η ξαναγραμμένη ερώτηση}
+
+[Πλαίσιο]
+- Από πού προέκυψε: {όνομα μαθήματος} / {σημειώσεις του χρονικού μπλοκ εκείνης της στιγμής}
+- Τι ξέρω τώρα: {το «Πού βρίσκομαι τώρα» από την Κατάσταση μάθησης}
+- Πού θέλω να φτάσω: {το «Πού θέλω να είμαι στο τέλος» από την Κατάσταση μάθησης}
+
+[Τι απάντηση θέλω]
+1) Η βασική απάντηση σε 3–5 γραμμές
+2) Μία παράγραφος για το γιατί ισχύει
+3) 1–2 σημεία όπου πιθανότατα έχω καταλάβει λάθος
+4) Ένα όσο γίνεται μικρότερο παράδειγμα ή πείραμα για να το ελέγξω μόνος/μόνη μου
+
+Ξεχώρισε τι είναι βέβαιο και τι είναι εικασία. Αν κάτι δεν το ξέρεις, πες το.</pre>
+      <p class="inapp">▸ Πού θα βρεις το πλαίσιο: στη γραμμή εργαλείων <b>Προβολή → Κατάσταση μάθησης</b> και στις <b>σημειώσεις του χρονικού μπλοκ</b> όπου βρίσκεται η ερώτηση.</p>
+    </div>
+
+    <div class="step">
+      <span class="n">3</span><h3>Μη θεωρείς την πρώτη απάντηση τελική</h3>
+      <p>Μια πειστική απάντηση δεν είναι απαραίτητα επαληθευμένη. Ρώτα ξανά τουλάχιστον μία φορά.</p>
+<pre>Ποιο σημείο της απάντησής σου είναι πιο πιθανό να είναι λάθος;
+
+- Οι προϋποθέσεις που πρέπει να ισχύουν για να στέκει η απάντηση
+- Η αντίθετη άποψη ή εξαιρέσεις όπου η απάντηση δεν ισχύει
+- Τι πρέπει να κοιτάξω για να το ελέγξω σε πρωτογενείς πηγές; (ονόματα επίσημης τεκμηρίωσης, προδιαγραφών, πρωτότυπων κειμένων)</pre>
+      <p>Εκδόσεις, αριθμοί, ονόματα API, χρονολογίες: <b>όσο πιο συγκεκριμένη η πληροφορία, τόσο λιγότερο φαίνεται όταν είναι λάθος</b>. Έλεγξέ τες πάντα στην πρωτότυπη πηγή.</p>
+    </div>
+
+    <div class="step">
+      <span class="n">4</span><h3>Μην αφήνεις τις νέες απορίες να χαθούν</h3>
+      <p>Μια καλή απάντηση γεννά πάντα μια νέα άγνοια. Αυτή είναι η επόμενη ερώτησή σου — η <b>συμπληρωματική ερώτηση</b> της εφαρμογής.</p>
+<pre>Από όλη τη συζήτηση ως τώρα, βγάλε 3 ερωτήσεις για όσα δεν ξέρω ακόμη αλλά πρέπει να ξέρω.
+Χωρίς εξηγήσεις, μόνο τις ερωτήσεις. Σύντομες και συγκεκριμένες.</pre>
+      <p class="inapp">▸ Αν επικολλήσεις τις ερωτήσεις στο πεδίο <b>&lsquo;Νέα συμπληρωματική ερώτηση&rsquo;</b> στις λεπτομέρειες της ερώτησης, μένουν με ιεραρχία αρχική ερώτηση → συμπληρωματική ερώτηση
+      και στο <b>Γράφημα</b> βλέπεις πώς απλώθηκε η κατανόησή σου.</p>
+    </div>
+
+    <div class="step">
+      <span class="n">5</span><h3>Γράψ' το με δικά σου λόγια και ζήτα βαθμολόγηση</h3>
+      <p>Αν απλώς αντιγράψεις και επικολλήσεις την απάντηση της AI, μένει καταγραφή αλλά όχι γνώση.
+      Στο πεδίο <b>Απάντηση</b> γράψε με δικά σου λόγια και ζήτα να βαθμολογηθούν αυτές οι προτάσεις.</p>
+<pre>Θα γράψω με δικά μου λόγια τι κατάλαβα.
+
+"{η περίληψη που έγραψα εγώ}"
+
+Δείξε μου τι είναι λάθος, τι λείπει και τι είναι υπερβολικό.
+Αντί για βαθμό, δείξε μου τις διορθωμένες προτάσεις.</pre>
+      <p class="inapp">▸ Σημείωσε ως <b>Λυμένη</b> + <b>Τι έμαθα (★)</b> μόνο όσα πέρασαν ως εδώ.
+      Η λίστα «Τι έμαθα» στην <b>Προβολή → Σύνοψη</b> έχει αξία μόνο όταν μαζεύονται εκεί όσα φιλτραρίστηκαν έτσι.</p>
+    </div>
+
+    <h2>Τι χρειάζεται να ξέρεις</h2>
+    <p>Τα πέντε βήματα, διατυπωμένα ως δεξιότητες. Διάλεξε τη γραμμή που σου λείπει περισσότερο τώρα και ξεκίνα εξάσκηση από εκεί.</p>
+
+    <table>
+      <tr><th style="width:24%">Τι χρειάζεται</th><th style="width:38%">Μπορώ να…</th><th>Τι αξίζει να ξέρω / λέξεις-κλειδιά</th></tr>
+      <tr>
+        <td><b>Βελτίωση της ερώτησης</b></td>
+        <td>ξαναγράψω μια θολή σημείωση ως 3 ερωτήσεις που μπορούν να απαντηθούν</td>
+        <td class="kw">χαρακτηριστικά μιας καλής ερώτησης, ερωτήσεις που απαντώνται και που δεν απαντώνται, διατύπωση προβλήματος (problem framing)</td>
+      </tr>
+      <tr>
+        <td><b>Παροχή πλαισίου</b></td>
+        <td>ρωτήσω δίνοντας υπόβαθρο, το επίπεδό μου και τη μορφή απάντησης που θέλω</td>
+        <td class="kw">δόμηση prompt, ορισμός ρόλου, πλαισίου και μορφής εξόδου, σχεδιασμός πλαισίου</td>
+      </tr>
+      <tr>
+        <td><b>Επαλήθευση της απάντησης</b></td>
+        <td>ρωτήσω για προϋποθέσεις, αντιπαραδείγματα και πρωτογενείς πηγές και να ξεχωρίσω τα γεγονότα</td>
+        <td class="kw">παραισθήσεις (hallucination), τεκμήρια και πηγές, διάψευση (falsification), μεροληψία επιβεβαίωσης</td>
+      </tr>
+      <tr>
+        <td><b>Ανάδειξη της άγνοιας</b></td>
+        <td>βγάλω από την απάντηση νέες ερωτήσεις και να τις κρατήσω ως συμπληρωματικές</td>
+        <td class="kw">μεταγνώση, κενό γνώσης (knowledge gap), δέντρο ερωτήσεων</td>
+      </tr>
+      <tr>
+        <td><b>Εδραίωση της γνώσης</b></td>
+        <td>το ξαναγράψω με δικά μου λόγια, να βαθμολογηθεί και να το επικυρώσω στο &lsquo;Τι έμαθα&rsquo;</td>
+        <td class="kw">τεχνική Feynman, εξάσκηση ανάκλησης (retrieval practice), επανάληψη σε διαστήματα (spaced repetition)</td>
+      </tr>
+    </table>
+
+    <h2>Τέσσερις συνηθισμένες παγίδες</h2>
+    <div class="trap"><b>1. Ακούγεται πειστικό, άρα μοιάζει σωστό.</b> Οι προτάσεις της AI είναι πάντα γραμμένες με αυτοπεποίθηση.
+    Η βεβαιότητα όμως προκύπτει από τα τεκμήρια, όχι από το ύφος. Το ★ (Τι έμαθα) μπαίνει μετά τον έλεγχο.</div>
+    <div class="trap"><b>2. Όλα σε μία συζήτηση.</b> Πέντε ερωτήσεις σε μία συζήτηση σημαίνουν πιο ρηχές απαντήσεις και καμία τάξη.
+    Μία ερώτηση = μία συζήτηση = μία εγγραφή στο LectureQ.</div>
+    <div class="trap"><b>3. Μόνο αντιγραφή και επικόλληση της απάντησης.</b> Μια επικολλημένη απάντηση μοιάζει καινούργια κάθε φορά που την ξαναδιαβάζεις (= δεν έμεινε τίποτα).
+    Ξαναγράψε έστω μία γραμμή με δικά σου λόγια.</div>
+    <div class="trap"><b>4. Η συζήτηση τελειώνει και χάνεται.</b> Το παράθυρο της συνομιλίας περνά, μένει μόνο η ερώτηση.
+    Αν βάλεις ολόκληρη τη συζήτηση στην εφαρμογή όπως παρακάτω, θα μείνει ακόμη και το &laquo;γιατί το κατάλαβα έτσι&raquo;.</div>
+
+    <h2>Εισαγωγή ολόκληρης συζήτησης με την AI</h2>
+    <p>Αν αποθηκεύσεις τη συζήτηση με την AI σε Markdown, η εφαρμογή τη μετατρέπει σε <b>δέντρο ερωτήσεων</b>
+    (στη γραμμή εργαλείων <b>μενού μαθημάτων → Εισαγωγή από Markdown…</b>).</p>
+<pre># Η γραμμή που θα γίνει τίτλος του μαθήματος
+
+## Θέμα (η πρώτη ερώτηση εδώ είναι η αρχική, οι επόμενες γίνονται συμπληρωματικές)
+
+**Εγώ** — εδώ η ερώτηση που έκανα
+
+**AI** — εδώ η απάντηση που πήρα (μπορεί να έχει πολλές γραμμές, ακόμη και μπλοκ κώδικα)</pre>
+    <p>Μετά την εισαγωγή, κάθε ερώτηση έχει συμπληρωμένη απάντηση και σημειώνεται ως λυμένη.
+    Ύστερα, στη <b>Σύνοψη</b> κράτα με ★ μόνο όσα πραγματικά έμαθες και κάνε &lsquo;Εξαίρεση&rsquo; στα υπόλοιπα —
+    και μια ολόκληρη συζήτηση γίνεται η δική σου λίστα με όσα έμαθες.</p>
+
+    <h2>Με μία πρόταση</h2>
+    <p style="font-size:17px;"><b>Μη ζητάς από την AI απαντήσεις — χρησιμοποίησέ τη ως συνομιλητή που δοκιμάζει τις ερωτήσεις σου.</b>
+    Την ερώτηση τη φτιάχνεις εσύ, την αμφιβολία την έχεις εσύ και την τελευταία πρόταση τη γράφεις κι αυτή εσύ. Το LectureQ είναι ο τόπος όπου αυτή η διαδρομή μένει καταγεγραμμένη.</p>
+
+    <footer>© 2026 LectureQ · <a href="./support.html">Υποστήριξη</a> · <a href="./privacy.html">Πολιτική απορρήτου</a> · <a href="https://github.com/M1zz/LectureQ">GitHub</a></footer>
+  </div>
+</body>
+</html>

@@ -7,144 +7,192 @@ App Store 의 "이 버전의 새로운 기능" 에 그대로 올라가는 글이
 
 ### 앱스토어 (한국어)
 
-날짜와 시각을 한국어 형식으로 보여 줘요
-App Store 소개와 스크린샷을 새로 단장했어요
-지원과 개인정보 안내 페이지를 새로 정리했어요
+이제 24개 언어로 쓸 수 있어요
+처음 열면 사용법을 차근차근 안내해 드려요
+단축어와 Spotlight에서 바로 질문을 남겨요
+설정에서 의견을 보내고 앞으로 만들 기능을 봐요
+VoiceOver로 더 편하게 쓸 수 있어요
 
-### 앱스토어 (en)
+### App Store (English)
 
-Dates and times follow your language
-Refreshed App Store text and screenshots
-Reorganized support and privacy pages
+Now available in 24 languages
+A quick guide greets you on first launch
+Add questions via Shortcuts or Spotlight
+Send feedback and see plans in Settings
+Works better with VoiceOver
 
-### 앱스토어 (en-GB)
+### App Store (en-GB)
 
-Dates and times follow your language
-Refreshed App Store text and screenshots
-Reorganised support and privacy pages
+Now available in 24 languages
+A quick guide greets you on first launch
+Add questions via Shortcuts or Spotlight
+Send feedback and see plans in Settings
+Works better with VoiceOver
 
-### 앱스토어 (zh-Hans)
+### 앱스토어 (중국어 간체)
 
-日期和时间按你的语言格式显示
-重新设计了 App Store 介绍和截图
-重新整理了支持和隐私页面
+现已支持 24 种语言
+首次打开时会有简短的使用引导
+可从快捷指令或聚焦搜索直接添加问题
+在设置中发送反馈，查看即将推出的功能
+更好地支持旁白
 
-### 앱스토어 (zh-Hant)
+### 앱스토어 (중국어 번체)
 
-日期與時間依你的語言格式顯示
-重新設計了 App Store 介紹與螢幕截圖
-重新整理了支援與隱私頁面
+現已支援 24 種語言
+首次開啟時會有簡短的使用導覽
+可從捷徑或 Spotlight 直接新增問題
+在設定中傳送意見，查看即將推出的功能
+更完整支援 VoiceOver
 
-### 앱스토어 (ja)
+### 앱스토어 (일본어)
 
-日付と時刻を言語に合わせた形式で表示
-App Storeの紹介文とスクリーンショットを刷新
-サポートとプライバシーのページを整理
+24の言語で使えるようになりました
+初回起動時に使い方をご案内します
+ショートカットやSpotlightから質問を追加
+設定からフィードバックや今後の機能を確認
+VoiceOverでより使いやすくなりました
 
-### 앱스토어 (ru)
+### 앱스토어 (러시아어)
 
-Дата и время — в формате вашего языка
-Обновили тексты и скриншоты App Store
-Обновили страницы поддержки и защиты
+Теперь на 24 языках
+Краткая подсказка при первом запуске
+Вопросы — прямо из Команд и Spotlight
+Отзыв и планы — в настройках
+Удобнее работать с VoiceOver
 
-### 앱스토어 (es)
+### 앱스토어 (스페인어)
 
-Fecha y hora en el formato de tu idioma
-Textos y capturas de la App Store nuevos
-Soporte y privacidad, páginas renovadas
+Ahora disponible en 24 idiomas
+Una guía rápida al abrir la app
+Añade preguntas desde Atajos o Spotlight
+Comentarios y novedades en Ajustes
+Mejor compatibilidad con VoiceOver
 
-### 앱스토어 (de)
+### 앱스토어 (독일어)
 
-Datum und Uhrzeit wie in deiner Sprache
-App-Store-Texte und Screenshots neu
-Support- und Datenschutzseiten neu
+Jetzt in 24 Sprachen verfügbar
+Kurze Einführung beim ersten Start
+Fragen per Kurzbefehl oder Spotlight
+Feedback und Pläne in den Einstellungen
+Besser nutzbar mit VoiceOver
 
-### 앱스토어 (fr)
+### 앱스토어 (프랑스어)
 
-Date et heure au format de votre langue
-Textes et captures App Store refaits
-Assistance et confidentialité refaites
+Désormais disponible en 24 langues
+Un petit guide au premier lancement
+Ajoutez une question via Raccourcis
+Avis et nouveautés à venir dans Réglages
+Meilleure prise en charge de VoiceOver
 
-### 앱스토어 (it)
+### 앱스토어 (이탈리아어)
 
-Data e ora nel formato della tua lingua
-Testi e screenshot App Store rifatti
-Pagine di supporto e privacy rifatte
+Ora disponibile in 24 lingue
+Una breve guida al primo avvio
+Domande da Comandi Rapidi o Spotlight
+Feedback e novità future in Impostazioni
+Funziona meglio con VoiceOver
 
-### 앱스토어 (pt-BR)
+### 앱스토어 (포르투갈어(브라질))
 
-Data e hora no formato do seu idioma
-Textos e capturas da App Store renovados
-Suporte e privacidade renovados
+Agora disponível em 24 idiomas
+Um guia rápido na primeira abertura
+Perguntas pelos Atalhos ou Spotlight
+Feedback e novidades nos Ajustes
+Funciona melhor com o VoiceOver
 
-### 앱스토어 (th)
+### 앱스토어 (태국어)
 
-วันที่และเวลาแสดงตามรูปแบบภาษาของคุณ
-ปรับข้อความและภาพหน้าจอใน App Store ใหม่
-จัดหน้าช่วยเหลือและความเป็นส่วนตัวใหม่
+ใช้งานได้แล้วใน 24 ภาษา
+มีคำแนะนำการใช้งานเมื่อเปิดครั้งแรก
+เพิ่มคำถามจากคำสั่งลัดหรือ Spotlight
+ส่งความเห็นและดูฟีเจอร์ใหม่ในการตั้งค่า
+ใช้งานกับ VoiceOver ได้สะดวกขึ้น
 
-### 앱스토어 (vi)
+### 앱스토어 (베트남어)
 
-Ngày giờ hiển thị theo ngôn ngữ của bạn
-Làm mới phần giới thiệu và ảnh App Store
-Làm mới trang hỗ trợ, quyền riêng tư
+Nay đã có 24 ngôn ngữ
+Hướng dẫn ngắn khi mở lần đầu
+Thêm câu hỏi từ Phím tắt hoặc Spotlight
+Gửi góp ý và xem kế hoạch trong Cài đặt
+Dùng VoiceOver thuận tiện hơn
 
-### 앱스토어 (cs)
+### 앱스토어 (체코어)
 
-Datum a čas ve formátu vašeho jazyka
-Nové texty a snímky v App Storu
-Nové stránky podpory a soukromí
+Nově ve 24 jazycích
+Krátký průvodce při prvním spuštění
+Otázky přidáte ze Zkratek či Spotlightu
+Zpětná vazba a plány v Nastavení
+Lepší podpora VoiceOveru
 
-### 앱스토어 (da)
+### 앱스토어 (덴마크어)
 
-Dato og tid i dit sprogs format
-Nye tekster og skærmbilleder i App Store
-Nye sider om support og privatliv
+Nu på 24 sprog
+En kort introduktion ved første start
+Tilføj spørgsmål via Genveje
+Feedback og planer i Indstillinger
+Fungerer bedre med VoiceOver
 
-### 앱스토어 (el)
+### 앱스토어 (그리스어)
 
-Ημερομηνία και ώρα στη γλώσσα σου
-Νέα κείμενα και στιγμιότυπα App Store
-Νέες σελίδες υποστήριξης και απορρήτου
+Τώρα σε 24 γλώσσες
+Σύντομος οδηγός στο πρώτο άνοιγμα
+Ερωτήσεις από Συντομεύσεις ή Spotlight
+Σχόλια και σχέδια στις Ρυθμίσεις
+Καλύτερη υποστήριξη για VoiceOver
 
-### 앱스토어 (fi)
+### 앱스토어 (핀란드어)
 
-Päivämäärä ja kellonaika kielesi mukaan
-Uudet App Storen tekstit ja kuvat
-Uudistetut tuki- ja tietosuojasivut
+Nyt 24 kielellä
+Lyhyt opastus ensimmäisellä kerralla
+Kysymykset suoraan Pikakomennoista
+Palaute ja suunnitelmat asetuksissa
+Toimii paremmin VoiceOverin kanssa
 
-### 앱스토어 (id)
+### 앱스토어 (인도네시아어)
 
-Tanggal dan jam sesuai bahasamu
-Teks dan tangkapan layar App Store baru
-Halaman dukungan dan privasi dirapikan
+Kini tersedia dalam 24 bahasa
+Panduan singkat saat pertama dibuka
+Tambah pertanyaan dari Pintasan
+Masukan dan rencana fitur di Pengaturan
+Lebih nyaman dengan VoiceOver
 
-### 앱스토어 (nb)
+### 앱스토어 (노르웨이어 보크말, nb)
 
-Dato og klokkeslett i språkets format
-Nye tekster og skjermbilder i App Store
-Nye sider for støtte og personvern
+Nå på 24 språk
+En kort innføring første gang
+Legg til spørsmål fra Snarveier
+Tilbakemelding og planer i Innstillinger
+Fungerer bedre med VoiceOver
 
-### 앱스토어 (nl)
+### 앱스토어 (네덜란드어)
 
-Datum en tijd in het formaat van je taal
-Nieuwe App Store-teksten en screenshots
-Support- en privacypagina's vernieuwd
+Nu beschikbaar in 24 talen
+Korte uitleg bij de eerste keer openen
+Vragen toevoegen via Opdrachten
+Feedback en plannen in Instellingen
+Werkt beter met VoiceOver
 
-### 앱스토어 (pl)
+### 앱스토어 (폴란드어)
 
-Data i godzina w formacie Twojego języka
-Nowe teksty i zrzuty ekranu w App Store
-Odnowione strony wsparcia i prywatności
+Teraz w 24 językach
+Krótki przewodnik przy pierwszym starcie
+Pytania ze Skrótów lub Spotlight
+Opinie i plany w Ustawieniach
+Lepsza obsługa VoiceOver
 
-### 앱스토어 (sv)
+### 앱스토어 (스웨덴어)
 
-Datum och tid i språkets format
-Nya texter och skärmbilder i App Store
-Nya sidor för support och integritet
+Nu på 24 språk
+En kort guide första gången
+Lägg till frågor från Genvägar
+Feedback och planer i Inställningar
+Fungerar bättre med VoiceOver
 
-### 앱스토어 (tr)
+### 앱스토어 (튀르키예어)
 
-Tarih ve saat dilinize göre gösterilir
-App Store metni ve görselleri yenilendi
-Destek ve gizlilik sayfaları yenilendi
+Artık 24 dilde kullanılabilir
+İlk açılışta kısa bir rehber
+Kestirmeler'den hızlıca soru ekleyin
+Ayarlar'da geri bildirim ve yol haritası
+VoiceOver ile daha rahat kullanım

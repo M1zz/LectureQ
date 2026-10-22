@@ -1,0 +1,216 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>LectureQ · AIで答えを探すガイド</title>
+<!--hreflang:start-->
+<link rel="canonical" href="https://m1zz.github.io/LectureQ/ja/ai-guide.html">
+<link rel="alternate" hreflang="ko" href="https://m1zz.github.io/LectureQ/ai-guide.html">
+<link rel="alternate" hreflang="en" href="https://m1zz.github.io/LectureQ/en/ai-guide.html">
+<link rel="alternate" hreflang="en-GB" href="https://m1zz.github.io/LectureQ/en-GB/ai-guide.html">
+<link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/LectureQ/zh-Hans/ai-guide.html">
+<link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/LectureQ/zh-Hant/ai-guide.html">
+<link rel="alternate" hreflang="ja" href="https://m1zz.github.io/LectureQ/ja/ai-guide.html">
+<link rel="alternate" hreflang="ru" href="https://m1zz.github.io/LectureQ/ru/ai-guide.html">
+<link rel="alternate" hreflang="es" href="https://m1zz.github.io/LectureQ/es/ai-guide.html">
+<link rel="alternate" hreflang="de" href="https://m1zz.github.io/LectureQ/de/ai-guide.html">
+<link rel="alternate" hreflang="fr" href="https://m1zz.github.io/LectureQ/fr/ai-guide.html">
+<link rel="alternate" hreflang="it" href="https://m1zz.github.io/LectureQ/it/ai-guide.html">
+<link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/LectureQ/pt-BR/ai-guide.html">
+<link rel="alternate" hreflang="th" href="https://m1zz.github.io/LectureQ/th/ai-guide.html">
+<link rel="alternate" hreflang="vi" href="https://m1zz.github.io/LectureQ/vi/ai-guide.html">
+<link rel="alternate" hreflang="cs" href="https://m1zz.github.io/LectureQ/cs/ai-guide.html">
+<link rel="alternate" hreflang="da" href="https://m1zz.github.io/LectureQ/da/ai-guide.html">
+<link rel="alternate" hreflang="el" href="https://m1zz.github.io/LectureQ/el/ai-guide.html">
+<link rel="alternate" hreflang="fi" href="https://m1zz.github.io/LectureQ/fi/ai-guide.html">
+<link rel="alternate" hreflang="id" href="https://m1zz.github.io/LectureQ/id/ai-guide.html">
+<link rel="alternate" hreflang="nb" href="https://m1zz.github.io/LectureQ/nb/ai-guide.html">
+<link rel="alternate" hreflang="nl" href="https://m1zz.github.io/LectureQ/nl/ai-guide.html">
+<link rel="alternate" hreflang="pl" href="https://m1zz.github.io/LectureQ/pl/ai-guide.html">
+<link rel="alternate" hreflang="sv" href="https://m1zz.github.io/LectureQ/sv/ai-guide.html">
+<link rel="alternate" hreflang="tr" href="https://m1zz.github.io/LectureQ/tr/ai-guide.html">
+<link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/LectureQ/ai-guide.html">
+<style>.langs{display:flex;flex-wrap:wrap;gap:4px 12px;font-size:13px;margin:0 0 18px;}.langs a{color:var(--muted);text-decoration:none;}.langs a[aria-current]{color:var(--fg);font-weight:600;}.langs a:hover{color:var(--teal);}</style>
+<!--hreflang:end-->
+<style>
+  :root{--blue:#2E6BE6;--teal:#17B3A3;--bg:#ffffff;--fg:#1c1c1e;--muted:#6b6b70;--card:#f5f6f8;--border:#e6e7ea;}
+  @media (prefers-color-scheme:dark){:root{--bg:#111214;--fg:#f2f2f5;--muted:#9a9aa0;--card:#1b1c1f;--border:#2a2b2f;}}
+  *{box-sizing:border-box;}
+  body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Hiragino Sans","Apple SD Gothic Neo","Segoe UI",Roboto,sans-serif;background:var(--bg);color:var(--fg);line-height:1.7;}
+  .wrap{max-width:760px;margin:0 auto;padding:40px 20px 80px;}
+  a.back{color:var(--teal);text-decoration:none;font-size:14px;}
+  h1{font-size:30px;margin:18px 0 4px;letter-spacing:-.4px;}
+  .lead{color:var(--muted);font-size:16px;margin:0 0 28px;}
+  h2{font-size:20px;margin:38px 0 10px;padding-top:14px;border-top:1px solid var(--border);}
+  h3{font-size:16px;margin:24px 0 6px;}
+  code{background:var(--card);border:1px solid var(--border);border-radius:6px;padding:1px 6px;font-size:13px;}
+  kbd{background:var(--card);border:1px solid var(--border);border-bottom-width:2px;border-radius:6px;padding:1px 7px;font-size:13px;font-family:inherit;}
+  pre{background:var(--card);border:1px solid var(--border);border-left:4px solid var(--teal);border-radius:10px;padding:14px 16px;overflow-x:auto;font-size:13.5px;line-height:1.6;white-space:pre-wrap;}
+  .step{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:16px 20px;margin:14px 0;}
+  .step .n{display:inline-block;min-width:26px;height:26px;line-height:26px;text-align:center;border-radius:8px;background:var(--teal);color:#fff;font-weight:700;font-size:14px;margin-right:8px;}
+  .step h3{display:inline;font-size:17px;}
+  .inapp{color:var(--blue);font-size:13.5px;margin:8px 0 0;}
+  @media (prefers-color-scheme:dark){.inapp{color:#7aa5ff;}}
+  table{border-collapse:collapse;width:100%;margin:14px 0;font-size:14.5px;}
+  th,td{border:1px solid var(--border);padding:10px 12px;text-align:left;vertical-align:top;}
+  th{background:var(--card);font-size:14px;}
+  td .kw{color:var(--muted);font-size:13.5px;}
+  ul{padding-left:20px;}
+  li{margin:5px 0;}
+  .trap{border-left:4px solid #E6892E;background:var(--card);border-radius:10px;padding:12px 16px;margin:10px 0;}
+  .trap b{color:#E6892E;}
+  footer{margin-top:48px;color:var(--muted);font-size:13px;border-top:1px solid var(--border);padding-top:18px;}
+  footer a{color:var(--teal);}
+</style>
+</head>
+<body>
+  <div class="wrap">
+<!--langswitch:start--><nav class="langs" aria-label="Language"><a href="../ai-guide.html" hreflang="ko" lang="ko">한국어</a> <a href="../en/ai-guide.html" hreflang="en" lang="en">English</a> <a href="../en-GB/ai-guide.html" hreflang="en-GB" lang="en-GB">English (UK)</a> <a href="../zh-Hans/ai-guide.html" hreflang="zh-Hans" lang="zh-Hans">简体中文</a> <a href="../zh-Hant/ai-guide.html" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a> <a href="../ja/ai-guide.html" hreflang="ja" lang="ja" aria-current="page">日本語</a> <a href="../ru/ai-guide.html" hreflang="ru" lang="ru">Русский</a> <a href="../es/ai-guide.html" hreflang="es" lang="es">Español</a> <a href="../de/ai-guide.html" hreflang="de" lang="de">Deutsch</a> <a href="../fr/ai-guide.html" hreflang="fr" lang="fr">Français</a> <a href="../it/ai-guide.html" hreflang="it" lang="it">Italiano</a> <a href="../pt-BR/ai-guide.html" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a> <a href="../th/ai-guide.html" hreflang="th" lang="th">ไทย</a> <a href="../vi/ai-guide.html" hreflang="vi" lang="vi">Tiếng Việt</a> <a href="../cs/ai-guide.html" hreflang="cs" lang="cs">Čeština</a> <a href="../da/ai-guide.html" hreflang="da" lang="da">Dansk</a> <a href="../el/ai-guide.html" hreflang="el" lang="el">Ελληνικά</a> <a href="../fi/ai-guide.html" hreflang="fi" lang="fi">Suomi</a> <a href="../id/ai-guide.html" hreflang="id" lang="id">Bahasa Indonesia</a> <a href="../nb/ai-guide.html" hreflang="nb" lang="nb">Norsk bokmål</a> <a href="../nl/ai-guide.html" hreflang="nl" lang="nl">Nederlands</a> <a href="../pl/ai-guide.html" hreflang="pl" lang="pl">Polski</a> <a href="../sv/ai-guide.html" hreflang="sv" lang="sv">Svenska</a> <a href="../tr/ai-guide.html" hreflang="tr" lang="tr">Türkçe</a></nav><!--langswitch:end-->
+    <a class="back" href="./index.html">← LectureQ：授業の疑問ノート</a>
+    <h1>AIで答えを探すガイド</h1>
+    <p class="lead">LectureQに質問を書き留めたら、次は答えを探す番です。
+    いまどき、その答えの多くはAIとの対話から得られます。問題は、<b>同じ質問をしても、人によって得られるものが違う</b>ということ。
+    このガイドは、LectureQの流れ（質問 → 回答 → 学んだこと）に沿って、その差を生むコツをまとめたものです。</p>
+
+    <p><b>このガイドで身につけたい力をひと言で：</b><br>
+    <b>AIと一緒に、自分の疑問を&lsquo;確かめた知識&rsquo;に変えられること。</b>
+    — 答えをもらう力ではなく、もらった答えを疑い、自分のものにする力です。</p>
+
+    <h2>答えを探す5つのステップ</h2>
+    <p>1つの質問に1つの会話。1つの会話にいくつもの質問を詰め込むと、答えも混ざり、あとで整理もできなくなります。</p>
+
+    <div class="step">
+      <span class="n">1</span><h3>質問を&lsquo;答えられる形&rsquo;に磨く</h3>
+      <p>講義中に急いで書いた質問は、たいていぼんやりしています。ぼんやりした質問には、ぼんやりした答えしか返ってきません。
+      すぐに答えを求めず、まず質問から書き直しましょう。</p>
+<pre>以下は、講義中に急いで書き留めた質問です。まだぼんやりしています。
+
+"{LectureQに書いた質問そのまま}"
+
+この質問を「答えられる質問」3つに書き直してください。
+それぞれについて、その答えがわかると自分が何をできるようになるかも1行ずつ添えてください。
+いまは答えずに、書き直した質問だけを見せてください。</pre>
+      <p class="inapp">▸ 気に入ったバージョンができたら、LectureQの質問文をそれに書き換えておきましょう。未来の自分への投資です。</p>
+    </div>
+
+    <div class="step">
+      <span class="n">2</span><h3>3つの文脈を添えて質問する</h3>
+      <p>AIは、あなたがどこまで知っているかを知りません。<b>どこで出てきた質問か／いまの自分の理解度／ほしい答えの形</b>
+      — この3つを添えるだけで、答えの質がぐっと変わります。3つとも、すでにアプリの中に書いてあります。</p>
+<pre>[質問]
+{磨いた質問}
+
+[文脈]
+- どこで出てきたか：{講義名} / {その時点のタイムブロックのメモ}
+- いまの理解度：{学習状況の「いまの自分の状態」}
+- たどり着きたい状態：{学習状況の「学び終えたときの自分の状態」}
+
+[ほしい答え]
+1) 核心となる答えを3〜5行で
+2) なぜそうなるのか、根拠を1段落で
+3) 自分が誤解していそうなポイントを1〜2個
+4) 自分で確かめられる、いちばん小さな例か実験を1つ
+
+確かなことと推測を区別して示してください。わからないことは、わからないと言ってください。</pre>
+      <p class="inapp">▸ 文脈の材料：ツールバーの<b>表示 → 学習状況</b>と、質問が置かれている<b>タイムブロックのメモ</b>。</p>
+    </div>
+
+    <div class="step">
+      <span class="n">3</span><h3>最初の答えで終わりにしない</h3>
+      <p>もっともらしい答えは、検証を通った答えではありません。少なくとも一度は問い直しましょう。</p>
+<pre>いまの答えで、いちばん間違えやすいのはどこですか？
+
+- この答えが成り立つために、正しくなければならない前提
+- 反対の立場や、この答えが通用しない例外
+- 一次情報で自分で確かめるには何を見ればいいか（公式ドキュメント・仕様・原典の名前）</pre>
+      <p>バージョン、数値、API名、年のように、<b>具体的であるほど間違っていても気づきにくい</b>情報は、必ず原典で確認してください。</p>
+    </div>
+
+    <div class="step">
+      <span class="n">4</span><h3>新しく生まれた疑問を見逃さない</h3>
+      <p>よい答えは、いつも新しい「わからない」を生みます。それが次の質問であり、このアプリの<b>追加の質問</b>です。</p>
+<pre>ここまでの会話から、私がまだ知らないけれど知っておくべきことを、質問3つにして挙げてください。
+説明はせず、質問だけを。短く、具体的に。</pre>
+      <p class="inapp">▸ 挙がった質問を、質問の詳細にある<b>&lsquo;新しい追加の質問&rsquo;</b>の欄にそのまま貼り付ければ、元の質問 → 追加の質問という階層で残り、
+      <b>グラフ</b>で自分の理解がどう広がっていったかが見えます。</p>
+    </div>
+
+    <div class="step">
+      <span class="n">5</span><h3>自分の言葉で書き直して採点してもらう</h3>
+      <p>AIの答えをコピーして貼り付けても、記録は残りますが知識は残りません。
+      <b>回答</b>欄には自分の言葉で書き、その文章を採点してもらいましょう。</p>
+<pre>理解したことを自分の言葉で書いてみます。
+
+"{自分で書いたまとめ}"
+
+間違っているところ、抜けているところ、言い過ぎているところを指摘してください。
+点数ではなく、書き直した文章を見せてください。</pre>
+      <p class="inapp">▸ ここまで通過したものだけを、<b>解決済み</b> + <b>学んだこと（★）</b>にしましょう。
+      <b>表示 → まとめ</b>の&lsquo;学んだこと&rsquo;の一覧は、そうしてふるいにかけたものだけが集まってこそ価値が生まれます。</p>
+    </div>
+
+    <h2>身につけたい知識</h2>
+    <p>上の5つのステップを、身につける力として整理するとこうなります。いまの自分にいちばん足りない1行から選んで練習しましょう。</p>
+
+    <table>
+      <tr><th style="width:24%">身につけること</th><th style="width:38%">〜できる</th><th>〜について知っている／関連キーワード</th></tr>
+      <tr>
+        <td><b>質問を磨く</b></td>
+        <td>ぼんやりしたメモを、答えられる質問3つに書き直せる</td>
+        <td class="kw">よい質問の条件、答えられる質問と答えられない質問、問題設定（problem framing）</td>
+      </tr>
+      <tr>
+        <td><b>文脈を伝える</b></td>
+        <td>背景・自分の理解度・ほしい答えの形式を添えて質問できる</td>
+        <td class="kw">プロンプトの構造化、役割・文脈・出力形式の指定、コンテキスト設計</td>
+      </tr>
+      <tr>
+        <td><b>答えを検証する</b></td>
+        <td>答えの前提・反例・一次情報を問い直し、事実を見分けられる</td>
+        <td class="kw">ハルシネーション（hallucination）、根拠と出典、反証（falsification）、確証バイアス</td>
+      </tr>
+      <tr>
+        <td><b>「わからない」を見つける</b></td>
+        <td>答えの中から新しい質問を引き出し、追加の質問として残せる</td>
+        <td class="kw">メタ認知、知識のすき間（knowledge gap）、質問ツリー</td>
+      </tr>
+      <tr>
+        <td><b>知識として定着させる</b></td>
+        <td>自分の言葉で書き直して採点してもらい、&lsquo;学んだこと&rsquo;として確定できる</td>
+        <td class="kw">ファインマン・テクニック、想起練習（retrieval practice）、間隔反復（spaced repetition）</td>
+      </tr>
+    </table>
+
+    <h2>よくある4つの落とし穴</h2>
+    <div class="trap"><b>1. もっともらしいと、正しいと感じてしまう。</b> AIの文章は、いつも自信たっぷりに書かれています。
+    確かさは文体ではなく、根拠から生まれます。★（学んだこと）は確認してから。</div>
+    <div class="trap"><b>2. 1つの会話で全部聞いてしまう。</b> 5つの質問を1つの会話に詰め込むと、答えは浅くなり、整理もできません。
+    質問1つ = 会話1つ = LectureQの項目1つ。</div>
+    <div class="trap"><b>3. 答えをコピーして貼るだけ。</b> 貼り付けた答えは、読み返すたびに新鮮です（＝身についていないということ）。
+    1行だけでも、自分の言葉に書き換えましょう。</div>
+    <div class="trap"><b>4. 会話が終わると消えてしまう。</b> チャット画面は流れ去り、質問だけが残ります。
+    下のように会話を丸ごとアプリに取り込んでおけば、あとで&ldquo;なぜ自分がそう理解したのか&rdquo;まで残ります。</div>
+
+    <h2>AIとの会話を丸ごと読み込む</h2>
+    <p>AIとの会話をMarkdownで保存しておけば、アプリがそれを<b>質問ツリー</b>に変えてくれます
+    （ツールバーの<b>講義メニュー → Markdownから読み込む…</b>）。</p>
+<pre># 講義のタイトルになる行
+
+## トピック（ここの最初の質問が元の質問、続く質問は追加の質問になります）
+
+**自分** — ここに自分がした質問
+
+**AI** — ここに受け取った答え（複数行やコードブロックも大丈夫です）</pre>
+    <p>読み込むと、質問ごとに回答が入り、解決済みになります。
+    そのあと<b>まとめ</b>画面で、本当に学んだものだけを★で残し、ほかは&lsquo;除外&rsquo;すれば、
+    ひと続きの会話が自分の「学んだこと」の一覧に整理されます。</p>
+
+    <h2>ひと言でいえば</h2>
+    <p style="font-size:17px;"><b>AIに答えを求めるのではなく、自分の疑問を検証する相手として使いましょう。</b>
+    質問をつくるのも、疑うのも、最後の一文を書くのも自分です。その過程を残す場所が、LectureQです。</p>
+
+    <footer>© 2026 LectureQ · <a href="./support.html">サポート</a> · <a href="./privacy.html">プライバシーポリシー</a> · <a href="https://github.com/M1zz/LectureQ">GitHub</a></footer>
+  </div>
+</body>
+</html>
