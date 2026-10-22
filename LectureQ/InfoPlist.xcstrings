@@ -116,6 +116,12 @@
             "state" : "translated",
             "value" : "LectureQ"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "LectureQ"
+          }
         }
       }
     },
@@ -230,6 +236,12 @@
           }
         },
         "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "LectureQ"
+          }
+        },
+        "nb" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "LectureQ"

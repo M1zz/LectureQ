@@ -118,3 +118,9 @@ Uudistetut tuki- ja tietosuojasivut
 Tanggal dan jam sesuai bahasamu
 Teks dan tangkapan layar App Store baru
 Halaman dukungan dan privasi dirapikan
+
+### 앱스토어 (nb)
+
+Dato og klokkeslett i språkets format
+Nye tekster og skjermbilder i App Store
+Nye sider for støtte og personvern
