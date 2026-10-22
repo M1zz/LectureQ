@@ -134,3 +134,69 @@ https://m1zz.github.io/LectureQ/privacy.html
 ### 마케팅 URL
 
 https://m1zz.github.io/LectureQ/
+
+## en-GB
+
+### 이름
+
+LectureQ: Question Notes
+
+### 부제
+
+Capture questions as you learn
+
+### 키워드
+
+study,class,seminar,course,exam,student,learning,university,revision,mindmap,timeline,prompt,Mac
+
+### 프로모션 텍스트
+
+Capture a mid-lecture doubt with one shortcut. It sits beside your notes from that moment, then follow-ups and AI prompts help you turn it into what you've learnt.
+
+### 설명
+
+A learning notebook for Mac that keeps the questions you have during a lecture from slipping away.
+Write a question in plain words, keep it next to your notes from that moment, then find the answer and put it in your own words to turn it into something you've learnt.
+
+Quick Capture
+Open the input window from the toolbar's Add Question button or with Command Shift N. The time fills in with the current time automatically. Press Return to save, or Command Return to save and start the next question right away.
+
+Question List
+Follow-up questions stack beneath the original question, indented. Unresolved and resolved questions are shown in different colours, and you can filter to see only the unresolved ones.
+
+Time Block Notes
+Split a lecture into several time blocks and take notes in each. Questions appear beside the block they belong to, and clicking one takes you straight to it. Ask a question at a time outside any block and a block is added for you.
+
+Question Details
+Manage whether it's resolved, whether it counts as something you learnt, the time, your own answer, and the original and follow-up questions, all in one place.
+
+Find Answers with AI
+Five prompt steps, from refining the question and finding the answer to questioning the answer, drawing out follow-ups and getting your own answer graded, are copied to the clipboard with your lecture name and notes from that moment filled in. Just paste them into the AI service you already use. The app never sends anything out by itself.
+
+See It All at a Glance
+The lecture summary gathers only the questions still to ask, what you learnt and your notes, so you can read it like a review sheet. The graph shows how your thinking branched from original questions to follow-ups, and the time block overview lets you scan what you learnt and when.
+
+Learning Status
+Write down where you are before the lecture, where you want to be after it, and what you want to learn, and compare them as you go.
+
+Import Conversation Markdown
+Import Markdown made of a title, sections and speaker-by-speaker turns, and the app splits it into a lecture, questions and answers for you.
+
+Text size can be adjusted with Command Plus and Command Minus.
+
+Privacy
+There are no accounts, and every record is stored only on this Mac.
+
+Requires macOS 14 or later.
+
+### 지원 URL
+
+https://m1zz.github.io/LectureQ/support.html
+
+### 개인정보처리방침 URL
+
+https://m1zz.github.io/LectureQ/privacy.html
+
+### 마케팅 URL
+
+https://m1zz.github.io/LectureQ/

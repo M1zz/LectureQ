@@ -16,3 +16,9 @@ App Store 소개와 스크린샷을 새로 단장했어요
 Dates and times follow your language
 Refreshed App Store text and screenshots
 Reorganized support and privacy pages
+
+### 앱스토어 (en-GB)
+
+Dates and times follow your language
+Refreshed App Store text and screenshots
+Reorganised support and privacy pages

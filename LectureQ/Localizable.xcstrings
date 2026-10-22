@@ -14,6 +14,12 @@
             "state" : "translated",
             "value" : "\n\n\n—\nApp version: %@ (%@)\nmacOS: %@"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "\n\n\n—\nApp version: %@ (%@)\nmacOS: %@"
+          }
         }
       }
     },
@@ -26,6 +32,12 @@
           }
         },
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ copied"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@ copied"
@@ -46,6 +58,12 @@
             "state" : "translated",
             "value" : "Step %lld, %@. %@"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Step %lld, %@. %@"
+          }
         }
       }
     },
@@ -58,6 +76,12 @@
           }
         },
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld min"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld min"
@@ -78,6 +102,12 @@
             "state" : "translated",
             "value" : "Copy AI Prompt"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Copy AI Prompt"
+          }
         }
       }
     },
@@ -90,6 +120,12 @@
           }
         },
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Guide: Find Answers with AI"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Guide: Find Answers with AI"
@@ -111,6 +147,12 @@
             "state" : "translated",
             "value" : "Touch ID 잠금"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Touch ID lock"
+          }
         }
       }
     },
@@ -127,6 +169,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Touch ID로 앱을 잠가 내 질문 노트를 지켜요."
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lock the app with Touch ID to keep your notes private."
           }
         }
       }
@@ -145,6 +193,12 @@
             "state" : "translated",
             "value" : "VoiceOver로 더 편하게"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Better VoiceOver support"
+          }
         }
       }
     },
@@ -157,6 +211,12 @@
           }
         },
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "[%@] Inquiry"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "[%@] Inquiry"
@@ -177,6 +237,12 @@
             "state" : "translated",
             "value" : "Press ⌘⇧N to add a question"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Press ⌘⇧N to add a question"
+          }
         }
       }
     },
@@ -189,6 +255,12 @@
           }
         },
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Open Guide"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Open Guide"
@@ -209,6 +281,12 @@
             "state" : "translated",
             "value" : "Import Failed"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Import Failed"
+          }
         }
       }
     },
@@ -221,6 +299,12 @@
           }
         },
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Imported Conversation"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Imported Conversation"
@@ -241,6 +325,12 @@
             "state" : "translated",
             "value" : "Copies a prompt filled with your lecture context to the clipboard"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Copies a prompt filled with your lecture context to the clipboard"
+          }
         }
       }
     },
@@ -253,6 +343,12 @@
           }
         },
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Select Lecture"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Select Lecture"
@@ -273,6 +369,12 @@
             "state" : "translated",
             "value" : "Time in lecture"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Time in lecture"
+          }
         }
       }
     },
@@ -285,6 +387,12 @@
           }
         },
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Time in lecture (24-hour HH:mm)"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Time in lecture (24-hour HH:mm)"
@@ -305,6 +413,12 @@
             "state" : "translated",
             "value" : "Time in lecture (24-hour HH:mm). Clear it to save without a time"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Time in lecture (24-hour HH:mm). Clear it to save without a time"
+          }
         }
       }
     },
@@ -317,6 +431,12 @@
           }
         },
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No lecture"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "No lecture"
@@ -337,6 +457,12 @@
             "state" : "translated",
             "value" : "Lecture name"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lecture name"
+          }
         }
       }
     },
@@ -349,6 +475,12 @@
           }
         },
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A notebook that keeps the questions you have during a lecture, so you can answer them later in your own words."
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "A notebook that keeps the questions you have during a lecture, so you can answer them later in your own words."
@@ -369,6 +501,12 @@
             "state" : "translated",
             "value" : "Add Lecture"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Add Lecture"
+          }
         }
       }
     },
@@ -381,6 +519,12 @@
           }
         },
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jot down a question that comes up during a lecture in the simplest words. The time fills in with the current time."
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Jot down a question that comes up during a lecture in the simplest words. The time fills in with the current time."
@@ -401,6 +545,12 @@
             "state" : "translated",
             "value" : "Create a lecture"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Create a lecture"
+          }
         }
       }
     },
@@ -413,6 +563,12 @@
           }
         },
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Select a lecture"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Select a lecture"
@@ -434,6 +590,12 @@
             "state" : "translated",
             "value" : "강의와 질문을 파일로 저장하고 다시 불러올 수 있어요."
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Save your lectures and questions to a file and bring them back later."
+          }
         }
       }
     },
@@ -446,6 +608,12 @@
           }
         },
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Curious? Press ⌘⇧N"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Curious? Press ⌘⇧N"
@@ -466,6 +634,12 @@
             "state" : "translated",
             "value" : "Write what you're wondering in the simplest words…"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Write what you're wondering in the simplest words…"
+          }
         }
       }
     },
@@ -482,6 +656,12 @@
             "state" : "translated",
             "value" : "Graph"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Graph"
+          }
         }
       }
     },
@@ -494,6 +674,12 @@
           }
         },
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Text Size (%lld%%)"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Text Size (%lld%%)"
@@ -515,6 +701,12 @@
             "state" : "translated",
             "value" : "글자 크기를 키워도 잘리지 않고 보기 좋게 다시 배치돼요."
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Screens rearrange neatly instead of getting cut off when you enlarge text."
+          }
         }
       }
     },
@@ -527,6 +719,12 @@
           }
         },
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Duration"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Duration"
@@ -547,6 +745,12 @@
             "state" : "translated",
             "value" : "Default Size"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Default Size"
+          }
         }
       }
     },
@@ -559,6 +763,12 @@
           }
         },
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Link an Existing Question as a Follow-up"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Link an Existing Question as a Follow-up"
@@ -579,6 +789,12 @@
             "state" : "translated",
             "value" : "Follow-up questions"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Follow-up questions"
+          }
         }
       }
     },
@@ -591,6 +807,12 @@
           }
         },
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Draw Out Follow-ups"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Draw Out Follow-ups"
@@ -611,6 +833,12 @@
             "state" : "translated",
             "value" : "Later, write the answer in your own words and click the ? before the question to mark it resolved. What you learned gathers in Summary in the View menu."
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Later, write the answer in your own words and click the ? before the question to mark it resolved. What you learnt gathers in Summary in the View menu."
+          }
         }
       }
     },
@@ -623,6 +851,12 @@
           }
         },
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Get My Answer Graded"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Get My Answer Graded"
@@ -644,6 +878,12 @@
             "state" : "translated",
             "value" : "내 데이터 한 번에 지우기"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Delete all your data"
+          }
         }
       }
     },
@@ -656,6 +896,12 @@
           }
         },
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Write it in your own words"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Write it in your own words"
@@ -676,6 +922,12 @@
             "state" : "translated",
             "value" : "Marks the question as unresolved"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Marks the question as unresolved"
+          }
         }
       }
     },
@@ -692,6 +944,12 @@
             "state" : "translated",
             "value" : "Goes to this question"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Goes to this question"
+          }
         }
       }
     },
@@ -704,6 +962,12 @@
           }
         },
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Marks the question as resolved"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Marks the question as resolved"
@@ -725,6 +989,12 @@
             "state" : "translated",
             "value" : "다른 맥에서도 같은 강의와 질문을 이어서 써요."
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pick up the same lectures and questions on any of your Macs."
+          }
         }
       }
     },
@@ -737,6 +1007,12 @@
           }
         },
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Add Back"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Add Back"
@@ -757,6 +1033,12 @@
             "state" : "translated",
             "value" : "Add back to What I Learned"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Add back to What I Learnt"
+          }
         }
       }
     },
@@ -769,6 +1051,12 @@
           }
         },
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Close"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Close"
@@ -789,6 +1077,12 @@
             "state" : "translated",
             "value" : "Answer"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Answer"
+          }
         }
       }
     },
@@ -801,6 +1095,12 @@
           }
         },
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Question the Answer"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Question the Answer"
@@ -821,6 +1121,12 @@
             "state" : "translated",
             "value" : "The answer note is empty"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The answer note is empty"
+          }
         }
       }
     },
@@ -833,6 +1139,12 @@
           }
         },
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No answer"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "No answer"
@@ -853,6 +1165,12 @@
             "state" : "translated",
             "value" : "Find the Answer"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Find the Answer"
+          }
         }
       }
     },
@@ -865,6 +1183,12 @@
           }
         },
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Write the answer and resolve it"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Write the answer and resolve it"
@@ -886,6 +1210,12 @@
             "state" : "translated",
             "value" : "대비를 높이거나 색을 구별하기 어려워도 내용을 알아볼 수 있어요."
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Everything stays readable, even with Increase Contrast on or if colours are hard to tell apart."
+          }
         }
       }
     },
@@ -902,6 +1232,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "더 많은 나라 말로 앱을 쓸 수 있게 해요."
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Use the app in more languages."
           }
         }
       }
@@ -920,6 +1256,12 @@
             "state" : "translated",
             "value" : "더 많은 언어"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "More languages"
+          }
         }
       }
     },
@@ -932,6 +1274,12 @@
           }
         },
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Questions to Ask"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Questions to Ask"
@@ -953,6 +1301,12 @@
             "state" : "translated",
             "value" : "데스크탑 위젯"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Desktop widgets"
+          }
         }
       }
     },
@@ -965,6 +1319,12 @@
           }
         },
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Look Around"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Look Around"
@@ -985,6 +1345,12 @@
             "state" : "translated",
             "value" : "Import from Markdown…"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Import from Markdown…"
+          }
         }
       }
     },
@@ -997,6 +1363,12 @@
           }
         },
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "First write a line or two in your own words in the answer box"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "First write a line or two in your own words in the answer box"
@@ -1017,6 +1389,12 @@
             "state" : "translated",
             "value" : "Notes"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Notes"
+          }
         }
       }
     },
@@ -1029,6 +1407,12 @@
           }
         },
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Contact by Email"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Contact by Email"
@@ -1049,6 +1433,12 @@
             "state" : "translated",
             "value" : "All resolved"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "All resolved"
+          }
         }
       }
     },
@@ -1061,6 +1451,12 @@
           }
         },
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "When you write to us, please include your macOS version and what you were doing when the problem happened, so we can look into it quickly."
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "When you write to us, please include your macOS version and what you were doing when the problem happened, so we can look into it quickly."
@@ -1081,6 +1477,12 @@
             "state" : "translated",
             "value" : "Unresolved"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Unresolved"
+          }
         }
       }
     },
@@ -1093,6 +1495,12 @@
           }
         },
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Unresolved — click to mark resolved"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Unresolved — click to mark resolved"
@@ -1113,6 +1521,12 @@
             "state" : "translated",
             "value" : "Show only unresolved questions"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Show only unresolved questions"
+          }
         }
       }
     },
@@ -1125,6 +1539,12 @@
           }
         },
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No unresolved questions"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "No unresolved questions"
@@ -1145,6 +1565,12 @@
             "state" : "translated",
             "value" : "Unresolved Only"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Unresolved Only"
+          }
         }
       }
     },
@@ -1157,6 +1583,12 @@
           }
         },
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "What I Want to Learn"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "What I Want to Learn"
@@ -1177,6 +1609,12 @@
             "state" : "translated",
             "value" : "What I Learned"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "What I Learnt"
+          }
         }
       }
     },
@@ -1193,6 +1631,12 @@
             "state" : "translated",
             "value" : "Include in What I Learned"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Include in What I Learnt"
+          }
         }
       }
     },
@@ -1208,6 +1652,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Exclude from What I Learned (the answer stays)"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Exclude from What I Learnt (the answer stays)"
           }
         }
       }
@@ -1226,6 +1676,12 @@
             "state" : "translated",
             "value" : "백업과 내보내기"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Backup and export"
+          }
         }
       }
     },
@@ -1238,6 +1694,12 @@
           }
         },
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "View"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "View"
@@ -1258,6 +1720,12 @@
             "state" : "translated",
             "value" : "In the View menu, Summary (⌘1) shows what to ask and what you learned, and Graph (⌘2) shows how your questions connect."
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "In the View menu, Summary (⌘1) shows what to ask and what you learnt, and Graph (⌘2) shows how your questions connect."
+          }
         }
       }
     },
@@ -1275,6 +1743,12 @@
             "state" : "translated",
             "value" : "보기 편한 색과 대비"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Easier colours and contrast"
+          }
         }
       }
     },
@@ -1287,6 +1761,12 @@
           }
         },
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Block notes"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Block notes"
@@ -1307,6 +1787,12 @@
             "state" : "translated",
             "value" : "Delete Block"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Delete Block"
+          }
         }
       }
     },
@@ -1323,6 +1809,12 @@
             "state" : "translated",
             "value" : "Block color"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Block colour"
+          }
         }
       }
     },
@@ -1335,6 +1827,12 @@
           }
         },
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Block Settings"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Block Settings"
@@ -1355,6 +1853,12 @@
             "state" : "translated",
             "value" : "Block start time"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Block start time"
+          }
         }
       }
     },
@@ -1367,6 +1871,12 @@
           }
         },
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Add Block"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Add Block"
@@ -1387,6 +1897,12 @@
             "state" : "translated",
             "value" : "No blocks"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No blocks"
+          }
         }
       }
     },
@@ -1399,6 +1915,12 @@
           }
         },
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Delete"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Delete"
@@ -1419,6 +1941,12 @@
             "state" : "translated",
             "value" : "New Lecture"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "New Lecture"
+          }
         }
       }
     },
@@ -1431,6 +1959,12 @@
           }
         },
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "New follow-up question — press Return to add"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "New follow-up question — press Return to add"
@@ -1451,6 +1985,12 @@
             "state" : "translated",
             "value" : "Color"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Colour"
+          }
         }
       }
     },
@@ -1463,6 +2003,12 @@
           }
         },
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Settings"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Settings"
@@ -1483,6 +2029,12 @@
             "state" : "translated",
             "value" : "Start"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Start"
+          }
         }
       }
     },
@@ -1495,6 +2047,12 @@
           }
         },
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Time"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Time"
@@ -1516,6 +2074,12 @@
             "state" : "translated",
             "value" : "아직 답을 못 찾은 질문을 잊지 않도록 알맞은 때에 알려 줘요."
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Get a timely nudge about questions you haven’t answered yet."
+          }
         }
       }
     },
@@ -1532,6 +2096,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "알림"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reminders"
           }
         }
       }
@@ -1550,6 +2120,12 @@
             "state" : "translated",
             "value" : "앱을 열지 않고 데스크탑에서 남은 질문을 바로 확인해요."
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "See your open questions right on the desktop, without opening the app."
+          }
         }
       }
     },
@@ -1566,6 +2142,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "앱을 영어로도 쓸 수 있어요."
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Use the whole app in English."
           }
         }
       }
@@ -1584,6 +2166,12 @@
             "state" : "translated",
             "value" : "업데이트 뒤 처음 열 때 무엇이 새로 생겼는지 알려 줘요."
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The first time you open the app after an update, see what’s new."
+          }
         }
       }
     },
@@ -1600,6 +2188,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "업데이트 소식"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "What’s new"
           }
         }
       }
@@ -1618,6 +2212,12 @@
             "state" : "translated",
             "value" : "여러 맥에서 이어 쓰기"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sync across your Macs"
+          }
         }
       }
     },
@@ -1634,6 +2234,12 @@
             "state" : "translated",
             "value" : "Unlink (the question isn't deleted)"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Unlink (the question isn't deleted)"
+          }
         }
       }
     },
@@ -1646,6 +2252,12 @@
           }
         },
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Get in Touch"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Get in Touch"
@@ -1667,6 +2279,12 @@
             "state" : "translated",
             "value" : "영어 지원"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Full English support"
+          }
         }
       }
     },
@@ -1679,6 +2297,12 @@
           }
         },
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Summary"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Summary"
@@ -1699,6 +2323,12 @@
             "state" : "translated",
             "value" : "Summary, graph, time blocks, learning status, text size"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Summary, graph, time blocks, learning status, text size"
+          }
         }
       }
     },
@@ -1714,6 +2344,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Choose whether to list this under What I Learned in the summary"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Choose whether to list this under What I Learnt in the summary"
           }
         }
       }
@@ -1732,6 +2368,12 @@
             "state" : "translated",
             "value" : "움직임 줄이기"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reduce Motion"
+          }
         }
       }
     },
@@ -1749,6 +2391,12 @@
             "state" : "translated",
             "value" : "움직임 줄이기를 켜면 화면 효과가 차분해져요."
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "With Reduce Motion on, screen effects calm down."
+          }
         }
       }
     },
@@ -1761,6 +2409,12 @@
           }
         },
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Original question"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Original question"
@@ -1782,6 +2436,12 @@
             "state" : "translated",
             "value" : "원하면 앱 안에서 강의와 질문을 모두 지울 수 있어요."
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Erase all your lectures and questions from within the app whenever you like."
+          }
         }
       }
     },
@@ -1794,6 +2454,12 @@
           }
         },
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "What I want to be able to do once I understand this lecture…"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "What I want to be able to do once I understand this lecture…"
@@ -1814,6 +2480,12 @@
             "state" : "translated",
             "value" : "What I know before or so far in this lecture, and where I get stuck…"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "What I know before or so far in this lecture, and where I get stuck…"
+          }
         }
       }
     },
@@ -1826,6 +2498,12 @@
           }
         },
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "What I most want to get out of this lecture, topics I'm curious about…"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "What I most want to get out of this lecture, topics I'm curious about…"
@@ -1846,6 +2524,12 @@
             "state" : "translated",
             "value" : "Delete this block? Its notes will be deleted too."
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Delete this block? Its notes will be deleted too."
+          }
         }
       }
     },
@@ -1861,6 +2545,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Change this block's color, start time and duration, or delete it"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Change this block's colour, start time and duration, or delete it"
           }
         }
       }
@@ -1878,6 +2568,12 @@
             "state" : "translated",
             "value" : "Note what you learned or want to remember in this time slot…"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Note what you learnt or want to remember in this time slot…"
+          }
         }
       }
     },
@@ -1890,6 +2586,12 @@
           }
         },
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Go to This Question"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Go to This Question"
@@ -1910,6 +2612,12 @@
             "state" : "translated",
             "value" : "Write the answer to this question in your own words"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Write the answer to this question in your own words"
+          }
         }
       }
     },
@@ -1922,6 +2630,12 @@
           }
         },
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Follow on Instagram"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Follow on Instagram"
@@ -1942,6 +2656,12 @@
             "state" : "translated",
             "value" : "Smaller"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Smaller"
+          }
         }
       }
     },
@@ -1954,6 +2674,12 @@
           }
         },
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Created %@"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Created %@"
@@ -1974,6 +2700,12 @@
             "state" : "translated",
             "value" : "Save"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Save"
+          }
         }
       }
     },
@@ -1986,6 +2718,12 @@
           }
         },
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Save and Continue"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Save and Continue"
@@ -2006,6 +2744,12 @@
             "state" : "translated",
             "value" : "Exclude"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Exclude"
+          }
         }
       }
     },
@@ -2018,6 +2762,12 @@
           }
         },
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Excluded Answers"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Excluded Answers"
@@ -2038,6 +2788,12 @@
             "state" : "translated",
             "value" : "Now"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Now"
+          }
         }
       }
     },
@@ -2050,6 +2806,12 @@
           }
         },
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Where I Am Now"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Where I Am Now"
@@ -2070,6 +2832,12 @@
             "state" : "translated",
             "value" : "Support"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Support"
+          }
         }
       }
     },
@@ -2082,6 +2850,12 @@
           }
         },
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Question"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Question"
@@ -2102,6 +2876,12 @@
             "state" : "translated",
             "value" : "Questions %lld · To Ask %lld · Learned %lld · Follow-ups %lld"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Questions %lld · To Ask %lld · Learnt %lld · Follow-ups %lld"
+          }
         }
       }
     },
@@ -2114,6 +2894,12 @@
           }
         },
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Opens Question Notes and shows a window to write a question for the lecture you're viewing."
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Opens Question Notes and shows a window to write a question for the lecture you're viewing."
@@ -2134,6 +2920,12 @@
             "state" : "translated",
             "value" : "Welcome to Question Notes"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Welcome to Question Notes"
+          }
         }
       }
     },
@@ -2146,6 +2938,12 @@
           }
         },
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Refine the Question"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Refine the Question"
@@ -2166,6 +2964,12 @@
             "state" : "translated",
             "value" : "Add Question"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Add Question"
+          }
         }
       }
     },
@@ -2178,6 +2982,12 @@
           }
         },
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Add Question (⌘⇧N)"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Add Question (⌘⇧N)"
@@ -2198,6 +3008,12 @@
             "state" : "translated",
             "value" : "Select a question"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Select a question"
+          }
         }
       }
     },
@@ -2210,6 +3026,12 @@
           }
         },
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Questions you mark as resolved appear here"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Questions you mark as resolved appear here"
@@ -2230,6 +3052,12 @@
             "state" : "translated",
             "value" : "Time to look back at your questions"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Time to look back at your questions"
+          }
         }
       }
     },
@@ -2242,6 +3070,12 @@
           }
         },
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Create First Lecture"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Create First Lecture"
@@ -2262,6 +3096,12 @@
             "state" : "translated",
             "value" : "Zoom Out"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zoom Out"
+          }
         }
       }
     },
@@ -2278,6 +3118,12 @@
             "state" : "translated",
             "value" : "Cancel"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cancel"
+          }
         }
       }
     },
@@ -2290,6 +3136,12 @@
           }
         },
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Larger"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Larger"
@@ -2311,6 +3163,12 @@
             "state" : "translated",
             "value" : "큰 글씨에 맞춘 화면"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Layouts for larger text"
+          }
         }
       }
     },
@@ -2323,6 +3181,12 @@
           }
         },
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Time Blocks"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Time Blocks"
@@ -2343,6 +3207,12 @@
             "state" : "translated",
             "value" : "Add a new lecture from the lecture menu on the left of the toolbar, or import a conversation Markdown file."
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Add a new lecture from the lecture menu on the left of the toolbar, or import a conversation Markdown file."
+          }
         }
       }
     },
@@ -2355,6 +3225,12 @@
           }
         },
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Learning Status"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Learning Status"
@@ -2375,6 +3251,12 @@
             "state" : "translated",
             "value" : "Where I Want to Be When Done"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Where I Want to Be When Done"
+          }
         }
       }
     },
@@ -2387,6 +3269,12 @@
           }
         },
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Resolved"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Resolved"
@@ -2407,6 +3295,12 @@
             "state" : "translated",
             "value" : "Resolution status"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Resolution status"
+          }
         }
       }
     },
@@ -2419,6 +3313,12 @@
           }
         },
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Resolved"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Resolved"
@@ -2439,6 +3339,12 @@
             "state" : "translated",
             "value" : "Resolved — click to mark unresolved"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Resolved — click to mark unresolved"
+          }
         }
       }
     },
@@ -2455,6 +3361,12 @@
             "state" : "translated",
             "value" : "Unlink"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Unlink"
+          }
         }
       }
     },
@@ -2467,6 +3379,12 @@
           }
         },
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Delete Current Lecture"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Delete Current Lecture"
@@ -2488,6 +3406,12 @@
             "state" : "translated",
             "value" : "화면 읽기 기능이 단추와 내용을 빠짐없이, 알맞은 순서로 읽어 줘요."
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "VoiceOver reads every button and note, in the right order."
+          }
         }
       }
     },
@@ -2500,6 +3424,12 @@
           }
         },
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fit to Window"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Fit to Window"
@@ -2520,6 +3450,12 @@
             "state" : "translated",
             "value" : "Zoom In"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zoom In"
+          }
         }
       }
     },
@@ -2532,6 +3468,12 @@
           }
         },
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OK"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "OK"
