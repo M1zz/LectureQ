@@ -44,6 +44,12 @@
             "state" : "translated",
             "value" : "\n\n\n—\nВерсия приложения: %@ (%@)\nmacOS: %@"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "\n\n\n—\nVersión de la app: %@ (%@)\nmacOS: %@"
+          }
         }
       }
     },
@@ -89,6 +95,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Скопировано: %@"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "«%@» copiado"
           }
         }
       }
@@ -136,6 +148,12 @@
             "state" : "translated",
             "value" : "Шаг %lld, %@. %@"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Paso %lld, %@. %@"
+          }
         }
       }
     },
@@ -181,6 +199,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld мин"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld min"
           }
         }
       }
@@ -228,6 +252,12 @@
             "state" : "translated",
             "value" : "Скопировать промпт для ИИ"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Copiar prompt de IA"
+          }
         }
       }
     },
@@ -273,6 +303,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Руководство: ищем ответы с помощью ИИ"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Guía: encuentra respuestas con IA"
           }
         }
       }
@@ -321,6 +357,12 @@
             "state" : "translated",
             "value" : "Блокировка Touch ID"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bloqueo con Touch ID"
+          }
         }
       }
     },
@@ -367,6 +409,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Защитите свои заметки: блокируйте приложение с помощью Touch ID."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bloquea la app con Touch ID para mantener privadas tus notas."
           }
         }
       }
@@ -415,6 +463,12 @@
             "state" : "translated",
             "value" : "Удобнее с VoiceOver"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mejor compatibilidad con VoiceOver"
+          }
         }
       }
     },
@@ -460,6 +514,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "[%@] Обращение"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "[%@] Consulta"
           }
         }
       }
@@ -507,6 +567,12 @@
             "state" : "translated",
             "value" : "Нажмите ⌘⇧N, чтобы добавить вопрос"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pulsa ⌘⇧N para añadir una pregunta"
+          }
         }
       }
     },
@@ -552,6 +618,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Открыть руководство"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Abrir guía"
           }
         }
       }
@@ -599,6 +671,12 @@
             "state" : "translated",
             "value" : "Не удалось импортировать"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Error al importar"
+          }
         }
       }
     },
@@ -644,6 +722,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Импортированный диалог"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Conversación importada"
           }
         }
       }
@@ -691,6 +775,12 @@
             "state" : "translated",
             "value" : "Копирует в буфер обмена промпт с контекстом вашей лекции"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Copia al portapapeles un prompt con el contexto de tu clase"
+          }
         }
       }
     },
@@ -736,6 +826,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Выбрать лекцию"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Elegir clase"
           }
         }
       }
@@ -783,6 +879,12 @@
             "state" : "translated",
             "value" : "Момент лекции"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Momento de la clase"
+          }
         }
       }
     },
@@ -828,6 +930,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Момент лекции (24-часовой формат ЧЧ:мм)"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Momento de la clase (24 horas, HH:mm)"
           }
         }
       }
@@ -875,6 +983,12 @@
             "state" : "translated",
             "value" : "Момент лекции (24-часовой формат ЧЧ:мм). Если очистить, вопрос сохранится без времени"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Momento de la clase (24 horas, HH:mm). Si lo borras, se guarda sin momento"
+          }
         }
       }
     },
@@ -920,6 +1034,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Нет лекции"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sin clase"
           }
         }
       }
@@ -967,6 +1087,12 @@
             "state" : "translated",
             "value" : "Название лекции"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nombre de la clase"
+          }
         }
       }
     },
@@ -1012,6 +1138,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Блокнот, который сохраняет вопросы, возникшие на лекции, чтобы потом ответить на них своими словами."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Un cuaderno que guarda las preguntas que te surgen en clase para que después las respondas con tus propias palabras."
           }
         }
       }
@@ -1059,6 +1191,12 @@
             "state" : "translated",
             "value" : "Добавить лекцию"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Añadir clase"
+          }
         }
       }
     },
@@ -1104,6 +1242,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Запишите вопрос, который пришёл в голову на лекции, самыми простыми словами. Время подставится само."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Anota con las palabras más sencillas la pregunta que te surja en clase. El momento se rellena con la hora actual."
           }
         }
       }
@@ -1151,6 +1295,12 @@
             "state" : "translated",
             "value" : "Создайте лекцию"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Crea una clase"
+          }
         }
       }
     },
@@ -1196,6 +1346,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Выберите лекцию"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Selecciona una clase"
           }
         }
       }
@@ -1244,6 +1400,12 @@
             "state" : "translated",
             "value" : "Сохраняйте лекции и вопросы в файл и возвращайте их обратно."
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Guarda tus clases y preguntas en un archivo y recupéralas cuando quieras."
+          }
         }
       }
     },
@@ -1289,6 +1451,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Возник вопрос? Жмите ⌘⇧N"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "¿Una duda? Pulsa ⌘⇧N"
           }
         }
       }
@@ -1336,6 +1504,12 @@
             "state" : "translated",
             "value" : "Запишите, что вас интересует, как можно проще…"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Escribe lo que te preguntas con las palabras más sencillas…"
+          }
         }
       }
     },
@@ -1382,6 +1556,12 @@
             "state" : "translated",
             "value" : "Граф"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Grafo"
+          }
         }
       }
     },
@@ -1427,6 +1607,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Размер текста (%lld%%)"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tamaño del texto (%lld%%)"
           }
         }
       }
@@ -1475,6 +1661,12 @@
             "state" : "translated",
             "value" : "При крупном тексте экраны перестраиваются, ничего не обрезая."
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Al agrandar el texto, las pantallas se reorganizan sin cortarse."
+          }
         }
       }
     },
@@ -1520,6 +1712,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Длительность"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Duración"
           }
         }
       }
@@ -1567,6 +1765,12 @@
             "state" : "translated",
             "value" : "Обычный размер"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tamaño predeterminado"
+          }
         }
       }
     },
@@ -1612,6 +1816,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Связать существующий вопрос как уточняющий"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vincular una pregunta existente como seguimiento"
           }
         }
       }
@@ -1659,6 +1869,12 @@
             "state" : "translated",
             "value" : "Уточняющие вопросы"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Preguntas de seguimiento"
+          }
         }
       }
     },
@@ -1704,6 +1920,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Выделить уточняющие вопросы"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sacar preguntas de seguimiento"
           }
         }
       }
@@ -1751,6 +1973,12 @@
             "state" : "translated",
             "value" : "Позже сформулируйте ответ своими словами и нажмите «?» перед вопросом, чтобы отметить его решённым. Усвоенное соберётся в сводке в меню «Вид»."
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Más tarde, redacta la respuesta con tus palabras y pulsa el ? junto a la pregunta para marcarla como resuelta. Lo que has aprendido se reúne en Resumen, en el menú Visualización."
+          }
         }
       }
     },
@@ -1796,6 +2024,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Оценить мой ответ"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Que califiquen mi respuesta"
           }
         }
       }
@@ -1844,6 +2078,12 @@
             "state" : "translated",
             "value" : "Удалить все мои данные разом"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Borrar todos tus datos de una vez"
+          }
         }
       }
     },
@@ -1889,6 +2129,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Запишите своими словами"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Escríbela con tus propias palabras"
           }
         }
       }
@@ -1936,6 +2182,12 @@
             "state" : "translated",
             "value" : "Отметить вопрос как нерешённый"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Marca la pregunta como sin resolver"
+          }
         }
       }
     },
@@ -1982,6 +2234,12 @@
             "state" : "translated",
             "value" : "Перейти к этому вопросу"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pulsa para ir a esta pregunta"
+          }
         }
       }
     },
@@ -2027,6 +2285,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Отметить вопрос как решённый"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Marca la pregunta como resuelta"
           }
         }
       }
@@ -2075,6 +2339,12 @@
             "state" : "translated",
             "value" : "Продолжайте работать с теми же лекциями и вопросами на другом Mac."
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sigue con las mismas clases y preguntas en cualquiera de tus Mac."
+          }
         }
       }
     },
@@ -2120,6 +2390,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Вернуть"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Volver a incluir"
           }
         }
       }
@@ -2167,6 +2443,12 @@
             "state" : "translated",
             "value" : "Вернуть в «Чему я научился»"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Volver a incluir en «Lo que he aprendido»"
+          }
         }
       }
     },
@@ -2212,6 +2494,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Закрыть"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cerrar"
           }
         }
       }
@@ -2259,6 +2547,12 @@
             "state" : "translated",
             "value" : "Ответ"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Respuesta"
+          }
         }
       }
     },
@@ -2304,6 +2598,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Переспросить ответ"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cuestionar la respuesta"
           }
         }
       }
@@ -2351,6 +2651,12 @@
             "state" : "translated",
             "value" : "Заметка с ответом пуста"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "La nota de la respuesta está vacía"
+          }
         }
       }
     },
@@ -2396,6 +2702,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Нет ответа"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sin respuesta"
           }
         }
       }
@@ -2443,6 +2755,12 @@
             "state" : "translated",
             "value" : "Найти ответ"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Buscar la respuesta"
+          }
         }
       }
     },
@@ -2488,6 +2806,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Запишите ответ и отметьте вопрос решённым"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Escribe la respuesta y márcala como resuelta"
           }
         }
       }
@@ -2536,6 +2860,12 @@
             "state" : "translated",
             "value" : "Всё остаётся читаемым при повышенной контрастности или если трудно различать цвета."
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Todo se sigue leyendo bien, incluso con más contraste o si te cuesta distinguir los colores."
+          }
         }
       }
     },
@@ -2582,6 +2912,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Приложение станет доступно на большем числе языков."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Usa la app en más idiomas."
           }
         }
       }
@@ -2630,6 +2966,12 @@
             "state" : "translated",
             "value" : "Больше языков"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Más idiomas"
+          }
         }
       }
     },
@@ -2675,6 +3017,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Что спросить"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Preguntas pendientes"
           }
         }
       }
@@ -2723,6 +3071,12 @@
             "state" : "translated",
             "value" : "Виджеты на рабочем столе"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Widgets de escritorio"
+          }
         }
       }
     },
@@ -2768,6 +3122,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Осмотреться"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Echar un vistazo"
           }
         }
       }
@@ -2815,6 +3175,12 @@
             "state" : "translated",
             "value" : "Импорт из Markdown…"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Importar desde Markdown…"
+          }
         }
       }
     },
@@ -2860,6 +3226,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Сначала напишите в поле ответа одну-две строки своими словами"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Primero escribe una o dos líneas con tus propias palabras en el campo de respuesta"
           }
         }
       }
@@ -2907,6 +3279,12 @@
             "state" : "translated",
             "value" : "Заметки"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Notas"
+          }
         }
       }
     },
@@ -2952,6 +3330,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Написать на почту"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Contactar por correo"
           }
         }
       }
@@ -2999,6 +3383,12 @@
             "state" : "translated",
             "value" : "Всё решено"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Todo resuelto"
+          }
         }
       }
     },
@@ -3044,6 +3434,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Когда будете писать нам, укажите версию macOS и что вы делали, когда возникла проблема — так мы разберёмся быстрее."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Al escribirnos, indica tu versión de macOS y qué estabas haciendo cuando surgió el problema; así podremos revisarlo más rápido."
           }
         }
       }
@@ -3091,6 +3487,12 @@
             "state" : "translated",
             "value" : "Не решён"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sin resolver"
+          }
         }
       }
     },
@@ -3136,6 +3538,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Не решён — нажмите, чтобы отметить решённым"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sin resolver — haz clic para marcarla resuelta"
           }
         }
       }
@@ -3183,6 +3591,12 @@
             "state" : "translated",
             "value" : "Показывать только нерешённые вопросы"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mostrar solo las preguntas sin resolver"
+          }
         }
       }
     },
@@ -3228,6 +3642,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Нерешённых вопросов нет"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No hay preguntas sin resolver"
           }
         }
       }
@@ -3275,6 +3695,12 @@
             "state" : "translated",
             "value" : "Только нерешённые"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Solo sin resolver"
+          }
         }
       }
     },
@@ -3320,6 +3746,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Что я хочу узнать"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lo que quiero aprender"
           }
         }
       }
@@ -3367,6 +3799,12 @@
             "state" : "translated",
             "value" : "Чему я научился"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lo que he aprendido"
+          }
         }
       }
     },
@@ -3413,6 +3851,12 @@
             "state" : "translated",
             "value" : "Включить в «Чему я научился»"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Incluir en «Lo que he aprendido»"
+          }
         }
       }
     },
@@ -3458,6 +3902,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Исключить из «Чему я научился» (ответ останется)"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Excluir de «Lo que he aprendido» (la respuesta se conserva)"
           }
         }
       }
@@ -3506,6 +3956,12 @@
             "state" : "translated",
             "value" : "Резервные копии и экспорт"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Copia de seguridad y exportación"
+          }
         }
       }
     },
@@ -3552,6 +4008,12 @@
             "state" : "translated",
             "value" : "Вид"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Visualización"
+          }
         }
       }
     },
@@ -3597,6 +4059,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "В меню «Вид» пункт «Сводка» (⌘1) покажет, что ещё спросить и чему вы научились, а «Граф» (⌘2) — как связаны ваши вопросы."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "En el menú Visualización, Resumen (⌘1) te muestra qué preguntar y qué has aprendido, y Grafo (⌘2) cómo se conectan tus preguntas."
           }
         }
       }
@@ -3645,6 +4113,12 @@
             "state" : "translated",
             "value" : "Удобные цвета и контраст"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Colores y contraste más cómodos"
+          }
         }
       }
     },
@@ -3690,6 +4164,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Заметки блока"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Notas del bloque"
           }
         }
       }
@@ -3737,6 +4217,12 @@
             "state" : "translated",
             "value" : "Удалить блок"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Eliminar bloque"
+          }
         }
       }
     },
@@ -3782,6 +4268,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Цвет блока"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Color del bloque"
           }
         }
       }
@@ -3829,6 +4321,12 @@
             "state" : "translated",
             "value" : "Параметры блока"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ajustes del bloque"
+          }
         }
       }
     },
@@ -3874,6 +4372,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Время начала блока"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hora de inicio del bloque"
           }
         }
       }
@@ -3921,6 +4425,12 @@
             "state" : "translated",
             "value" : "Добавить блок"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Añadir bloque"
+          }
         }
       }
     },
@@ -3966,6 +4476,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Блоков нет"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No hay bloques"
           }
         }
       }
@@ -4013,6 +4529,12 @@
             "state" : "translated",
             "value" : "Удалить"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Eliminar"
+          }
         }
       }
     },
@@ -4058,6 +4580,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Новая лекция"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Clase nueva"
           }
         }
       }
@@ -4105,6 +4633,12 @@
             "state" : "translated",
             "value" : "Новый уточняющий вопрос — нажмите Return, чтобы добавить"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nueva pregunta de seguimiento — pulsa Intro para añadirla"
+          }
         }
       }
     },
@@ -4150,6 +4684,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Цвет"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Color"
           }
         }
       }
@@ -4197,6 +4737,12 @@
             "state" : "translated",
             "value" : "Настройки"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ajustes"
+          }
         }
       }
     },
@@ -4243,6 +4789,12 @@
             "state" : "translated",
             "value" : "Начало"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Inicio"
+          }
         }
       }
     },
@@ -4288,6 +4840,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Время"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Momento"
           }
         }
       }
@@ -4336,6 +4894,12 @@
             "state" : "translated",
             "value" : "Напомним вовремя о вопросах, на которые вы ещё не нашли ответ."
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Recibe un aviso a tiempo sobre las preguntas que aún no has respondido."
+          }
         }
       }
     },
@@ -4382,6 +4946,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Напоминания"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Recordatorios"
           }
         }
       }
@@ -4430,6 +5000,12 @@
             "state" : "translated",
             "value" : "Смотрите оставшиеся вопросы прямо на рабочем столе, не открывая приложение."
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Consulta tus preguntas abiertas en el escritorio sin abrir la app."
+          }
         }
       }
     },
@@ -4476,6 +5052,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Приложением можно пользоваться и на английском."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Usa toda la app en inglés."
           }
         }
       }
@@ -4524,6 +5106,12 @@
             "state" : "translated",
             "value" : "При первом запуске после обновления вы узнаете, что нового."
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "La primera vez que abras la app tras una actualización, verás qué hay de nuevo."
+          }
         }
       }
     },
@@ -4570,6 +5158,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Что нового"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Novedades"
           }
         }
       }
@@ -4618,6 +5212,12 @@
             "state" : "translated",
             "value" : "Синхронизация между Mac"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sincronización entre tus Mac"
+          }
         }
       }
     },
@@ -4664,6 +5264,12 @@
             "state" : "translated",
             "value" : "Отвязать (вопрос не будет удалён)"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Desvincular (la pregunta no se elimina)"
+          }
         }
       }
     },
@@ -4709,6 +5315,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Связаться с нами"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Contacto"
           }
         }
       }
@@ -4757,6 +5369,12 @@
             "state" : "translated",
             "value" : "Полная поддержка английского"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Compatibilidad total con inglés"
+          }
         }
       }
     },
@@ -4802,6 +5420,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Сводка"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Resumen"
           }
         }
       }
@@ -4849,6 +5473,12 @@
             "state" : "translated",
             "value" : "Сводка, граф, блоки времени, состояние обучения, размер текста"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Resumen, grafo, bloques de tiempo, estado de aprendizaje, tamaño del texto"
+          }
         }
       }
     },
@@ -4894,6 +5524,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Выберите, включать ли вопрос в список «Чему я научился» в сводке"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Elige si esta pregunta aparece en «Lo que he aprendido» del resumen"
           }
         }
       }
@@ -4942,6 +5578,12 @@
             "state" : "translated",
             "value" : "Уменьшение движения"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reducir movimiento"
+          }
         }
       }
     },
@@ -4989,6 +5631,12 @@
             "state" : "translated",
             "value" : "При включённом уменьшении движения эффекты на экране становятся спокойнее."
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Con Reducir movimiento activado, los efectos en pantalla son más suaves."
+          }
         }
       }
     },
@@ -5034,6 +5682,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Исходный вопрос"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pregunta original"
           }
         }
       }
@@ -5082,6 +5736,12 @@
             "state" : "translated",
             "value" : "При желании можно стереть все лекции и вопросы прямо в приложении."
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cuando quieras, borra todas tus clases y preguntas desde la propia app."
+          }
         }
       }
     },
@@ -5127,6 +5787,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Что я хочу уметь, когда пойму эту лекцию целиком…"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Qué quiero ser capaz de hacer cuando entienda esta clase…"
           }
         }
       }
@@ -5174,6 +5840,12 @@
             "state" : "translated",
             "value" : "Что я знаю до лекции или на данный момент, где застреваю…"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lo que sé antes de esta clase o hasta ahora, y dónde me atasco…"
+          }
         }
       }
     },
@@ -5219,6 +5891,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Что я хочу вынести из этой лекции, какие темы интересны…"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lo que más quiero sacar de esta clase, temas que me intrigan…"
           }
         }
       }
@@ -5266,6 +5944,12 @@
             "state" : "translated",
             "value" : "Удалить этот блок? Заметки в нём тоже будут удалены."
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "¿Eliminar este bloque? Sus notas también se borrarán."
+          }
         }
       }
     },
@@ -5311,6 +5995,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Изменить цвет, время начала и длительность блока или удалить его"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cambia el color, la hora de inicio y la duración de este bloque, o elimínalo"
           }
         }
       }
@@ -5358,6 +6048,12 @@
             "state" : "translated",
             "value" : "Запишите, что вы узнали за это время и что хотите запомнить…"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Anota lo que aprendiste en este tramo y lo que quieres recordar…"
+          }
         }
       }
     },
@@ -5403,6 +6099,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Перейти к этому вопросу"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ir a esta pregunta"
           }
         }
       }
@@ -5450,6 +6152,12 @@
             "state" : "translated",
             "value" : "Запишите ответ на этот вопрос своими словами"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Escribe la respuesta a esta pregunta con tus propias palabras"
+          }
         }
       }
     },
@@ -5495,6 +6203,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Новости в Instagram"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Novedades en Instagram"
           }
         }
       }
@@ -5542,6 +6256,12 @@
             "state" : "translated",
             "value" : "Мельче"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Más pequeño"
+          }
         }
       }
     },
@@ -5587,6 +6307,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Создано: %@"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Creada: %@"
           }
         }
       }
@@ -5634,6 +6360,12 @@
             "state" : "translated",
             "value" : "Сохранить"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Guardar"
+          }
         }
       }
     },
@@ -5679,6 +6411,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Сохранить и продолжить"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Guardar y continuar"
           }
         }
       }
@@ -5726,6 +6464,12 @@
             "state" : "translated",
             "value" : "Исключить"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Excluir"
+          }
         }
       }
     },
@@ -5771,6 +6515,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Исключённые ответы"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Respuestas excluidas"
           }
         }
       }
@@ -5818,6 +6568,12 @@
             "state" : "translated",
             "value" : "Сейчас"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ahora"
+          }
         }
       }
     },
@@ -5863,6 +6619,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Где я сейчас"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cómo estoy ahora"
           }
         }
       }
@@ -5910,6 +6672,12 @@
             "state" : "translated",
             "value" : "Поддержка"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Soporte"
+          }
         }
       }
     },
@@ -5955,6 +6723,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Вопрос"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pregunta"
           }
         }
       }
@@ -6002,6 +6776,12 @@
             "state" : "translated",
             "value" : "Вопросов: %lld · Спросить: %lld · Усвоено: %lld · Уточнений: %lld"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Preguntas %lld · Por preguntar %lld · Aprendido %lld · Preguntas de seguimiento %lld"
+          }
         }
       }
     },
@@ -6047,6 +6827,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Открывает «Заметки с вопросами» и показывает окно, чтобы записать вопрос к текущей лекции."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Abre Notas de Preguntas y muestra una ventana para escribir una pregunta de la clase que estás viendo."
           }
         }
       }
@@ -6094,6 +6880,12 @@
             "state" : "translated",
             "value" : "Добро пожаловать в «Заметки с вопросами»"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Te damos la bienvenida a Notas de Preguntas"
+          }
         }
       }
     },
@@ -6139,6 +6931,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Уточнить вопрос"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pulir la pregunta"
           }
         }
       }
@@ -6186,6 +6984,12 @@
             "state" : "translated",
             "value" : "Добавить вопрос"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Añadir pregunta"
+          }
         }
       }
     },
@@ -6231,6 +7035,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Добавить вопрос (⌘⇧N)"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Añadir pregunta (⌘⇧N)"
           }
         }
       }
@@ -6278,6 +7088,12 @@
             "state" : "translated",
             "value" : "Выберите вопрос"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Selecciona una pregunta"
+          }
         }
       }
     },
@@ -6323,6 +7139,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Вопросы, отмеченные решёнными, соберутся здесь"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Las preguntas que marques como resueltas aparecerán aquí"
           }
         }
       }
@@ -6370,6 +7192,12 @@
             "state" : "translated",
             "value" : "Пора оглянуться на накопившиеся вопросы"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ya hay varias preguntas: échales un vistazo"
+          }
         }
       }
     },
@@ -6415,6 +7243,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Создать первую лекцию"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Crear mi primera clase"
           }
         }
       }
@@ -6462,6 +7296,12 @@
             "state" : "translated",
             "value" : "Уменьшить"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reducir"
+          }
         }
       }
     },
@@ -6508,6 +7348,12 @@
             "state" : "translated",
             "value" : "Отмена"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cancelar"
+          }
         }
       }
     },
@@ -6553,6 +7399,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Крупнее"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Más grande"
           }
         }
       }
@@ -6601,6 +7453,12 @@
             "state" : "translated",
             "value" : "Экраны для крупного текста"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pantallas adaptadas a texto grande"
+          }
         }
       }
     },
@@ -6646,6 +7504,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Блоки времени"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bloques de tiempo"
           }
         }
       }
@@ -6693,6 +7557,12 @@
             "state" : "translated",
             "value" : "Добавьте новую лекцию в меню лекций слева на панели инструментов или импортируйте диалог из файла Markdown."
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Añade una clase nueva desde el menú de clases, a la izquierda de la barra de herramientas, o importa un archivo Markdown con una conversación."
+          }
         }
       }
     },
@@ -6738,6 +7608,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Состояние обучения"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Estado de aprendizaje"
           }
         }
       }
@@ -6785,6 +7661,12 @@
             "state" : "translated",
             "value" : "Каким я хочу стать в конце"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cómo quiero estar al terminar"
+          }
         }
       }
     },
@@ -6830,6 +7712,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Решён"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Resuelta"
           }
         }
       }
@@ -6877,6 +7765,12 @@
             "state" : "translated",
             "value" : "Статус решения"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Estado de resolución"
+          }
         }
       }
     },
@@ -6922,6 +7816,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Решён"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Resuelta"
           }
         }
       }
@@ -6969,6 +7869,12 @@
             "state" : "translated",
             "value" : "Решён — нажмите, чтобы вернуть в нерешённые"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Resuelta — haz clic para marcarla sin resolver"
+          }
         }
       }
     },
@@ -7015,6 +7921,12 @@
             "state" : "translated",
             "value" : "Отвязать"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Desvincular"
+          }
         }
       }
     },
@@ -7060,6 +7972,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Удалить текущую лекцию"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Eliminar la clase actual"
           }
         }
       }
@@ -7108,6 +8026,12 @@
             "state" : "translated",
             "value" : "VoiceOver читает все кнопки и заметки в правильном порядке."
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "VoiceOver lee todos los botones y notas en el orden correcto."
+          }
         }
       }
     },
@@ -7153,6 +8077,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "По размеру окна"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ajustar a la ventana"
           }
         }
       }
@@ -7200,6 +8130,12 @@
             "state" : "translated",
             "value" : "Увеличить"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ampliar"
+          }
         }
       }
     },
@@ -7242,6 +8178,12 @@
           }
         },
         "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OK"
+          }
+        },
+        "es" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "OK"

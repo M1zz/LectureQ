@@ -44,6 +44,12 @@
             "state" : "translated",
             "value" : "LectureQ"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "LectureQ"
+          }
         }
       }
     },
@@ -86,6 +92,12 @@
           }
         },
         "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "LectureQ"
+          }
+        },
+        "es" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "LectureQ"

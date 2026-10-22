@@ -46,3 +46,9 @@ App Storeの紹介文とスクリーンショットを刷新
 Дата и время — в формате вашего языка
 Обновили тексты и скриншоты App Store
 Обновили страницы поддержки и защиты
+
+### 앱스토어 (es)
+
+Fecha y hora en el formato de tu idioma
+Textos y capturas de la App Store nuevos
+Soporte y privacidad, páginas renovadas
