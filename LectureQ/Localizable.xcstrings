@@ -74,6 +74,12 @@
             "state" : "translated",
             "value" : "\n\n\n—\nVersão do app: %@ (%@)\nmacOS: %@"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "\n\n\n—\nเวอร์ชันแอป: %@ (%@)\nmacOS: %@"
+          }
         }
       }
     },
@@ -149,6 +155,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "“%@” copiado"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "คัดลอก “%@” แล้ว"
           }
         }
       }
@@ -226,6 +238,12 @@
             "state" : "translated",
             "value" : "Passo %lld, %@. %@"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ขั้นที่ %lld, %@. %@"
+          }
         }
       }
     },
@@ -301,6 +319,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld min"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld นาที"
           }
         }
       }
@@ -378,6 +402,12 @@
             "state" : "translated",
             "value" : "Copiar prompt de IA"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "คัดลอกพรอมต์ AI"
+          }
         }
       }
     },
@@ -453,6 +483,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Guia: encontre respostas com IA"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "คู่มือ: หาคำตอบด้วย AI"
           }
         }
       }
@@ -531,6 +567,12 @@
             "state" : "translated",
             "value" : "Bloqueio com Touch ID"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ล็อกด้วย Touch ID"
+          }
         }
       }
     },
@@ -607,6 +649,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bloqueie o app com Touch ID para manter suas anotações privadas."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ล็อกแอปด้วย Touch ID เพื่อปกป้องสมุดบันทึกคำถามของคุณ"
           }
         }
       }
@@ -685,6 +733,12 @@
             "state" : "translated",
             "value" : "Mais conforto com o VoiceOver"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ใช้งานกับ VoiceOver ได้สะดวกขึ้น"
+          }
         }
       }
     },
@@ -760,6 +814,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "[%@] Contato"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "[%@] สอบถาม"
           }
         }
       }
@@ -837,6 +897,12 @@
             "state" : "translated",
             "value" : "Pressione ⌘⇧N para adicionar uma pergunta"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "กด ⌘⇧N เพื่อเพิ่มคำถาม"
+          }
         }
       }
     },
@@ -912,6 +978,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Abrir guia"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เปิดคู่มือ"
           }
         }
       }
@@ -989,6 +1061,12 @@
             "state" : "translated",
             "value" : "Falha na importação"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "นำเข้าไม่สำเร็จ"
+          }
         }
       }
     },
@@ -1064,6 +1142,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Conversa importada"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "บทสนทนาที่นำเข้า"
           }
         }
       }
@@ -1141,6 +1225,12 @@
             "state" : "translated",
             "value" : "Copia para a área de transferência um prompt com o contexto da sua aula"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "คัดลอกพรอมต์ที่ใส่บริบทของบทเรียนไปยังคลิปบอร์ด"
+          }
         }
       }
     },
@@ -1216,6 +1306,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Escolher aula"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เลือกบทเรียน"
           }
         }
       }
@@ -1293,6 +1389,12 @@
             "state" : "translated",
             "value" : "Momento da aula"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เวลาในบทเรียน"
+          }
         }
       }
     },
@@ -1368,6 +1470,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Momento da aula (24 horas, HH:mm)"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เวลาในบทเรียน (24 ชั่วโมง HH:mm)"
           }
         }
       }
@@ -1445,6 +1553,12 @@
             "state" : "translated",
             "value" : "Momento da aula (24 horas, HH:mm). Se apagar, a pergunta é salva sem momento"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เวลาในบทเรียน (24 ชั่วโมง HH:mm) หากลบออกจะบันทึกโดยไม่มีเวลา"
+          }
         }
       }
     },
@@ -1520,6 +1634,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sem aula"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ไม่มีบทเรียน"
           }
         }
       }
@@ -1597,6 +1717,12 @@
             "state" : "translated",
             "value" : "Nome da aula"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ชื่อบทเรียน"
+          }
         }
       }
     },
@@ -1672,6 +1798,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Um caderno que guarda as perguntas que surgem durante a aula, para você respondê-las depois com suas próprias palavras."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "สมุดที่เก็บคำถามที่เกิดระหว่างเรียนไว้ เพื่อให้ตอบด้วยคำพูดของตัวเองได้ภายหลัง"
           }
         }
       }
@@ -1749,6 +1881,12 @@
             "state" : "translated",
             "value" : "Adicionar aula"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เพิ่มบทเรียน"
+          }
         }
       }
     },
@@ -1824,6 +1962,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Anote com palavras bem simples a pergunta que surgir durante a aula. O momento é preenchido com a hora atual."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "จดคำถามที่ผุดขึ้นระหว่างเรียนด้วยคำง่ายๆ เวลาจะถูกใส่เป็นเวลาปัจจุบันให้เอง"
           }
         }
       }
@@ -1901,6 +2045,12 @@
             "state" : "translated",
             "value" : "Crie uma aula"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "สร้างบทเรียน"
+          }
         }
       }
     },
@@ -1976,6 +2126,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Selecione uma aula"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เลือกบทเรียน"
           }
         }
       }
@@ -2054,6 +2210,12 @@
             "state" : "translated",
             "value" : "Salve suas aulas e perguntas em um arquivo e recupere-as depois."
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "บันทึกบทเรียนและคำถามเป็นไฟล์ แล้วนำกลับมาใช้ได้ภายหลัง"
+          }
         }
       }
     },
@@ -2129,6 +2291,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bateu uma dúvida? Pressione ⌘⇧N"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "สงสัยก็กด ⌘⇧N"
           }
         }
       }
@@ -2206,6 +2374,12 @@
             "state" : "translated",
             "value" : "Escreva o que você está se perguntando, com as palavras mais simples…"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เขียนสิ่งที่สงสัยด้วยคำง่ายๆ ให้มากที่สุด…"
+          }
         }
       }
     },
@@ -2282,6 +2456,12 @@
             "state" : "translated",
             "value" : "Grafo"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "กราฟ"
+          }
         }
       }
     },
@@ -2357,6 +2537,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tamanho do texto (%lld%%)"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ขนาดตัวอักษร (%lld%%)"
           }
         }
       }
@@ -2435,6 +2621,12 @@
             "state" : "translated",
             "value" : "Ao aumentar o texto, as telas se reorganizam sem cortar nada."
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เมื่อขยายตัวอักษร หน้าจอจะจัดเรียงใหม่โดยไม่ถูกตัด"
+          }
         }
       }
     },
@@ -2510,6 +2702,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Duração"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ระยะเวลา"
           }
         }
       }
@@ -2587,6 +2785,12 @@
             "state" : "translated",
             "value" : "Tamanho padrão"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ขนาดเริ่มต้น"
+          }
         }
       }
     },
@@ -2662,6 +2866,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vincular uma pergunta existente como acompanhamento"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เชื่อมคำถามที่มีอยู่เป็นคำถามต่อยอด"
           }
         }
       }
@@ -2739,6 +2949,12 @@
             "state" : "translated",
             "value" : "Perguntas de acompanhamento"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "คำถามต่อยอด"
+          }
         }
       }
     },
@@ -2814,6 +3030,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Extrair perguntas de acompanhamento"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "สกัดคำถามต่อยอด"
           }
         }
       }
@@ -2891,6 +3113,12 @@
             "state" : "translated",
             "value" : "Depois, escreva a resposta com suas palavras e clique no ? antes da pergunta para marcá-la como resolvida. O que você aprendeu se reúne em Resumo, no menu Visualização."
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ภายหลังให้สรุปคำตอบด้วยคำพูดของตัวเอง แล้วคลิกเครื่องหมาย ? หน้าคำถามเพื่อเปลี่ยนเป็นได้คำตอบแล้ว สิ่งที่เรียนรู้จะรวมกันในสรุปของเมนูมุมมอง"
+          }
         }
       }
     },
@@ -2966,6 +3194,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pedir nota para minha resposta"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ให้ AI ตรวจคำตอบของฉัน"
           }
         }
       }
@@ -3044,6 +3278,12 @@
             "state" : "translated",
             "value" : "Apagar todos os seus dados de uma vez"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ลบข้อมูลของฉันทั้งหมดในครั้งเดียว"
+          }
         }
       }
     },
@@ -3119,6 +3359,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Escreva com suas palavras"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "จดด้วยคำพูดของตัวเอง"
           }
         }
       }
@@ -3196,6 +3442,12 @@
             "state" : "translated",
             "value" : "Marca a pergunta como não resolvida"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ทำเครื่องหมายคำถามนี้ว่ายังไม่ได้คำตอบ"
+          }
         }
       }
     },
@@ -3272,6 +3524,12 @@
             "state" : "translated",
             "value" : "Toque para ir a esta pergunta"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "แตะเพื่อไปที่คำถามนี้"
+          }
         }
       }
     },
@@ -3347,6 +3605,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Marca a pergunta como resolvida"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ทำเครื่องหมายคำถามนี้ว่าได้คำตอบแล้ว"
           }
         }
       }
@@ -3425,6 +3689,12 @@
             "state" : "translated",
             "value" : "Continue com as mesmas aulas e perguntas em qualquer um dos seus Macs."
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ใช้บทเรียนและคำถามชุดเดิมต่อบน Mac เครื่องอื่นได้"
+          }
         }
       }
     },
@@ -3500,6 +3770,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Incluir de novo"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ใส่กลับ"
           }
         }
       }
@@ -3577,6 +3853,12 @@
             "state" : "translated",
             "value" : "Incluir de novo em “O que aprendi”"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ใส่กลับใน “สิ่งที่เรียนรู้”"
+          }
         }
       }
     },
@@ -3652,6 +3934,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Fechar"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ปิด"
           }
         }
       }
@@ -3729,6 +4017,12 @@
             "state" : "translated",
             "value" : "Resposta"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "คำตอบ"
+          }
         }
       }
     },
@@ -3804,6 +4098,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Questionar a resposta"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ถามย้อนคำตอบ"
           }
         }
       }
@@ -3881,6 +4181,12 @@
             "state" : "translated",
             "value" : "A anotação da resposta está vazia"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "บันทึกคำตอบยังว่างอยู่"
+          }
         }
       }
     },
@@ -3956,6 +4262,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sem resposta"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ยังไม่มีคำตอบ"
           }
         }
       }
@@ -4033,6 +4345,12 @@
             "state" : "translated",
             "value" : "Buscar a resposta"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "หาคำตอบ"
+          }
         }
       }
     },
@@ -4108,6 +4426,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Escreva a resposta e marque como resolvida"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "จดคำตอบแล้วทำเครื่องหมายว่าได้คำตอบ"
           }
         }
       }
@@ -4186,6 +4510,12 @@
             "state" : "translated",
             "value" : "Tudo continua legível, mesmo com mais contraste ou se for difícil distinguir as cores."
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "อ่านเนื้อหาได้ชัดเจน แม้เปิดเพิ่มความคมชัดหรือแยกสีได้ยาก"
+          }
         }
       }
     },
@@ -4262,6 +4592,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Use o app em mais idiomas."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ใช้แอปได้หลายภาษามากขึ้น"
           }
         }
       }
@@ -4340,6 +4676,12 @@
             "state" : "translated",
             "value" : "Mais idiomas"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ภาษาเพิ่มเติม"
+          }
         }
       }
     },
@@ -4415,6 +4757,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Perguntas a fazer"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "คำถามที่ต้องถาม"
           }
         }
       }
@@ -4493,6 +4841,12 @@
             "state" : "translated",
             "value" : "Widgets de mesa"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "วิดเจ็ตบนเดสก์ท็อป"
+          }
         }
       }
     },
@@ -4568,6 +4922,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Dar uma olhada"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ลองดูก่อน"
           }
         }
       }
@@ -4645,6 +5005,12 @@
             "state" : "translated",
             "value" : "Importar de Markdown…"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "นำเข้าจาก Markdown…"
+          }
         }
       }
     },
@@ -4720,6 +5086,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Primeiro escreva uma ou duas linhas com suas palavras no campo de resposta"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "กรุณาเขียนสั้นๆ หนึ่งถึงสองบรรทัดด้วยคำพูดของตัวเองในช่องคำตอบก่อน"
           }
         }
       }
@@ -4797,6 +5169,12 @@
             "state" : "translated",
             "value" : "Anotações"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "บันทึก"
+          }
         }
       }
     },
@@ -4872,6 +5250,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Fale por e-mail"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ติดต่อทางอีเมล"
           }
         }
       }
@@ -4949,6 +5333,12 @@
             "state" : "translated",
             "value" : "Tudo resolvido"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ได้คำตอบครบแล้ว"
+          }
         }
       }
     },
@@ -5024,6 +5414,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ao nos escrever, informe a versão do macOS e o que você estava fazendo quando o problema ocorreu, assim conseguimos verificar mais rápido."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เมื่อติดต่อเรา โปรดระบุเวอร์ชัน macOS และสิ่งที่ทำอยู่ตอนเกิดปัญหา เราจะตรวจสอบได้เร็วขึ้น"
           }
         }
       }
@@ -5101,6 +5497,12 @@
             "state" : "translated",
             "value" : "Não resolvida"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ยังไม่ได้คำตอบ"
+          }
         }
       }
     },
@@ -5176,6 +5578,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Não resolvida — clique para marcar como resolvida"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ยังไม่ได้คำตอบ — คลิกเพื่อเปลี่ยนเป็นได้คำตอบแล้ว"
           }
         }
       }
@@ -5253,6 +5661,12 @@
             "state" : "translated",
             "value" : "Mostrar apenas perguntas não resolvidas"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "แสดงเฉพาะคำถามที่ยังไม่ได้คำตอบ"
+          }
         }
       }
     },
@@ -5328,6 +5742,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nenhuma pergunta não resolvida"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ไม่มีคำถามที่ยังไม่ได้คำตอบ"
           }
         }
       }
@@ -5405,6 +5825,12 @@
             "state" : "translated",
             "value" : "Só não resolvidas"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เฉพาะที่ยังไม่ได้คำตอบ"
+          }
         }
       }
     },
@@ -5480,6 +5906,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "O que quero aprender"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "สิ่งที่อยากเรียนรู้"
           }
         }
       }
@@ -5557,6 +5989,12 @@
             "state" : "translated",
             "value" : "O que aprendi"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "สิ่งที่เรียนรู้"
+          }
         }
       }
     },
@@ -5633,6 +6071,12 @@
             "state" : "translated",
             "value" : "Incluir em “O que aprendi”"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "รวมใน “สิ่งที่เรียนรู้”"
+          }
         }
       }
     },
@@ -5708,6 +6152,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Excluir de “O que aprendi” (a resposta continua)"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ไม่รวมใน “สิ่งที่เรียนรู้” (คำตอบยังอยู่)"
           }
         }
       }
@@ -5786,6 +6236,12 @@
             "state" : "translated",
             "value" : "Backup e exportação"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "สำรองข้อมูลและส่งออก"
+          }
         }
       }
     },
@@ -5862,6 +6318,12 @@
             "state" : "translated",
             "value" : "Visualização"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "มุมมอง"
+          }
         }
       }
     },
@@ -5937,6 +6399,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "No menu Visualização, Resumo (⌘1) mostra o que perguntar e o que você aprendeu, e Grafo (⌘2) mostra como suas perguntas se conectam."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ในเมนูมุมมอง “สรุป” (⌘1) แสดงสิ่งที่ยังต้องถามและสิ่งที่เรียนรู้ ส่วน “กราฟ” (⌘2) แสดงความเชื่อมโยงระหว่างคำถามได้ในพริบตา"
           }
         }
       }
@@ -6015,6 +6483,12 @@
             "state" : "translated",
             "value" : "Cores e contraste mais confortáveis"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "สีและคอนทราสต์ที่อ่านสบายขึ้น"
+          }
         }
       }
     },
@@ -6090,6 +6564,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Anotações do bloco"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "บันทึกของช่วงเวลา"
           }
         }
       }
@@ -6167,6 +6647,12 @@
             "state" : "translated",
             "value" : "Excluir bloco"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ลบช่วงเวลา"
+          }
         }
       }
     },
@@ -6242,6 +6728,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Cor do bloco"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "สีของช่วงเวลา"
           }
         }
       }
@@ -6319,6 +6811,12 @@
             "state" : "translated",
             "value" : "Ajustes do bloco"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ตั้งค่าช่วงเวลา"
+          }
         }
       }
     },
@@ -6394,6 +6892,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Horário de início do bloco"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เวลาเริ่มของช่วงเวลา"
           }
         }
       }
@@ -6471,6 +6975,12 @@
             "state" : "translated",
             "value" : "Adicionar bloco"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เพิ่มช่วงเวลา"
+          }
         }
       }
     },
@@ -6546,6 +7056,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nenhum bloco"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ไม่มีช่วงเวลา"
           }
         }
       }
@@ -6623,6 +7139,12 @@
             "state" : "translated",
             "value" : "Excluir"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ลบ"
+          }
         }
       }
     },
@@ -6698,6 +7220,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nova aula"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "บทเรียนใหม่"
           }
         }
       }
@@ -6775,6 +7303,12 @@
             "state" : "translated",
             "value" : "Nova pergunta de acompanhamento — pressione Return para adicionar"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "คำถามต่อยอดใหม่ — กด Return เพื่อเพิ่ม"
+          }
         }
       }
     },
@@ -6850,6 +7384,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Cor"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "สี"
           }
         }
       }
@@ -6927,6 +7467,12 @@
             "state" : "translated",
             "value" : "Ajustes"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ตั้งค่า"
+          }
         }
       }
     },
@@ -7003,6 +7549,12 @@
             "state" : "translated",
             "value" : "Início"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เริ่ม"
+          }
         }
       }
     },
@@ -7078,6 +7630,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Momento"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ช่วงเวลา"
           }
         }
       }
@@ -7156,6 +7714,12 @@
             "state" : "translated",
             "value" : "Receba um aviso na hora certa sobre perguntas que ainda estão sem resposta."
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "แจ้งเตือนในเวลาที่เหมาะสมเกี่ยวกับคำถามที่ยังไม่ได้คำตอบ"
+          }
         }
       }
     },
@@ -7232,6 +7796,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Lembretes"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "การเตือน"
           }
         }
       }
@@ -7310,6 +7880,12 @@
             "state" : "translated",
             "value" : "Veja as perguntas em aberto direto na mesa, sem abrir o app."
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ดูคำถามที่เหลือบนเดสก์ท็อปได้เลยโดยไม่ต้องเปิดแอป"
+          }
         }
       }
     },
@@ -7386,6 +7962,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Use o app inteiro também em inglês."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ใช้ทั้งแอปเป็นภาษาอังกฤษได้"
           }
         }
       }
@@ -7464,6 +8046,12 @@
             "state" : "translated",
             "value" : "Na primeira vez que abrir o app após uma atualização, veja o que há de novo."
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เมื่อเปิดแอปครั้งแรกหลังอัปเดต จะบอกว่ามีอะไรใหม่"
+          }
         }
       }
     },
@@ -7540,6 +8128,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Novidades"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "มีอะไรใหม่"
           }
         }
       }
@@ -7618,6 +8212,12 @@
             "state" : "translated",
             "value" : "Sincronização entre seus Macs"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ซิงก์ข้าม Mac หลายเครื่อง"
+          }
         }
       }
     },
@@ -7694,6 +8294,12 @@
             "state" : "translated",
             "value" : "Desvincular (a pergunta não é excluída)"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ยกเลิกการเชื่อม (คำถามจะไม่ถูกลบ)"
+          }
         }
       }
     },
@@ -7769,6 +8375,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Fale com a gente"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ติดต่อเรา"
           }
         }
       }
@@ -7847,6 +8459,12 @@
             "state" : "translated",
             "value" : "Suporte completo ao inglês"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "รองรับภาษาอังกฤษเต็มรูปแบบ"
+          }
         }
       }
     },
@@ -7922,6 +8540,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Resumo"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "สรุป"
           }
         }
       }
@@ -7999,6 +8623,12 @@
             "state" : "translated",
             "value" : "Resumo, grafo, blocos de tempo, estado de aprendizado, tamanho do texto"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "สรุป กราฟ ช่วงเวลา สถานะการเรียนรู้ ขนาดตัวอักษร"
+          }
         }
       }
     },
@@ -8074,6 +8704,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Escolha se esta pergunta aparece em “O que aprendi” no resumo"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เลือกว่าจะใส่คำถามนี้ในรายการ “สิ่งที่เรียนรู้” ของสรุปหรือไม่"
           }
         }
       }
@@ -8152,6 +8788,12 @@
             "state" : "translated",
             "value" : "Reduzir movimento"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ลดการเคลื่อนไหว"
+          }
         }
       }
     },
@@ -8229,6 +8871,12 @@
             "state" : "translated",
             "value" : "Com Reduzir Movimento ativado, os efeitos na tela ficam mais suaves."
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เมื่อเปิดลดการเคลื่อนไหว เอฟเฟกต์บนหน้าจอจะนุ่มนวลขึ้น"
+          }
         }
       }
     },
@@ -8304,6 +8952,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pergunta original"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "คำถามตั้งต้น"
           }
         }
       }
@@ -8382,6 +9036,12 @@
             "state" : "translated",
             "value" : "Se quiser, apague todas as aulas e perguntas dentro do próprio app."
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "หากต้องการ ลบบทเรียนและคำถามทั้งหมดได้ในแอป"
+          }
         }
       }
     },
@@ -8457,6 +9117,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "O que quero ser capaz de fazer quando entender esta aula…"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เมื่อเข้าใจบทเรียนนี้ทั้งหมดแล้ว อยากทำอะไรได้บ้าง…"
           }
         }
       }
@@ -8534,6 +9200,12 @@
             "state" : "translated",
             "value" : "O que sei antes desta aula ou até agora, e onde travo…"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "สิ่งที่รู้ก่อนเรียนหรือจนถึงตอนนี้ และจุดที่ติดขัด…"
+          }
         }
       }
     },
@@ -8609,6 +9281,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "O que mais quero tirar desta aula, temas que me deixam curioso…"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "สิ่งที่อยากได้จากบทเรียนนี้ให้ได้ หัวข้อที่สงสัย…"
           }
         }
       }
@@ -8686,6 +9364,12 @@
             "state" : "translated",
             "value" : "Excluir este bloco? As anotações dele também serão excluídas."
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ลบช่วงเวลานี้ไหม บันทึกในช่วงเวลานี้จะถูกลบไปด้วย"
+          }
         }
       }
     },
@@ -8761,6 +9445,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Mude a cor, o horário de início e a duração deste bloco, ou exclua o bloco"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เปลี่ยนสี เวลาเริ่ม และระยะเวลาของช่วงเวลานี้ หรือลบทิ้ง"
           }
         }
       }
@@ -8838,6 +9528,12 @@
             "state" : "translated",
             "value" : "Anote o que você aprendeu neste intervalo e o que quer lembrar…"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "จดสิ่งที่เรียนรู้และสิ่งที่อยากจำในช่วงเวลานี้…"
+          }
         }
       }
     },
@@ -8913,6 +9609,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ir para esta pergunta"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ไปที่คำถามนี้"
           }
         }
       }
@@ -8990,6 +9692,12 @@
             "state" : "translated",
             "value" : "Escreva com suas palavras a resposta desta pergunta"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "สรุปคำตอบของคำถามนี้ด้วยคำพูดของตัวเอง"
+          }
         }
       }
     },
@@ -9065,6 +9773,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Novidades no Instagram"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ติดตามข่าวสารบน Instagram"
           }
         }
       }
@@ -9142,6 +9856,12 @@
             "state" : "translated",
             "value" : "Menor"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เล็กลง"
+          }
         }
       }
     },
@@ -9217,6 +9937,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Criada em %@"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "สร้างเมื่อ %@"
           }
         }
       }
@@ -9294,6 +10020,12 @@
             "state" : "translated",
             "value" : "Salvar"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "บันทึก"
+          }
         }
       }
     },
@@ -9369,6 +10101,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Salvar e continuar"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "บันทึกแล้วทำต่อ"
           }
         }
       }
@@ -9446,6 +10184,12 @@
             "state" : "translated",
             "value" : "Excluir"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ไม่รวม"
+          }
         }
       }
     },
@@ -9521,6 +10265,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Respostas excluídas"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "คำตอบที่ไม่รวม"
           }
         }
       }
@@ -9598,6 +10348,12 @@
             "state" : "translated",
             "value" : "Agora"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ตอนนี้"
+          }
         }
       }
     },
@@ -9673,6 +10429,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Como estou agora"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ตอนนี้ฉันอยู่ตรงไหน"
           }
         }
       }
@@ -9750,6 +10512,12 @@
             "state" : "translated",
             "value" : "Suporte"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ช่วยเหลือ"
+          }
         }
       }
     },
@@ -9825,6 +10593,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pergunta"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "คำถาม"
           }
         }
       }
@@ -9902,6 +10676,12 @@
             "state" : "translated",
             "value" : "Perguntas %lld · A perguntar %lld · Aprendido %lld · Perguntas de acompanhamento %lld"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "คำถาม %lld · ที่ต้องถาม %lld · เรียนรู้แล้ว %lld · คำถามต่อยอด %lld"
+          }
         }
       }
     },
@@ -9977,6 +10757,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Abre o Notas de Perguntas e mostra uma janela para escrever uma pergunta sobre a aula que você está vendo."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เปิดสมุดบันทึกคำถามและแสดงหน้าต่างให้จดคำถามของบทเรียนที่กำลังดูอยู่"
           }
         }
       }
@@ -10054,6 +10840,12 @@
             "state" : "translated",
             "value" : "Boas-vindas ao Notas de Perguntas"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ยินดีต้อนรับสู่สมุดบันทึกคำถาม"
+          }
         }
       }
     },
@@ -10129,6 +10921,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Lapidar a pergunta"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ขัดเกลาคำถาม"
           }
         }
       }
@@ -10206,6 +11004,12 @@
             "state" : "translated",
             "value" : "Adicionar pergunta"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เพิ่มคำถาม"
+          }
         }
       }
     },
@@ -10281,6 +11085,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Adicionar pergunta (⌘⇧N)"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เพิ่มคำถาม (⌘⇧N)"
           }
         }
       }
@@ -10358,6 +11168,12 @@
             "state" : "translated",
             "value" : "Selecione uma pergunta"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เลือกคำถาม"
+          }
         }
       }
     },
@@ -10433,6 +11249,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "As perguntas marcadas como resolvidas aparecem aqui"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "คำถามที่ทำเครื่องหมายว่าได้คำตอบแล้วจะมารวมกันที่นี่"
           }
         }
       }
@@ -10510,6 +11332,12 @@
             "state" : "translated",
             "value" : "As perguntas se acumularam: hora de revisar"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "คำถามสะสมแล้ว ลองย้อนดูหน่อย"
+          }
         }
       }
     },
@@ -10585,6 +11413,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Criar minha primeira aula"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "สร้างบทเรียนแรก"
           }
         }
       }
@@ -10662,6 +11496,12 @@
             "state" : "translated",
             "value" : "Diminuir"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ซูมออก"
+          }
         }
       }
     },
@@ -10738,6 +11578,12 @@
             "state" : "translated",
             "value" : "Cancelar"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ยกเลิก"
+          }
         }
       }
     },
@@ -10813,6 +11659,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Maior"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ใหญ่ขึ้น"
           }
         }
       }
@@ -10891,6 +11743,12 @@
             "state" : "translated",
             "value" : "Telas para texto grande"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "หน้าจอที่รองรับตัวอักษรขนาดใหญ่"
+          }
         }
       }
     },
@@ -10966,6 +11824,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Blocos de tempo"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ช่วงเวลา"
           }
         }
       }
@@ -11043,6 +11907,12 @@
             "state" : "translated",
             "value" : "Adicione uma aula nova pelo menu de aulas, à esquerda da barra de ferramentas, ou importe um arquivo Markdown de conversa."
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เพิ่มบทเรียนใหม่จากเมนูบทเรียนทางซ้ายของแถบเครื่องมือ หรือนำเข้าไฟล์ Markdown ของบทสนทนา"
+          }
         }
       }
     },
@@ -11118,6 +11988,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Estado de aprendizado"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "สถานะการเรียนรู้"
           }
         }
       }
@@ -11195,6 +12071,12 @@
             "state" : "translated",
             "value" : "Como quero estar no fim"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "สภาพที่อยากเป็นเมื่อเรียนจบ"
+          }
         }
       }
     },
@@ -11270,6 +12152,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Resolvida"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ได้คำตอบแล้ว"
           }
         }
       }
@@ -11347,6 +12235,12 @@
             "state" : "translated",
             "value" : "Status da resolução"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "สถานะการแก้ข้อสงสัย"
+          }
         }
       }
     },
@@ -11422,6 +12316,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Resolvida"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ได้คำตอบแล้ว"
           }
         }
       }
@@ -11499,6 +12399,12 @@
             "state" : "translated",
             "value" : "Resolvida — clique para marcar como não resolvida"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ได้คำตอบแล้ว — คลิกเพื่อเปลี่ยนเป็นยังไม่ได้คำตอบ"
+          }
         }
       }
     },
@@ -11575,6 +12481,12 @@
             "state" : "translated",
             "value" : "Desvincular"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ยกเลิกการเชื่อม"
+          }
         }
       }
     },
@@ -11650,6 +12562,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Excluir aula atual"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ลบบทเรียนนี้"
           }
         }
       }
@@ -11728,6 +12646,12 @@
             "state" : "translated",
             "value" : "O VoiceOver lê cada botão e anotação na ordem certa."
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "VoiceOver อ่านปุ่มและบันทึกทั้งหมดตามลำดับที่ถูกต้อง"
+          }
         }
       }
     },
@@ -11803,6 +12727,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ajustar à janela"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "พอดีหน้าต่าง"
           }
         }
       }
@@ -11880,6 +12810,12 @@
             "state" : "translated",
             "value" : "Aumentar"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ซูมเข้า"
+          }
         }
       }
     },
@@ -11955,6 +12891,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "OK"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ตกลง"
           }
         }
       }

@@ -76,3 +76,9 @@ Pagine di supporto e privacy rifatte
 Data e hora no formato do seu idioma
 Textos e capturas da App Store renovados
 Suporte e privacidade renovados
+
+### 앱스토어 (th)
+
+วันที่และเวลาแสดงตามรูปแบบภาษาของคุณ
+ปรับข้อความและภาพหน้าจอใน App Store ใหม่
+จัดหน้าช่วยเหลือและความเป็นส่วนตัวใหม่
