@@ -926,3 +926,69 @@ https://m1zz.github.io/LectureQ/privacy.html
 ### 마케팅 URL
 
 https://m1zz.github.io/LectureQ/
+
+## cs
+
+### 이름
+
+LectureQ: Otázky z přednášek
+
+### 부제
+
+Z pochybností znalosti
+
+### 키워드
+
+studium,zkouška,učení,opakování,seminář,univerzita,kurz,mindmapa,prompt,webinář,úkoly,diplomka
+
+### 프로모션 텍스트
+
+Pochybnost z přednášky zapíšete jednou zkratkou. Uloží se k poznámce z té chvíle a doplňující otázky s prompty pro AI vám pomohou najít odpověď a změnit ji v naučené.
+
+### 설명
+
+Studijní zápisník pro Mac, který nenechá otázky z přednášky zapadnout.
+Napište otázku jednoduše, uložte ji vedle poznámky z té chvíle, později najděte odpověď a shrňte ji vlastními slovy – stane se z ní něco, co jste se naučili.
+
+Rychlá otázka
+Okno pro zadání otevřete tlačítkem Přidat otázku na panelu nástrojů nebo zkratkou Command Shift N. Čas se doplní sám podle aktuální doby. Return otázku uloží, Command Return ji uloží a rovnou můžete psát další.
+
+Seznam otázek
+Doplňující otázky se řadí s odsazením pod původní otázku. Nevyřešené a vyřešené otázky se liší barvou a můžete zobrazit jen ty nevyřešené.
+
+Poznámky v časových blocích
+Rozdělte přednášku na několik časových bloků a zapisujte poznámky ke každému zvlášť. Otázky se zobrazí vedle bloku, do kterého patří, a kliknutím na ně na ně rovnou skočíte. Pokud otázku zapíšete v čase mimo bloky, blok se přidá sám.
+
+Detail otázky
+Na jednom místě spravujete, zda je otázka vyřešená, zda patří mezi to, co jste se naučili, čas, vlastní odpověď i původní a doplňující otázky.
+
+Hledání odpovědí s AI
+Pět kroků promptů – vylepšení otázky, nalezení odpovědi, zpochybnění odpovědi, vytěžení doplňujících otázek a ohodnocení vaší odpovědi – se zkopíruje do schránky s předvyplněným názvem přednášky a poznámkou z dané chvíle. Stačí je vložit do AI služby, kterou už používáte. Aplikace sama nic neodesílá ven.
+
+Vše na první pohled
+Souhrn přednášky shromažďuje jen otázky k položení, to, co jste se naučili, a vaše poznámky, takže si ho přečtete jako opakovací list. Graf ukazuje, jak se vaše myšlenky větvily od původních otázek k doplňujícím, a přehled časových bloků umožňuje projít v pořadí, co jste se kdy naučili.
+
+Stav učení
+Zapište, jací jste před přednáškou, jací chcete být po ní a co se chcete naučit, a porovnávejte.
+
+Import konverzace z Markdownu
+Importujte Markdown složený z názvu, oddílů a replik podle mluvčích a aplikace ho rozdělí na přednášku, otázky a odpovědi.
+
+Velikost textu změníte zkratkami Command plus a Command mínus.
+
+Soukromí
+Žádné účty a všechny záznamy zůstávají jen na tomto Macu.
+
+Vyžaduje macOS 14 nebo novější.
+
+### 지원 URL
+
+https://m1zz.github.io/LectureQ/support.html
+
+### 개인정보처리방침 URL
+
+https://m1zz.github.io/LectureQ/privacy.html
+
+### 마케팅 URL
+
+https://m1zz.github.io/LectureQ/

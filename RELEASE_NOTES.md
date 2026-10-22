@@ -88,3 +88,9 @@ Suporte e privacidade renovados
 Ngày giờ hiển thị theo ngôn ngữ của bạn
 Làm mới phần giới thiệu và ảnh App Store
 Làm mới trang hỗ trợ, quyền riêng tư
+
+### 앱스토어 (cs)
+
+Datum a čas ve formátu vašeho jazyka
+Nové texty a snímky v App Storu
+Nové stránky podpory a soukromí

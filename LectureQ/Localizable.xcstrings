@@ -86,6 +86,12 @@
             "state" : "translated",
             "value" : "\n\n\n—\nPhiên bản ứng dụng: %@ (%@)\nmacOS: %@"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "\n\n\n—\nVerze aplikace: %@ (%@)\nmacOS: %@"
+          }
         }
       }
     },
@@ -173,6 +179,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Đã sao chép “%@”"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zkopírováno: %@"
           }
         }
       }
@@ -262,6 +274,12 @@
             "state" : "translated",
             "value" : "Bước %lld, %@. %@"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Krok %lld, %@. %@"
+          }
         }
       }
     },
@@ -349,6 +367,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld phút"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld min"
           }
         }
       }
@@ -438,6 +462,12 @@
             "state" : "translated",
             "value" : "Sao chép prompt AI"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kopírovat prompt pro AI"
+          }
         }
       }
     },
@@ -525,6 +555,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hướng dẫn: tìm câu trả lời bằng AI"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Průvodce: hledání odpovědí s AI"
           }
         }
       }
@@ -615,6 +651,12 @@
             "state" : "translated",
             "value" : "Khóa bằng Touch ID"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zámek Touch ID"
+          }
         }
       }
     },
@@ -703,6 +745,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Khóa ứng dụng bằng Touch ID để giữ riêng tư cho sổ câu hỏi của bạn."
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zamkněte aplikaci pomocí Touch ID a udržte své zápisky v soukromí."
           }
         }
       }
@@ -793,6 +841,12 @@
             "state" : "translated",
             "value" : "Dùng VoiceOver thoải mái hơn"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pohodlnější práce s VoiceOverem"
+          }
         }
       }
     },
@@ -880,6 +934,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "[%@] Hỏi đáp"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "[%@] Dotaz"
           }
         }
       }
@@ -969,6 +1029,12 @@
             "state" : "translated",
             "value" : "Nhấn ⌘⇧N để thêm câu hỏi"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stisknutím ⌘⇧N přidáte otázku"
+          }
         }
       }
     },
@@ -1056,6 +1122,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Mở hướng dẫn"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Otevřít průvodce"
           }
         }
       }
@@ -1145,6 +1217,12 @@
             "state" : "translated",
             "value" : "Nhập không thành công"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Import se nezdařil"
+          }
         }
       }
     },
@@ -1232,6 +1310,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Cuộc trò chuyện đã nhập"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Importovaná konverzace"
           }
         }
       }
@@ -1321,6 +1405,12 @@
             "state" : "translated",
             "value" : "Sao chép vào bảng nhớ tạm một prompt đã điền bối cảnh bài giảng của bạn"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zkopíruje do schránky prompt s kontextem vaší přednášky"
+          }
         }
       }
     },
@@ -1408,6 +1498,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Chọn bài giảng"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vybrat přednášku"
           }
         }
       }
@@ -1497,6 +1593,12 @@
             "state" : "translated",
             "value" : "Thời điểm trong bài giảng"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Čas v přednášce"
+          }
         }
       }
     },
@@ -1584,6 +1686,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Thời điểm trong bài giảng (24 giờ, HH:mm)"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Čas v přednášce (24hodinový, HH:mm)"
           }
         }
       }
@@ -1673,6 +1781,12 @@
             "state" : "translated",
             "value" : "Thời điểm trong bài giảng (24 giờ, HH:mm). Nếu xóa, câu hỏi sẽ được lưu không kèm thời điểm"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Čas v přednášce (24hodinový, HH:mm). Po vymazání se uloží bez času"
+          }
         }
       }
     },
@@ -1760,6 +1874,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Chưa có bài giảng"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Žádná přednáška"
           }
         }
       }
@@ -1849,6 +1969,12 @@
             "state" : "translated",
             "value" : "Tên bài giảng"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Název přednášky"
+          }
         }
       }
     },
@@ -1936,6 +2062,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Cuốn sổ giữ lại những câu hỏi nảy ra trong lúc nghe giảng để sau này bạn trả lời bằng lời của mình."
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zápisník, který uchová otázky z přednášek, abyste na ně mohli později odpovědět vlastními slovy."
           }
         }
       }
@@ -2025,6 +2157,12 @@
             "state" : "translated",
             "value" : "Thêm bài giảng"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Přidat přednášku"
+          }
         }
       }
     },
@@ -2112,6 +2250,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hãy ghi lại câu hỏi nảy ra trong lúc nghe giảng bằng những từ đơn giản nhất. Thời điểm sẽ tự điền giờ hiện tại."
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Otázku, která vás napadne při přednášce, zapište co nejjednodušeji. Čas se vyplní aktuální dobou."
           }
         }
       }
@@ -2201,6 +2345,12 @@
             "state" : "translated",
             "value" : "Tạo một bài giảng"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vytvořte přednášku"
+          }
         }
       }
     },
@@ -2288,6 +2438,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hãy chọn một bài giảng"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vyberte přednášku"
           }
         }
       }
@@ -2378,6 +2534,12 @@
             "state" : "translated",
             "value" : "Lưu bài giảng và câu hỏi vào một tệp rồi nhập lại khi cần."
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ukládejte přednášky a otázky do souboru a později je načtěte zpět."
+          }
         }
       }
     },
@@ -2465,6 +2627,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Thắc mắc thì nhấn ⌘⇧N"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Napadla vás otázka? Stiskněte ⌘⇧N"
           }
         }
       }
@@ -2554,6 +2722,12 @@
             "state" : "translated",
             "value" : "Ghi điều bạn thắc mắc bằng những từ đơn giản nhất…"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Napište, co vás zajímá, co nejjednodušeji…"
+          }
         }
       }
     },
@@ -2642,6 +2816,12 @@
             "state" : "translated",
             "value" : "Biểu đồ"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Graf"
+          }
         }
       }
     },
@@ -2729,6 +2909,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Cỡ chữ (%lld%%)"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Velikost textu (%lld %%)"
           }
         }
       }
@@ -2819,6 +3005,12 @@
             "state" : "translated",
             "value" : "Khi phóng to chữ, màn hình tự sắp xếp lại thay vì bị cắt mất."
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Po zvětšení textu se obrazovky přeskupí, místo aby se oříznuly."
+          }
         }
       }
     },
@@ -2906,6 +3098,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Thời lượng"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Délka"
           }
         }
       }
@@ -2995,6 +3193,12 @@
             "state" : "translated",
             "value" : "Cỡ mặc định"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Výchozí velikost"
+          }
         }
       }
     },
@@ -3082,6 +3286,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Liên kết câu hỏi có sẵn làm câu hỏi nối tiếp"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Propojit existující otázku jako doplňující"
           }
         }
       }
@@ -3171,6 +3381,12 @@
             "state" : "translated",
             "value" : "Câu hỏi nối tiếp"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Doplňující otázky"
+          }
         }
       }
     },
@@ -3258,6 +3474,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Rút ra câu hỏi nối tiếp"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vytěžit doplňující otázky"
           }
         }
       }
@@ -3347,6 +3569,12 @@
             "state" : "translated",
             "value" : "Sau đó, hãy tóm tắt câu trả lời bằng lời của bạn rồi nhấp dấu ? trước câu hỏi để đánh dấu đã giải quyết. Điều đã học sẽ tập hợp trong Tóm tắt ở menu Hiển thị."
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Později odpověď shrňte vlastními slovy a kliknutím na ? před otázkou ji označte jako vyřešenou. To, co jste se naučili, se shromáždí v Souhrnu v nabídce Zobrazení."
+          }
         }
       }
     },
@@ -3434,6 +3662,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nhờ chấm điểm câu trả lời của tôi"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nechat ohodnotit mou odpověď"
           }
         }
       }
@@ -3524,6 +3758,12 @@
             "state" : "translated",
             "value" : "Xóa toàn bộ dữ liệu của tôi cùng lúc"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Smazat všechna moje data najednou"
+          }
         }
       }
     },
@@ -3611,6 +3851,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hãy ghi bằng lời của bạn"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Napište to vlastními slovy"
           }
         }
       }
@@ -3700,6 +3946,12 @@
             "state" : "translated",
             "value" : "Đánh dấu câu hỏi là chưa giải quyết"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Označí otázku jako nevyřešenou"
+          }
         }
       }
     },
@@ -3788,6 +4040,12 @@
             "state" : "translated",
             "value" : "Nhấn để đến câu hỏi này"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Přejde na tuto otázku"
+          }
         }
       }
     },
@@ -3875,6 +4133,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Đánh dấu câu hỏi là đã giải quyết"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Označí otázku jako vyřešenou"
           }
         }
       }
@@ -3965,6 +4229,12 @@
             "state" : "translated",
             "value" : "Tiếp tục dùng cùng các bài giảng và câu hỏi trên bất kỳ máy Mac nào của bạn."
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pokračujte se stejnými přednáškami a otázkami na kterémkoli ze svých Maců."
+          }
         }
       }
     },
@@ -4052,6 +4322,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Đưa lại vào"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vrátit"
           }
         }
       }
@@ -4141,6 +4417,12 @@
             "state" : "translated",
             "value" : "Đưa lại vào “Điều đã học”"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vrátit do „Co jsem se naučil(a)“"
+          }
         }
       }
     },
@@ -4228,6 +4510,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Đóng"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zavřít"
           }
         }
       }
@@ -4317,6 +4605,12 @@
             "state" : "translated",
             "value" : "Trả lời"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Odpověď"
+          }
         }
       }
     },
@@ -4404,6 +4698,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hỏi vặn câu trả lời"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zpochybnit odpověď"
           }
         }
       }
@@ -4493,6 +4793,12 @@
             "state" : "translated",
             "value" : "Ghi chú câu trả lời đang trống"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Poznámka k odpovědi je prázdná"
+          }
         }
       }
     },
@@ -4580,6 +4886,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Chưa có câu trả lời"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bez odpovědi"
           }
         }
       }
@@ -4669,6 +4981,12 @@
             "state" : "translated",
             "value" : "Tìm câu trả lời"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Najít odpověď"
+          }
         }
       }
     },
@@ -4756,6 +5074,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ghi câu trả lời và đánh dấu đã giải quyết"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Napište odpověď a označte otázku jako vyřešenou"
           }
         }
       }
@@ -4846,6 +5170,12 @@
             "state" : "translated",
             "value" : "Nội dung vẫn dễ đọc, kể cả khi bật tăng độ tương phản hoặc khó phân biệt màu."
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vše zůstane čitelné, i když zapnete vyšší kontrast nebo hůř rozlišujete barvy."
+          }
         }
       }
     },
@@ -4934,6 +5264,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Dùng ứng dụng bằng nhiều ngôn ngữ hơn."
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Používejte aplikaci ve více jazycích."
           }
         }
       }
@@ -5024,6 +5360,12 @@
             "state" : "translated",
             "value" : "Thêm ngôn ngữ"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Více jazyků"
+          }
         }
       }
     },
@@ -5111,6 +5453,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Câu hỏi cần hỏi"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Otázky k položení"
           }
         }
       }
@@ -5201,6 +5549,12 @@
             "state" : "translated",
             "value" : "Tiện ích trên màn hình nền"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Widgety na ploše"
+          }
         }
       }
     },
@@ -5288,6 +5642,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Xem thử"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rozhlédnout se"
           }
         }
       }
@@ -5377,6 +5737,12 @@
             "state" : "translated",
             "value" : "Nhập từ Markdown…"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Importovat z Markdownu…"
+          }
         }
       }
     },
@@ -5464,6 +5830,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Trước hết hãy viết một hai dòng bằng lời của bạn vào ô trả lời"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nejdřív do pole odpovědi napište vlastními slovy řádek nebo dva"
           }
         }
       }
@@ -5553,6 +5925,12 @@
             "state" : "translated",
             "value" : "Ghi chú"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Poznámky"
+          }
         }
       }
     },
@@ -5640,6 +6018,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Liên hệ qua email"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Napsat e-mail"
           }
         }
       }
@@ -5729,6 +6113,12 @@
             "state" : "translated",
             "value" : "Đã giải quyết hết"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vše je vyřešeno"
+          }
         }
       }
     },
@@ -5816,6 +6206,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Khi nhắn cho chúng tôi, hãy cho biết phiên bản macOS và thao tác bạn đang làm lúc gặp sự cố để chúng tôi kiểm tra nhanh hơn."
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Když nám píšete, uveďte verzi macOS a co jste dělali, když nastal problém. Pomůže nám to rychleji ho prověřit."
           }
         }
       }
@@ -5905,6 +6301,12 @@
             "state" : "translated",
             "value" : "Chưa giải quyết"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nevyřešeno"
+          }
         }
       }
     },
@@ -5992,6 +6394,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Chưa giải quyết — nhấp để đổi thành đã giải quyết"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nevyřešeno — kliknutím změníte na vyřešeno"
           }
         }
       }
@@ -6081,6 +6489,12 @@
             "state" : "translated",
             "value" : "Chỉ hiện các câu hỏi chưa giải quyết"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zobrazit jen nevyřešené otázky"
+          }
         }
       }
     },
@@ -6168,6 +6582,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Không có câu hỏi nào chưa giải quyết"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Žádné nevyřešené otázky"
           }
         }
       }
@@ -6257,6 +6677,12 @@
             "state" : "translated",
             "value" : "Chỉ chưa giải quyết"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jen nevyřešené"
+          }
         }
       }
     },
@@ -6344,6 +6770,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Điều tôi muốn học"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Co se chci naučit"
           }
         }
       }
@@ -6433,6 +6865,12 @@
             "state" : "translated",
             "value" : "Điều đã học"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Co jsem se naučil(a)"
+          }
         }
       }
     },
@@ -6521,6 +6959,12 @@
             "state" : "translated",
             "value" : "Đưa vào “Điều đã học”"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zahrnout do „Co jsem se naučil(a)“"
+          }
         }
       }
     },
@@ -6608,6 +7052,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Loại khỏi “Điều đã học” (câu trả lời vẫn còn)"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vyřadit z „Co jsem se naučil(a)“ (odpověď zůstane)"
           }
         }
       }
@@ -6698,6 +7148,12 @@
             "state" : "translated",
             "value" : "Sao lưu và xuất dữ liệu"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Záloha a export"
+          }
         }
       }
     },
@@ -6786,6 +7242,12 @@
             "state" : "translated",
             "value" : "Hiển thị"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zobrazení"
+          }
         }
       }
     },
@@ -6873,6 +7335,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Trong menu Hiển thị, Tóm tắt (⌘1) cho thấy điều cần hỏi và điều đã học, còn Biểu đồ (⌘2) cho thấy các câu hỏi liên kết với nhau thế nào."
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "V nabídce Zobrazení najdete v Souhrnu (⌘1), na co se ještě zeptat a co jste se naučili, a v Grafu (⌘2), jak spolu vaše otázky souvisejí."
           }
         }
       }
@@ -6963,6 +7431,12 @@
             "state" : "translated",
             "value" : "Màu sắc và độ tương phản dễ nhìn hơn"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Příjemnější barvy a kontrast"
+          }
         }
       }
     },
@@ -7050,6 +7524,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ghi chú của khối"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Poznámky k bloku"
           }
         }
       }
@@ -7139,6 +7619,12 @@
             "state" : "translated",
             "value" : "Xóa khối"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Smazat blok"
+          }
         }
       }
     },
@@ -7226,6 +7712,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Màu của khối"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Barva bloku"
           }
         }
       }
@@ -7315,6 +7807,12 @@
             "state" : "translated",
             "value" : "Cài đặt khối"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nastavení bloku"
+          }
         }
       }
     },
@@ -7402,6 +7900,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Giờ bắt đầu của khối"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Čas začátku bloku"
           }
         }
       }
@@ -7491,6 +7995,12 @@
             "state" : "translated",
             "value" : "Thêm khối"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Přidat blok"
+          }
         }
       }
     },
@@ -7578,6 +8088,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Chưa có khối nào"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Žádné bloky"
           }
         }
       }
@@ -7667,6 +8183,12 @@
             "state" : "translated",
             "value" : "Xóa"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Smazat"
+          }
         }
       }
     },
@@ -7754,6 +8276,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bài giảng mới"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nová přednáška"
           }
         }
       }
@@ -7843,6 +8371,12 @@
             "state" : "translated",
             "value" : "Câu hỏi nối tiếp mới — nhấn Return để thêm"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nová doplňující otázka — přidáte stisknutím Return"
+          }
         }
       }
     },
@@ -7930,6 +8464,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Màu"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Barva"
           }
         }
       }
@@ -8019,6 +8559,12 @@
             "state" : "translated",
             "value" : "Cài đặt"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nastavení"
+          }
         }
       }
     },
@@ -8107,6 +8653,12 @@
             "state" : "translated",
             "value" : "Bắt đầu"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Začátek"
+          }
         }
       }
     },
@@ -8194,6 +8746,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Thời điểm"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Čas"
           }
         }
       }
@@ -8284,6 +8842,12 @@
             "state" : "translated",
             "value" : "Nhận nhắc nhở đúng lúc về những câu hỏi chưa tìm được câu trả lời."
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Včas vás upozorníme na otázky, na které jste ještě nenašli odpověď."
+          }
         }
       }
     },
@@ -8372,6 +8936,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Lời nhắc"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Připomenutí"
           }
         }
       }
@@ -8462,6 +9032,12 @@
             "state" : "translated",
             "value" : "Xem các câu hỏi còn lại ngay trên màn hình nền mà không cần mở ứng dụng."
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zbývající otázky uvidíte přímo na ploše, aniž byste museli otevřít aplikaci."
+          }
         }
       }
     },
@@ -8550,6 +9126,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Dùng toàn bộ ứng dụng bằng tiếng Anh."
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Celou aplikaci můžete používat i v angličtině."
           }
         }
       }
@@ -8640,6 +9222,12 @@
             "state" : "translated",
             "value" : "Lần đầu mở ứng dụng sau khi cập nhật, bạn sẽ thấy có gì mới."
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Při prvním otevření po aktualizaci se dozvíte, co je nového."
+          }
         }
       }
     },
@@ -8728,6 +9316,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Có gì mới"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Novinky"
           }
         }
       }
@@ -8818,6 +9412,12 @@
             "state" : "translated",
             "value" : "Đồng bộ giữa các máy Mac"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Synchronizace mezi Macy"
+          }
         }
       }
     },
@@ -8906,6 +9506,12 @@
             "state" : "translated",
             "value" : "Bỏ liên kết (câu hỏi không bị xóa)"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zrušit propojení (otázka se nesmaže)"
+          }
         }
       }
     },
@@ -8993,6 +9599,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Liên hệ"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kontakt"
           }
         }
       }
@@ -9083,6 +9695,12 @@
             "state" : "translated",
             "value" : "Hỗ trợ tiếng Anh đầy đủ"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Plná podpora angličtiny"
+          }
         }
       }
     },
@@ -9170,6 +9788,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tóm tắt"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Souhrn"
           }
         }
       }
@@ -9259,6 +9883,12 @@
             "state" : "translated",
             "value" : "Tóm tắt, biểu đồ, khối thời gian, trạng thái học tập, cỡ chữ"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Souhrn, graf, časové bloky, stav učení, velikost textu"
+          }
         }
       }
     },
@@ -9346,6 +9976,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Chọn có đưa câu hỏi này vào danh sách “Điều đã học” của phần tóm tắt hay không"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vyberte, zda se otázka objeví v seznamu „Co jsem se naučil(a)“ v souhrnu"
           }
         }
       }
@@ -9436,6 +10072,12 @@
             "state" : "translated",
             "value" : "Giảm chuyển động"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Omezit pohyb"
+          }
         }
       }
     },
@@ -9525,6 +10167,12 @@
             "state" : "translated",
             "value" : "Khi bật Giảm chuyển động, hiệu ứng trên màn hình sẽ dịu hơn."
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Když zapnete Omezit pohyb, efekty na obrazovce budou klidnější."
+          }
         }
       }
     },
@@ -9612,6 +10260,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Câu hỏi gốc"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Původní otázka"
           }
         }
       }
@@ -9702,6 +10356,12 @@
             "state" : "translated",
             "value" : "Khi muốn, bạn có thể xóa mọi bài giảng và câu hỏi ngay trong ứng dụng."
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Když budete chtít, můžete v aplikaci smazat všechny přednášky a otázky."
+          }
         }
       }
     },
@@ -9789,6 +10449,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Khi hiểu hết bài giảng này, tôi muốn làm được gì…"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Co chci umět, až tuto přednášku pochopím…"
           }
         }
       }
@@ -9878,6 +10544,12 @@
             "state" : "translated",
             "value" : "Điều tôi biết trước bài giảng này hoặc cho đến giờ, và chỗ tôi bị vướng…"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Co vím před touto přednáškou nebo zatím a kde se zasekávám…"
+          }
         }
       }
     },
@@ -9965,6 +10637,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Điều tôi nhất định muốn có từ bài giảng này, những chủ đề tôi tò mò…"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Co chci z této přednášky určitě získat, témata, která mě zajímají…"
           }
         }
       }
@@ -10054,6 +10732,12 @@
             "state" : "translated",
             "value" : "Xóa khối này? Ghi chú trong khối cũng sẽ bị xóa."
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Smazat tento blok? Smažou se i jeho poznámky."
+          }
         }
       }
     },
@@ -10141,6 +10825,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Đổi màu, giờ bắt đầu và thời lượng của khối này, hoặc xóa khối"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Změnit barvu, čas začátku a délku tohoto bloku, nebo ho smazat"
           }
         }
       }
@@ -10230,6 +10920,12 @@
             "state" : "translated",
             "value" : "Ghi lại điều đã học và điều muốn nhớ trong khoảng thời gian này…"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zapište, co jste se v tomto čase naučili a co si chcete zapamatovat…"
+          }
         }
       }
     },
@@ -10317,6 +11013,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Đến câu hỏi này"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Přejít na tuto otázku"
           }
         }
       }
@@ -10406,6 +11108,12 @@
             "state" : "translated",
             "value" : "Ghi câu trả lời cho câu hỏi này bằng lời của bạn"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Napište odpověď na tuto otázku vlastními slovy"
+          }
         }
       }
     },
@@ -10493,6 +11201,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Xem tin mới trên Instagram"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Novinky na Instagramu"
           }
         }
       }
@@ -10582,6 +11296,12 @@
             "state" : "translated",
             "value" : "Nhỏ hơn"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Menší"
+          }
         }
       }
     },
@@ -10669,6 +11389,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tạo lúc %@"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vytvořeno: %@"
           }
         }
       }
@@ -10758,6 +11484,12 @@
             "state" : "translated",
             "value" : "Lưu"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uložit"
+          }
         }
       }
     },
@@ -10845,6 +11577,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Lưu và tiếp tục"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uložit a pokračovat"
           }
         }
       }
@@ -10934,6 +11672,12 @@
             "state" : "translated",
             "value" : "Loại ra"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vyřadit"
+          }
         }
       }
     },
@@ -11021,6 +11765,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Câu trả lời đã loại"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vyřazené odpovědi"
           }
         }
       }
@@ -11110,6 +11860,12 @@
             "state" : "translated",
             "value" : "Bây giờ"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Teď"
+          }
         }
       }
     },
@@ -11197,6 +11953,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tôi đang ở đâu"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kde teď jsem"
           }
         }
       }
@@ -11286,6 +12048,12 @@
             "state" : "translated",
             "value" : "Hỗ trợ"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Podpora"
+          }
         }
       }
     },
@@ -11373,6 +12141,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Câu hỏi"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Otázka"
           }
         }
       }
@@ -11462,6 +12236,12 @@
             "state" : "translated",
             "value" : "Câu hỏi %lld · Cần hỏi %lld · Đã học %lld · Câu hỏi nối tiếp %lld"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Otázky %lld · K položení %lld · Naučeno %lld · Doplňující otázky %lld"
+          }
         }
       }
     },
@@ -11549,6 +12329,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Mở Sổ Câu Hỏi và hiện cửa sổ để ghi câu hỏi cho bài giảng bạn đang xem."
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Otevře Zápisník otázek a zobrazí okno pro zapsání otázky k právě prohlížené přednášce."
           }
         }
       }
@@ -11638,6 +12424,12 @@
             "state" : "translated",
             "value" : "Chào mừng đến với Sổ Câu Hỏi"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vítejte v Zápisníku otázek"
+          }
         }
       }
     },
@@ -11725,6 +12517,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Trau chuốt câu hỏi"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vylepšit otázku"
           }
         }
       }
@@ -11814,6 +12612,12 @@
             "state" : "translated",
             "value" : "Thêm câu hỏi"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Přidat otázku"
+          }
         }
       }
     },
@@ -11901,6 +12705,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Thêm câu hỏi (⌘⇧N)"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Přidat otázku (⌘⇧N)"
           }
         }
       }
@@ -11990,6 +12800,12 @@
             "state" : "translated",
             "value" : "Chọn một câu hỏi"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vyberte otázku"
+          }
         }
       }
     },
@@ -12077,6 +12893,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Các câu hỏi bạn đánh dấu đã giải quyết sẽ tập hợp ở đây"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Otázky, které označíte jako vyřešené, se objeví tady"
           }
         }
       }
@@ -12166,6 +12988,12 @@
             "state" : "translated",
             "value" : "Câu hỏi đã nhiều rồi, thử nhìn lại nhé"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Otázek přibývá, podívejte se zpět"
+          }
         }
       }
     },
@@ -12253,6 +13081,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tạo bài giảng đầu tiên"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vytvořit první přednášku"
           }
         }
       }
@@ -12342,6 +13176,12 @@
             "state" : "translated",
             "value" : "Thu nhỏ"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Oddálit"
+          }
         }
       }
     },
@@ -12430,6 +13270,12 @@
             "state" : "translated",
             "value" : "Hủy"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zrušit"
+          }
         }
       }
     },
@@ -12517,6 +13363,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Lớn hơn"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Větší"
           }
         }
       }
@@ -12607,6 +13459,12 @@
             "state" : "translated",
             "value" : "Giao diện hợp với chữ lớn"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Obrazovky pro velký text"
+          }
         }
       }
     },
@@ -12694,6 +13552,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Khối thời gian"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Časové bloky"
           }
         }
       }
@@ -12783,6 +13647,12 @@
             "state" : "translated",
             "value" : "Thêm bài giảng mới từ menu bài giảng bên trái thanh công cụ, hoặc nhập tệp Markdown của một cuộc trò chuyện."
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Novou přednášku přidáte v nabídce přednášek vlevo na panelu nástrojů, nebo importujte soubor Markdown s konverzací."
+          }
         }
       }
     },
@@ -12870,6 +13740,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Trạng thái học tập"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stav učení"
           }
         }
       }
@@ -12959,6 +13835,12 @@
             "state" : "translated",
             "value" : "Tôi muốn đạt được gì khi học xong"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kde chci být na konci"
+          }
         }
       }
     },
@@ -13046,6 +13928,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Đã giải quyết"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vyřešeno"
           }
         }
       }
@@ -13135,6 +14023,12 @@
             "state" : "translated",
             "value" : "Trạng thái giải quyết"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stav vyřešení"
+          }
         }
       }
     },
@@ -13222,6 +14116,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Đã giải quyết"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vyřešeno"
           }
         }
       }
@@ -13311,6 +14211,12 @@
             "state" : "translated",
             "value" : "Đã giải quyết — nhấp để đổi thành chưa giải quyết"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vyřešeno — kliknutím změníte na nevyřešeno"
+          }
         }
       }
     },
@@ -13399,6 +14305,12 @@
             "state" : "translated",
             "value" : "Bỏ liên kết"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zrušit propojení"
+          }
         }
       }
     },
@@ -13486,6 +14398,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Xóa bài giảng hiện tại"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Smazat aktuální přednášku"
           }
         }
       }
@@ -13576,6 +14494,12 @@
             "state" : "translated",
             "value" : "VoiceOver đọc từng nút và ghi chú theo đúng thứ tự."
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "VoiceOver přečte všechna tlačítka a poznámky ve správném pořadí."
+          }
         }
       }
     },
@@ -13663,6 +14587,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vừa khung cửa sổ"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Přizpůsobit oknu"
           }
         }
       }
@@ -13752,6 +14682,12 @@
             "state" : "translated",
             "value" : "Phóng to"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Přiblížit"
+          }
         }
       }
     },
@@ -13836,6 +14772,12 @@
           }
         },
         "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OK"
+          }
+        },
+        "cs" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "OK"
