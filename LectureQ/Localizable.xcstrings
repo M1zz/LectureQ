@@ -122,6 +122,12 @@
             "state" : "translated",
             "value" : "\n\n\n—\nAppversjon: %@ (%@)\nmacOS: %@"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "\n\n\n—\nAppversie: %@ (%@)\nmacOS: %@"
+          }
         }
       }
     },
@@ -245,6 +251,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "«%@» er kopiert"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "‘%@’ gekopieerd"
           }
         }
       }
@@ -370,6 +382,12 @@
             "state" : "translated",
             "value" : "Trinn %lld, %@. %@"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stap %lld, %@. %@"
+          }
         }
       }
     },
@@ -493,6 +511,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld min."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld min"
           }
         }
       }
@@ -618,6 +642,12 @@
             "state" : "translated",
             "value" : "Kopier KI-prompt"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "AI-prompt kopiëren"
+          }
         }
       }
     },
@@ -741,6 +771,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Veiledning: finn svar med KI"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gids: antwoorden vinden met AI"
           }
         }
       }
@@ -867,6 +903,12 @@
             "state" : "translated",
             "value" : "Touch ID-lås"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Touch ID-vergrendeling"
+          }
         }
       }
     },
@@ -991,6 +1033,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Lås appen med Touch ID, så spørsmålsnotatene dine forblir private."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vergrendel de app met Touch ID zodat je vragennotities privé blijven."
           }
         }
       }
@@ -1117,6 +1165,12 @@
             "state" : "translated",
             "value" : "Enklere med VoiceOver"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Prettiger met VoiceOver"
+          }
         }
       }
     },
@@ -1240,6 +1294,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "[%@] Henvendelse"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "[%@] Vraag"
           }
         }
       }
@@ -1365,6 +1425,12 @@
             "state" : "translated",
             "value" : "Trykk ⌘⇧N for å legge til et spørsmål"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Druk op ⌘⇧N om een vraag toe te voegen"
+          }
         }
       }
     },
@@ -1488,6 +1554,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Åpne veiledningen"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gids openen"
           }
         }
       }
@@ -1613,6 +1685,12 @@
             "state" : "translated",
             "value" : "Importen mislyktes"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Importeren mislukt"
+          }
         }
       }
     },
@@ -1736,6 +1814,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Importert samtale"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Geïmporteerd gesprek"
           }
         }
       }
@@ -1861,6 +1945,12 @@
             "state" : "translated",
             "value" : "Kopierer en prompt med konteksten fra forelesningen din til utklippstavlen"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kopieert een prompt met de context van je college naar het klembord"
+          }
         }
       }
     },
@@ -1984,6 +2074,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Velg forelesning"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kies college"
           }
         }
       }
@@ -2109,6 +2205,12 @@
             "state" : "translated",
             "value" : "Tidspunkt i forelesningen"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tijdstip in het college"
+          }
         }
       }
     },
@@ -2232,6 +2334,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tidspunkt i forelesningen (24 timer, TT:mm)"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tijdstip in het college (24 uur, UU:mm)"
           }
         }
       }
@@ -2357,6 +2465,12 @@
             "state" : "translated",
             "value" : "Tidspunkt i forelesningen (24 timer, TT:mm). Hvis du sletter det, lagres spørsmålet uten tidspunkt"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tijdstip in het college (24 uur, UU:mm). Als je het wist, wordt de vraag zonder tijdstip bewaard"
+          }
         }
       }
     },
@@ -2480,6 +2594,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ingen forelesning"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Geen college"
           }
         }
       }
@@ -2605,6 +2725,12 @@
             "state" : "translated",
             "value" : "Navn på forelesningen"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Naam van het college"
+          }
         }
       }
     },
@@ -2728,6 +2854,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "En notatbok som tar vare på spørsmålene du får under forelesningen, slik at du senere kan svare på dem med dine egne ord."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Een schrift dat de vragen bewaart die tijdens een college opkomen, zodat je ze later in je eigen woorden kunt beantwoorden."
           }
         }
       }
@@ -2853,6 +2985,12 @@
             "state" : "translated",
             "value" : "Legg til forelesning"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "College toevoegen"
+          }
         }
       }
     },
@@ -2976,6 +3114,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Skriv spørsmålet du kommer på under forelesningen med de enkleste ordene. Tidspunktet fylles ut med klokkeslettet nå."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Noteer een vraag die tijdens het college bij je opkomt in de eenvoudigste woorden. Het tijdstip wordt ingevuld met de huidige tijd."
           }
         }
       }
@@ -3101,6 +3245,12 @@
             "state" : "translated",
             "value" : "Lag en forelesning"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Maak een college aan"
+          }
         }
       }
     },
@@ -3224,6 +3374,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Velg en forelesning"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Selecteer een college"
           }
         }
       }
@@ -3350,6 +3506,12 @@
             "state" : "translated",
             "value" : "Lagre forelesninger og spørsmål i en fil og hent dem frem igjen senere."
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bewaar je colleges en vragen in een bestand en haal ze later weer terug."
+          }
         }
       }
     },
@@ -3473,6 +3635,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Lurer du på noe? Trykk ⌘⇧N"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nieuwsgierig? Druk op ⌘⇧N"
           }
         }
       }
@@ -3598,6 +3766,12 @@
             "state" : "translated",
             "value" : "Skriv det du lurer på, med de enkleste ordene …"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Schrijf waar je je over verbaast, in de eenvoudigste woorden…"
+          }
         }
       }
     },
@@ -3722,6 +3896,12 @@
             "state" : "translated",
             "value" : "Graf"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Grafiek"
+          }
         }
       }
     },
@@ -3845,6 +4025,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tekststørrelse (%lld %%)"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tekstgrootte (%lld%%)"
           }
         }
       }
@@ -3971,6 +4157,12 @@
             "state" : "translated",
             "value" : "Når du gjør teksten større, ordnes skjermene om i stedet for å bli kuttet."
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bij grotere tekst worden schermen opnieuw ingedeeld in plaats van afgekapt."
+          }
         }
       }
     },
@@ -4094,6 +4286,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Varighet"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Duur"
           }
         }
       }
@@ -4219,6 +4417,12 @@
             "state" : "translated",
             "value" : "Standardstørrelse"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Standaardgrootte"
+          }
         }
       }
     },
@@ -4342,6 +4546,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Koble et eksisterende spørsmål som oppfølging"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Een bestaande vraag koppelen als vervolgvraag"
           }
         }
       }
@@ -4467,6 +4677,12 @@
             "state" : "translated",
             "value" : "Oppfølgingsspørsmål"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vervolgvragen"
+          }
         }
       }
     },
@@ -4590,6 +4806,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hent ut oppfølgingsspørsmål"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vervolgvragen ophalen"
           }
         }
       }
@@ -4715,6 +4937,12 @@
             "state" : "translated",
             "value" : "Senere kan du formulere svaret med dine egne ord og klikke på ? foran spørsmålet for å markere det som løst. Det du har lært, samles i Oppsummering i Visning-menyen."
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vat het antwoord later samen in je eigen woorden en klik op het ? voor de vraag om hem als opgelost te markeren. Wat je hebt geleerd, verzamelt zich in Samenvatting in het menu Weergave."
+          }
         }
       }
     },
@@ -4838,6 +5066,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Få svaret mitt vurdert"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mijn antwoord laten beoordelen"
           }
         }
       }
@@ -4964,6 +5198,12 @@
             "state" : "translated",
             "value" : "Slett alle dataene mine på én gang"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Al mijn gegevens in één keer wissen"
+          }
         }
       }
     },
@@ -5087,6 +5327,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Skriv det med dine egne ord"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Schrijf het in je eigen woorden"
           }
         }
       }
@@ -5212,6 +5458,12 @@
             "state" : "translated",
             "value" : "Markerer spørsmålet som uløst"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Markeert de vraag als onopgelost"
+          }
         }
       }
     },
@@ -5336,6 +5588,12 @@
             "state" : "translated",
             "value" : "Går til dette spørsmålet"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gaat naar deze vraag"
+          }
         }
       }
     },
@@ -5459,6 +5717,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Markerer spørsmålet som løst"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Markeert de vraag als opgelost"
           }
         }
       }
@@ -5585,6 +5849,12 @@
             "state" : "translated",
             "value" : "Fortsett med de samme forelesningene og spørsmålene på alle Mac-ene dine."
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ga op elke Mac verder met dezelfde colleges en vragen."
+          }
         }
       }
     },
@@ -5708,6 +5978,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ta med igjen"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Weer opnemen"
           }
         }
       }
@@ -5833,6 +6109,12 @@
             "state" : "translated",
             "value" : "Ta med i «Det jeg har lært» igjen"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Weer opnemen in ‘Wat ik heb geleerd’"
+          }
         }
       }
     },
@@ -5956,6 +6238,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Lukk"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sluit"
           }
         }
       }
@@ -6081,6 +6369,12 @@
             "state" : "translated",
             "value" : "Svar"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Antwoord"
+          }
         }
       }
     },
@@ -6204,6 +6498,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Utfordre svaret"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Antwoord ter discussie stellen"
           }
         }
       }
@@ -6329,6 +6629,12 @@
             "state" : "translated",
             "value" : "Svarnotatet er tomt"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "De antwoordnotitie is leeg"
+          }
         }
       }
     },
@@ -6452,6 +6758,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ikke besvart"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Geen antwoord"
           }
         }
       }
@@ -6577,6 +6889,12 @@
             "state" : "translated",
             "value" : "Finn svaret"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Antwoord zoeken"
+          }
         }
       }
     },
@@ -6700,6 +7018,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Skriv svaret og marker det som løst"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Schrijf het antwoord en markeer het als opgelost"
           }
         }
       }
@@ -6826,6 +7150,12 @@
             "state" : "translated",
             "value" : "Alt er fortsatt lesbart, også med økt kontrast eller hvis farger er vanskelige å skille."
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alles blijft leesbaar, ook met meer contrast of als kleuren moeilijk te onderscheiden zijn."
+          }
         }
       }
     },
@@ -6950,6 +7280,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bruk appen på flere språk."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gebruik de app in meer talen."
           }
         }
       }
@@ -7076,6 +7412,12 @@
             "state" : "translated",
             "value" : "Flere språk"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Meer talen"
+          }
         }
       }
     },
@@ -7199,6 +7541,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Spørsmål å stille"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Te stellen vragen"
           }
         }
       }
@@ -7325,6 +7673,12 @@
             "state" : "translated",
             "value" : "Skrivebordswidgeter"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bureaubladwidgets"
+          }
         }
       }
     },
@@ -7448,6 +7802,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ta en titt"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kijk rond"
           }
         }
       }
@@ -7573,6 +7933,12 @@
             "state" : "translated",
             "value" : "Importer fra Markdown …"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Importeren uit Markdown…"
+          }
         }
       }
     },
@@ -7696,6 +8062,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Skriv først en linje eller to med dine egne ord i svarfeltet"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Schrijf eerst een regel of twee in je eigen woorden in het antwoordveld"
           }
         }
       }
@@ -7821,6 +8193,12 @@
             "state" : "translated",
             "value" : "Notater"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Notities"
+          }
         }
       }
     },
@@ -7944,6 +8322,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kontakt på e-post"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mail ons"
           }
         }
       }
@@ -8069,6 +8453,12 @@
             "state" : "translated",
             "value" : "Alt er løst"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alles is opgelost"
+          }
         }
       }
     },
@@ -8192,6 +8582,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Når du skriver til oss, oppgi macOS-versjonen din og hva du holdt på med da problemet oppsto, så kan vi sjekke det raskere."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vermeld in je bericht je macOS-versie en wat je deed toen het probleem optrad, zodat we het sneller kunnen uitzoeken."
           }
         }
       }
@@ -8317,6 +8713,12 @@
             "state" : "translated",
             "value" : "Uløst"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Onopgelost"
+          }
         }
       }
     },
@@ -8440,6 +8842,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Uløst – klikk for å markere som løst"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Onopgelost — klik om als opgelost te markeren"
           }
         }
       }
@@ -8565,6 +8973,12 @@
             "state" : "translated",
             "value" : "Vis bare uløste spørsmål"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alleen onopgeloste vragen tonen"
+          }
         }
       }
     },
@@ -8688,6 +9102,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ingen uløste spørsmål"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Geen onopgeloste vragen"
           }
         }
       }
@@ -8813,6 +9233,12 @@
             "state" : "translated",
             "value" : "Bare uløste"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alleen onopgelost"
+          }
         }
       }
     },
@@ -8936,6 +9362,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hva jeg vil lære"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wat ik wil leren"
           }
         }
       }
@@ -9061,6 +9493,12 @@
             "state" : "translated",
             "value" : "Det jeg har lært"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wat ik heb geleerd"
+          }
         }
       }
     },
@@ -9185,6 +9623,12 @@
             "state" : "translated",
             "value" : "Ta med i «Det jeg har lært»"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Opnemen in ‘Wat ik heb geleerd’"
+          }
         }
       }
     },
@@ -9308,6 +9752,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Utelat fra «Det jeg har lært» (svaret beholdes)"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uitsluiten van ‘Wat ik heb geleerd’ (het antwoord blijft bewaard)"
           }
         }
       }
@@ -9434,6 +9884,12 @@
             "state" : "translated",
             "value" : "Sikkerhetskopi og eksport"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Back-up en export"
+          }
         }
       }
     },
@@ -9558,6 +10014,12 @@
             "state" : "translated",
             "value" : "Visning"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Weergave"
+          }
         }
       }
     },
@@ -9681,6 +10143,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "I Visning-menyen viser Oppsummering (⌘1) hva du fortsatt skal spørre om og hva du har lært, mens Graf (⌘2) viser hvordan spørsmålene dine henger sammen."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "In het menu Weergave toont Samenvatting (⌘1) wat je nog wilt vragen en wat je hebt geleerd, en Grafiek (⌘2) hoe je vragen met elkaar samenhangen."
           }
         }
       }
@@ -9807,6 +10275,12 @@
             "state" : "translated",
             "value" : "Behagelige farger og kontrast"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aangenamere kleuren en contrast"
+          }
         }
       }
     },
@@ -9930,6 +10404,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Blokknotater"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Blokaantekeningen"
           }
         }
       }
@@ -10055,6 +10535,12 @@
             "state" : "translated",
             "value" : "Slett blokk"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Blok verwijderen"
+          }
         }
       }
     },
@@ -10178,6 +10664,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Blokkfarge"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Blokkleur"
           }
         }
       }
@@ -10303,6 +10795,12 @@
             "state" : "translated",
             "value" : "Blokkinnstillinger"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Blokinstellingen"
+          }
         }
       }
     },
@@ -10426,6 +10924,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Starttidspunkt for blokken"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Starttijd van het blok"
           }
         }
       }
@@ -10551,6 +11055,12 @@
             "state" : "translated",
             "value" : "Legg til blokk"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Blok toevoegen"
+          }
         }
       }
     },
@@ -10674,6 +11184,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ingen blokker"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Geen blokken"
           }
         }
       }
@@ -10799,6 +11315,12 @@
             "state" : "translated",
             "value" : "Slett"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Verwijder"
+          }
         }
       }
     },
@@ -10922,6 +11444,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ny forelesning"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nieuw college"
           }
         }
       }
@@ -11047,6 +11575,12 @@
             "state" : "translated",
             "value" : "Nytt oppfølgingsspørsmål – trykk Retur for å legge til"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nieuwe vervolgvraag — druk op Return om toe te voegen"
+          }
         }
       }
     },
@@ -11170,6 +11704,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Farge"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kleur"
           }
         }
       }
@@ -11295,6 +11835,12 @@
             "state" : "translated",
             "value" : "Innstillinger"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Instellingen"
+          }
         }
       }
     },
@@ -11415,6 +11961,12 @@
           }
         },
         "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Start"
+          }
+        },
+        "nl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Start"
@@ -11543,6 +12095,12 @@
             "state" : "translated",
             "value" : "Tidspunkt"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tijdstip"
+          }
         }
       }
     },
@@ -11667,6 +12225,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Få en påminnelse til rett tid om spørsmål du ennå ikke har funnet svar på."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Krijg op het juiste moment een seintje over vragen waar je nog geen antwoord op hebt."
           }
         }
       }
@@ -11793,6 +12357,12 @@
             "state" : "translated",
             "value" : "Påminnelser"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Herinneringen"
+          }
         }
       }
     },
@@ -11917,6 +12487,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Se de åpne spørsmålene direkte på skrivebordet uten å åpne appen."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zie je openstaande vragen direct op het bureaublad, zonder de app te openen."
           }
         }
       }
@@ -12043,6 +12619,12 @@
             "state" : "translated",
             "value" : "Bruk hele appen på engelsk."
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gebruik de hele app ook in het Engels."
+          }
         }
       }
     },
@@ -12167,6 +12749,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Første gang du åpner appen etter en oppdatering, ser du hva som er nytt."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "De eerste keer dat je de app na een update opent, zie je wat er nieuw is."
           }
         }
       }
@@ -12293,6 +12881,12 @@
             "state" : "translated",
             "value" : "Nytt"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wat is er nieuw"
+          }
         }
       }
     },
@@ -12418,6 +13012,12 @@
             "state" : "translated",
             "value" : "Synkronisering mellom Mac-ene dine"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Synchroniseren tussen je Macs"
+          }
         }
       }
     },
@@ -12542,6 +13142,12 @@
             "state" : "translated",
             "value" : "Fjern kobling (spørsmålet slettes ikke)"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ontkoppelen (de vraag wordt niet verwijderd)"
+          }
         }
       }
     },
@@ -12665,6 +13271,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kontakt oss"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Neem contact op"
           }
         }
       }
@@ -12791,6 +13403,12 @@
             "state" : "translated",
             "value" : "Full støtte for engelsk"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Volledige ondersteuning voor Engels"
+          }
         }
       }
     },
@@ -12914,6 +13532,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Oppsummering"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Samenvatting"
           }
         }
       }
@@ -13039,6 +13663,12 @@
             "state" : "translated",
             "value" : "Oppsummering, graf, tidsblokker, læringsstatus, tekststørrelse"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Samenvatting, grafiek, tijdblokken, leerstatus, tekstgrootte"
+          }
         }
       }
     },
@@ -13162,6 +13792,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Velg om spørsmålet skal stå under «Det jeg har lært» i oppsummeringen"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kies of deze vraag in de samenvatting onder ‘Wat ik heb geleerd’ komt"
           }
         }
       }
@@ -13288,6 +13924,12 @@
             "state" : "translated",
             "value" : "Reduser bevegelse"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Beweging verminderen"
+          }
         }
       }
     },
@@ -13413,6 +14055,12 @@
             "state" : "translated",
             "value" : "Når Reduser bevegelse er på, blir skjermeffektene roligere."
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Met Beweging verminderen aan worden schermeffecten rustiger."
+          }
         }
       }
     },
@@ -13536,6 +14184,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Opprinnelig spørsmål"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Oorspronkelijke vraag"
           }
         }
       }
@@ -13662,6 +14316,12 @@
             "state" : "translated",
             "value" : "Hvis du vil, kan du slette alle forelesninger og spørsmål i selve appen."
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wis desgewenst alle colleges en vragen vanuit de app zelf."
+          }
         }
       }
     },
@@ -13785,6 +14445,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hva jeg vil kunne når jeg har forstått denne forelesningen …"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wat ik wil kunnen als ik dit college begrijp…"
           }
         }
       }
@@ -13910,6 +14576,12 @@
             "state" : "translated",
             "value" : "Hva jeg vet før denne forelesningen eller så langt, og hvor jeg står fast …"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wat ik weet voor dit college of tot nu toe, en waar ik vastloop…"
+          }
         }
       }
     },
@@ -14033,6 +14705,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hva jeg absolutt vil få ut av denne forelesningen, temaer jeg er nysgjerrig på …"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wat ik beslist uit dit college wil halen, onderwerpen die me nieuwsgierig maken…"
           }
         }
       }
@@ -14158,6 +14836,12 @@
             "state" : "translated",
             "value" : "Vil du slette denne blokken? Notatene i den slettes også."
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dit blok verwijderen? De notities erin worden ook verwijderd."
+          }
         }
       }
     },
@@ -14281,6 +14965,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Endre farge, starttidspunkt og varighet for denne blokken, eller slett den"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wijzig de kleur, starttijd en duur van dit blok, of verwijder het blok"
           }
         }
       }
@@ -14406,6 +15096,12 @@
             "state" : "translated",
             "value" : "Skriv ned hva du lærte i dette tidsrommet og hva du vil huske …"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Noteer wat je in deze tijd hebt geleerd en wat je wilt onthouden…"
+          }
         }
       }
     },
@@ -14529,6 +15225,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Gå til dette spørsmålet"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ga naar deze vraag"
           }
         }
       }
@@ -14654,6 +15356,12 @@
             "state" : "translated",
             "value" : "Skriv svaret på dette spørsmålet med dine egne ord"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Schrijf het antwoord op deze vraag in je eigen woorden"
+          }
         }
       }
     },
@@ -14777,6 +15485,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Følg med på Instagram"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Volg het nieuws op Instagram"
           }
         }
       }
@@ -14902,6 +15616,12 @@
             "state" : "translated",
             "value" : "Mindre"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kleiner"
+          }
         }
       }
     },
@@ -15025,6 +15745,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Opprettet %@"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aangemaakt %@"
           }
         }
       }
@@ -15150,6 +15876,12 @@
             "state" : "translated",
             "value" : "Lagre"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bewaar"
+          }
         }
       }
     },
@@ -15273,6 +16005,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Lagre og fortsett"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bewaar en ga door"
           }
         }
       }
@@ -15398,6 +16136,12 @@
             "state" : "translated",
             "value" : "Utelat"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uitsluiten"
+          }
         }
       }
     },
@@ -15521,6 +16265,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Utelatte svar"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uitgesloten antwoorden"
           }
         }
       }
@@ -15646,6 +16396,12 @@
             "state" : "translated",
             "value" : "Nå"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nu"
+          }
         }
       }
     },
@@ -15769,6 +16525,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hvor jeg er nå"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Waar ik nu sta"
           }
         }
       }
@@ -15894,6 +16656,12 @@
             "state" : "translated",
             "value" : "Støtte"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Support"
+          }
         }
       }
     },
@@ -16017,6 +16785,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Spørsmål"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vraag"
           }
         }
       }
@@ -16142,6 +16916,12 @@
             "state" : "translated",
             "value" : "Spørsmål %lld · Å spørre om %lld · Lært %lld · Oppfølgingsspørsmål %lld"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vragen %lld · Te stellen %lld · Geleerd %lld · Vervolgvragen %lld"
+          }
         }
       }
     },
@@ -16265,6 +17045,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Åpner Spørsmålsnotater og viser et vindu der du kan skrive et spørsmål til forelesningen du ser på."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Opent Vragennotities en toont een venster om een vraag te noteren bij het college dat je bekijkt."
           }
         }
       }
@@ -16390,6 +17176,12 @@
             "state" : "translated",
             "value" : "Velkommen til Spørsmålsnotater"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Welkom bij Vragennotities"
+          }
         }
       }
     },
@@ -16513,6 +17305,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Puss spørsmålet"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vraag aanscherpen"
           }
         }
       }
@@ -16638,6 +17436,12 @@
             "state" : "translated",
             "value" : "Legg til spørsmål"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vraag toevoegen"
+          }
         }
       }
     },
@@ -16761,6 +17565,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Legg til spørsmål (⌘⇧N)"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vraag toevoegen (⌘⇧N)"
           }
         }
       }
@@ -16886,6 +17696,12 @@
             "state" : "translated",
             "value" : "Velg et spørsmål"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Selecteer een vraag"
+          }
         }
       }
     },
@@ -17009,6 +17825,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Spørsmål du markerer som løst, samles her"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vragen die je als opgelost markeert, verschijnen hier"
           }
         }
       }
@@ -17134,6 +17956,12 @@
             "state" : "translated",
             "value" : "Spørsmålene har hopet seg opp – se tilbake"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Er staan al flink wat vragen — blik eens terug"
+          }
         }
       }
     },
@@ -17257,6 +18085,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Lag første forelesning"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Eerste college aanmaken"
           }
         }
       }
@@ -17382,6 +18216,12 @@
             "state" : "translated",
             "value" : "Zoom ut"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uitzoomen"
+          }
         }
       }
     },
@@ -17506,6 +18346,12 @@
             "state" : "translated",
             "value" : "Avbryt"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Annuleer"
+          }
         }
       }
     },
@@ -17629,6 +18475,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Større"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Groter"
           }
         }
       }
@@ -17755,6 +18607,12 @@
             "state" : "translated",
             "value" : "Skjermer for stor tekst"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Schermen voor grote tekst"
+          }
         }
       }
     },
@@ -17878,6 +18736,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tidsblokker"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tijdblokken"
           }
         }
       }
@@ -18003,6 +18867,12 @@
             "state" : "translated",
             "value" : "Legg til en ny forelesning fra forelesningsmenyen til venstre i verktøylinjen, eller importer en Markdown-fil med en samtale."
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Voeg een nieuw college toe via het collegemenu links in de knoppenbalk, of importeer een Markdown-bestand met een gesprek."
+          }
         }
       }
     },
@@ -18126,6 +18996,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Læringsstatus"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Leerstatus"
           }
         }
       }
@@ -18251,6 +19127,12 @@
             "state" : "translated",
             "value" : "Hvor jeg vil være til slutt"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Waar ik aan het eind wil staan"
+          }
         }
       }
     },
@@ -18374,6 +19256,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Løst"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Opgelost"
           }
         }
       }
@@ -18499,6 +19387,12 @@
             "state" : "translated",
             "value" : "Løsningsstatus"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Oplosstatus"
+          }
         }
       }
     },
@@ -18622,6 +19516,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Løst"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Opgelost"
           }
         }
       }
@@ -18747,6 +19647,12 @@
             "state" : "translated",
             "value" : "Løst – klikk for å markere som uløst"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Opgelost — klik om als onopgelost te markeren"
+          }
         }
       }
     },
@@ -18871,6 +19777,12 @@
             "state" : "translated",
             "value" : "Fjern kobling"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ontkoppelen"
+          }
         }
       }
     },
@@ -18994,6 +19906,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Slett gjeldende forelesning"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Huidig college verwijderen"
           }
         }
       }
@@ -19120,6 +20038,12 @@
             "state" : "translated",
             "value" : "VoiceOver leser opp hver knapp og hvert notat i riktig rekkefølge."
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "VoiceOver leest elke knop en notitie voor in de juiste volgorde."
+          }
         }
       }
     },
@@ -19243,6 +20167,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tilpass til vinduet"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aanpassen aan venster"
           }
         }
       }
@@ -19368,6 +20298,12 @@
             "state" : "translated",
             "value" : "Zoom inn"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Inzoomen"
+          }
         }
       }
     },
@@ -19488,6 +20424,12 @@
           }
         },
         "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OK"
+          }
+        },
+        "nl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "OK"

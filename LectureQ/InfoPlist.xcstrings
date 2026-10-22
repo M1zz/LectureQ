@@ -122,6 +122,12 @@
             "state" : "translated",
             "value" : "LectureQ"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "LectureQ"
+          }
         }
       }
     },
@@ -242,6 +248,12 @@
           }
         },
         "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "LectureQ"
+          }
+        },
+        "nl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "LectureQ"

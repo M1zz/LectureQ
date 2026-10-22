@@ -1322,3 +1322,69 @@ https://m1zz.github.io/LectureQ/privacy.html
 ### 마케팅 URL
 
 https://m1zz.github.io/LectureQ/
+
+## nl
+
+### 이름
+
+LectureQ: Collegevragen
+
+### 부제
+
+Twijfels worden kennis
+
+### 키워드
+
+studeren,tentamen,herhalen,seminar,universiteit,cursus,tijdlijn,prompt,huiswerk,scriptie,student
+
+### 프로모션 텍스트
+
+Leg met één sneltoets de twijfel vast die midden in het college opkomt. Hij komt naast je notities van dat moment, en vervolgvragen en AI-prompts maken er kennis van.
+
+### 설명
+
+Een studieschrift voor Mac dat de vragen die tijdens een college opkomen niet laat wegglippen.
+Schrijf de vraag in eenvoudige woorden op, bewaar hem naast je notities van dat moment, zoek later het antwoord en verwoord het in je eigen woorden: zo wordt het iets wat je hebt geleerd.
+
+Snelle vraag
+Open het invoervenster met de knop Vraag toevoegen in de knoppenbalk of met Command Shift N. Het tijdstip wordt automatisch ingevuld met de huidige tijd. Met Return bewaar je de vraag, met Command Return bewaar je hem en kun je meteen de volgende noteren.
+
+Vragenlijst
+Vervolgvragen staan ingesprongen onder de oorspronkelijke vraag. Onopgeloste en opgeloste vragen zijn aan hun kleur te onderscheiden, en je kunt alleen de onopgeloste tonen.
+
+Notities per tijdblok
+Verdeel een college in meerdere tijdblokken en maak notities per blok. Vragen verschijnen naast het blok waar ze bij horen, en met een klik spring je er direct naartoe. Stel je een vraag op een tijdstip buiten de blokken, dan wordt er vanzelf een blok toegevoegd.
+
+Vraagdetails
+Beheer op één plek of de vraag is opgelost, of hij meetelt bij wat je hebt geleerd, het tijdstip, je eigen antwoord en de oorspronkelijke en vervolgvragen.
+
+Antwoorden vinden met AI
+Vijf promptstappen – de vraag aanscherpen, het antwoord zoeken, het antwoord ter discussie stellen, vervolgvragen ophalen en je eigen antwoord laten beoordelen – worden naar het klembord gekopieerd met de collegenaam en de notitie van dat moment al ingevuld. Plak ze gewoon in de AI-dienst die je al gebruikt. De app verstuurt zelf niets naar buiten.
+
+Alles in één oogopslag
+De collegesamenvatting verzamelt alleen de nog te stellen vragen, wat je hebt geleerd en je notities, zodat je hem kunt lezen als een herhalingsblad. De grafiek laat zien hoe je gedachten zich van de oorspronkelijke vragen naar de vervolgvragen hebben vertakt, en met het tijdblokoverzicht loop je op volgorde na wat je wanneer hebt geleerd.
+
+Leerstatus
+Noteer waar je voor het college staat, waar je daarna wilt staan en wat je wilt leren, en vergelijk.
+
+Gesprekken importeren uit Markdown
+Importeer Markdown met een titel, secties en beurten per spreker, en de app verdeelt het in college, vragen en antwoorden.
+
+De tekstgrootte pas je aan met Command plus en Command min.
+
+Privacy
+Er zijn geen accounts en alle opnamen blijven alleen op deze Mac.
+
+Vereist macOS 14 of nieuwer.
+
+### 지원 URL
+
+https://m1zz.github.io/LectureQ/support.html
+
+### 개인정보처리방침 URL
+
+https://m1zz.github.io/LectureQ/privacy.html
+
+### 마케팅 URL
+
+https://m1zz.github.io/LectureQ/

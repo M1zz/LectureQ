@@ -124,3 +124,9 @@ Halaman dukungan dan privasi dirapikan
 Dato og klokkeslett i språkets format
 Nye tekster og skjermbilder i App Store
 Nye sider for støtte og personvern
+
+### 앱스토어 (nl)
+
+Datum en tijd in het formaat van je taal
+Nieuwe App Store-teksten en screenshots
+Support- en privacypagina's vernieuwd
