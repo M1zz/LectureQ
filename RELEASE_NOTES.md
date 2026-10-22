@@ -64,3 +64,9 @@ Support- und Datenschutzseiten neu
 Date et heure au format de votre langue
 Textes et captures App Store refaits
 Assistance et confidentialité refaites
+
+### 앱스토어 (it)
+
+Data e ora nel formato della tua lingua
+Testi e screenshot App Store rifatti
+Pagine di supporto e privacy rifatte

@@ -662,3 +662,69 @@ https://m1zz.github.io/LectureQ/privacy.html
 ### 마케팅 URL
 
 https://m1zz.github.io/LectureQ/
+
+## it
+
+### 이름
+
+LectureQ: Domande a lezione
+
+### 부제
+
+I tuoi dubbi diventano sapere
+
+### 키워드
+
+studio,esame,università,seminario,ripasso,corso,tesi,cronologia,prompt,webinar,compiti,dispense
+
+### 프로모션 텍스트
+
+Annota con una scorciatoia il dubbio che ti viene a lezione. Resta accanto ai tuoi appunti di quel momento, poi approfondimenti e prompt IA lo trasformano in sapere.
+
+### 설명
+
+Un quaderno di studio per Mac che non lascia sfuggire le domande che ti vengono durante una lezione.
+Scrivi la domanda con parole semplici, tienila accanto agli appunti di quel momento, poi trova la risposta e riscrivila con parole tue: diventa qualcosa che hai imparato.
+
+Domanda veloce
+Apri la finestra di inserimento con il pulsante Aggiungi domanda nella barra degli strumenti o con Comando Maiusc N. Il momento si compila da solo con l’ora attuale. Con Invio salvi la domanda, con Comando Invio la salvi e scrivi subito la successiva.
+
+Elenco delle domande
+Le domande di approfondimento si dispongono rientrate sotto la domanda originale. Le domande irrisolte e quelle risolte si distinguono per colore, e puoi mostrare solo le irrisolte.
+
+Appunti a blocchi orari
+Dividi una lezione in più blocchi orari e prendi appunti in ciascuno. Le domande compaiono accanto al blocco giusto e, con un clic, ci vai subito. Se lasci una domanda in un momento fuori dai blocchi, ne viene aggiunto uno in automatico.
+
+Dettaglio della domanda
+Se è risolta, se conta tra le cose imparate, il momento, la tua risposta, la domanda originale e quelle di approfondimento: tutto in un unico posto.
+
+Trova risposte con l’IA
+Cinque passi di prompt, dall’affinare la domanda al trovare la risposta, dal metterla in discussione al ricavare domande di approfondimento fino a far valutare la tua risposta, vengono copiati negli appunti con il nome della lezione e gli appunti di quel momento già inseriti. Ti basta incollarli nel servizio di IA che usi già. L’app non invia nulla all’esterno da sola.
+
+Tutto a colpo d’occhio
+Il riepilogo della lezione raccoglie solo le domande da fare, ciò che hai imparato e i tuoi appunti, da leggere come un foglio di ripasso. Il grafo mostra come il tuo ragionamento si è ramificato dalle domande originali a quelle di approfondimento, e la vista dei blocchi orari ti fa scorrere in ordine cosa hai imparato e quando.
+
+Stato di apprendimento
+Scrivi com’eri prima della lezione, come vuoi essere alla fine e cosa vuoi imparare, e confronta.
+
+Importa conversazioni in Markdown
+Importa un Markdown con titolo, sezioni e interventi per interlocutore, e l’app lo suddivide in lezione, domande e risposte.
+
+Puoi regolare la dimensione del testo con Comando più e Comando meno.
+
+Privacy
+Non ci sono account e tutte le registrazioni restano soltanto su questo Mac.
+
+Richiede macOS 14 o successivo.
+
+### 지원 URL
+
+https://m1zz.github.io/LectureQ/support.html
+
+### 개인정보처리방침 URL
+
+https://m1zz.github.io/LectureQ/privacy.html
+
+### 마케팅 URL
+
+https://m1zz.github.io/LectureQ/

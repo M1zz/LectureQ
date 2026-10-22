@@ -62,6 +62,12 @@
             "state" : "translated",
             "value" : "\n\n\n—\nVersion de l’app : %@ (%@)\nmacOS : %@"
           }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "\n\n\n—\nVersione dell’app: %@ (%@)\nmacOS: %@"
+          }
         }
       }
     },
@@ -125,6 +131,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "« %@ » copié"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "«%@» copiato"
           }
         }
       }
@@ -190,6 +202,12 @@
             "state" : "translated",
             "value" : "Étape %lld, %@. %@"
           }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Passo %lld, %@. %@"
+          }
         }
       }
     },
@@ -250,6 +268,12 @@
           }
         },
         "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld min"
+          }
+        },
+        "it" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld min"
@@ -318,6 +342,12 @@
             "state" : "translated",
             "value" : "Copier le prompt IA"
           }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Copia prompt IA"
+          }
         }
       }
     },
@@ -381,6 +411,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Guide : trouver des réponses avec l’IA"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Guida: trova risposte con l’IA"
           }
         }
       }
@@ -447,6 +483,12 @@
             "state" : "translated",
             "value" : "Verrouillage Touch ID"
           }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Blocco con Touch ID"
+          }
         }
       }
     },
@@ -511,6 +553,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Verrouillez l’app avec Touch ID pour garder vos notes privées."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Blocca l’app con Touch ID per tenere privati i tuoi appunti."
           }
         }
       }
@@ -577,6 +625,12 @@
             "state" : "translated",
             "value" : "Plus pratique avec VoiceOver"
           }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Più comodo con VoiceOver"
+          }
         }
       }
     },
@@ -640,6 +694,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "[%@] Demande"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "[%@] Richiesta"
           }
         }
       }
@@ -705,6 +765,12 @@
             "state" : "translated",
             "value" : "Appuyez sur ⌘⇧N pour ajouter une question"
           }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Premi ⌘⇧N per aggiungere una domanda"
+          }
         }
       }
     },
@@ -768,6 +834,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ouvrir le guide"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Apri la guida"
           }
         }
       }
@@ -833,6 +905,12 @@
             "state" : "translated",
             "value" : "Échec de l’importation"
           }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Importazione non riuscita"
+          }
         }
       }
     },
@@ -896,6 +974,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Conversation importée"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Conversazione importata"
           }
         }
       }
@@ -961,6 +1045,12 @@
             "state" : "translated",
             "value" : "Copie dans le presse-papiers un prompt avec le contexte de votre cours"
           }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Copia negli appunti un prompt con il contesto della tua lezione"
+          }
         }
       }
     },
@@ -1024,6 +1114,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Choisir un cours"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Scegli lezione"
           }
         }
       }
@@ -1089,6 +1185,12 @@
             "state" : "translated",
             "value" : "Moment du cours"
           }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Momento della lezione"
+          }
         }
       }
     },
@@ -1152,6 +1254,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Moment du cours (24 h, HH:mm)"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Momento della lezione (24 ore, HH:mm)"
           }
         }
       }
@@ -1217,6 +1325,12 @@
             "state" : "translated",
             "value" : "Moment du cours (24 h, HH:mm). Effacez-le pour enregistrer sans moment"
           }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Momento della lezione (24 ore, HH:mm). Se lo cancelli, viene salvata senza momento"
+          }
         }
       }
     },
@@ -1280,6 +1394,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Aucun cours"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nessuna lezione"
           }
         }
       }
@@ -1345,6 +1465,12 @@
             "state" : "translated",
             "value" : "Nom du cours"
           }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nome della lezione"
+          }
         }
       }
     },
@@ -1408,6 +1534,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Un carnet qui garde les questions qui vous viennent en cours, pour y répondre plus tard avec vos propres mots."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Un quaderno che conserva le domande che ti vengono a lezione, per rispondere più tardi con parole tue."
           }
         }
       }
@@ -1473,6 +1605,12 @@
             "state" : "translated",
             "value" : "Ajouter un cours"
           }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aggiungi lezione"
+          }
         }
       }
     },
@@ -1536,6 +1674,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Notez en mots simples la question qui vous vient pendant un cours. Le moment se remplit avec l’heure actuelle."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Scrivi con parole semplici la domanda che ti viene durante una lezione. Il momento si compila con l’ora attuale."
           }
         }
       }
@@ -1601,6 +1745,12 @@
             "state" : "translated",
             "value" : "Créez un cours"
           }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Crea una lezione"
+          }
         }
       }
     },
@@ -1664,6 +1814,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sélectionnez un cours"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Seleziona una lezione"
           }
         }
       }
@@ -1730,6 +1886,12 @@
             "state" : "translated",
             "value" : "Enregistrez vos cours et vos questions dans un fichier et rechargez-les plus tard."
           }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Salva lezioni e domande in un file e recuperale quando vuoi."
+          }
         }
       }
     },
@@ -1793,6 +1955,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Une question ? Appuyez sur ⌘⇧N"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Un dubbio? Premi ⌘⇧N"
           }
         }
       }
@@ -1858,6 +2026,12 @@
             "state" : "translated",
             "value" : "Écrivez ce que vous vous demandez, en mots aussi simples que possible…"
           }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Scrivi cosa ti chiedi, con le parole più semplici possibili…"
+          }
         }
       }
     },
@@ -1922,6 +2096,12 @@
             "state" : "translated",
             "value" : "Graphe"
           }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Grafo"
+          }
         }
       }
     },
@@ -1985,6 +2165,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Taille du texte (%lld %%)"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dimensione del testo (%lld%%)"
           }
         }
       }
@@ -2051,6 +2237,12 @@
             "state" : "translated",
             "value" : "Quand vous agrandissez le texte, les écrans se réorganisent sans être coupés."
           }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ingrandendo il testo, le schermate si riorganizzano senza tagliare nulla."
+          }
         }
       }
     },
@@ -2114,6 +2306,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Durée"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Durata"
           }
         }
       }
@@ -2179,6 +2377,12 @@
             "state" : "translated",
             "value" : "Taille par défaut"
           }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dimensione predefinita"
+          }
         }
       }
     },
@@ -2242,6 +2446,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Lier une question existante comme question de suivi"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Collega una domanda esistente come approfondimento"
           }
         }
       }
@@ -2307,6 +2517,12 @@
             "state" : "translated",
             "value" : "Questions de suivi"
           }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Domande di approfondimento"
+          }
         }
       }
     },
@@ -2370,6 +2586,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Dégager des questions de suivi"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ricava domande di approfondimento"
           }
         }
       }
@@ -2435,6 +2657,12 @@
             "state" : "translated",
             "value" : "Plus tard, rédigez la réponse avec vos mots et cliquez sur le ? devant la question pour la marquer comme résolue. Ce que vous avez appris se rassemble dans Résumé, dans le menu Présentation."
           }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Più tardi, riscrivi la risposta con parole tue e clicca sul ? davanti alla domanda per segnarla come risolta. Ciò che hai imparato si raccoglie in Riepilogo, nel menu Vista."
+          }
         }
       }
     },
@@ -2498,6 +2726,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Faire noter ma réponse"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fai valutare la mia risposta"
           }
         }
       }
@@ -2564,6 +2798,12 @@
             "state" : "translated",
             "value" : "Effacer toutes vos données d’un coup"
           }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cancella tutti i tuoi dati in un colpo"
+          }
         }
       }
     },
@@ -2627,6 +2867,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Rédigez-la avec vos mots"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Scrivila con parole tue"
           }
         }
       }
@@ -2692,6 +2938,12 @@
             "state" : "translated",
             "value" : "Marque la question comme non résolue"
           }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Segna la domanda come irrisolta"
+          }
         }
       }
     },
@@ -2756,6 +3008,12 @@
             "state" : "translated",
             "value" : "Appuyez pour aller à cette question"
           }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Premi per andare a questa domanda"
+          }
         }
       }
     },
@@ -2819,6 +3077,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Marque la question comme résolue"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Segna la domanda come risolta"
           }
         }
       }
@@ -2885,6 +3149,12 @@
             "state" : "translated",
             "value" : "Retrouvez les mêmes cours et questions sur chacun de vos Mac."
           }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Continua con le stesse lezioni e domande su ogni tuo Mac."
+          }
         }
       }
     },
@@ -2948,6 +3218,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Réintégrer"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rimetti"
           }
         }
       }
@@ -3013,6 +3289,12 @@
             "state" : "translated",
             "value" : "Réintégrer dans « Ce que j’ai appris »"
           }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rimetti in «Cosa ho imparato»"
+          }
         }
       }
     },
@@ -3076,6 +3358,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Fermer"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chiudi"
           }
         }
       }
@@ -3141,6 +3429,12 @@
             "state" : "translated",
             "value" : "Réponse"
           }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Risposta"
+          }
         }
       }
     },
@@ -3204,6 +3498,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Remettre la réponse en question"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Metti in discussione la risposta"
           }
         }
       }
@@ -3269,6 +3569,12 @@
             "state" : "translated",
             "value" : "La note de réponse est vide"
           }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "L’appunto della risposta è vuoto"
+          }
         }
       }
     },
@@ -3332,6 +3638,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pas de réponse"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nessuna risposta"
           }
         }
       }
@@ -3397,6 +3709,12 @@
             "state" : "translated",
             "value" : "Trouver la réponse"
           }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Trova la risposta"
+          }
         }
       }
     },
@@ -3460,6 +3778,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Écrivez la réponse et marquez-la comme résolue"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Scrivi la risposta e segna come risolta"
           }
         }
       }
@@ -3526,6 +3850,12 @@
             "state" : "translated",
             "value" : "Tout reste lisible, même avec un contraste renforcé ou si les couleurs sont difficiles à distinguer."
           }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tutto resta leggibile, anche con contrasto elevato o se fai fatica a distinguere i colori."
+          }
         }
       }
     },
@@ -3590,6 +3920,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Utilisez l’app dans davantage de langues."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Usa l’app in più lingue."
           }
         }
       }
@@ -3656,6 +3992,12 @@
             "state" : "translated",
             "value" : "Plus de langues"
           }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Più lingue"
+          }
         }
       }
     },
@@ -3719,6 +4061,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Questions à poser"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Domande da fare"
           }
         }
       }
@@ -3785,6 +4133,12 @@
             "state" : "translated",
             "value" : "Widgets de bureau"
           }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Widget per la scrivania"
+          }
         }
       }
     },
@@ -3848,6 +4202,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Jeter un œil"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dai un’occhiata"
           }
         }
       }
@@ -3913,6 +4273,12 @@
             "state" : "translated",
             "value" : "Importer depuis Markdown…"
           }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Importa da Markdown…"
+          }
         }
       }
     },
@@ -3976,6 +4342,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Écrivez d’abord une ou deux lignes avec vos mots dans le champ de réponse"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Prima scrivi una o due righe con parole tue nel campo della risposta"
           }
         }
       }
@@ -4041,6 +4413,12 @@
             "state" : "translated",
             "value" : "Notes"
           }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Appunti"
+          }
         }
       }
     },
@@ -4104,6 +4482,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Contacter par e-mail"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Scrivici via e-mail"
           }
         }
       }
@@ -4169,6 +4553,12 @@
             "state" : "translated",
             "value" : "Tout est résolu"
           }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tutto risolto"
+          }
         }
       }
     },
@@ -4232,6 +4622,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Quand vous nous écrivez, indiquez votre version de macOS et ce que vous faisiez quand le problème est survenu : nous pourrons vérifier plus vite."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Quando ci scrivi, indica la versione di macOS e cosa stavi facendo quando si è verificato il problema: potremo controllare più in fretta."
           }
         }
       }
@@ -4297,6 +4693,12 @@
             "state" : "translated",
             "value" : "Non résolue"
           }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Irrisolta"
+          }
         }
       }
     },
@@ -4360,6 +4762,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Non résolue — cliquez pour la marquer comme résolue"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Irrisolta — clicca per segnarla come risolta"
           }
         }
       }
@@ -4425,6 +4833,12 @@
             "state" : "translated",
             "value" : "Afficher uniquement les questions non résolues"
           }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mostra solo le domande irrisolte"
+          }
         }
       }
     },
@@ -4488,6 +4902,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Aucune question non résolue"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nessuna domanda irrisolta"
           }
         }
       }
@@ -4553,6 +4973,12 @@
             "state" : "translated",
             "value" : "Non résolues uniquement"
           }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Solo irrisolte"
+          }
         }
       }
     },
@@ -4616,6 +5042,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ce que je veux apprendre"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cosa voglio imparare"
           }
         }
       }
@@ -4681,6 +5113,12 @@
             "state" : "translated",
             "value" : "Ce que j’ai appris"
           }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cosa ho imparato"
+          }
         }
       }
     },
@@ -4745,6 +5183,12 @@
             "state" : "translated",
             "value" : "Inclure dans « Ce que j’ai appris »"
           }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Includi in «Cosa ho imparato»"
+          }
         }
       }
     },
@@ -4808,6 +5252,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Exclure de « Ce que j’ai appris » (la réponse est conservée)"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Escludi da «Cosa ho imparato» (la risposta resta)"
           }
         }
       }
@@ -4874,6 +5324,12 @@
             "state" : "translated",
             "value" : "Sauvegarde et export"
           }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Backup ed esportazione"
+          }
         }
       }
     },
@@ -4938,6 +5394,12 @@
             "state" : "translated",
             "value" : "Présentation"
           }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vista"
+          }
         }
       }
     },
@@ -5001,6 +5463,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Dans le menu Présentation, Résumé (⌘1) montre ce qu’il reste à demander et ce que vous avez appris, et Graphe (⌘2) les liens entre vos questions."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nel menu Vista, Riepilogo (⌘1) mostra cosa chiedere e cosa hai imparato, mentre Grafo (⌘2) mostra i collegamenti tra le domande."
           }
         }
       }
@@ -5067,6 +5535,12 @@
             "state" : "translated",
             "value" : "Couleurs et contraste plus confortables"
           }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Colori e contrasto più comodi"
+          }
         }
       }
     },
@@ -5130,6 +5604,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Notes du bloc"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Appunti del blocco"
           }
         }
       }
@@ -5195,6 +5675,12 @@
             "state" : "translated",
             "value" : "Supprimer le bloc"
           }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Elimina blocco"
+          }
         }
       }
     },
@@ -5258,6 +5744,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Couleur du bloc"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Colore del blocco"
           }
         }
       }
@@ -5323,6 +5815,12 @@
             "state" : "translated",
             "value" : "Réglages du bloc"
           }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Impostazioni del blocco"
+          }
         }
       }
     },
@@ -5386,6 +5884,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Heure de début du bloc"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ora di inizio del blocco"
           }
         }
       }
@@ -5451,6 +5955,12 @@
             "state" : "translated",
             "value" : "Ajouter un bloc"
           }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aggiungi blocco"
+          }
         }
       }
     },
@@ -5514,6 +6024,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Aucun bloc"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nessun blocco"
           }
         }
       }
@@ -5579,6 +6095,12 @@
             "state" : "translated",
             "value" : "Supprimer"
           }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Elimina"
+          }
         }
       }
     },
@@ -5642,6 +6164,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nouveau cours"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nuova lezione"
           }
         }
       }
@@ -5707,6 +6235,12 @@
             "state" : "translated",
             "value" : "Nouvelle question de suivi — appuyez sur Retour pour l’ajouter"
           }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nuova domanda di approfondimento — premi Invio per aggiungerla"
+          }
         }
       }
     },
@@ -5770,6 +6304,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Couleur"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Colore"
           }
         }
       }
@@ -5835,6 +6375,12 @@
             "state" : "translated",
             "value" : "Réglages"
           }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Impostazioni"
+          }
         }
       }
     },
@@ -5899,6 +6445,12 @@
             "state" : "translated",
             "value" : "Début"
           }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Inizio"
+          }
         }
       }
     },
@@ -5962,6 +6514,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Moment"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Momento"
           }
         }
       }
@@ -6028,6 +6586,12 @@
             "state" : "translated",
             "value" : "Soyez prévenu au bon moment des questions restées sans réponse."
           }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ricevi un avviso al momento giusto sulle domande ancora senza risposta."
+          }
         }
       }
     },
@@ -6092,6 +6656,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Rappels"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Promemoria"
           }
         }
       }
@@ -6158,6 +6728,12 @@
             "state" : "translated",
             "value" : "Consultez vos questions ouvertes sur le bureau, sans ouvrir l’app."
           }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vedi le domande aperte direttamente sulla scrivania, senza aprire l’app."
+          }
         }
       }
     },
@@ -6222,6 +6798,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Utilisez toute l’app en anglais."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Usa tutta l’app anche in inglese."
           }
         }
       }
@@ -6288,6 +6870,12 @@
             "state" : "translated",
             "value" : "À la première ouverture après une mise à jour, découvrez les nouveautés."
           }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alla prima apertura dopo un aggiornamento, scopri cosa c’è di nuovo."
+          }
         }
       }
     },
@@ -6352,6 +6940,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nouveautés"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Novità"
           }
         }
       }
@@ -6418,6 +7012,12 @@
             "state" : "translated",
             "value" : "Synchronisation entre vos Mac"
           }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sincronizza i tuoi Mac"
+          }
         }
       }
     },
@@ -6482,6 +7082,12 @@
             "state" : "translated",
             "value" : "Dissocier (la question n’est pas supprimée)"
           }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Scollega (la domanda non viene eliminata)"
+          }
         }
       }
     },
@@ -6545,6 +7151,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nous contacter"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Contattaci"
           }
         }
       }
@@ -6611,6 +7223,12 @@
             "state" : "translated",
             "value" : "Prise en charge complète de l’anglais"
           }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Supporto completo dell’inglese"
+          }
         }
       }
     },
@@ -6674,6 +7292,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Résumé"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Riepilogo"
           }
         }
       }
@@ -6739,6 +7363,12 @@
             "state" : "translated",
             "value" : "Résumé, graphe, blocs horaires, état d’apprentissage, taille du texte"
           }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Riepilogo, grafo, blocchi orari, stato di apprendimento, dimensione del testo"
+          }
         }
       }
     },
@@ -6802,6 +7432,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Choisissez si cette question figure dans « Ce que j’ai appris » du résumé"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Scegli se inserire la domanda in «Cosa ho imparato» nel riepilogo"
           }
         }
       }
@@ -6868,6 +7504,12 @@
             "state" : "translated",
             "value" : "Réduire les animations"
           }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Riduci movimento"
+          }
         }
       }
     },
@@ -6933,6 +7575,12 @@
             "state" : "translated",
             "value" : "Avec « Réduire les animations » activé, les effets à l’écran deviennent plus discrets."
           }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Con Riduci movimento attivo, gli effetti sullo schermo diventano più sobri."
+          }
         }
       }
     },
@@ -6996,6 +7644,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Question d’origine"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Domanda originale"
           }
         }
       }
@@ -7062,6 +7716,12 @@
             "state" : "translated",
             "value" : "Si vous le souhaitez, effacez tous vos cours et questions depuis l’app."
           }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Se vuoi, cancella tutte le lezioni e le domande direttamente nell’app."
+          }
         }
       }
     },
@@ -7125,6 +7785,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ce que je voudrais savoir faire une fois ce cours compris…"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cosa vorrei saper fare quando avrò capito questa lezione…"
           }
         }
       }
@@ -7190,6 +7856,12 @@
             "state" : "translated",
             "value" : "Ce que je sais avant ce cours ou jusqu’ici, et ce qui me bloque…"
           }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cosa so prima di questa lezione o finora, e dove mi blocco…"
+          }
         }
       }
     },
@@ -7253,6 +7925,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ce que je veux absolument retirer de ce cours, les sujets qui m’intriguent…"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cosa voglio assolutamente ricavare da questa lezione, argomenti che mi incuriosiscono…"
           }
         }
       }
@@ -7318,6 +7996,12 @@
             "state" : "translated",
             "value" : "Supprimer ce bloc ? Ses notes seront aussi supprimées."
           }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Eliminare questo blocco? Verranno eliminati anche i suoi appunti."
+          }
         }
       }
     },
@@ -7381,6 +8065,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Changer la couleur, l’heure de début et la durée de ce bloc, ou le supprimer"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cambia colore, ora di inizio e durata di questo blocco, oppure eliminalo"
           }
         }
       }
@@ -7446,6 +8136,12 @@
             "state" : "translated",
             "value" : "Notez ce que vous avez appris sur ce créneau et ce que vous voulez retenir…"
           }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Annota cosa hai imparato in questo intervallo e cosa vuoi ricordare…"
+          }
         }
       }
     },
@@ -7509,6 +8205,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Aller à cette question"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vai a questa domanda"
           }
         }
       }
@@ -7574,6 +8276,12 @@
             "state" : "translated",
             "value" : "Rédigez la réponse à cette question avec vos mots"
           }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Scrivi con parole tue la risposta a questa domanda"
+          }
         }
       }
     },
@@ -7637,6 +8345,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Suivre l’actualité sur Instagram"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Novità su Instagram"
           }
         }
       }
@@ -7702,6 +8416,12 @@
             "state" : "translated",
             "value" : "Plus petit"
           }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Più piccolo"
+          }
         }
       }
     },
@@ -7765,6 +8485,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Créée le %@"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Creata: %@"
           }
         }
       }
@@ -7830,6 +8556,12 @@
             "state" : "translated",
             "value" : "Enregistrer"
           }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Salva"
+          }
         }
       }
     },
@@ -7893,6 +8625,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Enregistrer et continuer"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Salva e continua"
           }
         }
       }
@@ -7958,6 +8696,12 @@
             "state" : "translated",
             "value" : "Exclure"
           }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Escludi"
+          }
         }
       }
     },
@@ -8021,6 +8765,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Réponses exclues"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Risposte escluse"
           }
         }
       }
@@ -8086,6 +8836,12 @@
             "state" : "translated",
             "value" : "Maintenant"
           }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Adesso"
+          }
         }
       }
     },
@@ -8149,6 +8905,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Où j’en suis maintenant"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A che punto sono ora"
           }
         }
       }
@@ -8214,6 +8976,12 @@
             "state" : "translated",
             "value" : "Assistance"
           }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Supporto"
+          }
         }
       }
     },
@@ -8277,6 +9045,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Question"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Domanda"
           }
         }
       }
@@ -8342,6 +9116,12 @@
             "state" : "translated",
             "value" : "Questions %lld · À poser %lld · Appris %lld · Questions de suivi %lld"
           }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Domande %lld · Da chiedere %lld · Imparato %lld · Domande di approfondimento %lld"
+          }
         }
       }
     },
@@ -8405,6 +9185,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ouvre Notes de questions et affiche une fenêtre pour noter une question sur le cours en cours."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Apre Note di domande e mostra una finestra per scrivere una domanda sulla lezione che stai guardando."
           }
         }
       }
@@ -8470,6 +9256,12 @@
             "state" : "translated",
             "value" : "Bienvenue dans Notes de questions"
           }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Benvenuto in Note di domande"
+          }
         }
       }
     },
@@ -8533,6 +9325,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Affiner la question"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Affina la domanda"
           }
         }
       }
@@ -8598,6 +9396,12 @@
             "state" : "translated",
             "value" : "Ajouter une question"
           }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aggiungi domanda"
+          }
         }
       }
     },
@@ -8661,6 +9465,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ajouter une question (⌘⇧N)"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aggiungi domanda (⌘⇧N)"
           }
         }
       }
@@ -8726,6 +9536,12 @@
             "state" : "translated",
             "value" : "Sélectionnez une question"
           }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Seleziona una domanda"
+          }
         }
       }
     },
@@ -8789,6 +9605,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Les questions que vous marquez comme résolues apparaissent ici"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Le domande che segni come risolte compaiono qui"
           }
         }
       }
@@ -8854,6 +9676,12 @@
             "state" : "translated",
             "value" : "Les questions s’accumulent : faites le point"
           }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Le domande si sono accumulate: dai un’occhiata"
+          }
         }
       }
     },
@@ -8917,6 +9745,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Créer mon premier cours"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Crea la prima lezione"
           }
         }
       }
@@ -8982,6 +9816,12 @@
             "state" : "translated",
             "value" : "Réduire"
           }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Riduci"
+          }
         }
       }
     },
@@ -9046,6 +9886,12 @@
             "state" : "translated",
             "value" : "Annuler"
           }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Annulla"
+          }
         }
       }
     },
@@ -9109,6 +9955,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Plus grand"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Più grande"
           }
         }
       }
@@ -9175,6 +10027,12 @@
             "state" : "translated",
             "value" : "Écrans adaptés au grand texte"
           }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Schermate adatte al testo grande"
+          }
         }
       }
     },
@@ -9238,6 +10096,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Blocs horaires"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Blocchi orari"
           }
         }
       }
@@ -9303,6 +10167,12 @@
             "state" : "translated",
             "value" : "Ajoutez un nouveau cours depuis le menu des cours, à gauche de la barre d’outils, ou importez un fichier Markdown de conversation."
           }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aggiungi una nuova lezione dal menu delle lezioni a sinistra della barra degli strumenti, oppure importa un file Markdown con una conversazione."
+          }
         }
       }
     },
@@ -9366,6 +10236,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "État d’apprentissage"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stato di apprendimento"
           }
         }
       }
@@ -9431,6 +10307,12 @@
             "state" : "translated",
             "value" : "Où je veux en être à la fin"
           }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Come voglio essere alla fine"
+          }
         }
       }
     },
@@ -9494,6 +10376,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Résolue"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Risolta"
           }
         }
       }
@@ -9559,6 +10447,12 @@
             "state" : "translated",
             "value" : "État de résolution"
           }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stato di risoluzione"
+          }
         }
       }
     },
@@ -9622,6 +10516,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Résolue"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Risolta"
           }
         }
       }
@@ -9687,6 +10587,12 @@
             "state" : "translated",
             "value" : "Résolue — cliquez pour la repasser en non résolue"
           }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Risolta — clicca per segnarla come irrisolta"
+          }
         }
       }
     },
@@ -9751,6 +10657,12 @@
             "state" : "translated",
             "value" : "Dissocier"
           }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Scollega"
+          }
         }
       }
     },
@@ -9814,6 +10726,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Supprimer le cours actuel"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Elimina lezione corrente"
           }
         }
       }
@@ -9880,6 +10798,12 @@
             "state" : "translated",
             "value" : "VoiceOver lit chaque bouton et chaque note dans le bon ordre."
           }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "VoiceOver legge ogni pulsante e ogni appunto nell’ordine corretto."
+          }
         }
       }
     },
@@ -9943,6 +10867,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ajuster à la fenêtre"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Adatta alla finestra"
           }
         }
       }
@@ -10008,6 +10938,12 @@
             "state" : "translated",
             "value" : "Agrandir"
           }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ingrandisci"
+          }
         }
       }
     },
@@ -10068,6 +11004,12 @@
           }
         },
         "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OK"
+          }
+        },
+        "it" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "OK"
