@@ -50,6 +50,12 @@
             "state" : "translated",
             "value" : "\n\n\n—\nVersión de la app: %@ (%@)\nmacOS: %@"
           }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "\n\n\n—\nApp-Version: %@ (%@)\nmacOS: %@"
+          }
         }
       }
     },
@@ -101,6 +107,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "«%@» copiado"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "„%@“ kopiert"
           }
         }
       }
@@ -154,6 +166,12 @@
             "state" : "translated",
             "value" : "Paso %lld, %@. %@"
           }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Schritt %lld, %@. %@"
+          }
         }
       }
     },
@@ -205,6 +223,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld min"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld Min."
           }
         }
       }
@@ -258,6 +282,12 @@
             "state" : "translated",
             "value" : "Copiar prompt de IA"
           }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "KI-Prompt kopieren"
+          }
         }
       }
     },
@@ -309,6 +339,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Guía: encuentra respuestas con IA"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Leitfaden: Antworten mit KI finden"
           }
         }
       }
@@ -363,6 +399,12 @@
             "state" : "translated",
             "value" : "Bloqueo con Touch ID"
           }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Touch-ID-Sperre"
+          }
         }
       }
     },
@@ -415,6 +457,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bloquea la app con Touch ID para mantener privadas tus notas."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sperre die App mit Touch ID, damit deine Fragen-Notizen privat bleiben."
           }
         }
       }
@@ -469,6 +517,12 @@
             "state" : "translated",
             "value" : "Mejor compatibilidad con VoiceOver"
           }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Besser mit VoiceOver"
+          }
         }
       }
     },
@@ -520,6 +574,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "[%@] Consulta"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "[%@] Anfrage"
           }
         }
       }
@@ -573,6 +633,12 @@
             "state" : "translated",
             "value" : "Pulsa ⌘⇧N para añadir una pregunta"
           }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mit ⌘⇧N eine Frage hinzufügen"
+          }
         }
       }
     },
@@ -624,6 +690,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Abrir guía"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Leitfaden öffnen"
           }
         }
       }
@@ -677,6 +749,12 @@
             "state" : "translated",
             "value" : "Error al importar"
           }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Import fehlgeschlagen"
+          }
         }
       }
     },
@@ -728,6 +806,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Conversación importada"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Importiertes Gespräch"
           }
         }
       }
@@ -781,6 +865,12 @@
             "state" : "translated",
             "value" : "Copia al portapapeles un prompt con el contexto de tu clase"
           }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kopiert einen Prompt mit dem Kontext deiner Vorlesung in die Zwischenablage"
+          }
         }
       }
     },
@@ -832,6 +922,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Elegir clase"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vorlesung auswählen"
           }
         }
       }
@@ -885,6 +981,12 @@
             "state" : "translated",
             "value" : "Momento de la clase"
           }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zeitpunkt in der Vorlesung"
+          }
         }
       }
     },
@@ -936,6 +1038,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Momento de la clase (24 horas, HH:mm)"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zeitpunkt in der Vorlesung (24 Stunden, HH:mm)"
           }
         }
       }
@@ -989,6 +1097,12 @@
             "state" : "translated",
             "value" : "Momento de la clase (24 horas, HH:mm). Si lo borras, se guarda sin momento"
           }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zeitpunkt in der Vorlesung (24 Stunden, HH:mm). Wenn du ihn löschst, wird ohne Zeitpunkt gesichert"
+          }
         }
       }
     },
@@ -1040,6 +1154,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sin clase"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Keine Vorlesung"
           }
         }
       }
@@ -1093,6 +1213,12 @@
             "state" : "translated",
             "value" : "Nombre de la clase"
           }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Name der Vorlesung"
+          }
         }
       }
     },
@@ -1144,6 +1270,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Un cuaderno que guarda las preguntas que te surgen en clase para que después las respondas con tus propias palabras."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ein Notizbuch, das die Fragen aus der Vorlesung festhält, damit du sie später mit eigenen Worten beantworten kannst."
           }
         }
       }
@@ -1197,6 +1329,12 @@
             "state" : "translated",
             "value" : "Añadir clase"
           }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vorlesung hinzufügen"
+          }
         }
       }
     },
@@ -1248,6 +1386,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Anota con las palabras más sencillas la pregunta que te surja en clase. El momento se rellena con la hora actual."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Schreib eine Frage, die dir in der Vorlesung einfällt, in einfachen Worten auf. Der Zeitpunkt wird mit der aktuellen Uhrzeit ausgefüllt."
           }
         }
       }
@@ -1301,6 +1445,12 @@
             "state" : "translated",
             "value" : "Crea una clase"
           }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lege eine Vorlesung an"
+          }
         }
       }
     },
@@ -1352,6 +1502,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Selecciona una clase"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wähle eine Vorlesung aus"
           }
         }
       }
@@ -1406,6 +1562,12 @@
             "state" : "translated",
             "value" : "Guarda tus clases y preguntas en un archivo y recupéralas cuando quieras."
           }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Speichere deine Vorlesungen und Fragen in einer Datei und hol sie später zurück."
+          }
         }
       }
     },
@@ -1457,6 +1619,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "¿Una duda? Pulsa ⌘⇧N"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Neugierig? Drück ⌘⇧N"
           }
         }
       }
@@ -1510,6 +1678,12 @@
             "state" : "translated",
             "value" : "Escribe lo que te preguntas con las palabras más sencillas…"
           }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Schreib auf, was du dich fragst – in möglichst einfachen Worten …"
+          }
         }
       }
     },
@@ -1562,6 +1736,12 @@
             "state" : "translated",
             "value" : "Grafo"
           }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Graph"
+          }
         }
       }
     },
@@ -1613,6 +1793,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tamaño del texto (%lld%%)"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Textgröße (%lld%%)"
           }
         }
       }
@@ -1667,6 +1853,12 @@
             "state" : "translated",
             "value" : "Al agrandar el texto, las pantallas se reorganizan sin cortarse."
           }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bei größerer Schrift werden Ansichten neu angeordnet, statt abgeschnitten zu werden."
+          }
         }
       }
     },
@@ -1718,6 +1910,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Duración"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dauer"
           }
         }
       }
@@ -1771,6 +1969,12 @@
             "state" : "translated",
             "value" : "Tamaño predeterminado"
           }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Standardgröße"
+          }
         }
       }
     },
@@ -1822,6 +2026,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vincular una pregunta existente como seguimiento"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bestehende Frage als Folgefrage verknüpfen"
           }
         }
       }
@@ -1875,6 +2085,12 @@
             "state" : "translated",
             "value" : "Preguntas de seguimiento"
           }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Folgefragen"
+          }
         }
       }
     },
@@ -1926,6 +2142,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sacar preguntas de seguimiento"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Folgefragen herausarbeiten"
           }
         }
       }
@@ -1979,6 +2201,12 @@
             "state" : "translated",
             "value" : "Más tarde, redacta la respuesta con tus palabras y pulsa el ? junto a la pregunta para marcarla como resuelta. Lo que has aprendido se reúne en Resumen, en el menú Visualización."
           }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fasse die Antwort später in eigenen Worten zusammen und klicke auf das ? vor der Frage, um sie als geklärt zu markieren. Was du gelernt hast, sammelt sich in der Übersicht im Menü „Darstellung“."
+          }
         }
       }
     },
@@ -2030,6 +2258,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Que califiquen mi respuesta"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Meine Antwort bewerten lassen"
           }
         }
       }
@@ -2084,6 +2318,12 @@
             "state" : "translated",
             "value" : "Borrar todos tus datos de una vez"
           }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alle Daten auf einmal löschen"
+          }
         }
       }
     },
@@ -2135,6 +2375,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Escríbela con tus propias palabras"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Schreib es in eigenen Worten auf"
           }
         }
       }
@@ -2188,6 +2434,12 @@
             "state" : "translated",
             "value" : "Marca la pregunta como sin resolver"
           }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Markiert die Frage als offen"
+          }
         }
       }
     },
@@ -2240,6 +2492,12 @@
             "state" : "translated",
             "value" : "Pulsa para ir a esta pregunta"
           }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Springt zu dieser Frage"
+          }
         }
       }
     },
@@ -2291,6 +2549,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Marca la pregunta como resuelta"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Markiert die Frage als geklärt"
           }
         }
       }
@@ -2345,6 +2609,12 @@
             "state" : "translated",
             "value" : "Sigue con las mismas clases y preguntas en cualquiera de tus Mac."
           }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mach auf jedem deiner Macs mit denselben Vorlesungen und Fragen weiter."
+          }
         }
       }
     },
@@ -2396,6 +2666,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Volver a incluir"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wieder aufnehmen"
           }
         }
       }
@@ -2449,6 +2725,12 @@
             "state" : "translated",
             "value" : "Volver a incluir en «Lo que he aprendido»"
           }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wieder in „Gelerntes“ aufnehmen"
+          }
         }
       }
     },
@@ -2500,6 +2782,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Cerrar"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Schließen"
           }
         }
       }
@@ -2553,6 +2841,12 @@
             "state" : "translated",
             "value" : "Respuesta"
           }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Antwort"
+          }
         }
       }
     },
@@ -2604,6 +2898,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Cuestionar la respuesta"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Antwort hinterfragen"
           }
         }
       }
@@ -2657,6 +2957,12 @@
             "state" : "translated",
             "value" : "La nota de la respuesta está vacía"
           }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Die Antwortnotiz ist leer"
+          }
         }
       }
     },
@@ -2708,6 +3014,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sin respuesta"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Keine Antwort"
           }
         }
       }
@@ -2761,6 +3073,12 @@
             "state" : "translated",
             "value" : "Buscar la respuesta"
           }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Antwort finden"
+          }
         }
       }
     },
@@ -2812,6 +3130,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Escribe la respuesta y márcala como resuelta"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Antwort notieren und abhaken"
           }
         }
       }
@@ -2866,6 +3190,12 @@
             "state" : "translated",
             "value" : "Todo se sigue leyendo bien, incluso con más contraste o si te cuesta distinguir los colores."
           }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alles bleibt lesbar – auch mit höherem Kontrast oder wenn Farben schwer zu unterscheiden sind."
+          }
         }
       }
     },
@@ -2918,6 +3248,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Usa la app en más idiomas."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nutze die App in mehr Sprachen."
           }
         }
       }
@@ -2972,6 +3308,12 @@
             "state" : "translated",
             "value" : "Más idiomas"
           }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mehr Sprachen"
+          }
         }
       }
     },
@@ -3023,6 +3365,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Preguntas pendientes"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Offene Fragen"
           }
         }
       }
@@ -3077,6 +3425,12 @@
             "state" : "translated",
             "value" : "Widgets de escritorio"
           }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Widgets für den Schreibtisch"
+          }
         }
       }
     },
@@ -3128,6 +3482,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Echar un vistazo"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Umsehen"
           }
         }
       }
@@ -3181,6 +3541,12 @@
             "state" : "translated",
             "value" : "Importar desde Markdown…"
           }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aus Markdown importieren …"
+          }
         }
       }
     },
@@ -3232,6 +3598,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Primero escribe una o dos líneas con tus propias palabras en el campo de respuesta"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Schreib zuerst ein, zwei Zeilen in eigenen Worten ins Antwortfeld"
           }
         }
       }
@@ -3285,6 +3657,12 @@
             "state" : "translated",
             "value" : "Notas"
           }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Notizen"
+          }
         }
       }
     },
@@ -3336,6 +3714,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Contactar por correo"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Per E-Mail kontaktieren"
           }
         }
       }
@@ -3389,6 +3773,12 @@
             "state" : "translated",
             "value" : "Todo resuelto"
           }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alles geklärt"
+          }
         }
       }
     },
@@ -3440,6 +3830,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Al escribirnos, indica tu versión de macOS y qué estabas haciendo cuando surgió el problema; así podremos revisarlo más rápido."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gib uns bei einer Anfrage bitte deine macOS-Version und die Aktion an, bei der das Problem auftrat, dann können wir schneller nachsehen."
           }
         }
       }
@@ -3493,6 +3889,12 @@
             "state" : "translated",
             "value" : "Sin resolver"
           }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Offen"
+          }
         }
       }
     },
@@ -3544,6 +3946,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sin resolver — haz clic para marcarla resuelta"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Offen – klicken, um sie als geklärt zu markieren"
           }
         }
       }
@@ -3597,6 +4005,12 @@
             "state" : "translated",
             "value" : "Mostrar solo las preguntas sin resolver"
           }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nur offene Fragen anzeigen"
+          }
         }
       }
     },
@@ -3648,6 +4062,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "No hay preguntas sin resolver"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Keine offenen Fragen"
           }
         }
       }
@@ -3701,6 +4121,12 @@
             "state" : "translated",
             "value" : "Solo sin resolver"
           }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nur offene"
+          }
         }
       }
     },
@@ -3752,6 +4178,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Lo que quiero aprender"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Was ich lernen möchte"
           }
         }
       }
@@ -3805,6 +4237,12 @@
             "state" : "translated",
             "value" : "Lo que he aprendido"
           }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gelerntes"
+          }
         }
       }
     },
@@ -3857,6 +4295,12 @@
             "state" : "translated",
             "value" : "Incluir en «Lo que he aprendido»"
           }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "In „Gelerntes“ aufnehmen"
+          }
         }
       }
     },
@@ -3908,6 +4352,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Excluir de «Lo que he aprendido» (la respuesta se conserva)"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aus „Gelerntes“ ausschließen (die Antwort bleibt erhalten)"
           }
         }
       }
@@ -3962,6 +4412,12 @@
             "state" : "translated",
             "value" : "Copia de seguridad y exportación"
           }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Backup und Export"
+          }
         }
       }
     },
@@ -4014,6 +4470,12 @@
             "state" : "translated",
             "value" : "Visualización"
           }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Darstellung"
+          }
         }
       }
     },
@@ -4065,6 +4527,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "En el menú Visualización, Resumen (⌘1) te muestra qué preguntar y qué has aprendido, y Grafo (⌘2) cómo se conectan tus preguntas."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Im Menü „Darstellung“ zeigt dir die Übersicht (⌘1), was du noch fragen willst und was du gelernt hast, und der Graph (⌘2), wie deine Fragen zusammenhängen."
           }
         }
       }
@@ -4119,6 +4587,12 @@
             "state" : "translated",
             "value" : "Colores y contraste más cómodos"
           }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Angenehmere Farben und Kontraste"
+          }
         }
       }
     },
@@ -4170,6 +4644,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Notas del bloque"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Blocknotizen"
           }
         }
       }
@@ -4223,6 +4703,12 @@
             "state" : "translated",
             "value" : "Eliminar bloque"
           }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Block löschen"
+          }
         }
       }
     },
@@ -4274,6 +4760,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Color del bloque"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Blockfarbe"
           }
         }
       }
@@ -4327,6 +4819,12 @@
             "state" : "translated",
             "value" : "Ajustes del bloque"
           }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Blockeinstellungen"
+          }
         }
       }
     },
@@ -4378,6 +4876,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hora de inicio del bloque"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Startzeit des Blocks"
           }
         }
       }
@@ -4431,6 +4935,12 @@
             "state" : "translated",
             "value" : "Añadir bloque"
           }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Block hinzufügen"
+          }
         }
       }
     },
@@ -4482,6 +4992,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "No hay bloques"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Keine Blöcke"
           }
         }
       }
@@ -4535,6 +5051,12 @@
             "state" : "translated",
             "value" : "Eliminar"
           }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Löschen"
+          }
         }
       }
     },
@@ -4586,6 +5108,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Clase nueva"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Neue Vorlesung"
           }
         }
       }
@@ -4639,6 +5167,12 @@
             "state" : "translated",
             "value" : "Nueva pregunta de seguimiento — pulsa Intro para añadirla"
           }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Neue Folgefrage – mit der Eingabetaste hinzufügen"
+          }
         }
       }
     },
@@ -4690,6 +5224,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Color"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Farbe"
           }
         }
       }
@@ -4743,6 +5283,12 @@
             "state" : "translated",
             "value" : "Ajustes"
           }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Einstellungen"
+          }
         }
       }
     },
@@ -4795,6 +5341,12 @@
             "state" : "translated",
             "value" : "Inicio"
           }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Beginn"
+          }
         }
       }
     },
@@ -4846,6 +5398,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Momento"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zeitpunkt"
           }
         }
       }
@@ -4900,6 +5458,12 @@
             "state" : "translated",
             "value" : "Recibe un aviso a tiempo sobre las preguntas que aún no has respondido."
           }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Erhalte zum passenden Zeitpunkt einen Hinweis auf noch unbeantwortete Fragen."
+          }
         }
       }
     },
@@ -4952,6 +5516,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Recordatorios"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Erinnerungen"
           }
         }
       }
@@ -5006,6 +5576,12 @@
             "state" : "translated",
             "value" : "Consulta tus preguntas abiertas en el escritorio sin abrir la app."
           }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sieh offene Fragen direkt auf dem Schreibtisch, ohne die App zu öffnen."
+          }
         }
       }
     },
@@ -5058,6 +5634,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Usa toda la app en inglés."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nutze die ganze App auch auf Englisch."
           }
         }
       }
@@ -5112,6 +5694,12 @@
             "state" : "translated",
             "value" : "La primera vez que abras la app tras una actualización, verás qué hay de nuevo."
           }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Beim ersten Öffnen nach einem Update siehst du, was neu ist."
+          }
         }
       }
     },
@@ -5164,6 +5752,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Novedades"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Neuigkeiten"
           }
         }
       }
@@ -5218,6 +5812,12 @@
             "state" : "translated",
             "value" : "Sincronización entre tus Mac"
           }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Auf allen deinen Macs synchron"
+          }
         }
       }
     },
@@ -5270,6 +5870,12 @@
             "state" : "translated",
             "value" : "Desvincular (la pregunta no se elimina)"
           }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Verknüpfung lösen (die Frage wird nicht gelöscht)"
+          }
         }
       }
     },
@@ -5321,6 +5927,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Contacto"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kontakt"
           }
         }
       }
@@ -5375,6 +5987,12 @@
             "state" : "translated",
             "value" : "Compatibilidad total con inglés"
           }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vollständig auf Englisch"
+          }
         }
       }
     },
@@ -5426,6 +6044,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Resumen"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Übersicht"
           }
         }
       }
@@ -5479,6 +6103,12 @@
             "state" : "translated",
             "value" : "Resumen, grafo, bloques de tiempo, estado de aprendizaje, tamaño del texto"
           }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Übersicht, Graph, Zeitblöcke, Lernstand, Textgröße"
+          }
         }
       }
     },
@@ -5530,6 +6160,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Elige si esta pregunta aparece en «Lo que he aprendido» del resumen"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lege fest, ob die Frage in der Übersicht unter „Gelerntes“ erscheint"
           }
         }
       }
@@ -5584,6 +6220,12 @@
             "state" : "translated",
             "value" : "Reducir movimiento"
           }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bewegung reduzieren"
+          }
         }
       }
     },
@@ -5637,6 +6279,12 @@
             "state" : "translated",
             "value" : "Con Reducir movimiento activado, los efectos en pantalla son más suaves."
           }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mit „Bewegung reduzieren“ werden Bildschirmeffekte ruhiger."
+          }
         }
       }
     },
@@ -5688,6 +6336,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pregunta original"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ursprungsfrage"
           }
         }
       }
@@ -5742,6 +6396,12 @@
             "state" : "translated",
             "value" : "Cuando quieras, borra todas tus clases y preguntas desde la propia app."
           }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lösche bei Bedarf alle Vorlesungen und Fragen direkt in der App."
+          }
         }
       }
     },
@@ -5793,6 +6453,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Qué quiero ser capaz de hacer cuando entienda esta clase…"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Was ich können möchte, wenn ich diese Vorlesung verstanden habe …"
           }
         }
       }
@@ -5846,6 +6512,12 @@
             "state" : "translated",
             "value" : "Lo que sé antes de esta clase o hasta ahora, y dónde me atasco…"
           }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Was ich vor der Vorlesung oder bisher weiß und wo ich hängenbleibe …"
+          }
         }
       }
     },
@@ -5897,6 +6569,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Lo que más quiero sacar de esta clase, temas que me intrigan…"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Was ich aus dieser Vorlesung unbedingt mitnehmen will, Themen, die mich interessieren …"
           }
         }
       }
@@ -5950,6 +6628,12 @@
             "state" : "translated",
             "value" : "¿Eliminar este bloque? Sus notas también se borrarán."
           }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Diesen Block löschen? Seine Notizen werden ebenfalls gelöscht."
+          }
         }
       }
     },
@@ -6001,6 +6685,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Cambia el color, la hora de inicio y la duración de este bloque, o elimínalo"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Farbe, Startzeit und Dauer dieses Blocks ändern oder den Block löschen"
           }
         }
       }
@@ -6054,6 +6744,12 @@
             "state" : "translated",
             "value" : "Anota lo que aprendiste en este tramo y lo que quieres recordar…"
           }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Notiere, was du in dieser Zeit gelernt hast und dir merken willst …"
+          }
         }
       }
     },
@@ -6105,6 +6801,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ir a esta pregunta"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zu dieser Frage"
           }
         }
       }
@@ -6158,6 +6860,12 @@
             "state" : "translated",
             "value" : "Escribe la respuesta a esta pregunta con tus propias palabras"
           }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Schreib die Antwort auf diese Frage in eigenen Worten auf"
+          }
         }
       }
     },
@@ -6209,6 +6917,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Novedades en Instagram"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Neuigkeiten auf Instagram"
           }
         }
       }
@@ -6262,6 +6976,12 @@
             "state" : "translated",
             "value" : "Más pequeño"
           }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kleiner"
+          }
         }
       }
     },
@@ -6313,6 +7033,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Creada: %@"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Erstellt: %@"
           }
         }
       }
@@ -6366,6 +7092,12 @@
             "state" : "translated",
             "value" : "Guardar"
           }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sichern"
+          }
         }
       }
     },
@@ -6417,6 +7149,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Guardar y continuar"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sichern und weiter"
           }
         }
       }
@@ -6470,6 +7208,12 @@
             "state" : "translated",
             "value" : "Excluir"
           }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ausschließen"
+          }
         }
       }
     },
@@ -6521,6 +7265,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Respuestas excluidas"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ausgeschlossene Antworten"
           }
         }
       }
@@ -6574,6 +7324,12 @@
             "state" : "translated",
             "value" : "Ahora"
           }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jetzt"
+          }
         }
       }
     },
@@ -6625,6 +7381,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Cómo estoy ahora"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wo ich gerade stehe"
           }
         }
       }
@@ -6678,6 +7440,12 @@
             "state" : "translated",
             "value" : "Soporte"
           }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Support"
+          }
         }
       }
     },
@@ -6729,6 +7497,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pregunta"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Frage"
           }
         }
       }
@@ -6782,6 +7556,12 @@
             "state" : "translated",
             "value" : "Preguntas %lld · Por preguntar %lld · Aprendido %lld · Preguntas de seguimiento %lld"
           }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fragen %lld · Zu fragen %lld · Gelernt %lld · Folgefragen %lld"
+          }
         }
       }
     },
@@ -6833,6 +7613,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Abre Notas de Preguntas y muestra una ventana para escribir una pregunta de la clase que estás viendo."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Öffnet Fragen-Notizen und zeigt ein Fenster, um eine Frage zur aktuellen Vorlesung zu notieren."
           }
         }
       }
@@ -6886,6 +7672,12 @@
             "state" : "translated",
             "value" : "Te damos la bienvenida a Notas de Preguntas"
           }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Willkommen bei Fragen-Notizen"
+          }
         }
       }
     },
@@ -6937,6 +7729,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pulir la pregunta"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Frage schärfen"
           }
         }
       }
@@ -6990,6 +7788,12 @@
             "state" : "translated",
             "value" : "Añadir pregunta"
           }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Frage hinzufügen"
+          }
         }
       }
     },
@@ -7041,6 +7845,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Añadir pregunta (⌘⇧N)"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Frage hinzufügen (⌘⇧N)"
           }
         }
       }
@@ -7094,6 +7904,12 @@
             "state" : "translated",
             "value" : "Selecciona una pregunta"
           }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wähle eine Frage aus"
+          }
         }
       }
     },
@@ -7145,6 +7961,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Las preguntas que marques como resueltas aparecerán aquí"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fragen, die du als geklärt markierst, erscheinen hier"
           }
         }
       }
@@ -7198,6 +8020,12 @@
             "state" : "translated",
             "value" : "Ya hay varias preguntas: échales un vistazo"
           }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zeit für einen Rückblick auf deine Fragen"
+          }
         }
       }
     },
@@ -7249,6 +8077,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Crear mi primera clase"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Erste Vorlesung anlegen"
           }
         }
       }
@@ -7302,6 +8136,12 @@
             "state" : "translated",
             "value" : "Reducir"
           }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Verkleinern"
+          }
         }
       }
     },
@@ -7354,6 +8194,12 @@
             "state" : "translated",
             "value" : "Cancelar"
           }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Abbrechen"
+          }
         }
       }
     },
@@ -7405,6 +8251,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Más grande"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Größer"
           }
         }
       }
@@ -7459,6 +8311,12 @@
             "state" : "translated",
             "value" : "Pantallas adaptadas a texto grande"
           }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ansichten für große Schrift"
+          }
         }
       }
     },
@@ -7510,6 +8368,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bloques de tiempo"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zeitblöcke"
           }
         }
       }
@@ -7563,6 +8427,12 @@
             "state" : "translated",
             "value" : "Añade una clase nueva desde el menú de clases, a la izquierda de la barra de herramientas, o importa un archivo Markdown con una conversación."
           }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Füge im Vorlesungsmenü links in der Symbolleiste eine neue Vorlesung hinzu oder importiere eine Markdown-Datei mit einem Gespräch."
+          }
         }
       }
     },
@@ -7614,6 +8484,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Estado de aprendizaje"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lernstand"
           }
         }
       }
@@ -7667,6 +8543,12 @@
             "state" : "translated",
             "value" : "Cómo quiero estar al terminar"
           }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wo ich am Ende stehen will"
+          }
         }
       }
     },
@@ -7718,6 +8600,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Resuelta"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Geklärt"
           }
         }
       }
@@ -7771,6 +8659,12 @@
             "state" : "translated",
             "value" : "Estado de resolución"
           }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Klärungsstatus"
+          }
         }
       }
     },
@@ -7822,6 +8716,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Resuelta"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Geklärt"
           }
         }
       }
@@ -7875,6 +8775,12 @@
             "state" : "translated",
             "value" : "Resuelta — haz clic para marcarla sin resolver"
           }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Geklärt – klicken, um sie wieder als offen zu markieren"
+          }
         }
       }
     },
@@ -7927,6 +8833,12 @@
             "state" : "translated",
             "value" : "Desvincular"
           }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Verknüpfung lösen"
+          }
         }
       }
     },
@@ -7978,6 +8890,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Eliminar la clase actual"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aktuelle Vorlesung löschen"
           }
         }
       }
@@ -8032,6 +8950,12 @@
             "state" : "translated",
             "value" : "VoiceOver lee todos los botones y notas en el orden correcto."
           }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "VoiceOver liest jede Taste und Notiz in der richtigen Reihenfolge vor."
+          }
         }
       }
     },
@@ -8083,6 +9007,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ajustar a la ventana"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "An Fenster anpassen"
           }
         }
       }
@@ -8136,6 +9066,12 @@
             "state" : "translated",
             "value" : "Ampliar"
           }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vergrößern"
+          }
         }
       }
     },
@@ -8184,6 +9120,12 @@
           }
         },
         "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OK"
+          }
+        },
+        "de" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "OK"

@@ -52,3 +52,9 @@ App Storeの紹介文とスクリーンショットを刷新
 Fecha y hora en el formato de tu idioma
 Textos y capturas de la App Store nuevos
 Soporte y privacidad, páginas renovadas
+
+### 앱스토어 (de)
+
+Datum und Uhrzeit wie in deiner Sprache
+App-Store-Texte und Screenshots neu
+Support- und Datenschutzseiten neu

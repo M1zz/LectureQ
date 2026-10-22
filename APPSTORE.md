@@ -530,3 +530,69 @@ https://m1zz.github.io/LectureQ/privacy.html
 ### 마케팅 URL
 
 https://m1zz.github.io/LectureQ/
+
+## de
+
+### 이름
+
+LectureQ: Fragen zur Vorlesung
+
+### 부제
+
+Aus Zweifeln wird Wissen
+
+### 키워드
+
+Studium,Lernen,Klausur,Prüfung,Seminar,Uni,Kurs,Mitschrift,Mindmap,Zeitleiste,Prompt,Hausarbeit
+
+### 프로모션 텍스트
+
+Halte den Zweifel aus der Vorlesung per Tastenkürzel fest. Er landet neben deiner Notiz, und mit Folgefragen und KI-Prompts machst du die Antwort zu Gelerntem.
+
+### 설명
+
+Ein Lernnotizbuch für den Mac, das Fragen aus der Vorlesung nicht verloren gehen lässt.
+Schreib die Frage in einfachen Worten auf, bewahre sie neben deiner Notiz von diesem Moment auf, such später die Antwort und fasse sie in eigenen Worten zusammen – so wird daraus Gelerntes.
+
+Schnelle Frage
+Das Eingabefenster öffnest du mit der Taste „Frage hinzufügen“ in der Symbolleiste oder mit Command Shift N. Der Zeitpunkt wird automatisch mit der aktuellen Uhrzeit ausgefüllt. Mit der Eingabetaste sicherst du die Frage, mit Command Eingabetaste sicherst du sie und schreibst gleich die nächste.
+
+Fragenliste
+Folgefragen stehen eingerückt unter der Ursprungsfrage. Offene und geklärte Fragen unterscheiden sich in der Farbe, und du kannst dir auch nur die offenen anzeigen lassen.
+
+Notizen in Zeitblöcken
+Teile eine Vorlesung in mehrere Zeitblöcke und notiere in jedem einzeln. Fragen erscheinen passend zum Zeitpunkt neben dem Block, und ein Klick führt direkt zur Frage. Stellst du eine Frage außerhalb aller Blöcke, wird automatisch ein Block ergänzt.
+
+Fragendetails
+Ob geklärt, ob sie zu Gelerntem zählt, der Zeitpunkt, deine eigene Antwort sowie Ursprungs- und Folgefragen – alles an einem Ort.
+
+Antworten mit KI finden
+Fünf Prompt-Schritte – Frage schärfen, Antwort finden, Antwort hinterfragen, Folgefragen herausarbeiten und die eigene Antwort bewerten lassen – werden mit Vorlesungsname und Notiz des Moments gefüllt in die Zwischenablage kopiert. Du fügst sie nur noch in deinen gewohnten KI-Dienst ein. Die App sendet von sich aus nichts nach außen.
+
+Alles auf einen Blick
+Die Vorlesungsübersicht sammelt nur die noch zu stellenden Fragen, das Gelernte und deine Notizen, sodass du sie wie ein Repetitorium lesen kannst. Im Graph siehst du, wie sich dein Denken von der Ursprungsfrage zu den Folgefragen verzweigt hat, und in der Zeitblock-Ansicht überfliegst du chronologisch, was du wann gelernt hast.
+
+Lernstand
+Halte fest, wo du vor der Vorlesung stehst, wo du danach stehen willst und was du lernen möchtest, und vergleiche es.
+
+Gespräche aus Markdown importieren
+Importiere Markdown aus Titel, Abschnitten und Redebeiträgen nach Sprecher, und die App teilt es in Vorlesung, Fragen und Antworten auf.
+
+Die Textgröße lässt sich mit Command Plus und Command Minus ändern.
+
+Datenschutz
+Es gibt keine Konten, und alle Einträge bleiben ausschließlich auf diesem Mac.
+
+Erfordert macOS 14 oder neuer.
+
+### 지원 URL
+
+https://m1zz.github.io/LectureQ/support.html
+
+### 개인정보처리방침 URL
+
+https://m1zz.github.io/LectureQ/privacy.html
+
+### 마케팅 URL
+
+https://m1zz.github.io/LectureQ/
