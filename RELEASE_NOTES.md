@@ -58,3 +58,9 @@ Soporte y privacidad, páginas renovadas
 Datum und Uhrzeit wie in deiner Sprache
 App-Store-Texte und Screenshots neu
 Support- und Datenschutzseiten neu
+
+### 앱스토어 (fr)
+
+Date et heure au format de votre langue
+Textes et captures App Store refaits
+Assistance et confidentialité refaites

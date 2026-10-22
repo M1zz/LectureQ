@@ -596,3 +596,69 @@ https://m1zz.github.io/LectureQ/privacy.html
 ### 마케팅 URL
 
 https://m1zz.github.io/LectureQ/
+
+## fr
+
+### 이름
+
+LectureQ : Questions de cours
+
+### 부제
+
+Vos doutes deviennent savoir
+
+### 키워드
+
+étude,examen,révision,séminaire,fac,université,chronologie,prompt,mémo,master,devoirs,webinaire
+
+### 프로모션 텍스트
+
+Notez d’un raccourci le doute qui surgit en plein cours. Il se place près de votre note du moment, puis questions de suivi et prompts IA vous aident à en faire un savoir.
+
+### 설명
+
+Un carnet d’étude pour Mac qui empêche les questions surgies pendant un cours de s’envoler.
+Écrivez la question en mots simples, gardez-la à côté de votre note du moment, puis trouvez la réponse et reformulez-la avec vos mots : elle devient alors un savoir acquis.
+
+Question express
+Ouvrez la fenêtre de saisie avec le bouton Ajouter une question de la barre d’outils ou avec Commande Maj N. Le moment se remplit tout seul avec l’heure actuelle. Retour enregistre la question, et Commande Retour l’enregistre puis vous laisse écrire la suivante aussitôt.
+
+Liste des questions
+Les questions de suivi s’empilent en retrait sous la question d’origine. Les questions non résolues et résolues se distinguent par la couleur, et vous pouvez n’afficher que les non résolues.
+
+Notes par blocs horaires
+Découpez un cours en plusieurs blocs horaires et prenez des notes dans chacun. Les questions s’affichent à côté du bloc qui leur correspond, et un clic vous y emmène directement. Si vous posez une question à un moment hors de tout bloc, un bloc est ajouté automatiquement.
+
+Détail d’une question
+Résolue ou non, comptée ou non dans ce que vous avez appris, moment, votre réponse, question d’origine et questions de suivi : tout se gère au même endroit.
+
+Trouver des réponses avec l’IA
+Cinq étapes de prompts, de l’affinage de la question à la notation de votre propre réponse en passant par la recherche de la réponse, sa remise en question et les questions de suivi, sont copiées dans le presse-papiers avec le nom du cours et la note du moment déjà remplis. Il suffit de les coller dans le service d’IA que vous utilisez déjà. L’app n’envoie rien à l’extérieur d’elle-même.
+
+Tout en un coup d’œil
+Le résumé du cours rassemble seulement les questions à poser, ce que vous avez appris et vos notes, pour une lecture façon fiche de révision. Le graphe montre comment votre réflexion s’est ramifiée des questions d’origine aux questions de suivi, et la vue des blocs horaires permet de parcourir dans l’ordre ce que vous avez appris et quand.
+
+État d’apprentissage
+Notez où vous en êtes avant le cours, où vous voulez en être après et ce que vous voulez apprendre, puis comparez.
+
+Importer une conversation en Markdown
+Importez un Markdown composé d’un titre, de sections et de répliques par interlocuteur, et l’app le répartit en cours, questions et réponses.
+
+La taille du texte se règle avec Commande Plus et Commande Moins.
+
+Confidentialité
+Pas de compte : tous vos enregistrements restent uniquement sur ce Mac.
+
+Nécessite macOS 14 ou ultérieur.
+
+### 지원 URL
+
+https://m1zz.github.io/LectureQ/support.html
+
+### 개인정보처리방침 URL
+
+https://m1zz.github.io/LectureQ/privacy.html
+
+### 마케팅 URL
+
+https://m1zz.github.io/LectureQ/
