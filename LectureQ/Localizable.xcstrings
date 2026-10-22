@@ -104,6 +104,12 @@
             "state" : "translated",
             "value" : "\n\n\n—\nΈκδοση εφαρμογής: %@ (%@)\nmacOS: %@"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "\n\n\n—\nSovelluksen versio: %@ (%@)\nmacOS: %@"
+          }
         }
       }
     },
@@ -209,6 +215,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Αντιγράφηκε: %@"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "”%@” kopioitu"
           }
         }
       }
@@ -316,6 +328,12 @@
             "state" : "translated",
             "value" : "Βήμα %lld, %@. %@"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vaihe %lld, %@. %@"
+          }
         }
       }
     },
@@ -421,6 +439,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld λεπτά"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld min"
           }
         }
       }
@@ -528,6 +552,12 @@
             "state" : "translated",
             "value" : "Αντιγραφή prompt AI"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kopioi tekoälykehote"
+          }
         }
       }
     },
@@ -633,6 +663,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Οδηγός: βρες απαντήσεις με AI"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Opas: etsi vastauksia tekoälyn avulla"
           }
         }
       }
@@ -741,6 +777,12 @@
             "state" : "translated",
             "value" : "Κλείδωμα με Touch ID"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Touch ID -lukitus"
+          }
         }
       }
     },
@@ -847,6 +889,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Κλείδωσε την εφαρμογή με Touch ID για να μένουν ιδιωτικές οι σημειώσεις σου."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lukitse sovellus Touch ID:llä, jotta kysymysmuistiinpanosi pysyvät yksityisinä."
           }
         }
       }
@@ -955,6 +1003,12 @@
             "state" : "translated",
             "value" : "Πιο άνετα με το VoiceOver"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Helpompaa VoiceOverin kanssa"
+          }
         }
       }
     },
@@ -1060,6 +1114,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "[%@] Ερώτημα"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "[%@] Kysely"
           }
         }
       }
@@ -1167,6 +1227,12 @@
             "state" : "translated",
             "value" : "Πάτα ⌘⇧N για να προσθέσεις ερώτηση"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lisää kysymys painamalla ⌘⇧N"
+          }
         }
       }
     },
@@ -1272,6 +1338,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Άνοιγμα οδηγού"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Avaa opas"
           }
         }
       }
@@ -1379,6 +1451,12 @@
             "state" : "translated",
             "value" : "Η εισαγωγή απέτυχε"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tuonti epäonnistui"
+          }
         }
       }
     },
@@ -1484,6 +1562,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Εισηγμένη συζήτηση"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tuotu keskustelu"
           }
         }
       }
@@ -1591,6 +1675,12 @@
             "state" : "translated",
             "value" : "Αντιγράφει στο πρόχειρο ένα prompt με το πλαίσιο του μαθήματός σου"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kopioi leikepöydälle kehotteen, johon on täytetty luentosi asiayhteys"
+          }
         }
       }
     },
@@ -1696,6 +1786,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Επιλογή μαθήματος"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Valitse luento"
           }
         }
       }
@@ -1803,6 +1899,12 @@
             "state" : "translated",
             "value" : "Χρονική στιγμή στο μάθημα"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ajankohta luennolla"
+          }
         }
       }
     },
@@ -1908,6 +2010,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Χρονική στιγμή στο μάθημα (24ωρη, ΩΩ:λλ)"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ajankohta luennolla (24 tuntia, TT:mm)"
           }
         }
       }
@@ -2015,6 +2123,12 @@
             "state" : "translated",
             "value" : "Χρονική στιγμή στο μάθημα (24ωρη, ΩΩ:λλ). Αν τη σβήσεις, αποθηκεύεται χωρίς χρονική στιγμή"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ajankohta luennolla (24 tuntia, TT:mm). Jos tyhjennät sen, kysymys tallennetaan ilman ajankohtaa"
+          }
         }
       }
     },
@@ -2120,6 +2234,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Κανένα μάθημα"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ei luentoa"
           }
         }
       }
@@ -2227,6 +2347,12 @@
             "state" : "translated",
             "value" : "Όνομα μαθήματος"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Luennon nimi"
+          }
         }
       }
     },
@@ -2332,6 +2458,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ένα τετράδιο που κρατά τις ερωτήσεις που γεννιούνται στο μάθημα, για να τις απαντήσεις αργότερα με δικά σου λόγια."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vihko, joka säilyttää luennolla heränneet kysymykset, jotta voit vastata niihin myöhemmin omin sanoin."
           }
         }
       }
@@ -2439,6 +2571,12 @@
             "state" : "translated",
             "value" : "Προσθήκη μαθήματος"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lisää luento"
+          }
         }
       }
     },
@@ -2544,6 +2682,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Γράψε με τις πιο απλές λέξεις την ερώτηση που σου έρχεται στο μάθημα. Η χρονική στιγμή συμπληρώνεται με την τρέχουσα ώρα."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kirjoita luennolla mieleen tullut kysymys mahdollisimman yksinkertaisin sanoin. Ajankohdaksi tulee nykyinen kellonaika."
           }
         }
       }
@@ -2651,6 +2795,12 @@
             "state" : "translated",
             "value" : "Δημιούργησε ένα μάθημα"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Luo luento"
+          }
         }
       }
     },
@@ -2756,6 +2906,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Επίλεξε ένα μάθημα"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Valitse luento"
           }
         }
       }
@@ -2864,6 +3020,12 @@
             "state" : "translated",
             "value" : "Αποθήκευσε μαθήματα και ερωτήσεις σε αρχείο και φόρτωσέ τα ξανά αργότερα."
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tallenna luennot ja kysymykset tiedostoon ja tuo ne myöhemmin takaisin."
+          }
         }
       }
     },
@@ -2969,6 +3131,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Απορία; Πάτα ⌘⇧N"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mietityttääkö? Paina ⌘⇧N"
           }
         }
       }
@@ -3076,6 +3244,12 @@
             "state" : "translated",
             "value" : "Γράψε ό,τι απορείς με τις πιο απλές λέξεις…"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kirjoita, mitä mietit, mahdollisimman yksinkertaisin sanoin…"
+          }
         }
       }
     },
@@ -3182,6 +3356,12 @@
             "state" : "translated",
             "value" : "Γράφημα"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kaavio"
+          }
         }
       }
     },
@@ -3287,6 +3467,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Μέγεθος κειμένου (%lld%%)"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tekstin koko (%lld %%)"
           }
         }
       }
@@ -3395,6 +3581,12 @@
             "state" : "translated",
             "value" : "Όταν μεγαλώνεις το κείμενο, οι οθόνες αναδιατάσσονται αντί να κόβονται."
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kun suurennat tekstiä, näkymät järjestyvät uudelleen eivätkä leikkaudu."
+          }
         }
       }
     },
@@ -3500,6 +3692,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Διάρκεια"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kesto"
           }
         }
       }
@@ -3607,6 +3805,12 @@
             "state" : "translated",
             "value" : "Προεπιλεγμένο μέγεθος"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Oletuskoko"
+          }
         }
       }
     },
@@ -3712,6 +3916,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Σύνδεση υπάρχουσας ερώτησης ως συμπληρωματικής"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Liitä olemassa oleva kysymys jatkokysymykseksi"
           }
         }
       }
@@ -3819,6 +4029,12 @@
             "state" : "translated",
             "value" : "Συμπληρωματικές ερωτήσεις"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jatkokysymykset"
+          }
         }
       }
     },
@@ -3924,6 +4140,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Εξαγωγή συμπληρωματικών ερωτήσεων"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Poimi jatkokysymykset"
           }
         }
       }
@@ -4031,6 +4253,12 @@
             "state" : "translated",
             "value" : "Αργότερα, διατύπωσε την απάντηση με δικά σου λόγια και κάνε κλικ στο ? πριν από την ερώτηση για να τη σημειώσεις ως λυμένη. Όσα έμαθες συγκεντρώνονται στη Σύνοψη, στο μενού Προβολή."
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Muotoile vastaus myöhemmin omin sanoin ja merkitse kysymys ratkaistuksi napsauttamalla sen edessä olevaa ?-merkkiä. Oppimasi kootaan Näytä-valikon Yhteenvetoon."
+          }
         }
       }
     },
@@ -4136,6 +4364,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Βαθμολόγηση της απάντησής μου"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Arvioita vastaukseni"
           }
         }
       }
@@ -4244,6 +4478,12 @@
             "state" : "translated",
             "value" : "Διαγραφή όλων των δεδομένων μου με μία κίνηση"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Poista kaikki tietoni kerralla"
+          }
         }
       }
     },
@@ -4349,6 +4589,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Γράψε το με δικά σου λόγια"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kirjoita omin sanoin"
           }
         }
       }
@@ -4456,6 +4702,12 @@
             "state" : "translated",
             "value" : "Σημειώνει την ερώτηση ως άλυτη"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Merkitsee kysymyksen ratkaisemattomaksi"
+          }
         }
       }
     },
@@ -4562,6 +4814,12 @@
             "state" : "translated",
             "value" : "Μεταβαίνει σε αυτή την ερώτηση"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Siirtyy tähän kysymykseen"
+          }
         }
       }
     },
@@ -4667,6 +4925,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Σημειώνει την ερώτηση ως λυμένη"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Merkitsee kysymyksen ratkaistuksi"
           }
         }
       }
@@ -4775,6 +5039,12 @@
             "state" : "translated",
             "value" : "Συνέχισε με τα ίδια μαθήματα και τις ίδιες ερωτήσεις σε όποιο Mac σου."
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jatka samoilla luennoilla ja kysymyksillä millä tahansa Macillasi."
+          }
         }
       }
     },
@@ -4880,6 +5150,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Επαναφορά"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Palauta mukaan"
           }
         }
       }
@@ -4987,6 +5263,12 @@
             "state" : "translated",
             "value" : "Επαναφορά στο «Τι έμαθα»"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Palauta kohtaan ”Mitä opin”"
+          }
         }
       }
     },
@@ -5092,6 +5374,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Κλείσιμο"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sulje"
           }
         }
       }
@@ -5199,6 +5487,12 @@
             "state" : "translated",
             "value" : "Απάντηση"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vastaus"
+          }
         }
       }
     },
@@ -5304,6 +5598,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Αμφισβήτηση της απάντησης"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Haasta vastaus"
           }
         }
       }
@@ -5411,6 +5711,12 @@
             "state" : "translated",
             "value" : "Η σημείωση της απάντησης είναι κενή"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vastauksen muistiinpano on tyhjä"
+          }
         }
       }
     },
@@ -5516,6 +5822,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Χωρίς απάντηση"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ei vastausta"
           }
         }
       }
@@ -5623,6 +5935,12 @@
             "state" : "translated",
             "value" : "Εύρεση απάντησης"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Etsi vastaus"
+          }
         }
       }
     },
@@ -5728,6 +6046,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Γράψε την απάντηση και σημείωσέ την ως λυμένη"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kirjoita vastaus ja merkitse se ratkaistuksi"
           }
         }
       }
@@ -5836,6 +6160,12 @@
             "state" : "translated",
             "value" : "Όλα παραμένουν ευανάγνωστα, ακόμη και με αυξημένη αντίθεση ή αν δυσκολεύεσαι να ξεχωρίσεις χρώματα."
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kaikki pysyy luettavana myös suuremmalla kontrastilla tai jos värien erottaminen on vaikeaa."
+          }
         }
       }
     },
@@ -5942,6 +6272,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Χρήση της εφαρμογής σε περισσότερες γλώσσες."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Käytä sovellusta useammilla kielillä."
           }
         }
       }
@@ -6050,6 +6386,12 @@
             "state" : "translated",
             "value" : "Περισσότερες γλώσσες"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lisää kieliä"
+          }
         }
       }
     },
@@ -6155,6 +6497,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ερωτήσεις προς υποβολή"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kysyttävät kysymykset"
           }
         }
       }
@@ -6263,6 +6611,12 @@
             "state" : "translated",
             "value" : "Widgets επιφάνειας εργασίας"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Työpöytäwidgetit"
+          }
         }
       }
     },
@@ -6368,6 +6722,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ρίξε μια ματιά"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Katsele ympärillesi"
           }
         }
       }
@@ -6475,6 +6835,12 @@
             "state" : "translated",
             "value" : "Εισαγωγή από Markdown…"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tuo Markdownista…"
+          }
         }
       }
     },
@@ -6580,6 +6946,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Πρώτα γράψε μία-δύο γραμμές με δικά σου λόγια στο πεδίο απάντησης"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kirjoita ensin vastauskenttään rivi tai kaksi omin sanoin"
           }
         }
       }
@@ -6687,6 +7059,12 @@
             "state" : "translated",
             "value" : "Σημειώσεις"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Muistiinpanot"
+          }
         }
       }
     },
@@ -6792,6 +7170,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Επικοινωνία με email"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ota yhteyttä sähköpostilla"
           }
         }
       }
@@ -6899,6 +7283,12 @@
             "state" : "translated",
             "value" : "Όλα λύθηκαν"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kaikki ratkaistu"
+          }
         }
       }
     },
@@ -7004,6 +7394,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Όταν μας γράφεις, ανέφερε την έκδοση macOS και τι έκανες όταν παρουσιάστηκε το πρόβλημα, ώστε να το ελέγξουμε πιο γρήγορα."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kun kirjoitat meille, kerro macOS-versiosi ja mitä olit tekemässä, kun ongelma ilmeni. Näin pääsemme selvittämään asiaa nopeammin."
           }
         }
       }
@@ -7111,6 +7507,12 @@
             "state" : "translated",
             "value" : "Άλυτη"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ratkaisematon"
+          }
         }
       }
     },
@@ -7216,6 +7618,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Άλυτη — κάνε κλικ για να τη σημειώσεις ως λυμένη"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ratkaisematon – napsauta merkitäksesi ratkaistuksi"
           }
         }
       }
@@ -7323,6 +7731,12 @@
             "state" : "translated",
             "value" : "Εμφάνιση μόνο των άλυτων ερωτήσεων"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Näytä vain ratkaisemattomat kysymykset"
+          }
         }
       }
     },
@@ -7428,6 +7842,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Δεν υπάρχουν άλυτες ερωτήσεις"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ei ratkaisemattomia kysymyksiä"
           }
         }
       }
@@ -7535,6 +7955,12 @@
             "state" : "translated",
             "value" : "Μόνο οι άλυτες"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vain ratkaisemattomat"
+          }
         }
       }
     },
@@ -7640,6 +8066,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Τι θέλω να μάθω"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mitä haluan oppia"
           }
         }
       }
@@ -7747,6 +8179,12 @@
             "state" : "translated",
             "value" : "Τι έμαθα"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mitä opin"
+          }
         }
       }
     },
@@ -7853,6 +8291,12 @@
             "state" : "translated",
             "value" : "Συμπερίληψη στο «Τι έμαθα»"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sisällytä kohtaan ”Mitä opin”"
+          }
         }
       }
     },
@@ -7958,6 +8402,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Εξαίρεση από το «Τι έμαθα» (η απάντηση μένει)"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jätä pois kohdasta ”Mitä opin” (vastaus säilyy)"
           }
         }
       }
@@ -8066,6 +8516,12 @@
             "state" : "translated",
             "value" : "Αντίγραφα ασφαλείας και εξαγωγή"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Varmuuskopiointi ja vienti"
+          }
         }
       }
     },
@@ -8172,6 +8628,12 @@
             "state" : "translated",
             "value" : "Προβολή"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Näytä"
+          }
         }
       }
     },
@@ -8277,6 +8739,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Στο μενού Προβολή, η Σύνοψη (⌘1) δείχνει τι έχεις να ρωτήσεις και τι έμαθες, ενώ το Γράφημα (⌘2) πώς συνδέονται οι ερωτήσεις σου."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Näytä-valikon Yhteenveto (⌘1) näyttää, mitä vielä kysyt ja mitä olet oppinut, ja Kaavio (⌘2) sen, miten kysymyksesi liittyvät toisiinsa."
           }
         }
       }
@@ -8385,6 +8853,12 @@
             "state" : "translated",
             "value" : "Πιο άνετα χρώματα και αντίθεση"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Miellyttävämmät värit ja kontrasti"
+          }
         }
       }
     },
@@ -8490,6 +8964,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Σημειώσεις μπλοκ"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lohkon muistiinpanot"
           }
         }
       }
@@ -8597,6 +9077,12 @@
             "state" : "translated",
             "value" : "Διαγραφή μπλοκ"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Poista lohko"
+          }
         }
       }
     },
@@ -8702,6 +9188,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Χρώμα μπλοκ"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lohkon väri"
           }
         }
       }
@@ -8809,6 +9301,12 @@
             "state" : "translated",
             "value" : "Ρυθμίσεις μπλοκ"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lohkon asetukset"
+          }
         }
       }
     },
@@ -8914,6 +9412,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ώρα έναρξης μπλοκ"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lohkon alkamisaika"
           }
         }
       }
@@ -9021,6 +9525,12 @@
             "state" : "translated",
             "value" : "Προσθήκη μπλοκ"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lisää lohko"
+          }
         }
       }
     },
@@ -9126,6 +9636,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Δεν υπάρχουν μπλοκ"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ei lohkoja"
           }
         }
       }
@@ -9233,6 +9749,12 @@
             "state" : "translated",
             "value" : "Διαγραφή"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Poista"
+          }
         }
       }
     },
@@ -9338,6 +9860,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Νέο μάθημα"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uusi luento"
           }
         }
       }
@@ -9445,6 +9973,12 @@
             "state" : "translated",
             "value" : "Νέα συμπληρωματική ερώτηση — πάτα Return για προσθήκη"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uusi jatkokysymys – lisää painamalla rivinvaihtoa"
+          }
         }
       }
     },
@@ -9550,6 +10084,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Χρώμα"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Väri"
           }
         }
       }
@@ -9657,6 +10197,12 @@
             "state" : "translated",
             "value" : "Ρυθμίσεις"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Asetukset"
+          }
         }
       }
     },
@@ -9763,6 +10309,12 @@
             "state" : "translated",
             "value" : "Έναρξη"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alkaa"
+          }
         }
       }
     },
@@ -9868,6 +10420,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Χρονική στιγμή"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ajankohta"
           }
         }
       }
@@ -9976,6 +10534,12 @@
             "state" : "translated",
             "value" : "Έγκαιρη ειδοποίηση για ερωτήσεις που δεν έχεις βρει ακόμη απάντηση."
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Saat oikeaan aikaan muistutuksen kysymyksistä, joihin et ole vielä löytänyt vastausta."
+          }
         }
       }
     },
@@ -10082,6 +10646,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Υπενθυμίσεις"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Muistutukset"
           }
         }
       }
@@ -10190,6 +10760,12 @@
             "state" : "translated",
             "value" : "Δες τις ανοιχτές ερωτήσεις απευθείας στην επιφάνεια εργασίας, χωρίς να ανοίξεις την εφαρμογή."
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Näe avoimet kysymykset suoraan työpöydältä avaamatta sovellusta."
+          }
         }
       }
     },
@@ -10296,6 +10872,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Χρησιμοποίησε ολόκληρη την εφαρμογή και στα αγγλικά."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Käytä koko sovellusta myös englanniksi."
           }
         }
       }
@@ -10404,6 +10986,12 @@
             "state" : "translated",
             "value" : "Την πρώτη φορά που ανοίγεις την εφαρμογή μετά από μια ενημέρωση, δες τι νέο υπάρχει."
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kun avaat sovelluksen päivityksen jälkeen ensimmäistä kertaa, näet, mitä uutta on."
+          }
         }
       }
     },
@@ -10510,6 +11098,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Τι νέο υπάρχει"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uutta"
           }
         }
       }
@@ -10618,6 +11212,12 @@
             "state" : "translated",
             "value" : "Συγχρονισμός μεταξύ των Mac σου"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Synkronointi Macien välillä"
+          }
         }
       }
     },
@@ -10724,6 +11324,12 @@
             "state" : "translated",
             "value" : "Αποσύνδεση (η ερώτηση δεν διαγράφεται)"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Poista liitos (kysymystä ei poisteta)"
+          }
         }
       }
     },
@@ -10829,6 +11435,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Επικοινωνία"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ota yhteyttä"
           }
         }
       }
@@ -10937,6 +11549,12 @@
             "state" : "translated",
             "value" : "Πλήρης υποστήριξη αγγλικών"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Täysi englannin tuki"
+          }
         }
       }
     },
@@ -11042,6 +11660,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Σύνοψη"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yhteenveto"
           }
         }
       }
@@ -11149,6 +11773,12 @@
             "state" : "translated",
             "value" : "Σύνοψη, γράφημα, χρονικά μπλοκ, κατάσταση μάθησης, μέγεθος κειμένου"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yhteenveto, kaavio, aikalohkot, oppimistilanne, tekstin koko"
+          }
         }
       }
     },
@@ -11254,6 +11884,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Επίλεξε αν η ερώτηση θα εμφανίζεται στο «Τι έμαθα» της σύνοψης"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Valitse, näkyykö kysymys yhteenvedon kohdassa ”Mitä opin”"
           }
         }
       }
@@ -11362,6 +11998,12 @@
             "state" : "translated",
             "value" : "Μείωση κίνησης"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vähennä liikettä"
+          }
         }
       }
     },
@@ -11469,6 +12111,12 @@
             "state" : "translated",
             "value" : "Με ενεργή τη Μείωση κίνησης, τα εφέ στην οθόνη γίνονται πιο ήρεμα."
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kun Vähennä liikettä on päällä, näytön tehosteet rauhoittuvat."
+          }
         }
       }
     },
@@ -11574,6 +12222,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Αρχική ερώτηση"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alkuperäinen kysymys"
           }
         }
       }
@@ -11682,6 +12336,12 @@
             "state" : "translated",
             "value" : "Αν θέλεις, διέγραψε όλα τα μαθήματα και τις ερωτήσεις μέσα από την εφαρμογή."
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Halutessasi voit poistaa kaikki luennot ja kysymykset sovelluksen sisällä."
+          }
         }
       }
     },
@@ -11787,6 +12447,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Τι θα ήθελα να μπορώ να κάνω όταν καταλάβω αυτό το μάθημα…"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mitä haluan osata, kun olen ymmärtänyt tämän luennon…"
           }
         }
       }
@@ -11894,6 +12560,12 @@
             "state" : "translated",
             "value" : "Τι ξέρω πριν από αυτό το μάθημα ή μέχρι τώρα και πού κολλάω…"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mitä tiedän ennen tätä luentoa tai tähän mennessä ja mihin jään jumiin…"
+          }
         }
       }
     },
@@ -11999,6 +12671,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Τι θέλω οπωσδήποτε να κρατήσω από αυτό το μάθημα, θέματα που με ενδιαφέρουν…"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mitä haluan ehdottomasti saada tältä luennolta, aiheita, jotka kiinnostavat…"
           }
         }
       }
@@ -12106,6 +12784,12 @@
             "state" : "translated",
             "value" : "Να διαγραφεί αυτό το μπλοκ; Θα διαγραφούν και οι σημειώσεις του."
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Poistetaanko tämä lohko? Myös sen muistiinpanot poistetaan."
+          }
         }
       }
     },
@@ -12211,6 +12895,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Άλλαξε το χρώμα, την ώρα έναρξης και τη διάρκεια αυτού του μπλοκ ή διέγραψέ το"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Muuta tämän lohkon väriä, alkamisaikaa ja kestoa tai poista lohko"
           }
         }
       }
@@ -12318,6 +13008,12 @@
             "state" : "translated",
             "value" : "Σημείωσε όσα έμαθες σε αυτό το διάστημα και όσα θέλεις να θυμάσαι…"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kirjoita ylös, mitä opit tänä aikana ja mitä haluat muistaa…"
+          }
         }
       }
     },
@@ -12423,6 +13119,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Μετάβαση σε αυτή την ερώτηση"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Siirry tähän kysymykseen"
           }
         }
       }
@@ -12530,6 +13232,12 @@
             "state" : "translated",
             "value" : "Γράψε με δικά σου λόγια την απάντηση σε αυτή την ερώτηση"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kirjoita vastaus tähän kysymykseen omin sanoin"
+          }
         }
       }
     },
@@ -12635,6 +13343,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Νέα στο Instagram"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Seuraa uutisia Instagramissa"
           }
         }
       }
@@ -12742,6 +13456,12 @@
             "state" : "translated",
             "value" : "Μικρότερο"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pienempi"
+          }
         }
       }
     },
@@ -12847,6 +13567,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Δημιουργήθηκε: %@"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Luotu %@"
           }
         }
       }
@@ -12954,6 +13680,12 @@
             "state" : "translated",
             "value" : "Αποθήκευση"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tallenna"
+          }
         }
       }
     },
@@ -13059,6 +13791,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Αποθήκευση και συνέχεια"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tallenna ja jatka"
           }
         }
       }
@@ -13166,6 +13904,12 @@
             "state" : "translated",
             "value" : "Εξαίρεση"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jätä pois"
+          }
         }
       }
     },
@@ -13271,6 +14015,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Απαντήσεις που εξαιρέθηκαν"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pois jätetyt vastaukset"
           }
         }
       }
@@ -13378,6 +14128,12 @@
             "state" : "translated",
             "value" : "Τώρα"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nyt"
+          }
         }
       }
     },
@@ -13483,6 +14239,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Πού βρίσκομαι τώρα"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Missä olen nyt"
           }
         }
       }
@@ -13590,6 +14352,12 @@
             "state" : "translated",
             "value" : "Υποστήριξη"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tuki"
+          }
         }
       }
     },
@@ -13695,6 +14463,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ερώτηση"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kysymys"
           }
         }
       }
@@ -13802,6 +14576,12 @@
             "state" : "translated",
             "value" : "Ερωτήσεις %lld · Προς ερώτηση %lld · Μαθημένα %lld · Συμπληρωματικές %lld"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kysymyksiä %lld · Kysyttävää %lld · Opittua %lld · Jatkokysymyksiä %lld"
+          }
         }
       }
     },
@@ -13907,6 +14687,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ανοίγει το Σημειωματάριο Ερωτήσεων και εμφανίζει ένα παράθυρο για να γράψεις μια ερώτηση για το μάθημα που βλέπεις."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Avaa Kysymysmuistiinpanot ja näyttää ikkunan, johon voit kirjoittaa kysymyksen katsomaasi luentoon."
           }
         }
       }
@@ -14014,6 +14800,12 @@
             "state" : "translated",
             "value" : "Καλώς ήρθες στο Σημειωματάριο Ερωτήσεων"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tervetuloa Kysymysmuistiinpanoihin"
+          }
         }
       }
     },
@@ -14119,6 +14911,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Βελτίωση της ερώτησης"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tarkenna kysymystä"
           }
         }
       }
@@ -14226,6 +15024,12 @@
             "state" : "translated",
             "value" : "Προσθήκη ερώτησης"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lisää kysymys"
+          }
         }
       }
     },
@@ -14331,6 +15135,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Προσθήκη ερώτησης (⌘⇧N)"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lisää kysymys (⌘⇧N)"
           }
         }
       }
@@ -14438,6 +15248,12 @@
             "state" : "translated",
             "value" : "Επίλεξε μια ερώτηση"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Valitse kysymys"
+          }
         }
       }
     },
@@ -14543,6 +15359,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Οι ερωτήσεις που σημειώνεις ως λυμένες μαζεύονται εδώ"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ratkaistuiksi merkitsemäsi kysymykset kootaan tänne"
           }
         }
       }
@@ -14650,6 +15472,12 @@
             "state" : "translated",
             "value" : "Μαζεύτηκαν ερωτήσεις, ρίξε μια ματιά πίσω"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kysymyksiä on kertynyt – katso taaksepäin"
+          }
         }
       }
     },
@@ -14755,6 +15583,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Δημιούργησε το πρώτο μάθημα"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Luo ensimmäinen luento"
           }
         }
       }
@@ -14862,6 +15696,12 @@
             "state" : "translated",
             "value" : "Σμίκρυνση"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Loitonna"
+          }
         }
       }
     },
@@ -14968,6 +15808,12 @@
             "state" : "translated",
             "value" : "Ακύρωση"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Peruuta"
+          }
         }
       }
     },
@@ -15073,6 +15919,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Μεγαλύτερο"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Suurempi"
           }
         }
       }
@@ -15181,6 +16033,12 @@
             "state" : "translated",
             "value" : "Οθόνες για μεγάλο κείμενο"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Näkymät suurelle tekstille"
+          }
         }
       }
     },
@@ -15286,6 +16144,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Χρονικά μπλοκ"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aikalohkot"
           }
         }
       }
@@ -15393,6 +16257,12 @@
             "state" : "translated",
             "value" : "Πρόσθεσε νέο μάθημα από το μενού μαθημάτων αριστερά στη γραμμή εργαλείων ή εισήγαγε ένα αρχείο Markdown συζήτησης."
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lisää uusi luento työkalupalkin vasemmanpuoleisesta luentovalikosta tai tuo keskustelun Markdown-tiedosto."
+          }
         }
       }
     },
@@ -15498,6 +16368,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Κατάσταση μάθησης"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Oppimistilanne"
           }
         }
       }
@@ -15605,6 +16481,12 @@
             "state" : "translated",
             "value" : "Πού θέλω να είμαι στο τέλος"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Missä haluan olla lopuksi"
+          }
         }
       }
     },
@@ -15710,6 +16592,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Λυμένη"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ratkaistu"
           }
         }
       }
@@ -15817,6 +16705,12 @@
             "state" : "translated",
             "value" : "Κατάσταση επίλυσης"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ratkaisun tila"
+          }
         }
       }
     },
@@ -15922,6 +16816,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Λυμένη"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ratkaistu"
           }
         }
       }
@@ -16029,6 +16929,12 @@
             "state" : "translated",
             "value" : "Λυμένη — κάνε κλικ για να τη σημειώσεις ως άλυτη"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ratkaistu – napsauta merkitäksesi ratkaisemattomaksi"
+          }
         }
       }
     },
@@ -16135,6 +17041,12 @@
             "state" : "translated",
             "value" : "Αποσύνδεση"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Poista liitos"
+          }
         }
       }
     },
@@ -16240,6 +17152,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Διαγραφή τρέχοντος μαθήματος"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Poista nykyinen luento"
           }
         }
       }
@@ -16348,6 +17266,12 @@
             "state" : "translated",
             "value" : "Το VoiceOver διαβάζει κάθε κουμπί και σημείωση με τη σωστή σειρά."
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "VoiceOver lukee jokaisen painikkeen ja muistiinpanon oikeassa järjestyksessä."
+          }
         }
       }
     },
@@ -16453,6 +17377,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Προσαρμογή στο παράθυρο"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sovita ikkunaan"
           }
         }
       }
@@ -16560,6 +17490,12 @@
             "state" : "translated",
             "value" : "Μεγέθυνση"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lähennä"
+          }
         }
       }
     },
@@ -16662,6 +17598,12 @@
           }
         },
         "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OK"
+          }
+        },
+        "fi" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "OK"

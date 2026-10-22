@@ -1124,3 +1124,69 @@ https://m1zz.github.io/LectureQ/privacy.html
 ### 마케팅 URL
 
 https://m1zz.github.io/LectureQ/
+
+## fi
+
+### 이름
+
+LectureQ: Luentokysymykset
+
+### 부제
+
+Epäilyksistä oppimista
+
+### 키워드
+
+opiskelu,muistiinpanot,tentti,kertaus,seminaari,yliopisto,kurssi,aikajana,kehote,tehtävät,webinaari
+
+### 프로모션 텍스트
+
+Tallenna luennolla herännyt epäilys yhdellä pikanäppäimellä. Se jää sen hetken muistiinpanojen viereen, ja jatkokysymykset ja tekoäly auttavat muuttamaan sen opiksi.
+
+### 설명
+
+Macin opiskeluvihko, joka ei anna luennolla heränneiden kysymysten livahtaa pois.
+Kirjoita kysymys yksinkertaisin sanoin, säilytä se sen hetken muistiinpanojen vieressä ja etsi myöhemmin vastaus ja muotoile se omin sanoin – niin siitä tulee opittua.
+
+Pikakysymys
+Avaa syöttöikkuna työkalupalkin Lisää kysymys -painikkeella tai painamalla Command Shift N. Ajankohta täyttyy automaattisesti nykyisellä kellonajalla. Rivinvaihto tallentaa kysymyksen, ja Command rivinvaihto tallentaa sen ja avaa heti paikan seuraavalle.
+
+Kysymysluettelo
+Jatkokysymykset ladotaan sisennettyinä alkuperäisen kysymyksen alle. Ratkaisemattomat ja ratkaistut kysymykset erottuvat väreillä, ja voit näyttää pelkästään ratkaisemattomat.
+
+Muistiinpanot aikalohkoissa
+Jaa luento useisiin aikalohkoihin ja kirjoita muistiinpanot kullekin erikseen. Kysymykset näkyvät niille kuuluvan lohkon vieressä, ja napsauttamalla pääset suoraan kysymykseen. Jos jätät kysymyksen ajankohtaan, jota mikään lohko ei kata, lohko lisätään automaattisesti.
+
+Kysymyksen tiedot
+Hallitse yhdessä paikassa, onko kysymys ratkaistu, lasketaanko se opituksi, ajankohta, oma vastauksesi sekä alkuperäinen kysymys ja jatkokysymykset.
+
+Vastauksia tekoälyllä
+Viisi kehoteaskelta – kysymyksen tarkentaminen, vastauksen etsiminen, vastauksen haastaminen, jatkokysymysten poimiminen ja oman vastauksen arvioiminen – kopioidaan leikepöydälle luennon nimi ja sen hetken muistiinpano valmiiksi täytettyinä. Liitä ne vain käyttämääsi tekoälypalveluun. Sovellus ei lähetä itse mitään ulos.
+
+Kaikki yhdellä silmäyksellä
+Luennon yhteenveto kokoaa vain kysyttävät kysymykset, opitun ja muistiinpanosi, joten sitä voi lukea kuin kertauslehteä. Kaaviosta näet, miten ajatuksesi haarautuivat alkuperäisistä kysymyksistä jatkokysymyksiin, ja aikalohkojen yleiskuvasta voit käydä järjestyksessä läpi, mitä opit milloinkin.
+
+Oppimistilanne
+Kirjoita, missä olet ennen luentoa, missä haluat olla sen jälkeen ja mitä haluat oppia, ja vertaile.
+
+Keskustelujen tuonti Markdownista
+Tuo Markdown, jossa on otsikko, osiot ja puheenvuorot puhujittain, ja sovellus jakaa sen luennoksi, kysymyksiksi ja vastauksiksi.
+
+Tekstin kokoa voi säätää Command plus- ja Command miinus -näppäimillä.
+
+Yksityisyys
+Tilejä ei ole, ja kaikki tallenteet säilyvät vain tällä Macilla.
+
+Vaatii macOS 14:n tai uudemman.
+
+### 지원 URL
+
+https://m1zz.github.io/LectureQ/support.html
+
+### 개인정보처리방침 URL
+
+https://m1zz.github.io/LectureQ/privacy.html
+
+### 마케팅 URL
+
+https://m1zz.github.io/LectureQ/

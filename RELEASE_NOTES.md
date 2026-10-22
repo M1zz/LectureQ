@@ -106,3 +106,9 @@ Nye sider om support og privatliv
 Ημερομηνία και ώρα στη γλώσσα σου
 Νέα κείμενα και στιγμιότυπα App Store
 Νέες σελίδες υποστήριξης και απορρήτου
+
+### 앱스토어 (fi)
+
+Päivämäärä ja kellonaika kielesi mukaan
+Uudet App Storen tekstit ja kuvat
+Uudistetut tuki- ja tietosuojasivut
