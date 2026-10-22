@@ -1520,3 +1520,69 @@ https://m1zz.github.io/LectureQ/privacy.html
 ### 마케팅 URL
 
 https://m1zz.github.io/LectureQ/
+
+## tr
+
+### 이름
+
+LectureQ: Ders Soru Notları
+
+### 부제
+
+Şüpheleri bilgiye çevir
+
+### 키워드
+
+çalışma,not,sınav,tekrar,seminer,üniversite,kurs,zamançizelgesi,prompt,ödev,tez,webinar,öğrenci
+
+### 프로모션 텍스트
+
+Ders sırasında aklınıza takılanı tek kısayolla yazın. O anın notunun yanında durur; devam soruları ve yapay zekâ istemleri cevabı bulup öğrendiğinize dönüştürür.
+
+### 설명
+
+Ders sırasında aklınıza gelen soruların kaybolmasını önleyen, Mac için bir çalışma defteri.
+Soruyu basit sözcüklerle yazın, o anın notunun yanında saklayın; sonra cevabı bulup kendi sözcüklerinizle toparlayın. Böylece öğrendiğiniz bir şeye dönüşür.
+
+Hızlı Soru
+Giriş penceresini araç çubuğundaki Soru Ekle düğmesiyle ya da Command Shift N ile açın. Zaman, şu anki saatle otomatik dolar. Return soruyu kaydeder; Command Return kaydedip hemen bir sonrakini yazmanızı sağlar.
+
+Soru Listesi
+Devam soruları, asıl sorunun altında girintili sıralanır. Çözülmemiş ve çözülmüş sorular renkle ayrılır, isterseniz yalnızca çözülmemişleri görebilirsiniz.
+
+Zaman Bloğu Notları
+Bir dersi birkaç zaman bloğuna bölüp her birine ayrı not alın. Sorular ait oldukları bloğun yanında görünür; tıklayınca doğrudan o soruya gidersiniz. Blokların dışındaki bir zamanda soru bırakırsanız blok kendiliğinden eklenir.
+
+Soru Ayrıntıları
+Çözülüp çözülmediğini, öğrendiklerinize sayılıp sayılmadığını, zamanı, kendi cevabınızı, asıl soruyu ve devam sorularını tek yerden yönetin.
+
+Yapay Zekâ ile Cevap Bulma
+Soruyu netleştirme, cevabı bulma, cevabı sorgulama, devam sorularını çıkarma ve kendi cevabınızı puanlatma olmak üzere beş istem adımı, ders adı ve o anın notu doldurulmuş hâlde panoya kopyalanır. Kullandığınız yapay zekâ hizmetine yapıştırmanız yeterli. Uygulama kendiliğinden dışarıya hiçbir şey göndermez.
+
+Tek Bakışta Görün
+Ders özeti yalnızca sorulacak soruları, öğrendiklerinizi ve notlarınızı toplar; bir tekrar kâğıdı gibi okursunuz. Grafik, düşüncenizin asıl sorulardan devam sorularına nasıl dallandığını gösterir; zaman bloğu görünümü ise neyi ne zaman öğrendiğinizi sırayla gözden geçirmenizi sağlar.
+
+Öğrenme Durumu
+Dersten önce neredesiniz, ders bitince nerede olmak istiyorsunuz ve neyi öğrenmek istiyorsunuz, yazın ve karşılaştırın.
+
+Konuşma Markdown’ını İçe Aktarma
+Başlık, bölümler ve konuşmacıya göre ayrılmış sözlerden oluşan bir Markdown’ı içe aktarın; uygulama onu ders, soru ve cevaplara böler.
+
+Yazı boyutu Command artı ve Command eksi ile ayarlanır.
+
+Gizlilik
+Hesap yoktur ve tüm kayıtlar yalnızca bu Mac’te saklanır.
+
+macOS 14 veya üstünü gerektirir.
+
+### 지원 URL
+
+https://m1zz.github.io/LectureQ/support.html
+
+### 개인정보처리방침 URL
+
+https://m1zz.github.io/LectureQ/privacy.html
+
+### 마케팅 URL
+
+https://m1zz.github.io/LectureQ/

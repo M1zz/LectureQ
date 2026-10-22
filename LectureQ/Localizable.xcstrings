@@ -140,6 +140,12 @@
             "state" : "translated",
             "value" : "\n\n\n—\nAppversion: %@ (%@)\nmacOS: %@"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "\n\n\n—\nUygulama sürümü: %@ (%@)\nmacOS: %@"
+          }
         }
       }
     },
@@ -281,6 +287,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "”%@” kopierades"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "“%@” kopyalandı"
           }
         }
       }
@@ -424,6 +436,12 @@
             "state" : "translated",
             "value" : "Steg %lld, %@. %@"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld. adım, %@. %@"
+          }
         }
       }
     },
@@ -565,6 +583,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld min"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld dk."
           }
         }
       }
@@ -708,6 +732,12 @@
             "state" : "translated",
             "value" : "Kopiera AI-prompt"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yapay Zekâ İstemini Kopyala"
+          }
         }
       }
     },
@@ -849,6 +879,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Guide: hitta svar med AI"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rehber: Yapay Zekâ ile Cevap Bul"
           }
         }
       }
@@ -993,6 +1029,12 @@
             "state" : "translated",
             "value" : "Touch ID-lås"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Touch ID Kilidi"
+          }
         }
       }
     },
@@ -1135,6 +1177,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Lås appen med Touch ID så att dina frågeanteckningar förblir privata."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Soru notlarınızı özel tutmak için uygulamayı Touch ID ile kilitleyin."
           }
         }
       }
@@ -1279,6 +1327,12 @@
             "state" : "translated",
             "value" : "Smidigare med VoiceOver"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "VoiceOver ile Daha Rahat"
+          }
         }
       }
     },
@@ -1420,6 +1474,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "[%@] Förfrågan"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "[%@] Soru"
           }
         }
       }
@@ -1563,6 +1623,12 @@
             "state" : "translated",
             "value" : "Tryck på ⌘⇧N för att lägga till en fråga"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Soru eklemek için ⌘⇧N’ye basın"
+          }
         }
       }
     },
@@ -1704,6 +1770,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Öppna guiden"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rehberi Aç"
           }
         }
       }
@@ -1847,6 +1919,12 @@
             "state" : "translated",
             "value" : "Importen misslyckades"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "İçe aktarma başarısız"
+          }
         }
       }
     },
@@ -1988,6 +2066,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Importerad konversation"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "İçe aktarılan konuşma"
           }
         }
       }
@@ -2131,6 +2215,12 @@
             "state" : "translated",
             "value" : "Kopierar en prompt med din föreläsnings sammanhang till urklipp"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dersinizin bağlamıyla doldurulmuş bir istemi panoya kopyalar"
+          }
         }
       }
     },
@@ -2272,6 +2362,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Välj föreläsning"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ders Seç"
           }
         }
       }
@@ -2415,6 +2511,12 @@
             "state" : "translated",
             "value" : "Tidpunkt i föreläsningen"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dersteki zaman"
+          }
         }
       }
     },
@@ -2556,6 +2658,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tidpunkt i föreläsningen (24 timmar, TT:mm)"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dersteki zaman (24 saat, SS:dd)"
           }
         }
       }
@@ -2699,6 +2807,12 @@
             "state" : "translated",
             "value" : "Tidpunkt i föreläsningen (24 timmar, TT:mm). Om du rensar den sparas frågan utan tidpunkt"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dersteki zaman (24 saat, SS:dd). Silerseniz soru zamansız kaydedilir"
+          }
         }
       }
     },
@@ -2840,6 +2954,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ingen föreläsning"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ders yok"
           }
         }
       }
@@ -2983,6 +3103,12 @@
             "state" : "translated",
             "value" : "Föreläsningens namn"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ders adı"
+          }
         }
       }
     },
@@ -3124,6 +3250,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "En anteckningsbok som tar vara på frågorna som dyker upp under en föreläsning, så att du senare kan svara på dem med egna ord."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ders sırasında aklınıza gelen soruları saklayan, sonra kendi sözcüklerinizle cevaplamanızı sağlayan bir defter."
           }
         }
       }
@@ -3267,6 +3399,12 @@
             "state" : "translated",
             "value" : "Lägg till föreläsning"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ders Ekle"
+          }
         }
       }
     },
@@ -3408,6 +3546,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Skriv frågan som dyker upp under föreläsningen med de enklaste orden. Tidpunkten fylls i med klockslaget just nu."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ders sırasında aklınıza gelen soruyu en basit sözcüklerle yazın. Zaman, şu anki saatle dolar."
           }
         }
       }
@@ -3551,6 +3695,12 @@
             "state" : "translated",
             "value" : "Skapa en föreläsning"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bir ders oluşturun"
+          }
         }
       }
     },
@@ -3692,6 +3842,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Välj en föreläsning"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bir ders seçin"
           }
         }
       }
@@ -3836,6 +3992,12 @@
             "state" : "translated",
             "value" : "Spara föreläsningar och frågor i en fil och hämta tillbaka dem senare."
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Derslerinizi ve sorularınızı bir dosyaya kaydedin, sonra geri yükleyin."
+          }
         }
       }
     },
@@ -3977,6 +4139,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Undrar du något? Tryck på ⌘⇧N"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Merak mı ettiniz? ⌘⇧N’ye basın"
           }
         }
       }
@@ -4120,6 +4288,12 @@
             "state" : "translated",
             "value" : "Skriv vad du undrar över med de enklaste orden …"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Merak ettiğinizi en basit sözcüklerle yazın…"
+          }
         }
       }
     },
@@ -4262,6 +4436,12 @@
             "state" : "translated",
             "value" : "Graf"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Grafik"
+          }
         }
       }
     },
@@ -4403,6 +4583,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Textstorlek (%lld %%)"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yazı Boyutu (%%%lld)"
           }
         }
       }
@@ -4547,6 +4733,12 @@
             "state" : "translated",
             "value" : "När du förstorar texten ordnas skärmarna om i stället för att klippas av."
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yazıyı büyüttüğünüzde ekranlar kesilmek yerine yeniden düzenlenir."
+          }
         }
       }
     },
@@ -4688,6 +4880,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Längd"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Süre"
           }
         }
       }
@@ -4831,6 +5029,12 @@
             "state" : "translated",
             "value" : "Standardstorlek"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Varsayılan Boyut"
+          }
         }
       }
     },
@@ -4972,6 +5176,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Koppla en befintlig fråga som följdfråga"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Var olan bir soruyu devam sorusu olarak bağla"
           }
         }
       }
@@ -5115,6 +5325,12 @@
             "state" : "translated",
             "value" : "Följdfrågor"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Devam soruları"
+          }
         }
       }
     },
@@ -5256,6 +5472,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Plocka fram följdfrågor"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Devam Sorularını Çıkar"
           }
         }
       }
@@ -5399,6 +5621,12 @@
             "state" : "translated",
             "value" : "Formulera svaret med egna ord senare och klicka på ? framför frågan för att markera den som löst. Det du har lärt dig samlas i Sammanfattning i menyn Visa."
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sonra cevabı kendi sözcüklerinizle toparlayın ve çözüldü olarak işaretlemek için sorunun önündeki ?’e tıklayın. Öğrendikleriniz Görünüm menüsündeki Özet’te toplanır."
+          }
         }
       }
     },
@@ -5540,6 +5768,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Låt bedöma mitt svar"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cevabımı Puanlat"
           }
         }
       }
@@ -5684,6 +5918,12 @@
             "state" : "translated",
             "value" : "Radera alla mina data på en gång"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tüm verilerimi tek seferde sil"
+          }
         }
       }
     },
@@ -5825,6 +6065,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Skriv med egna ord"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kendi sözcüklerinizle yazın"
           }
         }
       }
@@ -5968,6 +6214,12 @@
             "state" : "translated",
             "value" : "Markerar frågan som olöst"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Soruyu çözülmedi olarak işaretler"
+          }
         }
       }
     },
@@ -6110,6 +6362,12 @@
             "state" : "translated",
             "value" : "Går till den här frågan"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bu soruya gider"
+          }
         }
       }
     },
@@ -6251,6 +6509,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Markerar frågan som löst"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Soruyu çözüldü olarak işaretler"
           }
         }
       }
@@ -6395,6 +6659,12 @@
             "state" : "translated",
             "value" : "Fortsätt med samma föreläsningar och frågor på vilken Mac du vill."
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aynı derslerle ve sorularla istediğiniz Mac’te devam edin."
+          }
         }
       }
     },
@@ -6536,6 +6806,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ta med igen"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Geri Ekle"
           }
         }
       }
@@ -6679,6 +6955,12 @@
             "state" : "translated",
             "value" : "Ta med i ”Det jag har lärt mig” igen"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "“Öğrendiklerim”e geri ekle"
+          }
         }
       }
     },
@@ -6820,6 +7102,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Stäng"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kapat"
           }
         }
       }
@@ -6963,6 +7251,12 @@
             "state" : "translated",
             "value" : "Svar"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cevap"
+          }
         }
       }
     },
@@ -7104,6 +7398,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ifrågasätt svaret"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cevabı Sorgula"
           }
         }
       }
@@ -7247,6 +7547,12 @@
             "state" : "translated",
             "value" : "Svarsanteckningen är tom"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cevap notu boş"
+          }
         }
       }
     },
@@ -7388,6 +7694,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Inget svar"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cevap yok"
           }
         }
       }
@@ -7531,6 +7843,12 @@
             "state" : "translated",
             "value" : "Hitta svaret"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cevabı Bul"
+          }
         }
       }
     },
@@ -7672,6 +7990,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Skriv svaret och markera det som löst"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cevabı yazın ve çözüldü olarak işaretleyin"
           }
         }
       }
@@ -7816,6 +8140,12 @@
             "state" : "translated",
             "value" : "Allt förblir läsbart, även med ökad kontrast eller om det är svårt att skilja på färger."
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yüksek karşıtlık açıkken ya da renkleri ayırt etmek zorken bile her şey okunabilir kalır."
+          }
         }
       }
     },
@@ -7958,6 +8288,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Använd appen på fler språk."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uygulamayı daha fazla dilde kullanın."
           }
         }
       }
@@ -8102,6 +8438,12 @@
             "state" : "translated",
             "value" : "Fler språk"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Daha fazla dil"
+          }
         }
       }
     },
@@ -8243,6 +8585,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Frågor att ställa"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sorulacak Sorular"
           }
         }
       }
@@ -8387,6 +8735,12 @@
             "state" : "translated",
             "value" : "Skrivbordswidgetar"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Masaüstü widget’ları"
+          }
         }
       }
     },
@@ -8528,6 +8882,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ta en titt"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Göz Atın"
           }
         }
       }
@@ -8671,6 +9031,12 @@
             "state" : "translated",
             "value" : "Importera från Markdown …"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Markdown’dan İçe Aktar…"
+          }
         }
       }
     },
@@ -8812,6 +9178,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Skriv först en eller två rader med egna ord i svarsfältet"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Önce cevap alanına kendi sözcüklerinizle bir iki satır yazın"
           }
         }
       }
@@ -8955,6 +9327,12 @@
             "state" : "translated",
             "value" : "Anteckningar"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Notlar"
+          }
         }
       }
     },
@@ -9096,6 +9474,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kontakta via e-post"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "E-postayla Ulaşın"
           }
         }
       }
@@ -9239,6 +9623,12 @@
             "state" : "translated",
             "value" : "Allt är löst"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hepsi çözüldü"
+          }
         }
       }
     },
@@ -9380,6 +9770,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "När du skriver till oss, ange din macOS-version och vad du gjorde när problemet uppstod, så kan vi undersöka det snabbare."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bize yazarken macOS sürümünüzü ve sorun çıktığında ne yaptığınızı belirtin; böylece daha hızlı inceleyebiliriz."
           }
         }
       }
@@ -9523,6 +9919,12 @@
             "state" : "translated",
             "value" : "Olöst"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Çözülmedi"
+          }
         }
       }
     },
@@ -9664,6 +10066,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Olöst – klicka för att markera som löst"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Çözülmedi — çözüldü olarak işaretlemek için tıklayın"
           }
         }
       }
@@ -9807,6 +10215,12 @@
             "state" : "translated",
             "value" : "Visa bara olösta frågor"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yalnızca çözülmemiş soruları göster"
+          }
         }
       }
     },
@@ -9948,6 +10362,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Inga olösta frågor"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Çözülmemiş soru yok"
           }
         }
       }
@@ -10091,6 +10511,12 @@
             "state" : "translated",
             "value" : "Endast olösta"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yalnızca çözülmemişler"
+          }
         }
       }
     },
@@ -10232,6 +10658,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vad jag vill lära mig"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Öğrenmek İstediklerim"
           }
         }
       }
@@ -10375,6 +10807,12 @@
             "state" : "translated",
             "value" : "Det jag har lärt mig"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Öğrendiklerim"
+          }
         }
       }
     },
@@ -10517,6 +10955,12 @@
             "state" : "translated",
             "value" : "Ta med i ”Det jag har lärt mig”"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "“Öğrendiklerim”e dahil et"
+          }
         }
       }
     },
@@ -10658,6 +11102,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Uteslut från ”Det jag har lärt mig” (svaret finns kvar)"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "“Öğrendiklerim”den hariç tut (cevap kalır)"
           }
         }
       }
@@ -10802,6 +11252,12 @@
             "state" : "translated",
             "value" : "Säkerhetskopiering och export"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yedekleme ve dışa aktarma"
+          }
         }
       }
     },
@@ -10944,6 +11400,12 @@
             "state" : "translated",
             "value" : "Visa"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Görünüm"
+          }
         }
       }
     },
@@ -11085,6 +11547,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "I menyn Visa visar Sammanfattning (⌘1) vad du ännu ska fråga om och vad du har lärt dig, och Graf (⌘2) hur dina frågor hänger ihop."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Görünüm menüsünde Özet (⌘1) sormanız gerekenleri ve öğrendiklerinizi, Grafik (⌘2) ise sorularınızın birbiriyle bağlantısını gösterir."
           }
         }
       }
@@ -11229,6 +11697,12 @@
             "state" : "translated",
             "value" : "Behagligare färger och kontrast"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Daha rahat renkler ve karşıtlık"
+          }
         }
       }
     },
@@ -11370,6 +11844,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Blockanteckningar"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Blok notları"
           }
         }
       }
@@ -11513,6 +11993,12 @@
             "state" : "translated",
             "value" : "Radera block"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bloğu Sil"
+          }
         }
       }
     },
@@ -11654,6 +12140,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Blockets färg"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Blok rengi"
           }
         }
       }
@@ -11797,6 +12289,12 @@
             "state" : "translated",
             "value" : "Blockinställningar"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Blok Ayarları"
+          }
         }
       }
     },
@@ -11938,6 +12436,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Blockets starttid"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Blok başlangıç saati"
           }
         }
       }
@@ -12081,6 +12585,12 @@
             "state" : "translated",
             "value" : "Lägg till block"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Blok Ekle"
+          }
         }
       }
     },
@@ -12222,6 +12732,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Inga block"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Blok yok"
           }
         }
       }
@@ -12365,6 +12881,12 @@
             "state" : "translated",
             "value" : "Radera"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sil"
+          }
         }
       }
     },
@@ -12506,6 +13028,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ny föreläsning"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yeni Ders"
           }
         }
       }
@@ -12649,6 +13177,12 @@
             "state" : "translated",
             "value" : "Ny följdfråga – tryck på Retur för att lägga till"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yeni devam sorusu — eklemek için Return’e basın"
+          }
         }
       }
     },
@@ -12790,6 +13324,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Färg"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Renk"
           }
         }
       }
@@ -12933,6 +13473,12 @@
             "state" : "translated",
             "value" : "Inställningar"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ayarlar"
+          }
         }
       }
     },
@@ -13075,6 +13621,12 @@
             "state" : "translated",
             "value" : "Start"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Başlangıç"
+          }
         }
       }
     },
@@ -13216,6 +13768,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tidpunkt"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zaman"
           }
         }
       }
@@ -13360,6 +13918,12 @@
             "state" : "translated",
             "value" : "Få en påminnelse i rätt tid om frågor du ännu inte har hittat svar på."
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Henüz cevap bulamadığınız sorular için uygun zamanda hatırlatma alın."
+          }
         }
       }
     },
@@ -13502,6 +14066,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Påminnelser"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hatırlatıcılar"
           }
         }
       }
@@ -13646,6 +14216,12 @@
             "state" : "translated",
             "value" : "Se dina öppna frågor direkt på skrivbordet utan att öppna appen."
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Açık sorularınızı uygulamayı açmadan doğrudan masaüstünde görün."
+          }
         }
       }
     },
@@ -13788,6 +14364,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Använd hela appen även på engelska."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uygulamanın tamamını İngilizce de kullanabilirsiniz."
           }
         }
       }
@@ -13932,6 +14514,12 @@
             "state" : "translated",
             "value" : "Första gången du öppnar appen efter en uppdatering ser du vad som är nytt."
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Güncellemeden sonra uygulamayı ilk açtığınızda nelerin yeni olduğunu görün."
+          }
         }
       }
     },
@@ -14074,6 +14662,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nyheter"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yenilikler"
           }
         }
       }
@@ -14218,6 +14812,12 @@
             "state" : "translated",
             "value" : "Synkronisering mellan dina Mac-datorer"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mac’leriniz arasında eşitleme"
+          }
         }
       }
     },
@@ -14360,6 +14960,12 @@
             "state" : "translated",
             "value" : "Ta bort koppling (frågan raderas inte)"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bağlantıyı kaldır (soru silinmez)"
+          }
         }
       }
     },
@@ -14501,6 +15107,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kontakta oss"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bize Ulaşın"
           }
         }
       }
@@ -14645,6 +15257,12 @@
             "state" : "translated",
             "value" : "Fullt stöd för engelska"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tam İngilizce desteği"
+          }
         }
       }
     },
@@ -14786,6 +15404,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sammanfattning"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Özet"
           }
         }
       }
@@ -14929,6 +15553,12 @@
             "state" : "translated",
             "value" : "Sammanfattning, graf, tidsblock, inlärningsstatus, textstorlek"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Özet, grafik, zaman blokları, öğrenme durumu, yazı boyutu"
+          }
         }
       }
     },
@@ -15070,6 +15700,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Välj om frågan ska stå under ”Det jag har lärt mig” i sammanfattningen"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bu sorunun özetteki “Öğrendiklerim” listesinde yer alıp almayacağını seçin"
           }
         }
       }
@@ -15214,6 +15850,12 @@
             "state" : "translated",
             "value" : "Minska rörelse"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hareketi Azalt"
+          }
         }
       }
     },
@@ -15357,6 +15999,12 @@
             "state" : "translated",
             "value" : "När Minska rörelse är på blir skärmeffekterna lugnare."
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hareketi Azalt açıkken ekran efektleri sakinleşir."
+          }
         }
       }
     },
@@ -15498,6 +16146,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ursprunglig fråga"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Asıl soru"
           }
         }
       }
@@ -15642,6 +16296,12 @@
             "state" : "translated",
             "value" : "Om du vill kan du radera alla föreläsningar och frågor i själva appen."
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "İsterseniz tüm dersleri ve soruları uygulamanın içinden silebilirsiniz."
+          }
         }
       }
     },
@@ -15783,6 +16443,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vad jag vill kunna när jag har förstått den här föreläsningen …"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bu dersi tam anladığımda neleri yapabilmek istiyorum…"
           }
         }
       }
@@ -15926,6 +16592,12 @@
             "state" : "translated",
             "value" : "Vad jag kan före den här föreläsningen eller hittills, och var jag kör fast …"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bu dersten önce ya da şu ana kadar bildiklerim ve takıldığım yerler…"
+          }
         }
       }
     },
@@ -16067,6 +16739,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vad jag absolut vill få ut av den här föreläsningen, ämnen jag är nyfiken på …"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bu dersten mutlaka kazanmak istediklerim, merak ettiğim konular…"
           }
         }
       }
@@ -16210,6 +16888,12 @@
             "state" : "translated",
             "value" : "Vill du radera det här blocket? Dess anteckningar raderas också."
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bu blok silinsin mi? İçindeki notlar da silinir."
+          }
         }
       }
     },
@@ -16351,6 +17035,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ändra färg, starttid och längd för det här blocket, eller radera det"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bu bloğun rengini, başlangıç saatini ve süresini değiştirin ya da bloğu silin"
           }
         }
       }
@@ -16494,6 +17184,12 @@
             "state" : "translated",
             "value" : "Anteckna vad du lärde dig under den här tiden och vad du vill komma ihåg …"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bu zaman aralığında öğrendiklerinizi ve hatırlamak istediklerinizi not edin…"
+          }
         }
       }
     },
@@ -16635,6 +17331,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Gå till den här frågan"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bu Soruya Git"
           }
         }
       }
@@ -16778,6 +17480,12 @@
             "state" : "translated",
             "value" : "Skriv svaret på den här frågan med egna ord"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bu sorunun cevabını kendi sözcüklerinizle yazın"
+          }
         }
       }
     },
@@ -16919,6 +17627,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Följ nyheter på Instagram"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Instagram’dan Haberleri Görün"
           }
         }
       }
@@ -17062,6 +17776,12 @@
             "state" : "translated",
             "value" : "Mindre"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Küçült"
+          }
         }
       }
     },
@@ -17203,6 +17923,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Skapad %@"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Oluşturulma: %@"
           }
         }
       }
@@ -17346,6 +18072,12 @@
             "state" : "translated",
             "value" : "Spara"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kaydet"
+          }
         }
       }
     },
@@ -17487,6 +18219,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Spara och fortsätt"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kaydet ve Devam Et"
           }
         }
       }
@@ -17630,6 +18368,12 @@
             "state" : "translated",
             "value" : "Utesluta"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hariç tut"
+          }
         }
       }
     },
@@ -17771,6 +18515,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Uteslutna svar"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hariç Tutulan Cevaplar"
           }
         }
       }
@@ -17914,6 +18664,12 @@
             "state" : "translated",
             "value" : "Nu"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Şimdi"
+          }
         }
       }
     },
@@ -18055,6 +18811,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Var jag är nu"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Şu An Neredeyim"
           }
         }
       }
@@ -18198,6 +18960,12 @@
             "state" : "translated",
             "value" : "Support"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Destek"
+          }
         }
       }
     },
@@ -18339,6 +19107,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Fråga"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Soru"
           }
         }
       }
@@ -18482,6 +19256,12 @@
             "state" : "translated",
             "value" : "Frågor %lld · Att fråga %lld · Inlärt %lld · Följdfrågor %lld"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Soru %lld · Sorulacak %lld · Öğrenilen %lld · Devam sorusu %lld"
+          }
         }
       }
     },
@@ -18623,6 +19403,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Öppnar Frågeanteckningar och visar ett fönster där du kan skriva en fråga till föreläsningen du tittar på."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Soru Notları’nı açar ve baktığınız derse bir soru yazmanız için bir pencere gösterir."
           }
         }
       }
@@ -18766,6 +19552,12 @@
             "state" : "translated",
             "value" : "Välkommen till Frågeanteckningar"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Soru Notları’na Hoş Geldiniz"
+          }
         }
       }
     },
@@ -18907,6 +19699,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Finslipa frågan"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Soruyu Netleştir"
           }
         }
       }
@@ -19050,6 +19848,12 @@
             "state" : "translated",
             "value" : "Lägg till fråga"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Soru Ekle"
+          }
         }
       }
     },
@@ -19191,6 +19995,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Lägg till fråga (⌘⇧N)"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Soru Ekle (⌘⇧N)"
           }
         }
       }
@@ -19334,6 +20144,12 @@
             "state" : "translated",
             "value" : "Välj en fråga"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bir soru seçin"
+          }
         }
       }
     },
@@ -19475,6 +20291,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Frågor du markerar som lösta samlas här"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Çözüldü olarak işaretlediğiniz sorular burada toplanır"
           }
         }
       }
@@ -19618,6 +20440,12 @@
             "state" : "translated",
             "value" : "Frågorna har hopat sig – titta tillbaka"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sorular birikti, bir göz atın"
+          }
         }
       }
     },
@@ -19759,6 +20587,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Skapa första föreläsningen"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "İlk Dersi Oluştur"
           }
         }
       }
@@ -19902,6 +20736,12 @@
             "state" : "translated",
             "value" : "Zooma ut"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uzaklaştır"
+          }
         }
       }
     },
@@ -20044,6 +20884,12 @@
             "state" : "translated",
             "value" : "Avbryt"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "İptal"
+          }
         }
       }
     },
@@ -20185,6 +21031,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Större"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Büyüt"
           }
         }
       }
@@ -20329,6 +21181,12 @@
             "state" : "translated",
             "value" : "Skärmar för stor text"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Büyük yazıya uyumlu ekranlar"
+          }
         }
       }
     },
@@ -20470,6 +21328,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tidsblock"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zaman Blokları"
           }
         }
       }
@@ -20613,6 +21477,12 @@
             "state" : "translated",
             "value" : "Lägg till en ny föreläsning i föreläsningsmenyn till vänster i verktygsfältet, eller importera en Markdown-fil med en konversation."
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Araç çubuğunun solundaki ders menüsünden yeni bir ders ekleyin ya da konuşmanın Markdown dosyasını içe aktarın."
+          }
         }
       }
     },
@@ -20754,6 +21624,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Inlärningsstatus"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Öğrenme Durumu"
           }
         }
       }
@@ -20897,6 +21773,12 @@
             "state" : "translated",
             "value" : "Var jag vill vara till slut"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sonunda Olmak İstediğim Yer"
+          }
         }
       }
     },
@@ -21038,6 +21920,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Löst"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Çözüldü"
           }
         }
       }
@@ -21181,6 +22069,12 @@
             "state" : "translated",
             "value" : "Lösningsstatus"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Çözüm durumu"
+          }
         }
       }
     },
@@ -21322,6 +22216,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Löst"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Çözüldü"
           }
         }
       }
@@ -21465,6 +22365,12 @@
             "state" : "translated",
             "value" : "Löst – klicka för att markera som olöst"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Çözüldü — çözülmedi olarak işaretlemek için tıklayın"
+          }
         }
       }
     },
@@ -21607,6 +22513,12 @@
             "state" : "translated",
             "value" : "Ta bort koppling"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bağlantıyı Kaldır"
+          }
         }
       }
     },
@@ -21748,6 +22660,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Radera aktuell föreläsning"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Geçerli Dersi Sil"
           }
         }
       }
@@ -21892,6 +22810,12 @@
             "state" : "translated",
             "value" : "VoiceOver läser upp varje knapp och anteckning i rätt ordning."
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "VoiceOver her düğmeyi ve notu doğru sırayla okur."
+          }
         }
       }
     },
@@ -22033,6 +22957,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Anpassa till fönstret"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pencereye Sığdır"
           }
         }
       }
@@ -22176,6 +23106,12 @@
             "state" : "translated",
             "value" : "Zooma in"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yakınlaştır"
+          }
         }
       }
     },
@@ -22317,6 +23253,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "OK"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tamam"
           }
         }
       }

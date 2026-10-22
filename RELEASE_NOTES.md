@@ -142,3 +142,9 @@ Odnowione strony wsparcia i prywatności
 Datum och tid i språkets format
 Nya texter och skärmbilder i App Store
 Nya sidor för support och integritet
+
+### 앱스토어 (tr)
+
+Tarih ve saat dilinize göre gösterilir
+App Store metni ve görselleri yenilendi
+Destek ve gizlilik sayfaları yenilendi
