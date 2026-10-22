@@ -18,14 +18,14 @@ struct LectureQOnboardingView: View {
 
     private let steps: [Step] = [
         Step(id: 1, symbol: "books.vertical",
-             title: "강의를 만들어요",
-             detail: "툴바 왼쪽 강의 메뉴에서 새 강의를 추가하거나, 대화 마크다운 파일을 가져올 수 있어요."),
+             title: String(localized: "강의를 만들어요"),
+             detail: String(localized: "툴바 왼쪽 강의 메뉴에서 새 강의를 추가하거나, 대화 마크다운 파일을 가져올 수 있어요.")),
         Step(id: 2, symbol: "keyboard",
-             title: "궁금하면 바로 ⌘⇧N",
-             detail: "강의를 듣다 떠오른 질문을 가장 쉬운 말로 적어 두세요. 시점은 지금 시각으로 채워져요."),
+             title: String(localized: "궁금하면 바로 ⌘⇧N"),
+             detail: String(localized: "강의를 듣다 떠오른 질문을 가장 쉬운 말로 적어 두세요. 시점은 지금 시각으로 채워져요.")),
         Step(id: 3, symbol: "checkmark.circle",
-             title: "답을 적고 해결해요",
-             detail: "나중에 내 말로 답을 정리하고, 질문 앞 ? 를 눌러 해결로 바꾸세요. 보기 메뉴의 요약에 배운 점이 모여요.")
+             title: String(localized: "답을 적고 해결해요"),
+             detail: String(localized: "나중에 내 말로 답을 정리하고, 질문 앞 ? 를 눌러 해결로 바꾸세요. 보기 메뉴의 요약에 배운 점이 모여요."))
     ]
 
     var body: some View {

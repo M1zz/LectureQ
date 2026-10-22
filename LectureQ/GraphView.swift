@@ -106,7 +106,7 @@ struct GraphContainerView: View {
         .padding(.trailing, 8)
     }
 
-    private func legendDot(_ color: Color, _ text: String) -> some View {
+    private func legendDot(_ color: Color, _ text: LocalizedStringKey) -> some View {
         HStack(spacing: 4) {
             Circle().fill(color).frame(width: 8, height: 8)
             Text(text).foregroundStyle(.secondary)

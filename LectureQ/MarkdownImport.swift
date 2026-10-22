@@ -111,7 +111,7 @@ enum LectureMarkdownImporter {
         }
         flushSection()
 
-        return ParsedDialogue(title: title.isEmpty ? "가져온 대화" : title,
+        return ParsedDialogue(title: title.isEmpty ? String(localized: "가져온 대화") : title,
                               questioner: firstSpeaker ?? "",
                               sections: sections)
     }

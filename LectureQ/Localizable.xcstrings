@@ -1,6 +1,102 @@
 {
   "sourceLanguage" : "ko",
   "strings" : {
+    "\n\n\n—\n앱 버전: %@ (%@)\nmacOS: %@" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "\n\n\n—\n앱 버전: %@ (%@)\nmacOS: %@"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "\n\n\n—\nApp version: %@ (%@)\nmacOS: %@"
+          }
+        }
+      }
+    },
+    "%@ 복사됨" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ 복사됨"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ copied"
+          }
+        }
+      }
+    },
+    "%lld단계, %@. %@" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld단계, %@. %@"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Step %lld, %@. %@"
+          }
+        }
+      }
+    },
+    "%lld분" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld분"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld min"
+          }
+        }
+      }
+    },
+    "AI 프롬프트 복사" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "AI 프롬프트 복사"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Copy AI Prompt"
+          }
+        }
+      }
+    },
+    "AI로 답 찾기 가이드" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "AI로 답 찾기 가이드"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Guide: Find Answers with AI"
+          }
+        }
+      }
+    },
     "Touch ID 잠금" : {
       "comment" : "Roadmap item: Touch ID lock",
       "localizations" : {
@@ -52,6 +148,278 @@
         }
       }
     },
+    "[%@] 문의" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "[%@] 문의"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "[%@] Inquiry"
+          }
+        }
+      }
+    },
+    "⌘⇧N 으로 질문을 추가하세요" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "⌘⇧N 으로 질문을 추가하세요"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Press ⌘⇧N to add a question"
+          }
+        }
+      }
+    },
+    "가이드 열기" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "가이드 열기"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Open Guide"
+          }
+        }
+      }
+    },
+    "가져오기 실패" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "가져오기 실패"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Import Failed"
+          }
+        }
+      }
+    },
+    "가져온 대화" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "가져온 대화"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Imported Conversation"
+          }
+        }
+      }
+    },
+    "강의 맥락을 채운 프롬프트를 클립보드에 복사합니다" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "강의 맥락을 채운 프롬프트를 클립보드에 복사합니다"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Copies a prompt filled with your lecture context to the clipboard"
+          }
+        }
+      }
+    },
+    "강의 선택" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "강의 선택"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Select Lecture"
+          }
+        }
+      }
+    },
+    "강의 시점" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "강의 시점"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Time in lecture"
+          }
+        }
+      }
+    },
+    "강의 시점 (24시간 HH:mm)" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "강의 시점 (24시간 HH:mm)"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Time in lecture (24-hour HH:mm)"
+          }
+        }
+      }
+    },
+    "강의 시점 (24시간 HH:mm). 지우면 시점 없이 저장돼요" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "강의 시점 (24시간 HH:mm). 지우면 시점 없이 저장돼요"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Time in lecture (24-hour HH:mm). Clear it to save without a time"
+          }
+        }
+      }
+    },
+    "강의 없음" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "강의 없음"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No lecture"
+          }
+        }
+      }
+    },
+    "강의 이름" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "강의 이름"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lecture name"
+          }
+        }
+      }
+    },
+    "강의 중 생긴 질문을 놓치지 않고, 나중에 내 말로 답하는 노트예요." : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "강의 중 생긴 질문을 놓치지 않고, 나중에 내 말로 답하는 노트예요."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A notebook that keeps the questions you have during a lecture, so you can answer them later in your own words."
+          }
+        }
+      }
+    },
+    "강의 추가" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "강의 추가"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Add Lecture"
+          }
+        }
+      }
+    },
+    "강의를 듣다 떠오른 질문을 가장 쉬운 말로 적어 두세요. 시점은 지금 시각으로 채워져요." : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "강의를 듣다 떠오른 질문을 가장 쉬운 말로 적어 두세요. 시점은 지금 시각으로 채워져요."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jot down a question that comes up during a lecture in the simplest words. The time fills in with the current time."
+          }
+        }
+      }
+    },
+    "강의를 만들어요" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "강의를 만들어요"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Create a lecture"
+          }
+        }
+      }
+    },
+    "강의를 선택하세요" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "강의를 선택하세요"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Select a lecture"
+          }
+        }
+      }
+    },
     "강의와 질문을 파일로 저장하고 다시 불러올 수 있어요." : {
       "comment" : "Roadmap item detail: backup and export",
       "localizations" : {
@@ -65,6 +433,70 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "강의와 질문을 파일로 저장하고 다시 불러올 수 있어요."
+          }
+        }
+      }
+    },
+    "궁금하면 바로 ⌘⇧N" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "궁금하면 바로 ⌘⇧N"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Curious? Press ⌘⇧N"
+          }
+        }
+      }
+    },
+    "궁금한 점을 최대한 쉬운 말로…" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "궁금한 점을 최대한 쉬운 말로…"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Write what you're wondering in the simplest words…"
+          }
+        }
+      }
+    },
+    "그래프" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "그래프"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Graph"
+          }
+        }
+      }
+    },
+    "글씨 크기 (%lld%%)" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "글씨 크기 (%lld%%)"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Text Size (%lld%%)"
           }
         }
       }
@@ -86,6 +518,118 @@
         }
       }
     },
+    "기간" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "기간"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Duration"
+          }
+        }
+      }
+    },
+    "기본 크기" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "기본 크기"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Default Size"
+          }
+        }
+      }
+    },
+    "기존 질문을 꼬리질문으로 연결" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "기존 질문을 꼬리질문으로 연결"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Link an Existing Question as a Follow-up"
+          }
+        }
+      }
+    },
+    "꼬리질문" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "꼬리질문"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Follow-up questions"
+          }
+        }
+      }
+    },
+    "꼬리질문 뽑기" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "꼬리질문 뽑기"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Draw Out Follow-ups"
+          }
+        }
+      }
+    },
+    "나중에 내 말로 답을 정리하고, 질문 앞 ? 를 눌러 해결로 바꾸세요. 보기 메뉴의 요약에 배운 점이 모여요." : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "나중에 내 말로 답을 정리하고, 질문 앞 ? 를 눌러 해결로 바꾸세요. 보기 메뉴의 요약에 배운 점이 모여요."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Later, write the answer in your own words and click the ? before the question to mark it resolved. What you learned gathers in Summary in the View menu."
+          }
+        }
+      }
+    },
+    "내 답 채점받기" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "내 답 채점받기"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Get My Answer Graded"
+          }
+        }
+      }
+    },
     "내 데이터 한 번에 지우기" : {
       "comment" : "Roadmap item: delete all data",
       "localizations" : {
@@ -103,6 +647,70 @@
         }
       }
     },
+    "내 말로 정리해 적어보세요" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "내 말로 정리해 적어보세요"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Write it in your own words"
+          }
+        }
+      }
+    },
+    "누르면 미해결로 바꿉니다" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "누르면 미해결로 바꿉니다"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Marks the question as unresolved"
+          }
+        }
+      }
+    },
+    "누르면 이 질문으로 이동합니다" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "누르면 이 질문으로 이동합니다"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Goes to this question"
+          }
+        }
+      }
+    },
+    "누르면 해결됨으로 바꿉니다" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "누르면 해결됨으로 바꿉니다"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Marks the question as resolved"
+          }
+        }
+      }
+    },
     "다른 맥에서도 같은 강의와 질문을 이어서 써요." : {
       "comment" : "Roadmap item detail: sync across devices",
       "localizations" : {
@@ -116,6 +724,150 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "다른 맥에서도 같은 강의와 질문을 이어서 써요."
+          }
+        }
+      }
+    },
+    "다시 넣기" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "다시 넣기"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Add Back"
+          }
+        }
+      }
+    },
+    "다시 배운 점으로" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "다시 배운 점으로"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Add back to What I Learned"
+          }
+        }
+      }
+    },
+    "닫기" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "닫기"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Close"
+          }
+        }
+      }
+    },
+    "답" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "답"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Answer"
+          }
+        }
+      }
+    },
+    "답 되묻기" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "답 되묻기"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Question the Answer"
+          }
+        }
+      }
+    },
+    "답 메모가 비어 있어요" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "답 메모가 비어 있어요"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The answer note is empty"
+          }
+        }
+      }
+    },
+    "답 없음" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "답 없음"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No answer"
+          }
+        }
+      }
+    },
+    "답 찾기" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "답 찾기"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Find the Answer"
+          }
+        }
+      }
+    },
+    "답을 적고 해결해요" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "답을 적고 해결해요"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Write the answer and resolve it"
           }
         }
       }
@@ -171,6 +923,22 @@
         }
       }
     },
+    "던질 질문" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "던질 질문"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Questions to Ask"
+          }
+        }
+      }
+    },
     "데스크탑 위젯" : {
       "comment" : "Roadmap item: desktop widgets",
       "localizations" : {
@@ -184,6 +952,262 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "데스크탑 위젯"
+          }
+        }
+      }
+    },
+    "둘러보기" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "둘러보기"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Look Around"
+          }
+        }
+      }
+    },
+    "마크다운에서 가져오기…" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "마크다운에서 가져오기…"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Import from Markdown…"
+          }
+        }
+      }
+    },
+    "먼저 답 칸에 내 말로 한두 줄 적어 주세요" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "먼저 답 칸에 내 말로 한두 줄 적어 주세요"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "First write a line or two in your own words in the answer box"
+          }
+        }
+      }
+    },
+    "메모" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "메모"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Notes"
+          }
+        }
+      }
+    },
+    "메일로 문의하기" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "메일로 문의하기"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Contact by Email"
+          }
+        }
+      }
+    },
+    "모두 해결했어요" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "모두 해결했어요"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "All resolved"
+          }
+        }
+      }
+    },
+    "문의하실 때 macOS 버전과 어떤 동작에서 문제가 생겼는지 적어 주시면 빠르게 확인할 수 있어요." : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "문의하실 때 macOS 버전과 어떤 동작에서 문제가 생겼는지 적어 주시면 빠르게 확인할 수 있어요."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "When you write to us, please include your macOS version and what you were doing when the problem happened, so we can look into it quickly."
+          }
+        }
+      }
+    },
+    "미해결" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "미해결"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Unresolved"
+          }
+        }
+      }
+    },
+    "미해결 — 눌러서 해결됨으로" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "미해결 — 눌러서 해결됨으로"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Unresolved — click to mark resolved"
+          }
+        }
+      }
+    },
+    "미해결 질문만 보기" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "미해결 질문만 보기"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Show only unresolved questions"
+          }
+        }
+      }
+    },
+    "미해결 질문이 없어요" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "미해결 질문이 없어요"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No unresolved questions"
+          }
+        }
+      }
+    },
+    "미해결만" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "미해결만"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Unresolved Only"
+          }
+        }
+      }
+    },
+    "배우고 싶은 것" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "배우고 싶은 것"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "What I Want to Learn"
+          }
+        }
+      }
+    },
+    "배운 점" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "배운 점"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "What I Learned"
+          }
+        }
+      }
+    },
+    "배운 점에 포함" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "배운 점에 포함"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Include in What I Learned"
+          }
+        }
+      }
+    },
+    "배운 점에서 제외 (답은 그대로 남아요)" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "배운 점에서 제외 (답은 그대로 남아요)"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Exclude from What I Learned (the answer stays)"
           }
         }
       }
@@ -205,6 +1229,38 @@
         }
       }
     },
+    "보기" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "보기"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "View"
+          }
+        }
+      }
+    },
+    "보기 메뉴의 요약(⌘1)에서 던질 질문과 배운 점을, 그래프(⌘2)에서 질문 사이의 연결을 한눈에 볼 수 있어요." : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "보기 메뉴의 요약(⌘1)에서 던질 질문과 배운 점을, 그래프(⌘2)에서 질문 사이의 연결을 한눈에 볼 수 있어요."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "In the View menu, Summary (⌘1) shows what to ask and what you learned, and Graph (⌘2) shows how your questions connect."
+          }
+        }
+      }
+    },
     "보기 편한 색과 대비" : {
       "comment" : "Roadmap item: better colors and contrast",
       "localizations" : {
@@ -218,6 +1274,230 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "보기 편한 색과 대비"
+          }
+        }
+      }
+    },
+    "블록 메모" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "블록 메모"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Block notes"
+          }
+        }
+      }
+    },
+    "블록 삭제" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "블록 삭제"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Delete Block"
+          }
+        }
+      }
+    },
+    "블록 색상" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "블록 색상"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Block color"
+          }
+        }
+      }
+    },
+    "블록 설정" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "블록 설정"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Block Settings"
+          }
+        }
+      }
+    },
+    "블록 시작 시각" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "블록 시작 시각"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Block start time"
+          }
+        }
+      }
+    },
+    "블록 추가" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "블록 추가"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Add Block"
+          }
+        }
+      }
+    },
+    "블록이 없어요" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "블록이 없어요"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No blocks"
+          }
+        }
+      }
+    },
+    "삭제" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "삭제"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Delete"
+          }
+        }
+      }
+    },
+    "새 강의" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "새 강의"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "New Lecture"
+          }
+        }
+      }
+    },
+    "새 꼬리질문 — Return으로 추가" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "새 꼬리질문 — Return으로 추가"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "New follow-up question — press Return to add"
+          }
+        }
+      }
+    },
+    "색상" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "색상"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Color"
+          }
+        }
+      }
+    },
+    "설정" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "설정"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Settings"
+          }
+        }
+      }
+    },
+    "시작" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "시작"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Start"
+          }
+        }
+      }
+    },
+    "시점" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "시점"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Time"
           }
         }
       }
@@ -341,6 +1621,38 @@
         }
       }
     },
+    "연결 해제 (질문은 지워지지 않아요)" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "연결 해제 (질문은 지워지지 않아요)"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Unlink (the question isn't deleted)"
+          }
+        }
+      }
+    },
+    "연락하기" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "연락하기"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Get in Touch"
+          }
+        }
+      }
+    },
     "영어 지원" : {
       "comment" : "Roadmap item: English",
       "localizations" : {
@@ -354,6 +1666,54 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "영어 지원"
+          }
+        }
+      }
+    },
+    "요약" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "요약"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Summary"
+          }
+        }
+      }
+    },
+    "요약·그래프·타임블록·학습 상태·글씨 크기" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "요약·그래프·타임블록·학습 상태·글씨 크기"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Summary, graph, time blocks, learning status, text size"
+          }
+        }
+      }
+    },
+    "요약의 ‘배운 점’ 목록에 넣을지 선택" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "요약의 ‘배운 점’ 목록에 넣을지 선택"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Choose whether to list this under What I Learned in the summary"
           }
         }
       }
@@ -392,6 +1752,22 @@
         }
       }
     },
+    "원질문" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "원질문"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Original question"
+          }
+        }
+      }
+    },
     "원하면 앱 안에서 강의와 질문을 모두 지울 수 있어요." : {
       "comment" : "Roadmap item detail: delete all data",
       "localizations" : {
@@ -405,6 +1781,518 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "원하면 앱 안에서 강의와 질문을 모두 지울 수 있어요."
+          }
+        }
+      }
+    },
+    "이 강의를 다 이해하면 어떤 상태이고 싶은지…" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "이 강의를 다 이해하면 어떤 상태이고 싶은지…"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "What I want to be able to do once I understand this lecture…"
+          }
+        }
+      }
+    },
+    "이 강의를 듣기 전/지금 내가 아는 정도, 막히는 점…" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "이 강의를 듣기 전/지금 내가 아는 정도, 막히는 점…"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "What I know before or so far in this lecture, and where I get stuck…"
+          }
+        }
+      }
+    },
+    "이 강의에서 꼭 얻고 싶은 것·궁금한 주제…" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "이 강의에서 꼭 얻고 싶은 것·궁금한 주제…"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "What I most want to get out of this lecture, topics I'm curious about…"
+          }
+        }
+      }
+    },
+    "이 블록을 지울까요? 메모도 함께 사라져요." : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "이 블록을 지울까요? 메모도 함께 사라져요."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Delete this block? Its notes will be deleted too."
+          }
+        }
+      }
+    },
+    "이 블록의 색상·시작 시각·기간을 바꾸거나 블록을 지웁니다" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "이 블록의 색상·시작 시각·기간을 바꾸거나 블록을 지웁니다"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Change this block's color, start time and duration, or delete it"
+          }
+        }
+      }
+    },
+    "이 시간에 배운 내용·기억할 점을 메모하세요…" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "이 시간에 배운 내용·기억할 점을 메모하세요…"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Note what you learned or want to remember in this time slot…"
+          }
+        }
+      }
+    },
+    "이 질문으로 이동" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "이 질문으로 이동"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Go to This Question"
+          }
+        }
+      }
+    },
+    "이 질문의 답을 내 말로 정리해 적습니다" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "이 질문의 답을 내 말로 정리해 적습니다"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Write the answer to this question in your own words"
+          }
+        }
+      }
+    },
+    "인스타그램에서 소식 보기" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "인스타그램에서 소식 보기"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Follow on Instagram"
+          }
+        }
+      }
+    },
+    "작게" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "작게"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Smaller"
+          }
+        }
+      }
+    },
+    "작성 %@" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "작성 %@"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Created %@"
+          }
+        }
+      }
+    },
+    "저장" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "저장"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Save"
+          }
+        }
+      }
+    },
+    "저장하고 계속" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "저장하고 계속"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Save and Continue"
+          }
+        }
+      }
+    },
+    "제외" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "제외"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Exclude"
+          }
+        }
+      }
+    },
+    "제외한 답" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "제외한 답"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Excluded Answers"
+          }
+        }
+      }
+    },
+    "지금" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "지금"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Now"
+          }
+        }
+      }
+    },
+    "지금 나의 상태" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "지금 나의 상태"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Where I Am Now"
+          }
+        }
+      }
+    },
+    "지원" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "지원"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Support"
+          }
+        }
+      }
+    },
+    "질문" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "질문"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Question"
+          }
+        }
+      }
+    },
+    "질문 %lld · 던질 질문 %lld · 배운 점 %lld · 꼬리질문 %lld" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "질문 %lld · 던질 질문 %lld · 배운 점 %lld · 꼬리질문 %lld"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Questions %lld · To Ask %lld · Learned %lld · Follow-ups %lld"
+          }
+        }
+      }
+    },
+    "질문 노트를 열고 지금 보고 있는 강의에 질문을 적는 창을 띄웁니다." : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "질문 노트를 열고 지금 보고 있는 강의에 질문을 적는 창을 띄웁니다."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Opens Question Notes and shows a window to write a question for the lecture you're viewing."
+          }
+        }
+      }
+    },
+    "질문 노트에 오신 걸 환영해요" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "질문 노트에 오신 걸 환영해요"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Welcome to Question Notes"
+          }
+        }
+      }
+    },
+    "질문 다듬기" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "질문 다듬기"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Refine the Question"
+          }
+        }
+      }
+    },
+    "질문 추가" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "질문 추가"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Add Question"
+          }
+        }
+      }
+    },
+    "질문 추가 (⌘⇧N)" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "질문 추가 (⌘⇧N)"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Add Question (⌘⇧N)"
+          }
+        }
+      }
+    },
+    "질문을 선택하세요" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "질문을 선택하세요"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Select a question"
+          }
+        }
+      }
+    },
+    "질문을 해결로 표시하면 여기 모여요" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "질문을 해결로 표시하면 여기 모여요"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Questions you mark as resolved appear here"
+          }
+        }
+      }
+    },
+    "질문이 쌓였다면 돌아보세요" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "질문이 쌓였다면 돌아보세요"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Time to look back at your questions"
+          }
+        }
+      }
+    },
+    "첫 강의 만들기" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "첫 강의 만들기"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Create First Lecture"
+          }
+        }
+      }
+    },
+    "축소" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "축소"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zoom Out"
+          }
+        }
+      }
+    },
+    "취소" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "취소"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cancel"
+          }
+        }
+      }
+    },
+    "크게" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "크게"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Larger"
           }
         }
       }
@@ -426,6 +2314,166 @@
         }
       }
     },
+    "타임블록" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "타임블록"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Time Blocks"
+          }
+        }
+      }
+    },
+    "툴바 왼쪽 강의 메뉴에서 새 강의를 추가하거나, 대화 마크다운 파일을 가져올 수 있어요." : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "툴바 왼쪽 강의 메뉴에서 새 강의를 추가하거나, 대화 마크다운 파일을 가져올 수 있어요."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Add a new lecture from the lecture menu on the left of the toolbar, or import a conversation Markdown file."
+          }
+        }
+      }
+    },
+    "학습 상태" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "학습 상태"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Learning Status"
+          }
+        }
+      }
+    },
+    "학습을 마쳤을 때 나의 상태" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "학습을 마쳤을 때 나의 상태"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Where I Want to Be When Done"
+          }
+        }
+      }
+    },
+    "해결" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "해결"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Resolved"
+          }
+        }
+      }
+    },
+    "해결 여부" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "해결 여부"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Resolution status"
+          }
+        }
+      }
+    },
+    "해결됨" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "해결됨"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Resolved"
+          }
+        }
+      }
+    },
+    "해결됨 — 눌러서 미해결로" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "해결됨 — 눌러서 미해결로"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Resolved — click to mark unresolved"
+          }
+        }
+      }
+    },
+    "해제" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "해제"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Unlink"
+          }
+        }
+      }
+    },
+    "현재 강의 삭제" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "현재 강의 삭제"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Delete Current Lecture"
+          }
+        }
+      }
+    },
     "화면 읽기 기능이 단추와 내용을 빠짐없이, 알맞은 순서로 읽어 줘요." : {
       "comment" : "Roadmap item detail: better VoiceOver support",
       "localizations" : {
@@ -439,6 +2487,54 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "화면 읽기 기능이 단추와 내용을 빠짐없이, 알맞은 순서로 읽어 줘요."
+          }
+        }
+      }
+    },
+    "화면에 맞추기" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "화면에 맞추기"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fit to Window"
+          }
+        }
+      }
+    },
+    "확대" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "확대"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zoom In"
+          }
+        }
+      }
+    },
+    "확인" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "확인"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OK"
           }
         }
       }

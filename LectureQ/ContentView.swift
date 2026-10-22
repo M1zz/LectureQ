@@ -370,7 +370,7 @@ struct ContentView: View {
                 Button("현재 강의 삭제", role: .destructive, action: deleteCurrentLecture)
             }
         } label: {
-            Text(selectedLecture?.title ?? "강의 선택")
+            Text(selectedLecture?.title ?? String(localized: "강의 선택"))
         }
     }
 
@@ -471,7 +471,7 @@ struct ContentView: View {
 
     /// 새 강의를 만들고(초기 블록 1개 포함) 바로 선택해 메인에 표시한다.
     private func addLectureQuick() {
-        let lecture = Lecture(title: "새 강의")
+        let lecture = Lecture(title: String(localized: "새 강의"))
         context.insert(lecture)
         let block = Block(startTime: .now)
         block.lecture = lecture
@@ -659,10 +659,10 @@ struct QuestionRow: View {
                     .foregroundStyle(question.isResolved ? .green : .orange)
             }
             .buttonStyle(.plain)
-            .help(question.isResolved ? "해결됨 — 눌러서 미해결로" : "미해결 — 눌러서 해결됨으로")
+            .help(question.isResolved ? String(localized: "해결됨 — 눌러서 미해결로") : String(localized: "미해결 — 눌러서 해결됨으로"))
             .accessibilityLabel("해결 여부")
-            .accessibilityValue(question.isResolved ? "해결됨" : "미해결")
-            .accessibilityHint(question.isResolved ? "누르면 미해결로 바꿉니다" : "누르면 해결됨으로 바꿉니다")
+            .accessibilityValue(question.isResolved ? String(localized: "해결됨") : String(localized: "미해결"))
+            .accessibilityHint(question.isResolved ? String(localized: "누르면 미해결로 바꿉니다") : String(localized: "누르면 해결됨으로 바꿉니다"))
 
             Text(question.text)
                 .scaledFont(13)
@@ -696,8 +696,8 @@ extension View {
 
 /// 아이콘 없이 글자 한 줄로 보여주는 빈 상태 안내.
 struct EmptyHint: View {
-    let text: String
-    init(_ text: String) { self.text = text }
+    let text: LocalizedStringKey
+    init(_ text: LocalizedStringKey) { self.text = text }
 
     var body: some View {
         Text(text)

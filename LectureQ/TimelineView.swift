@@ -271,8 +271,8 @@ struct BlockView: View {
                         .accessibilityLabel(item.q.timeMark.isEmpty
                                             ? item.q.text
                                             : "\(item.q.timeMark), \(item.q.text)")
-                        .accessibilityValue(item.q.isResolved ? "해결됨" : "미해결")
-                        .accessibilityHint(onSelectQuestion == nil ? "" : "누르면 이 질문으로 이동합니다")
+                        .accessibilityValue(item.q.isResolved ? String(localized: "해결됨") : String(localized: "미해결"))
+                        .accessibilityHint(onSelectQuestion == nil ? "" : String(localized: "누르면 이 질문으로 이동합니다"))
                         .help(item.q.timeMark.isEmpty
                               ? item.q.text
                               : "\(item.q.timeMark) · \(item.q.text)")

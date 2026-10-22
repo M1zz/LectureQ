@@ -14,11 +14,11 @@ enum AIPrompt: String, CaseIterable, Identifiable {
 
     var title: String {
         switch self {
-        case .refine:    return "질문 다듬기"
-        case .ask:       return "답 찾기"
-        case .verify:    return "답 되묻기"
-        case .followUps: return "꼬리질문 뽑기"
-        case .grade:     return "내 답 채점받기"
+        case .refine:    return String(localized: "질문 다듬기")
+        case .ask:       return String(localized: "답 찾기")
+        case .verify:    return String(localized: "답 되묻기")
+        case .followUps: return String(localized: "꼬리질문 뽑기")
+        case .grade:     return String(localized: "내 답 채점받기")
         }
     }
 
@@ -27,7 +27,7 @@ enum AIPrompt: String, CaseIterable, Identifiable {
         switch self {
         case .grade:
             return question.answer.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty
-                ? "먼저 답 칸에 내 말로 한두 줄 적어 주세요" : nil
+                ? String(localized: "먼저 답 칸에 내 말로 한두 줄 적어 주세요") : nil
         default:
             return nil
         }

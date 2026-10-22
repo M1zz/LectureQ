@@ -215,7 +215,7 @@ struct QuestionDetailView: View {
             .help("연결 해제 (질문은 지워지지 않아요)")
     }
 
-    private func sectionTitle(_ title: String) -> some View {
+    private func sectionTitle(_ title: LocalizedStringKey) -> some View {
         Text(title)
             .scaledFont(.caption, weight: .semibold)
             .foregroundStyle(.secondary)

@@ -15,7 +15,7 @@ struct QuickCaptureView: View {
 
     var body: some View {
         VStack(alignment: .leading, spacing: 14) {
-            Text(lecture?.title ?? "강의 없음")
+            Text(lecture?.title ?? String(localized: "강의 없음"))
                 .scaledFont(.headline)
                 .foregroundStyle(.secondary)
 

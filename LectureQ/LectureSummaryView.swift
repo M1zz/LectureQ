@@ -133,7 +133,7 @@ struct LectureSummaryView: View {
                             .help("배운 점에서 제외 (답은 그대로 남아요)")
                         }
                         let answer = q.answer.trimmingCharacters(in: .whitespacesAndNewlines)
-                        Text(answer.isEmpty ? "답 메모가 비어 있어요" : answer)
+                        Text(answer.isEmpty ? String(localized: "답 메모가 비어 있어요") : answer)
                             .scaledFont(.callout)
                             .foregroundStyle(answer.isEmpty ? .tertiary : .primary)
                             .textSelection(.enabled)
@@ -169,7 +169,7 @@ struct LectureSummaryView: View {
 
     // MARK: Helpers
 
-    private func sectionTitle(_ title: String, count: Int? = nil) -> some View {
+    private func sectionTitle(_ title: LocalizedStringKey, count: Int? = nil) -> some View {
         HStack(alignment: .firstTextBaseline, spacing: 6) {
             Text(title)
                 .scaledFont(.title3, weight: .semibold)
@@ -181,7 +181,7 @@ struct LectureSummaryView: View {
         }
     }
 
-    private func emptyLine(_ text: String) -> some View {
+    private func emptyLine(_ text: LocalizedStringKey) -> some View {
         Text(text)
             .foregroundStyle(.tertiary)
     }

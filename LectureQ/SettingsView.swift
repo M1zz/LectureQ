@@ -47,8 +47,8 @@ struct SettingsView: View {
         let os = ProcessInfo.processInfo.operatingSystemVersionString
         var c = URLComponents(string: "mailto:\(LectureQSpec.developerEmail)")
         c?.queryItems = [
-            URLQueryItem(name: "subject", value: "[\(LectureQSpec.appName)] 문의"),
-            URLQueryItem(name: "body", value: "\n\n\n—\n앱 버전: \(version) (\(build))\nmacOS: \(os)")
+            URLQueryItem(name: "subject", value: String(localized: "[\(LectureQSpec.appName)] 문의")),
+            URLQueryItem(name: "body", value: String(localized: "\n\n\n—\n앱 버전: \(version) (\(build))\nmacOS: \(os)"))
         ]
         return c?.url
     }

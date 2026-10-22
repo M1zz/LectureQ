@@ -44,7 +44,7 @@ struct LectureStateView: View {
         .frame(minWidth: 560, minHeight: 560)
     }
 
-    private func editor(_ title: String, text: Binding<String>, placeholder: String) -> some View {
+    private func editor(_ title: LocalizedStringKey, text: Binding<String>, placeholder: LocalizedStringKey) -> some View {
         VStack(alignment: .leading, spacing: 8) {
             Text(title)
                 .scaledFont(.subheadline, weight: .semibold)
