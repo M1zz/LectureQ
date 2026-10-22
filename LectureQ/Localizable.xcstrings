@@ -32,6 +32,12 @@
             "state" : "translated",
             "value" : "\n\n\n—\nApp 版本：%@ (%@)\nmacOS：%@"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "\n\n\n—\nアプリのバージョン: %@ (%@)\nmacOS: %@"
+          }
         }
       }
     },
@@ -65,6 +71,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "已拷貝「%@」"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "「%@」をコピーしました"
           }
         }
       }
@@ -100,6 +112,12 @@
             "state" : "translated",
             "value" : "第 %lld 步，%@。%@"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ステップ%lld、%@。%@"
+          }
         }
       }
     },
@@ -133,6 +151,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld 分鐘"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld分"
           }
         }
       }
@@ -168,6 +192,12 @@
             "state" : "translated",
             "value" : "拷貝 AI 提示詞"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "AIプロンプトをコピー"
+          }
         }
       }
     },
@@ -201,6 +231,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "指南：用 AI 找答案"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "AIで答えを探すガイド"
           }
         }
       }
@@ -237,6 +273,12 @@
             "state" : "translated",
             "value" : "Touch ID 鎖定"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Touch IDロック"
+          }
         }
       }
     },
@@ -271,6 +313,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "用 Touch ID 鎖住 App，保護你的提問筆記。"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Touch IDでアプリをロックして、質問ノートを守ります。"
           }
         }
       }
@@ -307,6 +355,12 @@
             "state" : "translated",
             "value" : "更順手的旁白支援"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "VoiceOverでもっと使いやすく"
+          }
         }
       }
     },
@@ -340,6 +394,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "[%@] 詢問"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "[%@] お問い合わせ"
           }
         }
       }
@@ -375,6 +435,12 @@
             "state" : "translated",
             "value" : "按 ⌘⇧N 新增問題"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "⌘⇧Nで質問を追加できます"
+          }
         }
       }
     },
@@ -408,6 +474,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "開啟指南"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ガイドを開く"
           }
         }
       }
@@ -443,6 +515,12 @@
             "state" : "translated",
             "value" : "匯入失敗"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "読み込みに失敗しました"
+          }
         }
       }
     },
@@ -476,6 +554,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "匯入的對話"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "読み込んだ会話"
           }
         }
       }
@@ -511,6 +595,12 @@
             "state" : "translated",
             "value" : "將帶有課程背景的提示詞拷貝到剪貼簿"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "講義の文脈を入れたプロンプトをクリップボードにコピーします"
+          }
         }
       }
     },
@@ -544,6 +634,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "選擇課程"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "講義を選択"
           }
         }
       }
@@ -579,6 +675,12 @@
             "state" : "translated",
             "value" : "課程時間點"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "講義の時点"
+          }
         }
       }
     },
@@ -612,6 +714,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "課程時間點（24 小時制 HH:mm）"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "講義の時点（24時間制 HH:mm）"
           }
         }
       }
@@ -647,6 +755,12 @@
             "state" : "translated",
             "value" : "課程時間點（24 小時制 HH:mm）。清空後會不帶時間點儲存"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "講義の時点（24時間制 HH:mm）。消すと時点なしで保存されます"
+          }
         }
       }
     },
@@ -680,6 +794,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "沒有課程"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "講義なし"
           }
         }
       }
@@ -715,6 +835,12 @@
             "state" : "translated",
             "value" : "課程名稱"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "講義名"
+          }
         }
       }
     },
@@ -748,6 +874,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "上課時冒出的問題不再溜走，之後再用自己的話作答的筆記。"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "講義中に生まれた疑問を逃さず、あとで自分の言葉で答えるためのノートです。"
           }
         }
       }
@@ -783,6 +915,12 @@
             "state" : "translated",
             "value" : "新增課程"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "講義を追加"
+          }
         }
       }
     },
@@ -816,6 +954,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "上課時冒出的疑問，用最簡單的話記下來。時間點會自動填入目前的時間。"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "講義中にふと浮かんだ疑問を、いちばんやさしい言葉で書き留めましょう。時点にはいまの時刻が入ります。"
           }
         }
       }
@@ -851,6 +995,12 @@
             "state" : "translated",
             "value" : "建立一門課程"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "講義をつくろう"
+          }
         }
       }
     },
@@ -884,6 +1034,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "請選擇一門課程"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "講義を選択してください"
           }
         }
       }
@@ -920,6 +1076,12 @@
             "state" : "translated",
             "value" : "把課程與問題儲存成檔案，之後可以再匯入。"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "講義と質問をファイルに保存して、あとで読み込めます。"
+          }
         }
       }
     },
@@ -953,6 +1115,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "有疑問，按 ⌘⇧N"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "気になったらすぐ ⌘⇧N"
           }
         }
       }
@@ -988,6 +1156,12 @@
             "state" : "translated",
             "value" : "用最簡單的話寫下你的疑問…"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "気になることを、できるだけやさしい言葉で…"
+          }
         }
       }
     },
@@ -1022,6 +1196,12 @@
             "state" : "translated",
             "value" : "關係圖"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "グラフ"
+          }
         }
       }
     },
@@ -1055,6 +1235,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "文字大小 (%lld%%)"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "文字サイズ (%lld%%)"
           }
         }
       }
@@ -1091,6 +1277,12 @@
             "state" : "translated",
             "value" : "放大文字後，畫面會重新排版而不會被截斷。"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "文字を大きくしても、切れずに見やすくレイアウトし直します。"
+          }
         }
       }
     },
@@ -1124,6 +1316,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "時長"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "長さ"
           }
         }
       }
@@ -1159,6 +1357,12 @@
             "state" : "translated",
             "value" : "預設大小"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "標準サイズ"
+          }
         }
       }
     },
@@ -1192,6 +1396,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "將既有問題連結為追問"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "既存の質問を追加の質問として関連づける"
           }
         }
       }
@@ -1227,6 +1437,12 @@
             "state" : "translated",
             "value" : "追問"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "追加の質問"
+          }
         }
       }
     },
@@ -1260,6 +1476,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "擷取追問"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "追加の質問を引き出す"
           }
         }
       }
@@ -1295,6 +1517,12 @@
             "state" : "translated",
             "value" : "之後用自己的話整理答案，點一下問題前面的「?」標示為已解決。學到的內容會整理在「檢視」選單的摘要裡。"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "あとで自分の言葉で答えをまとめ、質問の左の「?」を押して解決済みにします。学んだことは「表示」メニューの「まとめ」に集まります。"
+          }
         }
       }
     },
@@ -1328,6 +1556,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "替我的答案打分數"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "自分の答えを採点してもらう"
           }
         }
       }
@@ -1364,6 +1598,12 @@
             "state" : "translated",
             "value" : "一鍵清除我的資料"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "自分のデータをまとめて削除"
+          }
         }
       }
     },
@@ -1397,6 +1637,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "用自己的話整理後寫下來"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "自分の言葉でまとめて書いてみましょう"
           }
         }
       }
@@ -1432,6 +1678,12 @@
             "state" : "translated",
             "value" : "將這個問題標示為未解決"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "質問を未解決にします"
+          }
         }
       }
     },
@@ -1466,6 +1718,12 @@
             "state" : "translated",
             "value" : "點一下即可前往這個問題"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "押すとこの質問へ移動します"
+          }
         }
       }
     },
@@ -1499,6 +1757,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "將這個問題標示為已解決"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "質問を解決済みにします"
           }
         }
       }
@@ -1535,6 +1799,12 @@
             "state" : "translated",
             "value" : "在其他 Mac 上接著使用同樣的課程與問題。"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "別のMacでも同じ講義と質問を続けて使えます。"
+          }
         }
       }
     },
@@ -1568,6 +1838,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "重新加入"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "元に戻す"
           }
         }
       }
@@ -1603,6 +1879,12 @@
             "state" : "translated",
             "value" : "重新加入「學到的內容」"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "「学んだこと」に戻す"
+          }
         }
       }
     },
@@ -1636,6 +1918,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "關閉"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "閉じる"
           }
         }
       }
@@ -1671,6 +1959,12 @@
             "state" : "translated",
             "value" : "答案"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "回答"
+          }
         }
       }
     },
@@ -1704,6 +1998,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "反問答案"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "答えを問い直す"
           }
         }
       }
@@ -1739,6 +2039,12 @@
             "state" : "translated",
             "value" : "答案的筆記是空的"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "回答メモが空です"
+          }
         }
       }
     },
@@ -1772,6 +2078,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "尚無答案"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "回答なし"
           }
         }
       }
@@ -1807,6 +2119,12 @@
             "state" : "translated",
             "value" : "尋找答案"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "答えを探す"
+          }
         }
       }
     },
@@ -1840,6 +2158,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "寫下答案，標示為已解決"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "答えを書いて解決しよう"
           }
         }
       }
@@ -1876,6 +2200,12 @@
             "state" : "translated",
             "value" : "即使開啟提高對比，或不易分辨顏色，內容依然清楚好讀。"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "コントラストを上げたり、色の区別がつきにくくても、内容を読み取れます。"
+          }
         }
       }
     },
@@ -1910,6 +2240,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "讓 App 支援更多語言。"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "より多くの言語でアプリを使えるようにします。"
           }
         }
       }
@@ -1946,6 +2282,12 @@
             "state" : "translated",
             "value" : "更多語言"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "対応言語を追加"
+          }
         }
       }
     },
@@ -1979,6 +2321,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "待提的問題"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "聞きたいこと"
           }
         }
       }
@@ -2015,6 +2363,12 @@
             "state" : "translated",
             "value" : "桌面小工具"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "デスクトップウィジェット"
+          }
         }
       }
     },
@@ -2048,6 +2402,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "先逛逛"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "見てみる"
           }
         }
       }
@@ -2083,6 +2443,12 @@
             "state" : "translated",
             "value" : "從 Markdown 匯入…"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Markdownから読み込む…"
+          }
         }
       }
     },
@@ -2116,6 +2482,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "請先在答案欄用自己的話寫一兩行"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "まず回答欄に自分の言葉で1〜2行書いてください"
           }
         }
       }
@@ -2151,6 +2523,12 @@
             "state" : "translated",
             "value" : "筆記"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "メモ"
+          }
         }
       }
     },
@@ -2184,6 +2562,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "以電子郵件聯絡"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "メールで問い合わせる"
           }
         }
       }
@@ -2219,6 +2603,12 @@
             "state" : "translated",
             "value" : "全部都解決了"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "すべて解決しました"
+          }
         }
       }
     },
@@ -2253,6 +2643,12 @@
             "state" : "translated",
             "value" : "來信時，請附上 macOS 版本以及發生問題時的操作，我們就能更快釐清原因。"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "お問い合わせの際は、macOSのバージョンと、どの操作で問題が起きたかを書いていただけると、早く確認できます。"
+          }
         }
       }
     },
@@ -2283,6 +2679,12 @@
           }
         },
         "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "未解決"
+          }
+        },
+        "ja" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "未解決"
@@ -2321,6 +2723,12 @@
             "state" : "translated",
             "value" : "未解決 — 點一下改為已解決"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "未解決 — クリックで解決済みにする"
+          }
         }
       }
     },
@@ -2354,6 +2762,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "只顯示未解決的問題"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "未解決の質問だけを表示"
           }
         }
       }
@@ -2389,6 +2803,12 @@
             "state" : "translated",
             "value" : "沒有未解決的問題"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "未解決の質問はありません"
+          }
         }
       }
     },
@@ -2422,6 +2842,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "只看未解決"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "未解決のみ"
           }
         }
       }
@@ -2457,6 +2883,12 @@
             "state" : "translated",
             "value" : "我想學的內容"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "学びたいこと"
+          }
         }
       }
     },
@@ -2490,6 +2922,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "學到的內容"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "学んだこと"
           }
         }
       }
@@ -2525,6 +2963,12 @@
             "state" : "translated",
             "value" : "列入「學到的內容」"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "「学んだこと」に含める"
+          }
         }
       }
     },
@@ -2558,6 +3002,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "從「學到的內容」中排除（答案會保留）"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "「学んだこと」から除外（回答は残ります）"
           }
         }
       }
@@ -2594,6 +3044,12 @@
             "state" : "translated",
             "value" : "備份與匯出"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "バックアップと書き出し"
+          }
         }
       }
     },
@@ -2628,6 +3084,12 @@
             "state" : "translated",
             "value" : "檢視"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "表示"
+          }
         }
       }
     },
@@ -2661,6 +3123,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "在「檢視」選單中，「摘要」(⌘1) 會整理待提的問題與學到的內容，「關係圖」(⌘2) 則呈現問題之間的關聯。"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "「表示」メニューの「まとめ」(⌘1)では聞きたいことと学んだことを、「グラフ」(⌘2)では質問どうしのつながりをひと目で確認できます。"
           }
         }
       }
@@ -2697,6 +3165,12 @@
             "state" : "translated",
             "value" : "更舒適的顏色與對比"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "見やすい色とコントラスト"
+          }
         }
       }
     },
@@ -2730,6 +3204,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "時間區塊筆記"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ブロックのメモ"
           }
         }
       }
@@ -2765,6 +3245,12 @@
             "state" : "translated",
             "value" : "刪除時間區塊"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ブロックを削除"
+          }
         }
       }
     },
@@ -2798,6 +3284,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "時間區塊顏色"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ブロックの色"
           }
         }
       }
@@ -2833,6 +3325,12 @@
             "state" : "translated",
             "value" : "時間區塊設定"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ブロックの設定"
+          }
         }
       }
     },
@@ -2866,6 +3364,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "時間區塊開始時間"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ブロックの開始時刻"
           }
         }
       }
@@ -2901,6 +3405,12 @@
             "state" : "translated",
             "value" : "新增時間區塊"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ブロックを追加"
+          }
         }
       }
     },
@@ -2934,6 +3444,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "沒有時間區塊"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ブロックがありません"
           }
         }
       }
@@ -2969,6 +3485,12 @@
             "state" : "translated",
             "value" : "刪除"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "削除"
+          }
         }
       }
     },
@@ -3002,6 +3524,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "新課程"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "新しい講義"
           }
         }
       }
@@ -3037,6 +3565,12 @@
             "state" : "translated",
             "value" : "新增追問 — 按 Return 加入"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "新しい追加の質問 — Returnキーで追加"
+          }
         }
       }
     },
@@ -3071,6 +3605,12 @@
             "state" : "translated",
             "value" : "顏色"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "色"
+          }
         }
       }
     },
@@ -3101,6 +3641,12 @@
           }
         },
         "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "設定"
+          }
+        },
+        "ja" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "設定"
@@ -3139,6 +3685,12 @@
             "state" : "translated",
             "value" : "開始"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "開始"
+          }
         }
       }
     },
@@ -3172,6 +3724,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "時間點"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "時点"
           }
         }
       }
@@ -3208,6 +3766,12 @@
             "state" : "translated",
             "value" : "在適當的時機提醒你還沒找到答案的問題。"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "まだ答えが見つかっていない質問を、ちょうどよいタイミングでお知らせします。"
+          }
         }
       }
     },
@@ -3242,6 +3806,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "提醒"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "通知"
           }
         }
       }
@@ -3278,6 +3848,12 @@
             "state" : "translated",
             "value" : "不用打開 App，直接在桌面上查看還沒解決的問題。"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "アプリを開かなくても、デスクトップで残りの質問を確認できます。"
+          }
         }
       }
     },
@@ -3312,6 +3888,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "整個 App 都可以使用英文。"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "アプリ全体を英語でも使えます。"
           }
         }
       }
@@ -3348,6 +3930,12 @@
             "state" : "translated",
             "value" : "更新後第一次打開時，告訴你有哪些新內容。"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "アップデート後に初めて開いたとき、新しくなった点をお知らせします。"
+          }
         }
       }
     },
@@ -3382,6 +3970,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "更新消息"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "アップデート情報"
           }
         }
       }
@@ -3418,6 +4012,12 @@
             "state" : "translated",
             "value" : "在多部 Mac 之間同步"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "複数のMacで続けて使う"
+          }
         }
       }
     },
@@ -3452,6 +4052,12 @@
             "state" : "translated",
             "value" : "解除連結（問題不會被刪除）"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "関連づけを解除（質問は削除されません）"
+          }
         }
       }
     },
@@ -3485,6 +4091,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "聯絡我們"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "お問い合わせ"
           }
         }
       }
@@ -3521,6 +4133,12 @@
             "state" : "translated",
             "value" : "完整英文支援"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "英語に対応"
+          }
         }
       }
     },
@@ -3554,6 +4172,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "摘要"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "まとめ"
           }
         }
       }
@@ -3589,6 +4213,12 @@
             "state" : "translated",
             "value" : "摘要、關係圖、時間區塊、學習狀態、文字大小"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "まとめ・グラフ・タイムブロック・学習状況・文字サイズ"
+          }
         }
       }
     },
@@ -3622,6 +4252,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "選擇是否把它列在摘要的「學到的內容」中"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "まとめの「学んだこと」の一覧に入れるかどうかを選びます"
           }
         }
       }
@@ -3658,6 +4294,12 @@
             "state" : "translated",
             "value" : "減少動態效果"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "視差効果を減らす"
+          }
         }
       }
     },
@@ -3693,6 +4335,12 @@
             "state" : "translated",
             "value" : "開啟「減少動態效果」後，畫面效果會更平緩。"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "「視差効果を減らす」をオンにすると、画面の動きが穏やかになります。"
+          }
         }
       }
     },
@@ -3726,6 +4374,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "原問題"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "元の質問"
           }
         }
       }
@@ -3762,6 +4416,12 @@
             "state" : "translated",
             "value" : "需要時，可以在 App 內清除所有課程與問題。"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "必要なら、アプリ内で講義と質問をすべて削除できます。"
+          }
         }
       }
     },
@@ -3795,6 +4455,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "完全理解這門課之後，我希望自己能做到什麼…"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "この講義を理解できたら、どうなっていたいか…"
           }
         }
       }
@@ -3830,6 +4496,12 @@
             "state" : "translated",
             "value" : "上這門課之前，或目前我了解多少、卡在哪裡…"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "この講義を聞く前、またはいま理解している程度、つまずいている点…"
+          }
         }
       }
     },
@@ -3863,6 +4535,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "我最想從這門課得到什麼、對哪些主題好奇…"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "この講義でぜひ得たいこと、気になるテーマ…"
           }
         }
       }
@@ -3898,6 +4576,12 @@
             "state" : "translated",
             "value" : "要刪除這個時間區塊嗎？裡面的筆記也會一併刪除。"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "このブロックを削除しますか？ メモも一緒に消えます。"
+          }
         }
       }
     },
@@ -3931,6 +4615,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "更改這個時間區塊的顏色、開始時間與時長，或將它刪除"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "このブロックの色・開始時刻・長さを変更するか、ブロックを削除します"
           }
         }
       }
@@ -3966,6 +4656,12 @@
             "state" : "translated",
             "value" : "記下這段時間學到的內容與想記住的重點…"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "この時間に学んだこと、覚えておきたいことをメモしましょう…"
+          }
         }
       }
     },
@@ -3999,6 +4695,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "前往這個問題"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "この質問へ移動"
           }
         }
       }
@@ -4034,6 +4736,12 @@
             "state" : "translated",
             "value" : "用自己的話整理並寫下這個問題的答案"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "この質問の答えを自分の言葉でまとめて書きます"
+          }
         }
       }
     },
@@ -4067,6 +4775,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "在 Instagram 上追蹤最新消息"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Instagramで最新情報を見る"
           }
         }
       }
@@ -4102,6 +4816,12 @@
             "state" : "translated",
             "value" : "縮小"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "小さく"
+          }
         }
       }
     },
@@ -4135,6 +4855,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "建立於 %@"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "作成 %@"
           }
         }
       }
@@ -4170,6 +4896,12 @@
             "state" : "translated",
             "value" : "儲存"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "保存"
+          }
         }
       }
     },
@@ -4203,6 +4935,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "儲存並繼續"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "保存して続ける"
           }
         }
       }
@@ -4238,6 +4976,12 @@
             "state" : "translated",
             "value" : "排除"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "除外"
+          }
         }
       }
     },
@@ -4271,6 +5015,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "已排除的答案"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "除外した回答"
           }
         }
       }
@@ -4306,6 +5056,12 @@
             "state" : "translated",
             "value" : "現在"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "いま"
+          }
         }
       }
     },
@@ -4339,6 +5095,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "我現在的狀態"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "いまの自分の状態"
           }
         }
       }
@@ -4374,6 +5136,12 @@
             "state" : "translated",
             "value" : "支援"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "サポート"
+          }
         }
       }
     },
@@ -4407,6 +5175,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "問題"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "質問"
           }
         }
       }
@@ -4442,6 +5216,12 @@
             "state" : "translated",
             "value" : "問題 %lld · 待提問 %lld · 學到的 %lld · 追問 %lld"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "質問 %lld ・ 聞きたいこと %lld ・ 学んだこと %lld ・ 追加の質問 %lld"
+          }
         }
       }
     },
@@ -4475,6 +5255,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "開啟「提問筆記」，並跳出為目前檢視的課程記下問題的視窗。"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "質問ノートを開き、いま見ている講義に質問を書くウインドウを表示します。"
           }
         }
       }
@@ -4510,6 +5296,12 @@
             "state" : "translated",
             "value" : "歡迎使用提問筆記"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "質問ノートへようこそ"
+          }
         }
       }
     },
@@ -4543,6 +5335,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "梳理問題"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "質問を磨く"
           }
         }
       }
@@ -4578,6 +5376,12 @@
             "state" : "translated",
             "value" : "新增問題"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "質問を追加"
+          }
         }
       }
     },
@@ -4611,6 +5415,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "新增問題 (⌘⇧N)"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "質問を追加 (⌘⇧N)"
           }
         }
       }
@@ -4646,6 +5456,12 @@
             "state" : "translated",
             "value" : "請選擇一個問題"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "質問を選択してください"
+          }
         }
       }
     },
@@ -4679,6 +5495,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "把問題標示為已解決，就會整理在這裡"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "質問を解決済みにすると、ここに集まります"
           }
         }
       }
@@ -4714,6 +5536,12 @@
             "state" : "translated",
             "value" : "問題累積了，回頭看看吧"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "質問がたまってきたら振り返ってみましょう"
+          }
         }
       }
     },
@@ -4748,6 +5576,12 @@
             "state" : "translated",
             "value" : "建立第一門課程"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "最初の講義をつくる"
+          }
         }
       }
     },
@@ -4778,6 +5612,12 @@
           }
         },
         "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "縮小"
+          }
+        },
+        "ja" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "縮小"
@@ -4816,6 +5656,12 @@
             "state" : "translated",
             "value" : "取消"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "キャンセル"
+          }
         }
       }
     },
@@ -4849,6 +5695,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "放大"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "大きく"
           }
         }
       }
@@ -4885,6 +5737,12 @@
             "state" : "translated",
             "value" : "適合大字體的畫面"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "大きな文字に合わせた画面"
+          }
         }
       }
     },
@@ -4918,6 +5776,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "時間區塊"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "タイムブロック"
           }
         }
       }
@@ -4953,6 +5817,12 @@
             "state" : "translated",
             "value" : "在工具列左側的課程選單中新增課程，也可以匯入對話的 Markdown 檔案。"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ツールバー左の講義メニューから新しい講義を追加するか、会話のMarkdownファイルを読み込めます。"
+          }
         }
       }
     },
@@ -4986,6 +5856,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "學習狀態"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "学習状況"
           }
         }
       }
@@ -5021,6 +5897,12 @@
             "state" : "translated",
             "value" : "學完之後我想達到的狀態"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "学び終えたときの自分の状態"
+          }
         }
       }
     },
@@ -5054,6 +5936,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "已解決"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "解決済み"
           }
         }
       }
@@ -5089,6 +5977,12 @@
             "state" : "translated",
             "value" : "解決狀態"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "解決状況"
+          }
         }
       }
     },
@@ -5122,6 +6016,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "已解決"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "解決済み"
           }
         }
       }
@@ -5157,6 +6057,12 @@
             "state" : "translated",
             "value" : "已解決 — 點一下改為未解決"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "解決済み — クリックで未解決に戻す"
+          }
         }
       }
     },
@@ -5191,6 +6097,12 @@
             "state" : "translated",
             "value" : "解除連結"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "関連づけを解除"
+          }
         }
       }
     },
@@ -5224,6 +6136,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "刪除目前課程"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "現在の講義を削除"
           }
         }
       }
@@ -5260,6 +6178,12 @@
             "state" : "translated",
             "value" : "旁白會依正確的順序唸出每個按鈕與內容。"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "VoiceOverがボタンと内容を、漏れなく正しい順序で読み上げます。"
+          }
         }
       }
     },
@@ -5293,6 +6217,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "符合視窗大小"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ウインドウに合わせる"
           }
         }
       }
@@ -5328,6 +6258,12 @@
             "state" : "translated",
             "value" : "放大"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "拡大"
+          }
         }
       }
     },
@@ -5361,6 +6297,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "好"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OK"
           }
         }
       }

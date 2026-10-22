@@ -32,6 +32,12 @@
             "state" : "translated",
             "value" : "LectureQ"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "LectureQ"
+          }
         }
       }
     },
@@ -62,6 +68,12 @@
           }
         },
         "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "LectureQ"
+          }
+        },
+        "ja" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "LectureQ"
