@@ -92,6 +92,12 @@
             "state" : "translated",
             "value" : "LectureQ"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "LectureQ"
+          }
         }
       }
     },
@@ -182,6 +188,12 @@
           }
         },
         "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "LectureQ"
+          }
+        },
+        "da" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "LectureQ"

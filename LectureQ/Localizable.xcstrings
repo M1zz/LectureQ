@@ -92,6 +92,12 @@
             "state" : "translated",
             "value" : "\n\n\n—\nVerze aplikace: %@ (%@)\nmacOS: %@"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "\n\n\n—\nAppversion: %@ (%@)\nmacOS: %@"
+          }
         }
       }
     },
@@ -185,6 +191,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zkopírováno: %@"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "„%@“ er kopieret"
           }
         }
       }
@@ -280,6 +292,12 @@
             "state" : "translated",
             "value" : "Krok %lld, %@. %@"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Trin %lld, %@. %@"
+          }
         }
       }
     },
@@ -373,6 +391,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld min"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld min."
           }
         }
       }
@@ -468,6 +492,12 @@
             "state" : "translated",
             "value" : "Kopírovat prompt pro AI"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kopiér AI-prompt"
+          }
         }
       }
     },
@@ -561,6 +591,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Průvodce: hledání odpovědí s AI"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Guide: find svar med AI"
           }
         }
       }
@@ -657,6 +693,12 @@
             "state" : "translated",
             "value" : "Zámek Touch ID"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Touch ID-lås"
+          }
         }
       }
     },
@@ -751,6 +793,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zamkněte aplikaci pomocí Touch ID a udržte své zápisky v soukromí."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lås appen med Touch ID, så dine spørgsmålsnoter forbliver private."
           }
         }
       }
@@ -847,6 +895,12 @@
             "state" : "translated",
             "value" : "Pohodlnější práce s VoiceOverem"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lettere at bruge med VoiceOver"
+          }
         }
       }
     },
@@ -940,6 +994,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "[%@] Dotaz"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "[%@] Henvendelse"
           }
         }
       }
@@ -1035,6 +1095,12 @@
             "state" : "translated",
             "value" : "Stisknutím ⌘⇧N přidáte otázku"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tryk på ⌘⇧N for at tilføje et spørgsmål"
+          }
         }
       }
     },
@@ -1128,6 +1194,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Otevřít průvodce"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Åbn guide"
           }
         }
       }
@@ -1223,6 +1295,12 @@
             "state" : "translated",
             "value" : "Import se nezdařil"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Import mislykkedes"
+          }
         }
       }
     },
@@ -1316,6 +1394,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Importovaná konverzace"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Importeret samtale"
           }
         }
       }
@@ -1411,6 +1495,12 @@
             "state" : "translated",
             "value" : "Zkopíruje do schránky prompt s kontextem vaší přednášky"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kopierer en prompt med din forelæsnings kontekst til udklipsholderen"
+          }
         }
       }
     },
@@ -1504,6 +1594,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vybrat přednášku"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vælg forelæsning"
           }
         }
       }
@@ -1599,6 +1695,12 @@
             "state" : "translated",
             "value" : "Čas v přednášce"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tidspunkt i forelæsningen"
+          }
         }
       }
     },
@@ -1692,6 +1794,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Čas v přednášce (24hodinový, HH:mm)"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tidspunkt i forelæsningen (24 timer, TT:mm)"
           }
         }
       }
@@ -1787,6 +1895,12 @@
             "state" : "translated",
             "value" : "Čas v přednášce (24hodinový, HH:mm). Po vymazání se uloží bez času"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tidspunkt i forelæsningen (24 timer, TT:mm). Hvis du sletter det, gemmes spørgsmålet uden tidspunkt"
+          }
         }
       }
     },
@@ -1880,6 +1994,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Žádná přednáška"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ingen forelæsning"
           }
         }
       }
@@ -1975,6 +2095,12 @@
             "state" : "translated",
             "value" : "Název přednášky"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Forelæsningens navn"
+          }
         }
       }
     },
@@ -2068,6 +2194,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zápisník, který uchová otázky z přednášek, abyste na ně mohli později odpovědět vlastními slovy."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "En notesbog, der gemmer de spørgsmål, du får under en forelæsning, så du senere kan besvare dem med dine egne ord."
           }
         }
       }
@@ -2163,6 +2295,12 @@
             "state" : "translated",
             "value" : "Přidat přednášku"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tilføj forelæsning"
+          }
         }
       }
     },
@@ -2256,6 +2394,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Otázku, která vás napadne při přednášce, zapište co nejjednodušeji. Čas se vyplní aktuální dobou."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skriv det spørgsmål, du kommer i tanke om under forelæsningen, med de simpleste ord. Tidspunktet udfyldes med klokkeslættet nu."
           }
         }
       }
@@ -2351,6 +2495,12 @@
             "state" : "translated",
             "value" : "Vytvořte přednášku"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Opret en forelæsning"
+          }
         }
       }
     },
@@ -2444,6 +2594,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vyberte přednášku"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vælg en forelæsning"
           }
         }
       }
@@ -2540,6 +2696,12 @@
             "state" : "translated",
             "value" : "Ukládejte přednášky a otázky do souboru a později je načtěte zpět."
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gem dine forelæsninger og spørgsmål i en fil, og hent dem frem igen senere."
+          }
         }
       }
     },
@@ -2633,6 +2795,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Napadla vás otázka? Stiskněte ⌘⇧N"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nysgerrig? Tryk på ⌘⇧N"
           }
         }
       }
@@ -2728,6 +2896,12 @@
             "state" : "translated",
             "value" : "Napište, co vás zajímá, co nejjednodušeji…"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skriv, hvad du undrer dig over, med de simpleste ord …"
+          }
         }
       }
     },
@@ -2818,6 +2992,12 @@
           }
         },
         "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Graf"
+          }
+        },
+        "da" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Graf"
@@ -2916,6 +3096,12 @@
             "state" : "translated",
             "value" : "Velikost textu (%lld %%)"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tekststørrelse (%lld %%)"
+          }
         }
       }
     },
@@ -3011,6 +3197,12 @@
             "state" : "translated",
             "value" : "Po zvětšení textu se obrazovky přeskupí, místo aby se oříznuly."
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Når du gør teksten større, ordnes skærmene om i stedet for at blive skåret af."
+          }
         }
       }
     },
@@ -3104,6 +3296,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Délka"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Varighed"
           }
         }
       }
@@ -3199,6 +3397,12 @@
             "state" : "translated",
             "value" : "Výchozí velikost"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Standardstørrelse"
+          }
         }
       }
     },
@@ -3292,6 +3496,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Propojit existující otázku jako doplňující"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Knyt et eksisterende spørgsmål som opfølgende"
           }
         }
       }
@@ -3387,6 +3597,12 @@
             "state" : "translated",
             "value" : "Doplňující otázky"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Opfølgende spørgsmål"
+          }
         }
       }
     },
@@ -3480,6 +3696,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vytěžit doplňující otázky"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Udled opfølgende spørgsmål"
           }
         }
       }
@@ -3575,6 +3797,12 @@
             "state" : "translated",
             "value" : "Později odpověď shrňte vlastními slovy a kliknutím na ? před otázkou ji označte jako vyřešenou. To, co jste se naučili, se shromáždí v Souhrnu v nabídce Zobrazení."
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Senere kan du formulere svaret med dine egne ord og klikke på ? foran spørgsmålet for at markere det som løst. Det, du har lært, samles i Oversigt i menuen Vis."
+          }
         }
       }
     },
@@ -3668,6 +3896,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nechat ohodnotit mou odpověď"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Få mit svar bedømt"
           }
         }
       }
@@ -3764,6 +3998,12 @@
             "state" : "translated",
             "value" : "Smazat všechna moje data najednou"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Slet alle mine data på én gang"
+          }
         }
       }
     },
@@ -3857,6 +4097,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Napište to vlastními slovy"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skriv det med dine egne ord"
           }
         }
       }
@@ -3952,6 +4198,12 @@
             "state" : "translated",
             "value" : "Označí otázku jako nevyřešenou"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Markerer spørgsmålet som uløst"
+          }
         }
       }
     },
@@ -4046,6 +4298,12 @@
             "state" : "translated",
             "value" : "Přejde na tuto otázku"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Går til dette spørgsmål"
+          }
         }
       }
     },
@@ -4139,6 +4397,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Označí otázku jako vyřešenou"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Markerer spørgsmålet som løst"
           }
         }
       }
@@ -4235,6 +4499,12 @@
             "state" : "translated",
             "value" : "Pokračujte se stejnými přednáškami a otázkami na kterémkoli ze svých Maců."
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fortsæt med de samme forelæsninger og spørgsmål på alle dine Mac-computere."
+          }
         }
       }
     },
@@ -4328,6 +4598,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vrátit"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tag med igen"
           }
         }
       }
@@ -4423,6 +4699,12 @@
             "state" : "translated",
             "value" : "Vrátit do „Co jsem se naučil(a)“"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tag med i „Det jeg har lært“ igen"
+          }
         }
       }
     },
@@ -4516,6 +4798,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zavřít"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Luk"
           }
         }
       }
@@ -4611,6 +4899,12 @@
             "state" : "translated",
             "value" : "Odpověď"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Svar"
+          }
         }
       }
     },
@@ -4704,6 +4998,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zpochybnit odpověď"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Udfordr svaret"
           }
         }
       }
@@ -4799,6 +5099,12 @@
             "state" : "translated",
             "value" : "Poznámka k odpovědi je prázdná"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Svarnoten er tom"
+          }
         }
       }
     },
@@ -4892,6 +5198,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bez odpovědi"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Intet svar"
           }
         }
       }
@@ -4987,6 +5299,12 @@
             "state" : "translated",
             "value" : "Najít odpověď"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Find svaret"
+          }
         }
       }
     },
@@ -5080,6 +5398,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Napište odpověď a označte otázku jako vyřešenou"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skriv svaret, og markér det som løst"
           }
         }
       }
@@ -5176,6 +5500,12 @@
             "state" : "translated",
             "value" : "Vše zůstane čitelné, i když zapnete vyšší kontrast nebo hůř rozlišujete barvy."
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alt kan stadig læses, også med øget kontrast, eller hvis farver er svære at skelne."
+          }
         }
       }
     },
@@ -5270,6 +5600,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Používejte aplikaci ve více jazycích."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Brug appen på flere sprog."
           }
         }
       }
@@ -5366,6 +5702,12 @@
             "state" : "translated",
             "value" : "Více jazyků"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Flere sprog"
+          }
         }
       }
     },
@@ -5459,6 +5801,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Otázky k položení"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Spørgsmål at stille"
           }
         }
       }
@@ -5555,6 +5903,12 @@
             "state" : "translated",
             "value" : "Widgety na ploše"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Widgets på skrivebordet"
+          }
         }
       }
     },
@@ -5648,6 +6002,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Rozhlédnout se"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Se dig omkring"
           }
         }
       }
@@ -5743,6 +6103,12 @@
             "state" : "translated",
             "value" : "Importovat z Markdownu…"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Importér fra Markdown …"
+          }
         }
       }
     },
@@ -5836,6 +6202,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nejdřív do pole odpovědi napište vlastními slovy řádek nebo dva"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skriv først en linje eller to med dine egne ord i svarfeltet"
           }
         }
       }
@@ -5931,6 +6303,12 @@
             "state" : "translated",
             "value" : "Poznámky"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Noter"
+          }
         }
       }
     },
@@ -6024,6 +6402,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Napsat e-mail"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skriv en e-mail"
           }
         }
       }
@@ -6119,6 +6503,12 @@
             "state" : "translated",
             "value" : "Vše je vyřešeno"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alt er løst"
+          }
         }
       }
     },
@@ -6212,6 +6602,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Když nám píšete, uveďte verzi macOS a co jste dělali, když nastal problém. Pomůže nám to rychleji ho prověřit."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Når du skriver til os, så oplys din macOS-version og hvad du lavede, da problemet opstod – så kan vi hurtigere undersøge det."
           }
         }
       }
@@ -6307,6 +6703,12 @@
             "state" : "translated",
             "value" : "Nevyřešeno"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uløst"
+          }
         }
       }
     },
@@ -6400,6 +6802,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nevyřešeno — kliknutím změníte na vyřešeno"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uløst – klik for at markere som løst"
           }
         }
       }
@@ -6495,6 +6903,12 @@
             "state" : "translated",
             "value" : "Zobrazit jen nevyřešené otázky"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vis kun uløste spørgsmål"
+          }
         }
       }
     },
@@ -6588,6 +7002,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Žádné nevyřešené otázky"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ingen uløste spørgsmål"
           }
         }
       }
@@ -6683,6 +7103,12 @@
             "state" : "translated",
             "value" : "Jen nevyřešené"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kun uløste"
+          }
         }
       }
     },
@@ -6776,6 +7202,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Co se chci naučit"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hvad jeg vil lære"
           }
         }
       }
@@ -6871,6 +7303,12 @@
             "state" : "translated",
             "value" : "Co jsem se naučil(a)"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Det jeg har lært"
+          }
         }
       }
     },
@@ -6965,6 +7403,12 @@
             "state" : "translated",
             "value" : "Zahrnout do „Co jsem se naučil(a)“"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tag med i „Det jeg har lært“"
+          }
         }
       }
     },
@@ -7058,6 +7502,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vyřadit z „Co jsem se naučil(a)“ (odpověď zůstane)"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Udelad fra „Det jeg har lært“ (svaret bevares)"
           }
         }
       }
@@ -7154,6 +7604,12 @@
             "state" : "translated",
             "value" : "Záloha a export"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Backup og eksport"
+          }
         }
       }
     },
@@ -7248,6 +7704,12 @@
             "state" : "translated",
             "value" : "Zobrazení"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vis"
+          }
         }
       }
     },
@@ -7341,6 +7803,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "V nabídce Zobrazení najdete v Souhrnu (⌘1), na co se ještě zeptat a co jste se naučili, a v Grafu (⌘2), jak spolu vaše otázky souvisejí."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "I menuen Vis viser Oversigt (⌘1), hvad du endnu skal spørge om, og hvad du har lært, mens Graf (⌘2) viser, hvordan dine spørgsmål hænger sammen."
           }
         }
       }
@@ -7437,6 +7905,12 @@
             "state" : "translated",
             "value" : "Příjemnější barvy a kontrast"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mere behagelige farver og kontrast"
+          }
         }
       }
     },
@@ -7530,6 +8004,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Poznámky k bloku"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Blokkens noter"
           }
         }
       }
@@ -7625,6 +8105,12 @@
             "state" : "translated",
             "value" : "Smazat blok"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Slet blok"
+          }
         }
       }
     },
@@ -7718,6 +8204,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Barva bloku"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Blokkens farve"
           }
         }
       }
@@ -7813,6 +8305,12 @@
             "state" : "translated",
             "value" : "Nastavení bloku"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Blokindstillinger"
+          }
         }
       }
     },
@@ -7906,6 +8404,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Čas začátku bloku"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Blokkens starttidspunkt"
           }
         }
       }
@@ -8001,6 +8505,12 @@
             "state" : "translated",
             "value" : "Přidat blok"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tilføj blok"
+          }
         }
       }
     },
@@ -8094,6 +8604,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Žádné bloky"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ingen blokke"
           }
         }
       }
@@ -8189,6 +8705,12 @@
             "state" : "translated",
             "value" : "Smazat"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Slet"
+          }
         }
       }
     },
@@ -8282,6 +8804,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nová přednáška"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ny forelæsning"
           }
         }
       }
@@ -8377,6 +8905,12 @@
             "state" : "translated",
             "value" : "Nová doplňující otázka — přidáte stisknutím Return"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nyt opfølgende spørgsmål – tryk på Retur for at tilføje"
+          }
         }
       }
     },
@@ -8470,6 +9004,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Barva"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Farve"
           }
         }
       }
@@ -8565,6 +9105,12 @@
             "state" : "translated",
             "value" : "Nastavení"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Indstillinger"
+          }
         }
       }
     },
@@ -8659,6 +9205,12 @@
             "state" : "translated",
             "value" : "Začátek"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Start"
+          }
         }
       }
     },
@@ -8752,6 +9304,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Čas"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tidspunkt"
           }
         }
       }
@@ -8848,6 +9406,12 @@
             "state" : "translated",
             "value" : "Včas vás upozorníme na otázky, na které jste ještě nenašli odpověď."
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Få en påmindelse i rette tid om spørgsmål, du endnu ikke har fundet svar på."
+          }
         }
       }
     },
@@ -8942,6 +9506,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Připomenutí"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Påmindelser"
           }
         }
       }
@@ -9038,6 +9608,12 @@
             "state" : "translated",
             "value" : "Zbývající otázky uvidíte přímo na ploše, aniž byste museli otevřít aplikaci."
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Se dine åbne spørgsmål direkte på skrivebordet uden at åbne appen."
+          }
         }
       }
     },
@@ -9132,6 +9708,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Celou aplikaci můžete používat i v angličtině."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Brug hele appen på engelsk."
           }
         }
       }
@@ -9228,6 +9810,12 @@
             "state" : "translated",
             "value" : "Při prvním otevření po aktualizaci se dozvíte, co je nového."
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Første gang du åbner appen efter en opdatering, kan du se, hvad der er nyt."
+          }
         }
       }
     },
@@ -9322,6 +9910,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Novinky"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nyheder"
           }
         }
       }
@@ -9418,6 +10012,12 @@
             "state" : "translated",
             "value" : "Synchronizace mezi Macy"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Synkronisering mellem dine Mac-computere"
+          }
         }
       }
     },
@@ -9512,6 +10112,12 @@
             "state" : "translated",
             "value" : "Zrušit propojení (otázka se nesmaže)"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fjern tilknytning (spørgsmålet slettes ikke)"
+          }
         }
       }
     },
@@ -9602,6 +10208,12 @@
           }
         },
         "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kontakt"
+          }
+        },
+        "da" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kontakt"
@@ -9701,6 +10313,12 @@
             "state" : "translated",
             "value" : "Plná podpora angličtiny"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fuld understøttelse af engelsk"
+          }
         }
       }
     },
@@ -9794,6 +10412,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Souhrn"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Oversigt"
           }
         }
       }
@@ -9889,6 +10513,12 @@
             "state" : "translated",
             "value" : "Souhrn, graf, časové bloky, stav učení, velikost textu"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Oversigt, graf, tidsblokke, læringsstatus, tekststørrelse"
+          }
         }
       }
     },
@@ -9982,6 +10612,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vyberte, zda se otázka objeví v seznamu „Co jsem se naučil(a)“ v souhrnu"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vælg, om spørgsmålet skal stå under „Det jeg har lært“ i oversigten"
           }
         }
       }
@@ -10078,6 +10714,12 @@
             "state" : "translated",
             "value" : "Omezit pohyb"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reducer bevægelse"
+          }
         }
       }
     },
@@ -10173,6 +10815,12 @@
             "state" : "translated",
             "value" : "Když zapnete Omezit pohyb, efekty na obrazovce budou klidnější."
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Når Reducer bevægelse er slået til, bliver effekterne på skærmen mere rolige."
+          }
         }
       }
     },
@@ -10266,6 +10914,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Původní otázka"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Oprindeligt spørgsmål"
           }
         }
       }
@@ -10362,6 +11016,12 @@
             "state" : "translated",
             "value" : "Když budete chtít, můžete v aplikaci smazat všechny přednášky a otázky."
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hvis du vil, kan du slette alle forelæsninger og spørgsmål i selve appen."
+          }
         }
       }
     },
@@ -10455,6 +11115,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Co chci umět, až tuto přednášku pochopím…"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hvad jeg gerne vil kunne, når jeg har forstået denne forelæsning …"
           }
         }
       }
@@ -10550,6 +11216,12 @@
             "state" : "translated",
             "value" : "Co vím před touto přednáškou nebo zatím a kde se zasekávám…"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hvad jeg ved før denne forelæsning eller indtil nu, og hvor jeg går i stå …"
+          }
         }
       }
     },
@@ -10643,6 +11315,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Co chci z této přednášky určitě získat, témata, která mě zajímají…"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hvad jeg helst vil have ud af denne forelæsning, emner jeg er nysgerrig på …"
           }
         }
       }
@@ -10738,6 +11416,12 @@
             "state" : "translated",
             "value" : "Smazat tento blok? Smažou se i jeho poznámky."
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vil du slette denne blok? Dens noter slettes også."
+          }
         }
       }
     },
@@ -10831,6 +11515,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Změnit barvu, čas začátku a délku tohoto bloku, nebo ho smazat"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skift farve, starttidspunkt og varighed for denne blok, eller slet den"
           }
         }
       }
@@ -10926,6 +11616,12 @@
             "state" : "translated",
             "value" : "Zapište, co jste se v tomto čase naučili a co si chcete zapamatovat…"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skriv, hvad du har lært i dette tidsrum, og hvad du vil huske …"
+          }
         }
       }
     },
@@ -11019,6 +11715,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Přejít na tuto otázku"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gå til dette spørgsmål"
           }
         }
       }
@@ -11114,6 +11816,12 @@
             "state" : "translated",
             "value" : "Napište odpověď na tuto otázku vlastními slovy"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skriv svaret på dette spørgsmål med dine egne ord"
+          }
         }
       }
     },
@@ -11207,6 +11915,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Novinky na Instagramu"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Følg med på Instagram"
           }
         }
       }
@@ -11302,6 +12016,12 @@
             "state" : "translated",
             "value" : "Menší"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mindre"
+          }
         }
       }
     },
@@ -11395,6 +12115,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vytvořeno: %@"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Oprettet %@"
           }
         }
       }
@@ -11490,6 +12216,12 @@
             "state" : "translated",
             "value" : "Uložit"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gem"
+          }
         }
       }
     },
@@ -11583,6 +12315,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Uložit a pokračovat"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gem og fortsæt"
           }
         }
       }
@@ -11678,6 +12416,12 @@
             "state" : "translated",
             "value" : "Vyřadit"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Udelad"
+          }
         }
       }
     },
@@ -11771,6 +12515,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vyřazené odpovědi"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Udeladte svar"
           }
         }
       }
@@ -11866,6 +12616,12 @@
             "state" : "translated",
             "value" : "Teď"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nu"
+          }
         }
       }
     },
@@ -11959,6 +12715,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kde teď jsem"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hvor jeg er nu"
           }
         }
       }
@@ -12054,6 +12816,12 @@
             "state" : "translated",
             "value" : "Podpora"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Support"
+          }
         }
       }
     },
@@ -12147,6 +12915,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Otázka"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Spørgsmål"
           }
         }
       }
@@ -12242,6 +13016,12 @@
             "state" : "translated",
             "value" : "Otázky %lld · K položení %lld · Naučeno %lld · Doplňující otázky %lld"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Spørgsmål %lld · At spørge om %lld · Lært %lld · Opfølgende %lld"
+          }
         }
       }
     },
@@ -12335,6 +13115,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Otevře Zápisník otázek a zobrazí okno pro zapsání otázky k právě prohlížené přednášce."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Åbner Spørgsmålsnoter og viser et vindue, hvor du kan skrive et spørgsmål til den forelæsning, du ser på."
           }
         }
       }
@@ -12430,6 +13216,12 @@
             "state" : "translated",
             "value" : "Vítejte v Zápisníku otázek"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Velkommen til Spørgsmålsnoter"
+          }
         }
       }
     },
@@ -12523,6 +13315,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vylepšit otázku"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Finpuds spørgsmålet"
           }
         }
       }
@@ -12618,6 +13416,12 @@
             "state" : "translated",
             "value" : "Přidat otázku"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tilføj spørgsmål"
+          }
         }
       }
     },
@@ -12711,6 +13515,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Přidat otázku (⌘⇧N)"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tilføj spørgsmål (⌘⇧N)"
           }
         }
       }
@@ -12806,6 +13616,12 @@
             "state" : "translated",
             "value" : "Vyberte otázku"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vælg et spørgsmål"
+          }
         }
       }
     },
@@ -12899,6 +13715,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Otázky, které označíte jako vyřešené, se objeví tady"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Spørgsmål, du markerer som løst, samles her"
           }
         }
       }
@@ -12994,6 +13816,12 @@
             "state" : "translated",
             "value" : "Otázek přibývá, podívejte se zpět"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nu er der samlet spørgsmål – kast et blik tilbage"
+          }
         }
       }
     },
@@ -13087,6 +13915,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vytvořit první přednášku"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Opret første forelæsning"
           }
         }
       }
@@ -13182,6 +14016,12 @@
             "state" : "translated",
             "value" : "Oddálit"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zoom ud"
+          }
         }
       }
     },
@@ -13276,6 +14116,12 @@
             "state" : "translated",
             "value" : "Zrušit"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Annullér"
+          }
         }
       }
     },
@@ -13369,6 +14215,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Větší"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Større"
           }
         }
       }
@@ -13465,6 +14317,12 @@
             "state" : "translated",
             "value" : "Obrazovky pro velký text"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skærme til stor tekst"
+          }
         }
       }
     },
@@ -13558,6 +14416,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Časové bloky"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tidsblokke"
           }
         }
       }
@@ -13653,6 +14517,12 @@
             "state" : "translated",
             "value" : "Novou přednášku přidáte v nabídce přednášek vlevo na panelu nástrojů, nebo importujte soubor Markdown s konverzací."
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tilføj en ny forelæsning i forelæsningsmenuen til venstre i værktøjslinjen, eller importér en Markdown-fil med en samtale."
+          }
         }
       }
     },
@@ -13746,6 +14616,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Stav učení"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Læringsstatus"
           }
         }
       }
@@ -13841,6 +14717,12 @@
             "state" : "translated",
             "value" : "Kde chci být na konci"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hvor jeg vil være til sidst"
+          }
         }
       }
     },
@@ -13934,6 +14816,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vyřešeno"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Løst"
           }
         }
       }
@@ -14029,6 +14917,12 @@
             "state" : "translated",
             "value" : "Stav vyřešení"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Løsningsstatus"
+          }
         }
       }
     },
@@ -14122,6 +15016,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vyřešeno"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Løst"
           }
         }
       }
@@ -14217,6 +15117,12 @@
             "state" : "translated",
             "value" : "Vyřešeno — kliknutím změníte na nevyřešeno"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Løst – klik for at markere som uløst"
+          }
         }
       }
     },
@@ -14311,6 +15217,12 @@
             "state" : "translated",
             "value" : "Zrušit propojení"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fjern tilknytning"
+          }
         }
       }
     },
@@ -14404,6 +15316,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Smazat aktuální přednášku"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Slet nuværende forelæsning"
           }
         }
       }
@@ -14500,6 +15418,12 @@
             "state" : "translated",
             "value" : "VoiceOver přečte všechna tlačítka a poznámky ve správném pořadí."
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "VoiceOver læser alle knapper og noter op i den rigtige rækkefølge."
+          }
         }
       }
     },
@@ -14593,6 +15517,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Přizpůsobit oknu"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tilpas til vindue"
           }
         }
       }
@@ -14688,6 +15618,12 @@
             "state" : "translated",
             "value" : "Přiblížit"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zoom ind"
+          }
         }
       }
     },
@@ -14778,6 +15714,12 @@
           }
         },
         "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OK"
+          }
+        },
+        "da" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "OK"

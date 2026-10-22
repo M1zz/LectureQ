@@ -94,3 +94,9 @@ Làm mới trang hỗ trợ, quyền riêng tư
 Datum a čas ve formátu vašeho jazyka
 Nové texty a snímky v App Storu
 Nové stránky podpory a soukromí
+
+### 앱스토어 (da)
+
+Dato og tid i dit sprogs format
+Nye tekster og skærmbilleder i App Store
+Nye sider om support og privatliv

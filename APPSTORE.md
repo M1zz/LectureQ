@@ -992,3 +992,69 @@ https://m1zz.github.io/LectureQ/privacy.html
 ### 마케팅 URL
 
 https://m1zz.github.io/LectureQ/
+
+## da
+
+### 이름
+
+LectureQ: Spørgsmålsnoter
+
+### 부제
+
+Gør tvivl til viden
+
+### 키워드
+
+studie,eksamen,gentagelse,seminar,universitet,kursus,tidslinje,prompt,opgave,webinar,speciale
+
+### 프로모션 텍스트
+
+Fang tvivlen midt i forelæsningen med én genvej. Den lander ved siden af dine noter fra øjeblikket, og opfølgende spørgsmål og AI-prompts hjælper dig fra svar til læring.
+
+### 설명
+
+En studienotesbog til Mac, der sørger for, at de spørgsmål, du får under en forelæsning, ikke forsvinder.
+Skriv spørgsmålet med simple ord, gem det ved siden af dine noter fra øjeblikket, og find senere svaret og formulér det med dine egne ord – så bliver det til noget, du har lært.
+
+Hurtigt spørgsmål
+Åbn indtastningsvinduet med knappen Tilføj spørgsmål i værktøjslinjen eller med Command Shift N. Tidspunktet udfyldes automatisk med klokkeslættet nu. Retur gemmer spørgsmålet, og Command Retur gemmer det og lader dig straks skrive det næste.
+
+Spørgsmålsliste
+Opfølgende spørgsmål står indrykket under det oprindelige spørgsmål. Uløste og løste spørgsmål adskilles med farve, og du kan nøjes med at se de uløste.
+
+Noter i tidsblokke
+Del en forelæsning op i flere tidsblokke, og skriv noter til hver enkelt. Spørgsmål vises ved siden af den blok, de hører til, og et klik fører dig direkte til dem. Stiller du et spørgsmål på et tidspunkt uden for blokkene, tilføjes en blok automatisk.
+
+Spørgsmålsdetaljer
+Hold styr på, om det er løst, om det tæller med i det, du har lært, tidspunktet, dit eget svar samt det oprindelige og de opfølgende spørgsmål – alt samlet ét sted.
+
+Find svar med AI
+Fem prompttrin – finpuds spørgsmålet, find svaret, udfordr svaret, udled opfølgende spørgsmål og få dit eget svar bedømt – kopieres til udklipsholderen med forelæsningens navn og noten fra øjeblikket udfyldt. Du skal bare sætte dem ind i den AI-tjeneste, du allerede bruger. Appen sender ikke selv noget ud.
+
+Overblik med ét blik
+Forelæsningens oversigt samler kun de spørgsmål, der mangler at blive stillet, det du har lært og dine noter, så du kan læse den som et repetitionsark. Grafen viser, hvordan dine tanker har forgrenet sig fra de oprindelige spørgsmål til de opfølgende, og tidsblok-oversigten lader dig gennemgå i rækkefølge, hvad du lærte hvornår.
+
+Læringsstatus
+Skriv, hvor du står før forelæsningen, hvor du vil være bagefter, og hvad du vil lære, og sammenlign.
+
+Importér samtaler i Markdown
+Importér Markdown med titel, afsnit og indlæg pr. taler, og appen deler det op i forelæsning, spørgsmål og svar.
+
+Tekststørrelsen kan ændres med Command plus og Command minus.
+
+Privatliv
+Der er ingen konti, og alle optegnelser gemmes kun på denne Mac.
+
+Kræver macOS 14 eller nyere.
+
+### 지원 URL
+
+https://m1zz.github.io/LectureQ/support.html
+
+### 개인정보처리방침 URL
+
+https://m1zz.github.io/LectureQ/privacy.html
+
+### 마케팅 URL
+
+https://m1zz.github.io/LectureQ/
