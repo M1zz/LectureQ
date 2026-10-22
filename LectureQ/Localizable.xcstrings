@@ -20,6 +20,12 @@
             "state" : "translated",
             "value" : "\n\n\n—\nApp version: %@ (%@)\nmacOS: %@"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "\n\n\n—\n应用版本：%@ (%@)\nmacOS：%@"
+          }
         }
       }
     },
@@ -41,6 +47,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@ copied"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "已复制“%@”"
           }
         }
       }
@@ -64,6 +76,12 @@
             "state" : "translated",
             "value" : "Step %lld, %@. %@"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "第 %lld 步，%@。%@"
+          }
         }
       }
     },
@@ -85,6 +103,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld min"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld 分钟"
           }
         }
       }
@@ -108,6 +132,12 @@
             "state" : "translated",
             "value" : "Copy AI Prompt"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "复制 AI 提示词"
+          }
         }
       }
     },
@@ -129,6 +159,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Guide: Find Answers with AI"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "指南：用 AI 找答案"
           }
         }
       }
@@ -153,6 +189,12 @@
             "state" : "translated",
             "value" : "Touch ID lock"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "锁定 Touch ID"
+          }
         }
       }
     },
@@ -175,6 +217,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Lock the app with Touch ID to keep your notes private."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "用 Touch ID 锁定应用，保护你的提问笔记。"
           }
         }
       }
@@ -199,6 +247,12 @@
             "state" : "translated",
             "value" : "Better VoiceOver support"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "更顺手的旁白支持"
+          }
         }
       }
     },
@@ -220,6 +274,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "[%@] Inquiry"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "[%@] 咨询"
           }
         }
       }
@@ -243,6 +303,12 @@
             "state" : "translated",
             "value" : "Press ⌘⇧N to add a question"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "按 ⌘⇧N 添加问题"
+          }
         }
       }
     },
@@ -264,6 +330,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Open Guide"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "打开指南"
           }
         }
       }
@@ -287,6 +359,12 @@
             "state" : "translated",
             "value" : "Import Failed"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "导入失败"
+          }
         }
       }
     },
@@ -308,6 +386,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Imported Conversation"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "导入的对话"
           }
         }
       }
@@ -331,6 +415,12 @@
             "state" : "translated",
             "value" : "Copies a prompt filled with your lecture context to the clipboard"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "将带有课程背景的提示词复制到剪贴板"
+          }
         }
       }
     },
@@ -352,6 +442,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Select Lecture"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "选择课程"
           }
         }
       }
@@ -375,6 +471,12 @@
             "state" : "translated",
             "value" : "Time in lecture"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "课程时间点"
+          }
         }
       }
     },
@@ -396,6 +498,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Time in lecture (24-hour HH:mm)"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "课程时间点（24 小时制 HH:mm）"
           }
         }
       }
@@ -419,6 +527,12 @@
             "state" : "translated",
             "value" : "Time in lecture (24-hour HH:mm). Clear it to save without a time"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "课程时间点（24 小时制 HH:mm）。清空后将不带时间点保存"
+          }
         }
       }
     },
@@ -440,6 +554,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "No lecture"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "没有课程"
           }
         }
       }
@@ -463,6 +583,12 @@
             "state" : "translated",
             "value" : "Lecture name"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "课程名称"
+          }
         }
       }
     },
@@ -484,6 +610,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "A notebook that keeps the questions you have during a lecture, so you can answer them later in your own words."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "听课时冒出的问题不再溜走，之后再用自己的话作答的笔记。"
           }
         }
       }
@@ -507,6 +639,12 @@
             "state" : "translated",
             "value" : "Add Lecture"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "添加课程"
+          }
         }
       }
     },
@@ -528,6 +666,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Jot down a question that comes up during a lecture in the simplest words. The time fills in with the current time."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "听课时冒出的疑问，用最简单的话记下来。时间会自动填入当前时刻。"
           }
         }
       }
@@ -551,6 +695,12 @@
             "state" : "translated",
             "value" : "Create a lecture"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "创建一门课程"
+          }
         }
       }
     },
@@ -572,6 +722,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Select a lecture"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "请选择一门课程"
           }
         }
       }
@@ -596,6 +752,12 @@
             "state" : "translated",
             "value" : "Save your lectures and questions to a file and bring them back later."
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "把课程和问题保存为文件，之后可以再导入。"
+          }
         }
       }
     },
@@ -617,6 +779,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Curious? Press ⌘⇧N"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "有疑问，按 ⌘⇧N"
           }
         }
       }
@@ -640,6 +808,12 @@
             "state" : "translated",
             "value" : "Write what you're wondering in the simplest words…"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "用最简单的话写下你的疑问…"
+          }
         }
       }
     },
@@ -662,6 +836,12 @@
             "state" : "translated",
             "value" : "Graph"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "关系图"
+          }
         }
       }
     },
@@ -683,6 +863,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Text Size (%lld%%)"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "文字大小 (%lld%%)"
           }
         }
       }
@@ -707,6 +893,12 @@
             "state" : "translated",
             "value" : "Screens rearrange neatly instead of getting cut off when you enlarge text."
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "放大文字后，界面会重新排版而不是被截断。"
+          }
         }
       }
     },
@@ -728,6 +920,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Duration"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "时长"
           }
         }
       }
@@ -751,6 +949,12 @@
             "state" : "translated",
             "value" : "Default Size"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "默认大小"
+          }
         }
       }
     },
@@ -772,6 +976,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Link an Existing Question as a Follow-up"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "将已有问题关联为追问"
           }
         }
       }
@@ -795,6 +1005,12 @@
             "state" : "translated",
             "value" : "Follow-up questions"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "追问"
+          }
         }
       }
     },
@@ -816,6 +1032,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Draw Out Follow-ups"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "提取追问"
           }
         }
       }
@@ -839,6 +1061,12 @@
             "state" : "translated",
             "value" : "Later, write the answer in your own words and click the ? before the question to mark it resolved. What you learnt gathers in Summary in the View menu."
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "之后用自己的话整理答案，点按问题前的“?”标记为已解决。学到的内容会汇总在“显示”菜单的摘要里。"
+          }
         }
       }
     },
@@ -860,6 +1088,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Get My Answer Graded"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "给我的答案打分"
           }
         }
       }
@@ -884,6 +1118,12 @@
             "state" : "translated",
             "value" : "Delete all your data"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "一键清除我的数据"
+          }
         }
       }
     },
@@ -905,6 +1145,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Write it in your own words"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "用自己的话整理后写下来"
           }
         }
       }
@@ -928,6 +1174,12 @@
             "state" : "translated",
             "value" : "Marks the question as unresolved"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "将该问题标记为未解决"
+          }
         }
       }
     },
@@ -950,6 +1202,12 @@
             "state" : "translated",
             "value" : "Goes to this question"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "点按即可前往此问题"
+          }
         }
       }
     },
@@ -971,6 +1229,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Marks the question as resolved"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "将该问题标记为已解决"
           }
         }
       }
@@ -995,6 +1259,12 @@
             "state" : "translated",
             "value" : "Pick up the same lectures and questions on any of your Macs."
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "在其他 Mac 上继续使用同样的课程和问题。"
+          }
         }
       }
     },
@@ -1016,6 +1286,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Add Back"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "重新加入"
           }
         }
       }
@@ -1039,6 +1315,12 @@
             "state" : "translated",
             "value" : "Add back to What I Learnt"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "重新加入“学到的内容”"
+          }
         }
       }
     },
@@ -1060,6 +1342,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Close"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "关闭"
           }
         }
       }
@@ -1083,6 +1371,12 @@
             "state" : "translated",
             "value" : "Answer"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "答案"
+          }
         }
       }
     },
@@ -1104,6 +1398,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Question the Answer"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "反问答案"
           }
         }
       }
@@ -1127,6 +1427,12 @@
             "state" : "translated",
             "value" : "The answer note is empty"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "答案备注是空的"
+          }
         }
       }
     },
@@ -1148,6 +1454,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "No answer"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "暂无答案"
           }
         }
       }
@@ -1171,6 +1483,12 @@
             "state" : "translated",
             "value" : "Find the Answer"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "寻找答案"
+          }
         }
       }
     },
@@ -1192,6 +1510,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Write the answer and resolve it"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "写下答案，标记为已解决"
           }
         }
       }
@@ -1216,6 +1540,12 @@
             "state" : "translated",
             "value" : "Everything stays readable, even with Increase Contrast on or if colours are hard to tell apart."
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "即使开启增强对比度或难以分辨颜色，内容依然清晰可辨。"
+          }
         }
       }
     },
@@ -1238,6 +1568,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Use the app in more languages."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "让应用支持更多语言。"
           }
         }
       }
@@ -1262,6 +1598,12 @@
             "state" : "translated",
             "value" : "More languages"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "更多语言"
+          }
         }
       }
     },
@@ -1283,6 +1625,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Questions to Ask"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "待提的问题"
           }
         }
       }
@@ -1307,6 +1655,12 @@
             "state" : "translated",
             "value" : "Desktop widgets"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "桌面小组件"
+          }
         }
       }
     },
@@ -1328,6 +1682,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Look Around"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "先看看"
           }
         }
       }
@@ -1351,6 +1711,12 @@
             "state" : "translated",
             "value" : "Import from Markdown…"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "从 Markdown 导入…"
+          }
         }
       }
     },
@@ -1372,6 +1738,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "First write a line or two in your own words in the answer box"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "请先在答案栏里用自己的话写一两行"
           }
         }
       }
@@ -1395,6 +1767,12 @@
             "state" : "translated",
             "value" : "Notes"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "备注"
+          }
         }
       }
     },
@@ -1416,6 +1794,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Contact by Email"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "通过邮件联系"
           }
         }
       }
@@ -1439,6 +1823,12 @@
             "state" : "translated",
             "value" : "All resolved"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "全部解决了"
+          }
         }
       }
     },
@@ -1460,6 +1850,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "When you write to us, please include your macOS version and what you were doing when the problem happened, so we can look into it quickly."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "来信时，请附上 macOS 版本以及出问题时的操作，我们能更快查明原因。"
           }
         }
       }
@@ -1483,6 +1879,12 @@
             "state" : "translated",
             "value" : "Unresolved"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "未解决"
+          }
         }
       }
     },
@@ -1504,6 +1906,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Unresolved — click to mark resolved"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "未解决 — 点按改为已解决"
           }
         }
       }
@@ -1527,6 +1935,12 @@
             "state" : "translated",
             "value" : "Show only unresolved questions"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "只显示未解决的问题"
+          }
         }
       }
     },
@@ -1548,6 +1962,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "No unresolved questions"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "没有未解决的问题"
           }
         }
       }
@@ -1571,6 +1991,12 @@
             "state" : "translated",
             "value" : "Unresolved Only"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "仅看未解决"
+          }
         }
       }
     },
@@ -1592,6 +2018,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "What I Want to Learn"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "我想学的内容"
           }
         }
       }
@@ -1615,6 +2047,12 @@
             "state" : "translated",
             "value" : "What I Learnt"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "学到的内容"
+          }
         }
       }
     },
@@ -1637,6 +2075,12 @@
             "state" : "translated",
             "value" : "Include in What I Learnt"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "计入“学到的内容”"
+          }
         }
       }
     },
@@ -1658,6 +2102,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Exclude from What I Learnt (the answer stays)"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "从“学到的内容”中排除（答案会保留）"
           }
         }
       }
@@ -1682,6 +2132,12 @@
             "state" : "translated",
             "value" : "Backup and export"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "备份与导出"
+          }
         }
       }
     },
@@ -1704,6 +2160,12 @@
             "state" : "translated",
             "value" : "View"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "显示"
+          }
         }
       }
     },
@@ -1725,6 +2187,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "In the View menu, Summary (⌘1) shows what to ask and what you learnt, and Graph (⌘2) shows how your questions connect."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "在“显示”菜单中，“摘要”(⌘1) 汇总待提的问题和学到的内容，“关系图”(⌘2) 呈现问题之间的联系。"
           }
         }
       }
@@ -1749,6 +2217,12 @@
             "state" : "translated",
             "value" : "Easier colours and contrast"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "更舒适的颜色与对比度"
+          }
         }
       }
     },
@@ -1770,6 +2244,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Block notes"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "时间块备注"
           }
         }
       }
@@ -1793,6 +2273,12 @@
             "state" : "translated",
             "value" : "Delete Block"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "删除时间块"
+          }
         }
       }
     },
@@ -1814,6 +2300,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Block colour"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "时间块颜色"
           }
         }
       }
@@ -1837,6 +2329,12 @@
             "state" : "translated",
             "value" : "Block Settings"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "时间块设置"
+          }
         }
       }
     },
@@ -1858,6 +2356,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Block start time"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "时间块开始时间"
           }
         }
       }
@@ -1881,6 +2385,12 @@
             "state" : "translated",
             "value" : "Add Block"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "添加时间块"
+          }
         }
       }
     },
@@ -1902,6 +2412,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "No blocks"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "没有时间块"
           }
         }
       }
@@ -1925,6 +2441,12 @@
             "state" : "translated",
             "value" : "Delete"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "删除"
+          }
         }
       }
     },
@@ -1946,6 +2468,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "New Lecture"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "新课程"
           }
         }
       }
@@ -1969,6 +2497,12 @@
             "state" : "translated",
             "value" : "New follow-up question — press Return to add"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "新的追问 — 按 Return 添加"
+          }
         }
       }
     },
@@ -1990,6 +2524,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Colour"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "颜色"
           }
         }
       }
@@ -2013,6 +2553,12 @@
             "state" : "translated",
             "value" : "Settings"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "设置"
+          }
         }
       }
     },
@@ -2035,6 +2581,12 @@
             "state" : "translated",
             "value" : "Start"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "开始"
+          }
         }
       }
     },
@@ -2056,6 +2608,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Time"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "时间点"
           }
         }
       }
@@ -2080,6 +2638,12 @@
             "state" : "translated",
             "value" : "Get a timely nudge about questions you haven’t answered yet."
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "在合适的时候提醒你还没找到答案的问题。"
+          }
         }
       }
     },
@@ -2102,6 +2666,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Reminders"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "提醒"
           }
         }
       }
@@ -2126,6 +2696,12 @@
             "state" : "translated",
             "value" : "See your open questions right on the desktop, without opening the app."
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "不用打开应用，直接在桌面上查看未解决的问题。"
+          }
         }
       }
     },
@@ -2148,6 +2724,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Use the whole app in English."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "整个应用都可以使用英语。"
           }
         }
       }
@@ -2172,6 +2754,12 @@
             "state" : "translated",
             "value" : "The first time you open the app after an update, see what’s new."
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "更新后首次打开时，告诉你有什么新内容。"
+          }
         }
       }
     },
@@ -2194,6 +2782,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "What’s new"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "更新动态"
           }
         }
       }
@@ -2218,6 +2812,12 @@
             "state" : "translated",
             "value" : "Sync across your Macs"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "在多台 Mac 间同步"
+          }
         }
       }
     },
@@ -2240,6 +2840,12 @@
             "state" : "translated",
             "value" : "Unlink (the question isn't deleted)"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "取消关联（问题不会被删除）"
+          }
         }
       }
     },
@@ -2261,6 +2867,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Get in Touch"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "联系我们"
           }
         }
       }
@@ -2285,6 +2897,12 @@
             "state" : "translated",
             "value" : "Full English support"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "完整英语支持"
+          }
         }
       }
     },
@@ -2306,6 +2924,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Summary"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "摘要"
           }
         }
       }
@@ -2329,6 +2953,12 @@
             "state" : "translated",
             "value" : "Summary, graph, time blocks, learning status, text size"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "摘要、关系图、时间块、学习状态、文字大小"
+          }
         }
       }
     },
@@ -2350,6 +2980,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Choose whether to list this under What I Learnt in the summary"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "选择是否将其列入摘要中的“学到的内容”"
           }
         }
       }
@@ -2374,6 +3010,12 @@
             "state" : "translated",
             "value" : "Reduce Motion"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "减少动态效果"
+          }
         }
       }
     },
@@ -2397,6 +3039,12 @@
             "state" : "translated",
             "value" : "With Reduce Motion on, screen effects calm down."
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "开启“减少动态效果”后，屏幕效果会更平缓。"
+          }
         }
       }
     },
@@ -2418,6 +3066,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Original question"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "原问题"
           }
         }
       }
@@ -2442,6 +3096,12 @@
             "state" : "translated",
             "value" : "Erase all your lectures and questions from within the app whenever you like."
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "需要时，可以在应用内清除所有课程和问题。"
+          }
         }
       }
     },
@@ -2463,6 +3123,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "What I want to be able to do once I understand this lecture…"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "完全理解这门课后，我希望自己能做到什么…"
           }
         }
       }
@@ -2486,6 +3152,12 @@
             "state" : "translated",
             "value" : "What I know before or so far in this lecture, and where I get stuck…"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "听这门课之前或目前我了解多少，卡在哪里…"
+          }
         }
       }
     },
@@ -2507,6 +3179,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "What I most want to get out of this lecture, topics I'm curious about…"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "我最想从这门课中得到什么，对哪些主题好奇…"
           }
         }
       }
@@ -2530,6 +3208,12 @@
             "state" : "translated",
             "value" : "Delete this block? Its notes will be deleted too."
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "要删除这个时间块吗？其中的备注也会一并删除。"
+          }
         }
       }
     },
@@ -2551,6 +3235,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Change this block's colour, start time and duration, or delete it"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "更改此时间块的颜色、开始时间和时长，或将其删除"
           }
         }
       }
@@ -2574,6 +3264,12 @@
             "state" : "translated",
             "value" : "Note what you learnt or want to remember in this time slot…"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "记下这段时间学到的内容和想记住的要点…"
+          }
         }
       }
     },
@@ -2595,6 +3291,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Go to This Question"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "前往此问题"
           }
         }
       }
@@ -2618,6 +3320,12 @@
             "state" : "translated",
             "value" : "Write the answer to this question in your own words"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "用自己的话整理并写下这个问题的答案"
+          }
         }
       }
     },
@@ -2639,6 +3347,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Follow on Instagram"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "在 Instagram 上关注动态"
           }
         }
       }
@@ -2662,6 +3376,12 @@
             "state" : "translated",
             "value" : "Smaller"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "缩小"
+          }
         }
       }
     },
@@ -2683,6 +3403,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Created %@"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "创建于 %@"
           }
         }
       }
@@ -2706,6 +3432,12 @@
             "state" : "translated",
             "value" : "Save"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "保存"
+          }
         }
       }
     },
@@ -2727,6 +3459,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Save and Continue"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "保存并继续"
           }
         }
       }
@@ -2750,6 +3488,12 @@
             "state" : "translated",
             "value" : "Exclude"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "排除"
+          }
         }
       }
     },
@@ -2771,6 +3515,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Excluded Answers"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "已排除的答案"
           }
         }
       }
@@ -2794,6 +3544,12 @@
             "state" : "translated",
             "value" : "Now"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "现在"
+          }
         }
       }
     },
@@ -2815,6 +3571,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Where I Am Now"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "我现在的状态"
           }
         }
       }
@@ -2838,6 +3600,12 @@
             "state" : "translated",
             "value" : "Support"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "支持"
+          }
         }
       }
     },
@@ -2859,6 +3627,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Question"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "问题"
           }
         }
       }
@@ -2882,6 +3656,12 @@
             "state" : "translated",
             "value" : "Questions %lld · To Ask %lld · Learnt %lld · Follow-ups %lld"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "问题 %lld · 待提问 %lld · 学到的 %lld · 追问 %lld"
+          }
         }
       }
     },
@@ -2903,6 +3683,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Opens Question Notes and shows a window to write a question for the lecture you're viewing."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "打开“提问笔记”，并弹出为当前查看的课程记录问题的窗口。"
           }
         }
       }
@@ -2926,6 +3712,12 @@
             "state" : "translated",
             "value" : "Welcome to Question Notes"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "欢迎使用提问笔记"
+          }
         }
       }
     },
@@ -2947,6 +3739,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Refine the Question"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "梳理问题"
           }
         }
       }
@@ -2970,6 +3768,12 @@
             "state" : "translated",
             "value" : "Add Question"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "添加问题"
+          }
         }
       }
     },
@@ -2991,6 +3795,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Add Question (⌘⇧N)"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "添加问题 (⌘⇧N)"
           }
         }
       }
@@ -3014,6 +3824,12 @@
             "state" : "translated",
             "value" : "Select a question"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "请选择一个问题"
+          }
         }
       }
     },
@@ -3035,6 +3851,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Questions you mark as resolved appear here"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "把问题标记为已解决，就会汇总在这里"
           }
         }
       }
@@ -3058,6 +3880,12 @@
             "state" : "translated",
             "value" : "Time to look back at your questions"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "问题攒多了，回头看看吧"
+          }
         }
       }
     },
@@ -3079,6 +3907,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Create First Lecture"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "创建第一门课程"
           }
         }
       }
@@ -3102,6 +3936,12 @@
             "state" : "translated",
             "value" : "Zoom Out"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "缩小"
+          }
         }
       }
     },
@@ -3124,6 +3964,12 @@
             "state" : "translated",
             "value" : "Cancel"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "取消"
+          }
         }
       }
     },
@@ -3145,6 +3991,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Larger"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "放大"
           }
         }
       }
@@ -3169,6 +4021,12 @@
             "state" : "translated",
             "value" : "Layouts for larger text"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "适配大字号的界面"
+          }
         }
       }
     },
@@ -3190,6 +4048,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Time Blocks"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "时间块"
           }
         }
       }
@@ -3213,6 +4077,12 @@
             "state" : "translated",
             "value" : "Add a new lecture from the lecture menu on the left of the toolbar, or import a conversation Markdown file."
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "在工具栏左侧的课程菜单中添加新课程，或导入对话的 Markdown 文件。"
+          }
         }
       }
     },
@@ -3234,6 +4104,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Learning Status"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "学习状态"
           }
         }
       }
@@ -3257,6 +4133,12 @@
             "state" : "translated",
             "value" : "Where I Want to Be When Done"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "学完后我想达到的状态"
+          }
         }
       }
     },
@@ -3278,6 +4160,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Resolved"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "已解决"
           }
         }
       }
@@ -3301,6 +4189,12 @@
             "state" : "translated",
             "value" : "Resolution status"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "解决状态"
+          }
         }
       }
     },
@@ -3322,6 +4216,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Resolved"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "已解决"
           }
         }
       }
@@ -3345,6 +4245,12 @@
             "state" : "translated",
             "value" : "Resolved — click to mark unresolved"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "已解决 — 点按改为未解决"
+          }
         }
       }
     },
@@ -3367,6 +4273,12 @@
             "state" : "translated",
             "value" : "Unlink"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "取消关联"
+          }
         }
       }
     },
@@ -3388,6 +4300,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Delete Current Lecture"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "删除当前课程"
           }
         }
       }
@@ -3412,6 +4330,12 @@
             "state" : "translated",
             "value" : "VoiceOver reads every button and note, in the right order."
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "旁白会按正确的顺序读出每个按钮和内容。"
+          }
         }
       }
     },
@@ -3433,6 +4357,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Fit to Window"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "适合窗口"
           }
         }
       }
@@ -3456,6 +4386,12 @@
             "state" : "translated",
             "value" : "Zoom In"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "放大"
+          }
         }
       }
     },
@@ -3477,6 +4413,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "OK"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "好"
           }
         }
       }

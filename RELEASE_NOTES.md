@@ -22,3 +22,9 @@ Reorganized support and privacy pages
 Dates and times follow your language
 Refreshed App Store text and screenshots
 Reorganised support and privacy pages
+
+### 앱스토어 (zh-Hans)
+
+日期和时间按你的语言格式显示
+重新设计了 App Store 介绍和截图
+重新整理了支持和隐私页面
