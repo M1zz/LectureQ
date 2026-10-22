@@ -1454,3 +1454,69 @@ https://m1zz.github.io/LectureQ/privacy.html
 ### 마케팅 URL
 
 https://m1zz.github.io/LectureQ/
+
+## sv
+
+### 이름
+
+LectureQ: Frågeanteckningar
+
+### 부제
+
+Förvandla tvivel till kunskap
+
+### 키워드
+
+studier,tentamen,repetition,seminarium,universitet,kurs,tidslinje,prompt,uppgift,webbinarium,student
+
+### 프로모션 텍스트
+
+Fånga tvivlet mitt i föreläsningen med en genväg. Det hamnar bredvid anteckningen från ögonblicket, och följdfrågor och AI-prompter hjälper dig att göra det till lärdom.
+
+### 설명
+
+En studieanteckningsbok för Mac som ser till att frågorna som dyker upp under en föreläsning inte försvinner.
+Skriv frågan med enkla ord, spara den bredvid anteckningen från ögonblicket, hitta senare svaret och formulera det med egna ord – då blir det något du har lärt dig.
+
+Snabb fråga
+Öppna inmatningsfönstret med knappen Lägg till fråga i verktygsfältet eller med Command Shift N. Tidpunkten fylls i automatiskt med klockslaget just nu. Retur sparar frågan, och Command Retur sparar den och låter dig genast skriva nästa.
+
+Frågelista
+Följdfrågor staplas indragna under den ursprungliga frågan. Olösta och lösta frågor skiljs åt med färg, och du kan visa bara de olösta.
+
+Anteckningar i tidsblock
+Dela upp en föreläsning i flera tidsblock och anteckna i vart och ett. Frågor visas bredvid det block de hör till, och ett klick tar dig direkt till dem. Ställer du en fråga vid en tidpunkt utanför blocken läggs ett block till automatiskt.
+
+Frågedetaljer
+Hantera på ett ställe om frågan är löst, om den räknas bland det du har lärt dig, tidpunkten, ditt eget svar samt den ursprungliga frågan och följdfrågorna.
+
+Hitta svar med AI
+Fem promptsteg – finslipa frågan, hitta svaret, ifrågasätta svaret, plocka fram följdfrågor och låta bedöma ditt eget svar – kopieras till urklipp med föreläsningens namn och anteckningen från ögonblicket redan ifyllda. Klistra bara in dem i den AI-tjänst du redan använder. Appen skickar inget utåt av sig själv.
+
+Allt med en blick
+Föreläsningens sammanfattning samlar bara frågorna att ställa, det du har lärt dig och dina anteckningar, så att du kan läsa den som ett repetitionsblad. Grafen visar hur dina tankar grenat sig från de ursprungliga frågorna till följdfrågorna, och tidsblocksöversikten låter dig gå igenom i ordning vad du lärde dig när.
+
+Inlärningsstatus
+Skriv var du står före föreläsningen, var du vill stå efteråt och vad du vill lära dig, och jämför.
+
+Importera konversationer i Markdown
+Importera Markdown med rubrik, avsnitt och inlägg per talare, så delar appen upp det i föreläsning, frågor och svar.
+
+Textstorleken justerar du med Command plus och Command minus.
+
+Integritet
+Det finns inga konton, och alla uppgifter sparas bara på den här Macen.
+
+Kräver macOS 14 eller senare.
+
+### 지원 URL
+
+https://m1zz.github.io/LectureQ/support.html
+
+### 개인정보처리방침 URL
+
+https://m1zz.github.io/LectureQ/privacy.html
+
+### 마케팅 URL
+
+https://m1zz.github.io/LectureQ/

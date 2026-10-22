@@ -136,3 +136,9 @@ Support- en privacypagina's vernieuwd
 Data i godzina w formacie Twojego języka
 Nowe teksty i zrzuty ekranu w App Store
 Odnowione strony wsparcia i prywatności
+
+### 앱스토어 (sv)
+
+Datum och tid i språkets format
+Nya texter och skärmbilder i App Store
+Nya sidor för support och integritet

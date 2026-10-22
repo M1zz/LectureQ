@@ -134,6 +134,12 @@
             "state" : "translated",
             "value" : "\n\n\n—\nWersja aplikacji: %@ (%@)\nmacOS: %@"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "\n\n\n—\nAppversion: %@ (%@)\nmacOS: %@"
+          }
         }
       }
     },
@@ -269,6 +275,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Skopiowano „%@”"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "”%@” kopierades"
           }
         }
       }
@@ -406,6 +418,12 @@
             "state" : "translated",
             "value" : "Krok %lld, %@. %@"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Steg %lld, %@. %@"
+          }
         }
       }
     },
@@ -538,6 +556,12 @@
           }
         },
         "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld min"
+          }
+        },
+        "sv" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld min"
@@ -678,6 +702,12 @@
             "state" : "translated",
             "value" : "Kopiuj prompt AI"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kopiera AI-prompt"
+          }
         }
       }
     },
@@ -813,6 +843,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Przewodnik: szukaj odpowiedzi z pomocą AI"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Guide: hitta svar med AI"
           }
         }
       }
@@ -951,6 +987,12 @@
             "state" : "translated",
             "value" : "Blokada Touch ID"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Touch ID-lås"
+          }
         }
       }
     },
@@ -1087,6 +1129,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zablokuj aplikację za pomocą Touch ID, by Twoje notatki z pytaniami były prywatne."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lås appen med Touch ID så att dina frågeanteckningar förblir privata."
           }
         }
       }
@@ -1225,6 +1273,12 @@
             "state" : "translated",
             "value" : "Wygodniej z VoiceOver"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Smidigare med VoiceOver"
+          }
         }
       }
     },
@@ -1360,6 +1414,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "[%@] Zapytanie"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "[%@] Förfrågan"
           }
         }
       }
@@ -1497,6 +1557,12 @@
             "state" : "translated",
             "value" : "Naciśnij ⌘⇧N, aby dodać pytanie"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tryck på ⌘⇧N för att lägga till en fråga"
+          }
         }
       }
     },
@@ -1632,6 +1698,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Otwórz przewodnik"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Öppna guiden"
           }
         }
       }
@@ -1769,6 +1841,12 @@
             "state" : "translated",
             "value" : "Import się nie powiódł"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Importen misslyckades"
+          }
         }
       }
     },
@@ -1904,6 +1982,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zaimportowana rozmowa"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Importerad konversation"
           }
         }
       }
@@ -2041,6 +2125,12 @@
             "state" : "translated",
             "value" : "Kopiuje do schowka prompt z kontekstem Twojego wykładu"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kopierar en prompt med din föreläsnings sammanhang till urklipp"
+          }
         }
       }
     },
@@ -2176,6 +2266,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Wybierz wykład"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Välj föreläsning"
           }
         }
       }
@@ -2313,6 +2409,12 @@
             "state" : "translated",
             "value" : "Moment wykładu"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tidpunkt i föreläsningen"
+          }
         }
       }
     },
@@ -2448,6 +2550,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Moment wykładu (24 godz., GG:mm)"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tidpunkt i föreläsningen (24 timmar, TT:mm)"
           }
         }
       }
@@ -2585,6 +2693,12 @@
             "state" : "translated",
             "value" : "Moment wykładu (24 godz., GG:mm). Jeśli go usuniesz, pytanie zapisze się bez momentu"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tidpunkt i föreläsningen (24 timmar, TT:mm). Om du rensar den sparas frågan utan tidpunkt"
+          }
         }
       }
     },
@@ -2720,6 +2834,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Brak wykładu"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ingen föreläsning"
           }
         }
       }
@@ -2857,6 +2977,12 @@
             "state" : "translated",
             "value" : "Nazwa wykładu"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Föreläsningens namn"
+          }
         }
       }
     },
@@ -2992,6 +3118,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Notatnik, który zachowuje pytania rodzące się na wykładzie, byś mógł(-ogła) odpowiedzieć na nie później własnymi słowami."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "En anteckningsbok som tar vara på frågorna som dyker upp under en föreläsning, så att du senare kan svara på dem med egna ord."
           }
         }
       }
@@ -3129,6 +3261,12 @@
             "state" : "translated",
             "value" : "Dodaj wykład"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lägg till föreläsning"
+          }
         }
       }
     },
@@ -3264,6 +3402,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zapisz pytanie, które przyszło Ci do głowy na wykładzie, najprostszymi słowami. Czas wypełni się bieżącą godziną."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skriv frågan som dyker upp under föreläsningen med de enklaste orden. Tidpunkten fylls i med klockslaget just nu."
           }
         }
       }
@@ -3401,6 +3545,12 @@
             "state" : "translated",
             "value" : "Utwórz wykład"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skapa en föreläsning"
+          }
         }
       }
     },
@@ -3536,6 +3686,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Wybierz wykład"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Välj en föreläsning"
           }
         }
       }
@@ -3674,6 +3830,12 @@
             "state" : "translated",
             "value" : "Zapisuj wykłady i pytania do pliku i przywracaj je później."
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Spara föreläsningar och frågor i en fil och hämta tillbaka dem senare."
+          }
         }
       }
     },
@@ -3809,6 +3971,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ciekawi Cię coś? Naciśnij ⌘⇧N"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Undrar du något? Tryck på ⌘⇧N"
           }
         }
       }
@@ -3946,6 +4114,12 @@
             "state" : "translated",
             "value" : "Napisz, co Cię nurtuje, jak najprostszymi słowami…"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skriv vad du undrar över med de enklaste orden …"
+          }
         }
       }
     },
@@ -4082,6 +4256,12 @@
             "state" : "translated",
             "value" : "Wykres"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Graf"
+          }
         }
       }
     },
@@ -4217,6 +4397,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Rozmiar tekstu (%lld%%)"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Textstorlek (%lld %%)"
           }
         }
       }
@@ -4355,6 +4541,12 @@
             "state" : "translated",
             "value" : "Po powiększeniu tekstu ekrany układają się na nowo, zamiast się ucinać."
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "När du förstorar texten ordnas skärmarna om i stället för att klippas av."
+          }
         }
       }
     },
@@ -4490,6 +4682,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Czas trwania"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Längd"
           }
         }
       }
@@ -4627,6 +4825,12 @@
             "state" : "translated",
             "value" : "Rozmiar domyślny"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Standardstorlek"
+          }
         }
       }
     },
@@ -4762,6 +4966,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Powiąż istniejące pytanie jako uzupełniające"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Koppla en befintlig fråga som följdfråga"
           }
         }
       }
@@ -4899,6 +5109,12 @@
             "state" : "translated",
             "value" : "Pytania uzupełniające"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Följdfrågor"
+          }
         }
       }
     },
@@ -5034,6 +5250,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Wyłuskaj pytania uzupełniające"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Plocka fram följdfrågor"
           }
         }
       }
@@ -5171,6 +5393,12 @@
             "state" : "translated",
             "value" : "Później ujmij odpowiedź własnymi słowami i kliknij ? przed pytaniem, aby oznaczyć je jako rozwiązane. To, czego się nauczyłeś(-aś), zbiera się w Podsumowaniu w menu Widok."
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Formulera svaret med egna ord senare och klicka på ? framför frågan för att markera den som löst. Det du har lärt dig samlas i Sammanfattning i menyn Visa."
+          }
         }
       }
     },
@@ -5306,6 +5534,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Oceń moją odpowiedź"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Låt bedöma mitt svar"
           }
         }
       }
@@ -5444,6 +5678,12 @@
             "state" : "translated",
             "value" : "Usuń wszystkie moje dane za jednym razem"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Radera alla mina data på en gång"
+          }
         }
       }
     },
@@ -5579,6 +5819,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zapisz własnymi słowami"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skriv med egna ord"
           }
         }
       }
@@ -5716,6 +5962,12 @@
             "state" : "translated",
             "value" : "Oznacza pytanie jako nierozwiązane"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Markerar frågan som olöst"
+          }
         }
       }
     },
@@ -5852,6 +6104,12 @@
             "state" : "translated",
             "value" : "Przechodzi do tego pytania"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Går till den här frågan"
+          }
         }
       }
     },
@@ -5987,6 +6245,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Oznacza pytanie jako rozwiązane"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Markerar frågan som löst"
           }
         }
       }
@@ -6125,6 +6389,12 @@
             "state" : "translated",
             "value" : "Kontynuuj z tymi samymi wykładami i pytaniami na każdym ze swoich Maców."
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fortsätt med samma föreläsningar och frågor på vilken Mac du vill."
+          }
         }
       }
     },
@@ -6260,6 +6530,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Przywróć"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ta med igen"
           }
         }
       }
@@ -6397,6 +6673,12 @@
             "state" : "translated",
             "value" : "Przywróć do „Czego się nauczyłem(-am)”"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ta med i ”Det jag har lärt mig” igen"
+          }
         }
       }
     },
@@ -6532,6 +6814,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zamknij"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stäng"
           }
         }
       }
@@ -6669,6 +6957,12 @@
             "state" : "translated",
             "value" : "Odpowiedź"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Svar"
+          }
         }
       }
     },
@@ -6804,6 +7098,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zakwestionuj odpowiedź"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ifrågasätt svaret"
           }
         }
       }
@@ -6941,6 +7241,12 @@
             "state" : "translated",
             "value" : "Notatka z odpowiedzią jest pusta"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Svarsanteckningen är tom"
+          }
         }
       }
     },
@@ -7076,6 +7382,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Brak odpowiedzi"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Inget svar"
           }
         }
       }
@@ -7213,6 +7525,12 @@
             "state" : "translated",
             "value" : "Znajdź odpowiedź"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hitta svaret"
+          }
         }
       }
     },
@@ -7348,6 +7666,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zapisz odpowiedź i oznacz jako rozwiązane"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skriv svaret och markera det som löst"
           }
         }
       }
@@ -7486,6 +7810,12 @@
             "state" : "translated",
             "value" : "Wszystko pozostaje czytelne, także przy zwiększonym kontraście albo gdy trudno rozróżniać kolory."
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Allt förblir läsbart, även med ökad kontrast eller om det är svårt att skilja på färger."
+          }
         }
       }
     },
@@ -7622,6 +7952,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Korzystaj z aplikacji w większej liczbie języków."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Använd appen på fler språk."
           }
         }
       }
@@ -7760,6 +8096,12 @@
             "state" : "translated",
             "value" : "Więcej języków"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fler språk"
+          }
         }
       }
     },
@@ -7895,6 +8237,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pytania do zadania"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Frågor att ställa"
           }
         }
       }
@@ -8033,6 +8381,12 @@
             "state" : "translated",
             "value" : "Widżety na pulpicie"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skrivbordswidgetar"
+          }
         }
       }
     },
@@ -8168,6 +8522,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Rozejrzyj się"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ta en titt"
           }
         }
       }
@@ -8305,6 +8665,12 @@
             "state" : "translated",
             "value" : "Importuj z Markdown…"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Importera från Markdown …"
+          }
         }
       }
     },
@@ -8440,6 +8806,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Najpierw wpisz w polu odpowiedzi jedną–dwie linijki własnymi słowami"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skriv först en eller två rader med egna ord i svarsfältet"
           }
         }
       }
@@ -8577,6 +8949,12 @@
             "state" : "translated",
             "value" : "Notatki"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Anteckningar"
+          }
         }
       }
     },
@@ -8712,6 +9090,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Napisz e-mail"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kontakta via e-post"
           }
         }
       }
@@ -8849,6 +9233,12 @@
             "state" : "translated",
             "value" : "Wszystko rozwiązane"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Allt är löst"
+          }
         }
       }
     },
@@ -8984,6 +9374,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pisząc do nas, podaj wersję macOS i to, co robiłeś(-aś), gdy wystąpił problem — dzięki temu szybciej to sprawdzimy."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "När du skriver till oss, ange din macOS-version och vad du gjorde när problemet uppstod, så kan vi undersöka det snabbare."
           }
         }
       }
@@ -9121,6 +9517,12 @@
             "state" : "translated",
             "value" : "Nierozwiązane"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Olöst"
+          }
         }
       }
     },
@@ -9256,6 +9658,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nierozwiązane — kliknij, aby oznaczyć jako rozwiązane"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Olöst – klicka för att markera som löst"
           }
         }
       }
@@ -9393,6 +9801,12 @@
             "state" : "translated",
             "value" : "Pokaż tylko nierozwiązane pytania"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Visa bara olösta frågor"
+          }
         }
       }
     },
@@ -9528,6 +9942,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Brak nierozwiązanych pytań"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Inga olösta frågor"
           }
         }
       }
@@ -9665,6 +10085,12 @@
             "state" : "translated",
             "value" : "Tylko nierozwiązane"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Endast olösta"
+          }
         }
       }
     },
@@ -9800,6 +10226,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Czego chcę się nauczyć"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vad jag vill lära mig"
           }
         }
       }
@@ -9937,6 +10369,12 @@
             "state" : "translated",
             "value" : "Czego się nauczyłem(-am)"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Det jag har lärt mig"
+          }
         }
       }
     },
@@ -10073,6 +10511,12 @@
             "state" : "translated",
             "value" : "Uwzględnij w „Czego się nauczyłem(-am)”"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ta med i ”Det jag har lärt mig”"
+          }
         }
       }
     },
@@ -10208,6 +10652,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Wyklucz z „Czego się nauczyłem(-am)” (odpowiedź zostaje)"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uteslut från ”Det jag har lärt mig” (svaret finns kvar)"
           }
         }
       }
@@ -10346,6 +10796,12 @@
             "state" : "translated",
             "value" : "Kopia zapasowa i eksport"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Säkerhetskopiering och export"
+          }
         }
       }
     },
@@ -10482,6 +10938,12 @@
             "state" : "translated",
             "value" : "Widok"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Visa"
+          }
         }
       }
     },
@@ -10617,6 +11079,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "W menu Widok Podsumowanie (⌘1) pokazuje, o co jeszcze zapytać i czego się nauczyłeś(-aś), a Wykres (⌘2) — jak łączą się Twoje pytania."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "I menyn Visa visar Sammanfattning (⌘1) vad du ännu ska fråga om och vad du har lärt dig, och Graf (⌘2) hur dina frågor hänger ihop."
           }
         }
       }
@@ -10755,6 +11223,12 @@
             "state" : "translated",
             "value" : "Wygodniejsze kolory i kontrast"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Behagligare färger och kontrast"
+          }
         }
       }
     },
@@ -10890,6 +11364,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Notatki bloku"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Blockanteckningar"
           }
         }
       }
@@ -11027,6 +11507,12 @@
             "state" : "translated",
             "value" : "Usuń blok"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Radera block"
+          }
         }
       }
     },
@@ -11162,6 +11648,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kolor bloku"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Blockets färg"
           }
         }
       }
@@ -11299,6 +11791,12 @@
             "state" : "translated",
             "value" : "Ustawienia bloku"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Blockinställningar"
+          }
         }
       }
     },
@@ -11434,6 +11932,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Godzina rozpoczęcia bloku"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Blockets starttid"
           }
         }
       }
@@ -11571,6 +12075,12 @@
             "state" : "translated",
             "value" : "Dodaj blok"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lägg till block"
+          }
         }
       }
     },
@@ -11706,6 +12216,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Brak bloków"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Inga block"
           }
         }
       }
@@ -11843,6 +12359,12 @@
             "state" : "translated",
             "value" : "Usuń"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Radera"
+          }
         }
       }
     },
@@ -11978,6 +12500,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nowy wykład"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ny föreläsning"
           }
         }
       }
@@ -12115,6 +12643,12 @@
             "state" : "translated",
             "value" : "Nowe pytanie uzupełniające — naciśnij Return, aby dodać"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ny följdfråga – tryck på Retur för att lägga till"
+          }
         }
       }
     },
@@ -12250,6 +12784,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kolor"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Färg"
           }
         }
       }
@@ -12387,6 +12927,12 @@
             "state" : "translated",
             "value" : "Ustawienia"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Inställningar"
+          }
         }
       }
     },
@@ -12523,6 +13069,12 @@
             "state" : "translated",
             "value" : "Początek"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Start"
+          }
         }
       }
     },
@@ -12658,6 +13210,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Moment"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tidpunkt"
           }
         }
       }
@@ -12796,6 +13354,12 @@
             "state" : "translated",
             "value" : "Dostań przypomnienie we właściwym momencie o pytaniach, na które wciąż nie ma odpowiedzi."
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Få en påminnelse i rätt tid om frågor du ännu inte har hittat svar på."
+          }
         }
       }
     },
@@ -12932,6 +13496,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Przypomnienia"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Påminnelser"
           }
         }
       }
@@ -13070,6 +13640,12 @@
             "state" : "translated",
             "value" : "Zobacz otwarte pytania od razu na pulpicie, bez otwierania aplikacji."
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Se dina öppna frågor direkt på skrivbordet utan att öppna appen."
+          }
         }
       }
     },
@@ -13206,6 +13782,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Korzystaj z całej aplikacji także po angielsku."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Använd hela appen även på engelska."
           }
         }
       }
@@ -13344,6 +13926,12 @@
             "state" : "translated",
             "value" : "Przy pierwszym otwarciu aplikacji po aktualizacji zobaczysz, co nowego."
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Första gången du öppnar appen efter en uppdatering ser du vad som är nytt."
+          }
         }
       }
     },
@@ -13480,6 +14068,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nowości"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nyheter"
           }
         }
       }
@@ -13618,6 +14212,12 @@
             "state" : "translated",
             "value" : "Synchronizacja między Macami"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Synkronisering mellan dina Mac-datorer"
+          }
         }
       }
     },
@@ -13754,6 +14354,12 @@
             "state" : "translated",
             "value" : "Odłącz (pytanie nie zostanie usunięte)"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ta bort koppling (frågan raderas inte)"
+          }
         }
       }
     },
@@ -13889,6 +14495,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kontakt"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kontakta oss"
           }
         }
       }
@@ -14027,6 +14639,12 @@
             "state" : "translated",
             "value" : "Pełna obsługa angielskiego"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fullt stöd för engelska"
+          }
         }
       }
     },
@@ -14162,6 +14780,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Podsumowanie"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sammanfattning"
           }
         }
       }
@@ -14299,6 +14923,12 @@
             "state" : "translated",
             "value" : "Podsumowanie, wykres, bloki czasu, stan nauki, rozmiar tekstu"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sammanfattning, graf, tidsblock, inlärningsstatus, textstorlek"
+          }
         }
       }
     },
@@ -14434,6 +15064,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Wybierz, czy pytanie ma się pojawić w „Czego się nauczyłem(-am)” w podsumowaniu"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Välj om frågan ska stå under ”Det jag har lärt mig” i sammanfattningen"
           }
         }
       }
@@ -14572,6 +15208,12 @@
             "state" : "translated",
             "value" : "Ogranicz ruch"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Minska rörelse"
+          }
         }
       }
     },
@@ -14709,6 +15351,12 @@
             "state" : "translated",
             "value" : "Gdy włączysz Ogranicz ruch, efekty na ekranie stają się spokojniejsze."
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "När Minska rörelse är på blir skärmeffekterna lugnare."
+          }
         }
       }
     },
@@ -14844,6 +15492,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pytanie wyjściowe"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ursprunglig fråga"
           }
         }
       }
@@ -14982,6 +15636,12 @@
             "state" : "translated",
             "value" : "Jeśli chcesz, usuń wszystkie wykłady i pytania z poziomu aplikacji."
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Om du vill kan du radera alla föreläsningar och frågor i själva appen."
+          }
         }
       }
     },
@@ -15117,6 +15777,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Co chcę umieć, gdy zrozumiem ten wykład…"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vad jag vill kunna när jag har förstått den här föreläsningen …"
           }
         }
       }
@@ -15254,6 +15920,12 @@
             "state" : "translated",
             "value" : "Co wiem przed tym wykładem lub do tej pory i w czym utknąłem(-ęłam)…"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vad jag kan före den här föreläsningen eller hittills, och var jag kör fast …"
+          }
         }
       }
     },
@@ -15389,6 +16061,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Co koniecznie chcę wynieść z tego wykładu, tematy, które mnie ciekawią…"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vad jag absolut vill få ut av den här föreläsningen, ämnen jag är nyfiken på …"
           }
         }
       }
@@ -15526,6 +16204,12 @@
             "state" : "translated",
             "value" : "Usunąć ten blok? Jego notatki również zostaną usunięte."
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vill du radera det här blocket? Dess anteckningar raderas också."
+          }
         }
       }
     },
@@ -15661,6 +16345,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zmień kolor, godzinę rozpoczęcia i czas trwania tego bloku albo go usuń"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ändra färg, starttid och längd för det här blocket, eller radera det"
           }
         }
       }
@@ -15798,6 +16488,12 @@
             "state" : "translated",
             "value" : "Zapisz, czego nauczyłeś(-aś) się w tym czasie i co chcesz zapamiętać…"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Anteckna vad du lärde dig under den här tiden och vad du vill komma ihåg …"
+          }
         }
       }
     },
@@ -15933,6 +16629,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Przejdź do tego pytania"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gå till den här frågan"
           }
         }
       }
@@ -16070,6 +16772,12 @@
             "state" : "translated",
             "value" : "Zapisz odpowiedź na to pytanie własnymi słowami"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skriv svaret på den här frågan med egna ord"
+          }
         }
       }
     },
@@ -16205,6 +16913,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Śledź nas na Instagramie"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Följ nyheter på Instagram"
           }
         }
       }
@@ -16342,6 +17056,12 @@
             "state" : "translated",
             "value" : "Mniejszy"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mindre"
+          }
         }
       }
     },
@@ -16477,6 +17197,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Utworzono %@"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skapad %@"
           }
         }
       }
@@ -16614,6 +17340,12 @@
             "state" : "translated",
             "value" : "Zapisz"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Spara"
+          }
         }
       }
     },
@@ -16749,6 +17481,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zapisz i kontynuuj"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Spara och fortsätt"
           }
         }
       }
@@ -16886,6 +17624,12 @@
             "state" : "translated",
             "value" : "Wyklucz"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Utesluta"
+          }
         }
       }
     },
@@ -17021,6 +17765,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Wykluczone odpowiedzi"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uteslutna svar"
           }
         }
       }
@@ -17158,6 +17908,12 @@
             "state" : "translated",
             "value" : "Teraz"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nu"
+          }
         }
       }
     },
@@ -17293,6 +18049,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Gdzie jestem teraz"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Var jag är nu"
           }
         }
       }
@@ -17430,6 +18192,12 @@
             "state" : "translated",
             "value" : "Wsparcie"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Support"
+          }
         }
       }
     },
@@ -17565,6 +18333,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pytanie"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fråga"
           }
         }
       }
@@ -17702,6 +18476,12 @@
             "state" : "translated",
             "value" : "Pytania %lld · Do zadania %lld · Nauczone %lld · Pytania uzupełniające %lld"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Frågor %lld · Att fråga %lld · Inlärt %lld · Följdfrågor %lld"
+          }
         }
       }
     },
@@ -17837,6 +18617,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Otwiera Notatnik Pytań i pokazuje okno do zapisania pytania do oglądanego wykładu."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Öppnar Frågeanteckningar och visar ett fönster där du kan skriva en fråga till föreläsningen du tittar på."
           }
         }
       }
@@ -17974,6 +18760,12 @@
             "state" : "translated",
             "value" : "Witaj w Notatniku Pytań"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Välkommen till Frågeanteckningar"
+          }
         }
       }
     },
@@ -18109,6 +18901,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Doprecyzuj pytanie"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Finslipa frågan"
           }
         }
       }
@@ -18246,6 +19044,12 @@
             "state" : "translated",
             "value" : "Dodaj pytanie"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lägg till fråga"
+          }
         }
       }
     },
@@ -18381,6 +19185,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Dodaj pytanie (⌘⇧N)"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lägg till fråga (⌘⇧N)"
           }
         }
       }
@@ -18518,6 +19328,12 @@
             "state" : "translated",
             "value" : "Wybierz pytanie"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Välj en fråga"
+          }
         }
       }
     },
@@ -18653,6 +19469,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pytania oznaczone jako rozwiązane pojawią się tutaj"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Frågor du markerar som lösta samlas här"
           }
         }
       }
@@ -18790,6 +19612,12 @@
             "state" : "translated",
             "value" : "Pytań się uzbierało — spójrz wstecz"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Frågorna har hopat sig – titta tillbaka"
+          }
         }
       }
     },
@@ -18925,6 +19753,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Utwórz pierwszy wykład"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skapa första föreläsningen"
           }
         }
       }
@@ -19062,6 +19896,12 @@
             "state" : "translated",
             "value" : "Pomniejsz"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zooma ut"
+          }
         }
       }
     },
@@ -19198,6 +20038,12 @@
             "state" : "translated",
             "value" : "Anuluj"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Avbryt"
+          }
         }
       }
     },
@@ -19333,6 +20179,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Większy"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Större"
           }
         }
       }
@@ -19471,6 +20323,12 @@
             "state" : "translated",
             "value" : "Ekrany dla dużego tekstu"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skärmar för stor text"
+          }
         }
       }
     },
@@ -19606,6 +20464,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bloki czasu"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tidsblock"
           }
         }
       }
@@ -19743,6 +20607,12 @@
             "state" : "translated",
             "value" : "Dodaj nowy wykład z menu wykładów po lewej stronie paska narzędzi lub zaimportuj plik Markdown z rozmową."
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lägg till en ny föreläsning i föreläsningsmenyn till vänster i verktygsfältet, eller importera en Markdown-fil med en konversation."
+          }
         }
       }
     },
@@ -19878,6 +20748,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Stan nauki"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Inlärningsstatus"
           }
         }
       }
@@ -20015,6 +20891,12 @@
             "state" : "translated",
             "value" : "Gdzie chcę być na końcu"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Var jag vill vara till slut"
+          }
         }
       }
     },
@@ -20150,6 +21032,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Rozwiązane"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Löst"
           }
         }
       }
@@ -20287,6 +21175,12 @@
             "state" : "translated",
             "value" : "Status rozwiązania"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lösningsstatus"
+          }
         }
       }
     },
@@ -20422,6 +21316,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Rozwiązane"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Löst"
           }
         }
       }
@@ -20559,6 +21459,12 @@
             "state" : "translated",
             "value" : "Rozwiązane — kliknij, aby oznaczyć jako nierozwiązane"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Löst – klicka för att markera som olöst"
+          }
         }
       }
     },
@@ -20695,6 +21601,12 @@
             "state" : "translated",
             "value" : "Odłącz"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ta bort koppling"
+          }
         }
       }
     },
@@ -20830,6 +21742,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Usuń bieżący wykład"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Radera aktuell föreläsning"
           }
         }
       }
@@ -20968,6 +21886,12 @@
             "state" : "translated",
             "value" : "VoiceOver odczytuje każdy przycisk i notatkę w poprawnej kolejności."
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "VoiceOver läser upp varje knapp och anteckning i rätt ordning."
+          }
         }
       }
     },
@@ -21103,6 +22027,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Dopasuj do okna"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Anpassa till fönstret"
           }
         }
       }
@@ -21240,6 +22170,12 @@
             "state" : "translated",
             "value" : "Powiększ"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zooma in"
+          }
         }
       }
     },
@@ -21372,6 +22308,12 @@
           }
         },
         "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OK"
+          }
+        },
+        "sv" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "OK"
