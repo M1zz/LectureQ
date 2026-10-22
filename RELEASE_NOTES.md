@@ -28,3 +28,9 @@ Reorganised support and privacy pages
 日期和时间按你的语言格式显示
 重新设计了 App Store 介绍和截图
 重新整理了支持和隐私页面
+
+### 앱스토어 (zh-Hant)
+
+日期與時間依你的語言格式顯示
+重新設計了 App Store 介紹與螢幕截圖
+重新整理了支援與隱私頁面
