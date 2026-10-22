@@ -100,3 +100,9 @@ Nové stránky podpory a soukromí
 Dato og tid i dit sprogs format
 Nye tekster og skærmbilleder i App Store
 Nye sider om support og privatliv
+
+### 앱스토어 (el)
+
+Ημερομηνία και ώρα στη γλώσσα σου
+Νέα κείμενα και στιγμιότυπα App Store
+Νέες σελίδες υποστήριξης και απορρήτου

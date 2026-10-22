@@ -98,6 +98,12 @@
             "state" : "translated",
             "value" : "\n\n\n—\nAppversion: %@ (%@)\nmacOS: %@"
           }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "\n\n\n—\nΈκδοση εφαρμογής: %@ (%@)\nmacOS: %@"
+          }
         }
       }
     },
@@ -197,6 +203,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "„%@“ er kopieret"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Αντιγράφηκε: %@"
           }
         }
       }
@@ -298,6 +310,12 @@
             "state" : "translated",
             "value" : "Trin %lld, %@. %@"
           }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Βήμα %lld, %@. %@"
+          }
         }
       }
     },
@@ -397,6 +415,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld min."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld λεπτά"
           }
         }
       }
@@ -498,6 +522,12 @@
             "state" : "translated",
             "value" : "Kopiér AI-prompt"
           }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Αντιγραφή prompt AI"
+          }
         }
       }
     },
@@ -597,6 +627,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Guide: find svar med AI"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Οδηγός: βρες απαντήσεις με AI"
           }
         }
       }
@@ -699,6 +735,12 @@
             "state" : "translated",
             "value" : "Touch ID-lås"
           }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Κλείδωμα με Touch ID"
+          }
         }
       }
     },
@@ -799,6 +841,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Lås appen med Touch ID, så dine spørgsmålsnoter forbliver private."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Κλείδωσε την εφαρμογή με Touch ID για να μένουν ιδιωτικές οι σημειώσεις σου."
           }
         }
       }
@@ -901,6 +949,12 @@
             "state" : "translated",
             "value" : "Lettere at bruge med VoiceOver"
           }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Πιο άνετα με το VoiceOver"
+          }
         }
       }
     },
@@ -1000,6 +1054,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "[%@] Henvendelse"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "[%@] Ερώτημα"
           }
         }
       }
@@ -1101,6 +1161,12 @@
             "state" : "translated",
             "value" : "Tryk på ⌘⇧N for at tilføje et spørgsmål"
           }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Πάτα ⌘⇧N για να προσθέσεις ερώτηση"
+          }
         }
       }
     },
@@ -1200,6 +1266,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Åbn guide"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Άνοιγμα οδηγού"
           }
         }
       }
@@ -1301,6 +1373,12 @@
             "state" : "translated",
             "value" : "Import mislykkedes"
           }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Η εισαγωγή απέτυχε"
+          }
         }
       }
     },
@@ -1400,6 +1478,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Importeret samtale"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Εισηγμένη συζήτηση"
           }
         }
       }
@@ -1501,6 +1585,12 @@
             "state" : "translated",
             "value" : "Kopierer en prompt med din forelæsnings kontekst til udklipsholderen"
           }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Αντιγράφει στο πρόχειρο ένα prompt με το πλαίσιο του μαθήματός σου"
+          }
         }
       }
     },
@@ -1600,6 +1690,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vælg forelæsning"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Επιλογή μαθήματος"
           }
         }
       }
@@ -1701,6 +1797,12 @@
             "state" : "translated",
             "value" : "Tidspunkt i forelæsningen"
           }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Χρονική στιγμή στο μάθημα"
+          }
         }
       }
     },
@@ -1800,6 +1902,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tidspunkt i forelæsningen (24 timer, TT:mm)"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Χρονική στιγμή στο μάθημα (24ωρη, ΩΩ:λλ)"
           }
         }
       }
@@ -1901,6 +2009,12 @@
             "state" : "translated",
             "value" : "Tidspunkt i forelæsningen (24 timer, TT:mm). Hvis du sletter det, gemmes spørgsmålet uden tidspunkt"
           }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Χρονική στιγμή στο μάθημα (24ωρη, ΩΩ:λλ). Αν τη σβήσεις, αποθηκεύεται χωρίς χρονική στιγμή"
+          }
         }
       }
     },
@@ -2000,6 +2114,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ingen forelæsning"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Κανένα μάθημα"
           }
         }
       }
@@ -2101,6 +2221,12 @@
             "state" : "translated",
             "value" : "Forelæsningens navn"
           }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Όνομα μαθήματος"
+          }
         }
       }
     },
@@ -2200,6 +2326,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "En notesbog, der gemmer de spørgsmål, du får under en forelæsning, så du senere kan besvare dem med dine egne ord."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ένα τετράδιο που κρατά τις ερωτήσεις που γεννιούνται στο μάθημα, για να τις απαντήσεις αργότερα με δικά σου λόγια."
           }
         }
       }
@@ -2301,6 +2433,12 @@
             "state" : "translated",
             "value" : "Tilføj forelæsning"
           }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Προσθήκη μαθήματος"
+          }
         }
       }
     },
@@ -2400,6 +2538,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Skriv det spørgsmål, du kommer i tanke om under forelæsningen, med de simpleste ord. Tidspunktet udfyldes med klokkeslættet nu."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Γράψε με τις πιο απλές λέξεις την ερώτηση που σου έρχεται στο μάθημα. Η χρονική στιγμή συμπληρώνεται με την τρέχουσα ώρα."
           }
         }
       }
@@ -2501,6 +2645,12 @@
             "state" : "translated",
             "value" : "Opret en forelæsning"
           }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Δημιούργησε ένα μάθημα"
+          }
         }
       }
     },
@@ -2600,6 +2750,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vælg en forelæsning"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Επίλεξε ένα μάθημα"
           }
         }
       }
@@ -2702,6 +2858,12 @@
             "state" : "translated",
             "value" : "Gem dine forelæsninger og spørgsmål i en fil, og hent dem frem igen senere."
           }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Αποθήκευσε μαθήματα και ερωτήσεις σε αρχείο και φόρτωσέ τα ξανά αργότερα."
+          }
         }
       }
     },
@@ -2801,6 +2963,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nysgerrig? Tryk på ⌘⇧N"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Απορία; Πάτα ⌘⇧N"
           }
         }
       }
@@ -2902,6 +3070,12 @@
             "state" : "translated",
             "value" : "Skriv, hvad du undrer dig over, med de simpleste ord …"
           }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Γράψε ό,τι απορείς με τις πιο απλές λέξεις…"
+          }
         }
       }
     },
@@ -3002,6 +3176,12 @@
             "state" : "translated",
             "value" : "Graf"
           }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Γράφημα"
+          }
         }
       }
     },
@@ -3101,6 +3281,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tekststørrelse (%lld %%)"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Μέγεθος κειμένου (%lld%%)"
           }
         }
       }
@@ -3203,6 +3389,12 @@
             "state" : "translated",
             "value" : "Når du gør teksten større, ordnes skærmene om i stedet for at blive skåret af."
           }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Όταν μεγαλώνεις το κείμενο, οι οθόνες αναδιατάσσονται αντί να κόβονται."
+          }
         }
       }
     },
@@ -3302,6 +3494,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Varighed"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Διάρκεια"
           }
         }
       }
@@ -3403,6 +3601,12 @@
             "state" : "translated",
             "value" : "Standardstørrelse"
           }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Προεπιλεγμένο μέγεθος"
+          }
         }
       }
     },
@@ -3502,6 +3706,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Knyt et eksisterende spørgsmål som opfølgende"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Σύνδεση υπάρχουσας ερώτησης ως συμπληρωματικής"
           }
         }
       }
@@ -3603,6 +3813,12 @@
             "state" : "translated",
             "value" : "Opfølgende spørgsmål"
           }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Συμπληρωματικές ερωτήσεις"
+          }
         }
       }
     },
@@ -3702,6 +3918,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Udled opfølgende spørgsmål"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Εξαγωγή συμπληρωματικών ερωτήσεων"
           }
         }
       }
@@ -3803,6 +4025,12 @@
             "state" : "translated",
             "value" : "Senere kan du formulere svaret med dine egne ord og klikke på ? foran spørgsmålet for at markere det som løst. Det, du har lært, samles i Oversigt i menuen Vis."
           }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Αργότερα, διατύπωσε την απάντηση με δικά σου λόγια και κάνε κλικ στο ? πριν από την ερώτηση για να τη σημειώσεις ως λυμένη. Όσα έμαθες συγκεντρώνονται στη Σύνοψη, στο μενού Προβολή."
+          }
         }
       }
     },
@@ -3902,6 +4130,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Få mit svar bedømt"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Βαθμολόγηση της απάντησής μου"
           }
         }
       }
@@ -4004,6 +4238,12 @@
             "state" : "translated",
             "value" : "Slet alle mine data på én gang"
           }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Διαγραφή όλων των δεδομένων μου με μία κίνηση"
+          }
         }
       }
     },
@@ -4103,6 +4343,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Skriv det med dine egne ord"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Γράψε το με δικά σου λόγια"
           }
         }
       }
@@ -4204,6 +4450,12 @@
             "state" : "translated",
             "value" : "Markerer spørgsmålet som uløst"
           }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Σημειώνει την ερώτηση ως άλυτη"
+          }
         }
       }
     },
@@ -4304,6 +4556,12 @@
             "state" : "translated",
             "value" : "Går til dette spørgsmål"
           }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Μεταβαίνει σε αυτή την ερώτηση"
+          }
         }
       }
     },
@@ -4403,6 +4661,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Markerer spørgsmålet som løst"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Σημειώνει την ερώτηση ως λυμένη"
           }
         }
       }
@@ -4505,6 +4769,12 @@
             "state" : "translated",
             "value" : "Fortsæt med de samme forelæsninger og spørgsmål på alle dine Mac-computere."
           }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Συνέχισε με τα ίδια μαθήματα και τις ίδιες ερωτήσεις σε όποιο Mac σου."
+          }
         }
       }
     },
@@ -4604,6 +4874,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tag med igen"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Επαναφορά"
           }
         }
       }
@@ -4705,6 +4981,12 @@
             "state" : "translated",
             "value" : "Tag med i „Det jeg har lært“ igen"
           }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Επαναφορά στο «Τι έμαθα»"
+          }
         }
       }
     },
@@ -4804,6 +5086,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Luk"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Κλείσιμο"
           }
         }
       }
@@ -4905,6 +5193,12 @@
             "state" : "translated",
             "value" : "Svar"
           }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Απάντηση"
+          }
         }
       }
     },
@@ -5004,6 +5298,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Udfordr svaret"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Αμφισβήτηση της απάντησης"
           }
         }
       }
@@ -5105,6 +5405,12 @@
             "state" : "translated",
             "value" : "Svarnoten er tom"
           }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Η σημείωση της απάντησης είναι κενή"
+          }
         }
       }
     },
@@ -5204,6 +5510,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Intet svar"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Χωρίς απάντηση"
           }
         }
       }
@@ -5305,6 +5617,12 @@
             "state" : "translated",
             "value" : "Find svaret"
           }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Εύρεση απάντησης"
+          }
         }
       }
     },
@@ -5404,6 +5722,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Skriv svaret, og markér det som løst"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Γράψε την απάντηση και σημείωσέ την ως λυμένη"
           }
         }
       }
@@ -5506,6 +5830,12 @@
             "state" : "translated",
             "value" : "Alt kan stadig læses, også med øget kontrast, eller hvis farver er svære at skelne."
           }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Όλα παραμένουν ευανάγνωστα, ακόμη και με αυξημένη αντίθεση ή αν δυσκολεύεσαι να ξεχωρίσεις χρώματα."
+          }
         }
       }
     },
@@ -5606,6 +5936,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Brug appen på flere sprog."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Χρήση της εφαρμογής σε περισσότερες γλώσσες."
           }
         }
       }
@@ -5708,6 +6044,12 @@
             "state" : "translated",
             "value" : "Flere sprog"
           }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Περισσότερες γλώσσες"
+          }
         }
       }
     },
@@ -5807,6 +6149,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Spørgsmål at stille"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ερωτήσεις προς υποβολή"
           }
         }
       }
@@ -5909,6 +6257,12 @@
             "state" : "translated",
             "value" : "Widgets på skrivebordet"
           }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Widgets επιφάνειας εργασίας"
+          }
         }
       }
     },
@@ -6008,6 +6362,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Se dig omkring"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ρίξε μια ματιά"
           }
         }
       }
@@ -6109,6 +6469,12 @@
             "state" : "translated",
             "value" : "Importér fra Markdown …"
           }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Εισαγωγή από Markdown…"
+          }
         }
       }
     },
@@ -6208,6 +6574,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Skriv først en linje eller to med dine egne ord i svarfeltet"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Πρώτα γράψε μία-δύο γραμμές με δικά σου λόγια στο πεδίο απάντησης"
           }
         }
       }
@@ -6309,6 +6681,12 @@
             "state" : "translated",
             "value" : "Noter"
           }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Σημειώσεις"
+          }
         }
       }
     },
@@ -6408,6 +6786,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Skriv en e-mail"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Επικοινωνία με email"
           }
         }
       }
@@ -6509,6 +6893,12 @@
             "state" : "translated",
             "value" : "Alt er løst"
           }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Όλα λύθηκαν"
+          }
         }
       }
     },
@@ -6608,6 +6998,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Når du skriver til os, så oplys din macOS-version og hvad du lavede, da problemet opstod – så kan vi hurtigere undersøge det."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Όταν μας γράφεις, ανέφερε την έκδοση macOS και τι έκανες όταν παρουσιάστηκε το πρόβλημα, ώστε να το ελέγξουμε πιο γρήγορα."
           }
         }
       }
@@ -6709,6 +7105,12 @@
             "state" : "translated",
             "value" : "Uløst"
           }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Άλυτη"
+          }
         }
       }
     },
@@ -6808,6 +7210,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Uløst – klik for at markere som løst"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Άλυτη — κάνε κλικ για να τη σημειώσεις ως λυμένη"
           }
         }
       }
@@ -6909,6 +7317,12 @@
             "state" : "translated",
             "value" : "Vis kun uløste spørgsmål"
           }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Εμφάνιση μόνο των άλυτων ερωτήσεων"
+          }
         }
       }
     },
@@ -7008,6 +7422,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ingen uløste spørgsmål"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Δεν υπάρχουν άλυτες ερωτήσεις"
           }
         }
       }
@@ -7109,6 +7529,12 @@
             "state" : "translated",
             "value" : "Kun uløste"
           }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Μόνο οι άλυτες"
+          }
         }
       }
     },
@@ -7208,6 +7634,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hvad jeg vil lære"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Τι θέλω να μάθω"
           }
         }
       }
@@ -7309,6 +7741,12 @@
             "state" : "translated",
             "value" : "Det jeg har lært"
           }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Τι έμαθα"
+          }
         }
       }
     },
@@ -7409,6 +7847,12 @@
             "state" : "translated",
             "value" : "Tag med i „Det jeg har lært“"
           }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Συμπερίληψη στο «Τι έμαθα»"
+          }
         }
       }
     },
@@ -7508,6 +7952,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Udelad fra „Det jeg har lært“ (svaret bevares)"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Εξαίρεση από το «Τι έμαθα» (η απάντηση μένει)"
           }
         }
       }
@@ -7610,6 +8060,12 @@
             "state" : "translated",
             "value" : "Backup og eksport"
           }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Αντίγραφα ασφαλείας και εξαγωγή"
+          }
         }
       }
     },
@@ -7710,6 +8166,12 @@
             "state" : "translated",
             "value" : "Vis"
           }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Προβολή"
+          }
         }
       }
     },
@@ -7809,6 +8271,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "I menuen Vis viser Oversigt (⌘1), hvad du endnu skal spørge om, og hvad du har lært, mens Graf (⌘2) viser, hvordan dine spørgsmål hænger sammen."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Στο μενού Προβολή, η Σύνοψη (⌘1) δείχνει τι έχεις να ρωτήσεις και τι έμαθες, ενώ το Γράφημα (⌘2) πώς συνδέονται οι ερωτήσεις σου."
           }
         }
       }
@@ -7911,6 +8379,12 @@
             "state" : "translated",
             "value" : "Mere behagelige farver og kontrast"
           }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Πιο άνετα χρώματα και αντίθεση"
+          }
         }
       }
     },
@@ -8010,6 +8484,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Blokkens noter"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Σημειώσεις μπλοκ"
           }
         }
       }
@@ -8111,6 +8591,12 @@
             "state" : "translated",
             "value" : "Slet blok"
           }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Διαγραφή μπλοκ"
+          }
         }
       }
     },
@@ -8210,6 +8696,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Blokkens farve"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Χρώμα μπλοκ"
           }
         }
       }
@@ -8311,6 +8803,12 @@
             "state" : "translated",
             "value" : "Blokindstillinger"
           }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ρυθμίσεις μπλοκ"
+          }
         }
       }
     },
@@ -8410,6 +8908,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Blokkens starttidspunkt"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ώρα έναρξης μπλοκ"
           }
         }
       }
@@ -8511,6 +9015,12 @@
             "state" : "translated",
             "value" : "Tilføj blok"
           }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Προσθήκη μπλοκ"
+          }
         }
       }
     },
@@ -8610,6 +9120,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ingen blokke"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Δεν υπάρχουν μπλοκ"
           }
         }
       }
@@ -8711,6 +9227,12 @@
             "state" : "translated",
             "value" : "Slet"
           }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Διαγραφή"
+          }
         }
       }
     },
@@ -8810,6 +9332,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ny forelæsning"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Νέο μάθημα"
           }
         }
       }
@@ -8911,6 +9439,12 @@
             "state" : "translated",
             "value" : "Nyt opfølgende spørgsmål – tryk på Retur for at tilføje"
           }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Νέα συμπληρωματική ερώτηση — πάτα Return για προσθήκη"
+          }
         }
       }
     },
@@ -9010,6 +9544,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Farve"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Χρώμα"
           }
         }
       }
@@ -9111,6 +9651,12 @@
             "state" : "translated",
             "value" : "Indstillinger"
           }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ρυθμίσεις"
+          }
         }
       }
     },
@@ -9211,6 +9757,12 @@
             "state" : "translated",
             "value" : "Start"
           }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Έναρξη"
+          }
         }
       }
     },
@@ -9310,6 +9862,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tidspunkt"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Χρονική στιγμή"
           }
         }
       }
@@ -9412,6 +9970,12 @@
             "state" : "translated",
             "value" : "Få en påmindelse i rette tid om spørgsmål, du endnu ikke har fundet svar på."
           }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Έγκαιρη ειδοποίηση για ερωτήσεις που δεν έχεις βρει ακόμη απάντηση."
+          }
         }
       }
     },
@@ -9512,6 +10076,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Påmindelser"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Υπενθυμίσεις"
           }
         }
       }
@@ -9614,6 +10184,12 @@
             "state" : "translated",
             "value" : "Se dine åbne spørgsmål direkte på skrivebordet uden at åbne appen."
           }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Δες τις ανοιχτές ερωτήσεις απευθείας στην επιφάνεια εργασίας, χωρίς να ανοίξεις την εφαρμογή."
+          }
         }
       }
     },
@@ -9714,6 +10290,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Brug hele appen på engelsk."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Χρησιμοποίησε ολόκληρη την εφαρμογή και στα αγγλικά."
           }
         }
       }
@@ -9816,6 +10398,12 @@
             "state" : "translated",
             "value" : "Første gang du åbner appen efter en opdatering, kan du se, hvad der er nyt."
           }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Την πρώτη φορά που ανοίγεις την εφαρμογή μετά από μια ενημέρωση, δες τι νέο υπάρχει."
+          }
         }
       }
     },
@@ -9916,6 +10504,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nyheder"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Τι νέο υπάρχει"
           }
         }
       }
@@ -10018,6 +10612,12 @@
             "state" : "translated",
             "value" : "Synkronisering mellem dine Mac-computere"
           }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Συγχρονισμός μεταξύ των Mac σου"
+          }
         }
       }
     },
@@ -10118,6 +10718,12 @@
             "state" : "translated",
             "value" : "Fjern tilknytning (spørgsmålet slettes ikke)"
           }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Αποσύνδεση (η ερώτηση δεν διαγράφεται)"
+          }
         }
       }
     },
@@ -10217,6 +10823,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kontakt"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Επικοινωνία"
           }
         }
       }
@@ -10319,6 +10931,12 @@
             "state" : "translated",
             "value" : "Fuld understøttelse af engelsk"
           }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Πλήρης υποστήριξη αγγλικών"
+          }
         }
       }
     },
@@ -10418,6 +11036,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Oversigt"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Σύνοψη"
           }
         }
       }
@@ -10519,6 +11143,12 @@
             "state" : "translated",
             "value" : "Oversigt, graf, tidsblokke, læringsstatus, tekststørrelse"
           }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Σύνοψη, γράφημα, χρονικά μπλοκ, κατάσταση μάθησης, μέγεθος κειμένου"
+          }
         }
       }
     },
@@ -10618,6 +11248,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vælg, om spørgsmålet skal stå under „Det jeg har lært“ i oversigten"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Επίλεξε αν η ερώτηση θα εμφανίζεται στο «Τι έμαθα» της σύνοψης"
           }
         }
       }
@@ -10720,6 +11356,12 @@
             "state" : "translated",
             "value" : "Reducer bevægelse"
           }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Μείωση κίνησης"
+          }
         }
       }
     },
@@ -10821,6 +11463,12 @@
             "state" : "translated",
             "value" : "Når Reducer bevægelse er slået til, bliver effekterne på skærmen mere rolige."
           }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Με ενεργή τη Μείωση κίνησης, τα εφέ στην οθόνη γίνονται πιο ήρεμα."
+          }
         }
       }
     },
@@ -10920,6 +11568,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Oprindeligt spørgsmål"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Αρχική ερώτηση"
           }
         }
       }
@@ -11022,6 +11676,12 @@
             "state" : "translated",
             "value" : "Hvis du vil, kan du slette alle forelæsninger og spørgsmål i selve appen."
           }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Αν θέλεις, διέγραψε όλα τα μαθήματα και τις ερωτήσεις μέσα από την εφαρμογή."
+          }
         }
       }
     },
@@ -11121,6 +11781,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hvad jeg gerne vil kunne, når jeg har forstået denne forelæsning …"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Τι θα ήθελα να μπορώ να κάνω όταν καταλάβω αυτό το μάθημα…"
           }
         }
       }
@@ -11222,6 +11888,12 @@
             "state" : "translated",
             "value" : "Hvad jeg ved før denne forelæsning eller indtil nu, og hvor jeg går i stå …"
           }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Τι ξέρω πριν από αυτό το μάθημα ή μέχρι τώρα και πού κολλάω…"
+          }
         }
       }
     },
@@ -11321,6 +11993,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hvad jeg helst vil have ud af denne forelæsning, emner jeg er nysgerrig på …"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Τι θέλω οπωσδήποτε να κρατήσω από αυτό το μάθημα, θέματα που με ενδιαφέρουν…"
           }
         }
       }
@@ -11422,6 +12100,12 @@
             "state" : "translated",
             "value" : "Vil du slette denne blok? Dens noter slettes også."
           }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Να διαγραφεί αυτό το μπλοκ; Θα διαγραφούν και οι σημειώσεις του."
+          }
         }
       }
     },
@@ -11521,6 +12205,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Skift farve, starttidspunkt og varighed for denne blok, eller slet den"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Άλλαξε το χρώμα, την ώρα έναρξης και τη διάρκεια αυτού του μπλοκ ή διέγραψέ το"
           }
         }
       }
@@ -11622,6 +12312,12 @@
             "state" : "translated",
             "value" : "Skriv, hvad du har lært i dette tidsrum, og hvad du vil huske …"
           }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Σημείωσε όσα έμαθες σε αυτό το διάστημα και όσα θέλεις να θυμάσαι…"
+          }
         }
       }
     },
@@ -11721,6 +12417,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Gå til dette spørgsmål"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Μετάβαση σε αυτή την ερώτηση"
           }
         }
       }
@@ -11822,6 +12524,12 @@
             "state" : "translated",
             "value" : "Skriv svaret på dette spørgsmål med dine egne ord"
           }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Γράψε με δικά σου λόγια την απάντηση σε αυτή την ερώτηση"
+          }
         }
       }
     },
@@ -11921,6 +12629,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Følg med på Instagram"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Νέα στο Instagram"
           }
         }
       }
@@ -12022,6 +12736,12 @@
             "state" : "translated",
             "value" : "Mindre"
           }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Μικρότερο"
+          }
         }
       }
     },
@@ -12121,6 +12841,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Oprettet %@"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Δημιουργήθηκε: %@"
           }
         }
       }
@@ -12222,6 +12948,12 @@
             "state" : "translated",
             "value" : "Gem"
           }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Αποθήκευση"
+          }
         }
       }
     },
@@ -12321,6 +13053,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Gem og fortsæt"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Αποθήκευση και συνέχεια"
           }
         }
       }
@@ -12422,6 +13160,12 @@
             "state" : "translated",
             "value" : "Udelad"
           }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Εξαίρεση"
+          }
         }
       }
     },
@@ -12521,6 +13265,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Udeladte svar"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Απαντήσεις που εξαιρέθηκαν"
           }
         }
       }
@@ -12622,6 +13372,12 @@
             "state" : "translated",
             "value" : "Nu"
           }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Τώρα"
+          }
         }
       }
     },
@@ -12721,6 +13477,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hvor jeg er nu"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Πού βρίσκομαι τώρα"
           }
         }
       }
@@ -12822,6 +13584,12 @@
             "state" : "translated",
             "value" : "Support"
           }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Υποστήριξη"
+          }
         }
       }
     },
@@ -12921,6 +13689,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Spørgsmål"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ερώτηση"
           }
         }
       }
@@ -13022,6 +13796,12 @@
             "state" : "translated",
             "value" : "Spørgsmål %lld · At spørge om %lld · Lært %lld · Opfølgende %lld"
           }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ερωτήσεις %lld · Προς ερώτηση %lld · Μαθημένα %lld · Συμπληρωματικές %lld"
+          }
         }
       }
     },
@@ -13121,6 +13901,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Åbner Spørgsmålsnoter og viser et vindue, hvor du kan skrive et spørgsmål til den forelæsning, du ser på."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ανοίγει το Σημειωματάριο Ερωτήσεων και εμφανίζει ένα παράθυρο για να γράψεις μια ερώτηση για το μάθημα που βλέπεις."
           }
         }
       }
@@ -13222,6 +14008,12 @@
             "state" : "translated",
             "value" : "Velkommen til Spørgsmålsnoter"
           }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Καλώς ήρθες στο Σημειωματάριο Ερωτήσεων"
+          }
         }
       }
     },
@@ -13321,6 +14113,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Finpuds spørgsmålet"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Βελτίωση της ερώτησης"
           }
         }
       }
@@ -13422,6 +14220,12 @@
             "state" : "translated",
             "value" : "Tilføj spørgsmål"
           }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Προσθήκη ερώτησης"
+          }
         }
       }
     },
@@ -13521,6 +14325,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tilføj spørgsmål (⌘⇧N)"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Προσθήκη ερώτησης (⌘⇧N)"
           }
         }
       }
@@ -13622,6 +14432,12 @@
             "state" : "translated",
             "value" : "Vælg et spørgsmål"
           }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Επίλεξε μια ερώτηση"
+          }
         }
       }
     },
@@ -13721,6 +14537,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Spørgsmål, du markerer som løst, samles her"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Οι ερωτήσεις που σημειώνεις ως λυμένες μαζεύονται εδώ"
           }
         }
       }
@@ -13822,6 +14644,12 @@
             "state" : "translated",
             "value" : "Nu er der samlet spørgsmål – kast et blik tilbage"
           }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Μαζεύτηκαν ερωτήσεις, ρίξε μια ματιά πίσω"
+          }
         }
       }
     },
@@ -13921,6 +14749,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Opret første forelæsning"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Δημιούργησε το πρώτο μάθημα"
           }
         }
       }
@@ -14022,6 +14856,12 @@
             "state" : "translated",
             "value" : "Zoom ud"
           }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Σμίκρυνση"
+          }
         }
       }
     },
@@ -14122,6 +14962,12 @@
             "state" : "translated",
             "value" : "Annullér"
           }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ακύρωση"
+          }
         }
       }
     },
@@ -14221,6 +15067,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Større"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Μεγαλύτερο"
           }
         }
       }
@@ -14323,6 +15175,12 @@
             "state" : "translated",
             "value" : "Skærme til stor tekst"
           }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Οθόνες για μεγάλο κείμενο"
+          }
         }
       }
     },
@@ -14422,6 +15280,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tidsblokke"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Χρονικά μπλοκ"
           }
         }
       }
@@ -14523,6 +15387,12 @@
             "state" : "translated",
             "value" : "Tilføj en ny forelæsning i forelæsningsmenuen til venstre i værktøjslinjen, eller importér en Markdown-fil med en samtale."
           }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Πρόσθεσε νέο μάθημα από το μενού μαθημάτων αριστερά στη γραμμή εργαλείων ή εισήγαγε ένα αρχείο Markdown συζήτησης."
+          }
         }
       }
     },
@@ -14622,6 +15492,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Læringsstatus"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Κατάσταση μάθησης"
           }
         }
       }
@@ -14723,6 +15599,12 @@
             "state" : "translated",
             "value" : "Hvor jeg vil være til sidst"
           }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Πού θέλω να είμαι στο τέλος"
+          }
         }
       }
     },
@@ -14822,6 +15704,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Løst"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Λυμένη"
           }
         }
       }
@@ -14923,6 +15811,12 @@
             "state" : "translated",
             "value" : "Løsningsstatus"
           }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Κατάσταση επίλυσης"
+          }
         }
       }
     },
@@ -15022,6 +15916,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Løst"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Λυμένη"
           }
         }
       }
@@ -15123,6 +16023,12 @@
             "state" : "translated",
             "value" : "Løst – klik for at markere som uløst"
           }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Λυμένη — κάνε κλικ για να τη σημειώσεις ως άλυτη"
+          }
         }
       }
     },
@@ -15223,6 +16129,12 @@
             "state" : "translated",
             "value" : "Fjern tilknytning"
           }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Αποσύνδεση"
+          }
         }
       }
     },
@@ -15322,6 +16234,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Slet nuværende forelæsning"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Διαγραφή τρέχοντος μαθήματος"
           }
         }
       }
@@ -15424,6 +16342,12 @@
             "state" : "translated",
             "value" : "VoiceOver læser alle knapper og noter op i den rigtige rækkefølge."
           }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Το VoiceOver διαβάζει κάθε κουμπί και σημείωση με τη σωστή σειρά."
+          }
         }
       }
     },
@@ -15523,6 +16447,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tilpas til vindue"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Προσαρμογή στο παράθυρο"
           }
         }
       }
@@ -15624,6 +16554,12 @@
             "state" : "translated",
             "value" : "Zoom ind"
           }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Μεγέθυνση"
+          }
         }
       }
     },
@@ -15720,6 +16656,12 @@
           }
         },
         "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OK"
+          }
+        },
+        "el" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "OK"
