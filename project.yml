@@ -54,6 +54,9 @@ targets:
       properties:
         # 수출 규정: 운영체제 암호화(HTTPS 등)만 쓴다 — 심사 때 암호화 질문을 건너뛴다
         ITSAppUsesNonExemptEncryption: false
+        # 버전·빌드 번호는 Config/Version.xcconfig 에서 온다 — 여기 비워 두면 xcodegen 이 1.0 / 1 을 박는다
+        CFBundleShortVersionString: $(MARKETING_VERSION)
+        CFBundleVersion: $(CURRENT_PROJECT_VERSION)
         CFBundleName: 질문 노트
         CFBundleDisplayName: 질문 노트
         LSMinimumSystemVersion: "14.0"
