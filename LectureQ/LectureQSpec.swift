@@ -26,11 +26,11 @@ enum LectureQSpec: LeeoAppSpec {
 
     /// 지원·개인정보 페이지 (README.md, docs/).
     static let legal = LeeoLegalConfig(
-        privacyURL: URL(string: "https://m1zz.github.io/LectureQ/privacy.html")!,
-        supportURL: URL(string: "https://m1zz.github.io/LectureQ/support.html")!,
+        privacyURL: SiteURL.page("privacy.html"),
+        supportURL: SiteURL.page("support.html"),
         // 계정을 만들지 않는다 — 데이터는 이 맥에만 있다.
         createsAccounts: false,
-        marketingURL: URL(string: "https://m1zz.github.io/LectureQ/")
+        marketingURL: SiteURL.page("")
     )
 
     /// 인앱 결제 없음.

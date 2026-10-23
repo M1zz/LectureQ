@@ -1,0 +1,626 @@
+{
+  "ko": [
+    [
+      "강의 중 떠오른 질문, 흘려보내지 마세요",
+      "질문 · 시간별 메모 · 내 말로 정리한 답을 한 화면에"
+    ],
+    [
+      "떠오른 순간, 단축키 한 번으로 기록",
+      "강의 시점이 자동으로 찍혀 타임블록에 자리를 잡아요"
+    ],
+    [
+      "강의가 끝나면 던질 질문과 배운 점만 남아요",
+      "해결한 질문의 답이 그대로 복습 노트가 됩니다"
+    ],
+    [
+      "원질문에서 꼬리질문까지 한눈에",
+      "생각이 어디서 어디로 뻗어갔는지 그래프로 확인하세요"
+    ],
+    [
+      "시간 블록 위에 질문이 쌓여요",
+      "언제 무엇을 배웠고 어디서 막혔는지 시간순으로"
+    ],
+    [
+      "듣기 전에, 무엇을 배우고 싶은지 먼저",
+      "지금의 나와 강의를 마친 나를 적어두고 비교해 보세요"
+    ]
+  ],
+  "en": [
+    [
+      "Don't let lecture questions slip away",
+      "Questions, timed notes and your own answers in one view"
+    ],
+    [
+      "One shortcut, the moment it hits you",
+      "Stamped with the lecture time and placed in its time block"
+    ],
+    [
+      "End class with questions and takeaways",
+      "Answers to solved questions become your review notes"
+    ],
+    [
+      "From first question to every follow-up",
+      "See in a graph where your thinking branched out"
+    ],
+    [
+      "Questions stacked on your time blocks",
+      "When you learned what, and where you got stuck, in order"
+    ],
+    [
+      "Before you listen, know what to learn",
+      "Describe yourself now and after the lecture, then compare"
+    ]
+  ],
+  "en-GB": [
+    [
+      "Don't let lecture questions slip away",
+      "Questions, timed notes and your own answers in one view"
+    ],
+    [
+      "One shortcut, the moment it hits you",
+      "Stamped with the lecture time and placed in its time block"
+    ],
+    [
+      "End lectures with questions and lessons",
+      "Answers to solved questions become your revision notes"
+    ],
+    [
+      "From first question to every follow-up",
+      "See in a graph where your thinking branched out"
+    ],
+    [
+      "Questions stacked on your time blocks",
+      "When you learnt what, and where you got stuck, in order"
+    ],
+    [
+      "Before you listen, know what to learn",
+      "Describe yourself now and after the lecture, then compare"
+    ]
+  ],
+  "zh-Hans": [
+    [
+      "听课时的疑问，别让它溜走",
+      "问题、分时段笔记和自己总结的答案，同屏呈现"
+    ],
+    [
+      "灵光一现，一个快捷键记下",
+      "自动记录听课时间点，归入对应的时间块"
+    ],
+    [
+      "下课后，只留下待提问题和收获",
+      "已解决问题的答案，直接变成复习笔记"
+    ],
+    [
+      "从原问题到追问，一目了然",
+      "用关系图看清思路从哪里延伸到哪里"
+    ],
+    [
+      "问题叠放在时间块上",
+      "按时间顺序回顾何时学了什么、卡在哪里"
+    ],
+    [
+      "听课前，先想好要学什么",
+      "写下现在的自己和学完后的自己，对比看看"
+    ]
+  ],
+  "zh-Hant": [
+    [
+      "上課時的疑問，別讓它溜走",
+      "問題、分時段筆記與自己整理的答案，同一畫面"
+    ],
+    [
+      "靈光一閃，一個快速鍵記下",
+      "自動記錄上課時間點，放進對應的時間區塊"
+    ],
+    [
+      "下課後，只留下想問的與學到的",
+      "已解決問題的答案，直接成為複習筆記"
+    ],
+    [
+      "從原問題到追問，一目瞭然",
+      "用關係圖看清思路從哪裡延伸到哪裡"
+    ],
+    [
+      "問題疊放在時間區塊上",
+      "依時間順序回顧何時學了什麼、卡在哪裡"
+    ],
+    [
+      "上課前，先想好想學什麼",
+      "寫下現在的自己與上完課的自己，比較看看"
+    ]
+  ],
+  "ja": [
+    [
+      "講義中の疑問を、流さずに残そう",
+      "質問・時間ごとのメモ・自分の言葉の答えを一画面に"
+    ],
+    [
+      "ひらめいた瞬間、ショートカット一つで",
+      "講義の時刻が自動で入り、タイムブロックに収まります"
+    ],
+    [
+      "講義のあとは、聞きたいことと学びだけ",
+      "解決した質問の答えが、そのまま復習ノートに"
+    ],
+    [
+      "元の質問から追加の質問まで一目で",
+      "考えがどこからどこへ広がったか、グラフで確認"
+    ],
+    [
+      "タイムブロックに質問が積み重なる",
+      "いつ何を学び、どこでつまずいたかを時系列で"
+    ],
+    [
+      "聞く前に、学びたいことを先に",
+      "今の自分と講義後の自分を書いて比べてみよう"
+    ]
+  ],
+  "ru": [
+    [
+      "Не упускайте вопросы с лекций",
+      "Вопросы, заметки по времени и ваши ответы на одном экране"
+    ],
+    [
+      "Мысль пришла — одно сочетание клавиш",
+      "Время лекции ставится само, вопрос попадает в свой блок"
+    ],
+    [
+      "После лекции — только вопросы и выводы",
+      "Ответы на решённые вопросы становятся конспектом"
+    ],
+    [
+      "От исходного вопроса до уточняющих",
+      "На графе видно, куда разветвлялись ваши мысли"
+    ],
+    [
+      "Вопросы ложатся на блоки времени",
+      "Что и когда вы узнали, где застряли — по порядку"
+    ],
+    [
+      "Сначала решите, чему хотите научиться",
+      "Опишите себя до и после лекции и сравните"
+    ]
+  ],
+  "es": [
+    [
+      "No dejes escapar tus dudas de clase",
+      "Preguntas, notas por hora y tus respuestas en una pantalla"
+    ],
+    [
+      "Cuando surge, un atajo y listo",
+      "Se marca la hora de la clase y va a su bloque de tiempo"
+    ],
+    [
+      "Al acabar, solo dudas y aprendizajes",
+      "Las respuestas resueltas se vuelven tus apuntes de repaso"
+    ],
+    [
+      "Tus preguntas y sus ramas, a la vista",
+      "Mira en un gráfico hacia dónde se ramificó tu idea"
+    ],
+    [
+      "Tus preguntas, sobre bloques de tiempo",
+      "Qué aprendiste, cuándo y dónde te atascaste, en orden"
+    ],
+    [
+      "Antes de clase, decide qué aprender",
+      "Escribe cómo estás ahora y cómo quieres acabar, y compara"
+    ]
+  ],
+  "de": [
+    [
+      "Fragen aus der Vorlesung festhalten",
+      "Fragen, Zeitnotizen und eigene Antworten in einer Ansicht"
+    ],
+    [
+      "Ein Kürzel, sobald die Frage auftaucht",
+      "Mit Zeitpunkt der Vorlesung, direkt im passenden Zeitblock"
+    ],
+    [
+      "Am Ende: offene Fragen und Gelerntes",
+      "Antworten auf gelöste Fragen werden zu deinen Lernnotizen"
+    ],
+    [
+      "Von der Ursprungsfrage zu Folgefragen",
+      "Im Graph siehst du, wohin sich deine Gedanken verzweigten"
+    ],
+    [
+      "Fragen, gestapelt auf Zeitblöcken",
+      "Was du wann gelernt hast und wo du hängen geblieben bist"
+    ],
+    [
+      "Vorher klären: Was willst du lernen?",
+      "Notiere, wo du stehst und wo du hinwillst – und vergleiche"
+    ]
+  ],
+  "fr": [
+    [
+      "Ne laissez plus filer vos questions",
+      "Questions, notes par horaire et vos réponses au même endroit"
+    ],
+    [
+      "Une idée ? Un raccourci, c’est noté",
+      "L’heure du cours s’ajoute et la question rejoint son bloc"
+    ],
+    [
+      "Après le cours : questions et acquis",
+      "Les réponses trouvées deviennent vos fiches de révision"
+    ],
+    [
+      "De la question d’origine à ses suites",
+      "Un graphe montre où votre réflexion s’est ramifiée"
+    ],
+    [
+      "Vos questions sur des blocs horaires",
+      "Ce que vous avez appris, quand, et où vous avez bloqué"
+    ],
+    [
+      "D’abord, ce que vous voulez apprendre",
+      "Décrivez-vous avant et après le cours, puis comparez"
+    ]
+  ],
+  "it": [
+    [
+      "Non perdere i dubbi della lezione",
+      "Domande, appunti per orario e tue risposte in un’unica vista"
+    ],
+    [
+      "Ti viene in mente? Una scorciatoia",
+      "L’orario della lezione si segna da solo, nel blocco giusto"
+    ],
+    [
+      "Fine lezione: dubbi e cose imparate",
+      "Le risposte ai dubbi risolti diventano appunti di ripasso"
+    ],
+    [
+      "Dalla domanda originale a ogni sviluppo",
+      "Un grafico mostra dove si è diramato il tuo ragionamento"
+    ],
+    [
+      "Le domande sui tuoi blocchi orari",
+      "Cosa hai imparato, quando e dove ti sei bloccato, in ordine"
+    ],
+    [
+      "Prima di ascoltare, cosa vuoi imparare",
+      "Scrivi come sei ora e come vuoi uscirne, poi confronta"
+    ]
+  ],
+  "pt-BR": [
+    [
+      "Não deixe as dúvidas da aula escaparem",
+      "Perguntas, notas por horário e suas respostas numa só tela"
+    ],
+    [
+      "Surgiu a dúvida? Um atalho e pronto",
+      "O horário da aula é marcado e vai para o bloco de tempo"
+    ],
+    [
+      "Fim de aula: dúvidas e aprendizados",
+      "As respostas das dúvidas resolvidas viram notas de revisão"
+    ],
+    [
+      "Da dúvida original aos desdobramentos",
+      "Veja num gráfico para onde seu raciocínio se ramificou"
+    ],
+    [
+      "Perguntas sobre blocos de tempo",
+      "O que aprendeu, quando e onde travou, em ordem"
+    ],
+    [
+      "Antes da aula, defina o que aprender",
+      "Descreva você agora e depois da aula, e compare"
+    ]
+  ],
+  "th": [
+    [
+      "อย่าปล่อยคำถามในคลาสหลุดหาย",
+      "คำถาม บันทึกตามเวลา และคำตอบในแบบของคุณ ในหน้าเดียว"
+    ],
+    [
+      "นึกได้ปุ๊บ กดคีย์ลัดเดียวจดทันที",
+      "บันทึกเวลาของคลาสให้อัตโนมัติ แล้ววางลงในช่วงเวลา"
+    ],
+    [
+      "จบคลาส เหลือแค่คำถามกับสิ่งที่ได้เรียน",
+      "คำตอบของคำถามที่เคลียร์แล้ว กลายเป็นโน้ตทบทวน"
+    ],
+    [
+      "จากคำถามตั้งต้นถึงคำถามต่อยอด",
+      "ดูเป็นกราฟว่าความคิดแตกแขนงไปทางไหน"
+    ],
+    [
+      "คำถามเรียงซ้อนบนช่วงเวลา",
+      "เรียนอะไรเมื่อไร ติดตรงไหน ไล่ดูตามเวลา"
+    ],
+    [
+      "ก่อนเรียน ตั้งใจก่อนว่าอยากรู้อะไร",
+      "เขียนตัวเองตอนนี้กับหลังเรียนจบ แล้วลองเทียบกัน"
+    ]
+  ],
+  "vi": [
+    [
+      "Đừng để câu hỏi trong giờ học trôi mất",
+      "Câu hỏi, ghi chú theo giờ và lời giải của bạn chung một chỗ"
+    ],
+    [
+      "Chợt nghĩ ra, một phím tắt là xong",
+      "Tự ghi thời điểm của buổi học và xếp vào khối thời gian"
+    ],
+    [
+      "Hết buổi, còn câu hỏi và điều đã học",
+      "Đáp án của câu hỏi đã giải trở thành ghi chú ôn tập"
+    ],
+    [
+      "Từ câu hỏi gốc đến câu hỏi nối tiếp",
+      "Xem trên đồ thị suy nghĩ đã rẽ nhánh đi đâu"
+    ],
+    [
+      "Câu hỏi xếp lên khối thời gian",
+      "Học gì lúc nào, vướng ở đâu, theo thứ tự thời gian"
+    ],
+    [
+      "Trước buổi học, xác định điều muốn học",
+      "Ghi lại bạn bây giờ và sau buổi học, rồi so sánh"
+    ]
+  ],
+  "cs": [
+    [
+      "Otázky z přednášky už neztratíte",
+      "Otázky, poznámky podle času a vaše odpovědi na jednom místě"
+    ],
+    [
+      "Napadne vás to? Jedna zkratka stačí",
+      "Čas přednášky se zapíše sám a otázka se zařadí do bloku"
+    ],
+    [
+      "Po přednášce zbudou otázky a poznatky",
+      "Odpovědi na vyřešené otázky se stanou poznámkami k opakování"
+    ],
+    [
+      "Od původní otázky k doplňujícím",
+      "V grafu uvidíte, kam se vaše myšlenky rozvětvily"
+    ],
+    [
+      "Otázky na časových blocích",
+      "Co jste se kdy naučili a kde jste se zasekli, v pořadí"
+    ],
+    [
+      "Nejdřív: co se chcete naučit?",
+      "Popište sebe teď a po přednášce a porovnejte"
+    ]
+  ],
+  "da": [
+    [
+      "Hold fast i spørgsmålene fra timen",
+      "Spørgsmål, noter efter tid og dine egne svar i ét vindue"
+    ],
+    [
+      "Én genvej, i det øjeblik det slår dig",
+      "Tidspunktet registreres og havner i den rette tidsblok"
+    ],
+    [
+      "Efter timen: åbne spørgsmål og læring",
+      "Svarene på løste spørgsmål bliver dine repetitionsnoter"
+    ],
+    [
+      "Fra første spørgsmål til opfølgning",
+      "Se i en graf, hvor dine tanker forgrenede sig"
+    ],
+    [
+      "Spørgsmål stablet på dine tidsblokke",
+      "Hvad du lærte hvornår, og hvor du gik i stå, i rækkefølge"
+    ],
+    [
+      "Før du lytter: hvad vil du lære?",
+      "Skriv, hvor du står nu og efter forelæsningen, og sammenlign"
+    ]
+  ],
+  "el": [
+    [
+      "Μην αφήνεις τις απορίες να χάνονται",
+      "Ερωτήσεις, σημειώσεις ανά ώρα και οι απαντήσεις σου μαζί"
+    ],
+    [
+      "Σου ήρθε; Μία συντόμευση αρκεί",
+      "Η ώρα της διάλεξης μπαίνει μόνη της στο σωστό μπλοκ"
+    ],
+    [
+      "Στο τέλος μένουν απορίες και γνώσεις",
+      "Οι απαντήσεις γίνονται σημειώσεις για επανάληψη"
+    ],
+    [
+      "Από την αρχική ερώτηση στις επόμενες",
+      "Δες σε γράφημα πού διακλαδίστηκε η σκέψη σου"
+    ],
+    [
+      "Ερωτήσεις πάνω στα χρονικά μπλοκ",
+      "Τι έμαθες, πότε και πού κόλλησες, με τη σειρά"
+    ],
+    [
+      "Πριν ακούσεις, τι θέλεις να μάθεις;",
+      "Γράψε πού είσαι τώρα και πού μετά, και σύγκρινε"
+    ]
+  ],
+  "fi": [
+    [
+      "Älä päästä luennon kysymyksiä karkuun",
+      "Kysymykset, aikaleimatut muistiinpanot ja omat vastauksesi"
+    ],
+    [
+      "Kun idea iskee, yksi pikanäppäin",
+      "Luennon ajankohta tallentuu ja kysymys osuu aikalohkoonsa"
+    ],
+    [
+      "Luennon jälkeen jää kysymykset ja opit",
+      "Vastatuista kysymyksistä tulee kertausmuistiinpanot"
+    ],
+    [
+      "Alkuperäisestä kysymyksestä jatkoon",
+      "Näe kaaviosta, mihin ajatuksesi haarautuivat"
+    ],
+    [
+      "Kysymykset kertyvät aikalohkoihin",
+      "Mitä opit milloinkin ja missä jumiuduit, aikajärjestyksessä"
+    ],
+    [
+      "Ennen luentoa: mitä haluat oppia?",
+      "Kirjoita, missä olet nyt ja luennon jälkeen, ja vertaa"
+    ]
+  ],
+  "id": [
+    [
+      "Pertanyaan saat kuliah tak lagi hilang",
+      "Pertanyaan, catatan per waktu, dan jawabanmu di satu layar"
+    ],
+    [
+      "Terlintas? Cukup satu pintasan",
+      "Waktu kuliah tercatat otomatis dan masuk ke blok waktunya"
+    ],
+    [
+      "Usai kuliah: pertanyaan dan ilmu baru",
+      "Jawaban pertanyaan yang tuntas jadi catatan untuk mengulang"
+    ],
+    [
+      "Dari pertanyaan asli ke lanjutannya",
+      "Lihat di grafik ke mana alur pikiranmu bercabang"
+    ],
+    [
+      "Pertanyaan tersusun di blok waktu",
+      "Apa yang dipelajari kapan dan di mana kamu macet, berurutan"
+    ],
+    [
+      "Tentukan dulu apa yang ingin dipelajari",
+      "Tulis kondisimu sekarang dan setelah kuliah, lalu bandingkan"
+    ]
+  ],
+  "nb": [
+    [
+      "Ikke la spørsmål fra timen forsvinne",
+      "Spørsmål, notater etter tid og egne svar i ett vindu"
+    ],
+    [
+      "Kom på noe? Én snarvei holder",
+      "Tidspunktet registreres og havner i riktig tidsblokk"
+    ],
+    [
+      "Etter timen: åpne spørsmål og læring",
+      "Svarene på løste spørsmål blir repetisjonsnotatene dine"
+    ],
+    [
+      "Fra første spørsmål til oppfølging",
+      "Se i en graf hvor tankene dine forgrenet seg"
+    ],
+    [
+      "Spørsmål stablet på tidsblokkene",
+      "Hva du lærte når, og hvor du stod fast, i rekkefølge"
+    ],
+    [
+      "Før du lytter: hva vil du lære?",
+      "Skriv hvor du står nå og etter forelesningen, og sammenlign"
+    ]
+  ],
+  "nl": [
+    [
+      "Laat geen collegevraag meer ontglippen",
+      "Vragen, notities per tijdstip en je eigen antwoorden samen"
+    ],
+    [
+      "Eén sneltoets, zodra de vraag opkomt",
+      "Het tijdstip wordt vastgelegd en de vraag komt in zijn blok"
+    ],
+    [
+      "Na afloop: open vragen en inzichten",
+      "Antwoorden op opgeloste vragen worden je samenvatting"
+    ],
+    [
+      "Van eerste vraag tot vervolgvragen",
+      "Zie in een graaf waar je gedachten zich vertakten"
+    ],
+    [
+      "Vragen gestapeld op je tijdblokken",
+      "Wat je wanneer leerde en waar je vastliep, op volgorde"
+    ],
+    [
+      "Vóór het college: wat wil je leren?",
+      "Beschrijf jezelf nu en na het college, en vergelijk"
+    ]
+  ],
+  "pl": [
+    [
+      "Nie gub pytań z wykładu",
+      "Pytania, notatki z czasem i twoje odpowiedzi razem"
+    ],
+    [
+      "Wpadło ci do głowy? Jeden skrót",
+      "Czas wykładu zapisuje się sam, pytanie trafia do bloku"
+    ],
+    [
+      "Po wykładzie zostają pytania i wnioski",
+      "Odpowiedzi na rozwiązane pytania stają się notatkami"
+    ],
+    [
+      "Od pytania wyjściowego do kolejnych",
+      "Na grafie widać, dokąd rozgałęziły się twoje myśli"
+    ],
+    [
+      "Pytania na blokach czasu",
+      "Chronologicznie: co i kiedy, gdzie pojawiły się trudności"
+    ],
+    [
+      "Najpierw: czego chcesz się nauczyć?",
+      "Opisz siebie teraz i po wykładzie, a potem porównaj"
+    ]
+  ],
+  "sv": [
+    [
+      "Släpp aldrig en fråga från lektionen",
+      "Frågor, anteckningar per tid och egna svar i ett fönster"
+    ],
+    [
+      "En genväg i samma stund som du undrar",
+      "Tidpunkten sparas och frågan hamnar i rätt tidsblock"
+    ],
+    [
+      "Efteråt: öppna frågor och lärdomar",
+      "Svaren på lösta frågor blir dina repetitionsanteckningar"
+    ],
+    [
+      "Från första fråga till följdfrågor",
+      "Se i en graf var dina tankar grenade ut sig"
+    ],
+    [
+      "Frågor staplade på dina tidsblock",
+      "Vad du lärde dig när, och var du fastnade, i ordning"
+    ],
+    [
+      "Innan du lyssnar: vad vill du lära dig?",
+      "Skriv var du står nu och efter föreläsningen, och jämför"
+    ]
+  ],
+  "tr": [
+    [
+      "Dersteki soruları kaçırmayın",
+      "Sorular, saatli notlar ve kendi cevaplarınız tek ekranda"
+    ],
+    [
+      "Aklınıza geldiği an, tek kısayol",
+      "Dersin anı otomatik işlenir, soru zaman bloğuna yerleşir"
+    ],
+    [
+      "Geriye sorular ve öğrendikleriniz kalır",
+      "Çözülen soruların cevapları tekrar notunuz olur"
+    ],
+    [
+      "Asıl sorudan devam sorularına",
+      "Düşüncenizin nereye dallandığını grafikte görün"
+    ],
+    [
+      "Sorular zaman bloklarında birikir",
+      "Ne zaman ne öğrendiniz, nerede takıldınız, sırayla"
+    ],
+    [
+      "Önce ne öğrenmek istediğinizi yazın",
+      "Şimdiki halinizi ve ders sonrasını yazıp karşılaştırın"
+    ]
+  ]
+}

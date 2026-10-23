@@ -127,9 +127,7 @@ struct QuestionDetailView: View {
                     .disabled(p.unavailableReason(for: question) != nil)
             }
             Divider()
-            if let guide = URL(string: "https://m1zz.github.io/LectureQ/ai-guide.html") {
-                Link("가이드 열기", destination: guide)
-            }
+            Link("가이드 열기", destination: SiteURL.page("ai-guide.html"))
         }
         .menuStyle(.borderlessButton)
         .fixedSize()

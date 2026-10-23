@@ -296,9 +296,7 @@ struct ContentView: View {
 
             Divider()
 
-            if let guide = URL(string: "https://m1zz.github.io/LectureQ/ai-guide.html") {
-                Link("AI로 답 찾기 가이드", destination: guide)
-            }
+            Link("AI로 답 찾기 가이드", destination: SiteURL.page("ai-guide.html"))
         }
         .help("요약·그래프·타임블록·학습 상태·글씨 크기")
         .popoverTip(reviewTip, arrowEdge: .top)

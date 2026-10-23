@@ -1,9 +1,11 @@
 #!/usr/bin/env python3
 """앱스토어(Mac) 스크린샷 합성: 배경 그라데이션 + 문구 + 앱 창 캡처 → 2880×1800 PNG.
 
-usage: python3 compose.py <raw_dir> <out_dir>
+usage: python3 compose.py <raw_dir> <out_dir> [locale]
+locale 을 주면 appstore/captions.json 의 그 언어 문구와 그 언어 글꼴을 쓴다 (기본 ko).
 raw_dir 에는 capture.sh 가 만든 <screen>.png (창 캡처, 투명 모서리) 가 있어야 한다.
 """
+import json
 import os
 import sys
 
@@ -28,6 +30,17 @@ SHOTS = [
     ("06", "state", "듣기 전에, 무엇을 배우고 싶은지 먼저",
      "지금의 나와 강의를 마친 나를 적어두고 비교해 보세요"),
 ]
+
+CAPTIONS = os.path.join(os.path.dirname(os.path.abspath(__file__)), "captions.json")
+
+PINGFANG = "/System/Library/AssetsV2/com_apple_MobileAsset_Font8/86ba2c91f017a3749571a82f2c6d890ac7ffb2fb.asset/AssetData/PingFang.ttc"
+# 언어별 (제목 글꼴, 부제 글꼴) — (경로, ttc 인덱스). 없으면 Pretendard(라틴·키릴·그리스·한글).
+SCRIPT_FONTS = {
+    "ja": (("/System/Library/Fonts/ヒラギノ角ゴシック W7.ttc", 0), ("/System/Library/Fonts/ヒラギノ角ゴシック W5.ttc", 0)),
+    "zh-Hans": ((PINGFANG, 11), (PINGFANG, 7)),
+    "zh-Hant": ((PINGFANG, 10), (PINGFANG, 6)),
+    "th": (("/System/Library/Fonts/Supplemental/SukhumvitSet.ttc", 5), ("/System/Library/Fonts/Supplemental/SukhumvitSet.ttc", 3)),
+}
 
 FONT_DIRS = [os.path.expanduser("~/Library/Fonts"), "/Library/Fonts"]
 
@@ -67,12 +80,35 @@ def centered(draw, y, text, fnt, fill):
     return y + (b - t)
 
 
-def compose(raw_dir, out_dir):
-    os.makedirs(out_dir, exist_ok=True)
-    title_font = font("Pretendard-Bold.otf", 108)
-    sub_font = font("Pretendard-Medium.otf", 50)
+def fit(draw, text, make, size, max_w=2640):
+    """한 줄에 들어갈 때까지 글자 크기를 줄인다."""
+    while size > 40:
+        f = make(size)
+        l, _, r, _ = draw.textbbox((0, 0), text, font=f)
+        if r - l <= max_w:
+            return f
+        size -= 4
+    return make(size)
 
-    for num, screen, title, subtitle in SHOTS:
+
+def compose(raw_dir, out_dir, locale="ko"):
+    os.makedirs(out_dir, exist_ok=True)
+    shots = SHOTS
+    if locale != "ko":
+        caps = json.load(open(CAPTIONS, encoding="utf-8"))[locale]
+        shots = [(n, sc, t, st) for (n, sc, _, _), (t, st) in zip(SHOTS, caps)]
+    if locale in SCRIPT_FONTS:
+        (tp, ti), (sp, si) = SCRIPT_FONTS[locale]
+        make_title = lambda z: ImageFont.truetype(tp, z, index=ti)
+        make_sub = lambda z: ImageFont.truetype(sp, z, index=si)
+    else:
+        make_title = lambda z: font("Pretendard-Bold.otf", z)
+        make_sub = lambda z: font("Pretendard-Medium.otf", z)
+    probe = ImageDraw.Draw(Image.new("RGB", (W, H)))
+
+    for num, screen, title, subtitle in shots:
+        title_font = fit(probe, title, make_title, 108)
+        sub_font = fit(probe, subtitle, make_sub, 50)
         src = os.path.join(raw_dir, f"{screen}.png")
         if not os.path.exists(src):
             print(f"skip {screen} (no capture)")
@@ -102,4 +138,4 @@ def compose(raw_dir, out_dir):
 
 
 if __name__ == "__main__":
-    compose(sys.argv[1], sys.argv[2])
+    compose(sys.argv[1], sys.argv[2], sys.argv[3] if len(sys.argv) > 3 else "ko")
