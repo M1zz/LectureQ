@@ -6,6 +6,8 @@
 #
 # ⚠️ CODE_SIGNING_ALLOWED=NO 로 빠르게 만들지 말 것 — entitlements(샌드박스)가 빠진 빌드는 배포 경로를 대변하지 못한다.
 set -e
+# DeployBar 가 돌릴 때는 로그인 셸 PATH 가 없어 Homebrew 도구(xcodegen)를 못 찾는다.
+export PATH="/opt/homebrew/bin:/usr/local/bin:$PATH"
 ROOT="$(git rev-parse --show-toplevel 2>/dev/null || pwd)"
 cd "$ROOT"
 
