@@ -5737,7 +5737,7 @@
         "fi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Arvioita vastaukseni"
+            "value" : "Pyydä arvio vastauksestani"
           }
         },
         "id" : {
@@ -11035,7 +11035,7 @@
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Excluir de “O que aprendi” (a resposta continua)"
+            "value" : "Tirar de “O que aprendi” (a resposta continua)"
           }
         },
         "th" : {
@@ -18300,7 +18300,7 @@
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Excluir"
+            "value" : "Tirar"
           }
         },
         "th" : {
