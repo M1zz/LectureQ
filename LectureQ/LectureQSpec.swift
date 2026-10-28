@@ -35,4 +35,7 @@ enum LectureQSpec: LeeoAppSpec {
 
     /// 인앱 결제 없음.
     static let monetization = LeeoMonetization.free
+
+    /// App Store 앱 ID — 리뷰 링크 · 친구에게 소개하기에 쓴다.
+    static var appStoreID: String? { "6794597095" }
 }

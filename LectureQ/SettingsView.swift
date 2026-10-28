@@ -16,6 +16,7 @@ struct SettingsView: View {
 
                 Section {
                     NavigationLink(LeeoRoadmapText.entry) { RoadmapScreen() }
+                    LeeoShareAppLink<LectureQSpec>()
                 }
 
                 Section {
