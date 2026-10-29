@@ -37,6 +37,7 @@ struct LectureQApp: App {
             ContentView()
                 .frame(minWidth: 960, minHeight: 600)
                 .satisfactionCheckIfEnabled()
+                .task { await LectureQTip.tipJar.startStandalone() }
         }
         .modelContainer(container)
 

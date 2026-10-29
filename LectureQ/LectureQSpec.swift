@@ -39,3 +39,28 @@ enum LectureQSpec: LeeoAppSpec {
     /// App Store 앱 ID — 리뷰 링크 · 친구에게 소개하기에 쓴다.
     static var appStoreID: String? { "6794597095" }
 }
+
+// MARK: - 팁 (개발자 응원하기)
+
+/// 무료 앱이라 LeeoStore 가 없다. 팁 엔진을 여기 하나 두고, 앱을 열 때 `startStandalone()` 을 부른다.
+@MainActor
+enum LectureQTip {
+    static let tipJar = LeeoTipJar(config: LeeoTipJarConfig(productIDs: [
+        "com.lectureq.LectureQ.tip.small",
+        "com.lectureq.LectureQ.tip.medium",
+        "com.lectureq.LectureQ.tip.large",
+    ]))
+}
+
+/// 팁을 부탁할 만한 순간 — 지금까지 강의에서 남긴 질문 수. 큰 것부터.
+enum LectureQTipMoments {
+    static let questions = [500, 150, 50]
+
+    static func reached(questionCount n: Int) -> [LeeoTipMoment] {
+        questions.filter { n >= $0 }.map { threshold in
+            LeeoTipMoment(id: "questions.\(threshold)",
+                          message: String(localized: "지금까지 강의에서 질문 \(n)개를 남겼어요",
+                                          comment: "Tip ask card: how many lecture questions the person has written so far"))
+        }
+    }
+}

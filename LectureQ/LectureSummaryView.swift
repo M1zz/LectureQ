@@ -1,10 +1,13 @@
 import SwiftUI
 import SwiftData
+import LeeoKit
 
 /// 한 강의를 한눈에: 던질 질문(미해결) + 배운 점(해결됨) + 메모를 요약해 보여준다.
 struct LectureSummaryView: View {
     let lecture: Lecture
     @Environment(\.dismiss) private var dismiss
+    /// 응원 부탁 카드가 세는 것 — 모든 강의에 남긴 질문.
+    @Query private var allQuestions: [Question]
 
     private var questions: [Question] {
         lecture.questions.sorted { $0.createdAt < $1.createdAt }
@@ -25,6 +28,9 @@ struct LectureSummaryView: View {
                     Text("질문 \(questions.count) · 던질 질문 \(toAsk.count) · 배운 점 \(learned.count) · 꼬리질문 \(followUps)")
                         .scaledFont(.callout)
                         .foregroundStyle(.secondary)
+                    // 응원 부탁 — 질문을 꽤 쌓아 온 사람에게, 드물게(강의를 마치고 돌아보는 자리)
+                    LeeoTipAskSlot<LectureQSpec>(tipJar: LectureQTip.tipJar,
+                                                 reached: LectureQTipMoments.reached(questionCount: allQuestions.count))
                     if !combinedNotes.isEmpty {
                         notesSection
                     }
