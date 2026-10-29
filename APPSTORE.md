@@ -1594,7 +1594,6 @@ https://m1zz.github.io/LectureQ/tr/
 ### Mac
 voiceOver
 voiceControl
-largerText
 darkInterface
 differentiateWithoutColor
 sufficientContrast
