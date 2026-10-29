@@ -1,0 +1,233 @@
+{
+  "title": "LectureQ: catat pertanyaan yang muncul saat kuliah, untuk Mac",
+  "description": "Catat pertanyaan dengan satu pintasan tanpa ketinggalan materi. Pertanyaan tetap di samping catatan saat itu sampai terjawab. Semua fitur gratis.",
+  "hero": {
+    "headline": "Jangan biarkan pertanyaan\nsaat kuliah hilang begitu saja",
+    "lead": "Tekan `⌘⇧N`, ketik satu baris, dan pertanyaanmu tersimpan di samping catatan menit itu juga. Kamu tetap menyimak, jawabannya dicari nanti.",
+    "cta": "Unduh gratis di App Store",
+    "note": "Untuk macOS 14 atau lebih baru. Tanpa akun, semuanya tetap di Mac ini."
+  },
+  "demo": {
+    "title": "Coba di sini",
+    "lead": "Kamu sedang mengikuti kuliah machine learning. Tulis pertanyaan lalu simpan: tanda ? muncul di samping blok jam itu. Ubah jamnya ke luar blok, dan blok baru akan dibuat untuk menampungnya.",
+    "note": "Demo ini mengikuti aturan yang sama dengan aplikasinya. Apa pun yang kamu ketik di sini tidak disimpan.",
+    "lecture": "ML 3 · Gradient Descent",
+    "b1": "Fungsi loss = mengukur seberapa salah prediksinya\nGradient descent: bergerak sedikit demi sedikit berlawanan arah gradien\n  w ← w − η · ∂L/∂w\n\nLearning rate η besar: divergen, kecil: terlalu lambat\n→ biasanya mulai sekitar 0,01 lalu disesuaikan sambil melihat kurva loss",
+    "b2": "Mini-batch: memperkirakan gradien dari sebagian data, bukan semuanya\nEpoch = melihat seluruh data satu kali\n\nTugas: bandingkan kurva loss dengan 3 learning rate",
+    "draft": "Bagaimana tahu kapan validation loss mulai naik?",
+    "qs": [
+      [
+        "10:12",
+        "Kenapa loss berkurang kalau bergerak berlawanan arah gradien?",
+        1,
+        1
+      ],
+      [
+        "10:18",
+        "Seberapa besar satu langkah seharusnya? Siapa yang menentukan learning rate?",
+        1,
+        1
+      ],
+      [
+        "10:41",
+        "Apakah learning rate juga diubah di tengah training?",
+        0,
+        0
+      ],
+      [
+        "10:26",
+        "Kalau lembahnya banyak, bukannya titik terendah bisa tidak ketemu?",
+        0,
+        0
+      ],
+      [
+        "10:50",
+        "Apakah fungsi loss harus selalu squared error?",
+        1,
+        1
+      ],
+      [
+        "11:22",
+        "Bagaimana cara memilih ukuran mini-batch?",
+        0,
+        0
+      ],
+      [
+        "11:35",
+        "Kalau batch kecil gradiennya goyang, apa tidak masalah?",
+        0,
+        1
+      ],
+      [
+        "11:48",
+        "Apa yang terjadi kalau epoch-nya terlalu banyak?",
+        1,
+        1
+      ]
+    ],
+    "ph": "Tulis apa yang kamu pikirkan dengan kata-kata paling sederhana…",
+    "time": "Waktu",
+    "now": "Sekarang",
+    "save": "Simpan",
+    "add": "Tambah Pertanyaan",
+    "resolved": "Terjawab",
+    "unresolved": "Belum terjawab"
+  },
+  "problem": {
+    "title": "Begitu kuliah selesai, masih ingat pertanyaanmu?",
+    "text": "Baru saja kamu berpikir \"eh, kenapa begitu?\", dosen sudah pindah ke materi berikutnya. Tanda tanya di pinggir catatan lupa berasal dari penjelasan yang mana, dan pertanyaannya tak pernah terjawab. LectureQ menyematkan setiap pertanyaan ke catatan saat itu dan menjaganya tetap terlihat sampai kamu memahaminya."
+  },
+  "features": [
+    {
+      "title": "Bertanya tanpa ketinggalan kalimat berikutnya",
+      "text": "Buka jendela isian lewat `Tambah Pertanyaan` di bilah alat atau `⌘⇧N`. Jamnya terisi sendiri. `Return` menyimpan, `⌘Return` menyimpan sekaligus menyiapkan pertanyaan berikutnya.\nSetiap pertanyaan tampil sebagai ? di samping blok waktunya, jadi nanti kamu langsung tahu dari bagian kuliah mana pertanyaan itu muncul.",
+      "shot": "capture"
+    },
+    {
+      "title": "Pertanyaan yang terjawab jadi ilmu",
+      "text": "Tulis jawabannya dengan kata-katamu sendiri, tandai terjawab, dan pertanyaan itu masuk ke Yang Sudah Kupelajari di ringkasan. Yang masih terbuka tetap di Pertanyaan yang Perlu Ditanya, jadi daftar untuk kuliah berikutnya tersusun sendiri.\n`Salin Prompt AI` di detail pertanyaan menaruh prompt siap pakai di papan klip, lengkap dengan nama kuliah dan catatanmu saat itu. Tinggal tempel ke layanan AI yang biasa kamu pakai.",
+      "shot": "summary"
+    },
+    {
+      "title": "Lihat ke mana pemikiranmu mengalir",
+      "text": "Pertanyaan lanjutan tersusun menjorok di bawah pertanyaan asalnya, dan grafik menghubungkannya dengan panah. Klik sebuah simpul untuk langsung ke pertanyaan itu.\nDi Status Belajar kamu bisa mencatat posisimu sekarang, target di akhir kursus, dan apa yang ingin dipelajari, lalu membandingkannya.",
+      "shot": "graph"
+    }
+  ],
+  "steps": {
+    "title": "Mulai dalam tiga langkah",
+    "items": [
+      {
+        "title": "Buat kuliah",
+        "text": "Dari menu kuliah di kiri bilah alat, atau impor percakapan yang disimpan sebagai Markdown."
+      },
+      {
+        "title": "Catat begitu muncul",
+        "text": "Tekan `⌘⇧N`. Satu baris cukup, jamnya sudah terisi."
+      },
+      {
+        "title": "Jawab belakangan",
+        "text": "Tulis jawabannya lalu klik ? untuk menandainya terjawab. Pertanyaan pindah ke Yang Sudah Kupelajari."
+      }
+    ]
+  },
+  "reference": {
+    "title": "Pintasan papan ketik",
+    "rows": [
+      [
+        "⌘⇧N",
+        "Tambah pertanyaan"
+      ],
+      [
+        "Return",
+        "Simpan"
+      ],
+      [
+        "⌘Return",
+        "Simpan dan tulis yang berikutnya"
+      ],
+      [
+        "Esc",
+        "Batal"
+      ],
+      [
+        "⌘1",
+        "Ringkasan: pertanyaan yang perlu ditanya, yang sudah dipelajari, catatan"
+      ],
+      [
+        "⌘2",
+        "Grafik: pertanyaan asli dan lanjutan"
+      ],
+      [
+        "⌘3",
+        "Blok Waktu: blok semua kuliah sesuai urutan waktu"
+      ],
+      [
+        "⌘4",
+        "Status Belajar"
+      ],
+      [
+        "⌘+ · ⌘- · ⌘0",
+        "Teks lebih besar, lebih kecil, ukuran bawaan"
+      ]
+    ],
+    "note": "Semuanya juga ada di menu Tampilan."
+  },
+  "pricing": {
+    "title": "Semua fitur gratis",
+    "free": {
+      "name": "Gratis",
+      "items": [
+        "Pertanyaan cepat dan catatan per blok waktu",
+        "Pertanyaan lanjutan dan grafik",
+        "Ringkasan, tinjauan blok waktu, dan Status Belajar",
+        "Prompt AI lima langkah, disalin ke papan klip",
+        "Impor percakapan dari Markdown"
+      ]
+    },
+    "pro": {
+      "name": "Dukung pengembang",
+      "items": [
+        "Kalau aplikasinya membantu, kirim tip kecil dari Pengaturan",
+        "Tip tidak membuka fitur tambahan apa pun"
+      ],
+      "note": "Kirim tip atau tidak, semuanya berjalan sama."
+    },
+    "note": "Tanpa iklan dan tanpa akun. Catatanmu tetap di Mac ini."
+  },
+  "faq": {
+    "title": "Pertanyaan umum",
+    "items": [
+      {
+        "q": "Apa arti warna tanda ?",
+        "a": "Di daftar, lingkaran oranye kosong berarti pertanyaan yang belum terjawab, lingkaran hijau penuh berarti sudah terjawab. Klik ? untuk mengubahnya, dan nyalakan `Hanya yang belum terjawab` di bilah alat untuk melihat yang masih terbuka saja. Di samping blok waktu, warna menunjukkan apakah sudah terjawab, dan lingkaran penuh berarti jawabannya sudah ditulis."
+      },
+      {
+        "q": "Bagaimana cara kerja blok waktu?",
+        "a": "Dengan `Tambah Blok`, blok baru dimulai saat itu juga dan blok sebelumnya berakhir di situ. Kalau kamu mencatat pertanyaan pada jam yang tidak tercakup blok mana pun, blok baru dibuat di sekitarnya. Lewat `Pengaturan` di kanan atas blok, kamu bisa mengubah warna, jam mulai, dan durasi, atau menghapusnya. Kalau kamu sendiri menghapus blok, kuliah itu berhenti membuat blok otomatis."
+      },
+      {
+        "q": "Apa bedanya \"Terjawab\" dan \"Yang Sudah Kupelajari\"?",
+        "a": "Saat mencentang `Terjawab` di detail pertanyaan, kamu juga memilih apakah pertanyaan itu masuk ke Yang Sudah Kupelajari. Di sana hanya muncul pertanyaan terjawab yang kamu sertakan. Kamu juga bisa mengeluarkan atau memasukkannya lagi dari ringkasan, dan jawabannya tetap ada."
+      },
+      {
+        "q": "Bagaimana cara kerja prompt AI?",
+        "a": "Di detail pertanyaan, buka `Salin Prompt AI` di samping Jawaban lalu pilih langkahnya: Rapikan Pertanyaan, Cari Jawaban, Uji Balik Jawaban, Ambil Pertanyaan Lanjutan, atau Minta Nilai untuk Jawabanku. Prompt berisi nama kuliah, catatanmu saat itu, status belajar, dan pertanyaan asli akan disalin ke papan klip. Teks promptnya untuk saat ini berbahasa Korea; kebanyakan layanan AI tetap memahaminya, dan kamu bisa meminta jawaban dalam bahasa Indonesia. Untuk minta nilai, tulis dulu jawabanmu sendiri. Aplikasi ini tidak pernah terhubung sendiri ke layanan AI."
+      },
+      {
+        "q": "Bisakah saya mengimpor percakapan yang disimpan sebagai Markdown?",
+        "a": "Pilih `Impor dari Markdown…` di menu kuliah. `# Judul` menjadi nama kuliah, dan di setiap `## Bagian` pertanyaan pertama adalah pertanyaan asli, sisanya pertanyaan lanjutan. Ucapan pembicara pertama di file menjadi pertanyaan, sedangkan ucapan yang lain menjadi jawaban untuk pertanyaan sebelumnya. File aslinya tidak diubah."
+      },
+      {
+        "q": "Bagaimana cara menghapus pertanyaan atau kuliah?",
+        "a": "Klik kanan pertanyaan di daftar lalu pilih `Hapus`. Untuk kuliah, gunakan `Hapus Kuliah Ini` di menu kuliah; pertanyaan dan bloknya ikut terhapus. Ini tidak bisa dibatalkan, jadi cadangkan dulu yang penting."
+      },
+      {
+        "q": "Di mana data saya disimpan, dan bagaimana mencadangkannya?",
+        "a": "Semuanya tetap di Mac ini dan tidak diunggah ke mana pun. Untuk mencadangkan, tutup aplikasi lalu salin seluruh folder ~/Library/Containers/com.lectureq.LectureQ/Data/Library/Application Support/LectureQ/ beserta file -wal dan -shm. Aplikasi hanya mengirim statistik penggunaan anonim, seperti versi dan hari dibuka, tidak pernah isi tulisanmu."
+      },
+      {
+        "q": "Tulisannya terlalu kecil.",
+        "a": "`⌘+` memperbesar, `⌘-` memperkecil, dan `⌘0` mengembalikan ke ukuran bawaan. Rentangnya 85% sampai 200% dan pilihanmu diingat."
+      },
+      {
+        "q": "Bisa dipakai di Mac apa saja?",
+        "a": "Semua Mac dengan macOS 14 atau lebih baru. Kode sumbernya terbuka di GitHub: M1zz/LectureQ."
+      },
+      {
+        "q": "Ada yang tidak berfungsi. Harus lapor ke mana?",
+        "a": "Kirim masukan dari Pengaturan aplikasi (`⌘,`) atau tulis ke alamat di bawah. Sebutkan versi macOS dan apa yang sedang kamu lakukan, supaya kami bisa mengeceknya lebih cepat."
+      }
+    ]
+  },
+  "closing": {
+    "headline": "Bawa semua pertanyaanmu\nke kuliah berikutnya",
+    "cta": "Unduh gratis di App Store"
+  },
+  "ui": {
+    "skip": "Lewati ke konten",
+    "languages": "Bahasa",
+    "privacy": "Kebijakan Privasi",
+    "contact": "Ada pertanyaan atau masukan? Tulis ke {email}."
+  }
+}

@@ -1,84 +1,194 @@
 <!doctype html>
 <html lang="pl">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>LectureQ: Pytania z wykładów</title>
-<!--hreflang:start-->
-<link rel="canonical" href="https://m1zz.github.io/LectureQ/pl/">
-<link rel="alternate" hreflang="ko" href="https://m1zz.github.io/LectureQ/">
-<link rel="alternate" hreflang="en" href="https://m1zz.github.io/LectureQ/en/">
-<link rel="alternate" hreflang="en-GB" href="https://m1zz.github.io/LectureQ/en-GB/">
-<link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/LectureQ/zh-Hans/">
-<link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/LectureQ/zh-Hant/">
-<link rel="alternate" hreflang="ja" href="https://m1zz.github.io/LectureQ/ja/">
-<link rel="alternate" hreflang="ru" href="https://m1zz.github.io/LectureQ/ru/">
-<link rel="alternate" hreflang="es" href="https://m1zz.github.io/LectureQ/es/">
-<link rel="alternate" hreflang="de" href="https://m1zz.github.io/LectureQ/de/">
-<link rel="alternate" hreflang="fr" href="https://m1zz.github.io/LectureQ/fr/">
-<link rel="alternate" hreflang="it" href="https://m1zz.github.io/LectureQ/it/">
-<link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/LectureQ/pt-BR/">
-<link rel="alternate" hreflang="th" href="https://m1zz.github.io/LectureQ/th/">
-<link rel="alternate" hreflang="vi" href="https://m1zz.github.io/LectureQ/vi/">
-<link rel="alternate" hreflang="cs" href="https://m1zz.github.io/LectureQ/cs/">
-<link rel="alternate" hreflang="da" href="https://m1zz.github.io/LectureQ/da/">
-<link rel="alternate" hreflang="el" href="https://m1zz.github.io/LectureQ/el/">
-<link rel="alternate" hreflang="fi" href="https://m1zz.github.io/LectureQ/fi/">
-<link rel="alternate" hreflang="id" href="https://m1zz.github.io/LectureQ/id/">
-<link rel="alternate" hreflang="nb" href="https://m1zz.github.io/LectureQ/nb/">
-<link rel="alternate" hreflang="nl" href="https://m1zz.github.io/LectureQ/nl/">
-<link rel="alternate" hreflang="pl" href="https://m1zz.github.io/LectureQ/pl/">
-<link rel="alternate" hreflang="sv" href="https://m1zz.github.io/LectureQ/sv/">
-<link rel="alternate" hreflang="tr" href="https://m1zz.github.io/LectureQ/tr/">
-<link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/LectureQ/">
-<style>.langs{display:flex;flex-wrap:wrap;gap:4px 12px;font-size:13px;margin:0 0 18px;}.langs a{color:var(--muted);text-decoration:none;}.langs a[aria-current]{color:var(--fg);font-weight:600;}.langs a:hover{color:var(--teal);}</style>
-<!--hreflang:end-->
-<style>
-  :root{--blue:#2E6BE6;--teal:#17B3A3;--bg:#ffffff;--fg:#1c1c1e;--muted:#6b6b70;--card:#f5f6f8;--border:#e6e7ea;}
-  @media (prefers-color-scheme:dark){:root{--bg:#111214;--fg:#f2f2f5;--muted:#9a9aa0;--card:#1b1c1f;--border:#2a2b2f;}}
-  *{box-sizing:border-box;}
-  body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Segoe UI",Roboto,sans-serif;background:var(--bg);color:var(--fg);line-height:1.65;}
-  .wrap{max-width:720px;margin:0 auto;padding:48px 20px 80px;}
-  .logo{width:96px;height:96px;border-radius:24px;background:linear-gradient(160deg,var(--blue),var(--teal));display:flex;align-items:center;justify-content:center;box-shadow:0 8px 28px rgba(0,0,0,.18);margin-bottom:20px;}
-  .logo span{font-size:56px;font-weight:800;color:#fff;}
-  h1{font-size:34px;margin:0 0 2px;letter-spacing:-.5px;}
-  .sub{color:var(--muted);font-size:15px;margin:0 0 10px;}
-  .tag{color:var(--muted);font-size:17px;margin:0 0 32px;}
-  .cards{display:grid;gap:14px;}
-  a.card{display:block;text-decoration:none;color:inherit;background:var(--card);border:1px solid var(--border);border-radius:14px;padding:18px 20px;transition:transform .12s ease,border-color .12s ease;}
-  a.card:hover{transform:translateY(-2px);border-color:var(--teal);}
-  a.card h2{margin:0 0 4px;font-size:18px;}
-  a.card p{margin:0;color:var(--muted);font-size:14px;}
-  footer{margin-top:44px;color:var(--muted);font-size:13px;}
-  footer a{color:var(--teal);}
-</style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>LectureQ: zapisuj pytania, które przychodzą do głowy na wykładzie, na Maca</title>
+  <meta name="description" content="Zapisz pytanie jednym skrótem w trakcie wykładu. Zostaje obok notatek z tamtej chwili, dopóki nie znajdziesz odpowiedzi. Wszystko za darmo.">
+  <meta name="theme-color" content="#2E6BE6" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#111214" media="(prefers-color-scheme: dark)">
+  <meta name="apple-itunes-app" content="app-id=6794597095">
+  <link rel="canonical" href="https://m1zz.github.io/LectureQ/pl/">
+  <link rel="alternate" hreflang="ko" href="https://m1zz.github.io/LectureQ/">
+  <link rel="alternate" hreflang="en" href="https://m1zz.github.io/LectureQ/en/">
+  <link rel="alternate" hreflang="en-GB" href="https://m1zz.github.io/LectureQ/en-GB/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/LectureQ/zh-Hans/">
+  <link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/LectureQ/zh-Hant/">
+  <link rel="alternate" hreflang="ja" href="https://m1zz.github.io/LectureQ/ja/">
+  <link rel="alternate" hreflang="ru" href="https://m1zz.github.io/LectureQ/ru/">
+  <link rel="alternate" hreflang="es" href="https://m1zz.github.io/LectureQ/es/">
+  <link rel="alternate" hreflang="de" href="https://m1zz.github.io/LectureQ/de/">
+  <link rel="alternate" hreflang="fr" href="https://m1zz.github.io/LectureQ/fr/">
+  <link rel="alternate" hreflang="it" href="https://m1zz.github.io/LectureQ/it/">
+  <link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/LectureQ/pt-BR/">
+  <link rel="alternate" hreflang="th" href="https://m1zz.github.io/LectureQ/th/">
+  <link rel="alternate" hreflang="vi" href="https://m1zz.github.io/LectureQ/vi/">
+  <link rel="alternate" hreflang="cs" href="https://m1zz.github.io/LectureQ/cs/">
+  <link rel="alternate" hreflang="da" href="https://m1zz.github.io/LectureQ/da/">
+  <link rel="alternate" hreflang="el" href="https://m1zz.github.io/LectureQ/el/">
+  <link rel="alternate" hreflang="fi" href="https://m1zz.github.io/LectureQ/fi/">
+  <link rel="alternate" hreflang="id" href="https://m1zz.github.io/LectureQ/id/">
+  <link rel="alternate" hreflang="nb" href="https://m1zz.github.io/LectureQ/nb/">
+  <link rel="alternate" hreflang="nl" href="https://m1zz.github.io/LectureQ/nl/">
+  <link rel="alternate" hreflang="pl" href="https://m1zz.github.io/LectureQ/pl/">
+  <link rel="alternate" hreflang="sv" href="https://m1zz.github.io/LectureQ/sv/">
+  <link rel="alternate" hreflang="tr" href="https://m1zz.github.io/LectureQ/tr/">
+  <link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/LectureQ/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="LectureQ: zapisuj pytania, które przychodzą do głowy na wykładzie, na Maca">
+  <meta property="og:description" content="Zapisz pytanie jednym skrótem w trakcie wykładu. Zostaje obok notatek z tamtej chwili, dopóki nie znajdziesz odpowiedzi. Wszystko za darmo.">
+  <meta property="og:url" content="https://m1zz.github.io/LectureQ/pl/">
+  <meta property="og:image" content="https://m1zz.github.io/LectureQ/img/pl/og.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="../icon.png">
+  <link rel="apple-touch-icon" href="../icon.png">
+  <link rel="stylesheet" href="../site.css">
+  <link rel="stylesheet" href="../demo.css">
+  <style>:root{--accent:#2E6BE6}@media (prefers-color-scheme:dark){:root{--accent:#6F9BFF}}</style>
+  <script>document.documentElement.classList.add("js")</script>
 </head>
 <body>
-  <div class="wrap">
-<!--langswitch:start--><nav class="langs" aria-label="Language"><a href="../index.html" hreflang="ko" lang="ko">한국어</a> <a href="../en/index.html" hreflang="en" lang="en">English</a> <a href="../en-GB/index.html" hreflang="en-GB" lang="en-GB">English (UK)</a> <a href="../zh-Hans/index.html" hreflang="zh-Hans" lang="zh-Hans">简体中文</a> <a href="../zh-Hant/index.html" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a> <a href="../ja/index.html" hreflang="ja" lang="ja">日本語</a> <a href="../ru/index.html" hreflang="ru" lang="ru">Русский</a> <a href="../es/index.html" hreflang="es" lang="es">Español</a> <a href="../de/index.html" hreflang="de" lang="de">Deutsch</a> <a href="../fr/index.html" hreflang="fr" lang="fr">Français</a> <a href="../it/index.html" hreflang="it" lang="it">Italiano</a> <a href="../pt-BR/index.html" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a> <a href="../th/index.html" hreflang="th" lang="th">ไทย</a> <a href="../vi/index.html" hreflang="vi" lang="vi">Tiếng Việt</a> <a href="../cs/index.html" hreflang="cs" lang="cs">Čeština</a> <a href="../da/index.html" hreflang="da" lang="da">Dansk</a> <a href="../el/index.html" hreflang="el" lang="el">Ελληνικά</a> <a href="../fi/index.html" hreflang="fi" lang="fi">Suomi</a> <a href="../id/index.html" hreflang="id" lang="id">Bahasa Indonesia</a> <a href="../nb/index.html" hreflang="nb" lang="nb">Norsk bokmål</a> <a href="../nl/index.html" hreflang="nl" lang="nl">Nederlands</a> <a href="../pl/index.html" hreflang="pl" lang="pl" aria-current="page">Polski</a> <a href="../sv/index.html" hreflang="sv" lang="sv">Svenska</a> <a href="../tr/index.html" hreflang="tr" lang="tr">Türkçe</a></nav><!--langswitch:end-->
-    <div class="logo"><span>?</span></div>
-    <h1>LectureQ</h1>
-    <p class="sub">Pytania z wykładów · aplikacja na macOS</p>
-    <p class="tag">Zapisuj pytania od razu, gdy pojawią się na wykładzie. Potem z pomocą notatek w blokach czasu, pytań uzupełniających i promptów AI znajdź odpowiedzi i zbierz to, czego się nauczyłeś(-aś).</p>
-    <div class="cards">
-      <a class="card" href="./ai-guide.html">
-        <h2>Przewodnik: szukaj odpowiedzi z pomocą AI</h2>
-        <p>Pięć kroków, by razem z AI zamienić zapisane pytania w &lsquo;sprawdzoną wiedzę&rsquo;</p>
-      </a>
-      <a class="card" href="./support.html">
-        <h2>Wsparcie</h2>
-        <p>Jak korzystać z aplikacji, najczęstsze pytania i kontakt</p>
-      </a>
-      <a class="card" href="./privacy.html">
-        <h2>Polityka prywatności</h2>
-        <p>Jak LectureQ obchodzi się z Twoimi danymi</p>
-      </a>
-      <a class="card" href="https://github.com/M1zz/LectureQ">
-        <h2>Kod źródłowy (GitHub)</h2>
-        <p>github.com/M1zz/LectureQ</p>
-      </a>
-    </div>
-    <footer>© 2026 LectureQ · Kontakt: <a href="mailto:mizzking75@gmail.com">mizzking75@gmail.com</a></footer>
-  </div>
+  <a class="skip" href="#main">Przejdź do treści</a>
+  <header class="bar">
+    <a class="brand" href="../pl/"><img src="../icon.png" alt="" width="32" height="32">LectureQ</a>
+    <a class="lang-link" href="#languages">Język</a>
+  </header>
+
+  <main id="main">
+    <section class="hero">
+      <div class="copy">
+        <h1>Żadne pytanie z wykładu<br>już ci nie ucieknie</h1>
+        <p class="lead">Naciśnij <code>⌘⇧N</code>, wpisz jedną linijkę, a pytanie trafi obok notatek z dokładnie tej minuty. Słuchasz dalej, odpowiedzi szukasz później.</p>
+        <div class="actions"><a class="cta" href="https://apps.apple.com/app/id6794597095">Pobierz za darmo z App Store</a><a class="try" href="#try">Wypróbuj tutaj ↓</a></div>
+        <p class="muted small">Dla macOS 14 lub nowszego. Bez konta, wszystko zostaje na tym Macu.</p>
+      </div>
+      <div class="plain"><img src="../img/pl/main.jpg" alt="Żadne pytanie z wykładu już ci nie ucieknie" width="1200" height="750" decoding="async"></div>
+    </section>
+
+
+    <section class="reveal" id="try">
+      <h2>Wypróbuj tutaj</h2>
+      <p class="muted">Jesteś w połowie wykładu o uczeniu maszynowym. Wpisz pytanie i zapisz je, a obok bloku z tej godziny pojawi się ?. Ustaw godzinę spoza bloków, a powstanie dla niej nowy blok.</p>
+      <div id="demo" class="card demo-card" data-text="{&quot;title&quot;: &quot;Wypróbuj tutaj&quot;, &quot;lead&quot;: &quot;Jesteś w połowie wykładu o uczeniu maszynowym. Wpisz pytanie i zapisz je, a obok bloku z tej godziny pojawi się ?. Ustaw godzinę spoza bloków, a powstanie dla niej nowy blok.&quot;, &quot;note&quot;: &quot;Demo działa według tych samych zasad co aplikacja. Nic, co tu wpiszesz, nie jest zapisywane.&quot;, &quot;lecture&quot;: &quot;ML 3 · Spadek gradientu&quot;, &quot;b1&quot;: &quot;Funkcja straty = mierzy, jak bardzo predykcja się myli\nSpadek gradientu: małymi krokami w kierunku przeciwnym do gradientu\n  w ← w − η · ∂L/∂w\n\nDuży współczynnik uczenia η: rozbiega się, mały: za wolno\n→ zwykle zaczyna się od ok. 0,01 i dostraja, patrząc na krzywą straty&quot;, &quot;b2&quot;: &quot;Minibatch: szacujemy gradient na części danych zamiast na wszystkich\nEpoka = jedno pełne przejście przez wszystkie dane\n\nZadanie: porównać krzywe straty dla 3 współczynników uczenia&quot;, &quot;draft&quot;: &quot;Jak zauważyć moment, w którym strata walidacyjna zaczyna rosnąć?&quot;, &quot;qs&quot;: [[&quot;10:12&quot;, &quot;Dlaczego strata maleje, gdy idziemy przeciwnie do gradientu?&quot;, 1, 1], [&quot;10:18&quot;, &quot;Jak duży powinien być jeden krok? Kto ustala współczynnik uczenia?&quot;, 1, 1], [&quot;10:41&quot;, &quot;Czy współczynnik uczenia zmienia się też w trakcie treningu?&quot;, 0, 0], [&quot;10:26&quot;, &quot;Jeśli dolin jest kilka, to czy nie przegapimy najniższej?&quot;, 0, 0], [&quot;10:50&quot;, &quot;Czy funkcja straty musi być zawsze błędem kwadratowym?&quot;, 1, 1], [&quot;11:22&quot;, &quot;Jak dobrać rozmiar minibatcha?&quot;, 0, 0], [&quot;11:35&quot;, &quot;Przy małym batchu gradient skacze. Czy to w porządku?&quot;, 0, 1], [&quot;11:48&quot;, &quot;Co się stanie, jeśli puścimy za dużo epok?&quot;, 1, 1]], &quot;ph&quot;: &quot;Napisz, co Cię nurtuje, jak najprostszymi słowami…&quot;, &quot;time&quot;: &quot;Moment&quot;, &quot;now&quot;: &quot;Teraz&quot;, &quot;save&quot;: &quot;Zapisz&quot;, &quot;add&quot;: &quot;Dodaj pytanie&quot;, &quot;resolved&quot;: &quot;Rozwiązane&quot;, &quot;unresolved&quot;: &quot;Nierozwiązane&quot;}"></div>
+    </section>
+
+    <section class="problem reveal">
+      <h2>Po wykładzie pamiętasz jeszcze, o co chciałeś zapytać?</h2>
+      <p>Ledwie pomyślisz „chwila, ale dlaczego?”, prowadzący jest już przy kolejnym slajdzie. Znak zapytania na marginesie nie pamięta, z którego wyjaśnienia się wziął, i pytanie zostaje bez odpowiedzi. LectureQ przypina każde pytanie do notatek z tamtej chwili i trzyma je na widoku, aż je rozgryziesz.</p>
+    </section>
+
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Pytaj, nie gubiąc kolejnego zdania</h2>
+        <p>Okno wpisywania otworzysz przyciskiem <code>Dodaj pytanie</code> na pasku narzędzi albo skrótem <code>⌘⇧N</code>. Godzina wpisuje się sama. <code>Return</code> zapisuje, a <code>⌘Return</code> zapisuje i od razu szykuje miejsce na następne.<br>Każde pytanie pojawia się jako ? obok swojego bloku czasu, więc później od razu widzisz, z której części wykładu pochodzi.</p>
+      </div>
+      <div class="plain"><img src="../img/pl/capture.jpg" alt="Pytaj, nie gubiąc kolejnego zdania" width="1200" height="750" loading="lazy" decoding="async"></div>
+    </section>
+
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Rozwiązane pytania stają się wiedzą</h2>
+        <p>Zapisz odpowiedź własnymi słowami, oznacz pytanie jako rozwiązane, a trafi do sekcji Czego się nauczyłem(-am) w podsumowaniu. To, co wciąż otwarte, zostaje w Pytania do zadania, więc lista na następne zajęcia układa się sama.<br><code>Kopiuj prompt AI</code> w szczegółach pytania wkłada do schowka gotowy prompt z nazwą wykładu i notatkami z tamtej chwili. Wystarczy wkleić go do usługi AI, z której już korzystasz.</p>
+      </div>
+      <div class="plain"><img src="../img/pl/summary.jpg" alt="Rozwiązane pytania stają się wiedzą" width="1200" height="750" loading="lazy" decoding="async"></div>
+    </section>
+
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Zobacz, dokąd zaprowadziło cię myślenie</h2>
+        <p>Pytania uzupełniające układają się z wcięciem pod pytaniem, z którego wyrosły, a wykres łączy je strzałkami. Kliknij węzeł, by przejść prosto do pytania.<br>W Stanie nauki zapiszesz, gdzie jesteś teraz, gdzie chcesz być po kursie i czego chcesz się nauczyć, i porównasz to.</p>
+      </div>
+      <div class="plain"><img src="../img/pl/graph.jpg" alt="Zobacz, dokąd zaprowadziło cię myślenie" width="1200" height="750" loading="lazy" decoding="async"></div>
+    </section>
+
+    <section class="reveal">
+      <h2>Na start wystarczą trzy kroki</h2>
+      <ol class="steps"><li class="card"><span class="n">1</span><h3>Utwórz wykład</h3><p>W menu wykładów po lewej stronie paska narzędzi albo zaimportuj rozmowę zapisaną w Markdownie.</p></li>
+<li class="card"><span class="n">2</span><h3>Zapisuj od razu</h3><p>Naciśnij <code>⌘⇧N</code>. Wystarczy jedna linijka, godzina już jest.</p></li>
+<li class="card"><span class="n">3</span><h3>Odpowiedz później</h3><p>Wpisz odpowiedź i kliknij ?, by oznaczyć pytanie jako rozwiązane. Przejdzie do Czego się nauczyłem(-am).</p></li></ol>
+    </section>
+
+    <section class="reveal" id="commands">
+      <h2>Skróty klawiszowe</h2>
+      <div class="card table">
+        <dl><div><dt>⌘⇧N</dt><dd>Dodaj pytanie</dd></div><div><dt>Return</dt><dd>Zapisz</dd></div><div><dt>⌘Return</dt><dd>Zapisz i pisz następne</dd></div><div><dt>Esc</dt><dd>Anuluj</dd></div><div><dt>⌘1</dt><dd>Podsumowanie: pytania do zadania, czego się nauczyłeś, notatki</dd></div><div><dt>⌘2</dt><dd>Wykres: pytania wyjściowe i uzupełniające</dd></div><div><dt>⌘3</dt><dd>Bloki czasu: bloki wszystkich wykładów w kolejności</dd></div><div><dt>⌘4</dt><dd>Stan nauki</dd></div><div><dt>⌘+ · ⌘- · ⌘0</dt><dd>Większy tekst, mniejszy tekst, rozmiar domyślny</dd></div></dl>
+      </div>
+      <p class="muted">Wszystkie znajdziesz też w menu Widok.</p>
+    </section>
+
+
+    <section class="reveal" id="pricing">
+      <h2>Wszystkie funkcje są darmowe</h2>
+      <div class="plans">
+        <div class="card plan free">
+          <h3>Za darmo</h3>
+          <ul><li>Szybkie pytania i notatki w blokach czasu</li><li>Pytania uzupełniające i wykres</li><li>Podsumowanie, przegląd bloków i Stan nauki</li><li>Prompty AI w pięciu krokach, kopiowane do schowka</li><li>Import rozmów z Markdowna</li></ul>
+          
+        </div>
+        <div class="card plan pro">
+          <h3>Wesprzyj twórcę</h3>
+          <ul><li>Jeśli aplikacja ci pomaga, wyślij mały napiwek z Ustawień</li><li>Napiwek nie odblokowuje niczego dodatkowego</li></ul>
+          <p class="muted">Z napiwkiem czy bez, wszystko działa tak samo.</p>
+        </div>
+      </div>
+      <p class="muted">Bez reklam i bez konta. Twoje notatki zostają na tym Macu.</p>
+    </section>
+
+    <section class="reveal" id="faq">
+      <h2>Częste pytania</h2>
+      <div class="faq"><details><summary>Co oznaczają kolory znaku ?</summary><p>Na liście pusty pomarańczowy krąg to pytanie jeszcze nierozwiązane, a wypełniony zielony to rozwiązane. Kliknij ?, by przełączyć, i włącz <code>Tylko nierozwiązane</code> na pasku narzędzi, żeby widzieć tylko otwarte. Przy bloku czasu kolor mówi, czy pytanie jest rozwiązane, a wypełniony krąg, że jest już odpowiedź.</p></details>
+<details><summary>Jak działają bloki czasu?</summary><p>Po kliknięciu <code>Dodaj blok</code> nowy blok zaczyna się w tej chwili, a poprzedni kończy w tym miejscu. Gdy zapiszesz pytanie o godzinie, której nie obejmuje żaden blok, powstanie wokół niego nowy. Przyciskiem <code>Ustawienia</code> w prawym górnym rogu bloku zmienisz kolor, początek i długość albo go usuniesz. Jeśli sam usuniesz blok, ten wykład przestanie tworzyć bloki automatycznie.</p></details>
+<details><summary>Czym różni się „Rozwiązane” od „Czego się nauczyłem(-am)”?</summary><p>Zaznaczając <code>Rozwiązane</code> w szczegółach pytania, wybierasz też, czy ma się liczyć do Czego się nauczyłem(-am). Trafiają tam tylko rozwiązane pytania, które uwzględnisz. Możesz je też usunąć lub przywrócić z podsumowania, a odpowiedź zostaje.</p></details>
+<details><summary>Jak działają prompty AI?</summary><p>W szczegółach pytania otwórz <code>Kopiuj prompt AI</code> obok pola Odpowiedź i wybierz krok: Doprecyzuj pytanie, Znajdź odpowiedź, Zakwestionuj odpowiedź, Wyłuskaj pytania uzupełniające albo Oceń moją odpowiedź. Do schowka trafia prompt z nazwą wykładu, notatkami z tamtej chwili, stanem nauki i pytaniem wyjściowym. Sam tekst promptu jest na razie po koreańsku; większość usług AI i tak go rozumie, a odpowiedzi możesz poprosić po polsku. Do oceny odpowiedzi musisz najpierw wpisać własną. Aplikacja sama nigdy nie łączy się z żadną usługą AI.</p></details>
+<details><summary>Czy mogę zaimportować rozmowę zapisaną w Markdownie?</summary><p>Wybierz <code>Importuj z Markdown…</code> w menu wykładów. <code># Tytuł</code> staje się nazwą wykładu, a w każdej <code>## Sekcji</code> pierwsze pytanie jest wyjściowe, kolejne uzupełniające. Wypowiedzi osoby, która w pliku mówi pierwsza, stają się pytaniami, a wypowiedzi pozostałych odpowiedzią na poprzednie pytanie. Plik źródłowy pozostaje nietknięty.</p></details>
+<details><summary>Jak usunąć pytanie lub wykład?</summary><p>Kliknij pytanie na liście prawym przyciskiem i wybierz <code>Usuń</code>. Wykład usuniesz poleceniem <code>Usuń bieżący wykład</code> w menu wykładów; razem z nim znikną jego pytania i bloki. Tego nie da się cofnąć, więc najpierw zrób kopię tego, co ważne.</p></details>
+<details><summary>Gdzie są moje dane i jak zrobić kopię zapasową?</summary><p>Wszystko zostaje na tym Macu i nigdzie nie jest wysyłane. Zamknij aplikację i skopiuj cały folder ~/Library/Containers/com.lectureq.LectureQ/Data/Library/Application Support/LectureQ/ razem z plikami -wal i -shm. Aplikacja wysyła tylko anonimowe statystyki użycia, jak wersja i dni uruchomienia, nigdy tego, co piszesz.</p></details>
+<details><summary>Tekst jest za mały.</summary><p><code>⌘+</code> go powiększa, <code>⌘-</code> zmniejsza, a <code>⌘0</code> przywraca domyślny rozmiar. Zakres to od 85% do 200%, a ustawienie jest zapamiętywane.</p></details>
+<details><summary>Na jakich Macach działa?</summary><p>Na każdym Macu z macOS 14 lub nowszym. Kod źródłowy jest publiczny na GitHubie: M1zz/LectureQ.</p></details>
+<details><summary>Coś nie działa. Komu to zgłosić?</summary><p>Wyślij opinię z Ustawień aplikacji (<code>⌘,</code>) albo napisz na adres poniżej. Podaj wersję macOS i to, co właśnie robiłeś, a szybciej to sprawdzimy.</p></details></div>
+      <p class="contact">Pytania lub uwagi? Napisz na <a href="mailto:mizzking75@gmail.com">mizzking75@gmail.com</a>.</p>
+    </section>
+
+    <section class="closing reveal">
+      <h2>Na następny wykład<br>weź wszystkie pytania</h2>
+      <a class="cta" href="https://apps.apple.com/app/id6794597095">Pobierz za darmo z App Store</a>
+    </section>
+  </main>
+
+  <footer>
+    <nav id="languages" class="langs" aria-label="Język"><a href="../" hreflang="ko" lang="ko">한국어</a>
+<a href="../en/" hreflang="en" lang="en">English</a>
+<a href="../en-GB/" hreflang="en-GB" lang="en-GB">English (UK)</a>
+<a href="../zh-Hans/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a>
+<a href="../zh-Hant/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a>
+<a href="../ja/" hreflang="ja" lang="ja">日本語</a>
+<a href="../ru/" hreflang="ru" lang="ru">Русский</a>
+<a href="../es/" hreflang="es" lang="es">Español</a>
+<a href="../de/" hreflang="de" lang="de">Deutsch</a>
+<a href="../fr/" hreflang="fr" lang="fr">Français</a>
+<a href="../it/" hreflang="it" lang="it">Italiano</a>
+<a href="../pt-BR/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a>
+<a href="../th/" hreflang="th" lang="th">ไทย</a>
+<a href="../vi/" hreflang="vi" lang="vi">Tiếng Việt</a>
+<a href="../cs/" hreflang="cs" lang="cs">Čeština</a>
+<a href="../da/" hreflang="da" lang="da">Dansk</a>
+<a href="../el/" hreflang="el" lang="el">Ελληνικά</a>
+<a href="../fi/" hreflang="fi" lang="fi">Suomi</a>
+<a href="../id/" hreflang="id" lang="id">Bahasa Indonesia</a>
+<a href="../nb/" hreflang="nb" lang="nb">Norsk bokmål</a>
+<a href="../nl/" hreflang="nl" lang="nl">Nederlands</a>
+<a href="../pl/" hreflang="pl" lang="pl" aria-current="page">Polski</a>
+<a href="../sv/" hreflang="sv" lang="sv">Svenska</a>
+<a href="../tr/" hreflang="tr" lang="tr">Türkçe</a></nav>
+    <p><a href="privacy.html">Polityka prywatności</a> · <a href="mailto:mizzking75@gmail.com">mizzking75@gmail.com</a> · © 2026 LectureQ</p>
+  </footer>
+
+  <script>
+    const io = new IntersectionObserver(es => es.forEach(e => {
+      if (e.isIntersecting) { e.target.classList.add("in"); io.unobserve(e.target) }
+    }), { rootMargin: "0px 0px -10% 0px" });
+    document.querySelectorAll(".reveal").forEach(el => io.observe(el));
+  </script>
+  <script src="../demo.js"></script>
 </body>
 </html>

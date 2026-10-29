@@ -1,0 +1,233 @@
+{
+  "title": "LectureQ: apunta las dudas que surgen en clase, para Mac",
+  "description": "Anota una pregunta con un atajo sin dejar de escuchar. Queda junto a tus notas de ese momento hasta que la resuelvas. Todo es gratis.",
+  "hero": {
+    "headline": "Que ninguna duda de clase\nse te escape",
+    "lead": "Pulsa `⌘⇧N`, escribe una línea y la pregunta queda junto a tus notas de ese mismo minuto. Sigues atendiendo y buscas la respuesta después.",
+    "cta": "Descárgala gratis en el App Store",
+    "note": "Para macOS 14 o posterior. Sin cuenta: todo se queda en este Mac."
+  },
+  "demo": {
+    "title": "Pruébalo aquí",
+    "lead": "Estás en plena clase de aprendizaje automático. Escribe una pregunta y guárdala: aparece un ? junto al bloque de esa hora. Si cambias la hora a una fuera de los bloques, se crea un bloque nuevo para ella.",
+    "note": "Esta demo sigue las mismas reglas que la app. Nada de lo que escribas aquí se guarda.",
+    "lecture": "ML 3 · Descenso de gradiente",
+    "b1": "Función de pérdida = mide cuánto se equivoca la predicción\nDescenso de gradiente: avanzar poco a poco en contra del gradiente\n  w ← w − η · ∂L/∂w\n\nTasa de aprendizaje η grande: diverge; pequeña: demasiado lento\n→ se suele empezar en torno a 0,01 y ajustar mirando la curva de pérdida",
+    "b2": "Mini-batch: estimar el gradiente con una parte de los datos en vez de todos\nÉpoca = pasar una vez por todos los datos\n\nTarea: comparar curvas de pérdida con 3 tasas de aprendizaje",
+    "draft": "¿Cómo te das cuenta de cuándo empieza a subir la pérdida de validación?",
+    "qs": [
+      [
+        "10:12",
+        "¿Por qué baja la pérdida si vamos en contra del gradiente?",
+        1,
+        1
+      ],
+      [
+        "10:18",
+        "¿Qué tamaño debe tener cada paso? ¿Quién decide la tasa de aprendizaje?",
+        1,
+        1
+      ],
+      [
+        "10:41",
+        "¿También se cambia la tasa de aprendizaje durante el entrenamiento?",
+        0,
+        0
+      ],
+      [
+        "10:26",
+        "Si hay varios valles, ¿no puede quedarse sin encontrar el más bajo?",
+        0,
+        0
+      ],
+      [
+        "10:50",
+        "¿La función de pérdida tiene que ser siempre el error cuadrático?",
+        1,
+        1
+      ],
+      [
+        "11:22",
+        "¿Cómo se elige el tamaño del mini-batch?",
+        0,
+        0
+      ],
+      [
+        "11:35",
+        "Con batches pequeños el gradiente oscila, ¿eso está bien?",
+        0,
+        1
+      ],
+      [
+        "11:48",
+        "¿Qué pasa si entrenas demasiadas épocas?",
+        1,
+        1
+      ]
+    ],
+    "ph": "Escribe lo que te preguntas con las palabras más sencillas…",
+    "time": "Momento",
+    "now": "Ahora",
+    "save": "Guardar",
+    "add": "Añadir pregunta",
+    "resolved": "Resuelta",
+    "unresolved": "Sin resolver"
+  },
+  "problem": {
+    "title": "¿Al acabar la clase todavía recuerdas la duda?",
+    "text": "En cuanto piensas «a ver, ¿y esto por qué?», el profesor ya ha pasado al siguiente punto. El signo de interrogación del margen olvida de qué explicación salió y la duda se queda sin resolver. LectureQ engancha cada pregunta a tus notas de ese momento y la mantiene a la vista hasta que la resuelvas."
+  },
+  "features": [
+    {
+      "title": "Pregunta sin perderte la siguiente frase",
+      "text": "Abre la ventana de entrada con `Añadir pregunta` en la barra de herramientas o con `⌘⇧N`. La hora se rellena sola. `Retorno` guarda, y `⌘Retorno` guarda y te deja listo para la siguiente.\nCada pregunta aparece como un ? junto a su bloque de tiempo, así que luego ves enseguida de qué parte de la clase salió.",
+      "shot": "capture"
+    },
+    {
+      "title": "Lo que resuelves se convierte en lo aprendido",
+      "text": "Escribe la respuesta con tus palabras, márcala como resuelta y pasa a Lo que he aprendido en el resumen. Lo que sigue abierto queda en Preguntas pendientes, y tu lista para la próxima clase se arma sola.\n`Copiar prompt de IA`, en el detalle de la pregunta, deja en el portapapeles un prompt listo con el nombre de la clase y tus notas de ese momento. Solo tienes que pegarlo en el servicio de IA que ya uses.",
+      "shot": "summary"
+    },
+    {
+      "title": "Mira por dónde fue tu razonamiento",
+      "text": "Las preguntas de seguimiento se apilan con sangría bajo la pregunta de la que salieron, y el grafo las une con flechas. Haz clic en un nodo para ir directo a esa pregunta.\nEn Estado de aprendizaje puedes anotar dónde estás, dónde quieres estar al terminar el curso y qué quieres aprender, y compararlo.",
+      "shot": "graph"
+    }
+  ],
+  "steps": {
+    "title": "Empezar lleva tres pasos",
+    "items": [
+      {
+        "title": "Crea una clase",
+        "text": "Desde el menú de clases a la izquierda de la barra de herramientas, o importa una conversación guardada en Markdown."
+      },
+      {
+        "title": "Apunta en cuanto surja",
+        "text": "Pulsa `⌘⇧N`. Con una línea basta y la hora ya está puesta."
+      },
+      {
+        "title": "Respóndela después",
+        "text": "Escribe la respuesta y haz clic en el ? para marcarla como resuelta. Pasa a Lo que he aprendido."
+      }
+    ]
+  },
+  "reference": {
+    "title": "Atajos de teclado",
+    "rows": [
+      [
+        "⌘⇧N",
+        "Añadir pregunta"
+      ],
+      [
+        "Return",
+        "Guardar"
+      ],
+      [
+        "⌘Return",
+        "Guardar y escribir la siguiente"
+      ],
+      [
+        "Esc",
+        "Cancelar"
+      ],
+      [
+        "⌘1",
+        "Resumen: preguntas pendientes, lo aprendido, notas"
+      ],
+      [
+        "⌘2",
+        "Grafo: preguntas originales y de seguimiento"
+      ],
+      [
+        "⌘3",
+        "Bloques de tiempo: los de todas las clases, en orden"
+      ],
+      [
+        "⌘4",
+        "Estado de aprendizaje"
+      ],
+      [
+        "⌘+ · ⌘- · ⌘0",
+        "Texto más grande, más pequeño, tamaño por omisión"
+      ]
+    ],
+    "note": "Todos están también en el menú Visualización."
+  },
+  "pricing": {
+    "title": "Todas las funciones son gratis",
+    "free": {
+      "name": "Gratis",
+      "items": [
+        "Preguntas rápidas y notas por bloques de tiempo",
+        "Preguntas de seguimiento y grafo",
+        "Resumen, vista de bloques y Estado de aprendizaje",
+        "Prompts de IA en cinco pasos, copiados al portapapeles",
+        "Importar conversaciones en Markdown"
+      ]
+    },
+    "pro": {
+      "name": "Apoya al desarrollador",
+      "items": [
+        "Si la app te sirve, envía una pequeña propina desde Ajustes",
+        "La propina no desbloquea nada extra"
+      ],
+      "note": "Con propina o sin ella, todo funciona igual."
+    },
+    "note": "Sin anuncios ni cuenta. Tus notas se quedan en este Mac."
+  },
+  "faq": {
+    "title": "Preguntas frecuentes",
+    "items": [
+      {
+        "q": "¿Qué significan los colores del ?",
+        "a": "En la lista, un círculo naranja vacío es una pregunta sin resolver y uno verde relleno, una resuelta. Haz clic en el ? para cambiarla, y activa `Solo sin resolver` en la barra de herramientas para ver solo las abiertas. Junto a un bloque de tiempo, el color indica si está resuelta y el círculo relleno, que ya tiene respuesta escrita."
+      },
+      {
+        "q": "¿Cómo funcionan los bloques de tiempo?",
+        "a": "Con `Añadir bloque` empieza un bloque nuevo en ese momento y el anterior termina ahí. Si anotas una pregunta a una hora que ningún bloque cubre, se crea uno a su alrededor. Con `Ajustes`, arriba a la derecha del bloque, cambias su color, inicio y duración o lo eliminas. Si eliminas un bloque tú mismo, esa clase deja de crear bloques automáticamente."
+      },
+      {
+        "q": "¿En qué se diferencian «Resuelta» y «Lo que he aprendido»?",
+        "a": "Al marcar `Resuelta` en el detalle de la pregunta, eliges también si cuenta para Lo que he aprendido. Ahí solo aparecen las resueltas que hayas incluido. También puedes quitarlas o volver a añadirlas desde el resumen; la respuesta se conserva igual."
+      },
+      {
+        "q": "¿Cómo funcionan los prompts de IA?",
+        "a": "En el detalle de la pregunta, abre `Copiar prompt de IA` junto a Respuesta y elige un paso: Pulir la pregunta, Buscar la respuesta, Cuestionar la respuesta, Sacar preguntas de seguimiento o Que califiquen mi respuesta. Se copia al portapapeles un prompt con el nombre de la clase, tus notas de ese momento, tu estado de aprendizaje y la pregunta original. Por ahora el texto del prompt está en coreano; la mayoría de los servicios de IA lo entienden igualmente y puedes pedir la respuesta en español. Para que califiquen tu respuesta, primero tienes que haberla escrito. La app nunca se conecta por sí sola a un servicio de IA."
+      },
+      {
+        "q": "¿Puedo importar una conversación guardada en Markdown?",
+        "a": "Elige `Importar desde Markdown…` en el menú de clases. `# Título` pasa a ser el nombre de la clase, y en cada `## Sección` la primera pregunta es la original y las siguientes, de seguimiento. Lo que dice quien habla primero en el archivo se convierte en preguntas, y lo de los demás, en la respuesta a la pregunta anterior. El archivo original no se modifica."
+      },
+      {
+        "q": "¿Cómo elimino una pregunta o una clase?",
+        "a": "Haz clic secundario en la pregunta de la lista y elige `Eliminar`. Para una clase, usa `Eliminar la clase actual` en el menú de clases; con ella se van sus preguntas y bloques. No se puede deshacer, así que haz antes una copia de lo importante."
+      },
+      {
+        "q": "¿Dónde se guardan mis datos y cómo hago una copia?",
+        "a": "Todo se queda en este Mac y no se sube a ningún sitio. Para hacer una copia, cierra la app y copia la carpeta completa ~/Library/Containers/com.lectureq.LectureQ/Data/Library/Application Support/LectureQ/ con los archivos -wal y -shm. La app solo envía estadísticas de uso anónimas, como la versión y los días en que la abriste, nunca lo que escribes."
+      },
+      {
+        "q": "La letra es muy pequeña.",
+        "a": "`⌘+` la agranda, `⌘-` la reduce y `⌘0` la devuelve al tamaño normal. Va del 85 % al 200 % y se recuerda."
+      },
+      {
+        "q": "¿En qué Mac funciona?",
+        "a": "En cualquier Mac con macOS 14 o posterior. El código fuente es público en GitHub, en M1zz/LectureQ."
+      },
+      {
+        "q": "Algo no funciona. ¿A quién se lo digo?",
+        "a": "Envía tus comentarios desde los Ajustes (`⌘,`) de la app o escribe a la dirección de abajo. Si nos dices tu versión de macOS y qué estabas haciendo, lo revisaremos antes."
+      }
+    ]
+  },
+  "closing": {
+    "headline": "En la próxima clase,\nno se te escapa ninguna duda",
+    "cta": "Descárgala gratis en el App Store"
+  },
+  "ui": {
+    "skip": "Saltar al contenido",
+    "languages": "Idioma",
+    "privacy": "Política de privacidad",
+    "contact": "¿Dudas o comentarios? Escribe a {email}."
+  }
+}

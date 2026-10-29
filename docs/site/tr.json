@@ -1,0 +1,233 @@
+{
+  "title": "LectureQ: ders sırasında aklına gelen soruları yakala, Mac için",
+  "description": "Ders devam ederken bir kısayolla soruyu not al. O anki notlarının yanında, cevabını bulana kadar durur. Tüm özellikler ücretsiz.",
+  "hero": {
+    "headline": "Dersteki hiçbir soru\nartık aklından uçmasın",
+    "lead": "`⌘⇧N` tuşuna bas, bir satır yaz; soru tam o dakikanın notlarının yanına düşer. Sen dinlemeye devam edersin, cevabı sonra bulursun.",
+    "cta": "App Store'dan ücretsiz indir",
+    "note": "macOS 14 veya sonrası için. Hesap yok, her şey bu Mac'te kalır."
+  },
+  "demo": {
+    "title": "Burada dene",
+    "lead": "Bir makine öğrenmesi dersinin ortasındasın. Bir soru yazıp kaydet: o saatin bloğunun yanında bir ? belirir. Saati blokların dışına alırsan onu kapsayan yeni bir blok oluşur.",
+    "note": "Bu deneme uygulamayla aynı kurallarla çalışır. Buraya yazdıkların hiçbir yere kaydedilmez.",
+    "lecture": "ML 3 · Gradyan İnişi",
+    "b1": "Kayıp fonksiyonu = tahminin ne kadar yanlış olduğunu ölçer\nGradyan inişi: gradyanın tersi yönünde azar azar ilerle\n  w ← w − η · ∂L/∂w\n\nÖğrenme oranı η büyükse ıraksar, küçükse çok yavaş\n→ genelde 0,01 civarından başlayıp kayıp eğrisine bakarak ayarla",
+    "b2": "Mini-batch: gradyanı tüm veri yerine bir kısmıyla tahmin et\nEpoch = tüm veriyi bir kez baştan sona görmek\n\nÖdev: 3 farklı öğrenme oranıyla kayıp eğrilerini karşılaştır",
+    "draft": "Doğrulama kaybının artmaya başladığı anı nasıl fark ederim?",
+    "qs": [
+      [
+        "10:12",
+        "Gradyanın tersi yönüne gidince kayıp neden azalıyor?",
+        1,
+        1
+      ],
+      [
+        "10:18",
+        "Bir adım ne kadar büyük olmalı? Öğrenme oranını kim belirliyor?",
+        1,
+        1
+      ],
+      [
+        "10:41",
+        "Eğitim sırasında öğrenme oranı da değiştirilir mi?",
+        0,
+        0
+      ],
+      [
+        "10:26",
+        "Birden fazla vadi varsa en alçağını bulamaz mıyız?",
+        0,
+        0
+      ],
+      [
+        "10:50",
+        "Kayıp fonksiyonu illa karesel hata mı olmalı?",
+        1,
+        1
+      ],
+      [
+        "11:22",
+        "Mini-batch boyutu nasıl seçilir?",
+        0,
+        0
+      ],
+      [
+        "11:35",
+        "Batch küçükse gradyan dalgalanıyor, bu sorun olur mu?",
+        0,
+        1
+      ],
+      [
+        "11:48",
+        "Çok fazla epoch çalıştırırsak ne olur?",
+        1,
+        1
+      ]
+    ],
+    "ph": "Merak ettiğinizi en basit sözcüklerle yazın…",
+    "time": "Zaman",
+    "now": "Şimdi",
+    "save": "Kaydet",
+    "add": "Soru Ekle",
+    "resolved": "Çözüldü",
+    "unresolved": "Çözülmedi"
+  },
+  "problem": {
+    "title": "Ders bitince sorunu hâlâ hatırlıyor musun?",
+    "text": "Daha \"dur, neden ki?\" diye düşünürken hoca bir sonraki konuya geçmiş olur. Kenara attığın soru işareti hangi anlatımdan çıktığını unutur ve soru cevapsız kalır. LectureQ her soruyu o anki notlarına iliştirir ve sen çözene kadar gözünün önünde tutar."
+  },
+  "features": [
+    {
+      "title": "Bir sonraki cümleyi kaçırmadan sor",
+      "text": "Giriş penceresini araç çubuğundaki `Soru Ekle` ile ya da `⌘⇧N` ile aç. Saat kendiliğinden dolar. `Return` kaydeder, `⌘Return` kaydedip hemen sıradakine hazırlar.\nHer soru kendi zaman bloğunun yanında bir ? olarak görünür; böylece sonra dersin hangi bölümünden çıktığını hemen görürsün.",
+      "shot": "capture"
+    },
+    {
+      "title": "Çözülen soru öğrendiğin şeye dönüşür",
+      "text": "Cevabı kendi cümlelerinle yaz, soruyu çözüldü olarak işaretle; özetteki Öğrendiklerim'e geçer. Hâlâ açık olanlar Sorulacak Sorular'da kalır, bir sonraki derse götüreceğin liste kendiliğinden oluşur.\nSoru ayrıntısındaki `Yapay Zekâ İstemini Kopyala`, ders adı ve o anki notlarınla doldurulmuş hazır bir istemi panoya koyar. Zaten kullandığın yapay zekâ hizmetine yapıştırman yeterli.",
+      "shot": "summary"
+    },
+    {
+      "title": "Düşüncenin nereye gittiğini gör",
+      "text": "Devam soruları çıktıkları sorunun altına girintili dizilir, grafik de onları oklarla bağlar. Bir düğüme tıklayınca doğrudan o soruya gidersin.\nÖğrenme Durumu'na şu an nerede olduğunu, kurs bitince nerede olmak istediğini ve ne öğrenmek istediğini yazıp karşılaştırabilirsin.",
+      "shot": "graph"
+    }
+  ],
+  "steps": {
+    "title": "Başlamak için üç adım",
+    "items": [
+      {
+        "title": "Bir ders oluştur",
+        "text": "Araç çubuğunun solundaki ders menüsünden ekle ya da Markdown olarak kaydedilmiş bir sohbeti içe aktar."
+      },
+      {
+        "title": "Aklına gelince hemen yaz",
+        "text": "`⌘⇧N` tuşuna bas. Tek satır yeter, saat zaten dolu."
+      },
+      {
+        "title": "Sonra cevapla",
+        "text": "Cevabı yaz ve ? işaretine tıklayıp çözüldü olarak işaretle. Öğrendiklerim'e taşınır."
+      }
+    ]
+  },
+  "reference": {
+    "title": "Klavye kısayolları",
+    "rows": [
+      [
+        "⌘⇧N",
+        "Soru ekle"
+      ],
+      [
+        "Return",
+        "Kaydet"
+      ],
+      [
+        "⌘Return",
+        "Kaydet ve sıradakini yaz"
+      ],
+      [
+        "Esc",
+        "Vazgeç"
+      ],
+      [
+        "⌘1",
+        "Özet: sorulacak sorular, öğrendiklerin, notlar"
+      ],
+      [
+        "⌘2",
+        "Grafik: asıl sorular ve devam soruları"
+      ],
+      [
+        "⌘3",
+        "Zaman Blokları: tüm derslerin blokları zaman sırasıyla"
+      ],
+      [
+        "⌘4",
+        "Öğrenme Durumu"
+      ],
+      [
+        "⌘+ · ⌘- · ⌘0",
+        "Yazı büyüt, küçült, varsayılan boyut"
+      ]
+    ],
+    "note": "Hepsi Görünüm menüsünde de var."
+  },
+  "pricing": {
+    "title": "Tüm özellikler ücretsiz",
+    "free": {
+      "name": "Ücretsiz",
+      "items": [
+        "Hızlı soru ve zaman bloğu notları",
+        "Devam soruları ve grafik",
+        "Özet, zaman blokları görünümü ve Öğrenme Durumu",
+        "Beş adımlı yapay zekâ istemleri, panoya kopyalanır",
+        "Markdown'dan sohbet içe aktarma"
+      ]
+    },
+    "pro": {
+      "name": "Geliştiriciye destek ol",
+      "items": [
+        "Uygulama işine yarıyorsa Ayarlar'dan küçük bir bahşiş gönder",
+        "Bahşiş ekstra bir şeyin kilidini açmaz"
+      ],
+      "note": "Bahşiş versen de vermesen de her şey aynı çalışır."
+    },
+    "note": "Reklam yok, hesap yok. Notların bu Mac'te kalır."
+  },
+  "faq": {
+    "title": "Sık sorulan sorular",
+    "items": [
+      {
+        "q": "? işaretinin renkleri ne anlama geliyor?",
+        "a": "Listede içi boş turuncu daire henüz çözülmemiş, içi dolu yeşil daire çözülmüş bir soru demektir. Değiştirmek için ? işaretine tıkla; yalnızca açık soruları görmek için araç çubuğunda `Yalnızca çözülmemişler`i aç. Zaman bloğunun yanında renk sorunun çözülüp çözülmediğini, dolu daire de bir cevap yazıldığını gösterir."
+      },
+      {
+        "q": "Zaman blokları nasıl çalışır?",
+        "a": "`Blok Ekle` ile o anda yeni bir blok başlar, önceki de orada biter. Hiçbir bloğun kapsamadığı bir saatte soru yazarsan çevresinde bir blok oluşturulur. Bloğun sağ üstündeki `Ayarlar` ile rengini, başlangıcını ve süresini değiştirir ya da onu silersin. Bir bloğu kendin silersen o ders artık otomatik blok oluşturmaz."
+      },
+      {
+        "q": "\"Çözüldü\" ile \"Öğrendiklerim\" arasındaki fark ne?",
+        "a": "Soru ayrıntısında `Çözüldü` kutusunu işaretlediğinde, sorunun Öğrendiklerim'e dahil olup olmayacağını da seçersin. Orada yalnızca dahil ettiğin çözülmüş sorular görünür. Özetten de çıkarıp geri ekleyebilirsin; cevap yerinde kalır."
+      },
+      {
+        "q": "Yapay zekâ istemleri nasıl çalışır?",
+        "a": "Soru ayrıntısında Cevap'ın yanındaki `Yapay Zekâ İstemini Kopyala`yı aç ve bir adım seç: Soruyu Netleştir, Cevabı Bul, Cevabı Sorgula, Devam Sorularını Çıkar ya da Cevabımı Puanlat. Ders adı, o anki notların, öğrenme durumun ve asıl soruyla doldurulmuş bir istem panoya kopyalanır. İstem metni şimdilik Korece; yapay zekâ hizmetlerinin çoğu yine de anlar, cevabı Türkçe vermesini isteyebilirsin. Cevabını puanlatmak için önce kendi cevabını yazmış olman gerekir. Uygulama hiçbir zaman kendi başına bir yapay zekâ hizmetine bağlanmaz."
+      },
+      {
+        "q": "Markdown olarak kaydedilmiş bir sohbeti içe aktarabilir miyim?",
+        "a": "Ders menüsünden `Markdown’dan İçe Aktar…` seç. `# Başlık` dersin adı olur; her `## Bölüm`de ilk soru asıl soru, sonrakiler devam sorularıdır. Dosyada ilk konuşan kişinin söyledikleri soruya, diğerlerininkiler bir önceki sorunun cevabına dönüşür. Asıl dosya hiç değişmez."
+      },
+      {
+        "q": "Bir soruyu ya da dersi nasıl silerim?",
+        "a": "Listede soruya sağ tıklayıp `Sil`i seç. Bir ders için ders menüsündeki `Geçerli Dersi Sil`i kullan; soruları ve blokları da onunla gider. Bu geri alınamaz, önemli olanları önce yedekle."
+      },
+      {
+        "q": "Verilerim nerede tutuluyor, nasıl yedeklerim?",
+        "a": "Her şey bu Mac'te kalır, hiçbir yere yüklenmez. Yedeklemek için uygulamadan çık ve ~/Library/Containers/com.lectureq.LectureQ/Data/Library/Application Support/LectureQ/ klasörünü -wal ve -shm dosyalarıyla birlikte olduğu gibi kopyala. Uygulama yalnızca sürüm ve açıldığı günler gibi anonim kullanım istatistikleri gönderir, yazdıklarını asla."
+      },
+      {
+        "q": "Yazılar çok küçük.",
+        "a": "`⌘+` büyütür, `⌘-` küçültür, `⌘0` varsayılana döndürür. %85 ile %200 arasında ayarlanır ve tercihin hatırlanır."
+      },
+      {
+        "q": "Hangi Mac'lerde çalışır?",
+        "a": "macOS 14 veya sonrası yüklü her Mac'te. Kaynak kodu GitHub'da M1zz/LectureQ adresinde herkese açık."
+      },
+      {
+        "q": "Bir şey çalışmıyor. Kime bildireyim?",
+        "a": "Uygulamanın Ayarlar'ından (`⌘,`) geri bildirim gönder ya da aşağıdaki adrese yaz. macOS sürümünü ve o sırada ne yaptığını yazarsan daha hızlı bakabiliriz."
+      }
+    ]
+  },
+  "closing": {
+    "headline": "Bir sonraki derse\nbütün sorularınla git",
+    "cta": "App Store'dan ücretsiz indir"
+  },
+  "ui": {
+    "skip": "İçeriğe geç",
+    "languages": "Dil",
+    "privacy": "Gizlilik Politikası",
+    "contact": "Sorun ya da önerin mi var? {email} adresine yaz."
+  }
+}

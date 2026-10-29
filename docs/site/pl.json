@@ -1,0 +1,233 @@
+{
+  "title": "LectureQ: zapisuj pytania, które przychodzą do głowy na wykładzie, na Maca",
+  "description": "Zapisz pytanie jednym skrótem w trakcie wykładu. Zostaje obok notatek z tamtej chwili, dopóki nie znajdziesz odpowiedzi. Wszystko za darmo.",
+  "hero": {
+    "headline": "Żadne pytanie z wykładu\njuż ci nie ucieknie",
+    "lead": "Naciśnij `⌘⇧N`, wpisz jedną linijkę, a pytanie trafi obok notatek z dokładnie tej minuty. Słuchasz dalej, odpowiedzi szukasz później.",
+    "cta": "Pobierz za darmo z App Store",
+    "note": "Dla macOS 14 lub nowszego. Bez konta, wszystko zostaje na tym Macu."
+  },
+  "demo": {
+    "title": "Wypróbuj tutaj",
+    "lead": "Jesteś w połowie wykładu o uczeniu maszynowym. Wpisz pytanie i zapisz je, a obok bloku z tej godziny pojawi się ?. Ustaw godzinę spoza bloków, a powstanie dla niej nowy blok.",
+    "note": "Demo działa według tych samych zasad co aplikacja. Nic, co tu wpiszesz, nie jest zapisywane.",
+    "lecture": "ML 3 · Spadek gradientu",
+    "b1": "Funkcja straty = mierzy, jak bardzo predykcja się myli\nSpadek gradientu: małymi krokami w kierunku przeciwnym do gradientu\n  w ← w − η · ∂L/∂w\n\nDuży współczynnik uczenia η: rozbiega się, mały: za wolno\n→ zwykle zaczyna się od ok. 0,01 i dostraja, patrząc na krzywą straty",
+    "b2": "Minibatch: szacujemy gradient na części danych zamiast na wszystkich\nEpoka = jedno pełne przejście przez wszystkie dane\n\nZadanie: porównać krzywe straty dla 3 współczynników uczenia",
+    "draft": "Jak zauważyć moment, w którym strata walidacyjna zaczyna rosnąć?",
+    "qs": [
+      [
+        "10:12",
+        "Dlaczego strata maleje, gdy idziemy przeciwnie do gradientu?",
+        1,
+        1
+      ],
+      [
+        "10:18",
+        "Jak duży powinien być jeden krok? Kto ustala współczynnik uczenia?",
+        1,
+        1
+      ],
+      [
+        "10:41",
+        "Czy współczynnik uczenia zmienia się też w trakcie treningu?",
+        0,
+        0
+      ],
+      [
+        "10:26",
+        "Jeśli dolin jest kilka, to czy nie przegapimy najniższej?",
+        0,
+        0
+      ],
+      [
+        "10:50",
+        "Czy funkcja straty musi być zawsze błędem kwadratowym?",
+        1,
+        1
+      ],
+      [
+        "11:22",
+        "Jak dobrać rozmiar minibatcha?",
+        0,
+        0
+      ],
+      [
+        "11:35",
+        "Przy małym batchu gradient skacze. Czy to w porządku?",
+        0,
+        1
+      ],
+      [
+        "11:48",
+        "Co się stanie, jeśli puścimy za dużo epok?",
+        1,
+        1
+      ]
+    ],
+    "ph": "Napisz, co Cię nurtuje, jak najprostszymi słowami…",
+    "time": "Moment",
+    "now": "Teraz",
+    "save": "Zapisz",
+    "add": "Dodaj pytanie",
+    "resolved": "Rozwiązane",
+    "unresolved": "Nierozwiązane"
+  },
+  "problem": {
+    "title": "Po wykładzie pamiętasz jeszcze, o co chciałeś zapytać?",
+    "text": "Ledwie pomyślisz „chwila, ale dlaczego?”, prowadzący jest już przy kolejnym slajdzie. Znak zapytania na marginesie nie pamięta, z którego wyjaśnienia się wziął, i pytanie zostaje bez odpowiedzi. LectureQ przypina każde pytanie do notatek z tamtej chwili i trzyma je na widoku, aż je rozgryziesz."
+  },
+  "features": [
+    {
+      "title": "Pytaj, nie gubiąc kolejnego zdania",
+      "text": "Okno wpisywania otworzysz przyciskiem `Dodaj pytanie` na pasku narzędzi albo skrótem `⌘⇧N`. Godzina wpisuje się sama. `Return` zapisuje, a `⌘Return` zapisuje i od razu szykuje miejsce na następne.\nKażde pytanie pojawia się jako ? obok swojego bloku czasu, więc później od razu widzisz, z której części wykładu pochodzi.",
+      "shot": "capture"
+    },
+    {
+      "title": "Rozwiązane pytania stają się wiedzą",
+      "text": "Zapisz odpowiedź własnymi słowami, oznacz pytanie jako rozwiązane, a trafi do sekcji Czego się nauczyłem(-am) w podsumowaniu. To, co wciąż otwarte, zostaje w Pytania do zadania, więc lista na następne zajęcia układa się sama.\n`Kopiuj prompt AI` w szczegółach pytania wkłada do schowka gotowy prompt z nazwą wykładu i notatkami z tamtej chwili. Wystarczy wkleić go do usługi AI, z której już korzystasz.",
+      "shot": "summary"
+    },
+    {
+      "title": "Zobacz, dokąd zaprowadziło cię myślenie",
+      "text": "Pytania uzupełniające układają się z wcięciem pod pytaniem, z którego wyrosły, a wykres łączy je strzałkami. Kliknij węzeł, by przejść prosto do pytania.\nW Stanie nauki zapiszesz, gdzie jesteś teraz, gdzie chcesz być po kursie i czego chcesz się nauczyć, i porównasz to.",
+      "shot": "graph"
+    }
+  ],
+  "steps": {
+    "title": "Na start wystarczą trzy kroki",
+    "items": [
+      {
+        "title": "Utwórz wykład",
+        "text": "W menu wykładów po lewej stronie paska narzędzi albo zaimportuj rozmowę zapisaną w Markdownie."
+      },
+      {
+        "title": "Zapisuj od razu",
+        "text": "Naciśnij `⌘⇧N`. Wystarczy jedna linijka, godzina już jest."
+      },
+      {
+        "title": "Odpowiedz później",
+        "text": "Wpisz odpowiedź i kliknij ?, by oznaczyć pytanie jako rozwiązane. Przejdzie do Czego się nauczyłem(-am)."
+      }
+    ]
+  },
+  "reference": {
+    "title": "Skróty klawiszowe",
+    "rows": [
+      [
+        "⌘⇧N",
+        "Dodaj pytanie"
+      ],
+      [
+        "Return",
+        "Zapisz"
+      ],
+      [
+        "⌘Return",
+        "Zapisz i pisz następne"
+      ],
+      [
+        "Esc",
+        "Anuluj"
+      ],
+      [
+        "⌘1",
+        "Podsumowanie: pytania do zadania, czego się nauczyłeś, notatki"
+      ],
+      [
+        "⌘2",
+        "Wykres: pytania wyjściowe i uzupełniające"
+      ],
+      [
+        "⌘3",
+        "Bloki czasu: bloki wszystkich wykładów w kolejności"
+      ],
+      [
+        "⌘4",
+        "Stan nauki"
+      ],
+      [
+        "⌘+ · ⌘- · ⌘0",
+        "Większy tekst, mniejszy tekst, rozmiar domyślny"
+      ]
+    ],
+    "note": "Wszystkie znajdziesz też w menu Widok."
+  },
+  "pricing": {
+    "title": "Wszystkie funkcje są darmowe",
+    "free": {
+      "name": "Za darmo",
+      "items": [
+        "Szybkie pytania i notatki w blokach czasu",
+        "Pytania uzupełniające i wykres",
+        "Podsumowanie, przegląd bloków i Stan nauki",
+        "Prompty AI w pięciu krokach, kopiowane do schowka",
+        "Import rozmów z Markdowna"
+      ]
+    },
+    "pro": {
+      "name": "Wesprzyj twórcę",
+      "items": [
+        "Jeśli aplikacja ci pomaga, wyślij mały napiwek z Ustawień",
+        "Napiwek nie odblokowuje niczego dodatkowego"
+      ],
+      "note": "Z napiwkiem czy bez, wszystko działa tak samo."
+    },
+    "note": "Bez reklam i bez konta. Twoje notatki zostają na tym Macu."
+  },
+  "faq": {
+    "title": "Częste pytania",
+    "items": [
+      {
+        "q": "Co oznaczają kolory znaku ?",
+        "a": "Na liście pusty pomarańczowy krąg to pytanie jeszcze nierozwiązane, a wypełniony zielony to rozwiązane. Kliknij ?, by przełączyć, i włącz `Tylko nierozwiązane` na pasku narzędzi, żeby widzieć tylko otwarte. Przy bloku czasu kolor mówi, czy pytanie jest rozwiązane, a wypełniony krąg, że jest już odpowiedź."
+      },
+      {
+        "q": "Jak działają bloki czasu?",
+        "a": "Po kliknięciu `Dodaj blok` nowy blok zaczyna się w tej chwili, a poprzedni kończy w tym miejscu. Gdy zapiszesz pytanie o godzinie, której nie obejmuje żaden blok, powstanie wokół niego nowy. Przyciskiem `Ustawienia` w prawym górnym rogu bloku zmienisz kolor, początek i długość albo go usuniesz. Jeśli sam usuniesz blok, ten wykład przestanie tworzyć bloki automatycznie."
+      },
+      {
+        "q": "Czym różni się „Rozwiązane” od „Czego się nauczyłem(-am)”?",
+        "a": "Zaznaczając `Rozwiązane` w szczegółach pytania, wybierasz też, czy ma się liczyć do Czego się nauczyłem(-am). Trafiają tam tylko rozwiązane pytania, które uwzględnisz. Możesz je też usunąć lub przywrócić z podsumowania, a odpowiedź zostaje."
+      },
+      {
+        "q": "Jak działają prompty AI?",
+        "a": "W szczegółach pytania otwórz `Kopiuj prompt AI` obok pola Odpowiedź i wybierz krok: Doprecyzuj pytanie, Znajdź odpowiedź, Zakwestionuj odpowiedź, Wyłuskaj pytania uzupełniające albo Oceń moją odpowiedź. Do schowka trafia prompt z nazwą wykładu, notatkami z tamtej chwili, stanem nauki i pytaniem wyjściowym. Sam tekst promptu jest na razie po koreańsku; większość usług AI i tak go rozumie, a odpowiedzi możesz poprosić po polsku. Do oceny odpowiedzi musisz najpierw wpisać własną. Aplikacja sama nigdy nie łączy się z żadną usługą AI."
+      },
+      {
+        "q": "Czy mogę zaimportować rozmowę zapisaną w Markdownie?",
+        "a": "Wybierz `Importuj z Markdown…` w menu wykładów. `# Tytuł` staje się nazwą wykładu, a w każdej `## Sekcji` pierwsze pytanie jest wyjściowe, kolejne uzupełniające. Wypowiedzi osoby, która w pliku mówi pierwsza, stają się pytaniami, a wypowiedzi pozostałych odpowiedzią na poprzednie pytanie. Plik źródłowy pozostaje nietknięty."
+      },
+      {
+        "q": "Jak usunąć pytanie lub wykład?",
+        "a": "Kliknij pytanie na liście prawym przyciskiem i wybierz `Usuń`. Wykład usuniesz poleceniem `Usuń bieżący wykład` w menu wykładów; razem z nim znikną jego pytania i bloki. Tego nie da się cofnąć, więc najpierw zrób kopię tego, co ważne."
+      },
+      {
+        "q": "Gdzie są moje dane i jak zrobić kopię zapasową?",
+        "a": "Wszystko zostaje na tym Macu i nigdzie nie jest wysyłane. Zamknij aplikację i skopiuj cały folder ~/Library/Containers/com.lectureq.LectureQ/Data/Library/Application Support/LectureQ/ razem z plikami -wal i -shm. Aplikacja wysyła tylko anonimowe statystyki użycia, jak wersja i dni uruchomienia, nigdy tego, co piszesz."
+      },
+      {
+        "q": "Tekst jest za mały.",
+        "a": "`⌘+` go powiększa, `⌘-` zmniejsza, a `⌘0` przywraca domyślny rozmiar. Zakres to od 85% do 200%, a ustawienie jest zapamiętywane."
+      },
+      {
+        "q": "Na jakich Macach działa?",
+        "a": "Na każdym Macu z macOS 14 lub nowszym. Kod źródłowy jest publiczny na GitHubie: M1zz/LectureQ."
+      },
+      {
+        "q": "Coś nie działa. Komu to zgłosić?",
+        "a": "Wyślij opinię z Ustawień aplikacji (`⌘,`) albo napisz na adres poniżej. Podaj wersję macOS i to, co właśnie robiłeś, a szybciej to sprawdzimy."
+      }
+    ]
+  },
+  "closing": {
+    "headline": "Na następny wykład\nweź wszystkie pytania",
+    "cta": "Pobierz za darmo z App Store"
+  },
+  "ui": {
+    "skip": "Przejdź do treści",
+    "languages": "Język",
+    "privacy": "Polityka prywatności",
+    "contact": "Pytania lub uwagi? Napisz na {email}."
+  }
+}

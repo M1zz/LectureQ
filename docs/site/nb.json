@@ -1,0 +1,233 @@
+{
+  "title": "LectureQ: fang spørsmålene som dukker opp i forelesningen, for Mac",
+  "description": "Skriv ned et spørsmål med én snarvei mens forelesningen fortsetter. Det står ved notatene dine fra akkurat da, til du har svaret. Alt er gratis.",
+  "hero": {
+    "headline": "Ikke la et spørsmål fra\nforelesningen gli forbi",
+    "lead": "Trykk `⌘⇧N`, skriv én linje, så havner spørsmålet ved siden av notatene dine fra akkurat det minuttet. Du hører videre og finner svaret senere.",
+    "cta": "Last ned gratis i App Store",
+    "note": "For macOS 14 eller nyere. Ingen konto, alt blir på denne Macen."
+  },
+  "demo": {
+    "title": "Prøv her",
+    "lead": "Du sitter midt i en forelesning om maskinlæring. Skriv et spørsmål og lagre det, så dukker det opp et ? ved blokken for det klokkeslettet. Velg et tidspunkt utenfor blokkene, så lages det en ny blokk til det.",
+    "note": "Demoen følger de samme reglene som appen. Ingenting du skriver her, blir lagret.",
+    "lecture": "ML 3 · Gradientnedstigning",
+    "b1": "Tapsfunksjon = måler hvor feil prediksjonen er\nGradientnedstigning: små steg motsatt vei av gradienten\n  w ← w − η · ∂L/∂w\n\nLæringsrate η for stor: divergerer, for liten: altfor treg\n→ start gjerne rundt 0,01 og juster etter tapskurven",
+    "b2": "Minibatch: anslå gradienten fra en del av dataene i stedet for alle\nEpoke = én gjennomgang av alle dataene\n\nOppgave: sammenlign tapskurver for 3 læringsrater",
+    "draft": "Hvordan merker man når valideringstapet begynner å stige?",
+    "qs": [
+      [
+        "10:12",
+        "Hvorfor går tapet ned når man går motsatt vei av gradienten?",
+        1,
+        1
+      ],
+      [
+        "10:18",
+        "Hvor stort bør et steg være? Hvem bestemmer læringsraten?",
+        1,
+        1
+      ],
+      [
+        "10:41",
+        "Endrer man læringsraten underveis i treningen også?",
+        0,
+        0
+      ],
+      [
+        "10:26",
+        "Hvis det er flere daler, kan man ikke da gå glipp av den laveste?",
+        0,
+        0
+      ],
+      [
+        "10:50",
+        "Må tapsfunksjonen alltid være kvadratisk feil?",
+        1,
+        1
+      ],
+      [
+        "11:22",
+        "Hvordan velger man størrelsen på minibatchen?",
+        0,
+        0
+      ],
+      [
+        "11:35",
+        "Med små batcher svinger gradienten. Går det greit?",
+        0,
+        1
+      ],
+      [
+        "11:48",
+        "Hva skjer hvis man trener for mange epoker?",
+        1,
+        1
+      ]
+    ],
+    "ph": "Skriv det du lurer på, med de enkleste ordene …",
+    "time": "Tidspunkt",
+    "now": "Nå",
+    "save": "Lagre",
+    "add": "Legg til spørsmål",
+    "resolved": "Løst",
+    "unresolved": "Uløst"
+  },
+  "problem": {
+    "title": "Husker du spørsmålet når forelesningen er over?",
+    "text": "Akkurat når du tenker «vent, hvorfor det?», har foreleseren gått videre. Spørsmålstegnet i margen husker ikke hvilken forklaring det hørte til, og spørsmålet blir aldri besvart. LectureQ fester hvert spørsmål til notatene dine fra det øyeblikket og holder det fremme til du har funnet ut av det."
+  },
+  "features": [
+    {
+      "title": "Spør uten å miste neste setning",
+      "text": "Åpne inntastingsvinduet med `Legg til spørsmål` i verktøylinjen eller `⌘⇧N`. Tidspunktet fylles inn av seg selv. `Retur` lagrer, og `⌘Retur` lagrer og gjør deg klar for det neste.\nHvert spørsmål vises som et ? ved tidsblokken det hører til, så du senere ser med en gang hvilken del av forelesningen det kom fra.",
+      "shot": "capture"
+    },
+    {
+      "title": "Besvarte spørsmål blir det du har lært",
+      "text": "Skriv svaret med egne ord, merk spørsmålet som løst, så havner det under Det jeg har lært i oppsummeringen. Det som fortsatt er åpent, blir liggende under Spørsmål å stille, og lista til neste gang lager seg selv.\n`Kopier KI-prompt` i spørsmålsdetaljene legger en ferdig prompt på utklippstavlen med navnet på forelesningen og notatene dine fra det øyeblikket. Lim den inn i KI-tjenesten du allerede bruker.",
+      "shot": "summary"
+    },
+    {
+      "title": "Se hvor tankene tok veien",
+      "text": "Oppfølgingsspørsmål legger seg med innrykk under spørsmålet de kom fra, og grafen kobler dem sammen med piler. Klikk på en node for å hoppe rett til spørsmålet.\nUnder Læringsstatus skriver du hvor du står nå, hvor du vil være når kurset er over, og hva du vil lære, og sammenligner.",
+      "shot": "graph"
+    }
+  ],
+  "steps": {
+    "title": "Tre steg for å komme i gang",
+    "items": [
+      {
+        "title": "Opprett en forelesning",
+        "text": "Fra forelesningsmenyen til venstre i verktøylinjen, eller importer en samtale lagret som Markdown."
+      },
+      {
+        "title": "Skriv det ned med en gang",
+        "text": "Trykk `⌘⇧N`. Én linje holder, og tidspunktet står der allerede."
+      },
+      {
+        "title": "Svar senere",
+        "text": "Skriv svaret, og klikk på ? for å merke det som løst. Det flytter til Det jeg har lært."
+      }
+    ]
+  },
+  "reference": {
+    "title": "Hurtigtaster",
+    "rows": [
+      [
+        "⌘⇧N",
+        "Legg til spørsmål"
+      ],
+      [
+        "Return",
+        "Lagre"
+      ],
+      [
+        "⌘Return",
+        "Lagre og skriv det neste"
+      ],
+      [
+        "Esc",
+        "Avbryt"
+      ],
+      [
+        "⌘1",
+        "Oppsummering: spørsmål å stille, det du har lært, notater"
+      ],
+      [
+        "⌘2",
+        "Graf: opprinnelige spørsmål og oppfølgingsspørsmål"
+      ],
+      [
+        "⌘3",
+        "Tidsblokker: alle forelesningenes blokker i tidsrekkefølge"
+      ],
+      [
+        "⌘4",
+        "Læringsstatus"
+      ],
+      [
+        "⌘+ · ⌘- · ⌘0",
+        "Større tekst, mindre tekst, standardstørrelse"
+      ]
+    ],
+    "note": "Alle finnes også i Visning-menyen."
+  },
+  "pricing": {
+    "title": "Alle funksjoner er gratis",
+    "free": {
+      "name": "Gratis",
+      "items": [
+        "Raske spørsmål og notater per tidsblokk",
+        "Oppfølgingsspørsmål og graf",
+        "Oppsummering, tidsblokkoversikt og Læringsstatus",
+        "KI-prompter i fem steg, kopiert til utklippstavlen",
+        "Import av samtaler fra Markdown"
+      ]
+    },
+    "pro": {
+      "name": "Støtt utvikleren",
+      "items": [
+        "Send et lite tips fra Innstillinger hvis appen hjelper deg",
+        "Et tips låser ikke opp noe ekstra"
+      ],
+      "note": "Alt fungerer likt, med eller uten tips."
+    },
+    "note": "Ingen reklame, ingen konto. Notatene dine blir på denne Macen."
+  },
+  "faq": {
+    "title": "Vanlige spørsmål",
+    "items": [
+      {
+        "q": "Hva betyr fargene på ?",
+        "a": "I lista er en tom oransje sirkel et spørsmål som ikke er løst ennå, og en fylt grønn et løst spørsmål. Klikk på ? for å bytte, og slå på `Bare uløste` i verktøylinjen for å se bare de åpne. Ved en tidsblokk viser fargen om spørsmålet er løst, og en fylt sirkel at det står et svar."
+      },
+      {
+        "q": "Hvordan fungerer tidsblokker?",
+        "a": "Med `Legg til blokk` starter en ny blokk i det øyeblikket, og den forrige slutter der. Skriver du et spørsmål på et tidspunkt ingen blokk dekker, lages det en blokk rundt det. Med `Innstillinger` øverst til høyre i blokken endrer du farge, starttid og lengde, eller sletter den. Sletter du selv en blokk, slutter den forelesningen å lage blokker automatisk."
+      },
+      {
+        "q": "Hva er forskjellen på Løst og Det jeg har lært?",
+        "a": "Når du huker av `Løst` i spørsmålsdetaljene, velger du også om spørsmålet skal telle i Det jeg har lært. Der vises bare løste spørsmål du har tatt med. Du kan også fjerne eller legge dem til igjen fra oppsummeringen, og svaret blir stående."
+      },
+      {
+        "q": "Hvordan fungerer KI-promptene?",
+        "a": "Åpne `Kopier KI-prompt` ved Svar i spørsmålsdetaljene og velg et steg: Puss spørsmålet, Finn svaret, Utfordre svaret, Hent ut oppfølgingsspørsmål eller Få svaret mitt vurdert. En prompt med navnet på forelesningen, notatene dine fra det øyeblikket, læringsstatusen din og det opprinnelige spørsmålet kopieres til utklippstavlen. Selve prompteksten er foreløpig på koreansk; de fleste KI-tjenester forstår den likevel, og du kan be om svar på norsk. For å få svaret ditt vurdert må du først ha skrevet det selv. Appen kobler seg aldri til en KI-tjeneste på egen hånd."
+      },
+      {
+        "q": "Kan jeg importere en samtale lagret som Markdown?",
+        "a": "Velg `Importer fra Markdown …` i forelesningsmenyen. `# Tittel` blir navnet på forelesningen, og i hver `## Seksjon` er det første spørsmålet det opprinnelige og de neste oppfølgingsspørsmål. Det den første som snakker i fila sier, blir spørsmål, og det andre sier, blir svaret på spørsmålet før. Originalfila endres aldri."
+      },
+      {
+        "q": "Hvordan sletter jeg et spørsmål eller en forelesning?",
+        "a": "Høyreklikk på spørsmålet i lista og velg `Slett`. For en forelesning bruker du `Slett gjeldende forelesning` i forelesningsmenyen; spørsmålene og blokkene følger med. Det kan ikke angres, så ta sikkerhetskopi av det viktige først."
+      },
+      {
+        "q": "Hvor lagres dataene mine, og hvordan tar jeg sikkerhetskopi?",
+        "a": "Alt blir på denne Macen og lastes aldri opp. Avslutt appen og kopier hele mappen ~/Library/Containers/com.lectureq.LectureQ/Data/Library/Application Support/LectureQ/ med filene -wal og -shm. Appen sender bare anonym bruksstatistikk, som versjon og hvilke dager den er åpnet, aldri det du skriver."
+      },
+      {
+        "q": "Teksten er for liten.",
+        "a": "`⌘+` gjør den større, `⌘-` mindre, og `⌘0` tilbakestiller. Det går fra 85 % til 200 %, og innstillingen huskes."
+      },
+      {
+        "q": "Hvilke Macer fungerer appen på?",
+        "a": "Alle Macer med macOS 14 eller nyere. Kildekoden er åpen på GitHub under M1zz/LectureQ."
+      },
+      {
+        "q": "Noe fungerer ikke. Hvem sier jeg fra til?",
+        "a": "Send tilbakemelding fra appens Innstillinger (`⌘,`), eller skriv til adressen nedenfor. Fortell hvilken macOS-versjon du har og hva du holdt på med, så kan vi se på det raskere."
+      }
+    ]
+  },
+  "closing": {
+    "headline": "Ta med hvert spørsmål\ntil neste forelesning",
+    "cta": "Last ned gratis i App Store"
+  },
+  "ui": {
+    "skip": "Hopp til innholdet",
+    "languages": "Språk",
+    "privacy": "Personvernerklæring",
+    "contact": "Spørsmål eller tilbakemeldinger? Skriv til {email}."
+  }
+}

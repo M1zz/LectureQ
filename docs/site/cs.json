@@ -1,0 +1,233 @@
+{
+  "title": "LectureQ: zapisujte otázky, které vás napadnou na přednášce, pro Mac",
+  "description": "Zapište otázku jednou zkratkou a přednáška běží dál. Zůstane u poznámek z té chvíle, dokud nenajdete odpověď. Všechny funkce jsou zdarma.",
+  "hero": {
+    "headline": "Už vám neuteče žádná\notázka z přednášky",
+    "lead": "Stiskněte `⌘⇧N`, napište jeden řádek a otázka se uloží vedle poznámek z té přesné minuty. Posloucháte dál a odpověď hledáte později.",
+    "cta": "Stáhnout zdarma z App Storu",
+    "note": "Pro macOS 14 nebo novější. Bez účtu, vše zůstává na tomto Macu."
+  },
+  "demo": {
+    "title": "Vyzkoušejte si to",
+    "lead": "Jste uprostřed přednášky o strojovém učení. Napište otázku a uložte ji: vedle bloku pro ten čas se objeví ?. Nastavte čas mimo bloky a vznikne pro ni nový blok.",
+    "note": "Ukázka se řídí stejnými pravidly jako aplikace. Nic, co sem napíšete, se neukládá.",
+    "lecture": "ML 3 · Gradientní sestup",
+    "b1": "Ztrátová funkce = měří, jak moc se predikce mýlí\nGradientní sestup: po malých krocích proti směru gradientu\n  w ← w − η · ∂L/∂w\n\nRychlost učení η velká: diverguje, malá: moc pomalé\n→ obvykle začít kolem 0,01 a ladit podle křivky ztráty",
+    "b2": "Minibatch: odhad gradientu z části dat místo ze všech\nEpocha = jeden celý průchod všemi daty\n\nÚkol: porovnat křivky ztráty pro 3 rychlosti učení",
+    "draft": "Jak poznat okamžik, kdy validační ztráta začne růst?",
+    "qs": [
+      [
+        "10:12",
+        "Proč ztráta klesá, když jdeme proti směru gradientu?",
+        1,
+        1
+      ],
+      [
+        "10:18",
+        "Jak velký má být jeden krok? Kdo určuje rychlost učení?",
+        1,
+        1
+      ],
+      [
+        "10:41",
+        "Mění se rychlost učení i během tréninku?",
+        0,
+        0
+      ],
+      [
+        "10:26",
+        "Když je údolí víc, nemine se pak to nejhlubší?",
+        0,
+        0
+      ],
+      [
+        "10:50",
+        "Musí být ztrátová funkce vždycky kvadratická chyba?",
+        1,
+        1
+      ],
+      [
+        "11:22",
+        "Jak zvolit velikost minibatche?",
+        0,
+        0
+      ],
+      [
+        "11:35",
+        "S malým batchem gradient kolísá, nevadí to?",
+        0,
+        1
+      ],
+      [
+        "11:48",
+        "Co se stane, když se trénuje moc epoch?",
+        1,
+        1
+      ]
+    ],
+    "ph": "Napište, co vás zajímá, co nejjednodušeji…",
+    "time": "Čas",
+    "now": "Teď",
+    "save": "Uložit",
+    "add": "Přidat otázku",
+    "resolved": "Vyřešeno",
+    "unresolved": "Nevyřešeno"
+  },
+  "problem": {
+    "title": "Pamatujete si po přednášce ještě, na co jste se chtěli zeptat?",
+    "text": "Sotva si pomyslíte „počkat, proč vlastně?“, přednášející už je u dalšího bodu. Otazník na okraji si nepamatuje, ke kterému vysvětlení patřil, a otázka zůstane bez odpovědi. LectureQ připne každou otázku k poznámkám z té chvíle a drží ji na očích, dokud ji nevyřešíte."
+  },
+  "features": [
+    {
+      "title": "Ptejte se a neztraťte další větu",
+      "text": "Okno pro zadání otevřete tlačítkem `Přidat otázku` na panelu nástrojů nebo zkratkou `⌘⇧N`. Čas se vyplní sám. `Return` ukládá, `⌘Return` uloží a rovnou připraví místo na další.\nKaždá otázka se zobrazí jako ? vedle svého časového bloku, takže později hned vidíte, ze které části přednášky pochází.",
+      "shot": "capture"
+    },
+    {
+      "title": "Vyřešené otázky se mění v naučené",
+      "text": "Napište odpověď vlastními slovy, označte otázku jako vyřešenou a v souhrnu se přesune do Co jsem se naučil(a). Co je stále otevřené, zůstane v Otázky k položení, takže seznam na příští hodinu vznikne sám.\n`Kopírovat prompt pro AI` v detailu otázky vloží do schránky hotový prompt s názvem přednášky a poznámkami z té chvíle. Stačí ho vložit do AI služby, kterou už používáte.",
+      "shot": "summary"
+    },
+    {
+      "title": "Uvidíte, kam vaše myšlenky vedly",
+      "text": "Doplňující otázky se řadí s odsazením pod otázku, ze které vzešly, a graf je spojuje šipkami. Kliknutím na uzel přejdete rovnou na otázku.\nVe Stavu učení si zapíšete, kde jste teď, kde chcete být na konci kurzu a co se chcete naučit, a můžete to porovnat.",
+      "shot": "graph"
+    }
+  ],
+  "steps": {
+    "title": "Začátek ve třech krocích",
+    "items": [
+      {
+        "title": "Vytvořte přednášku",
+        "text": "V nabídce přednášek vlevo na panelu nástrojů, nebo importujte rozhovor uložený v Markdownu."
+      },
+      {
+        "title": "Zapište ji hned",
+        "text": "Stiskněte `⌘⇧N`. Stačí jeden řádek, čas už je vyplněný."
+      },
+      {
+        "title": "Odpovězte později",
+        "text": "Napište odpověď a klikněte na ?, tím ji označíte jako vyřešenou. Přesune se do Co jsem se naučil(a)."
+      }
+    ]
+  },
+  "reference": {
+    "title": "Klávesové zkratky",
+    "rows": [
+      [
+        "⌘⇧N",
+        "Přidat otázku"
+      ],
+      [
+        "Return",
+        "Uložit"
+      ],
+      [
+        "⌘Return",
+        "Uložit a psát další"
+      ],
+      [
+        "Esc",
+        "Zrušit"
+      ],
+      [
+        "⌘1",
+        "Souhrn: otázky k položení, co jste se naučili, poznámky"
+      ],
+      [
+        "⌘2",
+        "Graf: původní a doplňující otázky"
+      ],
+      [
+        "⌘3",
+        "Časové bloky: bloky všech přednášek v časovém pořadí"
+      ],
+      [
+        "⌘4",
+        "Stav učení"
+      ],
+      [
+        "⌘+ · ⌘- · ⌘0",
+        "Větší text, menší text, výchozí velikost"
+      ]
+    ],
+    "note": "Všechny najdete i v nabídce Zobrazení."
+  },
+  "pricing": {
+    "title": "Všechny funkce jsou zdarma",
+    "free": {
+      "name": "Zdarma",
+      "items": [
+        "Rychlé otázky a poznámky v časových blocích",
+        "Doplňující otázky a graf",
+        "Souhrn, přehled bloků a Stav učení",
+        "Prompty pro AI v pěti krocích, zkopírované do schránky",
+        "Import rozhovorů z Markdownu"
+      ]
+    },
+    "pro": {
+      "name": "Podpořte vývojáře",
+      "items": [
+        "Pokud vám aplikace pomáhá, pošlete malé spropitné z Nastavení",
+        "Spropitné nic dalšího neodemyká"
+      ],
+      "note": "Se spropitným i bez něj funguje všechno stejně."
+    },
+    "note": "Žádné reklamy ani účet. Vaše poznámky zůstávají na tomto Macu."
+  },
+  "faq": {
+    "title": "Časté dotazy",
+    "items": [
+      {
+        "q": "Co znamenají barvy otazníku?",
+        "a": "V seznamu je prázdný oranžový kroužek otázka, která ještě není vyřešená, a plný zelený vyřešená otázka. Kliknutím na ? přepnete stav a volbou `Jen nevyřešené` na panelu nástrojů uvidíte jen otevřené. U časového bloku barva ukazuje, zda je otázka vyřešená, a plný kroužek, že už má odpověď."
+      },
+      {
+        "q": "Jak fungují časové bloky?",
+        "a": "Tlačítkem `Přidat blok` začne v tu chvíli nový blok a předchozí tam skončí. Když zapíšete otázku v čase, který nepokrývá žádný blok, vytvoří se kolem ní nový. Přes `Nastavení` vpravo nahoře v bloku změníte barvu, začátek a délku nebo blok smažete. Pokud blok smažete sami, ta přednáška přestane bloky vytvářet automaticky."
+      },
+      {
+        "q": "Jaký je rozdíl mezi „Vyřešeno“ a „Co jsem se naučil(a)“?",
+        "a": "Když v detailu otázky zaškrtnete `Vyřešeno`, zvolíte také, zda se má počítat do Co jsem se naučil(a). Zobrazí se tam jen vyřešené otázky, které tam zahrnete. Odebrat nebo vrátit je můžete i ze souhrnu, odpověď přitom zůstane."
+      },
+      {
+        "q": "Jak fungují prompty pro AI?",
+        "a": "V detailu otázky otevřete `Kopírovat prompt pro AI` vedle pole Odpověď a vyberte krok: Vylepšit otázku, Najít odpověď, Zpochybnit odpověď, Vytěžit doplňující otázky nebo Nechat ohodnotit mou odpověď. Do schránky se zkopíruje prompt s názvem přednášky, poznámkami z té chvíle, stavem učení a původní otázkou. Samotný text promptu je zatím v korejštině; většina AI služeb mu i tak rozumí a odpověď si můžete vyžádat česky. Pro ohodnocení odpovědi ji musíte nejdřív sami napsat. Aplikace se sama nikdy nepřipojuje k žádné AI službě."
+      },
+      {
+        "q": "Můžu importovat rozhovor uložený v Markdownu?",
+        "a": "Vyberte `Importovat z Markdownu…` v nabídce přednášek. `# Nadpis` se stane názvem přednášky a v každé `## Sekci` je první otázka původní a další jsou doplňující. Co v souboru říká první mluvčí, se stane otázkami, a co říkají ostatní, odpovědí na předchozí otázku. Původní soubor se nikdy nemění."
+      },
+      {
+        "q": "Jak smažu otázku nebo přednášku?",
+        "a": "Klikněte na otázku v seznamu pravým tlačítkem a zvolte `Smazat`. Přednášku smažete volbou `Smazat aktuální přednášku` v nabídce přednášek; zmizí i její otázky a bloky. Nedá se to vrátit, proto si důležité věci nejdřív zálohujte."
+      },
+      {
+        "q": "Kde jsou moje data a jak je zálohovat?",
+        "a": "Vše zůstává na tomto Macu a nikam se neodesílá. Ukončete aplikaci a zkopírujte celou složku ~/Library/Containers/com.lectureq.LectureQ/Data/Library/Application Support/LectureQ/ včetně souborů -wal a -shm. Aplikace posílá jen anonymní statistiky používání, například verzi a dny spuštění, nikdy to, co píšete."
+      },
+      {
+        "q": "Text je příliš malý.",
+        "a": "`⌘+` ho zvětší, `⌘-` zmenší a `⌘0` vrátí výchozí velikost. Rozsah je 85 % až 200 % a nastavení se pamatuje."
+      },
+      {
+        "q": "Na kterých Macích aplikace funguje?",
+        "a": "Na každém Macu s macOS 14 nebo novějším. Zdrojový kód je veřejně na GitHubu: M1zz/LectureQ."
+      },
+      {
+        "q": "Něco nefunguje. Komu to nahlásit?",
+        "a": "Pošlete zpětnou vazbu z Nastavení aplikace (`⌘,`) nebo napište na adresu níže. Uveďte verzi macOS a co jste zrovna dělali, ať to můžeme prověřit rychleji."
+      }
+    ]
+  },
+  "closing": {
+    "headline": "Na příští přednášku\nsi vezměte všechny otázky",
+    "cta": "Stáhnout zdarma z App Storu"
+  },
+  "ui": {
+    "skip": "Přejít na obsah",
+    "languages": "Jazyk",
+    "privacy": "Zásady ochrany osobních údajů",
+    "contact": "Dotazy nebo připomínky? Napište na {email}."
+  }
+}

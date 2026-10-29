@@ -1,84 +1,194 @@
 <!doctype html>
 <html lang="vi">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>LectureQ: Hỏi đáp bài giảng</title>
-<!--hreflang:start-->
-<link rel="canonical" href="https://m1zz.github.io/LectureQ/vi/">
-<link rel="alternate" hreflang="ko" href="https://m1zz.github.io/LectureQ/">
-<link rel="alternate" hreflang="en" href="https://m1zz.github.io/LectureQ/en/">
-<link rel="alternate" hreflang="en-GB" href="https://m1zz.github.io/LectureQ/en-GB/">
-<link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/LectureQ/zh-Hans/">
-<link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/LectureQ/zh-Hant/">
-<link rel="alternate" hreflang="ja" href="https://m1zz.github.io/LectureQ/ja/">
-<link rel="alternate" hreflang="ru" href="https://m1zz.github.io/LectureQ/ru/">
-<link rel="alternate" hreflang="es" href="https://m1zz.github.io/LectureQ/es/">
-<link rel="alternate" hreflang="de" href="https://m1zz.github.io/LectureQ/de/">
-<link rel="alternate" hreflang="fr" href="https://m1zz.github.io/LectureQ/fr/">
-<link rel="alternate" hreflang="it" href="https://m1zz.github.io/LectureQ/it/">
-<link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/LectureQ/pt-BR/">
-<link rel="alternate" hreflang="th" href="https://m1zz.github.io/LectureQ/th/">
-<link rel="alternate" hreflang="vi" href="https://m1zz.github.io/LectureQ/vi/">
-<link rel="alternate" hreflang="cs" href="https://m1zz.github.io/LectureQ/cs/">
-<link rel="alternate" hreflang="da" href="https://m1zz.github.io/LectureQ/da/">
-<link rel="alternate" hreflang="el" href="https://m1zz.github.io/LectureQ/el/">
-<link rel="alternate" hreflang="fi" href="https://m1zz.github.io/LectureQ/fi/">
-<link rel="alternate" hreflang="id" href="https://m1zz.github.io/LectureQ/id/">
-<link rel="alternate" hreflang="nb" href="https://m1zz.github.io/LectureQ/nb/">
-<link rel="alternate" hreflang="nl" href="https://m1zz.github.io/LectureQ/nl/">
-<link rel="alternate" hreflang="pl" href="https://m1zz.github.io/LectureQ/pl/">
-<link rel="alternate" hreflang="sv" href="https://m1zz.github.io/LectureQ/sv/">
-<link rel="alternate" hreflang="tr" href="https://m1zz.github.io/LectureQ/tr/">
-<link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/LectureQ/">
-<style>.langs{display:flex;flex-wrap:wrap;gap:4px 12px;font-size:13px;margin:0 0 18px;}.langs a{color:var(--muted);text-decoration:none;}.langs a[aria-current]{color:var(--fg);font-weight:600;}.langs a:hover{color:var(--teal);}</style>
-<!--hreflang:end-->
-<style>
-  :root{--blue:#2E6BE6;--teal:#17B3A3;--bg:#ffffff;--fg:#1c1c1e;--muted:#6b6b70;--card:#f5f6f8;--border:#e6e7ea;}
-  @media (prefers-color-scheme:dark){:root{--bg:#111214;--fg:#f2f2f5;--muted:#9a9aa0;--card:#1b1c1f;--border:#2a2b2f;}}
-  *{box-sizing:border-box;}
-  body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Segoe UI",Roboto,sans-serif;background:var(--bg);color:var(--fg);line-height:1.65;}
-  .wrap{max-width:720px;margin:0 auto;padding:48px 20px 80px;}
-  .logo{width:96px;height:96px;border-radius:24px;background:linear-gradient(160deg,var(--blue),var(--teal));display:flex;align-items:center;justify-content:center;box-shadow:0 8px 28px rgba(0,0,0,.18);margin-bottom:20px;}
-  .logo span{font-size:56px;font-weight:800;color:#fff;}
-  h1{font-size:34px;margin:0 0 2px;letter-spacing:-.5px;}
-  .sub{color:var(--muted);font-size:15px;margin:0 0 10px;}
-  .tag{color:var(--muted);font-size:17px;margin:0 0 32px;}
-  .cards{display:grid;gap:14px;}
-  a.card{display:block;text-decoration:none;color:inherit;background:var(--card);border:1px solid var(--border);border-radius:14px;padding:18px 20px;transition:transform .12s ease,border-color .12s ease;}
-  a.card:hover{transform:translateY(-2px);border-color:var(--teal);}
-  a.card h2{margin:0 0 4px;font-size:18px;}
-  a.card p{margin:0;color:var(--muted);font-size:14px;}
-  footer{margin-top:44px;color:var(--muted);font-size:13px;}
-  footer a{color:var(--teal);}
-</style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>LectureQ: ghi lại thắc mắc nảy ra giữa buổi học, cho Mac</title>
+  <meta name="description" content="Ghi lại câu hỏi bằng một phím tắt mà không lỡ bài giảng. Câu hỏi nằm cạnh ghi chú của lúc đó cho đến khi bạn có câu trả lời. Hoàn toàn miễn phí.">
+  <meta name="theme-color" content="#2E6BE6" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#111214" media="(prefers-color-scheme: dark)">
+  <meta name="apple-itunes-app" content="app-id=6794597095">
+  <link rel="canonical" href="https://m1zz.github.io/LectureQ/vi/">
+  <link rel="alternate" hreflang="ko" href="https://m1zz.github.io/LectureQ/">
+  <link rel="alternate" hreflang="en" href="https://m1zz.github.io/LectureQ/en/">
+  <link rel="alternate" hreflang="en-GB" href="https://m1zz.github.io/LectureQ/en-GB/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/LectureQ/zh-Hans/">
+  <link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/LectureQ/zh-Hant/">
+  <link rel="alternate" hreflang="ja" href="https://m1zz.github.io/LectureQ/ja/">
+  <link rel="alternate" hreflang="ru" href="https://m1zz.github.io/LectureQ/ru/">
+  <link rel="alternate" hreflang="es" href="https://m1zz.github.io/LectureQ/es/">
+  <link rel="alternate" hreflang="de" href="https://m1zz.github.io/LectureQ/de/">
+  <link rel="alternate" hreflang="fr" href="https://m1zz.github.io/LectureQ/fr/">
+  <link rel="alternate" hreflang="it" href="https://m1zz.github.io/LectureQ/it/">
+  <link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/LectureQ/pt-BR/">
+  <link rel="alternate" hreflang="th" href="https://m1zz.github.io/LectureQ/th/">
+  <link rel="alternate" hreflang="vi" href="https://m1zz.github.io/LectureQ/vi/">
+  <link rel="alternate" hreflang="cs" href="https://m1zz.github.io/LectureQ/cs/">
+  <link rel="alternate" hreflang="da" href="https://m1zz.github.io/LectureQ/da/">
+  <link rel="alternate" hreflang="el" href="https://m1zz.github.io/LectureQ/el/">
+  <link rel="alternate" hreflang="fi" href="https://m1zz.github.io/LectureQ/fi/">
+  <link rel="alternate" hreflang="id" href="https://m1zz.github.io/LectureQ/id/">
+  <link rel="alternate" hreflang="nb" href="https://m1zz.github.io/LectureQ/nb/">
+  <link rel="alternate" hreflang="nl" href="https://m1zz.github.io/LectureQ/nl/">
+  <link rel="alternate" hreflang="pl" href="https://m1zz.github.io/LectureQ/pl/">
+  <link rel="alternate" hreflang="sv" href="https://m1zz.github.io/LectureQ/sv/">
+  <link rel="alternate" hreflang="tr" href="https://m1zz.github.io/LectureQ/tr/">
+  <link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/LectureQ/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="LectureQ: ghi lại thắc mắc nảy ra giữa buổi học, cho Mac">
+  <meta property="og:description" content="Ghi lại câu hỏi bằng một phím tắt mà không lỡ bài giảng. Câu hỏi nằm cạnh ghi chú của lúc đó cho đến khi bạn có câu trả lời. Hoàn toàn miễn phí.">
+  <meta property="og:url" content="https://m1zz.github.io/LectureQ/vi/">
+  <meta property="og:image" content="https://m1zz.github.io/LectureQ/img/vi/og.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="../icon.png">
+  <link rel="apple-touch-icon" href="../icon.png">
+  <link rel="stylesheet" href="../site.css">
+  <link rel="stylesheet" href="../demo.css">
+  <style>:root{--accent:#2E6BE6}@media (prefers-color-scheme:dark){:root{--accent:#6F9BFF}}</style>
+  <script>document.documentElement.classList.add("js")</script>
 </head>
 <body>
-  <div class="wrap">
-<!--langswitch:start--><nav class="langs" aria-label="Language"><a href="../index.html" hreflang="ko" lang="ko">한국어</a> <a href="../en/index.html" hreflang="en" lang="en">English</a> <a href="../en-GB/index.html" hreflang="en-GB" lang="en-GB">English (UK)</a> <a href="../zh-Hans/index.html" hreflang="zh-Hans" lang="zh-Hans">简体中文</a> <a href="../zh-Hant/index.html" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a> <a href="../ja/index.html" hreflang="ja" lang="ja">日本語</a> <a href="../ru/index.html" hreflang="ru" lang="ru">Русский</a> <a href="../es/index.html" hreflang="es" lang="es">Español</a> <a href="../de/index.html" hreflang="de" lang="de">Deutsch</a> <a href="../fr/index.html" hreflang="fr" lang="fr">Français</a> <a href="../it/index.html" hreflang="it" lang="it">Italiano</a> <a href="../pt-BR/index.html" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a> <a href="../th/index.html" hreflang="th" lang="th">ไทย</a> <a href="../vi/index.html" hreflang="vi" lang="vi" aria-current="page">Tiếng Việt</a> <a href="../cs/index.html" hreflang="cs" lang="cs">Čeština</a> <a href="../da/index.html" hreflang="da" lang="da">Dansk</a> <a href="../el/index.html" hreflang="el" lang="el">Ελληνικά</a> <a href="../fi/index.html" hreflang="fi" lang="fi">Suomi</a> <a href="../id/index.html" hreflang="id" lang="id">Bahasa Indonesia</a> <a href="../nb/index.html" hreflang="nb" lang="nb">Norsk bokmål</a> <a href="../nl/index.html" hreflang="nl" lang="nl">Nederlands</a> <a href="../pl/index.html" hreflang="pl" lang="pl">Polski</a> <a href="../sv/index.html" hreflang="sv" lang="sv">Svenska</a> <a href="../tr/index.html" hreflang="tr" lang="tr">Türkçe</a></nav><!--langswitch:end-->
-    <div class="logo"><span>?</span></div>
-    <h1>LectureQ</h1>
-    <p class="sub">Hỏi đáp bài giảng · Ứng dụng macOS</p>
-    <p class="tag">Ghi ngay những câu hỏi nảy ra khi nghe giảng, tìm câu trả lời nhờ ghi chú theo khối thời gian, câu hỏi nối tiếp và prompt AI, rồi đúc kết thành điều đã học.</p>
-    <div class="cards">
-      <a class="card" href="./ai-guide.html">
-        <h2>Hướng dẫn: tìm câu trả lời bằng AI</h2>
-        <p>5 bước cùng AI biến câu hỏi bạn ghi lại thành &lsquo;kiến thức đã kiểm chứng&rsquo;</p>
-      </a>
-      <a class="card" href="./support.html">
-        <h2>Hỗ trợ</h2>
-        <p>Cách dùng, câu hỏi thường gặp và thông tin liên hệ</p>
-      </a>
-      <a class="card" href="./privacy.html">
-        <h2>Chính sách quyền riêng tư</h2>
-        <p>LectureQ xử lý dữ liệu của bạn như thế nào</p>
-      </a>
-      <a class="card" href="https://github.com/M1zz/LectureQ">
-        <h2>Mã nguồn (GitHub)</h2>
-        <p>github.com/M1zz/LectureQ</p>
-      </a>
-    </div>
-    <footer>© 2026 LectureQ · Liên hệ <a href="mailto:mizzking75@gmail.com">mizzking75@gmail.com</a></footer>
-  </div>
+  <a class="skip" href="#main">Chuyển đến nội dung</a>
+  <header class="bar">
+    <a class="brand" href="../vi/"><img src="../icon.png" alt="" width="32" height="32">LectureQ</a>
+    <a class="lang-link" href="#languages">Ngôn ngữ</a>
+  </header>
+
+  <main id="main">
+    <section class="hero">
+      <div class="copy">
+        <h1>Đừng để thắc mắc trên lớp<br>trôi mất nữa</h1>
+        <p class="lead">Nhấn <code>⌘⇧N</code>, gõ một dòng, câu hỏi sẽ nằm cạnh ghi chú của đúng phút đó. Bạn cứ nghe tiếp, câu trả lời tìm sau.</p>
+        <div class="actions"><a class="cta" href="https://apps.apple.com/app/id6794597095">Tải miễn phí trên App Store</a><a class="try" href="#try">Thử ngay tại đây ↓</a></div>
+        <p class="muted small">Dành cho macOS 14 trở lên. Không cần tài khoản, mọi thứ ở lại trên máy Mac này.</p>
+      </div>
+      <div class="plain"><img src="../img/vi/main.jpg" alt="Đừng để thắc mắc trên lớp trôi mất nữa" width="1200" height="750" decoding="async"></div>
+    </section>
+
+
+    <section class="reveal" id="try">
+      <h2>Thử ngay tại đây</h2>
+      <p class="muted">Bạn đang ngồi giữa buổi học máy học. Gõ một câu hỏi rồi lưu: dấu ? hiện ra cạnh khối của giờ đó. Đổi giờ sang ngoài các khối, một khối mới sẽ được tạo để chứa nó.</p>
+      <div id="demo" class="card demo-card" data-text="{&quot;title&quot;: &quot;Thử ngay tại đây&quot;, &quot;lead&quot;: &quot;Bạn đang ngồi giữa buổi học máy học. Gõ một câu hỏi rồi lưu: dấu ? hiện ra cạnh khối của giờ đó. Đổi giờ sang ngoài các khối, một khối mới sẽ được tạo để chứa nó.&quot;, &quot;note&quot;: &quot;Bản thử này chạy theo đúng quy tắc của ứng dụng. Những gì bạn gõ ở đây không được lưu lại.&quot;, &quot;lecture&quot;: &quot;Học máy 3 · Gradient descent&quot;, &quot;b1&quot;: &quot;Hàm mất mát = đo dự đoán sai đến mức nào\nGradient descent: đi từng chút ngược hướng gradient\n  w ← w − η · ∂L/∂w\n\nTốc độ học η lớn thì phân kỳ, nhỏ thì quá chậm\n→ thường bắt đầu quanh 0,01 rồi chỉnh theo đường cong loss&quot;, &quot;b2&quot;: &quot;Mini-batch: ước lượng gradient bằng một phần dữ liệu thay vì toàn bộ\nEpoch = duyệt hết toàn bộ dữ liệu một lần\n\nBài tập: so sánh đường cong loss với 3 tốc độ học&quot;, &quot;draft&quot;: &quot;Làm sao nhận ra lúc validation loss bắt đầu tăng?&quot;, &quot;qs&quot;: [[&quot;10:12&quot;, &quot;Tại sao đi ngược hướng gradient thì loss giảm?&quot;, 1, 1], [&quot;10:18&quot;, &quot;Mỗi bước nên lớn cỡ nào? Ai quyết định tốc độ học?&quot;, 1, 1], [&quot;10:41&quot;, &quot;Trong lúc train có đổi tốc độ học không?&quot;, 0, 0], [&quot;10:26&quot;, &quot;Nếu có nhiều thung lũng thì có bị bỏ lỡ điểm thấp nhất không?&quot;, 0, 0], [&quot;10:50&quot;, &quot;Hàm mất mát có nhất thiết phải là sai số bình phương không?&quot;, 1, 1], [&quot;11:22&quot;, &quot;Chọn kích thước mini-batch thế nào?&quot;, 0, 0], [&quot;11:35&quot;, &quot;Batch nhỏ thì gradient dao động, vậy có sao không?&quot;, 0, 1], [&quot;11:48&quot;, &quot;Chạy quá nhiều epoch thì sao?&quot;, 1, 1]], &quot;ph&quot;: &quot;Ghi điều bạn thắc mắc bằng những từ đơn giản nhất…&quot;, &quot;time&quot;: &quot;Thời điểm&quot;, &quot;now&quot;: &quot;Bây giờ&quot;, &quot;save&quot;: &quot;Lưu&quot;, &quot;add&quot;: &quot;Thêm câu hỏi&quot;, &quot;resolved&quot;: &quot;Đã giải quyết&quot;, &quot;unresolved&quot;: &quot;Chưa giải quyết&quot;}"></div>
+    </section>
+
+    <section class="problem reveal">
+      <h2>Hết buổi học rồi, bạn còn nhớ câu hỏi của mình không?</h2>
+      <p>Vừa kịp nghĩ "khoan, sao lại thế?" thì giảng viên đã sang ý khác. Dấu hỏi ghi vội bên lề chẳng còn nhớ thuộc phần giải thích nào, và câu hỏi cứ thế bỏ ngỏ. LectureQ gắn mỗi câu hỏi vào ghi chú của đúng lúc đó và giữ nó trước mắt bạn cho đến khi bạn hiểu ra.</p>
+    </section>
+
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Hỏi mà không lỡ câu tiếp theo</h2>
+        <p>Mở cửa sổ nhập bằng <code>Thêm câu hỏi</code> trên thanh công cụ hoặc <code>⌘⇧N</code>. Giờ được điền sẵn. <code>Return</code> để lưu, <code>⌘Return</code> để lưu và sẵn sàng cho câu tiếp theo.<br>Mỗi câu hỏi hiện thành dấu ? cạnh khối thời gian của nó, nên sau này bạn thấy ngay nó xuất phát từ đoạn nào của bài giảng.</p>
+      </div>
+      <div class="plain"><img src="../img/vi/capture.jpg" alt="Hỏi mà không lỡ câu tiếp theo" width="1200" height="750" loading="lazy" decoding="async"></div>
+    </section>
+
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Câu hỏi đã giải quyết thành điều bạn học được</h2>
+        <p>Viết câu trả lời bằng lời của mình, đánh dấu đã giải quyết, câu hỏi sẽ vào Điều đã học trong phần tóm tắt. Những câu còn bỏ ngỏ nằm lại ở Câu hỏi cần hỏi, nên danh sách cho buổi sau tự hình thành.<br><code>Sao chép prompt AI</code> trong chi tiết câu hỏi đặt sẵn vào bộ nhớ tạm một prompt có tên bài giảng và ghi chú của lúc đó. Chỉ cần dán vào dịch vụ AI bạn vẫn dùng.</p>
+      </div>
+      <div class="plain"><img src="../img/vi/summary.jpg" alt="Câu hỏi đã giải quyết thành điều bạn học được" width="1200" height="750" loading="lazy" decoding="async"></div>
+    </section>
+
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Thấy được mạch suy nghĩ của mình</h2>
+        <p>Câu hỏi nối tiếp xếp thụt lề dưới câu hỏi đã sinh ra nó, và biểu đồ nối chúng bằng mũi tên. Bấm vào một nút để đi thẳng tới câu hỏi đó.<br>Ở Trạng thái học tập, bạn ghi lại mình đang ở đâu, muốn đạt tới đâu khi kết thúc khóa học và muốn học gì, rồi so sánh.</p>
+      </div>
+      <div class="plain"><img src="../img/vi/graph.jpg" alt="Thấy được mạch suy nghĩ của mình" width="1200" height="750" loading="lazy" decoding="async"></div>
+    </section>
+
+    <section class="reveal">
+      <h2>Bắt đầu chỉ với ba bước</h2>
+      <ol class="steps"><li class="card"><span class="n">1</span><h3>Tạo bài giảng</h3><p>Từ menu bài giảng bên trái thanh công cụ, hoặc nhập một cuộc trò chuyện lưu dạng Markdown.</p></li>
+<li class="card"><span class="n">2</span><h3>Ghi ngay khi nảy ra</h3><p>Nhấn <code>⌘⇧N</code>. Một dòng là đủ, giờ đã điền sẵn.</p></li>
+<li class="card"><span class="n">3</span><h3>Trả lời sau</h3><p>Viết câu trả lời rồi bấm vào ? để đánh dấu đã giải quyết. Nó chuyển sang Điều đã học.</p></li></ol>
+    </section>
+
+    <section class="reveal" id="commands">
+      <h2>Phím tắt</h2>
+      <div class="card table">
+        <dl><div><dt>⌘⇧N</dt><dd>Thêm câu hỏi</dd></div><div><dt>Return</dt><dd>Lưu</dd></div><div><dt>⌘Return</dt><dd>Lưu và viết câu tiếp theo</dd></div><div><dt>Esc</dt><dd>Hủy</dd></div><div><dt>⌘1</dt><dd>Tóm tắt: câu hỏi cần hỏi, điều đã học, ghi chú</dd></div><div><dt>⌘2</dt><dd>Biểu đồ: câu hỏi gốc và câu hỏi nối tiếp</dd></div><div><dt>⌘3</dt><dd>Khối thời gian: khối của mọi bài giảng theo thứ tự</dd></div><div><dt>⌘4</dt><dd>Trạng thái học tập</dd></div><div><dt>⌘+ · ⌘- · ⌘0</dt><dd>Chữ lớn hơn, nhỏ hơn, cỡ mặc định</dd></div></dl>
+      </div>
+      <p class="muted">Tất cả cũng có trong menu Hiển thị.</p>
+    </section>
+
+
+    <section class="reveal" id="pricing">
+      <h2>Mọi tính năng đều miễn phí</h2>
+      <div class="plans">
+        <div class="card plan free">
+          <h3>Miễn phí</h3>
+          <ul><li>Ghi câu hỏi nhanh và ghi chú theo khối thời gian</li><li>Câu hỏi nối tiếp và biểu đồ</li><li>Tóm tắt, tổng quan khối thời gian và Trạng thái học tập</li><li>Prompt AI năm bước, sao chép vào bộ nhớ tạm</li><li>Nhập cuộc trò chuyện từ Markdown</li></ul>
+          
+        </div>
+        <div class="card plan pro">
+          <h3>Ủng hộ nhà phát triển</h3>
+          <ul><li>Nếu thấy hữu ích, bạn có thể gửi một khoản tip nhỏ trong Cài đặt</li><li>Tip không mở khóa thêm tính năng nào</li></ul>
+          <p class="muted">Có tip hay không, mọi thứ vẫn hoạt động như nhau.</p>
+        </div>
+      </div>
+      <p class="muted">Không quảng cáo, không tài khoản. Ghi chú của bạn ở lại trên máy Mac này.</p>
+    </section>
+
+    <section class="reveal" id="faq">
+      <h2>Câu hỏi thường gặp</h2>
+      <div class="faq"><details><summary>Màu của dấu ? có nghĩa gì?</summary><p>Trong danh sách, vòng tròn cam rỗng là câu hỏi chưa giải quyết, vòng tròn xanh lá đặc là đã giải quyết. Bấm vào ? để chuyển đổi, và bật <code>Chỉ chưa giải quyết</code> trên thanh công cụ để chỉ xem những câu còn mở. Cạnh khối thời gian, màu cho biết câu hỏi đã giải quyết chưa, còn vòng tròn đặc nghĩa là đã có câu trả lời.</p></details>
+<details><summary>Khối thời gian hoạt động thế nào?</summary><p>Bấm <code>Thêm khối</code> thì một khối mới bắt đầu ngay lúc đó và khối trước kết thúc tại đó. Nếu bạn ghi câu hỏi vào giờ chưa có khối nào bao phủ, một khối sẽ được tạo quanh nó. Dùng <code>Cài đặt</code> ở góc trên bên phải của khối để đổi màu, giờ bắt đầu, độ dài hoặc xóa khối. Nếu bạn tự xóa một khối, bài giảng đó sẽ thôi tự tạo khối.</p></details>
+<details><summary>"Đã giải quyết" và "Điều đã học" khác nhau thế nào?</summary><p>Khi đánh dấu <code>Đã giải quyết</code> trong chi tiết câu hỏi, bạn cũng chọn có tính nó vào Điều đã học hay không. Ở đó chỉ có những câu đã giải quyết mà bạn đưa vào. Bạn cũng có thể bỏ ra hoặc đưa lại từ phần tóm tắt, câu trả lời vẫn được giữ nguyên.</p></details>
+<details><summary>Prompt AI hoạt động thế nào?</summary><p>Trong chi tiết câu hỏi, mở <code>Sao chép prompt AI</code> cạnh ô Trả lời và chọn một bước: Trau chuốt câu hỏi, Tìm câu trả lời, Hỏi vặn câu trả lời, Rút ra câu hỏi nối tiếp hoặc Nhờ chấm điểm câu trả lời của tôi. Một prompt gồm tên bài giảng, ghi chú lúc đó, trạng thái học tập và câu hỏi gốc sẽ được sao chép vào bộ nhớ tạm. Hiện nội dung prompt đang bằng tiếng Hàn; hầu hết dịch vụ AI vẫn hiểu được, và bạn có thể yêu cầu trả lời bằng tiếng Việt. Muốn được chấm điểm thì trước hết bạn phải tự viết câu trả lời. Ứng dụng không bao giờ tự kết nối với dịch vụ AI.</p></details>
+<details><summary>Tôi có thể nhập cuộc trò chuyện lưu dạng Markdown không?</summary><p>Chọn <code>Nhập từ Markdown…</code> trong menu bài giảng. <code># Tiêu đề</code> thành tên bài giảng; trong mỗi <code>## Mục</code>, câu hỏi đầu là câu hỏi gốc, các câu sau là câu hỏi nối tiếp. Lời của người nói đầu tiên trong tệp thành câu hỏi, lời của người khác thành câu trả lời cho câu hỏi ngay trước đó. Tệp gốc không bị thay đổi.</p></details>
+<details><summary>Làm sao xóa một câu hỏi hoặc bài giảng?</summary><p>Bấm chuột phải vào câu hỏi trong danh sách và chọn <code>Xóa</code>. Với bài giảng, dùng <code>Xóa bài giảng hiện tại</code> trong menu bài giảng; câu hỏi và khối của nó cũng bị xóa theo. Không thể hoàn tác, nên hãy sao lưu những gì quan trọng trước.</p></details>
+<details><summary>Dữ liệu được lưu ở đâu, sao lưu thế nào?</summary><p>Mọi thứ ở lại trên máy Mac này và không được tải lên đâu cả. Để sao lưu, thoát ứng dụng rồi sao chép nguyên thư mục ~/Library/Containers/com.lectureq.LectureQ/Data/Library/Application Support/LectureQ/ cùng các tệp -wal và -shm. Ứng dụng chỉ gửi thống kê sử dụng ẩn danh như phiên bản và những ngày đã mở, không bao giờ gửi nội dung bạn viết.</p></details>
+<details><summary>Chữ nhỏ quá.</summary><p><code>⌘+</code> để phóng to, <code>⌘-</code> để thu nhỏ, <code>⌘0</code> để về cỡ mặc định. Khoảng chỉnh từ 85% đến 200% và được ghi nhớ.</p></details>
+<details><summary>Dùng được trên những máy Mac nào?</summary><p>Mọi máy Mac chạy macOS 14 trở lên. Mã nguồn công khai trên GitHub tại M1zz/LectureQ.</p></details>
+<details><summary>Có gì đó không chạy. Tôi báo cho ai?</summary><p>Gửi phản hồi từ Cài đặt của ứng dụng (<code>⌘,</code>) hoặc viết thư tới địa chỉ bên dưới. Hãy cho biết phiên bản macOS và bạn đang làm gì lúc đó để chúng tôi kiểm tra nhanh hơn.</p></details></div>
+      <p class="contact">Có câu hỏi hay góp ý? Viết cho <a href="mailto:mizzking75@gmail.com">mizzking75@gmail.com</a>.</p>
+    </section>
+
+    <section class="closing reveal">
+      <h2>Buổi học tới,<br>mang theo mọi câu hỏi</h2>
+      <a class="cta" href="https://apps.apple.com/app/id6794597095">Tải miễn phí trên App Store</a>
+    </section>
+  </main>
+
+  <footer>
+    <nav id="languages" class="langs" aria-label="Ngôn ngữ"><a href="../" hreflang="ko" lang="ko">한국어</a>
+<a href="../en/" hreflang="en" lang="en">English</a>
+<a href="../en-GB/" hreflang="en-GB" lang="en-GB">English (UK)</a>
+<a href="../zh-Hans/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a>
+<a href="../zh-Hant/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a>
+<a href="../ja/" hreflang="ja" lang="ja">日本語</a>
+<a href="../ru/" hreflang="ru" lang="ru">Русский</a>
+<a href="../es/" hreflang="es" lang="es">Español</a>
+<a href="../de/" hreflang="de" lang="de">Deutsch</a>
+<a href="../fr/" hreflang="fr" lang="fr">Français</a>
+<a href="../it/" hreflang="it" lang="it">Italiano</a>
+<a href="../pt-BR/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a>
+<a href="../th/" hreflang="th" lang="th">ไทย</a>
+<a href="../vi/" hreflang="vi" lang="vi" aria-current="page">Tiếng Việt</a>
+<a href="../cs/" hreflang="cs" lang="cs">Čeština</a>
+<a href="../da/" hreflang="da" lang="da">Dansk</a>
+<a href="../el/" hreflang="el" lang="el">Ελληνικά</a>
+<a href="../fi/" hreflang="fi" lang="fi">Suomi</a>
+<a href="../id/" hreflang="id" lang="id">Bahasa Indonesia</a>
+<a href="../nb/" hreflang="nb" lang="nb">Norsk bokmål</a>
+<a href="../nl/" hreflang="nl" lang="nl">Nederlands</a>
+<a href="../pl/" hreflang="pl" lang="pl">Polski</a>
+<a href="../sv/" hreflang="sv" lang="sv">Svenska</a>
+<a href="../tr/" hreflang="tr" lang="tr">Türkçe</a></nav>
+    <p><a href="privacy.html">Chính sách quyền riêng tư</a> · <a href="mailto:mizzking75@gmail.com">mizzking75@gmail.com</a> · © 2026 LectureQ</p>
+  </footer>
+
+  <script>
+    const io = new IntersectionObserver(es => es.forEach(e => {
+      if (e.isIntersecting) { e.target.classList.add("in"); io.unobserve(e.target) }
+    }), { rootMargin: "0px 0px -10% 0px" });
+    document.querySelectorAll(".reveal").forEach(el => io.observe(el));
+  </script>
+  <script src="../demo.js"></script>
 </body>
 </html>

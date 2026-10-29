@@ -1,0 +1,233 @@
+{
+  "title": "LectureQ: tallenna luennolla heräävät kysymykset, Macille",
+  "description": "Kirjaa kysymys pikanäppäimellä kesken luennon. Se pysyy sen hetken muistiinpanojesi vieressä, kunnes löydät vastauksen. Kaikki on ilmaista.",
+  "hero": {
+    "headline": "Älä anna luennolla heränneen\nkysymyksen karata",
+    "lead": "Paina `⌘⇧N`, kirjoita rivi, ja kysymys tallentuu juuri sen minuutin muistiinpanojesi viereen. Kuuntelet eteenpäin ja etsit vastauksen myöhemmin.",
+    "cta": "Lataa ilmaiseksi App Storesta",
+    "note": "macOS 14 tai uudempi. Ei tiliä, kaikki pysyy tällä Macilla."
+  },
+  "demo": {
+    "title": "Kokeile tässä",
+    "lead": "Istut koneoppimisen luennolla. Kirjoita kysymys ja tallenna se, niin sen kellonajan lohkon viereen ilmestyy ?. Vaihda aika lohkojen ulkopuolelle, niin sille syntyy uusi lohko.",
+    "note": "Kokeilu toimii samoilla säännöillä kuin sovellus. Mitään tähän kirjoittamaasi ei tallenneta.",
+    "lecture": "ML 3 · Gradienttimenetelmä",
+    "b1": "Häviöfunktio = mittaa, kuinka paljon ennuste menee pieleen\nGradienttimenetelmä: pieniä askelia gradientin vastaiseen suuntaan\n  w ← w − η · ∂L/∂w\n\nIso oppimisnopeus η hajaantuu, pieni on liian hidas\n→ yleensä aloitetaan noin 0,01:stä ja säädetään häviökäyrän mukaan",
+    "b2": "Minierä: gradientti arvioidaan osasta dataa koko datan sijaan\nEpookki = koko data käydään kerran läpi\n\nTehtävä: vertaa häviökäyriä kolmella oppimisnopeudella",
+    "draft": "Miten huomaa hetken, jolloin validointihäviö alkaa nousta?",
+    "qs": [
+      [
+        "10:12",
+        "Miksi häviö pienenee, kun mennään gradientin vastaiseen suuntaan?",
+        1,
+        1
+      ],
+      [
+        "10:18",
+        "Kuinka iso yhden askeleen pitäisi olla? Kuka päättää oppimisnopeuden?",
+        1,
+        1
+      ],
+      [
+        "10:41",
+        "Muutetaanko oppimisnopeutta myös kesken koulutuksen?",
+        0,
+        0
+      ],
+      [
+        "10:26",
+        "Jos laaksoja on monta, eikö alin jää silloin löytymättä?",
+        0,
+        0
+      ],
+      [
+        "10:50",
+        "Pitääkö häviöfunktion aina olla neliövirhe?",
+        1,
+        1
+      ],
+      [
+        "11:22",
+        "Miten minierän koko valitaan?",
+        0,
+        0
+      ],
+      [
+        "11:35",
+        "Pienellä erällä gradientti heiluu. Haittaako se?",
+        0,
+        1
+      ],
+      [
+        "11:48",
+        "Mitä tapahtuu, jos epookkeja ajetaan liikaa?",
+        1,
+        1
+      ]
+    ],
+    "ph": "Kirjoita, mitä mietit, mahdollisimman yksinkertaisin sanoin…",
+    "time": "Ajankohta",
+    "now": "Nyt",
+    "save": "Tallenna",
+    "add": "Lisää kysymys",
+    "resolved": "Ratkaistu",
+    "unresolved": "Ratkaisematon"
+  },
+  "problem": {
+    "title": "Muistatko luennon jälkeen vielä, mitä halusit kysyä?",
+    "text": "Heti kun ajattelet ”hetkinen, miksi?”, luennoitsija on jo seuraavassa asiassa. Marginaalin kysymysmerkki ei enää muista, mihin selitykseen se liittyi, ja kysymys jää vaille vastausta. LectureQ kiinnittää jokaisen kysymyksen sen hetken muistiinpanoihin ja pitää sen esillä, kunnes olet selvittänyt asian."
+  },
+  "features": [
+    {
+      "title": "Kysy menettämättä seuraavaa lausetta",
+      "text": "Avaa syöttöikkuna työkalupalkin `Lisää kysymys` -painikkeella tai `⌘⇧N`:llä. Kellonaika täyttyy itsestään. `Return` tallentaa, ja `⌘Return` tallentaa ja valmistaa saman tien seuraavaan.\nJokainen kysymys näkyy ?-merkkinä oman aikalohkonsa vieressä, joten myöhemmin näet heti, mistä luennon kohdasta se syntyi.",
+      "shot": "capture"
+    },
+    {
+      "title": "Ratkaistusta kysymyksestä tulee opittua",
+      "text": "Kirjoita vastaus omin sanoin, merkitse kysymys ratkaistuksi, ja se siirtyy yhteenvedossa kohtaan Mitä opin. Avoimet jäävät kohtaan Kysyttävät kysymykset, joten lista seuraavaa kertaa varten syntyy itsestään.\nKysymyksen tiedoissa `Kopioi tekoälykehote` vie leikepöydälle valmiin kehotteen, jossa on luennon nimi ja sen hetken muistiinpanosi. Liitä se tekoälypalveluun, jota jo käytät.",
+      "shot": "summary"
+    },
+    {
+      "title": "Näe, mihin ajatuksesi veivät",
+      "text": "Jatkokysymykset asettuvat sisennettyinä sen kysymyksen alle, josta ne syntyivät, ja kaavio yhdistää ne nuolilla. Klikkaa solmua, niin pääset suoraan kysymykseen.\nOppimistilanteeseen kirjaat, missä olet nyt, missä haluat olla kurssin lopussa ja mitä haluat oppia, ja voit verrata niitä.",
+      "shot": "graph"
+    }
+  ],
+  "steps": {
+    "title": "Alkuun kolmessa vaiheessa",
+    "items": [
+      {
+        "title": "Luo luento",
+        "text": "Työkalupalkin vasemman reunan luentovalikosta, tai tuo Markdownina tallennettu keskustelu."
+      },
+      {
+        "title": "Kirjaa heti, kun kysymys herää",
+        "text": "Paina `⌘⇧N`. Yksi rivi riittää, ja kellonaika on jo valmiina."
+      },
+      {
+        "title": "Vastaa myöhemmin",
+        "text": "Kirjoita vastaus ja klikkaa ?-merkkiä merkitäksesi kysymyksen ratkaistuksi. Se siirtyy kohtaan Mitä opin."
+      }
+    ]
+  },
+  "reference": {
+    "title": "Pikanäppäimet",
+    "rows": [
+      [
+        "⌘⇧N",
+        "Lisää kysymys"
+      ],
+      [
+        "Return",
+        "Tallenna"
+      ],
+      [
+        "⌘Return",
+        "Tallenna ja kirjoita seuraava"
+      ],
+      [
+        "Esc",
+        "Peruuta"
+      ],
+      [
+        "⌘1",
+        "Yhteenveto: kysyttävät, opitut, muistiinpanot"
+      ],
+      [
+        "⌘2",
+        "Kaavio: alkuperäiset kysymykset ja jatkokysymykset"
+      ],
+      [
+        "⌘3",
+        "Aikalohkot: kaikkien luentojen lohkot aikajärjestyksessä"
+      ],
+      [
+        "⌘4",
+        "Oppimistilanne"
+      ],
+      [
+        "⌘+ · ⌘- · ⌘0",
+        "Suurempi teksti, pienempi teksti, oletuskoko"
+      ]
+    ],
+    "note": "Löydät ne kaikki myös Näytä-valikosta."
+  },
+  "pricing": {
+    "title": "Kaikki ominaisuudet ovat ilmaisia",
+    "free": {
+      "name": "Ilmainen",
+      "items": [
+        "Pikakysymykset ja aikalohkojen muistiinpanot",
+        "Jatkokysymykset ja kaavio",
+        "Yhteenveto, aikalohkojen kokonaiskuva ja Oppimistilanne",
+        "Viisivaiheiset tekoälykehotteet leikepöydälle",
+        "Keskustelujen tuonti Markdownista"
+      ]
+    },
+    "pro": {
+      "name": "Tue kehittäjää",
+      "items": [
+        "Lähetä pieni tippi asetuksista, jos sovellus auttaa sinua",
+        "Tippi ei avaa mitään lisää"
+      ],
+      "note": "Kaikki toimii samoin, annoit tipin tai et."
+    },
+    "note": "Ei mainoksia, ei tiliä. Muistiinpanosi pysyvät tällä Macilla."
+  },
+  "faq": {
+    "title": "Usein kysyttyä",
+    "items": [
+      {
+        "q": "Mitä ?-merkin värit tarkoittavat?",
+        "a": "Luettelossa tyhjä oranssi ympyrä on vielä ratkaisematon kysymys ja täytetty vihreä ratkaistu. Klikkaa ?-merkkiä vaihtaaksesi, ja kytke työkalupalkista `Vain ratkaisemattomat` nähdäksesi vain avoimet. Aikalohkon vieressä väri kertoo, onko kysymys ratkaistu, ja täytetty ympyrä, että vastaus on jo kirjoitettu."
+      },
+      {
+        "q": "Miten aikalohkot toimivat?",
+        "a": "`Lisää lohko` aloittaa uuden lohkon sillä hetkellä, ja edellinen päättyy siihen. Jos kirjaat kysymyksen aikaan, jota mikään lohko ei kata, sen ympärille luodaan lohko. Lohkon oikean yläkulman `Asetukset` -kohdasta muutat väriä, alkuaikaa ja kestoa tai poistat lohkon. Jos poistat lohkon itse, se luento lakkaa luomasta lohkoja automaattisesti."
+      },
+      {
+        "q": "Mitä eroa on kohdilla Ratkaistu ja Mitä opin?",
+        "a": "Kun rastitat kysymyksen tiedoissa `Ratkaistu`, valitset samalla, lasketaanko se kohtaan Mitä opin. Siellä näkyvät vain ratkaistut kysymykset, jotka olet ottanut mukaan. Voit myös poistaa tai palauttaa niitä yhteenvedosta, ja vastaus säilyy."
+      },
+      {
+        "q": "Miten tekoälykehotteet toimivat?",
+        "a": "Avaa kysymyksen tiedoissa Vastaus-kohdan vierestä `Kopioi tekoälykehote` ja valitse vaihe: Tarkenna kysymystä, Etsi vastaus, Haasta vastaus, Poimi jatkokysymykset tai Pyydä arvio vastauksestani. Leikepöydälle kopioituu kehote, jossa on luennon nimi, sen hetken muistiinpanosi, oppimistilanteesi ja alkuperäinen kysymys. Itse kehoteteksti on toistaiseksi koreaksi; useimmat tekoälypalvelut ymmärtävät sen silti, ja voit pyytää vastausta suomeksi. Arvion pyytäminen edellyttää, että olet ensin kirjoittanut oman vastauksesi. Sovellus ei itse ole koskaan yhteydessä tekoälypalveluun."
+      },
+      {
+        "q": "Voinko tuoda Markdownina tallennetun keskustelun?",
+        "a": "Valitse luentovalikosta `Tuo Markdownista…`. `# Otsikko` on luennon nimi, ja jokaisessa `## Osio` -kohdassa ensimmäinen kysymys on alkuperäinen ja seuraavat jatkokysymyksiä. Tiedostossa ensimmäisenä puhuvan repliikeistä tulee kysymyksiä ja muiden repliikeistä vastaus edeltävään kysymykseen. Alkuperäistä tiedostoa ei muuteta."
+      },
+      {
+        "q": "Miten poistan kysymyksen tai luennon?",
+        "a": "Napsauta kysymystä luettelossa hiiren oikealla ja valitse `Poista`. Luennon poistat luentovalikon kohdalla `Poista nykyinen luento`; sen kysymykset ja lohkot lähtevät mukana. Poistoa ei voi perua, joten varmuuskopioi tärkeät tiedot ensin."
+      },
+      {
+        "q": "Mihin tietoni tallentuvat ja miten varmuuskopioin ne?",
+        "a": "Kaikki pysyy tällä Macilla eikä mitään ladata verkkoon. Lopeta sovellus ja kopioi koko kansio ~/Library/Containers/com.lectureq.LectureQ/Data/Library/Application Support/LectureQ/ myös -wal- ja -shm-tiedostoineen. Sovellus lähettää vain nimettömiä käyttötilastoja, kuten version ja avauspäivät, ei koskaan kirjoittamiasi asioita."
+      },
+      {
+        "q": "Teksti on liian pientä.",
+        "a": "`⌘+` suurentaa, `⌘-` pienentää ja `⌘0` palauttaa oletuskoon. Kokoa voi säätää 85 %:sta 200 %:iin, ja asetus säilyy."
+      },
+      {
+        "q": "Millä Maceilla sovellus toimii?",
+        "a": "Kaikilla Maceilla, joissa on macOS 14 tai uudempi. Lähdekoodi on avoimesti GitHubissa osoitteessa M1zz/LectureQ."
+      },
+      {
+        "q": "Jokin ei toimi. Kenelle ilmoitan?",
+        "a": "Lähetä palautetta sovelluksen asetuksista (`⌘,`) tai kirjoita alla olevaan osoitteeseen. Kerro macOS-versiosi ja mitä olit tekemässä, niin pääsemme asiaan nopeammin."
+      }
+    ]
+  },
+  "closing": {
+    "headline": "Vie jokainen kysymys\nseuraavalle luennolle",
+    "cta": "Lataa ilmaiseksi App Storesta"
+  },
+  "ui": {
+    "skip": "Siirry sisältöön",
+    "languages": "Kieli",
+    "privacy": "Tietosuojakäytäntö",
+    "contact": "Kysyttävää tai palautetta? Kirjoita osoitteeseen {email}."
+  }
+}

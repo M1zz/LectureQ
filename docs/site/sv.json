@@ -1,0 +1,233 @@
+{
+  "title": "LectureQ: fånga frågorna som dyker upp under föreläsningen, för Mac",
+  "description": "Skriv ner en fråga med ett kortkommando mitt i föreläsningen. Den hamnar bredvid anteckningarna från just då tills du har svaret. Allt är gratis.",
+  "hero": {
+    "headline": "Låt ingen fråga från\nföreläsningen glida förbi",
+    "lead": "Tryck `⌘⇧N`, skriv en rad, så hamnar frågan bredvid dina anteckningar från just den minuten. Du lyssnar vidare och letar svar senare.",
+    "cta": "Hämta gratis på App Store",
+    "note": "För macOS 14 eller senare. Inget konto, allt stannar på den här Macen."
+  },
+  "demo": {
+    "title": "Prova här",
+    "lead": "Du sitter mitt i en föreläsning om maskininlärning. Skriv en fråga och spara den, så dyker ett ? upp bredvid blocket för den tiden. Välj en tid utanför blocken så skapas ett nytt block åt den.",
+    "note": "Demon följer samma regler som appen. Inget du skriver här sparas någonstans.",
+    "lecture": "ML 3 · Gradientnedstigning",
+    "b1": "Förlustfunktion = mäter hur fel förutsägelsen är\nGradientnedstigning: små steg i motsatt riktning mot gradienten\n  w ← w − η · ∂L/∂w\n\nFör stor inlärningstakt η: divergerar, för liten: alldeles för långsamt\n→ börja oftast runt 0,01 och justera efter förlustkurvan",
+    "b2": "Minibatch: skatta gradienten från en del av datan i stället för all\nEpok = ett helt varv genom all data\n\nUppgift: jämför förlustkurvor för 3 inlärningstakter",
+    "draft": "Hur märker man när valideringsförlusten börjar stiga?",
+    "qs": [
+      [
+        "10:12",
+        "Varför minskar förlusten när man går i motsatt riktning mot gradienten?",
+        1,
+        1
+      ],
+      [
+        "10:18",
+        "Hur stort ska ett steg vara? Vem bestämmer inlärningstakten?",
+        1,
+        1
+      ],
+      [
+        "10:41",
+        "Ändrar man inlärningstakten under träningens gång också?",
+        0,
+        0
+      ],
+      [
+        "10:26",
+        "Om det finns flera dalar, missar man inte då den lägsta?",
+        0,
+        0
+      ],
+      [
+        "10:50",
+        "Måste förlustfunktionen alltid vara kvadratiskt fel?",
+        1,
+        1
+      ],
+      [
+        "11:22",
+        "Hur väljer man storleken på minibatchen?",
+        0,
+        0
+      ],
+      [
+        "11:35",
+        "Med små batcher svajar gradienten. Gör det något?",
+        0,
+        1
+      ],
+      [
+        "11:48",
+        "Vad händer om man tränar för många epoker?",
+        1,
+        1
+      ]
+    ],
+    "ph": "Skriv vad du undrar över med de enklaste orden …",
+    "time": "Tidpunkt",
+    "now": "Nu",
+    "save": "Spara",
+    "add": "Lägg till fråga",
+    "resolved": "Löst",
+    "unresolved": "Olöst"
+  },
+  "problem": {
+    "title": "Minns du frågan när föreläsningen är slut?",
+    "text": "Så fort du tänker ”vänta, varför då?” har föreläsaren redan gått vidare. Frågetecknet i marginalen minns inte vilken förklaring det hörde till, och frågan blir aldrig besvarad. LectureQ fäster varje fråga vid dina anteckningar från just det ögonblicket och håller den framme tills du har listat ut svaret."
+  },
+  "features": [
+    {
+      "title": "Fråga utan att missa nästa mening",
+      "text": "Öppna inmatningsfönstret med `Lägg till fråga` i verktygsfältet eller `⌘⇧N`. Tiden fylls i av sig själv. `Retur` sparar, `⌘Retur` sparar och gör dig redo för nästa.\nVarje fråga visas som ett ? bredvid sitt tidsblock, så senare ser du direkt vilken del av föreläsningen den kom ifrån.",
+      "shot": "capture"
+    },
+    {
+      "title": "Besvarade frågor blir det du har lärt dig",
+      "text": "Skriv svaret med egna ord, markera frågan som löst så hamnar den under Det jag har lärt mig i sammanfattningen. Det som fortfarande är öppet ligger kvar under Frågor att ställa, och listan till nästa tillfälle bygger sig själv.\n`Kopiera AI-prompt` i frågedetaljerna lägger en färdig prompt i urklippet, med föreläsningens namn och dina anteckningar från just då. Klistra in den i den AI-tjänst du redan använder.",
+      "shot": "summary"
+    },
+    {
+      "title": "Se vart tankarna tog vägen",
+      "text": "Följdfrågor läggs indragna under frågan de kom ifrån, och grafen binder ihop dem med pilar. Klicka på en nod för att hoppa direkt till frågan.\nUnder Inlärningsstatus skriver du var du står nu, var du vill vara när kursen är slut och vad du vill lära dig, och jämför.",
+      "shot": "graph"
+    }
+  ],
+  "steps": {
+    "title": "Tre steg för att komma igång",
+    "items": [
+      {
+        "title": "Skapa en föreläsning",
+        "text": "Från föreläsningsmenyn till vänster i verktygsfältet, eller importera ett samtal sparat som Markdown."
+      },
+      {
+        "title": "Skriv ner den direkt",
+        "text": "Tryck `⌘⇧N`. En rad räcker, tiden är redan ifylld."
+      },
+      {
+        "title": "Svara senare",
+        "text": "Skriv svaret och klicka på ? för att markera den som löst. Den flyttar till Det jag har lärt mig."
+      }
+    ]
+  },
+  "reference": {
+    "title": "Kortkommandon",
+    "rows": [
+      [
+        "⌘⇧N",
+        "Lägg till fråga"
+      ],
+      [
+        "Return",
+        "Spara"
+      ],
+      [
+        "⌘Return",
+        "Spara och skriv nästa"
+      ],
+      [
+        "Esc",
+        "Avbryt"
+      ],
+      [
+        "⌘1",
+        "Sammanfattning: frågor att ställa, det du lärt dig, anteckningar"
+      ],
+      [
+        "⌘2",
+        "Graf: ursprungliga frågor och följdfrågor"
+      ],
+      [
+        "⌘3",
+        "Tidsblock: alla föreläsningars block i tidsordning"
+      ],
+      [
+        "⌘4",
+        "Inlärningsstatus"
+      ],
+      [
+        "⌘+ · ⌘- · ⌘0",
+        "Större text, mindre text, standardstorlek"
+      ]
+    ],
+    "note": "Alla finns också i menyn Visa."
+  },
+  "pricing": {
+    "title": "Alla funktioner är gratis",
+    "free": {
+      "name": "Gratis",
+      "items": [
+        "Snabba frågor och anteckningar per tidsblock",
+        "Följdfrågor och graf",
+        "Sammanfattning, tidsblocksöversikt och Inlärningsstatus",
+        "AI-promptar i fem steg, kopierade till urklipp",
+        "Importera samtal från Markdown"
+      ]
+    },
+    "pro": {
+      "name": "Stöd utvecklaren",
+      "items": [
+        "Skicka en liten dricks från Inställningar om appen hjälper dig",
+        "Dricks låser inte upp något extra"
+      ],
+      "note": "Allt fungerar likadant med eller utan dricks."
+    },
+    "note": "Ingen reklam, inget konto. Dina anteckningar stannar på den här Macen."
+  },
+  "faq": {
+    "title": "Vanliga frågor",
+    "items": [
+      {
+        "q": "Vad betyder färgerna på ?",
+        "a": "I listan är en tom orange cirkel en fråga som inte är löst än, och en fylld grön en löst fråga. Klicka på ? för att växla, och slå på `Endast olösta` i verktygsfältet för att bara se öppna frågor. Bredvid ett tidsblock visar färgen om frågan är löst och en fylld cirkel att det finns ett svar."
+      },
+      {
+        "q": "Hur fungerar tidsblocken?",
+        "a": "Med `Lägg till block` börjar ett nytt block i samma stund och det förra slutar där. Skriver du en fråga vid en tid som inget block täcker, skapas ett block runt den. Via `Inställningar` uppe till höger i blocket ändrar du färg, starttid och längd eller raderar det. Raderar du själv ett block slutar den föreläsningen att skapa block automatiskt."
+      },
+      {
+        "q": "Vad är skillnaden mellan Löst och Det jag har lärt mig?",
+        "a": "När du bockar för `Löst` i frågedetaljerna väljer du också om frågan ska räknas till Det jag har lärt mig. Där visas bara lösta frågor som du har tagit med. Du kan också ta bort eller lägga tillbaka dem från sammanfattningen, och svaret finns kvar."
+      },
+      {
+        "q": "Hur fungerar AI-promptarna?",
+        "a": "Öppna `Kopiera AI-prompt` bredvid Svar i frågedetaljerna och välj ett steg: Finslipa frågan, Hitta svaret, Ifrågasätt svaret, Plocka fram följdfrågor eller Låt bedöma mitt svar. En prompt med föreläsningens namn, dina anteckningar från just då, din inlärningsstatus och den ursprungliga frågan kopieras till urklipp. Själva prompttexten är än så länge på koreanska; de flesta AI-tjänster förstår den ändå, och du kan be om svar på svenska. För Låt bedöma mitt svar måste du först ha skrivit ett eget svar. Appen kontaktar aldrig någon AI-tjänst på egen hand."
+      },
+      {
+        "q": "Kan jag importera ett samtal sparat som Markdown?",
+        "a": "Välj `Importera från Markdown …` i föreläsningsmenyn. `# Rubrik` blir föreläsningens namn, och i varje `## Avsnitt` är den första frågan den ursprungliga och de följande följdfrågor. Det den som talar först i filen säger blir frågor, och det andra säger blir svaret på frågan innan. Originalfilen ändras aldrig."
+      },
+      {
+        "q": "Hur raderar jag en fråga eller en föreläsning?",
+        "a": "Högerklicka på frågan i listan och välj `Radera`. För en föreläsning använder du `Radera aktuell föreläsning` i föreläsningsmenyn; frågorna och blocken följer med. Det går inte att ångra, så säkerhetskopiera det viktiga först."
+      },
+      {
+        "q": "Var sparas mina data, och hur säkerhetskopierar jag?",
+        "a": "Allt stannar på den här Macen och laddas aldrig upp. Avsluta appen och kopiera hela mappen ~/Library/Containers/com.lectureq.LectureQ/Data/Library/Application Support/LectureQ/ inklusive filerna -wal och -shm. Appen skickar bara anonym användningsstatistik, som version och vilka dagar den öppnats, aldrig det du skriver."
+      },
+      {
+        "q": "Texten är för liten.",
+        "a": "`⌘+` gör den större, `⌘-` mindre och `⌘0` återställer. Det går från 85 % till 200 % och inställningen sparas."
+      },
+      {
+        "q": "Vilka Mac-datorer fungerar appen på?",
+        "a": "Alla Mac med macOS 14 eller senare. Källkoden är öppen på GitHub under M1zz/LectureQ."
+      },
+      {
+        "q": "Något fungerar inte. Vem säger jag till?",
+        "a": "Skicka feedback från appens Inställningar (`⌘,`) eller mejla adressen nedan. Berätta vilken macOS-version du har och vad du gjorde när det hände, så kan vi titta på det snabbare."
+      }
+    ]
+  },
+  "closing": {
+    "headline": "Ta med varje fråga\ntill nästa föreläsning",
+    "cta": "Hämta gratis på App Store"
+  },
+  "ui": {
+    "skip": "Hoppa till innehållet",
+    "languages": "Språk",
+    "privacy": "Integritetspolicy",
+    "contact": "Frågor eller synpunkter? Mejla {email}."
+  }
+}

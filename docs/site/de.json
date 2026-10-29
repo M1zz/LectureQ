@@ -1,0 +1,233 @@
+{
+  "title": "LectureQ: Fragen aus der Vorlesung festhalten, für den Mac",
+  "description": "Halte eine Frage per Kurzbefehl fest, ohne die Vorlesung zu verpassen. Sie bleibt bei deinen Notizen aus dem Moment, bis sie geklärt ist. Kostenlos.",
+  "hero": {
+    "headline": "Keine Frage aus der Vorlesung\ngeht mehr verloren",
+    "lead": "`⌘⇧N` drücken, eine Zeile tippen, und die Frage steht neben deinen Notizen genau aus dieser Minute. Du hörst weiter zu und klärst sie später.",
+    "cta": "Kostenlos im App Store laden",
+    "note": "Für macOS 14 oder neuer. Kein Konto, alles bleibt auf diesem Mac."
+  },
+  "demo": {
+    "title": "Probier es aus",
+    "lead": "Du sitzt in einer Vorlesung über maschinelles Lernen. Tipp eine Frage ein und sichere sie: Neben dem Block zu dieser Uhrzeit erscheint ein ?. Stellst du eine Zeit außerhalb der Blöcke ein, entsteht dafür ein neuer Block.",
+    "note": "Die Demo folgt denselben Regeln wie die App. Was du hier eintippst, wird nirgends gespeichert.",
+    "lecture": "ML · VL 3: Gradientenabstieg",
+    "b1": "Verlustfunktion = misst, wie falsch die Vorhersage ist\nGradientenabstieg: in kleinen Schritten entgegen dem Gradienten\n  w ← w − η · ∂L/∂w\n\nLernrate η zu groß: divergiert, zu klein: viel zu langsam\n→ meist bei ca. 0,01 starten und anhand der Loss-Kurve anpassen",
+    "b2": "Mini-Batch: Gradient aus einem Teil statt aus allen Daten schätzen\nEpoche = einmal komplett durch alle Daten\n\nAufgabe: Loss-Kurven für 3 Lernraten vergleichen",
+    "draft": "Wie merkt man, wann der Validierungs-Loss anfängt zu steigen?",
+    "qs": [
+      [
+        "10:12",
+        "Warum sinkt der Loss, wenn man entgegen dem Gradienten geht?",
+        1,
+        1
+      ],
+      [
+        "10:18",
+        "Wie groß sollte ein Schritt sein? Wer legt die Lernrate fest?",
+        1,
+        1
+      ],
+      [
+        "10:41",
+        "Ändert man die Lernrate auch während des Trainings?",
+        0,
+        0
+      ],
+      [
+        "10:26",
+        "Wenn es mehrere Täler gibt, verpasst man dann nicht das tiefste?",
+        0,
+        0
+      ],
+      [
+        "10:50",
+        "Muss die Verlustfunktion immer der quadratische Fehler sein?",
+        1,
+        1
+      ],
+      [
+        "11:22",
+        "Wie wählt man die Mini-Batch-Größe?",
+        0,
+        0
+      ],
+      [
+        "11:35",
+        "Bei kleinen Batches schwankt der Gradient – ist das okay?",
+        0,
+        1
+      ],
+      [
+        "11:48",
+        "Was passiert, wenn man zu viele Epochen trainiert?",
+        1,
+        1
+      ]
+    ],
+    "ph": "Schreib auf, was du dich fragst – in möglichst einfachen Worten …",
+    "time": "Zeitpunkt",
+    "now": "Jetzt",
+    "save": "Sichern",
+    "add": "Frage hinzufügen",
+    "resolved": "Geklärt",
+    "unresolved": "Offen"
+  },
+  "problem": {
+    "title": "Weißt du nach der Vorlesung noch, was du fragen wolltest?",
+    "text": "Kaum denkst du „Moment, warum eigentlich?“, ist die Dozentin schon beim nächsten Punkt. Das Fragezeichen am Rand weiß später nicht mehr, zu welcher Erklärung es gehörte, und bleibt unbeantwortet. LectureQ heftet jede Frage an deine Notizen aus genau diesem Moment und behält sie im Blick, bis du sie geklärt hast."
+  },
+  "features": [
+    {
+      "title": "Fragen, ohne den nächsten Satz zu verpassen",
+      "text": "Öffne das Eingabefenster über `Frage hinzufügen` in der Symbolleiste oder mit `⌘⇧N`. Die Uhrzeit wird automatisch eingetragen. `Return` sichert, `⌘Return` sichert und macht gleich Platz für die nächste Frage.\nJede Frage erscheint als ? neben dem passenden Zeitblock. So siehst du später sofort, aus welchem Teil der Vorlesung sie stammt.",
+      "shot": "capture"
+    },
+    {
+      "title": "Geklärte Fragen werden zu Gelerntem",
+      "text": "Schreib die Antwort in deinen eigenen Worten auf und markiere die Frage als geklärt: Schon steht sie in der Übersicht unter Gelerntes. Was noch offen ist, sammelt sich unter Offene Fragen, und deine Liste für die nächste Sitzung entsteht von selbst.\n`KI-Prompt kopieren` in den Fragedetails legt einen fertigen Prompt mit Vorlesungstitel und deinen Notizen aus diesem Moment in die Zwischenablage. Einfach in den KI-Dienst einfügen, den du ohnehin nutzt.",
+      "shot": "summary"
+    },
+    {
+      "title": "Sieh, wohin dein Denken geführt hat",
+      "text": "Folgefragen stehen eingerückt unter der Frage, aus der sie entstanden sind, und im Graph verbinden Pfeile sie miteinander. Ein Klick auf einen Knoten führt direkt zur Frage.\nUnter Lernstand hältst du fest, wo du gerade stehst, wo du nach dem Kurs sein willst und was du lernen möchtest, und kannst beides vergleichen.",
+      "shot": "graph"
+    }
+  ],
+  "steps": {
+    "title": "In drei Schritten startklar",
+    "items": [
+      {
+        "title": "Vorlesung anlegen",
+        "text": "Über das Vorlesungsmenü links in der Symbolleiste, oder ein als Markdown gespeichertes Gespräch importieren."
+      },
+      {
+        "title": "Festhalten, sobald sie auftaucht",
+        "text": "`⌘⇧N` drücken. Eine Zeile reicht, die Uhrzeit steht schon da."
+      },
+      {
+        "title": "Später beantworten",
+        "text": "Antwort aufschreiben und auf das ? klicken. Die Frage wandert zu Gelerntes."
+      }
+    ]
+  },
+  "reference": {
+    "title": "Tastaturkurzbefehle",
+    "rows": [
+      [
+        "⌘⇧N",
+        "Frage hinzufügen"
+      ],
+      [
+        "Return",
+        "Sichern"
+      ],
+      [
+        "⌘Return",
+        "Sichern und nächste Frage schreiben"
+      ],
+      [
+        "Esc",
+        "Abbrechen"
+      ],
+      [
+        "⌘1",
+        "Übersicht: offene Fragen, Gelerntes, Notizen"
+      ],
+      [
+        "⌘2",
+        "Graph: Ursprungsfragen und ihre Folgefragen"
+      ],
+      [
+        "⌘3",
+        "Zeitblöcke: alle Blöcke aller Vorlesungen nach Zeit"
+      ],
+      [
+        "⌘4",
+        "Lernstand"
+      ],
+      [
+        "⌘+ · ⌘- · ⌘0",
+        "Text größer, kleiner, Standardgröße"
+      ]
+    ],
+    "note": "Alle Befehle findest du auch im Menü „Darstellung“."
+  },
+  "pricing": {
+    "title": "Alle Funktionen sind kostenlos",
+    "free": {
+      "name": "Kostenlos",
+      "items": [
+        "Schnelle Fragen und Zeitblock-Notizen",
+        "Folgefragen und Graph",
+        "Übersicht, Zeitblöcke und Lernstand",
+        "KI-Prompts in fünf Schritten, in die Zwischenablage kopiert",
+        "Gespräche aus Markdown importieren"
+      ]
+    },
+    "pro": {
+      "name": "Entwickler unterstützen",
+      "items": [
+        "Bei Gefallen ein kleines Trinkgeld in den Einstellungen geben",
+        "Ein Trinkgeld schaltet nichts zusätzlich frei"
+      ],
+      "note": "Mit oder ohne Trinkgeld funktioniert alles gleich."
+    },
+    "note": "Keine Werbung, kein Konto. Deine Notizen bleiben auf diesem Mac."
+  },
+  "faq": {
+    "title": "Häufige Fragen",
+    "items": [
+      {
+        "q": "Was bedeuten die Farben des ?",
+        "a": "In der Liste steht ein leerer orangefarbener Kreis für eine offene Frage, ein gefüllter grüner für eine geklärte. Ein Klick auf das ? schaltet um, und mit `Nur offene` in der Symbolleiste siehst du nur noch ungeklärte Fragen. Neben einem Zeitblock zeigt die Farbe, ob die Frage geklärt ist, und ein gefüllter Kreis, dass schon eine Antwort dasteht."
+      },
+      {
+        "q": "Wie funktionieren Zeitblöcke?",
+        "a": "Mit `Block hinzufügen` beginnt ein neuer Block in diesem Moment, der vorherige endet dort. Hältst du eine Frage zu einer Zeit fest, die kein Block abdeckt, wird automatisch ein Block darum angelegt. Über `Einstellungen` oben rechts am Block änderst du Farbe, Beginn und Dauer oder löschst ihn. Hast du einmal selbst einen Block gelöscht, legt diese Vorlesung keine Blöcke mehr automatisch an."
+      },
+      {
+        "q": "Was ist der Unterschied zwischen „Geklärt“ und „Gelerntes“?",
+        "a": "Setzt du in den Fragedetails ein Häkchen bei `Geklärt`, kannst du außerdem wählen, ob die Frage zu Gelerntes zählt. Dort erscheinen nur geklärte Fragen, die du aufgenommen hast. Auch in der Übersicht kannst du sie herausnehmen oder wieder aufnehmen; die Antwort bleibt dabei erhalten."
+      },
+      {
+        "q": "Wie funktionieren die KI-Prompts?",
+        "a": "Öffne in den Fragedetails `KI-Prompt kopieren` neben „Antwort“ und wähle einen Schritt: Frage schärfen, Antwort finden, Antwort hinterfragen, Folgefragen herausarbeiten oder Meine Antwort bewerten lassen. Ein Prompt mit Vorlesungstitel, deinen Notizen aus diesem Moment, deinem Lernstand und der Ursprungsfrage landet in der Zwischenablage. Der Prompt-Text selbst ist derzeit auf Koreanisch; die meisten KI-Dienste verstehen ihn trotzdem, und du kannst um eine Antwort auf Deutsch bitten. Für „Meine Antwort bewerten lassen“ muss im Antwortfeld schon deine eigene Antwort stehen. Die App selbst verbindet sich nie mit einem KI-Dienst."
+      },
+      {
+        "q": "Kann ich ein als Markdown gespeichertes Gespräch importieren?",
+        "a": "Wähle `Aus Markdown importieren …` im Vorlesungsmenü. `# Titel` wird zum Namen der Vorlesung; in jedem `## Abschnitt` ist die erste Frage die Ursprungsfrage, die folgenden sind Folgefragen. Was die zuerst sprechende Person sagt, wird zur Frage, alles von anderen zur Antwort auf die Frage davor. Die Originaldatei bleibt unverändert."
+      },
+      {
+        "q": "Wie lösche ich eine Frage oder eine Vorlesung?",
+        "a": "Klicke in der Liste mit der rechten Maustaste auf die Frage und wähle `Löschen`. Für eine Vorlesung nimmst du `Aktuelle Vorlesung löschen` im Vorlesungsmenü; ihre Fragen und Blöcke werden mitgelöscht. Das lässt sich nicht rückgängig machen, sichere Wichtiges also vorher."
+      },
+      {
+        "q": "Wo werden meine Daten gespeichert, und wie sichere ich sie?",
+        "a": "Alles bleibt auf diesem Mac und wird nicht hochgeladen. Zum Sichern beende die App und kopiere den ganzen Ordner ~/Library/Containers/com.lectureq.LectureQ/Data/Library/Application Support/LectureQ/ samt den Dateien -wal und -shm. Die App sendet nur anonyme Nutzungsstatistiken wie App-Version und Nutzungstage, nie deine Inhalte."
+      },
+      {
+        "q": "Die Schrift ist zu klein.",
+        "a": "Mit `⌘+` wird sie größer, mit `⌘-` kleiner, mit `⌘0` wieder normal. Möglich sind 85 % bis 200 %, die Einstellung bleibt gespeichert."
+      },
+      {
+        "q": "Auf welchen Macs läuft die App?",
+        "a": "Auf jedem Mac mit macOS 14 oder neuer. Der Quellcode ist auf GitHub unter M1zz/LectureQ öffentlich."
+      },
+      {
+        "q": "Etwas funktioniert nicht. Wem sage ich Bescheid?",
+        "a": "Schick Feedback über die Einstellungen (`⌘,`) der App oder schreib an die Adresse unten. Mit deiner macOS-Version und einer kurzen Beschreibung, was du gerade gemacht hast, können wir schneller helfen."
+      }
+    ]
+  },
+  "closing": {
+    "headline": "Nimm jede Frage mit\nin die nächste Vorlesung",
+    "cta": "Kostenlos im App Store laden"
+  },
+  "ui": {
+    "skip": "Zum Inhalt springen",
+    "languages": "Sprache",
+    "privacy": "Datenschutzerklärung",
+    "contact": "Fragen oder Feedback? Schreib an {email}."
+  }
+}

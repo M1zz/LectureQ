@@ -1,0 +1,53 @@
+/* 질문노트 웹 체험. ? 표시의 색은 앱과 같다: 미해결 주황, 해결 초록, 답이 있으면 꽉 찬 원. */
+.demo-card { display: grid; grid-template-columns: 1.15fr 1fr; gap: var(--s5); align-items: start; }
+#demo { --open: #E8851A; --done: #2FAE4E; }
+
+.lq-stage { background: var(--bg); border-radius: var(--r-inner); padding: var(--s5) var(--s4); }
+.lq-title { font-size: 1.25rem; font-weight: 700; letter-spacing: -0.01em; margin-bottom: var(--s4); }
+.lq-blocks { display: grid; gap: var(--s3); }
+.lq-block { display: grid; grid-template-columns: 76px 1fr; gap: var(--s3); }
+.lq-block.fresh { animation: lq-in .6s var(--ease); }
+@keyframes lq-in { from { opacity: 0; transform: translateY(-8px); } }
+.lq-gutter { display: flex; flex-direction: column; align-items: center; gap: 2px;
+             font-size: 0.75rem; font-weight: 600; color: var(--muted); font-variant-numeric: tabular-nums; white-space: nowrap; }
+.lq-line { position: relative; flex: 1; width: 3px; border-radius: 2px; background: hsl(var(--h) 74% 62% / .55); }
+.lq-pin { position: absolute; left: 50%; transform: translate(-50%, -50%); }
+.lq-card { background: hsl(var(--h) 74% 62% / .13); border-radius: 12px; padding: var(--s3) var(--s4);
+           font-size: 0.875rem; line-height: 1.5; white-space: pre-wrap; overflow-wrap: anywhere; }
+
+/* ? 표시: 테두리 색 = 해결 여부, 채움 = 답 있음. 색만으로 구분하지 않게 해결은 굵은 테두리. */
+.lq-q { --c: var(--open); display: inline-grid; place-items: center; width: 24px; height: 24px; padding: 0;
+        border-radius: 50%; border: 2px solid var(--c); background: var(--surface); color: var(--c);
+        font: 700 0.8125rem/1 inherit; cursor: pointer; position: relative; }
+.lq-q::after { content: ""; position: absolute; inset: -10px; }   /* 누르는 자리 44px */
+.lq-q.done { --c: var(--done); }
+.lq-q.filled { background: var(--c); color: #fff; }
+.lq-q:hover { transform: scale(1.12); }
+
+.lq-label { display: block; font-weight: 600; margin-bottom: var(--s2); }
+.lq-form textarea { width: 100%; font: inherit; color: var(--text); background: var(--bg); resize: vertical;
+                    border: 2px solid var(--line); border-radius: 12px; padding: var(--s3); }
+.lq-form textarea:focus { border-color: var(--accent); outline: none; }
+.lq-row { display: flex; flex-wrap: wrap; align-items: center; gap: var(--s2); margin: var(--s3) 0 var(--s4); }
+.lq-time { display: inline-flex; align-items: center; gap: var(--s2); color: var(--muted); font-size: 0.9375rem; }
+.lq-time input { width: 5.5em; min-height: 44px; font: inherit; color: var(--text); text-align: center;
+                 background: var(--bg); border: 2px solid var(--line); border-radius: 10px; font-variant-numeric: tabular-nums; }
+.lq-time input:focus { border-color: var(--accent); outline: none; }
+.lq-btn { min-height: 44px; padding: 0 var(--s4); border-radius: 999px; font: inherit; font-weight: 600; cursor: pointer;
+          border: 0; background: transparent; color: var(--accent); }
+.lq-save { margin-left: auto; background: var(--accent); color: var(--on-accent); padding: 0 var(--s5); }
+.lq-save:active, .lq-now:active { transform: scale(.96); }
+
+.lq-list { list-style: none; margin: 0 0 var(--s3); padding: 0; max-height: 380px; overflow: auto;
+           border-top: 1px solid var(--line); }
+.lq-list li { display: grid; grid-template-columns: 24px 1fr auto; gap: var(--s3); align-items: center;
+              padding: var(--s2) var(--s1); border-bottom: 1px solid var(--line); font-size: 0.9375rem; line-height: 1.4; }
+.lq-list li.fresh { animation: lq-flash 1.4s var(--ease); }
+@keyframes lq-flash { 0%, 40% { background: color-mix(in srgb, var(--accent) 16%, transparent); } }
+.lq-at { color: var(--muted); font-size: 0.8125rem; font-variant-numeric: tabular-nums; }
+
+@media (prefers-reduced-motion: reduce) {
+  .lq-block.fresh, .lq-list li.fresh { animation: none; }
+  .lq-list li.fresh { background: color-mix(in srgb, var(--accent) 12%, transparent); }
+}
+@media (max-width: 760px) { .demo-card { grid-template-columns: 1fr; } .lq-block { grid-template-columns: 64px 1fr; } }

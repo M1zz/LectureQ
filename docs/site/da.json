@@ -1,0 +1,233 @@
+{
+  "title": "LectureQ: fang de spørgsmål, der dukker op til forelæsningen, til Mac",
+  "description": "Skriv et spørgsmål ned med én genvej midt i forelæsningen. Det står ved dine noter fra det øjeblik, til du har svaret. Alt er gratis.",
+  "hero": {
+    "headline": "Lad ikke et spørgsmål fra\nforelæsningen smutte",
+    "lead": "Tryk `⌘⇧N`, skriv en linje, og spørgsmålet lander ved siden af dine noter fra præcis det minut. Du lytter videre og finder svaret senere.",
+    "cta": "Hent gratis i App Store",
+    "note": "Til macOS 14 eller nyere. Ingen konto, alt bliver på denne Mac."
+  },
+  "demo": {
+    "title": "Prøv det her",
+    "lead": "Du sidder midt i en forelæsning om maskinlæring. Skriv et spørgsmål og gem det, så kommer der et ? ved blokken for det tidspunkt. Vælg et tidspunkt uden for blokkene, og der oprettes en ny blok til det.",
+    "note": "Demoen følger de samme regler som appen. Intet af det, du skriver her, bliver gemt.",
+    "lecture": "ML 3 · Gradient descent",
+    "b1": "Tabsfunktion = måler, hvor forkert forudsigelsen er\nGradient descent: små skridt i modsat retning af gradienten\n  w ← w − η · ∂L/∂w\n\nLæringsrate η for stor: divergerer, for lille: alt for langsom\n→ start typisk omkring 0,01 og justér efter tabskurven",
+    "b2": "Minibatch: estimér gradienten ud fra en del af dataene i stedet for alle\nEpoke = én gennemgang af alle data\n\nOpgave: sammenlign tabskurver for 3 læringsrater",
+    "draft": "Hvordan opdager man, når valideringstabet begynder at stige?",
+    "qs": [
+      [
+        "10:12",
+        "Hvorfor falder tabet, når man går modsat gradienten?",
+        1,
+        1
+      ],
+      [
+        "10:18",
+        "Hvor stort skal et skridt være? Hvem bestemmer læringsraten?",
+        1,
+        1
+      ],
+      [
+        "10:41",
+        "Ændrer man også læringsraten undervejs i træningen?",
+        0,
+        0
+      ],
+      [
+        "10:26",
+        "Hvis der er flere dale, risikerer man så ikke at misse den laveste?",
+        0,
+        0
+      ],
+      [
+        "10:50",
+        "Skal tabsfunktionen altid være kvadreret fejl?",
+        1,
+        1
+      ],
+      [
+        "11:22",
+        "Hvordan vælger man minibatch-størrelsen?",
+        0,
+        0
+      ],
+      [
+        "11:35",
+        "Med små batches svinger gradienten. Er det okay?",
+        0,
+        1
+      ],
+      [
+        "11:48",
+        "Hvad sker der, hvis man træner for mange epoker?",
+        1,
+        1
+      ]
+    ],
+    "ph": "Skriv, hvad du undrer dig over, med de simpleste ord …",
+    "time": "Tidspunkt",
+    "now": "Nu",
+    "save": "Gem",
+    "add": "Tilføj spørgsmål",
+    "resolved": "Løst",
+    "unresolved": "Uløst"
+  },
+  "problem": {
+    "title": "Kan du huske spørgsmålet, når forelæsningen er slut?",
+    "text": "Lige når du tænker ”vent, hvorfor egentlig?”, er underviseren gået videre. Spørgsmålstegnet i margenen husker ikke, hvilken forklaring det hørte til, og spørgsmålet bliver aldrig besvaret. LectureQ hæfter hvert spørgsmål til dine noter fra netop det øjeblik og holder det fremme, til du har fundet ud af det."
+  },
+  "features": [
+    {
+      "title": "Spørg uden at gå glip af næste sætning",
+      "text": "Åbn indtastningsvinduet med `Tilføj spørgsmål` i værktøjslinjen eller `⌘⇧N`. Tidspunktet udfyldes af sig selv. `Retur` gemmer, og `⌘Retur` gemmer og gør dig klar til det næste.\nHvert spørgsmål vises som et ? ved den tidsblok, det hører til, så du senere straks kan se, hvilken del af forelæsningen det kom fra.",
+      "shot": "capture"
+    },
+    {
+      "title": "Besvarede spørgsmål bliver til det, du har lært",
+      "text": "Skriv svaret med dine egne ord, markér spørgsmålet som løst, og det kommer med under Det jeg har lært i oversigten. Det, der stadig er åbent, bliver under Spørgsmål at stille, så listen til næste gang laver sig selv.\n`Kopiér AI-prompt` i spørgsmålets detaljer lægger en færdig prompt på udklipsholderen med forelæsningens navn og dine noter fra det øjeblik. Sæt den bare ind i den AI-tjeneste, du allerede bruger.",
+      "shot": "summary"
+    },
+    {
+      "title": "Se, hvor tankerne bevægede sig hen",
+      "text": "Opfølgende spørgsmål lægger sig med indrykning under det spørgsmål, de kom fra, og grafen forbinder dem med pile. Klik på en knude for at springe direkte til spørgsmålet.\nUnder Læringsstatus skriver du, hvor du står nu, hvor du vil være, når kurset er slut, og hvad du gerne vil lære, og sammenligner.",
+      "shot": "graph"
+    }
+  ],
+  "steps": {
+    "title": "Tre trin, så er du i gang",
+    "items": [
+      {
+        "title": "Opret en forelæsning",
+        "text": "Fra forelæsningsmenuen til venstre i værktøjslinjen, eller importér en samtale gemt som Markdown."
+      },
+      {
+        "title": "Skriv det ned med det samme",
+        "text": "Tryk `⌘⇧N`. Én linje er nok, og tidspunktet står der allerede."
+      },
+      {
+        "title": "Svar senere",
+        "text": "Skriv svaret, og klik på ? for at markere det som løst. Det flytter til Det jeg har lært."
+      }
+    ]
+  },
+  "reference": {
+    "title": "Tastaturgenveje",
+    "rows": [
+      [
+        "⌘⇧N",
+        "Tilføj spørgsmål"
+      ],
+      [
+        "Return",
+        "Gem"
+      ],
+      [
+        "⌘Return",
+        "Gem og skriv det næste"
+      ],
+      [
+        "Esc",
+        "Annuller"
+      ],
+      [
+        "⌘1",
+        "Oversigt: spørgsmål at stille, det du har lært, noter"
+      ],
+      [
+        "⌘2",
+        "Graf: oprindelige og opfølgende spørgsmål"
+      ],
+      [
+        "⌘3",
+        "Tidsblokke: alle forelæsningers blokke i tidsorden"
+      ],
+      [
+        "⌘4",
+        "Læringsstatus"
+      ],
+      [
+        "⌘+ · ⌘- · ⌘0",
+        "Større tekst, mindre tekst, standardstørrelse"
+      ]
+    ],
+    "note": "Du finder dem alle i menuen Vis."
+  },
+  "pricing": {
+    "title": "Alle funktioner er gratis",
+    "free": {
+      "name": "Gratis",
+      "items": [
+        "Hurtige spørgsmål og noter pr. tidsblok",
+        "Opfølgende spørgsmål og graf",
+        "Oversigt, tidsblokoverblik og Læringsstatus",
+        "AI-prompter i fem trin, kopieret til udklipsholderen",
+        "Import af samtaler fra Markdown"
+      ]
+    },
+    "pro": {
+      "name": "Støt udvikleren",
+      "items": [
+        "Send et lille drikkepenge-beløb fra Indstillinger, hvis appen hjælper dig",
+        "Drikkepenge låser ikke op for noget ekstra"
+      ],
+      "note": "Alt virker ens, uanset om du giver drikkepenge eller ej."
+    },
+    "note": "Ingen reklamer, ingen konto. Dine noter bliver på denne Mac."
+  },
+  "faq": {
+    "title": "Ofte stillede spørgsmål",
+    "items": [
+      {
+        "q": "Hvad betyder farverne på ?",
+        "a": "På listen er en tom orange cirkel et spørgsmål, der ikke er løst endnu, og en udfyldt grøn et løst spørgsmål. Klik på ? for at skifte, og slå `Kun uløste` til i værktøjslinjen for kun at se de åbne. Ved en tidsblok viser farven, om spørgsmålet er løst, og en udfyldt cirkel, at der er skrevet et svar."
+      },
+      {
+        "q": "Hvordan fungerer tidsblokke?",
+        "a": "Med `Tilføj blok` starter en ny blok i det øjeblik, og den forrige slutter der. Skriver du et spørgsmål på et tidspunkt, som ingen blok dækker, oprettes en blok omkring det. Med `Indstillinger` øverst til højre i blokken ændrer du farve, starttid og længde eller sletter den. Sletter du selv en blok, holder den forelæsning op med at oprette blokke automatisk."
+      },
+      {
+        "q": "Hvad er forskellen på Løst og Det jeg har lært?",
+        "a": "Når du sætter flueben ved `Løst` i spørgsmålets detaljer, vælger du også, om det skal tælle med i Det jeg har lært. Der vises kun løste spørgsmål, du har taget med. Du kan også fjerne eller tilføje dem igen fra oversigten, og svaret bliver stående."
+      },
+      {
+        "q": "Hvordan fungerer AI-prompterne?",
+        "a": "Åbn `Kopiér AI-prompt` ved Svar i spørgsmålets detaljer, og vælg et trin: Finpuds spørgsmålet, Find svaret, Udfordr svaret, Udled opfølgende spørgsmål eller Få mit svar bedømt. En prompt med forelæsningens navn, dine noter fra det øjeblik, din læringsstatus og det oprindelige spørgsmål kopieres til udklipsholderen. Selve promptteksten er indtil videre på koreansk; de fleste AI-tjenester forstår den alligevel, og du kan bede om svaret på dansk. Før du kan få dit svar bedømt, skal du selv have skrevet det. Appen forbinder sig aldrig selv til en AI-tjeneste."
+      },
+      {
+        "q": "Kan jeg importere en samtale gemt som Markdown?",
+        "a": "Vælg `Importér fra Markdown …` i forelæsningsmenuen. `# Titel` bliver forelæsningens navn, og i hver `## Sektion` er det første spørgsmål det oprindelige og de efterfølgende opfølgende. Det, den første taler i filen siger, bliver til spørgsmål, og det, andre siger, til svaret på spørgsmålet før. Den oprindelige fil ændres aldrig."
+      },
+      {
+        "q": "Hvordan sletter jeg et spørgsmål eller en forelæsning?",
+        "a": "Højreklik på spørgsmålet på listen, og vælg `Slet`. Til en forelæsning bruger du `Slet nuværende forelæsning` i forelæsningsmenuen; dens spørgsmål og blokke ryger med. Det kan ikke fortrydes, så tag en sikkerhedskopi af det vigtige først."
+      },
+      {
+        "q": "Hvor gemmes mine data, og hvordan tager jeg en sikkerhedskopi?",
+        "a": "Alt bliver på denne Mac og uploades aldrig. Afslut appen, og kopiér hele mappen ~/Library/Containers/com.lectureq.LectureQ/Data/Library/Application Support/LectureQ/ inklusive filerne -wal og -shm. Appen sender kun anonym brugsstatistik som version og hvilke dage den er åbnet, aldrig det, du skriver."
+      },
+      {
+        "q": "Teksten er for lille.",
+        "a": "`⌘+` gør den større, `⌘-` mindre, og `⌘0` nulstiller. Det går fra 85 % til 200 %, og indstillingen huskes."
+      },
+      {
+        "q": "Hvilke Mac-computere virker den på?",
+        "a": "Alle Mac-computere med macOS 14 eller nyere. Kildekoden er offentlig på GitHub under M1zz/LectureQ."
+      },
+      {
+        "q": "Noget virker ikke. Hvem skal jeg sige det til?",
+        "a": "Send feedback fra appens Indstillinger (`⌘,`), eller skriv til adressen nedenfor. Fortæl, hvilken macOS-version du har, og hvad du var i gang med, så kan vi se på det hurtigere."
+      }
+    ]
+  },
+  "closing": {
+    "headline": "Tag hvert spørgsmål med\ntil næste forelæsning",
+    "cta": "Hent gratis i App Store"
+  },
+  "ui": {
+    "skip": "Gå til indhold",
+    "languages": "Sprog",
+    "privacy": "Privatlivspolitik",
+    "contact": "Spørgsmål eller feedback? Skriv til {email}."
+  }
+}

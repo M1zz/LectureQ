@@ -1,84 +1,194 @@
 <!doctype html>
 <html lang="zh-Hant">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>LectureQ：上課提問筆記</title>
-<!--hreflang:start-->
-<link rel="canonical" href="https://m1zz.github.io/LectureQ/zh-Hant/">
-<link rel="alternate" hreflang="ko" href="https://m1zz.github.io/LectureQ/">
-<link rel="alternate" hreflang="en" href="https://m1zz.github.io/LectureQ/en/">
-<link rel="alternate" hreflang="en-GB" href="https://m1zz.github.io/LectureQ/en-GB/">
-<link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/LectureQ/zh-Hans/">
-<link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/LectureQ/zh-Hant/">
-<link rel="alternate" hreflang="ja" href="https://m1zz.github.io/LectureQ/ja/">
-<link rel="alternate" hreflang="ru" href="https://m1zz.github.io/LectureQ/ru/">
-<link rel="alternate" hreflang="es" href="https://m1zz.github.io/LectureQ/es/">
-<link rel="alternate" hreflang="de" href="https://m1zz.github.io/LectureQ/de/">
-<link rel="alternate" hreflang="fr" href="https://m1zz.github.io/LectureQ/fr/">
-<link rel="alternate" hreflang="it" href="https://m1zz.github.io/LectureQ/it/">
-<link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/LectureQ/pt-BR/">
-<link rel="alternate" hreflang="th" href="https://m1zz.github.io/LectureQ/th/">
-<link rel="alternate" hreflang="vi" href="https://m1zz.github.io/LectureQ/vi/">
-<link rel="alternate" hreflang="cs" href="https://m1zz.github.io/LectureQ/cs/">
-<link rel="alternate" hreflang="da" href="https://m1zz.github.io/LectureQ/da/">
-<link rel="alternate" hreflang="el" href="https://m1zz.github.io/LectureQ/el/">
-<link rel="alternate" hreflang="fi" href="https://m1zz.github.io/LectureQ/fi/">
-<link rel="alternate" hreflang="id" href="https://m1zz.github.io/LectureQ/id/">
-<link rel="alternate" hreflang="nb" href="https://m1zz.github.io/LectureQ/nb/">
-<link rel="alternate" hreflang="nl" href="https://m1zz.github.io/LectureQ/nl/">
-<link rel="alternate" hreflang="pl" href="https://m1zz.github.io/LectureQ/pl/">
-<link rel="alternate" hreflang="sv" href="https://m1zz.github.io/LectureQ/sv/">
-<link rel="alternate" hreflang="tr" href="https://m1zz.github.io/LectureQ/tr/">
-<link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/LectureQ/">
-<style>.langs{display:flex;flex-wrap:wrap;gap:4px 12px;font-size:13px;margin:0 0 18px;}.langs a{color:var(--muted);text-decoration:none;}.langs a[aria-current]{color:var(--fg);font-weight:600;}.langs a:hover{color:var(--teal);}</style>
-<!--hreflang:end-->
-<style>
-  :root{--blue:#2E6BE6;--teal:#17B3A3;--bg:#ffffff;--fg:#1c1c1e;--muted:#6b6b70;--card:#f5f6f8;--border:#e6e7ea;}
-  @media (prefers-color-scheme:dark){:root{--bg:#111214;--fg:#f2f2f5;--muted:#9a9aa0;--card:#1b1c1f;--border:#2a2b2f;}}
-  *{box-sizing:border-box;}
-  body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"PingFang TC","Apple SD Gothic Neo","Segoe UI",Roboto,sans-serif;background:var(--bg);color:var(--fg);line-height:1.65;}
-  .wrap{max-width:720px;margin:0 auto;padding:48px 20px 80px;}
-  .logo{width:96px;height:96px;border-radius:24px;background:linear-gradient(160deg,var(--blue),var(--teal));display:flex;align-items:center;justify-content:center;box-shadow:0 8px 28px rgba(0,0,0,.18);margin-bottom:20px;}
-  .logo span{font-size:56px;font-weight:800;color:#fff;}
-  h1{font-size:34px;margin:0 0 2px;letter-spacing:-.5px;}
-  .sub{color:var(--muted);font-size:15px;margin:0 0 10px;}
-  .tag{color:var(--muted);font-size:17px;margin:0 0 32px;}
-  .cards{display:grid;gap:14px;}
-  a.card{display:block;text-decoration:none;color:inherit;background:var(--card);border:1px solid var(--border);border-radius:14px;padding:18px 20px;transition:transform .12s ease,border-color .12s ease;}
-  a.card:hover{transform:translateY(-2px);border-color:var(--teal);}
-  a.card h2{margin:0 0 4px;font-size:18px;}
-  a.card p{margin:0;color:var(--muted);font-size:14px;}
-  footer{margin-top:44px;color:var(--muted);font-size:13px;}
-  footer a{color:var(--teal);}
-</style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>LectureQ：把上課時冒出的疑問隨手記下的 Mac App</title>
+  <meta name="description" content="上課時按一下快速鍵就能記下問題，問題會留在那一刻的筆記旁，直到你找到答案。所有功能免費。">
+  <meta name="theme-color" content="#2E6BE6" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#111214" media="(prefers-color-scheme: dark)">
+  <meta name="apple-itunes-app" content="app-id=6794597095">
+  <link rel="canonical" href="https://m1zz.github.io/LectureQ/zh-Hant/">
+  <link rel="alternate" hreflang="ko" href="https://m1zz.github.io/LectureQ/">
+  <link rel="alternate" hreflang="en" href="https://m1zz.github.io/LectureQ/en/">
+  <link rel="alternate" hreflang="en-GB" href="https://m1zz.github.io/LectureQ/en-GB/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/LectureQ/zh-Hans/">
+  <link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/LectureQ/zh-Hant/">
+  <link rel="alternate" hreflang="ja" href="https://m1zz.github.io/LectureQ/ja/">
+  <link rel="alternate" hreflang="ru" href="https://m1zz.github.io/LectureQ/ru/">
+  <link rel="alternate" hreflang="es" href="https://m1zz.github.io/LectureQ/es/">
+  <link rel="alternate" hreflang="de" href="https://m1zz.github.io/LectureQ/de/">
+  <link rel="alternate" hreflang="fr" href="https://m1zz.github.io/LectureQ/fr/">
+  <link rel="alternate" hreflang="it" href="https://m1zz.github.io/LectureQ/it/">
+  <link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/LectureQ/pt-BR/">
+  <link rel="alternate" hreflang="th" href="https://m1zz.github.io/LectureQ/th/">
+  <link rel="alternate" hreflang="vi" href="https://m1zz.github.io/LectureQ/vi/">
+  <link rel="alternate" hreflang="cs" href="https://m1zz.github.io/LectureQ/cs/">
+  <link rel="alternate" hreflang="da" href="https://m1zz.github.io/LectureQ/da/">
+  <link rel="alternate" hreflang="el" href="https://m1zz.github.io/LectureQ/el/">
+  <link rel="alternate" hreflang="fi" href="https://m1zz.github.io/LectureQ/fi/">
+  <link rel="alternate" hreflang="id" href="https://m1zz.github.io/LectureQ/id/">
+  <link rel="alternate" hreflang="nb" href="https://m1zz.github.io/LectureQ/nb/">
+  <link rel="alternate" hreflang="nl" href="https://m1zz.github.io/LectureQ/nl/">
+  <link rel="alternate" hreflang="pl" href="https://m1zz.github.io/LectureQ/pl/">
+  <link rel="alternate" hreflang="sv" href="https://m1zz.github.io/LectureQ/sv/">
+  <link rel="alternate" hreflang="tr" href="https://m1zz.github.io/LectureQ/tr/">
+  <link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/LectureQ/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="LectureQ：把上課時冒出的疑問隨手記下的 Mac App">
+  <meta property="og:description" content="上課時按一下快速鍵就能記下問題，問題會留在那一刻的筆記旁，直到你找到答案。所有功能免費。">
+  <meta property="og:url" content="https://m1zz.github.io/LectureQ/zh-Hant/">
+  <meta property="og:image" content="https://m1zz.github.io/LectureQ/img/zh-Hant/og.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="../icon.png">
+  <link rel="apple-touch-icon" href="../icon.png">
+  <link rel="stylesheet" href="../site.css">
+  <link rel="stylesheet" href="../demo.css">
+  <style>:root{--accent:#2E6BE6}@media (prefers-color-scheme:dark){:root{--accent:#6F9BFF}}</style>
+  <script>document.documentElement.classList.add("js")</script>
 </head>
 <body>
-  <div class="wrap">
-<!--langswitch:start--><nav class="langs" aria-label="Language"><a href="../index.html" hreflang="ko" lang="ko">한국어</a> <a href="../en/index.html" hreflang="en" lang="en">English</a> <a href="../en-GB/index.html" hreflang="en-GB" lang="en-GB">English (UK)</a> <a href="../zh-Hans/index.html" hreflang="zh-Hans" lang="zh-Hans">简体中文</a> <a href="../zh-Hant/index.html" hreflang="zh-Hant" lang="zh-Hant" aria-current="page">繁體中文</a> <a href="../ja/index.html" hreflang="ja" lang="ja">日本語</a> <a href="../ru/index.html" hreflang="ru" lang="ru">Русский</a> <a href="../es/index.html" hreflang="es" lang="es">Español</a> <a href="../de/index.html" hreflang="de" lang="de">Deutsch</a> <a href="../fr/index.html" hreflang="fr" lang="fr">Français</a> <a href="../it/index.html" hreflang="it" lang="it">Italiano</a> <a href="../pt-BR/index.html" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a> <a href="../th/index.html" hreflang="th" lang="th">ไทย</a> <a href="../vi/index.html" hreflang="vi" lang="vi">Tiếng Việt</a> <a href="../cs/index.html" hreflang="cs" lang="cs">Čeština</a> <a href="../da/index.html" hreflang="da" lang="da">Dansk</a> <a href="../el/index.html" hreflang="el" lang="el">Ελληνικά</a> <a href="../fi/index.html" hreflang="fi" lang="fi">Suomi</a> <a href="../id/index.html" hreflang="id" lang="id">Bahasa Indonesia</a> <a href="../nb/index.html" hreflang="nb" lang="nb">Norsk bokmål</a> <a href="../nl/index.html" hreflang="nl" lang="nl">Nederlands</a> <a href="../pl/index.html" hreflang="pl" lang="pl">Polski</a> <a href="../sv/index.html" hreflang="sv" lang="sv">Svenska</a> <a href="../tr/index.html" hreflang="tr" lang="tr">Türkçe</a></nav><!--langswitch:end-->
-    <div class="logo"><span>?</span></div>
-    <h1>LectureQ</h1>
-    <p class="sub">上課提問筆記 · macOS App</p>
-    <p class="tag">上課時冒出的疑問，當下就記下來；再透過時間區塊筆記、追問和 AI 提示詞找到答案，整理成真正學到的內容。</p>
-    <div class="cards">
-      <a class="card" href="./ai-guide.html">
-        <h2>指南：用 AI 找答案</h2>
-        <p>和 AI 一起，把記下的問題變成&lsquo;經過驗證的知識&rsquo;的 5 個步驟</p>
-      </a>
-      <a class="card" href="./support.html">
-        <h2>支援</h2>
-        <p>使用方式、常見問題、聯絡方式</p>
-      </a>
-      <a class="card" href="./privacy.html">
-        <h2>隱私權政策</h2>
-        <p>LectureQ 如何處理你的資料</p>
-      </a>
-      <a class="card" href="https://github.com/M1zz/LectureQ">
-        <h2>原始碼（GitHub）</h2>
-        <p>github.com/M1zz/LectureQ</p>
-      </a>
-    </div>
-    <footer>© 2026 LectureQ · 聯絡信箱 <a href="mailto:mizzking75@gmail.com">mizzking75@gmail.com</a></footer>
-  </div>
+  <a class="skip" href="#main">跳到主要內容</a>
+  <header class="bar">
+    <a class="brand" href="../zh-Hant/"><img src="../icon.png" alt="" width="32" height="32">LectureQ</a>
+    <a class="lang-link" href="#languages">語言</a>
+  </header>
+
+  <main id="main">
+    <section class="hero">
+      <div class="copy">
+        <h1>課堂上冒出的疑問，<br>別再讓它溜走</h1>
+        <p class="lead">按下 <code>⌘⇧N</code>，寫一行，問題就會留在那一分鐘的筆記旁邊。課照聽，答案之後再找。</p>
+        <div class="actions"><a class="cta" href="https://apps.apple.com/app/id6794597095">在 App Store 免費下載</a><a class="try" href="#try">在這裡試試看 ↓</a></div>
+        <p class="muted small">適用於 macOS 14 或以上版本。不需帳號，資料只存在這台 Mac。</p>
+      </div>
+      <div class="plain"><img src="../img/zh-Hant/main.jpg" alt="課堂上冒出的疑問， 別再讓它溜走" width="1200" height="750" decoding="async"></div>
+    </section>
+
+
+    <section class="reveal" id="try">
+      <h2>在這裡試試看</h2>
+      <p class="muted">你正在上一堂機器學習課。寫下問題並儲存，對應時間的時間區塊旁就會出現 ?。把時間改到區塊之外，就會新增一個時間區塊來放它。</p>
+      <div id="demo" class="card demo-card" data-text="{&quot;title&quot;: &quot;在這裡試試看&quot;, &quot;lead&quot;: &quot;你正在上一堂機器學習課。寫下問題並儲存，對應時間的時間區塊旁就會出現 ?。把時間改到區塊之外，就會新增一個時間區塊來放它。&quot;, &quot;note&quot;: &quot;這個體驗依照和 App 相同的規則運作。在這裡輸入的內容不會儲存到任何地方。&quot;, &quot;lecture&quot;: &quot;機器學習入門 · 第3講 梯度下降&quot;, &quot;b1&quot;: &quot;損失函數 = 衡量預測錯了多少的值\n梯度下降：沿梯度的反方向一點一點移動\n  w ← w − η · ∂L/∂w\n\n學習率 η 太大會發散，太小又太慢\n→ 通常從 0.01 左右開始，看損失曲線調整&quot;, &quot;b2&quot;: &quot;小批次：用部分資料取代全部資料來估計梯度\nEpoch = 把全部資料完整看過一次\n\n作業：用 3 種學習率比較損失曲線&quot;, &quot;draft&quot;: &quot;要怎麼察覺驗證損失開始上升的時間點？&quot;, &quot;qs&quot;: [[&quot;10:12&quot;, &quot;為什麼往梯度的反方向走，損失就會下降？&quot;, 1, 1], [&quot;10:18&quot;, &quot;每一步該跨多大？學習率是誰決定的？&quot;, 1, 1], [&quot;10:41&quot;, &quot;訓練途中也會調整學習率嗎？&quot;, 0, 0], [&quot;10:26&quot;, &quot;如果有好幾個山谷，不就找不到最低點了嗎？&quot;, 0, 0], [&quot;10:50&quot;, &quot;損失函數一定要用平方誤差嗎？&quot;, 1, 1], [&quot;11:22&quot;, &quot;小批次的大小要怎麼選？&quot;, 0, 0], [&quot;11:35&quot;, &quot;批次小的話梯度會晃動，這樣沒關係嗎？&quot;, 0, 1], [&quot;11:48&quot;, &quot;Epoch 跑太多會怎樣？&quot;, 1, 1]], &quot;ph&quot;: &quot;用最簡單的話寫下你的疑問…&quot;, &quot;time&quot;: &quot;時間點&quot;, &quot;now&quot;: &quot;現在&quot;, &quot;save&quot;: &quot;儲存&quot;, &quot;add&quot;: &quot;新增問題&quot;, &quot;resolved&quot;: &quot;已解決&quot;, &quot;unresolved&quot;: &quot;未解決&quot;}"></div>
+    </section>
+
+    <section class="problem reveal">
+      <h2>下課後，你還記得那個問題嗎？</h2>
+      <p>才剛想到「咦，為什麼？」，老師已經講到下一頁了。隨手畫在頁邊的問號，事後想不起是哪段講解引出的，問題也就一直沒有答案。LectureQ 把每個問題和那一刻的筆記釘在一起，在你弄懂之前一直放在眼前。</p>
+    </section>
+
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>不打斷上課也能提問</h2>
+        <p>點工具列的 <code>新增問題</code> 或按 <code>⌘⇧N</code> 打開輸入視窗。時間會自動填好，按 <code>Return</code> 儲存，按 <code>⌘Return</code> 儲存後馬上寫下一題。<br>每個問題都會以 ? 顯示在對應的時間區塊旁，之後一眼就看得出它出自課程的哪一段。</p>
+      </div>
+      <div class="plain"><img src="../img/zh-Hant/capture.jpg" alt="不打斷上課也能提問" width="1200" height="750" loading="lazy" decoding="async"></div>
+    </section>
+
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>解決的問題，變成學到的內容</h2>
+        <p>用自己的話寫下答案並標為已解決，它就會出現在摘要的「學到的內容」。還沒解決的留在「待提的問題」，下堂課要問的清單自然成形。<br>問題詳細資訊裡的 <code>拷貝 AI 提示詞</code> 會把填好課程名稱和那一刻筆記的提示詞拷貝到剪貼板，貼到你常用的 AI 服務就好。</p>
+      </div>
+      <div class="plain"><img src="../img/zh-Hant/summary.jpg" alt="解決的問題，變成學到的內容" width="1200" height="750" loading="lazy" decoding="async"></div>
+    </section>
+
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>看見思路怎麼展開</h2>
+        <p>從問題延伸出的追問會縮排排在原問題下方，關係圖則用箭頭連起來。點一下節點就能跳到那個問題。<br>也可以在學習狀態寫下上課前的自己、學完後想成為的樣子和想學的東西，前後對照。</p>
+      </div>
+      <div class="plain"><img src="../img/zh-Hant/graph.jpg" alt="看見思路怎麼展開" width="1200" height="750" loading="lazy" decoding="async"></div>
+    </section>
+
+    <section class="reveal">
+      <h2>三個步驟就能開始</h2>
+      <ol class="steps"><li class="card"><span class="n">1</span><h3>新增課程</h3><p>從工具列左側的課程選單新增，也可以匯入存成 Markdown 的對話。</p></li>
+<li class="card"><span class="n">2</span><h3>想到就記</h3><p>按 <code>⌘⇧N</code>，一行就夠，時間已經填好。</p></li>
+<li class="card"><span class="n">3</span><h3>之後再整理答案</h3><p>寫下答案，點 ? 標為已解決，就會進到「學到的內容」。</p></li></ol>
+    </section>
+
+    <section class="reveal" id="commands">
+      <h2>鍵盤快速鍵</h2>
+      <div class="card table">
+        <dl><div><dt>⌘⇧N</dt><dd>新增問題</dd></div><div><dt>Return</dt><dd>儲存</dd></div><div><dt>⌘Return</dt><dd>儲存並繼續寫下一題</dd></div><div><dt>Esc</dt><dd>取消</dd></div><div><dt>⌘1</dt><dd>摘要：待提的問題、學到的內容、筆記</dd></div><div><dt>⌘2</dt><dd>關係圖：原問題與追問的關係</dd></div><div><dt>⌘3</dt><dd>時間區塊：所有課程的區塊依時間排列</dd></div><div><dt>⌘4</dt><dd>學習狀態</dd></div><div><dt>⌘+ · ⌘- · ⌘0</dt><dd>放大、縮小、恢復預設字級</dd></div></dl>
+      </div>
+      <p class="muted">這些都能在選單列的「檢視」選單找到。</p>
+    </section>
+
+
+    <section class="reveal" id="pricing">
+      <h2>所有功能免費</h2>
+      <div class="plans">
+        <div class="card plan free">
+          <h3>免費</h3>
+          <ul><li>快速提問與時間區塊筆記</li><li>追問與關係圖</li><li>摘要、時間區塊總覽與學習狀態</li><li>五個步驟的 AI 提示詞，一鍵拷貝</li><li>從 Markdown 匯入對話</li></ul>
+          
+        </div>
+        <div class="card plan pro">
+          <h3>支持開發者</h3>
+          <ul><li>覺得好用的話，可以在設定裡送一點小費</li><li>送小費不會解鎖額外功能</li></ul>
+          <p class="muted">不送小費也能使用全部功能。</p>
+        </div>
+      </div>
+      <p class="muted">沒有廣告，也不用註冊。紀錄只存在這台 Mac。</p>
+    </section>
+
+    <section class="reveal" id="faq">
+      <h2>常見問題</h2>
+      <div class="faq"><details><summary>問題旁的 ? 顏色代表什麼？</summary><p>列表中，橘色空心圓是還沒解決的問題，綠色實心圓是已解決的問題。點 ? 可以切換，開啟工具列的 <code>只看未解決</code> 就只顯示未解決的問題。時間區塊旁的 ? 用顏色表示是否已解決，實心代表已經寫了答案。</p></details>
+<details><summary>時間區塊是怎麼產生的？</summary><p>點 <code>新增時間區塊</code> 會從此刻開始新的區塊，上一個區塊在此結束。若在不屬於任何區塊的時間記下問題，會自動建立涵蓋該時間的區塊。在區塊右上角的 <code>設定</code> 可以改顏色、開始時間和長度，或刪除它。手動刪除過區塊的課程，就不會再自動建立區塊。</p></details>
+<details><summary>「已解決」和「學到的內容」有什麼不同？</summary><p>在問題詳細資訊勾選 <code>已解決</code> 後，還能選擇要不要列入「學到的內容」。那裡只會出現已解決且選擇列入的問題。在摘要裡也能移出或再放回，答案都會保留。</p></details>
+<details><summary>怎麼用 AI 找答案？</summary><p>在問題詳細資訊「答案」右側的 <code>拷貝 AI 提示詞</code> 選一個步驟：梳理問題、尋找答案、反問答案、擷取追問、替我的答案打分數。填好課程名稱、那一刻的筆記、學習狀態和原問題的提示詞會拷貝到剪貼板。目前提示詞內文是韓文，大多數 AI 都看得懂，你可以請它用中文回答。「替我的答案打分數」需要先在答案欄用自己的話寫下內容。App 本身不會與 AI 服務連線。</p></details>
+<details><summary>可以匯入存成 Markdown 的對話嗎？</summary><p>在課程選單選 <code>從 Markdown 匯入…</code> 並挑選檔案，就會建立新課程。<code># 標題</code> 成為課程名稱，每個 <code>## 小節</code> 的第一個問題是原問題，接著的問題是追問。檔案中第一個出現的說話者的發言會成為問題，其他人的發言則成為前一個問題的答案。原始檔案不會被更動。</p></details>
+<details><summary>怎麼刪除問題或課程？</summary><p>在列表中對問題按右鍵，選 <code>刪除</code>；課程用課程選單的 <code>刪除目前課程</code>。刪除課程會一併刪除它的問題和區塊，而且無法復原，重要紀錄請先備份。</p></details>
+<details><summary>資料存在哪裡？要怎麼備份？</summary><p>所有紀錄只存在這台 Mac，不會上傳。備份時先結束 App，再把 ~/Library/Containers/com.lectureq.LectureQ/Data/Library/Application Support/LectureQ/ 資料夾連同 -wal、-shm 檔案整個拷貝起來。App 只會傳送版本、開啟天數這類匿名使用統計，不會傳送你寫的內容。</p></details>
+<details><summary>字太小了。</summary><p><code>⌘+</code> 放大，<code>⌘-</code> 縮小，<code>⌘0</code> 回到預設。可在 85% 到 200% 之間調整，設定會被記住。</p></details>
+<details><summary>哪些 Mac 可以用？</summary><p>執行 macOS 14 或以上版本的 Mac 都可以。原始碼公開在 GitHub 的 M1zz/LectureQ。</p></details>
+<details><summary>遇到問題要找誰？</summary><p>可以從 App 的設定（<code>⌘,</code>）傳送意見回饋，或寫信到下方信箱。附上 macOS 版本和發生問題時在做什麼，我們能更快確認。</p></details></div>
+      <p class="contact">有問題或建議？歡迎寫信到 <a href="mailto:mizzking75@gmail.com">mizzking75@gmail.com</a>。</p>
+    </section>
+
+    <section class="closing reveal">
+      <h2>下一堂課，<br>不再漏掉任何疑問</h2>
+      <a class="cta" href="https://apps.apple.com/app/id6794597095">在 App Store 免費下載</a>
+    </section>
+  </main>
+
+  <footer>
+    <nav id="languages" class="langs" aria-label="語言"><a href="../" hreflang="ko" lang="ko">한국어</a>
+<a href="../en/" hreflang="en" lang="en">English</a>
+<a href="../en-GB/" hreflang="en-GB" lang="en-GB">English (UK)</a>
+<a href="../zh-Hans/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a>
+<a href="../zh-Hant/" hreflang="zh-Hant" lang="zh-Hant" aria-current="page">繁體中文</a>
+<a href="../ja/" hreflang="ja" lang="ja">日本語</a>
+<a href="../ru/" hreflang="ru" lang="ru">Русский</a>
+<a href="../es/" hreflang="es" lang="es">Español</a>
+<a href="../de/" hreflang="de" lang="de">Deutsch</a>
+<a href="../fr/" hreflang="fr" lang="fr">Français</a>
+<a href="../it/" hreflang="it" lang="it">Italiano</a>
+<a href="../pt-BR/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a>
+<a href="../th/" hreflang="th" lang="th">ไทย</a>
+<a href="../vi/" hreflang="vi" lang="vi">Tiếng Việt</a>
+<a href="../cs/" hreflang="cs" lang="cs">Čeština</a>
+<a href="../da/" hreflang="da" lang="da">Dansk</a>
+<a href="../el/" hreflang="el" lang="el">Ελληνικά</a>
+<a href="../fi/" hreflang="fi" lang="fi">Suomi</a>
+<a href="../id/" hreflang="id" lang="id">Bahasa Indonesia</a>
+<a href="../nb/" hreflang="nb" lang="nb">Norsk bokmål</a>
+<a href="../nl/" hreflang="nl" lang="nl">Nederlands</a>
+<a href="../pl/" hreflang="pl" lang="pl">Polski</a>
+<a href="../sv/" hreflang="sv" lang="sv">Svenska</a>
+<a href="../tr/" hreflang="tr" lang="tr">Türkçe</a></nav>
+    <p><a href="privacy.html">隱私權政策</a> · <a href="mailto:mizzking75@gmail.com">mizzking75@gmail.com</a> · © 2026 LectureQ</p>
+  </footer>
+
+  <script>
+    const io = new IntersectionObserver(es => es.forEach(e => {
+      if (e.isIntersecting) { e.target.classList.add("in"); io.unobserve(e.target) }
+    }), { rootMargin: "0px 0px -10% 0px" });
+    document.querySelectorAll(".reveal").forEach(el => io.observe(el));
+  </script>
+  <script src="../demo.js"></script>
 </body>
 </html>
