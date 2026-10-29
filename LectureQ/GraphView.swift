@@ -14,12 +14,14 @@ struct GraphContainerView: View {
 
     @StateObject private var model = GraphModel()
     @State private var magnifyBase: CGFloat = 1   // 핀치 줌 기준 배율
+    @Environment(\.accessibilityDifferentiateWithoutColor) private var differentiateWithoutColor
 
     var body: some View {
         VStack(spacing: 0) {
             HStack {
                 Text("그래프")
                     .scaledFont(.headline)
+                    .accessibilityAddTraits(.isHeader)
                 Text(lecture.title)
                     .scaledFont(.subheadline)
                     .foregroundStyle(.secondary)
@@ -95,7 +97,15 @@ struct GraphContainerView: View {
     private var legend: some View {
         HStack(spacing: 14) {
             legendDot(.orange, "미해결")
-            legendDot(.green, "해결")
+            if differentiateWithoutColor {
+                // 색 없이 구별: 해결된 질문 노드에는 ✓ 가 붙는다
+                HStack(spacing: 4) {
+                    Image(systemName: "checkmark.circle.fill").foregroundStyle(.green)
+                    Text("해결").foregroundStyle(.secondary)
+                }
+            } else {
+                legendDot(.green, "해결")
+            }
             // 빈 원 = 답 없음 (꽉 찬 원은 답 있음)
             HStack(spacing: 4) {
                 Circle().strokeBorder(Color.secondary, lineWidth: 2).frame(width: 9, height: 9)
@@ -110,6 +120,30 @@ struct GraphContainerView: View {
         HStack(spacing: 4) {
             Circle().fill(color).frame(width: 8, height: 8)
             Text(text).foregroundStyle(.secondary)
+        }
+    }
+}
+
+/// VoiceOver: 노드 하나를 "질문, 해결됨·답 있음" 처럼 읽고, 질문 노드는 눌러 그 질문으로 이동한다.
+private struct NodeAccessibility: ViewModifier {
+    let node: GraphNode
+    let onSelect: (UUID) -> Void
+
+    func body(content: Content) -> some View {
+        switch node.kind {
+        case .lecture:
+            content
+                .accessibilityElement(children: .ignore)
+                .accessibilityLabel(node.label)
+                .accessibilityAddTraits(.isHeader)
+        case .question(let resolved, let hasContent):
+            content
+                .accessibilityElement(children: .ignore)
+                .accessibilityLabel(node.label)
+                .accessibilityValue(Text(resolved ? "해결됨" : "미해결") + Text(verbatim: ", ") + Text(hasContent ? "답 있음" : "답 없음"))
+                .accessibilityHint("누르면 이 질문으로 이동합니다")
+                .accessibilityAddTraits(.isButton)
+                .accessibilityAction { onSelect(node.id) }
         }
     }
 }
@@ -302,6 +336,7 @@ struct GraphCanvas: View {
     var onSelect: (UUID) -> Void = { _ in }
     @State private var hoveredID: UUID?
     @State private var tappedID: UUID?      // 이동 팝오버를 띄운 질문 노드
+    @Environment(\.accessibilityDifferentiateWithoutColor) private var differentiateWithoutColor
 
     var body: some View {
         let content = model.contentSize
@@ -364,6 +399,7 @@ struct GraphCanvas: View {
                 }
             }
             .allowsHitTesting(false)
+            .accessibilityHidden(true)   // 연결은 사이드바의 꼬리질문 순서로 읽는다
 
             // Nodes
             ForEach(model.nodes) { node in
@@ -395,6 +431,7 @@ struct GraphCanvas: View {
                         .onHover { hovering in
                             hoveredID = hovering ? node.id : (hoveredID == node.id ? nil : hoveredID)
                         }
+                        .modifier(NodeAccessibility(node: node, onSelect: onSelect))
                 }
             }
         }
@@ -432,6 +469,14 @@ struct GraphCanvas: View {
             Circle()
                 .fill(node.isFilled ? node.color : Color(nsColor: .textBackgroundColor))
                 .overlay(Circle().strokeBorder(node.color, lineWidth: 2))
+                .overlay {
+                    // 색 없이 구별: 해결된 질문은 ✓ 로도 보여 준다
+                    if differentiateWithoutColor, case .question(true, let filled) = node.kind {
+                        Image(systemName: "checkmark")
+                            .font(.system(size: 13, weight: .bold))
+                            .foregroundStyle(filled ? Color.black.opacity(0.8) : Color.green)
+                    }
+                }
                 .frame(width: node.radius * 2, height: node.radius * 2)
 
             Text(node.label)

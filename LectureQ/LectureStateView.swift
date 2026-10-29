@@ -11,6 +11,7 @@ struct LectureStateView: View {
             HStack(alignment: .firstTextBaseline) {
                 Text("학습 상태")
                     .scaledFont(.headline)
+                    .accessibilityAddTraits(.isHeader)
                 Text(lecture.title)
                     .scaledFont(.subheadline)
                     .foregroundStyle(.secondary)
@@ -49,6 +50,7 @@ struct LectureStateView: View {
             Text(title)
                 .scaledFont(.subheadline, weight: .semibold)
                 .foregroundStyle(.secondary)
+                .accessibilityAddTraits(.isHeader)
 
             ZStack(alignment: .topLeading) {
                 TextEditor(text: text)

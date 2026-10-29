@@ -20,7 +20,7 @@ struct QuestionDetailView: View {
                     ForEach(question.linkedFrom, id: \.uuid) { parent in
                         HStack(spacing: 6) {
                             Text("원질문")
-                                .foregroundStyle(.tertiary)
+                                .foregroundStyle(.secondary)
                             Text(parent.text)
                                 .foregroundStyle(.secondary)
                                 .lineLimit(1)
@@ -41,7 +41,7 @@ struct QuestionDetailView: View {
 
                 Text("작성 \(question.createdAt.formatted(date: .abbreviated, time: .shortened))")
                     .scaledFont(.caption)
-                    .foregroundStyle(.tertiary)
+                    .foregroundStyle(.secondary)
             }
             .padding(24)
             .frame(maxWidth: 640, alignment: .leading)
@@ -74,6 +74,7 @@ struct QuestionDetailView: View {
                     .textFieldStyle(.roundedBorder)
                     .frame(width: 64)
                     .help("강의 시점 (24시간 HH:mm)")
+                    .accessibilityLabel("시점")
                 Button("지금") { question.timeMark = timeMarkString() }
                     .buttonStyle(.link)
             }
@@ -217,5 +218,6 @@ struct QuestionDetailView: View {
         Text(title)
             .scaledFont(.caption, weight: .semibold)
             .foregroundStyle(.secondary)
+            .accessibilityAddTraits(.isHeader)
     }
 }

@@ -86,6 +86,7 @@ struct TimelineView: View {
             HStack {
                 Text("타임블록")
                     .scaledFont(.headline)
+                    .accessibilityAddTraits(.isHeader)
                 Spacer()
                 Button("닫기") { dismiss() }
                     .keyboardShortcut(.escape, modifiers: [])
@@ -152,6 +153,7 @@ struct BlockView: View {
 
     @State private var showSettings = false
     @State private var confirmingDelete = false
+    @Environment(\.accessibilityDifferentiateWithoutColor) private var differentiateWithoutColor
     private let durationOptions = [15, 30, 45, 60, 75, 90, 120, 150, 180]
 
     private var blockHeight: CGFloat {
@@ -328,10 +330,12 @@ struct BlockView: View {
     }
 
     /// 질문 표시(?): 색=해결여부(초록/주황), 채움=답 유무. 눌러서 질문으로 이동. (클릭 영역은 24pt)
+    /// '색상 없이 구별'을 켜면 해결된 질문은 ✓ 모양으로 바꿔 색 없이도 알아보게 한다.
     private func questionDot(_ q: Question) -> some View {
         let color: Color = q.isResolved ? .green : .orange
         let hasAnswer = !q.answer.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty
-        return Image(systemName: hasAnswer ? "questionmark.circle.fill" : "questionmark.circle")
+        let symbol = differentiateWithoutColor && q.isResolved ? "checkmark.circle" : "questionmark.circle"
+        return Image(systemName: hasAnswer ? symbol + ".fill" : symbol)
             .font(.system(size: 17))
             .foregroundStyle(color)
             // 심볼 안쪽이 비어 있어 뒤의 세로 줄이 비치지 않도록 불투명 바탕을 깐다

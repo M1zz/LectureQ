@@ -1586,3 +1586,16 @@ https://m1zz.github.io/LectureQ/tr/privacy.html
 ### 마케팅 URL
 
 https://m1zz.github.io/LectureQ/tr/
+
+## 손쉬운 사용
+
+<!-- DeployBar 가 App Store Connect '앱의 손쉬운 사용' 에 올린다. 실제로 확인한 것만 적는다. -->
+
+### Mac
+voiceOver
+voiceControl
+largerText
+darkInterface
+differentiateWithoutColor
+sufficientContrast
+reducedMotion

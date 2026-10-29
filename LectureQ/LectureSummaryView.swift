@@ -55,6 +55,7 @@ struct LectureSummaryView: View {
             VStack(alignment: .leading, spacing: 2) {
                 Text(lecture.title)
                     .scaledFont(.title2, weight: .bold)
+                    .accessibilityAddTraits(.isHeader)
                 Text(lecture.createdAt.formatted(date: .long, time: .omitted))
                     .scaledFont(.caption)
                     .foregroundStyle(.secondary)
@@ -141,7 +142,7 @@ struct LectureSummaryView: View {
                         let answer = q.answer.trimmingCharacters(in: .whitespacesAndNewlines)
                         Text(answer.isEmpty ? String(localized: "답 메모가 비어 있어요") : answer)
                             .scaledFont(.callout)
-                            .foregroundStyle(answer.isEmpty ? .tertiary : .primary)
+                            .foregroundStyle(answer.isEmpty ? .secondary : .primary)
                             .textSelection(.enabled)
                     }
                     .frame(maxWidth: .infinity, alignment: .leading)
@@ -185,10 +186,12 @@ struct LectureSummaryView: View {
                     .foregroundStyle(.secondary)
             }
         }
+        .accessibilityElement(children: .combine)
+        .accessibilityAddTraits(.isHeader)
     }
 
     private func emptyLine(_ text: LocalizedStringKey) -> some View {
         Text(text)
-            .foregroundStyle(.tertiary)
+            .foregroundStyle(.secondary)
     }
 }

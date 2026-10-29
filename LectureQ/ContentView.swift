@@ -665,6 +665,10 @@ struct QuestionRow: View {
             Text(question.text)
                 .scaledFont(13)
                 .lineLimit(2)
+                // 들여쓰기는 VoiceOver 가 읽지 못하므로 꼬리질문임을 말로 알린다.
+                .accessibilityLabel(depth > 0
+                                    ? Text("꼬리질문") + Text(verbatim: ", ") + Text(question.text)
+                                    : Text(question.text))
                 .foregroundStyle(question.isResolved ? .secondary : .primary)
 
             Spacer(minLength: 4)
@@ -672,7 +676,7 @@ struct QuestionRow: View {
             if !question.timeMark.isEmpty {
                 Text(question.timeMark)
                     .scaledFont(.caption, monospacedDigit: true)
-                    .foregroundStyle(.tertiary)
+                    .foregroundStyle(.secondary)
             }
         }
         .padding(.vertical, 2)
