@@ -2,6 +2,7 @@ import SwiftUI
 import SwiftData
 import LeeoKit
 import TipKit
+import AppIntents
 
 @main
 struct LectureQApp: App {
@@ -30,6 +31,9 @@ struct LectureQApp: App {
             try? Tips.configure([.displayFrequency(.daily)])
         }
         container = Self.makeContainer()
+        // Siri · Spotlight 의 질문 찾기가 같은 저장소를 읽게 한다 (→ AppShortcuts.swift)
+        let container = container
+        AppDependencyManager.shared.add(dependency: container)
     }
 
     var body: some Scene {

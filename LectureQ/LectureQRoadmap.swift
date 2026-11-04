@@ -18,6 +18,9 @@ import LeeoKit
 extension LectureQSpec {
     static var roadmap: [LeeoRoadmapItem] {[
         // MARK: 다음에 만들어요
+        .init(id: "siri-ai", status: .planned,
+              title: NSLocalizedString("앱 이름 없이 Siri에게", comment: "Roadmap item: Siri without saying the app name"),
+              detail: NSLocalizedString("Siri에게 앱 이름을 말하지 않아도 지난 질문을 찾아 열고, 새 질문을 바로 적어요.", comment: "Roadmap item detail: Siri without saying the app name")),
         .init(id: "sync.icloud", status: .planned,
               title: NSLocalizedString("여러 맥에서 이어 쓰기", comment: "Roadmap item: sync across devices"),
               detail: NSLocalizedString("다른 맥에서도 같은 강의와 질문을 이어서 써요.", comment: "Roadmap item detail: sync across devices")),

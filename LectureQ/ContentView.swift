@@ -100,6 +100,9 @@ struct ContentView: View {
 
     // 단축어 "질문 추가"(→ AppShortcuts.swift)가 입력창을 열어 달라고 할 때 받는 곳
     @ObservedObject private var captureRequest = CaptureRequest.shared
+    /// Siri · Spotlight 에서 고른 질문 — 그 강의로 옮긴 뒤 고른다.
+    @State private var pendingQuestionID: UUID?
+    @Environment(\.scenePhase) private var scenePhase
 
     // 질문이 쌓이면 보기 메뉴(요약·그래프)를 알려 주는 팁 (→ FeatureTips.swift)
     private let reviewTip = ReviewViewsTip()
@@ -209,11 +212,26 @@ struct ContentView: View {
             captureRequest.isPending = false
             openCaptureFromShortcut()
         }
+        .onReceive(captureRequest.$openQuestionID) { id in
+            guard let id, let question = allQuestions.first(where: { $0.uuid == id }) else { return }
+            captureRequest.openQuestionID = nil
+            if let lecture = question.lecture, lecture.uuid != selectedLecture?.uuid {
+                pendingQuestionID = id      // 강의를 바꾸면 고른 질문이 비워지므로 바뀐 뒤에 고른다.
+                selectedLecture = lecture
+            } else {
+                selectedQuestion = question
+            }
+        }
+        // 앱을 열 때와 뒤로 보낼 때 Spotlight 의 질문을 지금 것에 맞춘다.
+        .onChange(of: scenePhase, initial: true) { _, phase in
+            if phase != .inactive, !DemoMode.isOn { Task { await QuestionLibrary.reindex(context.container) } }
+        }
         .onChange(of: selectedLecture) { _, newValue in
             // 강의를 바꿀 때마다 기억해 둔다. (nil이면 지우지 않고 유지)
             if let lecture = newValue {
                 if !DemoMode.isOn { lastLectureUUID = lecture.uuid.uuidString }
-                selectedQuestion = nil
+                selectedQuestion = pendingQuestionID.flatMap { id in lecture.questions.first { $0.uuid == id } }
+                pendingQuestionID = nil
                 ensureBlocks(lecture)
                 ensureCoverage(lecture)
             }
