@@ -57,6 +57,11 @@ AI로 답 찾기
 
 macOS 14 이상에서 사용할 수 있습니다.
 
+구독 안내
+질문노트 Plus와 Pro 구독은 자동 갱신 구독입니다. 갱신일 24시간 전까지 해지하지 않으면 Apple 계정으로 자동 결제되며, 설정의 구독 관리에서 언제든 해지할 수 있습니다.
+이용약관(EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
+개인정보처리방침: https://m1zz.github.io/LectureQ/privacy.html
+
 ### 지원 URL
 
 https://m1zz.github.io/LectureQ/support.html
@@ -122,6 +127,11 @@ Privacy
 There are no accounts, and every record is stored only on this Mac.
 
 Requires macOS 14 or later.
+
+Subscriptions
+LectureQ Plus and Pro are auto-renewing subscriptions. Payment is charged to your Apple Account, and the subscription renews unless canceled at least 24 hours before the current period ends. Manage or cancel anytime in Settings.
+Terms of Use (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
+Privacy Policy: https://m1zz.github.io/LectureQ/en/privacy.html
 
 ### 지원 URL
 
@@ -189,6 +199,11 @@ There are no accounts, and every record is stored only on this Mac.
 
 Requires macOS 14 or later.
 
+Subscriptions
+LectureQ Plus and Pro are auto-renewing subscriptions. Payment is charged to your Apple Account, and the subscription renews unless cancelled at least 24 hours before the current period ends. Manage or cancel any time in Settings.
+Terms of Use (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
+Privacy Policy: https://m1zz.github.io/LectureQ/en-GB/privacy.html
+
 ### 지원 URL
 
 https://m1zz.github.io/LectureQ/en-GB/support.html
@@ -254,6 +269,11 @@ LectureQ：听课提问笔记
 无需账号，所有记录只保存在这台 Mac 上。
 
 需要 macOS 14 或更高版本。
+
+订阅说明
+LectureQ Plus 和 Pro 均为自动续期订阅。 费用从你的 Apple 账户扣除，除非在当期结束前至少 24 小时取消，否则将自动续期。可随时在“设置”中管理或取消。
+使用条款（EULA）: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
+隐私政策: https://m1zz.github.io/LectureQ/zh-Hans/privacy.html
 
 ### 지원 URL
 
@@ -321,6 +341,11 @@ LectureQ：上課提問筆記
 
 需要 macOS 14 或以上版本。
 
+訂閱說明
+LectureQ Plus 與 Pro 皆為自動續訂訂閱。 費用會從你的 Apple 帳號扣款，除非在當期結束前至少 24 小時取消，否則將自動續訂。可隨時在「設定」中管理或取消。
+使用條款（EULA）: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
+隱私權政策: https://m1zz.github.io/LectureQ/zh-Hant/privacy.html
+
 ### 지원 URL
 
 https://m1zz.github.io/LectureQ/zh-Hant/support.html
@@ -386,6 +411,11 @@ AIで答えを探す
 アカウントは不要で、すべての記録はこのMacの中だけに保存されます。
 
 macOS 14以降で使えます。
+
+サブスクリプションについて
+LectureQ の Plus と Pro は自動更新のサブスクリプションです。 期間終了の24時間前までに解約しない限り、Apple Account に自動で請求され更新されます。設定のサブスクリプション管理からいつでも解約できます。
+利用規約（EULA）: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
+プライバシーポリシー: https://m1zz.github.io/LectureQ/ja/privacy.html
 
 ### 지원 URL
 
@@ -453,6 +483,11 @@ LectureQ: вопросы к лекциям
 
 Требуется macOS 14 или новее.
 
+Подписки
+LectureQ Plus и Pro — подписки с автопродлением. Оплата списывается с вашего Аккаунта Apple, и подписка продлевается, если не отменить её минимум за 24 часа до конца периода. Управлять подпиской и отменить её можно в Настройках.
+Условия использования (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
+Политика конфиденциальности: https://m1zz.github.io/LectureQ/ru/privacy.html
+
 ### 지원 URL
 
 https://m1zz.github.io/LectureQ/ru/support.html
@@ -518,6 +553,11 @@ Privacidad
 No hay cuentas y todos tus registros se guardan solo en este Mac.
 
 Requiere macOS 14 o posterior.
+
+Suscripciones
+Las suscripciones a LectureQ Plus y Pro son de renovación automática. El cargo se realiza en tu cuenta de Apple y la suscripción se renueva salvo que la canceles al menos 24 horas antes de que termine el periodo. Puedes gestionarla o cancelarla cuando quieras en Ajustes.
+Términos de uso (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
+Política de privacidad: https://m1zz.github.io/LectureQ/es/privacy.html
 
 ### 지원 URL
 
@@ -585,6 +625,11 @@ Es gibt keine Konten, und alle Einträge bleiben ausschließlich auf diesem Mac.
 
 Erfordert macOS 14 oder neuer.
 
+Abonnements
+LectureQ Plus und Pro sind sich automatisch verlängernde Abos. Die Zahlung erfolgt über deinen Apple Account. Das Abo verlängert sich, sofern du nicht mindestens 24 Stunden vor Ablauf des Zeitraums kündigst. Verwalten oder kündigen kannst du jederzeit in den Einstellungen.
+Nutzungsbedingungen (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
+Datenschutzerklärung: https://m1zz.github.io/LectureQ/de/privacy.html
+
 ### 지원 URL
 
 https://m1zz.github.io/LectureQ/de/support.html
@@ -650,6 +695,11 @@ Confidentialité
 Pas de compte : tous vos enregistrements restent uniquement sur ce Mac.
 
 Nécessite macOS 14 ou ultérieur.
+
+Abonnements
+Les abonnements LectureQ Plus et Pro sont à renouvellement automatique. Le paiement est débité sur votre compte Apple, et l’abonnement est reconduit sauf résiliation au moins 24 heures avant la fin de la période en cours. Gérez-le ou résiliez-le à tout moment dans Réglages.
+Conditions d’utilisation (EULA) : https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
+Politique de confidentialité : https://m1zz.github.io/LectureQ/fr/privacy.html
 
 ### 지원 URL
 
@@ -717,6 +767,11 @@ Non ci sono account e tutte le registrazioni restano soltanto su questo Mac.
 
 Richiede macOS 14 o successivo.
 
+Abbonamenti
+Gli abbonamenti LectureQ Plus e Pro si rinnovano automaticamente. Il pagamento viene addebitato sul tuo Account Apple e l’abbonamento si rinnova se non lo disdici almeno 24 ore prima della fine del periodo. Puoi gestirlo o disdirlo in qualsiasi momento in Impostazioni.
+Condizioni d’uso (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
+Informativa sulla privacy: https://m1zz.github.io/LectureQ/it/privacy.html
+
 ### 지원 URL
 
 https://m1zz.github.io/LectureQ/it/support.html
@@ -782,6 +837,11 @@ Privacidade
 Não há contas, e todos os registros ficam guardados apenas neste Mac.
 
 Requer macOS 14 ou posterior.
+
+Assinaturas
+As assinaturas LectureQ Plus e Pro são renovadas automaticamente. A cobrança é feita na sua Conta Apple, e a assinatura é renovada a menos que você cancele pelo menos 24 horas antes do fim do período. Gerencie ou cancele quando quiser em Ajustes.
+Termos de Uso (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
+Política de Privacidade: https://m1zz.github.io/LectureQ/pt-BR/privacy.html
 
 ### 지원 URL
 
@@ -849,6 +909,11 @@ LectureQ: จดคำถามในคลาส
 
 ใช้ได้กับ macOS 14 ขึ้นไป
 
+การสมัครสมาชิก
+LectureQ Plus และ Pro เป็นการสมัครสมาชิกที่ต่ออายุอัตโนมัติ ระบบจะเรียกเก็บเงินจากบัญชี Apple ของคุณและต่ออายุให้ เว้นแต่จะยกเลิกอย่างน้อย 24 ชั่วโมงก่อนสิ้นสุดรอบ จัดการหรือยกเลิกได้ทุกเมื่อในการตั้งค่า
+ข้อกำหนดการใช้งาน (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
+นโยบายความเป็นส่วนตัว: https://m1zz.github.io/LectureQ/th/privacy.html
+
 ### 지원 URL
 
 https://m1zz.github.io/LectureQ/th/support.html
@@ -914,6 +979,11 @@ Quyền riêng tư
 Không cần tài khoản, và mọi ghi chép chỉ được lưu trên máy Mac này.
 
 Cần macOS 14 trở lên.
+
+Gói đăng ký
+LectureQ Plus và Pro là các gói đăng ký tự động gia hạn. Phí được tính vào Tài khoản Apple của bạn và gói sẽ tự gia hạn trừ khi bạn hủy ít nhất 24 giờ trước khi kỳ hạn kết thúc. Bạn có thể quản lý hoặc hủy bất cứ lúc nào trong Cài đặt.
+Điều khoản sử dụng (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
+Chính sách quyền riêng tư: https://m1zz.github.io/LectureQ/vi/privacy.html
 
 ### 지원 URL
 
@@ -981,6 +1051,11 @@ Soukromí
 
 Vyžaduje macOS 14 nebo novější.
 
+Předplatné
+LectureQ Plus a Pro jsou automaticky obnovovaná předplatná. Platba se strhává z vašeho Apple účtu a předplatné se obnoví, pokud ho nezrušíte alespoň 24 hodin před koncem období. Spravovat nebo zrušit ho můžete kdykoli v Nastavení.
+Podmínky použití (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
+Zásady ochrany osobních údajů: https://m1zz.github.io/LectureQ/cs/privacy.html
+
 ### 지원 URL
 
 https://m1zz.github.io/LectureQ/cs/support.html
@@ -1046,6 +1121,11 @@ Privatliv
 Der er ingen konti, og alle optegnelser gemmes kun på denne Mac.
 
 Kræver macOS 14 eller nyere.
+
+Abonnementer
+LectureQ Plus og Pro er abonnementer, der fornyes automatisk. Betalingen trækkes på din Apple-konto, og abonnementet fornyes, medmindre du opsiger det mindst 24 timer før perioden slutter. Administrer eller opsig når som helst i Indstillinger.
+Brugsvilkår (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
+Privatlivspolitik: https://m1zz.github.io/LectureQ/da/privacy.html
 
 ### 지원 URL
 
@@ -1113,6 +1193,11 @@ LectureQ: Ερωτήσεις μαθημάτων
 
 Απαιτεί macOS 14 ή νεότερο.
 
+Συνδρομές
+Τα LectureQ Plus και Pro είναι συνδρομές με αυτόματη ανανέωση. Η χρέωση γίνεται στον λογαριασμό Apple σου και η συνδρομή ανανεώνεται, εκτός αν την ακυρώσεις τουλάχιστον 24 ώρες πριν λήξει η περίοδος. Διαχειρίσου ή ακύρωσε τη συνδρομή οποτεδήποτε από τις Ρυθμίσεις.
+Όροι χρήσης (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
+Πολιτική απορρήτου: https://m1zz.github.io/LectureQ/el/privacy.html
+
 ### 지원 URL
 
 https://m1zz.github.io/LectureQ/el/support.html
@@ -1178,6 +1263,11 @@ Yksityisyys
 Tilejä ei ole, ja kaikki tallenteet säilyvät vain tällä Macilla.
 
 Vaatii macOS 14:n tai uudemman.
+
+Tilaukset
+LectureQ Plus ja Pro ovat automaattisesti uusiutuvia tilauksia. Maksu veloitetaan Apple-tililtäsi, ja tilaus uusiutuu, ellei sitä peruta vähintään 24 tuntia ennen jakson päättymistä. Hallitse tai peru tilaus milloin tahansa Asetuksissa.
+Käyttöehdot (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
+Tietosuojakäytäntö: https://m1zz.github.io/LectureQ/fi/privacy.html
 
 ### 지원 URL
 
@@ -1245,6 +1335,11 @@ Tidak ada akun, dan semua catatan hanya tersimpan di Mac ini.
 
 Membutuhkan macOS 14 atau lebih baru.
 
+Langganan
+LectureQ Plus dan Pro adalah langganan yang diperpanjang otomatis. Pembayaran ditagihkan ke Akun Apple Anda dan langganan diperpanjang kecuali dibatalkan paling lambat 24 jam sebelum periode berakhir. Kelola atau batalkan kapan saja di Pengaturan.
+Ketentuan Penggunaan (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
+Kebijakan Privasi: https://m1zz.github.io/LectureQ/id/privacy.html
+
 ### 지원 URL
 
 https://m1zz.github.io/LectureQ/id/support.html
@@ -1310,6 +1405,11 @@ Personvern
 Det finnes ingen kontoer, og alle opptak lagres bare på denne Macen.
 
 Krever macOS 14 eller nyere.
+
+Abonnementer
+LectureQ Plus og Pro er abonnementer som fornyes automatisk. Betalingen belastes Apple-kontoen din, og abonnementet fornyes med mindre du sier det opp minst 24 timer før perioden er over. Administrer eller si opp når som helst i Innstillinger.
+Bruksvilkår (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
+Personvernerklæring: https://m1zz.github.io/LectureQ/nb/privacy.html
 
 ### 지원 URL
 
@@ -1377,6 +1477,11 @@ Er zijn geen accounts en alle opnamen blijven alleen op deze Mac.
 
 Vereist macOS 14 of nieuwer.
 
+Abonnementen
+LectureQ Plus en Pro zijn automatisch verlengende abonnementen. De betaling loopt via je Apple Account en het abonnement wordt verlengd, tenzij je minstens 24 uur voor het einde van de periode opzegt. Beheer of zeg op wanneer je wilt in Instellingen.
+Gebruiksvoorwaarden (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
+Privacybeleid: https://m1zz.github.io/LectureQ/nl/privacy.html
+
 ### 지원 URL
 
 https://m1zz.github.io/LectureQ/nl/support.html
@@ -1442,6 +1547,11 @@ Prywatność
 Nie ma kont, a wszystkie zapisy są przechowywane tylko na tym Macu.
 
 Wymaga macOS 14 lub nowszego.
+
+Subskrypcje
+LectureQ Plus i Pro to subskrypcje odnawiane automatycznie. Opłata jest pobierana z Twojego konta Apple, a subskrypcja odnawia się, jeśli nie anulujesz jej co najmniej 24 godziny przed końcem okresu. Zarządzaj subskrypcją lub anuluj ją w dowolnej chwili w Ustawieniach.
+Warunki korzystania (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
+Polityka prywatności: https://m1zz.github.io/LectureQ/pl/privacy.html
 
 ### 지원 URL
 
@@ -1509,6 +1619,11 @@ Det finns inga konton, och alla uppgifter sparas bara på den här Macen.
 
 Kräver macOS 14 eller senare.
 
+Prenumerationer
+LectureQ Plus och Pro är prenumerationer som förnyas automatiskt. Betalningen dras från ditt Apple-konto och prenumerationen förnyas om du inte avslutar den minst 24 timmar innan perioden slutar. Hantera eller avsluta när som helst i Inställningar.
+Användarvillkor (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
+Integritetspolicy: https://m1zz.github.io/LectureQ/sv/privacy.html
+
 ### 지원 URL
 
 https://m1zz.github.io/LectureQ/sv/support.html
@@ -1574,6 +1689,11 @@ Gizlilik
 Hesap yoktur ve tüm kayıtlar yalnızca bu Mac’te saklanır.
 
 macOS 14 veya üstünü gerektirir.
+
+Abonelikler
+LectureQ Plus ve Pro otomatik yenilenen aboneliklerdir. Ödeme Apple Hesabınızdan alınır ve dönem bitmeden en az 24 saat önce iptal edilmezse abonelik yenilenir. Ayarlar'dan istediğiniz zaman yönetebilir veya iptal edebilirsiniz.
+Kullanım Koşulları (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
+Gizlilik Politikası: https://m1zz.github.io/LectureQ/tr/privacy.html
 
 ### 지원 URL
 
