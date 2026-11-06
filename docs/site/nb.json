@@ -1,6 +1,6 @@
 {
   "title": "LectureQ: fang spørsmålene som dukker opp i forelesningen, for Mac",
-  "description": "Skriv ned et spørsmål med én snarvei mens forelesningen fortsetter. Det står ved notatene dine fra akkurat da, til du har svaret. Alt er gratis.",
+  "description": "Skriv ned et spørsmål med én snarvei mens forelesningen fortsetter. Det står ved notatene dine fra akkurat da, til du har svaret. Gratis for opptil 10 forelesninger.",
   "hero": {
     "headline": "Ikke la et spørsmål fra\nforelesningen gli forbi",
     "lead": "Trykk `⌘⇧N`, skriv én linje, så havner spørsmålet ved siden av notatene dine fra akkurat det minuttet. Du hører videre og finner svaret senere.",
@@ -154,24 +154,22 @@
     "note": "Alle finnes også i Visning-menyen."
   },
   "pricing": {
-    "title": "Alle funksjoner er gratis",
+    "title": "Gratis for opptil 10 forelesninger",
     "free": {
       "name": "Gratis",
       "items": [
-        "Raske spørsmål og notater per tidsblokk",
-        "Oppfølgingsspørsmål og graf",
-        "Oppsummering, tidsblokkoversikt og Læringsstatus",
-        "KI-prompter i fem steg, kopiert til utklippstavlen",
-        "Import av samtaler fra Markdown"
+        "Opptil 10 forelesninger, med ubegrenset antall spørsmål og oppfølgingsspørsmål",
+        "Raske spørsmål, notater per tidsblokk og forelesningsoppsummering",
+        "KI-prompter i to steg: puss spørsmålet og finn svaret"
       ]
     },
     "pro": {
-      "name": "Støtt utvikleren",
+      "name": "Plus · Pro",
       "items": [
-        "Send et lite tips fra Innstillinger hvis appen hjelper deg",
-        "Et tips låser ikke opp noe ekstra"
+        "Plus: ubegrenset antall forelesninger, alle fem stegene i KI-promptene og Læringsstatus",
+        "Pro: alt i Plus, i tillegg til spørsmålsgraf, oversikt over alle tidsblokker, Markdown-import og spørsmål via Snarveier og Siri"
       ],
-      "note": "Alt fungerer likt, med eller uten tips."
+      "note": "Velg ukentlig, månedlig eller årlig abonnement, eller betal én gang for alltid. Tips fra Innstillinger er noe annet og låser ikke opp noe."
     },
     "note": "Ingen reklame, ingen konto. Notatene dine blir på denne Macen."
   },

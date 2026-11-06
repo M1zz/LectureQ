@@ -1,6 +1,6 @@
 {
   "title": "LectureQ: tallenna luennolla heräävät kysymykset, Macille",
-  "description": "Kirjaa kysymys pikanäppäimellä kesken luennon. Se pysyy sen hetken muistiinpanojesi vieressä, kunnes löydät vastauksen. Kaikki on ilmaista.",
+  "description": "Kirjaa kysymys pikanäppäimellä kesken luennon. Se pysyy sen hetken muistiinpanojesi vieressä, kunnes löydät vastauksen. Ilmainen 10 luentoon asti.",
   "hero": {
     "headline": "Älä anna luennolla heränneen\nkysymyksen karata",
     "lead": "Paina `⌘⇧N`, kirjoita rivi, ja kysymys tallentuu juuri sen minuutin muistiinpanojesi viereen. Kuuntelet eteenpäin ja etsit vastauksen myöhemmin.",
@@ -154,24 +154,22 @@
     "note": "Löydät ne kaikki myös Näytä-valikosta."
   },
   "pricing": {
-    "title": "Kaikki ominaisuudet ovat ilmaisia",
+    "title": "Ilmainen 10 luentoon asti",
     "free": {
       "name": "Ilmainen",
       "items": [
-        "Pikakysymykset ja aikalohkojen muistiinpanot",
-        "Jatkokysymykset ja kaavio",
-        "Yhteenveto, aikalohkojen kokonaiskuva ja Oppimistilanne",
-        "Viisivaiheiset tekoälykehotteet leikepöydälle",
-        "Keskustelujen tuonti Markdownista"
+        "Enintään 10 luentoa, kysymyksiä ja jatkokysymyksiä rajattomasti",
+        "Pikakysymykset, aikalohkojen muistiinpanot ja luennon yhteenveto",
+        "Kaksi tekoälykehotteiden vaihetta: tarkenna kysymystä ja etsi vastaus"
       ]
     },
     "pro": {
-      "name": "Tue kehittäjää",
+      "name": "Plus · Pro",
       "items": [
-        "Lähetä pieni tippi asetuksista, jos sovellus auttaa sinua",
-        "Tippi ei avaa mitään lisää"
+        "Plus: rajattomasti luentoja, kaikki viisi tekoälykehotteiden vaihetta ja Oppimistilanne",
+        "Pro: kaikki Plussan ominaisuudet sekä kysymyskaavio, kaikkien aikalohkojen näkymä, Markdown-tuonti ja kysymysten lisäys Pikakomennoilla ja Sirillä"
       ],
-      "note": "Kaikki toimii samoin, annoit tipin tai et."
+      "note": "Valitse viikko-, kuukausi- tai vuositilaus tai kertamaksu, joka on voimassa pysyvästi. Asetuksista annettu tippi on erillinen eikä avaa mitään."
     },
     "note": "Ei mainoksia, ei tiliä. Muistiinpanosi pysyvät tällä Macilla."
   },

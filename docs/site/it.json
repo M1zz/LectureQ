@@ -1,6 +1,6 @@
 {
   "title": "LectureQ: annota i dubbi che nascono a lezione, per Mac",
-  "description": "Annota una domanda con una scorciatoia senza perdere la lezione. Resta accanto agli appunti di quel momento finché non trovi la risposta. Gratis.",
+  "description": "Annota una domanda con una scorciatoia senza perdere la lezione. Resta accanto agli appunti di quel momento finché non trovi la risposta. Gratis fino a 10 lezioni.",
   "hero": {
     "headline": "Nessun dubbio della lezione\nandrà più perso",
     "lead": "Premi `⌘⇧N`, scrivi una riga e la domanda finisce accanto ai tuoi appunti di quel preciso minuto. Continui ad ascoltare e cerchi la risposta dopo.",
@@ -154,24 +154,22 @@
     "note": "Le trovi tutte anche nel menu Vista."
   },
   "pricing": {
-    "title": "Tutte le funzioni sono gratis",
+    "title": "Gratis fino a 10 lezioni",
     "free": {
       "name": "Gratis",
       "items": [
-        "Domande rapide e appunti per blocchi orari",
-        "Domande di approfondimento e grafo",
-        "Riepilogo, vista dei blocchi e Stato di apprendimento",
-        "Prompt IA in cinque passi, copiati negli appunti",
-        "Importazione di conversazioni in Markdown"
+        "Fino a 10 lezioni, con domande e domande di approfondimento senza limiti",
+        "Domande rapide, appunti per blocchi orari e riepilogo della lezione",
+        "Prompt IA in due passi: affinare la domanda e trovare la risposta"
       ]
     },
     "pro": {
-      "name": "Sostieni lo sviluppatore",
+      "name": "Plus · Pro",
       "items": [
-        "Se l'app ti è utile, lascia una piccola mancia da Impostazioni",
-        "La mancia non sblocca niente in più"
+        "Plus: lezioni senza limiti, tutti e cinque i passi dei prompt IA e Stato di apprendimento",
+        "Pro: tutto Plus, più il grafo delle domande, la vista di tutti i blocchi orari, l'importazione da Markdown e l'aggiunta di domande con Comandi Rapidi e Siri"
       ],
-      "note": "Con o senza mancia, tutto funziona allo stesso modo."
+      "note": "Scegli un abbonamento settimanale, mensile o annuale, oppure un pagamento unico a vita. Le mance da Impostazioni sono a parte e non sbloccano nulla."
     },
     "note": "Niente pubblicità, niente account. I tuoi appunti restano su questo Mac."
   },

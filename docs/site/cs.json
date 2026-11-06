@@ -1,6 +1,6 @@
 {
   "title": "LectureQ: zapisujte otázky, které vás napadnou na přednášce, pro Mac",
-  "description": "Zapište otázku jednou zkratkou a přednáška běží dál. Zůstane u poznámek z té chvíle, dokud nenajdete odpověď. Všechny funkce jsou zdarma.",
+  "description": "Zapište otázku jednou zkratkou a přednáška běží dál. Zůstane u poznámek z té chvíle, dokud nenajdete odpověď. Až 10 přednášek zdarma.",
   "hero": {
     "headline": "Už vám neuteče žádná\notázka z přednášky",
     "lead": "Stiskněte `⌘⇧N`, napište jeden řádek a otázka se uloží vedle poznámek z té přesné minuty. Posloucháte dál a odpověď hledáte později.",
@@ -154,24 +154,22 @@
     "note": "Všechny najdete i v nabídce Zobrazení."
   },
   "pricing": {
-    "title": "Všechny funkce jsou zdarma",
+    "title": "Až 10 přednášek zdarma",
     "free": {
       "name": "Zdarma",
       "items": [
-        "Rychlé otázky a poznámky v časových blocích",
-        "Doplňující otázky a graf",
-        "Souhrn, přehled bloků a Stav učení",
-        "Prompty pro AI v pěti krocích, zkopírované do schránky",
-        "Import rozhovorů z Markdownu"
+        "Až 10 přednášek, otázky a doplňující otázky bez omezení",
+        "Rychlé otázky, poznámky v časových blocích a souhrn přednášky",
+        "Prompty pro AI ve dvou krocích: vylepšit otázku a najít odpověď"
       ]
     },
     "pro": {
-      "name": "Podpořte vývojáře",
+      "name": "Plus · Pro",
       "items": [
-        "Pokud vám aplikace pomáhá, pošlete malé spropitné z Nastavení",
-        "Spropitné nic dalšího neodemyká"
+        "Plus: neomezený počet přednášek, všech pět kroků promptů pro AI a Stav učení",
+        "Pro: vše z Plus a k tomu graf otázek, přehled všech časových bloků, import z Markdownu a přidávání otázek přes Zkratky a Siri"
       ],
-      "note": "Se spropitným i bez něj funguje všechno stejně."
+      "note": "Vyberte si týdenní, měsíční nebo roční předplatné, nebo jednorázovou doživotní platbu. Spropitné v Nastavení je zvlášť a nic neodemyká."
     },
     "note": "Žádné reklamy ani účet. Vaše poznámky zůstávají na tomto Macu."
   },

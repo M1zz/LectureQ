@@ -1,6 +1,6 @@
 {
   "title": "LectureQ: anote as dúvidas que surgem na aula, para Mac",
-  "description": "Anote uma pergunta com um atalho sem parar de prestar atenção. Ela fica ao lado das suas anotações daquele momento até você responder. Tudo grátis.",
+  "description": "Anote uma pergunta com um atalho sem parar de prestar atenção. Ela fica ao lado das suas anotações daquele momento até você responder. Grátis para até 10 aulas.",
   "hero": {
     "headline": "Nenhuma dúvida da aula\nvai se perder",
     "lead": "Aperte `⌘⇧N`, digite uma linha e a pergunta fica ao lado das suas anotações daquele exato minuto. Você continua ouvindo e busca a resposta depois.",
@@ -154,24 +154,22 @@
     "note": "Todos também estão no menu Visualização."
   },
   "pricing": {
-    "title": "Todos os recursos são grátis",
+    "title": "Grátis para até 10 aulas",
     "free": {
       "name": "Grátis",
       "items": [
-        "Perguntas rápidas e anotações por bloco de tempo",
-        "Perguntas de acompanhamento e grafo",
-        "Resumo, visão dos blocos e Estado de aprendizado",
-        "Prompts de IA em cinco etapas, copiados para a área de transferência",
-        "Importação de conversas em Markdown"
+        "Até 10 aulas, com perguntas e perguntas de acompanhamento sem limite",
+        "Perguntas rápidas, anotações por bloco de tempo e resumo da aula",
+        "Prompts de IA em duas etapas: lapidar a pergunta e buscar a resposta"
       ]
     },
     "pro": {
-      "name": "Apoie o desenvolvedor",
+      "name": "Plus · Pro",
       "items": [
-        "Se o app te ajuda, mande uma gorjeta pequena pelos Ajustes",
-        "A gorjeta não libera nada a mais"
+        "Plus: aulas sem limite, as cinco etapas dos prompts de IA e Estado de aprendizado",
+        "Pro: tudo do Plus, mais o grafo de perguntas, a visão de todos os blocos de tempo, a importação de Markdown e adicionar perguntas com Atalhos e Siri"
       ],
-      "note": "Com ou sem gorjeta, tudo funciona igual."
+      "note": "Escolha uma assinatura semanal, mensal ou anual, ou pague uma vez só e use para sempre. Gorjetas pelos Ajustes são à parte e não liberam nada."
     },
     "note": "Sem anúncios e sem conta. Suas anotações ficam neste Mac."
   },

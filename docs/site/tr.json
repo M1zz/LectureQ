@@ -1,6 +1,6 @@
 {
   "title": "LectureQ: ders sırasında aklına gelen soruları yakala, Mac için",
-  "description": "Ders devam ederken bir kısayolla soruyu not al. O anki notlarının yanında, cevabını bulana kadar durur. Tüm özellikler ücretsiz.",
+  "description": "Ders devam ederken bir kısayolla soruyu not al. O anki notlarının yanında, cevabını bulana kadar durur. 10 derse kadar ücretsiz.",
   "hero": {
     "headline": "Dersteki hiçbir soru\nartık aklından uçmasın",
     "lead": "`⌘⇧N` tuşuna bas, bir satır yaz; soru tam o dakikanın notlarının yanına düşer. Sen dinlemeye devam edersin, cevabı sonra bulursun.",
@@ -154,24 +154,22 @@
     "note": "Hepsi Görünüm menüsünde de var."
   },
   "pricing": {
-    "title": "Tüm özellikler ücretsiz",
+    "title": "10 derse kadar ücretsiz",
     "free": {
       "name": "Ücretsiz",
       "items": [
-        "Hızlı soru ve zaman bloğu notları",
-        "Devam soruları ve grafik",
-        "Özet, zaman blokları görünümü ve Öğrenme Durumu",
-        "Beş adımlı yapay zekâ istemleri, panoya kopyalanır",
-        "Markdown'dan sohbet içe aktarma"
+        "10 derse kadar, sorular ve devam soruları sınırsız",
+        "Hızlı soru, zaman bloğu notları ve ders özeti",
+        "İki adımlı yapay zekâ istemleri: soruyu netleştir ve cevabı bul"
       ]
     },
     "pro": {
-      "name": "Geliştiriciye destek ol",
+      "name": "Plus · Pro",
       "items": [
-        "Uygulama işine yarıyorsa Ayarlar'dan küçük bir bahşiş gönder",
-        "Bahşiş ekstra bir şeyin kilidini açmaz"
+        "Plus: sınırsız ders, yapay zekâ istemlerinin beş adımının tamamı ve Öğrenme Durumu",
+        "Pro: Plus'taki her şeye ek olarak soru grafiği, tüm zaman blokları görünümü, Markdown içe aktarma ile Kestirmeler ve Siri'yle soru ekleme"
       ],
-      "note": "Bahşiş versen de vermesen de her şey aynı çalışır."
+      "note": "Haftalık, aylık ya da yıllık abonelik ya da tek seferlik ömür boyu satın alma arasından seç. Ayarlar'dan gönderilen bahşiş ayrıdır ve hiçbir şeyin kilidini açmaz."
     },
     "note": "Reklam yok, hesap yok. Notların bu Mac'te kalır."
   },

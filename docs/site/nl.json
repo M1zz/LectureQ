@@ -1,6 +1,6 @@
 {
   "title": "LectureQ: leg vragen vast die tijdens college opkomen, voor de Mac",
-  "description": "Leg een vraag vast met één sneltoets tijdens het college. Hij staat naast je notities van dat moment tot je het antwoord hebt. Alles is gratis.",
+  "description": "Leg een vraag vast met één sneltoets tijdens het college. Hij staat naast je notities van dat moment tot je het antwoord hebt. Gratis voor maximaal 10 colleges.",
   "hero": {
     "headline": "Laat geen collegevraag\nmeer ontsnappen",
     "lead": "Druk op `⌘⇧N`, typ één regel en de vraag staat naast je notities van precies die minuut. Jij blijft luisteren en zoekt het antwoord later.",
@@ -154,24 +154,22 @@
     "note": "Je vindt ze ook allemaal in het menu Weergave."
   },
   "pricing": {
-    "title": "Alle functies zijn gratis",
+    "title": "Gratis voor maximaal 10 colleges",
     "free": {
       "name": "Gratis",
       "items": [
-        "Snel vragen vastleggen en notities per tijdblok",
-        "Vervolgvragen en grafiek",
-        "Samenvatting, overzicht van tijdblokken en Leerstatus",
-        "AI-prompts in vijf stappen, gekopieerd naar het klembord",
-        "Gesprekken importeren uit Markdown"
+        "Tot 10 colleges, met onbeperkt vragen en vervolgvragen",
+        "Snel vragen vastleggen, notities per tijdblok en collegesamenvatting",
+        "AI-prompts in twee stappen: vraag aanscherpen en antwoord zoeken"
       ]
     },
     "pro": {
-      "name": "Steun de ontwikkelaar",
+      "name": "Plus · Pro",
       "items": [
-        "Stuur via Instellingen een kleine fooi als de app je helpt",
-        "Een fooi ontgrendelt niets extra"
+        "Plus: onbeperkt colleges, alle vijf stappen van de AI-prompts en Leerstatus",
+        "Pro: alles van Plus, met daarbij de vragengrafiek, het overzicht van alle tijdblokken, Markdown-import en vragen toevoegen met Opdrachten en Siri"
       ],
-      "note": "Met of zonder fooi werkt alles precies hetzelfde."
+      "note": "Kies een abonnement per week, maand of jaar, of betaal eenmalig voor altijd. Een fooi via Instellingen staat daar los van en ontgrendelt niets."
     },
     "note": "Geen advertenties, geen account. Je notities blijven op deze Mac."
   },

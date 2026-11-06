@@ -1,6 +1,6 @@
 {
   "title": "LectureQ : notez les questions qui surgissent en plein cours, sur Mac",
-  "description": "Notez une question d'un raccourci sans décrocher du cours. Elle reste près de vos notes de ce moment jusqu'à ce que vous ayez la réponse. Gratuit.",
+  "description": "Notez une question d'un raccourci sans décrocher du cours. Elle reste près de vos notes de ce moment jusqu'à ce que vous ayez la réponse. Gratuit jusqu'à 10 cours.",
   "hero": {
     "headline": "Ne laissez plus filer\nles questions du cours",
     "lead": "Appuyez sur `⌘⇧N`, tapez une ligne : la question s'ajoute à côté de vos notes de cette minute précise. Vous continuez d'écouter et vous cherchez la réponse plus tard.",
@@ -154,24 +154,22 @@
     "note": "Vous les retrouvez tous dans le menu Présentation."
   },
   "pricing": {
-    "title": "Toutes les fonctions sont gratuites",
+    "title": "Gratuit jusqu'à 10 cours",
     "free": {
       "name": "Gratuit",
       "items": [
-        "Saisie rapide et notes par bloc horaire",
-        "Questions de suivi et graphe",
-        "Résumé, vue des blocs horaires et État d’apprentissage",
-        "Prompts IA en cinq étapes, copiés dans le presse-papiers",
-        "Import de conversations Markdown"
+        "Jusqu'à 10 cours, questions et questions de suivi illimitées",
+        "Saisie rapide, notes par bloc horaire et résumé du cours",
+        "Prompts IA en deux étapes : affiner la question et trouver la réponse"
       ]
     },
     "pro": {
-      "name": "Soutenir le développeur",
+      "name": "Plus · Pro",
       "items": [
-        "Envoyez un petit pourboire depuis les Réglages si l'app vous rend service",
-        "Un pourboire ne débloque rien de plus"
+        "Plus : cours illimités, les cinq étapes des prompts IA et l’État d’apprentissage",
+        "Pro : tout Plus, avec en plus le graphe des questions, la vue de tous les blocs horaires, l'import Markdown et l'ajout de questions via Raccourcis et Siri"
       ],
-      "note": "Avec ou sans pourboire, tout fonctionne pareil."
+      "note": "Choisissez un abonnement hebdomadaire, mensuel ou annuel, ou un achat unique à vie. Les pourboires depuis les Réglages sont à part et ne débloquent rien."
     },
     "note": "Ni publicité ni compte. Vos notes restent sur ce Mac."
   },

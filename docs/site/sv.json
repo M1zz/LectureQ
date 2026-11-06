@@ -1,6 +1,6 @@
 {
   "title": "LectureQ: fånga frågorna som dyker upp under föreläsningen, för Mac",
-  "description": "Skriv ner en fråga med ett kortkommando mitt i föreläsningen. Den hamnar bredvid anteckningarna från just då tills du har svaret. Allt är gratis.",
+  "description": "Skriv ner en fråga med ett kortkommando mitt i föreläsningen. Den hamnar bredvid anteckningarna från just då tills du har svaret. Gratis för upp till 10 föreläsningar.",
   "hero": {
     "headline": "Låt ingen fråga från\nföreläsningen glida förbi",
     "lead": "Tryck `⌘⇧N`, skriv en rad, så hamnar frågan bredvid dina anteckningar från just den minuten. Du lyssnar vidare och letar svar senare.",
@@ -154,24 +154,22 @@
     "note": "Alla finns också i menyn Visa."
   },
   "pricing": {
-    "title": "Alla funktioner är gratis",
+    "title": "Gratis för upp till 10 föreläsningar",
     "free": {
       "name": "Gratis",
       "items": [
-        "Snabba frågor och anteckningar per tidsblock",
-        "Följdfrågor och graf",
-        "Sammanfattning, tidsblocksöversikt och Inlärningsstatus",
-        "AI-promptar i fem steg, kopierade till urklipp",
-        "Importera samtal från Markdown"
+        "Upp till 10 föreläsningar, med obegränsat antal frågor och följdfrågor",
+        "Snabba frågor, anteckningar per tidsblock och föreläsningssammanfattning",
+        "AI-promptar i två steg: finslipa frågan och hitta svaret"
       ]
     },
     "pro": {
-      "name": "Stöd utvecklaren",
+      "name": "Plus · Pro",
       "items": [
-        "Skicka en liten dricks från Inställningar om appen hjälper dig",
-        "Dricks låser inte upp något extra"
+        "Plus: obegränsat antal föreläsningar, alla fem stegen i AI-promptarna och Inlärningsstatus",
+        "Pro: allt i Plus, och dessutom frågegraf, översikt över alla tidsblock, Markdown-import och frågor via Genvägar och Siri"
       ],
-      "note": "Allt fungerar likadant med eller utan dricks."
+      "note": "Välj vecko-, månads- eller årsprenumeration, eller betala en gång för alltid. Dricks från Inställningar är en annan sak och låser inte upp något."
     },
     "note": "Ingen reklam, inget konto. Dina anteckningar stannar på den här Macen."
   },

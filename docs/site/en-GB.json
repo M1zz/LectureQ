@@ -1,6 +1,6 @@
 {
   "title": "LectureQ: catch the questions you have mid-lecture, for Mac",
-  "description": "Jot down a question with one shortcut mid-lecture. It sits beside your notes from that moment until you've answered it. Every feature is free.",
+  "description": "Jot down a question with one shortcut mid-lecture. It sits beside your notes from that moment until you've answered it. Free for up to 10 lectures.",
   "hero": {
     "headline": "Don't let a mid-lecture\nquestion slip away",
     "lead": "Press `⌘⇧N`, type one line, and the question lands beside your notes from that minute. Keep listening. Find the answer later.",
@@ -154,24 +154,22 @@
     "note": "You'll find all of these in the View menu as well."
   },
   "pricing": {
-    "title": "Every feature is free",
+    "title": "Free for up to 10 lectures",
     "free": {
       "name": "Free",
       "items": [
-        "Quick capture and time block notes",
-        "Follow-up questions and the graph",
-        "Summary, time block overview and Learning Status",
-        "Five-step AI prompts, copied to the clipboard",
-        "Import conversations from Markdown"
+        "Up to 10 lectures, with unlimited questions and follow-ups",
+        "Quick capture, time block notes and the lecture summary",
+        "Two AI prompt steps: refine the question and find the answer"
       ]
     },
     "pro": {
-      "name": "Tip the developer",
+      "name": "Plus · Pro",
       "items": [
-        "Send a small tip from Settings if the app helps you",
-        "A tip doesn't unlock anything extra"
+        "Plus: unlimited lectures, all five AI prompt steps and Learning Status",
+        "Pro: all of Plus, along with the question graph, the time block overview, Markdown import and adding questions with Shortcuts & Siri"
       ],
-      "note": "Everything works the same whether you tip or not."
+      "note": "Choose a weekly, monthly or yearly subscription, or pay once for lifetime. Tips from Settings are separate and unlock nothing."
     },
     "note": "No adverts, no account. Your notes stay on this Mac."
   },

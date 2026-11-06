@@ -1,6 +1,6 @@
 {
   "title": "LectureQ: Fragen aus der Vorlesung festhalten, für den Mac",
-  "description": "Halte eine Frage per Kurzbefehl fest, ohne die Vorlesung zu verpassen. Sie bleibt bei deinen Notizen aus dem Moment, bis sie geklärt ist. Kostenlos.",
+  "description": "Halte eine Frage per Kurzbefehl fest, ohne die Vorlesung zu verpassen. Sie bleibt bei deinen Notizen aus dem Moment, bis sie geklärt ist. Bis zu 10 Vorlesungen kostenlos.",
   "hero": {
     "headline": "Keine Frage aus der Vorlesung\ngeht mehr verloren",
     "lead": "`⌘⇧N` drücken, eine Zeile tippen, und die Frage steht neben deinen Notizen genau aus dieser Minute. Du hörst weiter zu und klärst sie später.",
@@ -154,24 +154,22 @@
     "note": "Alle Befehle findest du auch im Menü „Darstellung“."
   },
   "pricing": {
-    "title": "Alle Funktionen sind kostenlos",
+    "title": "Bis zu 10 Vorlesungen kostenlos",
     "free": {
       "name": "Kostenlos",
       "items": [
-        "Schnelle Fragen und Zeitblock-Notizen",
-        "Folgefragen und Graph",
-        "Übersicht, Zeitblöcke und Lernstand",
-        "KI-Prompts in fünf Schritten, in die Zwischenablage kopiert",
-        "Gespräche aus Markdown importieren"
+        "Bis zu 10 Vorlesungen, Fragen und Folgefragen unbegrenzt",
+        "Schnelle Fragen, Zeitblock-Notizen und Vorlesungsübersicht",
+        "KI-Prompts in zwei Schritten: Frage schärfen und Antwort finden"
       ]
     },
     "pro": {
-      "name": "Entwickler unterstützen",
+      "name": "Plus · Pro",
       "items": [
-        "Bei Gefallen ein kleines Trinkgeld in den Einstellungen geben",
-        "Ein Trinkgeld schaltet nichts zusätzlich frei"
+        "Plus: unbegrenzt viele Vorlesungen, alle fünf KI-Prompt-Schritte und Lernstand",
+        "Pro: alles aus Plus, dazu Fragen-Graph, alle Zeitblöcke im Überblick, Markdown-Import und Fragen per Kurzbefehle & Siri"
       ],
-      "note": "Mit oder ohne Trinkgeld funktioniert alles gleich."
+      "note": "Wähle ein wöchentliches, monatliches oder jährliches Abo oder zahle einmal für immer. Trinkgeld in den Einstellungen ist davon getrennt und schaltet nichts frei."
     },
     "note": "Keine Werbung, kein Konto. Deine Notizen bleiben auf diesem Mac."
   },

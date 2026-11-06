@@ -1,6 +1,6 @@
 {
   "title": "LectureQ: fang de spørgsmål, der dukker op til forelæsningen, til Mac",
-  "description": "Skriv et spørgsmål ned med én genvej midt i forelæsningen. Det står ved dine noter fra det øjeblik, til du har svaret. Alt er gratis.",
+  "description": "Skriv et spørgsmål ned med én genvej midt i forelæsningen. Det står ved dine noter fra det øjeblik, til du har svaret. Gratis op til 10 forelæsninger.",
   "hero": {
     "headline": "Lad ikke et spørgsmål fra\nforelæsningen smutte",
     "lead": "Tryk `⌘⇧N`, skriv en linje, og spørgsmålet lander ved siden af dine noter fra præcis det minut. Du lytter videre og finder svaret senere.",
@@ -154,24 +154,22 @@
     "note": "Du finder dem alle i menuen Vis."
   },
   "pricing": {
-    "title": "Alle funktioner er gratis",
+    "title": "Gratis op til 10 forelæsninger",
     "free": {
       "name": "Gratis",
       "items": [
-        "Hurtige spørgsmål og noter pr. tidsblok",
-        "Opfølgende spørgsmål og graf",
-        "Oversigt, tidsblokoverblik og Læringsstatus",
-        "AI-prompter i fem trin, kopieret til udklipsholderen",
-        "Import af samtaler fra Markdown"
+        "Op til 10 forelæsninger med ubegrænset antal spørgsmål og opfølgende spørgsmål",
+        "Hurtige spørgsmål, noter pr. tidsblok og forelæsningsoversigt",
+        "AI-prompter i to trin: finpuds spørgsmålet og find svaret"
       ]
     },
     "pro": {
-      "name": "Støt udvikleren",
+      "name": "Plus · Pro",
       "items": [
-        "Send et lille drikkepenge-beløb fra Indstillinger, hvis appen hjælper dig",
-        "Drikkepenge låser ikke op for noget ekstra"
+        "Plus: ubegrænset antal forelæsninger, alle fem trin i AI-prompterne og Læringsstatus",
+        "Pro: alt i Plus samt spørgsmålsgraf, overblik over alle tidsblokke, Markdown-import og spørgsmål via Genveje og Siri"
       ],
-      "note": "Alt virker ens, uanset om du giver drikkepenge eller ej."
+      "note": "Vælg et ugentligt, månedligt eller årligt abonnement, eller betal én gang for altid. Drikkepenge i Indstillinger er noget for sig og låser ikke op for noget."
     },
     "note": "Ingen reklamer, ingen konto. Dine noter bliver på denne Mac."
   },

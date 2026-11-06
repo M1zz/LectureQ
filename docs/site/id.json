@@ -1,6 +1,6 @@
 {
   "title": "LectureQ: catat pertanyaan yang muncul saat kuliah, untuk Mac",
-  "description": "Catat pertanyaan dengan satu pintasan tanpa ketinggalan materi. Pertanyaan tetap di samping catatan saat itu sampai terjawab. Semua fitur gratis.",
+  "description": "Catat pertanyaan dengan satu pintasan tanpa ketinggalan materi. Pertanyaan tetap di samping catatan saat itu sampai terjawab. Gratis hingga 10 kuliah.",
   "hero": {
     "headline": "Jangan biarkan pertanyaan\nsaat kuliah hilang begitu saja",
     "lead": "Tekan `⌘⇧N`, ketik satu baris, dan pertanyaanmu tersimpan di samping catatan menit itu juga. Kamu tetap menyimak, jawabannya dicari nanti.",
@@ -154,24 +154,22 @@
     "note": "Semuanya juga ada di menu Tampilan."
   },
   "pricing": {
-    "title": "Semua fitur gratis",
+    "title": "Gratis hingga 10 kuliah",
     "free": {
       "name": "Gratis",
       "items": [
-        "Pertanyaan cepat dan catatan per blok waktu",
-        "Pertanyaan lanjutan dan grafik",
-        "Ringkasan, tinjauan blok waktu, dan Status Belajar",
-        "Prompt AI lima langkah, disalin ke papan klip",
-        "Impor percakapan dari Markdown"
+        "Hingga 10 kuliah, dengan pertanyaan dan pertanyaan lanjutan tanpa batas",
+        "Pertanyaan cepat, catatan per blok waktu, dan ringkasan kuliah",
+        "Prompt AI dua langkah: rapikan pertanyaan dan cari jawaban"
       ]
     },
     "pro": {
-      "name": "Dukung pengembang",
+      "name": "Plus · Pro",
       "items": [
-        "Kalau aplikasinya membantu, kirim tip kecil dari Pengaturan",
-        "Tip tidak membuka fitur tambahan apa pun"
+        "Plus: kuliah tanpa batas, kelima langkah prompt AI, dan Status Belajar",
+        "Pro: semua isi Plus, ditambah grafik pertanyaan, tinjauan semua blok waktu, impor Markdown, dan tambah pertanyaan lewat Pintasan & Siri"
       ],
-      "note": "Kirim tip atau tidak, semuanya berjalan sama."
+      "note": "Pilih langganan mingguan, bulanan, atau tahunan, atau bayar sekali untuk selamanya. Tip dari Pengaturan terpisah dan tidak membuka fitur apa pun."
     },
     "note": "Tanpa iklan dan tanpa akun. Catatanmu tetap di Mac ini."
   },

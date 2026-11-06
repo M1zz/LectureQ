@@ -1,6 +1,6 @@
 {
   "title": "LectureQ: ghi lại thắc mắc nảy ra giữa buổi học, cho Mac",
-  "description": "Ghi lại câu hỏi bằng một phím tắt mà không lỡ bài giảng. Câu hỏi nằm cạnh ghi chú của lúc đó cho đến khi bạn có câu trả lời. Hoàn toàn miễn phí.",
+  "description": "Ghi lại câu hỏi bằng một phím tắt mà không lỡ bài giảng. Câu hỏi nằm cạnh ghi chú của lúc đó cho đến khi bạn có câu trả lời. Miễn phí tối đa 10 bài giảng.",
   "hero": {
     "headline": "Đừng để thắc mắc trên lớp\ntrôi mất nữa",
     "lead": "Nhấn `⌘⇧N`, gõ một dòng, câu hỏi sẽ nằm cạnh ghi chú của đúng phút đó. Bạn cứ nghe tiếp, câu trả lời tìm sau.",
@@ -154,24 +154,22 @@
     "note": "Tất cả cũng có trong menu Hiển thị."
   },
   "pricing": {
-    "title": "Mọi tính năng đều miễn phí",
+    "title": "Miễn phí tối đa 10 bài giảng",
     "free": {
       "name": "Miễn phí",
       "items": [
-        "Ghi câu hỏi nhanh và ghi chú theo khối thời gian",
-        "Câu hỏi nối tiếp và biểu đồ",
-        "Tóm tắt, tổng quan khối thời gian và Trạng thái học tập",
-        "Prompt AI năm bước, sao chép vào bộ nhớ tạm",
-        "Nhập cuộc trò chuyện từ Markdown"
+        "Tối đa 10 bài giảng, câu hỏi và câu hỏi nối tiếp không giới hạn",
+        "Ghi câu hỏi nhanh, ghi chú theo khối thời gian và tóm tắt bài giảng",
+        "Prompt AI hai bước: trau chuốt câu hỏi và tìm câu trả lời"
       ]
     },
     "pro": {
-      "name": "Ủng hộ nhà phát triển",
+      "name": "Plus · Pro",
       "items": [
-        "Nếu thấy hữu ích, bạn có thể gửi một khoản tip nhỏ trong Cài đặt",
-        "Tip không mở khóa thêm tính năng nào"
+        "Plus: không giới hạn bài giảng, đủ năm bước prompt AI và Trạng thái học tập",
+        "Pro: mọi thứ của Plus, thêm biểu đồ câu hỏi, tổng quan tất cả khối thời gian, nhập Markdown và thêm câu hỏi bằng Phím tắt và Siri"
       ],
-      "note": "Có tip hay không, mọi thứ vẫn hoạt động như nhau."
+      "note": "Chọn gói đăng ký theo tuần, tháng hoặc năm, hoặc trả một lần dùng trọn đời. Tip gửi trong Cài đặt là khoản riêng và không mở khóa gì."
     },
     "note": "Không quảng cáo, không tài khoản. Ghi chú của bạn ở lại trên máy Mac này."
   },

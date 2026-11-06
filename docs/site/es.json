@@ -1,6 +1,6 @@
 {
   "title": "LectureQ: apunta las dudas que surgen en clase, para Mac",
-  "description": "Anota una pregunta con un atajo sin dejar de escuchar. Queda junto a tus notas de ese momento hasta que la resuelvas. Todo es gratis.",
+  "description": "Anota una pregunta con un atajo sin dejar de escuchar. Queda junto a tus notas de ese momento hasta que la resuelvas. Gratis hasta 10 clases.",
   "hero": {
     "headline": "Que ninguna duda de clase\nse te escape",
     "lead": "Pulsa `⌘⇧N`, escribe una línea y la pregunta queda junto a tus notas de ese mismo minuto. Sigues atendiendo y buscas la respuesta después.",
@@ -154,24 +154,22 @@
     "note": "Todos están también en el menú Visualización."
   },
   "pricing": {
-    "title": "Todas las funciones son gratis",
+    "title": "Gratis hasta 10 clases",
     "free": {
       "name": "Gratis",
       "items": [
-        "Preguntas rápidas y notas por bloques de tiempo",
-        "Preguntas de seguimiento y grafo",
-        "Resumen, vista de bloques y Estado de aprendizaje",
-        "Prompts de IA en cinco pasos, copiados al portapapeles",
-        "Importar conversaciones en Markdown"
+        "Hasta 10 clases, con preguntas y preguntas de seguimiento sin límite",
+        "Preguntas rápidas, notas por bloques de tiempo y resumen de la clase",
+        "Prompts de IA en dos pasos: pulir la pregunta y buscar la respuesta"
       ]
     },
     "pro": {
-      "name": "Apoya al desarrollador",
+      "name": "Plus · Pro",
       "items": [
-        "Si la app te sirve, envía una pequeña propina desde Ajustes",
-        "La propina no desbloquea nada extra"
+        "Plus: clases sin límite, los cinco pasos de los prompts de IA y Estado de aprendizaje",
+        "Pro: todo lo de Plus, además del grafo de preguntas, la vista de todos los bloques, la importación desde Markdown y añadir preguntas con Atajos y Siri"
       ],
-      "note": "Con propina o sin ella, todo funciona igual."
+      "note": "Elige una suscripción semanal, mensual o anual, o un pago único de por vida. Las propinas desde Ajustes van aparte y no desbloquean nada."
     },
     "note": "Sin anuncios ni cuenta. Tus notas se quedan en este Mac."
   },
