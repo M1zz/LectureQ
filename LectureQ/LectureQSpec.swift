@@ -33,23 +33,71 @@ enum LectureQSpec: LeeoAppSpec {
         marketingURL: SiteURL.page("")
     )
 
-    /// 인앱 결제 없음.
-    static let monetization = LeeoMonetization.free
+    /// **무료 · Plus · Pro 세 칸** (→ Purchases.swift). 칸마다 주 · 월 · 연 구독과 평생을 둔다.
+    ///
+    /// ⚠️ 팁 상품은 `productIDs` · 권한 목록에 넣지 않는다. 넣으면 팁을 낸 사람이 Plus 가 된다.
+    static let monetization = LeeoMonetization.freemiumSubscription(
+        LeeoSubscriptionConfig(
+            productIDs: saleProductIDs,
+            // 자체 약관이 없으므로 애플 표준 사용권 계약(EULA)을 건다.
+            termsURL: URL(string: "https://www.apple.com/legal/internet-services/itunes/dev/stdeula/")!,
+            entitlementIDs: plusEntitlementIDs.union(proEntitlementIDs),
+            // 실제 판정은 `PurchaseManager.allows` 가 한다. 여기는 매니페스트 · 점검용 선언이다.
+            gate: LeeoGatePolicy(
+                freeLimits: [ProFeature.unlimitedLectures.rawValue: freeLectureLimit],
+                proOnly: Set(ProFeature.allCases.filter { $0 != .unlimitedLectures }.map(\.rawValue))),
+            tipJar: LeeoTipJarConfig(productIDs: tipProductIDs)
+        )
+    )
+
+    /// 무료로 만들 수 있는 강의 수.
+    static let freeLectureLimit = 10
+
+    // MARK: 상품 ID
+    //
+    // ⚠️ App Store Connect · LectureQ.storekit 과 **글자 하나까지 같아야** 한다.
+    // 자동 갱신 구독 여섯 개는 한 구독 그룹에 두고 Pro 를 위 등급으로 둔다(갈아탈 때 남은 기간을 정산한다).
+
+    static let plusWeeklyID = "com.lectureq.LectureQ.plus.weekly"
+    static let plusMonthlyID = "com.lectureq.LectureQ.plus.monthly"
+    static let plusYearlyID = "com.lectureq.LectureQ.plus.yearly"
+    static let plusLifetimeID = "com.lectureq.LectureQ.plus"
+    static let proWeeklyID = "com.lectureq.LectureQ.pro.weekly"
+    static let proMonthlyID = "com.lectureq.LectureQ.pro.monthly"
+    static let proYearlyID = "com.lectureq.LectureQ.pro.yearly"
+    static let proLifetimeID = "com.lectureq.LectureQ.pro"
+    /// Plus 평생을 산 사람이 Pro 평생으로 올리는 값.
+    static let proUpgradeID = "com.lectureq.LectureQ.pro.upgrade"
+    /// 구독 졸업: 구독 중인 사람에게만 보이는 Pro 평생.
+    static let proGraduateID = "com.lectureq.LectureQ.pro.graduate"
+
+    static let tipProductIDs = ["com.lectureq.LectureQ.tip.small",
+                                "com.lectureq.LectureQ.tip.medium",
+                                "com.lectureq.LectureQ.tip.large"]
+
+    /// 불러올 상품.
+    static let saleProductIDs = [plusWeeklyID, plusMonthlyID, plusYearlyID, plusLifetimeID,
+                                 proWeeklyID, proMonthlyID, proYearlyID, proLifetimeID,
+                                 proUpgradeID, proGraduateID]
+
+    static let plusEntitlementIDs: Set<String> = [plusWeeklyID, plusMonthlyID, plusYearlyID, plusLifetimeID]
+    static let proEntitlementIDs: Set<String> = [proWeeklyID, proMonthlyID, proYearlyID, proLifetimeID,
+                                                 proUpgradeID, proGraduateID]
+    /// 자동 갱신 구독 (졸업 제안의 대상).
+    static let subscriptionIDs: Set<String> = [plusWeeklyID, plusMonthlyID, plusYearlyID,
+                                               proWeeklyID, proMonthlyID, proYearlyID]
+    /// 끝이 없는 Pro.
+    static let proLifetimeIDs: Set<String> = [proLifetimeID, proUpgradeID, proGraduateID]
+
+    /// 가진 상품이 여는 칸.
+    static func tier(owned: Set<String>) -> LectureQTier {
+        if !owned.isDisjoint(with: proEntitlementIDs) { return .pro }
+        if !owned.isDisjoint(with: plusEntitlementIDs) { return .plus }
+        return .free
+    }
 
     /// App Store 앱 ID — 리뷰 링크 · 친구에게 소개하기에 쓴다.
     static var appStoreID: String? { "6794597095" }
-}
-
-// MARK: - 팁 (개발자 응원하기)
-
-/// 무료 앱이라 LeeoStore 가 없다. 팁 엔진을 여기 하나 두고, 앱을 열 때 `startStandalone()` 을 부른다.
-@MainActor
-enum LectureQTip {
-    static let tipJar = LeeoTipJar(config: LeeoTipJarConfig(productIDs: [
-        "com.lectureq.LectureQ.tip.small",
-        "com.lectureq.LectureQ.tip.medium",
-        "com.lectureq.LectureQ.tip.large",
-    ]))
 }
 
 /// 팁을 부탁할 만한 순간 — 지금까지 강의에서 남긴 질문 수. 큰 것부터.

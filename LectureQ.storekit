@@ -1,0 +1,338 @@
+{
+  "identifier": "943DCBDB-E0BA-47E9-AF1C-9AF8DF5CF4D4",
+  "nonRenewingSubscriptions": [],
+  "products": [
+    {
+      "displayPrice": "17.99",
+      "familyShareable": true,
+      "internalID": "BF1A804F-144D-48F3-BF41-CA5CD0B2E2C8",
+      "localizations": [
+        {
+          "description": "강의 무제한, AI 프롬프트 다섯 단계, 학습 상태",
+          "displayName": "질문 노트 Plus (평생)",
+          "locale": "ko"
+        },
+        {
+          "description": "Unlimited lectures, all 5 AI prompt steps, and more",
+          "displayName": "LectureQ Plus (Lifetime)",
+          "locale": "en_US"
+        }
+      ],
+      "productID": "com.lectureq.LectureQ.plus",
+      "referenceName": "Plus 평생",
+      "type": "NonConsumable"
+    },
+    {
+      "displayPrice": "26.99",
+      "familyShareable": true,
+      "internalID": "9FECFF6D-D83F-480B-9F23-98C03A9A6F3A",
+      "localizations": [
+        {
+          "description": "Plus 전부와 질문 그래프, 마크다운 가져오기",
+          "displayName": "질문 노트 Pro (평생)",
+          "locale": "ko"
+        },
+        {
+          "description": "All of Plus, plus the question graph and imports",
+          "displayName": "LectureQ Pro (Lifetime)",
+          "locale": "en_US"
+        }
+      ],
+      "productID": "com.lectureq.LectureQ.pro",
+      "referenceName": "Pro 평생",
+      "type": "NonConsumable"
+    },
+    {
+      "displayPrice": "8.99",
+      "familyShareable": true,
+      "internalID": "9F21DF17-8DCF-4383-A59F-C56725E33E52",
+      "localizations": [
+        {
+          "description": "Plus 평생을 산 분이 Pro 평생으로 올립니다.",
+          "displayName": "질문 노트 Pro로 올리기",
+          "locale": "ko"
+        },
+        {
+          "description": "For Plus Lifetime owners: move up to Pro Lifetime.",
+          "displayName": "Upgrade to LectureQ Pro",
+          "locale": "en_US"
+        }
+      ],
+      "productID": "com.lectureq.LectureQ.pro.upgrade",
+      "referenceName": "Plus 평생 → Pro 평생",
+      "type": "NonConsumable"
+    },
+    {
+      "displayPrice": "17.99",
+      "familyShareable": true,
+      "internalID": "8706B804-CD24-457E-A422-C75A84ED0B7F",
+      "localizations": [
+        {
+          "description": "구독하신 분께만 드리는 Pro 평생입니다.",
+          "displayName": "질문 노트 Pro 평생 (구독자)",
+          "locale": "ko"
+        },
+        {
+          "description": "Pro Lifetime offered only to subscribers.",
+          "displayName": "LectureQ Pro Lifetime (Subscribers)",
+          "locale": "en_US"
+        }
+      ],
+      "productID": "com.lectureq.LectureQ.pro.graduate",
+      "referenceName": "구독 졸업 Pro 평생",
+      "type": "NonConsumable"
+    },
+    {
+      "displayPrice": "0.99",
+      "familyShareable": false,
+      "internalID": "628CFE16-4B74-43C0-9C82-CE01F264B581",
+      "localizations": [
+        {
+          "description": "개발자를 응원합니다. 기능을 열지 않아요.",
+          "displayName": "응원하기 (작게)",
+          "locale": "ko"
+        },
+        {
+          "description": "Support the developer. Unlocks nothing.",
+          "displayName": "Small Tip",
+          "locale": "en_US"
+        }
+      ],
+      "productID": "com.lectureq.LectureQ.tip.small",
+      "referenceName": "Small Tip",
+      "type": "Consumable"
+    },
+    {
+      "displayPrice": "2.99",
+      "familyShareable": false,
+      "internalID": "E3FEAC73-191F-47DD-9ACF-610665CFBD20",
+      "localizations": [
+        {
+          "description": "개발자를 응원합니다. 기능을 열지 않아요.",
+          "displayName": "응원하기 (보통)",
+          "locale": "ko"
+        },
+        {
+          "description": "Support the developer. Unlocks nothing.",
+          "displayName": "Medium Tip",
+          "locale": "en_US"
+        }
+      ],
+      "productID": "com.lectureq.LectureQ.tip.medium",
+      "referenceName": "Medium Tip",
+      "type": "Consumable"
+    },
+    {
+      "displayPrice": "9.99",
+      "familyShareable": false,
+      "internalID": "59A19AEC-B3B6-449E-92AD-3A06DF316FB2",
+      "localizations": [
+        {
+          "description": "개발자를 응원합니다. 기능을 열지 않아요.",
+          "displayName": "응원하기 (크게)",
+          "locale": "ko"
+        },
+        {
+          "description": "Support the developer. Unlocks nothing.",
+          "displayName": "Large Tip",
+          "locale": "en_US"
+        }
+      ],
+      "productID": "com.lectureq.LectureQ.tip.large",
+      "referenceName": "Large Tip",
+      "type": "Consumable"
+    }
+  ],
+  "settings": {
+    "_applicationInternalID": "",
+    "_developerTeamID": "QGAQ3AY3R3",
+    "_failTransactionsEnabled": false,
+    "_lastSynchronizedDate": 0,
+    "_locale": "en_US",
+    "_storefront": "USA",
+    "_storeKitErrors": []
+  },
+  "subscriptionGroups": [
+    {
+      "id": "65AF1A7F-AE04-457D-8107-59F6E385C1BB",
+      "localizations": [],
+      "name": "질문 노트",
+      "subscriptions": [
+        {
+          "adHocOffers": [],
+          "codeOffers": [],
+          "displayPrice": "8.99",
+          "familyShareable": true,
+          "groupNumber": 1,
+          "internalID": "3B6DB139-E49F-425D-B215-0FC6CCEE5E44",
+          "localizations": [
+            {
+              "description": "Plus 전부와 질문 그래프, 마크다운 가져오기",
+              "displayName": "질문 노트 Pro 연 구독",
+              "locale": "ko"
+            },
+            {
+              "description": "All of Plus, plus the question graph and imports",
+              "displayName": "LectureQ Pro Yearly",
+              "locale": "en_US"
+            }
+          ],
+          "productID": "com.lectureq.LectureQ.pro.yearly",
+          "recurringSubscriptionPeriod": "P1Y",
+          "referenceName": "Pro 연",
+          "subscriptionGroupID": "65AF1A7F-AE04-457D-8107-59F6E385C1BB",
+          "type": "RecurringSubscription",
+          "winbackOffers": [],
+          "introductoryOffer": {
+            "displayPrice": "4.49",
+            "internalID": "3E7593CD-A2FB-45F9-BF1D-8957F3D9660F",
+            "numberOfPeriods": 1,
+            "paymentMode": "payUpFront",
+            "subscriptionPeriod": "P1Y"
+          }
+        },
+        {
+          "adHocOffers": [],
+          "codeOffers": [],
+          "displayPrice": "2.99",
+          "familyShareable": true,
+          "groupNumber": 1,
+          "internalID": "F99D4B29-27C4-43DB-A756-986F2A51306F",
+          "localizations": [
+            {
+              "description": "Plus 전부와 질문 그래프, 마크다운 가져오기",
+              "displayName": "질문 노트 Pro 월 구독",
+              "locale": "ko"
+            },
+            {
+              "description": "All of Plus, plus the question graph and imports",
+              "displayName": "LectureQ Pro Monthly",
+              "locale": "en_US"
+            }
+          ],
+          "productID": "com.lectureq.LectureQ.pro.monthly",
+          "recurringSubscriptionPeriod": "P1M",
+          "referenceName": "Pro 월",
+          "subscriptionGroupID": "65AF1A7F-AE04-457D-8107-59F6E385C1BB",
+          "type": "RecurringSubscription",
+          "winbackOffers": []
+        },
+        {
+          "adHocOffers": [],
+          "codeOffers": [],
+          "displayPrice": "1.49",
+          "familyShareable": true,
+          "groupNumber": 1,
+          "internalID": "FC03CFDE-DA58-4831-AC21-88FC044842C8",
+          "localizations": [
+            {
+              "description": "Plus 전부와 질문 그래프, 마크다운 가져오기",
+              "displayName": "질문 노트 Pro 주 구독",
+              "locale": "ko"
+            },
+            {
+              "description": "All of Plus, plus the question graph and imports",
+              "displayName": "LectureQ Pro Weekly",
+              "locale": "en_US"
+            }
+          ],
+          "productID": "com.lectureq.LectureQ.pro.weekly",
+          "recurringSubscriptionPeriod": "P1W",
+          "referenceName": "Pro 주",
+          "subscriptionGroupID": "65AF1A7F-AE04-457D-8107-59F6E385C1BB",
+          "type": "RecurringSubscription",
+          "winbackOffers": []
+        },
+        {
+          "adHocOffers": [],
+          "codeOffers": [],
+          "displayPrice": "5.99",
+          "familyShareable": true,
+          "groupNumber": 2,
+          "internalID": "E0A023AE-6217-4989-826B-07E2A056AC8B",
+          "localizations": [
+            {
+              "description": "강의 무제한, AI 프롬프트 다섯 단계, 학습 상태",
+              "displayName": "질문 노트 Plus 연 구독",
+              "locale": "ko"
+            },
+            {
+              "description": "Unlimited lectures, all 5 AI prompt steps, and more",
+              "displayName": "LectureQ Plus Yearly",
+              "locale": "en_US"
+            }
+          ],
+          "productID": "com.lectureq.LectureQ.plus.yearly",
+          "recurringSubscriptionPeriod": "P1Y",
+          "referenceName": "Plus 연",
+          "subscriptionGroupID": "65AF1A7F-AE04-457D-8107-59F6E385C1BB",
+          "type": "RecurringSubscription",
+          "winbackOffers": [],
+          "introductoryOffer": {
+            "displayPrice": "2.99",
+            "internalID": "4987603D-B268-4BCC-B291-876ADA8D36CE",
+            "numberOfPeriods": 1,
+            "paymentMode": "payUpFront",
+            "subscriptionPeriod": "P1Y"
+          }
+        },
+        {
+          "adHocOffers": [],
+          "codeOffers": [],
+          "displayPrice": "1.99",
+          "familyShareable": true,
+          "groupNumber": 2,
+          "internalID": "47F11B11-9CA3-4662-88D7-99C4956A53CD",
+          "localizations": [
+            {
+              "description": "강의 무제한, AI 프롬프트 다섯 단계, 학습 상태",
+              "displayName": "질문 노트 Plus 월 구독",
+              "locale": "ko"
+            },
+            {
+              "description": "Unlimited lectures, all 5 AI prompt steps, and more",
+              "displayName": "LectureQ Plus Monthly",
+              "locale": "en_US"
+            }
+          ],
+          "productID": "com.lectureq.LectureQ.plus.monthly",
+          "recurringSubscriptionPeriod": "P1M",
+          "referenceName": "Plus 월",
+          "subscriptionGroupID": "65AF1A7F-AE04-457D-8107-59F6E385C1BB",
+          "type": "RecurringSubscription",
+          "winbackOffers": []
+        },
+        {
+          "adHocOffers": [],
+          "codeOffers": [],
+          "displayPrice": "0.99",
+          "familyShareable": true,
+          "groupNumber": 2,
+          "internalID": "7C4CE15C-CFAE-44BF-A6E1-038436642475",
+          "localizations": [
+            {
+              "description": "강의 무제한, AI 프롬프트 다섯 단계, 학습 상태",
+              "displayName": "질문 노트 Plus 주 구독",
+              "locale": "ko"
+            },
+            {
+              "description": "Unlimited lectures, all 5 AI prompt steps, and more",
+              "displayName": "LectureQ Plus Weekly",
+              "locale": "en_US"
+            }
+          ],
+          "productID": "com.lectureq.LectureQ.plus.weekly",
+          "recurringSubscriptionPeriod": "P1W",
+          "referenceName": "Plus 주",
+          "subscriptionGroupID": "65AF1A7F-AE04-457D-8107-59F6E385C1BB",
+          "type": "RecurringSubscription",
+          "winbackOffers": []
+        }
+      ]
+    }
+  ],
+  "version": {
+    "major": 4,
+    "minor": 0
+  }
+}

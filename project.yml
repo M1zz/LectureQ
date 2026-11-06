@@ -38,6 +38,9 @@ targets:
     scheme:
       testTargets:
         - LectureQTests
+      # 로컬에서 구매 흐름을 굴려 보는 가짜 스토어 (→ LectureQ.storekit). Release · archive 에는 안 붙는다.
+      # ⚠️ 상품 ID 는 App Store Connect 에 만들 상품과 글자 하나까지 같아야 한다 (→ LectureQSpec).
+      storeKitConfiguration: LectureQ.storekit
     entitlements:
       path: LectureQ/LectureQ.entitlements
       properties:
@@ -78,6 +81,9 @@ targets:
     deploymentTarget: "14.0"
     sources:
       - path: LectureQTests
+      # 가짜 스토어(→ LectureQ.storekit)로 상품 · 구매 흐름을 시험한다 (StoreKitTests). 앱 스킴의 실행도 같은 파일을 쓴다.
+      - path: LectureQ.storekit
+        buildPhase: resources
     dependencies:
       - target: LectureQ
     settings:

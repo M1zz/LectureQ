@@ -9,6 +9,10 @@ struct QuestionDetailView: View {
 
     @State private var newFollowUp = ""
     @State private var copiedPrompt: AIPrompt?   // 방금 복사한 단계 (확인 표시용)
+    /// 답 되묻기 · 꼬리질문 뽑기 · 내 답 채점받기는 Plus 다 (→ Purchases.swift).
+    @State private var purchases = PurchaseManager.shared
+    @State private var paywallFeature: ProFeature?
+    @Environment(\.fontScale) private var fontScale
 
     var body: some View {
         ScrollView {
@@ -124,8 +128,12 @@ struct QuestionDetailView: View {
     private var aiMenu: some View {
         Menu("AI 프롬프트 복사") {
             ForEach(AIPrompt.allCases) { p in
-                Button(p.title) { copy(p) }
-                    .disabled(p.unavailableReason(for: question) != nil)
+                if let feature = p.feature, !purchases.allows(feature) {
+                    Button { paywallFeature = feature } label: { Label(p.title, systemImage: "lock") }
+                } else {
+                    Button(p.title) { copy(p) }
+                        .disabled(p.unavailableReason(for: question) != nil)
+                }
             }
             Divider()
             Link("가이드 열기", destination: SiteURL.page("ai-guide.html"))
@@ -133,6 +141,10 @@ struct QuestionDetailView: View {
         .menuStyle(.borderlessButton)
         .fixedSize()
         .help("강의 맥락을 채운 프롬프트를 클립보드에 복사합니다")
+        .sheet(item: $paywallFeature) { feature in
+            PaywallView(highlight: feature)
+                .appFontScale(fontScale)
+        }
     }
 
     /// 프롬프트를 클립보드에 넣고, 어떤 단계를 복사했는지 잠깐 보여준다.

@@ -42,7 +42,8 @@ struct LectureQApp: App {
                 .frame(minWidth: 960, minHeight: 600)
                 .storeFallbackNotice()
                 .satisfactionCheckIfEnabled()
-                .task { await LectureQTip.tipJar.startStandalone() }
+                // 영수증 · 상품 · 구독을 읽는다 (→ Purchases.swift). 팁 결제도 같은 리스너가 받는다.
+                .task { if !Self.isRunningUnitTests { await PurchaseManager.shared.refresh() } }
         }
         .modelContainer(container)
 

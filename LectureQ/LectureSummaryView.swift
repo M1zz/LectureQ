@@ -28,9 +28,11 @@ struct LectureSummaryView: View {
                     Text("질문 \(questions.count) · 던질 질문 \(toAsk.count) · 배운 점 \(learned.count) · 꼬리질문 \(followUps)")
                         .scaledFont(.callout)
                         .foregroundStyle(.secondary)
-                    // 응원 부탁 — 질문을 꽤 쌓아 온 사람에게, 드물게(강의를 마치고 돌아보는 자리)
-                    LeeoTipAskSlot<LectureQSpec>(tipJar: LectureQTip.tipJar,
-                                                 reached: LectureQTipMoments.reached(questionCount: allQuestions.count))
+                    // 응원 부탁 — 질문을 꽤 쌓아 온 Pro 사용자에게만, 드물게(강의를 마치고 돌아보는 자리)
+                    if PurchaseManager.shared.tier == .pro {
+                        LeeoTipAskSlot<LectureQSpec>(tipJar: PurchaseManager.shared.tipJar,
+                                                     reached: LectureQTipMoments.reached(questionCount: allQuestions.count))
+                    }
                     if !combinedNotes.isEmpty {
                         notesSection
                     }

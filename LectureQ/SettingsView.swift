@@ -6,10 +6,22 @@ import LeeoKit
 /// 메일 문의와 인스타그램은 이 화면이 직접 둔다.
 struct SettingsView: View {
     private static let instagramURL = URL(string: "https://instagram.com/lee25_ios")!
+    private static let subscriptionsURL = URL(string: "https://apps.apple.com/account/subscriptions")!
+
+    // 요금제 (→ Purchases.swift, PaywallView.swift)
+    @State private var purchases = PurchaseManager.shared
+    @State private var showingPaywall = false
+    /// 페이월을 평생으로 골라 둔 채 여는가 ('평생으로 바꾸기').
+    @State private var paywallTerm: PlanTerm = .yearly
+    /// 구독을 평생으로 바꾸는 시트 (→ LeeoGraduationOfferView).
+    @State private var showingGraduation = false
+    @State private var restoreMessage: String?
 
     var body: some View {
         NavigationStack {
             Form {
+                planSection
+
                 Section("지원") {
                     LeeoSupportSection<LectureQSpec>()
                 }
@@ -17,7 +29,7 @@ struct SettingsView: View {
                 Section {
                     NavigationLink(LeeoRoadmapText.entry) { RoadmapScreen() }
                     LeeoShareAppLink<LectureQSpec>()
-                    LeeoTipJarLink<LectureQSpec>(tipJar: LectureQTip.tipJar)
+                    LeeoTipJarLink<LectureQSpec>(tipJar: PurchaseManager.shared.tipJar)
                 }
 
                 Section {
@@ -39,7 +51,61 @@ struct SettingsView: View {
             }
             .formStyle(.grouped)
         }
-        .frame(width: 480, height: 520)
+        .frame(width: 480, height: 600)
+        .sheet(isPresented: $showingPaywall) {
+            PaywallView(initialTerm: paywallTerm)
+        }
+        .sheet(isPresented: $showingGraduation) {
+            LeeoGraduationOfferView(graduate: purchases.graduateProduct) {
+                await purchases.refresh()
+            }
+        }
+    }
+
+    /// 지금 쓰는 칸 · 요금제 보기 · 구독 관리 · 평생으로 바꾸기 · 구매 복원.
+    private var planSection: some View {
+        Section {
+            LabeledContent("지금 쓰는 칸", value: purchases.tier.title)
+            if purchases.isEarlyUser {
+                Text("처음부터 함께해 주셔서 Pro를 그대로 드려요.")
+                    .foregroundStyle(.secondary)
+            }
+            if purchases.tier < .pro {
+                Button("요금제 보기") { openPaywall(.yearly) }
+            }
+            if purchases.subscription != nil {
+                Link(LeeoLadderText.manageSubscription, destination: Self.subscriptionsURL)
+            }
+            // 평생이 아닌 사람에게 늘 선다. 구독 중이면 졸업가로, 아니면 평생을 골라 둔 요금제로.
+            if !purchases.ownsLifetimePro, !purchases.ownsPlusLifetime {
+                Button(LeeoLadderText.switchToLifetimeEntry) {
+                    if purchases.subscription != nil, purchases.graduateProduct != nil {
+                        showingGraduation = true
+                    } else {
+                        openPaywall(.lifetime)
+                    }
+                }
+            }
+            Button("구매 복원") {
+                Task {
+                    restoreMessage = nil
+                    await purchases.restore()
+                    if purchases.tier == .free { restoreMessage = purchases.failureMessage }
+                }
+            }
+            .disabled(purchases.isWorking)
+            if let restoreMessage {
+                Text(restoreMessage)
+                    .foregroundStyle(.secondary)
+            }
+        } header: {
+            Text("요금제")
+        }
+    }
+
+    private func openPaywall(_ term: PlanTerm) {
+        paywallTerm = term
+        showingPaywall = true
     }
 
     /// 받는 사람 · 제목 · 앱/OS 버전이 채워진 메일 초안.

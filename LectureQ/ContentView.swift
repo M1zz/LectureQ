@@ -94,6 +94,12 @@ struct ContentView: View {
     @State private var showImporter = false
     @State private var importError: String?
 
+    // 무료 · Plus · Pro (→ Purchases.swift). 잠긴 자리를 누르면 그 기능이 든 칸을 앞세운 페이월이 뜬다.
+    @State private var purchases = PurchaseManager.shared
+    @State private var paywallFeature: ProFeature?
+    /// 구독 졸업 제안 (구독 6개월째 · 갱신 7일 전에 한 번씩).
+    @State private var showGraduation = false
+
     // 첫 실행 안내(→ OnboardingView.swift). 강의가 하나도 없는 처음 사용자에게만 한 번 띄운다.
     @AppStorage("hasSeenOnboarding") private var hasSeenOnboarding = false
     @State private var showOnboarding = false
@@ -141,7 +147,7 @@ struct ContentView: View {
                 onCreateLecture: {
                     hasSeenOnboarding = true
                     showOnboarding = false
-                    addLectureQuick()
+                    addLecture()
                 },
                 onDismiss: {
                     hasSeenOnboarding = true
@@ -177,6 +183,19 @@ struct ContentView: View {
                 LectureStateView(lecture: lecture)
                     .appFontScale(fontScale)
             }
+        }
+        .sheet(item: $paywallFeature) { feature in
+            PaywallView(highlight: feature)
+                .appFontScale(fontScale)
+        }
+        .sheet(isPresented: $showGraduation) {
+            LeeoGraduationOfferView(graduate: purchases.graduateProduct) {
+                await purchases.refresh()
+            }
+            .appFontScale(fontScale)
+        }
+        .onChange(of: purchases.subscription, initial: true) { _, _ in
+            if purchases.takeGraduationOffer() { showGraduation = true }
         }
         .fileImporter(isPresented: $showImporter,
                       allowedContentTypes: importContentTypes) { result in
@@ -276,17 +295,24 @@ struct ContentView: View {
                 .disabled(selectedLecture == nil)
                 .keyboardShortcut("1", modifiers: .command)
 
-            Button("그래프") {
-                showGraph = true
-                FeatureTips.markReviewOpened()
-            }
+            Button {
+                unlock(.graph) {
+                    showGraph = true
+                    FeatureTips.markReviewOpened()
+                }
+            } label: { gatedLabel("그래프", .graph) }
                 .disabled(selectedLecture == nil)
                 .keyboardShortcut("2", modifiers: .command)
 
-            Button("타임블록") { showTimeline = true }
+            Button {
+                unlock(.timeline) { showTimeline = true }
+            } label: { gatedLabel("타임블록", .timeline) }
                 .keyboardShortcut("3", modifiers: .command)
 
-            Button("학습 상태") { showState = true }
+            // 이미 적어 둔 학습 상태는 칸과 상관없이 언제나 열어 본다.
+            Button {
+                unlock(selectedLectureHasState ? nil : .learningState) { showState = true }
+            } label: { gatedLabel("학습 상태", selectedLectureHasState ? nil : .learningState) }
                 .disabled(selectedLecture == nil)
                 .keyboardShortcut("4", modifiers: .command)
 
@@ -320,6 +346,41 @@ struct ContentView: View {
         .popoverTip(reviewTip, arrowEdge: .top)
     }
 
+    // MARK: 잠긴 자리
+
+    /// 열려 있으면 하던 일을, 잠겨 있으면 그 기능의 페이월을.
+    private func unlock(_ feature: ProFeature?, _ action: () -> Void) {
+        if let feature, !purchases.allows(feature) {
+            paywallFeature = feature
+        } else {
+            action()
+        }
+    }
+
+    /// 잠긴 메뉴 줄에는 자물쇠를 붙인다. 눌러 보기 전에 알 수 있어야 한다.
+    @ViewBuilder
+    private func gatedLabel(_ title: LocalizedStringKey, _ feature: ProFeature?) -> some View {
+        if let feature, !purchases.allows(feature) {
+            Label(title, systemImage: "lock")
+        } else {
+            Text(title)
+        }
+    }
+
+    private var selectedLectureHasState: Bool {
+        guard let lecture = selectedLecture else { return false }
+        return !(lecture.currentState.isEmpty && lecture.goalState.isEmpty && lecture.wantToLearn.isEmpty)
+    }
+
+    /// 새 강의. 무료는 강의 10개까지 만든다 — 이미 만든 강의는 몇 개든 그대로 보고 고치고 지운다.
+    private func addLecture() {
+        guard purchases.allowsNewLecture(existing: lectures.count) else {
+            paywallFeature = .unlimitedLectures
+            return
+        }
+        addLectureQuick()
+    }
+
     /// 처음 쓰는 사람(강의 0개)에게만 안내를 띄운다. 이미 강의가 있으면 업데이트 사용자이므로 띄우지 않고 본 것으로 둔다.
     private func presentOnboardingIfNeeded() {
         guard !hasSeenOnboarding, !DemoMode.isOn else { return }
@@ -333,13 +394,21 @@ struct ContentView: View {
     /// 단축어 "질문 추가": ⌘⇧N 과 같은 입력창을 연다. 강의가 하나도 없으면 먼저 하나 만든다
     /// (강의 없이 연 입력창은 저장할 곳이 없다). 열려 있던 다른 창(안내·요약 등)은 닫고 연다.
     private func openCaptureFromShortcut() {
-        let hadSheet = showOnboarding || showGraph || showSummary || showTimeline || showState
+        let hadSheet = showOnboarding || showGraph || showSummary || showTimeline || showState || paywallFeature != nil
         if showOnboarding { hasSeenOnboarding = true }
         showOnboarding = false
         showGraph = false
         showSummary = false
         showTimeline = false
         showState = false
+        paywallFeature = nil
+        // 단축어 · Siri 로 질문 추가는 Pro 다. 앱은 열렸으니 Pro 칸을 보인다 (⌘⇧N 은 언제나 무료).
+        guard purchases.allows(.shortcuts) else {
+            DispatchQueue.main.asyncAfter(deadline: .now() + (hadSheet ? 0.4 : 0)) {
+                paywallFeature = .shortcuts
+            }
+            return
+        }
         if lectures.isEmpty { addLectureQuick() }
         // 닫히는 시트와 겹치면 새 시트가 뜨지 않으므로, 닫힌 뒤에 연다.
         DispatchQueue.main.asyncAfter(deadline: .now() + (hadSheet ? 0.4 : 0)) {
@@ -379,9 +448,11 @@ struct ContentView: View {
             .pickerStyle(.inline)
 
             Divider()
-            Button("강의 추가", action: addLectureQuick)
+            Button("강의 추가", action: addLecture)
             // 가져오기도 결국 "강의를 하나 만드는" 동작이라 이 메뉴에 둔다.
-            Button("마크다운에서 가져오기…") { showImporter = true }
+            Button {
+                unlock(.markdownImport) { showImporter = true }
+            } label: { gatedLabel("마크다운에서 가져오기…", .markdownImport) }
             if selectedLecture != nil {
                 Button("현재 강의 삭제", role: .destructive, action: deleteCurrentLecture)
             }
