@@ -24,7 +24,7 @@ settings:
 packages:
   LeeoKit:
     url: https://github.com/M1zz/LeeoKit.git
-    majorVersion: 3.30.1
+    majorVersion: 3.38.1
 
 targets:
   LectureQ:
