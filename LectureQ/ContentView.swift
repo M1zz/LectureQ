@@ -274,11 +274,14 @@ struct ContentView: View {
                 viewMenu
             }
 
-            // 질문 추가 진입점은 여기 하나만 둔다 (리스트 안 버튼은 스크롤되면 단축키가 안 먹을 수 있음)
-            // 가장 자주 쓰는 동작이라 강조색으로 채워 눈에 띄게 한다.
+            // 단축키를 거는 질문 추가는 여기 하나다 (리스트 안 버튼은 스크롤되면 단축키가 안 먹을 수 있음)
+            // 가장 자주 쓰는 동작이라 강조색으로 채운 심볼 버튼. ? 하나만 두면 '도움말' 로 읽혀 + 가 붙은 말풍선을 쓴다.
             ToolbarItem(placement: .primaryAction) {
-                Button("질문 추가") {
+                Button {
                     showQuickCapture = true
+                } label: {
+                    Label("질문 추가", systemImage: Self.addQuestionSymbol)
+                        .labelStyle(.iconOnly)
                 }
                 .buttonStyle(.borderedProminent)
                 .keyboardShortcut("n", modifiers: [.command, .shift])
@@ -286,6 +289,9 @@ struct ContentView: View {
             }
         }
     }
+
+    /// 질문 추가 심볼 — 툴바와 빈 목록이 같은 모양을 쓴다.
+    static let addQuestionSymbol = "plus.bubble.fill"
 
     /// 강의를 다르게 보는 화면들 + 글씨 크기를 한 곳에 모은 메뉴.
     private var viewMenu: some View {
@@ -500,7 +506,26 @@ struct ContentView: View {
             }
             .overlay {
                 if rows.isEmpty {
-                    EmptyHint(showUnresolvedOnly ? "미해결 질문이 없어요" : "⌘⇧N 으로 질문을 추가하세요")
+                    if showUnresolvedOnly {
+                        EmptyHint("미해결 질문이 없어요")
+                    } else {
+                        // 빈 목록이 곧 첫 질문을 남기는 자리다 — 툴바와 같은 심볼 버튼을 가운데에 둔다
+                        VStack(spacing: 10) {
+                            Button {
+                                showQuickCapture = true
+                            } label: {
+                                Label("질문 추가", systemImage: Self.addQuestionSymbol)
+                                    .padding(.horizontal, 6)
+                                    .padding(.vertical, 2)
+                            }
+                            .buttonStyle(.borderedProminent)
+                            .controlSize(.large)
+                            Text(verbatim: "⌘⇧N")
+                                .scaledFont(.caption, monospacedDigit: true)
+                                .foregroundStyle(.secondary)
+                        }
+                        .frame(maxWidth: .infinity, maxHeight: .infinity)
+                    }
                 }
             }
         } else {
@@ -692,10 +717,16 @@ struct ContentView: View {
                             }
                     }
 
-                    // 마지막 블록 아래에서 새 블록 추가
-                    Button("블록 추가", action: addBlockToCurrent)
-                        .buttonStyle(.borderless)
-                        .padding(.leading, 66)
+                    // 마지막 블록 아래, 새 블록이 생길 바로 그 자리에 점선 빈 카드로 둔다
+                    Button(action: addBlockToCurrent) {
+                        Label("블록 추가", systemImage: "plus")
+                            .frame(maxWidth: .infinity, minHeight: 44)
+                            .contentShape(RoundedRectangle(cornerRadius: 10))
+                            .overlay(RoundedRectangle(cornerRadius: 10)
+                                .strokeBorder(.tint.opacity(0.5), style: StrokeStyle(lineWidth: 1.5, dash: [5, 4])))
+                    }
+                    .buttonStyle(.borderless)
+                    .padding(.leading, 66)   // 블록 카드와 같은 줄 (시간 칸 56 + 간격 10)
                 }
                 .padding(16)
             }
