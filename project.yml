@@ -25,7 +25,7 @@ settings:
 packages:
   LeeoKit:
     url: https://github.com/M1zz/LeeoKit.git
-    majorVersion: 3.43.0
+    majorVersion: 3.44.1
 
 targets:
   # Mac · iPhone · iPad 한 타깃 — 번들 ID 와 앱 레코드가 하나라 한 번 사면 모든 기기에서 쓴다(유니버설 구매).
