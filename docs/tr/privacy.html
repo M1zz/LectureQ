@@ -56,12 +56,13 @@
 <!--langswitch:start--><nav class="langs" aria-label="Language"><a href="../privacy.html" hreflang="ko" lang="ko">한국어</a> <a href="../en/privacy.html" hreflang="en" lang="en">English</a> <a href="../en-GB/privacy.html" hreflang="en-GB" lang="en-GB">English (UK)</a> <a href="../zh-Hans/privacy.html" hreflang="zh-Hans" lang="zh-Hans">简体中文</a> <a href="../zh-Hant/privacy.html" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a> <a href="../ja/privacy.html" hreflang="ja" lang="ja">日本語</a> <a href="../ru/privacy.html" hreflang="ru" lang="ru">Русский</a> <a href="../es/privacy.html" hreflang="es" lang="es">Español</a> <a href="../de/privacy.html" hreflang="de" lang="de">Deutsch</a> <a href="../fr/privacy.html" hreflang="fr" lang="fr">Français</a> <a href="../it/privacy.html" hreflang="it" lang="it">Italiano</a> <a href="../pt-BR/privacy.html" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a> <a href="../th/privacy.html" hreflang="th" lang="th">ไทย</a> <a href="../vi/privacy.html" hreflang="vi" lang="vi">Tiếng Việt</a> <a href="../cs/privacy.html" hreflang="cs" lang="cs">Čeština</a> <a href="../da/privacy.html" hreflang="da" lang="da">Dansk</a> <a href="../el/privacy.html" hreflang="el" lang="el">Ελληνικά</a> <a href="../fi/privacy.html" hreflang="fi" lang="fi">Suomi</a> <a href="../id/privacy.html" hreflang="id" lang="id">Bahasa Indonesia</a> <a href="../nb/privacy.html" hreflang="nb" lang="nb">Norsk bokmål</a> <a href="../nl/privacy.html" hreflang="nl" lang="nl">Nederlands</a> <a href="../pl/privacy.html" hreflang="pl" lang="pl">Polski</a> <a href="../sv/privacy.html" hreflang="sv" lang="sv">Svenska</a> <a href="../tr/privacy.html" hreflang="tr" lang="tr" aria-current="page">Türkçe</a></nav><!--langswitch:end-->
     <a class="back" href="./index.html">← LectureQ: Ders Soru Notları</a>
     <h1>Gizlilik Politikası</h1>
-    <p class="updated">Son güncelleme: 17 Ekim 2026</p>
+    <p class="updated">Son güncelleme: 13 Kasım 2026</p>
 
     <div class="callout">
       <strong>Özetle:</strong> LectureQ kişisel veri toplamaz ve satmaz.
-      Girdiğiniz her şey (dersler, sorular, cevaplar, notlar) yalnızca Mac’inizde saklanır.
-      Uygulamanın kaç Mac’te kullanıldığını bilmek ve hataları düzeltmek için geliştiriciye anonim kullanım istatistikleri (madde 5),
+      Girdiğiniz her şey (dersler, sorular, cevaplar, notlar) aygıtınızda saklanır ve iCloud’a giriş yaptıysanız
+      kendi iCloud’unuz üzerinden yalnızca kendi Mac, iPhone ve iPad’iniz arasında eşitlenir. Geliştirici bunların hiçbirini göremez.
+      Uygulamanın kaç aygıtta kullanıldığını bilmek ve hataları düzeltmek için geliştiriciye anonim kullanım istatistikleri (madde 5),
       ayrıca “Geri Bildirim Gönder” ile kendinizin gönderdiği yazılar (madde 6) iletilir.
     </div>
 
@@ -71,12 +72,14 @@
 
     <h2>2. Oluşturduğunuz veriler</h2>
     <p>Dersler, zaman blokları, notlar, sorular, cevaplar, öğrenme durumu gibi uygulamada oluşturduğunuz tüm veriler
-    yalnızca Mac’inizin yerel depolama alanında (SwiftData) tutulur. Konumu şudur:</p>
+    aygıtınızın yerel depolama alanında (SwiftData) tutulur. Mac’te konumu aşağıdaki gibidir; iPhone ve iPad’de ise uygulamanın kendi depolama alanında kalır.</p>
     <ul>
       <li><code>~/Library/Containers/com.lectureq.LectureQ/Data/Library/Application Support/LectureQ/</code></li>
     </ul>
-    <p>Bu veriler geliştirici dahil hiç kimseye gönderilmez ve iCloud gibi bir buluta eşitlenmez.</p>
-    <p>Bunun dışında uygulama, ilk yükleme tarihini ve açılış sayısını uygulama ayarlarına (macOS kullanıcı varsayılanları) kaydeder. Bu değerler yalnızca madde 5’teki anonim kullanım istatistikleri için kullanılır.</p>
+    <p>Aygıtınızda iCloud’a giriş yapılmışsa bu veriler, aynı Apple Hesabı’nı kullanan Mac, iPhone ve iPad’iniz arasında Apple iCloud’daki <strong>size ait özel veritabanı</strong> üzerinden eşitlenir (CloudKit, <code>iCloud.com.lectureq.LectureQ</code>).
+    Bu veritabanı Apple Hesabınıza aittir ve iCloud saklama alanınızı kullanır; geliştirici dahil başka hiç kimse onu okuyamaz veya alamaz. iCloud’da saklandığı süre boyunca Apple’ın gizlilik politikasına göre işlenir.</p>
+    <p>iCloud’a giriş yapmadıysanız verileriniz yalnızca o aygıtta saklanır ve hiçbir yere gönderilmez.</p>
+    <p>Bunun dışında uygulama, ilk yükleme tarihini ve açılış sayısını uygulama ayarlarına (kullanıcı varsayılanları) kaydeder. Bu değerler yalnızca madde 5’teki anonim kullanım istatistikleri için kullanılır.</p>
 
     <h2>3. Dosya içe aktarma</h2>
     <p>“Markdown’dan İçe Aktar…” özelliğini kullandığınızda uygulama, dosya seçme penceresinde <strong>yalnızca sizin seçtiğiniz dosyayı</strong> salt okunur olarak açar.
@@ -84,46 +87,48 @@
 
     <h2>4. Pano ve harici yapay zekâ hizmetleri</h2>
     <p>“Yapay Zekâ İstemini Kopyala”ya tıkladığınızda, seçtiğiniz soruyu ve ilgili içeriği (ders adı, o anın notları, öğrenme durumu, asıl soru, yazdığınız cevap) içeren bir metin
-    <strong>yalnızca tıkladığınız anda</strong> Mac’inizin panosuna kopyalanır.</p>
+    <strong>yalnızca tıkladığınız anda</strong> aygıtınızın panosuna kopyalanır.</p>
     <p>LectureQ bu içeriği yapay zekâ hizmetleri dahil hiçbir harici hizmete doğrudan göndermez.
     Kopyaladığınız içeriği harici bir yapay zekâ hizmetine yapıştırırsanız, sonrasındaki işlemler o hizmetin gizlilik politikasına tabidir.
     Lütfen yapıştırmadan önce hassas bilgi olup olmadığını kontrol edin.</p>
 
     <h2>5. Anonim kullanım istatistikleri</h2>
-    <p>Uygulamayı kaç kişinin kullandığını bilmek ve hataları düzeltmek için LectureQ aşağıdaki anonim istatistikleri Apple iCloud’a (CloudKit) gönderir. Bunları yalnızca geliştirici okur.</p>
+    <p>Uygulamayı kaç kişinin kullandığını bilmek ve hataları düzeltmek için LectureQ aşağıdaki anonim istatistikleri, madde 2’deki veri eşitlemenizden ayrı olarak geliştiricinin Apple iCloud’daki (CloudKit) kendi alanına gönderir. Bunları yalnızca geliştirici okur.</p>
     <ul>
-      <li>Yükleme sırasında oluşturulan rastgele bir kimlik (Mac’inize, Apple Kimliğinize veya başka uygulamalara bağlı değildir; yeniden yüklediğinizde değişir)</li>
-      <li>Uygulama sürümü, macOS sürümü, bölge ve dil ayarları</li>
+      <li>Yükleme sırasında oluşturulan rastgele bir kimlik (aygıtınıza, Apple Hesabınıza veya başka uygulamalara bağlı değildir; yeniden yüklediğinizde değişir)</li>
+      <li>Uygulama sürümü, işletim sistemi (macOS, iOS veya iPadOS) sürümü, bölge ve dil ayarları</li>
       <li>Uygulamanın açılma sayısı ve açıldığı günler, yükleme tarihi ve yüklemeden bu yana geçen gün sayısı</li>
-      <li>Uygulama donduğunda veya beklenmedik şekilde kapandığında hata raporları (uygulama sürümü, macOS sürümü, aygıt türü, hatanın teknik bilgileri)</li>
+      <li>Uygulama donduğunda veya beklenmedik şekilde kapandığında hata raporları (uygulama sürümü, işletim sistemi sürümü, aygıt türü, hatanın teknik bilgileri)</li>
     </ul>
-    <p>Ad, iletişim bilgileri, konum veya dersler, sorular, cevaplar, notlar gibi yazdığınız içerikler dahil edilmez. Yalnızca Mac’te iCloud oturumu açıkken gönderilir.</p>
+    <p>Ad, iletişim bilgileri, konum veya dersler, sorular, cevaplar, notlar gibi yazdığınız içerikler dahil edilmez. Yalnızca aygıtta iCloud oturumu açıkken gönderilir.</p>
 
     <h2>6. Geri bildirim gönderme</h2>
-    <p>Ayarlar’daki (⌘,) “Geri Bildirim Gönder”i veya memnuniyet sorusundaki “Daha iyi olabilecek şeyler var” seçeneğini kullandığınızda, aşağıdakiler Apple iCloud’a (CloudKit) kaydedilip geliştiriciye iletilir;
+    <p>Uygulama ayarlarındaki (Mac’te ⌘,) “Geri Bildirim Gönder”i veya memnuniyet sorusundaki “Daha iyi olabilecek şeyler var” seçeneğini kullandığınızda, aşağıdakiler Apple iCloud’a (CloudKit) kaydedilip geliştiriciye iletilir;
     bu <strong>yalnızca bir şey yazıp kendiniz gönderdiğinizde</strong> olur:</p>
     <ul>
       <li>Geri bildirim türü ve yazdığınız metin</li>
-      <li>Uygulama sürümü, macOS sürümü, aygıt türü, bölge ve dil ayarları</li>
+      <li>Uygulama sürümü, işletim sistemi sürümü, aygıt türü, bölge ve dil ayarları</li>
     </ul>
     <p>Dersler, sorular, cevaplar ve notlar geri bildirime otomatik olarak eklenmez. Lütfen geri bildirim metnine kişisel bilgi yazmayın.
     “E-postayla Ulaşın”a tıkladığınızda varsayılan e-posta uygulamanız açılır ve e-posta kendi e-posta hizmetiniz üzerinden gönderilir.</p>
     <p>Ayrıca sorun çıkaran bir özelliğin uzaktan kapatılabilmesi için uygulama, özellik bazında açık/kapalı ayarlarını iCloud’dan <strong>yalnızca okur</strong>. Bu sırada sizinle ilgili hiçbir bilgi gönderilmez.</p>
 
     <h2>7. Ağ iletişimi ve izleme</h2>
-    <p>LectureQ’nun internet üzerinden gönderdiği tek şey madde 5’teki anonim kullanım istatistikleri ve madde 6’da sizin gönderdiğiniz geri bildirimlerdir; geliştiricinin işlettiği ayrı bir sunucu yoktur.
-    Reklam veya üçüncü taraf izleme teknolojileri kesinlikle kullanılmaz. Geri bildirim gönderme dışında uygulamanın tüm özellikleri internet bağlantısı olmadan çalışır.</p>
+    <p>LectureQ’nun internet üzerinden gönderdiği tek şey madde 2’de açıklandığı gibi kendi iCloud’unuza eşitlenen verileriniz, madde 5’teki anonim kullanım istatistikleri ve madde 6’da sizin gönderdiğiniz geri bildirimlerdir; geliştiricinin işlettiği ayrı bir sunucu yoktur.
+    Reklam veya üçüncü taraf izleme teknolojileri kesinlikle kullanılmaz. iCloud eşitlemesi ve geri bildirim gönderme dışında uygulamanın tüm özellikleri internet bağlantısı olmadan çalışır.</p>
     <p>Uygulamadaki “Rehber: Yapay Zekâ ile Cevap Bul” bağlantısı bu web sitesini (GitHub Pages) varsayılan web tarayıcınızda açar.
     Web sitesini ziyaret ederken gerçekleşen iletişim, tarayıcının ve GitHub’ın politikalarına tabidir.</p>
 
     <h2>8. Üçüncü taraflarla paylaşım</h2>
-    <p>Kişisel veri toplamadığımız için üçüncü taraflara sağlanan veya onlarla paylaşılan bilgi de yoktur. Anonim kullanım istatistikleri ve geri bildirimler yalnızca Apple iCloud’da saklanır, başka şirketlere verilmez.</p>
+    <p>Kişisel veri toplamadığımız için üçüncü taraflara sağlanan veya onlarla paylaşılan bilgi de yoktur. Eşitlenen verileriniz, anonim kullanım istatistikleri ve geri bildirimler yalnızca Apple iCloud’da saklanır, başka şirketlere verilmez.</p>
 
     <h2>9. Verilerin saklanması ve silinmesi</h2>
-    <p>Veriler siz silene kadar aygıtınızda kalır.</p>
+    <p>Veriler siz silene kadar aygıtınızda ve iCloud eşitlemesini kullanıyorsanız iCloud’unuzda kalır.</p>
     <ul>
-      <li>Tek tek silme: Uygulamada soruyu (sağ tık → Sil), bloğu (Ayarlar → Bloğu Sil) ve dersi (ders menüsü → Geçerli Dersi Sil) silebilirsiniz.</li>
-      <li>Tümünü silme: Uygulamadan çıkın ve madde 2’deki klasörü silin. macOS’te uygulamayı Çöp Sepeti’ne atsanız bile bu klasör kalabilir.</li>
+      <li>Tek tek silme: Uygulamada soruyu (sağ tık → Sil), bloğu (Ayarlar → Bloğu Sil) ve dersi (ders menüsü → Geçerli Dersi Sil) silebilirsiniz. Sildiğiniz öğeler iCloud’dan ve eşitlenen diğer aygıtlarınızdan da kaldırılır.</li>
+      <li>iCloud’dan silme: Aygıtınızın iCloud ayarlarında Saklama Alanını Yönet’i açın ve LectureQ’nun verilerini silerek iCloud’a eşitlenen verileri kaldırın.</li>
+      <li>Aygıttan silme: Mac’te uygulamadan çıkın ve madde 2’deki klasörü silin (uygulamayı Çöp Sepeti’ne atsanız bile bu klasör kalabilir). iPhone ve iPad’de uygulamayı silmek, o aygıttaki verilerini de siler.
+      iCloud eşitlemesini kullanıyorsanız önce iCloud’daki verileri silin; aksi hâlde veriler yeniden indirilir.</li>
     </ul>
 
     <h2>10. Çocukların kişisel verileri</h2>

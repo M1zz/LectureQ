@@ -56,12 +56,13 @@
 <!--langswitch:start--><nav class="langs" aria-label="Language"><a href="../privacy.html" hreflang="ko" lang="ko">한국어</a> <a href="../en/privacy.html" hreflang="en" lang="en">English</a> <a href="../en-GB/privacy.html" hreflang="en-GB" lang="en-GB">English (UK)</a> <a href="../zh-Hans/privacy.html" hreflang="zh-Hans" lang="zh-Hans">简体中文</a> <a href="../zh-Hant/privacy.html" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a> <a href="../ja/privacy.html" hreflang="ja" lang="ja">日本語</a> <a href="../ru/privacy.html" hreflang="ru" lang="ru">Русский</a> <a href="../es/privacy.html" hreflang="es" lang="es">Español</a> <a href="../de/privacy.html" hreflang="de" lang="de">Deutsch</a> <a href="../fr/privacy.html" hreflang="fr" lang="fr">Français</a> <a href="../it/privacy.html" hreflang="it" lang="it">Italiano</a> <a href="../pt-BR/privacy.html" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a> <a href="../th/privacy.html" hreflang="th" lang="th">ไทย</a> <a href="../vi/privacy.html" hreflang="vi" lang="vi">Tiếng Việt</a> <a href="../cs/privacy.html" hreflang="cs" lang="cs">Čeština</a> <a href="../da/privacy.html" hreflang="da" lang="da">Dansk</a> <a href="../el/privacy.html" hreflang="el" lang="el">Ελληνικά</a> <a href="../fi/privacy.html" hreflang="fi" lang="fi">Suomi</a> <a href="../id/privacy.html" hreflang="id" lang="id">Bahasa Indonesia</a> <a href="../nb/privacy.html" hreflang="nb" lang="nb">Norsk bokmål</a> <a href="../nl/privacy.html" hreflang="nl" lang="nl">Nederlands</a> <a href="../pl/privacy.html" hreflang="pl" lang="pl">Polski</a> <a href="../sv/privacy.html" hreflang="sv" lang="sv" aria-current="page">Svenska</a> <a href="../tr/privacy.html" hreflang="tr" lang="tr">Türkçe</a></nav><!--langswitch:end-->
     <a class="back" href="./index.html">← LectureQ: Frågeanteckningar</a>
     <h1>Integritetspolicy</h1>
-    <p class="updated">Senast uppdaterad: 17 oktober 2026</p>
+    <p class="updated">Senast uppdaterad: 13 november 2026</p>
 
     <div class="callout">
       <strong>Sammanfattning:</strong> LectureQ samlar inte in och säljer inte personuppgifter.
-      Allt du skriver (föreläsningar, frågor, svar och anteckningar) sparas bara på din egen Mac.
-      För att veta på hur många Mac-datorer appen används och för att kunna rätta fel skickas anonym användningsstatistik till utvecklaren (punkt 5),
+      Allt du skriver (föreläsningar, frågor, svar och anteckningar) sparas på din enhet och synkas, om du är inloggad på iCloud,
+      bara mellan din egen Mac, iPhone och iPad via din egen iCloud. Utvecklaren kan inte se något av det.
+      För att veta på hur många enheter appen används och för att kunna rätta fel skickas anonym användningsstatistik till utvecklaren (punkt 5),
       och text som du själv skickar med ”Skicka feedback” går till utvecklaren (punkt 6).
     </div>
 
@@ -71,12 +72,14 @@
 
     <h2>2. Data som du skapar</h2>
     <p>Alla data du skapar i appen, till exempel föreläsningar, tidsblock, anteckningar, frågor, svar och inlärningsstatus,
-    sparas enbart lokalt på din Mac (SwiftData), på följande plats:</p>
+    sparas lokalt på din enhet (SwiftData). På en Mac ligger de på följande plats, och på iPhone och iPad stannar de i appens eget lagringsutrymme.</p>
     <ul>
       <li><code>~/Library/Containers/com.lectureq.LectureQ/Data/Library/Application Support/LectureQ/</code></li>
     </ul>
-    <p>Dessa data skickas inte till någon utanför din Mac, inte heller till utvecklaren, och synkroniseras inte med iCloud eller något annat moln.</p>
-    <p>Utöver detta registrerar appen datumet för den första installationen och antalet gånger appen har öppnats i appens inställningar (användarstandarder i macOS). Dessa värden används bara för den anonyma användningsstatistiken i punkt 5.</p>
+    <p>Om din enhet är inloggad på iCloud synkroniseras dessa data mellan Mac, iPhone och iPad som använder samma Apple-konto, via <strong>din egen privata databas</strong> i Apple iCloud (CloudKit, <code>iCloud.com.lectureq.LectureQ</code>).
+    Databasen tillhör ditt Apple-konto och använder ditt iCloud-lagringsutrymme. Ingen annan, inte heller utvecklaren, kan läsa eller ta emot den. Så länge datan finns i iCloud hanteras den enligt Apples integritetspolicy.</p>
+    <p>Om du inte är inloggad på iCloud sparas dina data bara på den enheten och skickas ingenstans.</p>
+    <p>Utöver detta registrerar appen datumet för den första installationen och antalet gånger appen har öppnats i appens inställningar (användarstandarder). Dessa värden används bara för den anonyma användningsstatistiken i punkt 5.</p>
 
     <h2>3. Importera filer</h2>
     <p>När du använder ”Importera från Markdown …” öppnar appen <strong>bara den fil du själv väljer</strong> i filväljaren, och bara för läsning.
@@ -84,46 +87,48 @@
 
     <h2>4. Urklipp och externa AI-tjänster</h2>
     <p>När du klickar på ”Kopiera AI-prompt” kopieras en text med den valda frågan och tillhörande sammanhang (föreläsningens namn, anteckningen från den tidpunkten, inlärningsstatus, den ursprungliga frågan och svaret du har skrivit)
-    till urklippet på din Mac, <strong>men bara när du själv klickar</strong>.</p>
+    till urklippet på din enhet, <strong>men bara när du själv klickar</strong>.</p>
     <p>LectureQ skickar aldrig själv innehållet till någon extern tjänst, inte heller till AI-tjänster.
     Om du klistrar in det kopierade i en extern AI-tjänst gäller den tjänstens integritetspolicy för den fortsatta behandlingen.
     Kontrollera känsligt innehåll innan du klistrar in.</p>
 
     <h2>5. Anonym användningsstatistik</h2>
-    <p>För att veta hur många som använder appen och kunna rätta fel skickar LectureQ följande anonyma statistik till Apple iCloud (CloudKit). Bara utvecklaren kan läsa den.</p>
+    <p>För att veta hur många som använder appen och kunna rätta fel skickar LectureQ följande anonyma statistik till utvecklarens eget utrymme i Apple iCloud (CloudKit), åtskilt från synkroniseringen av dina data i punkt 2. Bara utvecklaren kan läsa den.</p>
     <ul>
-      <li>Ett slumpmässigt ID som skapas vid installationen (det är inte kopplat till din Mac, ditt Apple-ID eller andra appar och ändras om du installerar om)</li>
-      <li>Appversion, macOS-version samt inställningar för region och språk</li>
+      <li>Ett slumpmässigt ID som skapas vid installationen (det är inte kopplat till din enhet, ditt Apple-konto eller andra appar och ändras om du installerar om)</li>
+      <li>Appversion, version av operativsystemet (macOS, iOS eller iPadOS) samt inställningar för region och språk</li>
       <li>Hur många gånger och vilka dagar appen har öppnats, installationsdatum och antal dagar sedan installationen</li>
-      <li>Felrapporter när appen hänger sig eller avslutas oväntat (appversion, macOS-version, enhetstyp och tekniska uppgifter om felet)</li>
+      <li>Felrapporter när appen hänger sig eller avslutas oväntat (appversion, operativsystemversion, enhetstyp och tekniska uppgifter om felet)</li>
     </ul>
-    <p>Namn, kontaktuppgifter, plats och innehåll som du har skrivit, till exempel föreläsningar, frågor, svar och anteckningar, ingår inte. Statistiken skickas bara när din Mac är inloggad på iCloud.</p>
+    <p>Namn, kontaktuppgifter, plats och innehåll som du har skrivit, till exempel föreläsningar, frågor, svar och anteckningar, ingår inte. Statistiken skickas bara när din enhet är inloggad på iCloud.</p>
 
     <h2>6. Skicka feedback</h2>
-    <p>När du använder ”Skicka feedback” i Inställningar (⌘,) eller ”Något kunde vara bättre” i nöjdhetsfrågan sparas följande i Apple iCloud (CloudKit) och skickas till utvecklaren,
+    <p>När du använder ”Skicka feedback” i appens inställningar (⌘, på en Mac) eller ”Något kunde vara bättre” i nöjdhetsfrågan sparas följande i Apple iCloud (CloudKit) och skickas till utvecklaren,
     <strong>men bara när du själv skriver och skickar</strong>:</p>
     <ul>
       <li>Typ av feedback och texten du har skrivit</li>
-      <li>Appversion, macOS-version, enhetstyp samt inställningar för region och språk</li>
+      <li>Appversion, operativsystemversion, enhetstyp samt inställningar för region och språk</li>
     </ul>
     <p>Föreläsningar, frågor, svar och anteckningar bifogas inte automatiskt i din feedback. Undvik att skriva personuppgifter i feedbacken.
     Om du klickar på ”Kontakta via e-post” öppnas din förvalda e-postapp, och meddelandet skickas via din egen e-posttjänst.</p>
     <p>Appen <strong>läser</strong> dessutom bara en på/av-inställning för varje funktion i iCloud, så att en funktion med problem kan stängas av på distans. Inga uppgifter om dig skickas då.</p>
 
     <h2>7. Nätverkstrafik och spårning</h2>
-    <p>Det enda LectureQ skickar via internet är den anonyma användningsstatistiken i punkt 5 och den feedback du själv skickar (punkt 6). Utvecklaren har ingen egen server.
-    Varken annonser eller spårningsteknik från tredje part används. Förutom att skicka feedback fungerar alla appens funktioner utan internetanslutning.</p>
+    <p>Det enda LectureQ skickar via internet är dina data som synkas till din egen iCloud enligt punkt 2, den anonyma användningsstatistiken i punkt 5 och den feedback du själv skickar (punkt 6). Utvecklaren har ingen egen server.
+    Varken annonser eller spårningsteknik från tredje part används. Förutom iCloud-synkronisering och att skicka feedback fungerar alla appens funktioner utan internetanslutning.</p>
     <p>Länken ”Guide: hitta svar med AI” i appen öppnar den här webbplatsen (GitHub Pages) i din förvalda webbläsare.
     Trafiken vid besök på webbsidan omfattas av webbläsarens och GitHubs policyer.</p>
 
     <h2>8. Delning med tredje part</h2>
-    <p>Eftersom vi inte samlar in personuppgifter finns det heller inget som lämnas ut till eller delas med tredje part. Den anonyma användningsstatistiken och feedbacken sparas bara i Apple iCloud och lämnas inte vidare till andra företag.</p>
+    <p>Eftersom vi inte samlar in personuppgifter finns det heller inget som lämnas ut till eller delas med tredje part. Dina synkade data, den anonyma användningsstatistiken och feedbacken sparas bara i Apple iCloud och lämnas inte vidare till andra företag.</p>
 
     <h2>9. Lagring och radering av data</h2>
-    <p>Dina data finns kvar på enheten tills du raderar dem.</p>
+    <p>Dina data finns kvar på enheten, och i din iCloud om du använder iCloud-synkronisering, tills du raderar dem.</p>
     <ul>
-      <li>Radera enskilt: I appen kan du radera frågor (högerklicka → Radera), block (Inställningar → Radera block) och föreläsningar (föreläsningsmenyn → Radera aktuell föreläsning).</li>
-      <li>Radera allt: Avsluta appen och radera mappen i punkt 2. I macOS kan mappen finnas kvar även om du flyttar appen till papperskorgen.</li>
+      <li>Radera enskilt: I appen kan du radera frågor (högerklicka → Radera), block (Inställningar → Radera block) och föreläsningar (föreläsningsmenyn → Radera aktuell föreläsning). Det du raderar tas även bort från iCloud och dina andra synkade enheter.</li>
+      <li>Radera från iCloud: Öppna Hantera lagring i enhetens iCloud-inställningar och radera LectureQ:s data för att ta bort det som har synkats till iCloud.</li>
+      <li>Radera från en enhet: På en Mac avslutar du appen och raderar mappen i punkt 2 (den kan finnas kvar även om du flyttar appen till papperskorgen). På iPhone och iPad raderas datan på enheten när du raderar appen.
+      Om du använder iCloud-synkronisering ska du radera iCloud-datan först, annars laddas den bara ned igen.</li>
     </ul>
 
     <h2>10. Barns integritet</h2>

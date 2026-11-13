@@ -56,12 +56,13 @@
 <!--langswitch:start--><nav class="langs" aria-label="Language"><a href="../privacy.html" hreflang="ko" lang="ko">한국어</a> <a href="../en/privacy.html" hreflang="en" lang="en">English</a> <a href="../en-GB/privacy.html" hreflang="en-GB" lang="en-GB">English (UK)</a> <a href="../zh-Hans/privacy.html" hreflang="zh-Hans" lang="zh-Hans">简体中文</a> <a href="../zh-Hant/privacy.html" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a> <a href="../ja/privacy.html" hreflang="ja" lang="ja">日本語</a> <a href="../ru/privacy.html" hreflang="ru" lang="ru">Русский</a> <a href="../es/privacy.html" hreflang="es" lang="es">Español</a> <a href="../de/privacy.html" hreflang="de" lang="de">Deutsch</a> <a href="../fr/privacy.html" hreflang="fr" lang="fr">Français</a> <a href="../it/privacy.html" hreflang="it" lang="it">Italiano</a> <a href="../pt-BR/privacy.html" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a> <a href="../th/privacy.html" hreflang="th" lang="th">ไทย</a> <a href="../vi/privacy.html" hreflang="vi" lang="vi" aria-current="page">Tiếng Việt</a> <a href="../cs/privacy.html" hreflang="cs" lang="cs">Čeština</a> <a href="../da/privacy.html" hreflang="da" lang="da">Dansk</a> <a href="../el/privacy.html" hreflang="el" lang="el">Ελληνικά</a> <a href="../fi/privacy.html" hreflang="fi" lang="fi">Suomi</a> <a href="../id/privacy.html" hreflang="id" lang="id">Bahasa Indonesia</a> <a href="../nb/privacy.html" hreflang="nb" lang="nb">Norsk bokmål</a> <a href="../nl/privacy.html" hreflang="nl" lang="nl">Nederlands</a> <a href="../pl/privacy.html" hreflang="pl" lang="pl">Polski</a> <a href="../sv/privacy.html" hreflang="sv" lang="sv">Svenska</a> <a href="../tr/privacy.html" hreflang="tr" lang="tr">Türkçe</a></nav><!--langswitch:end-->
     <a class="back" href="./index.html">← LectureQ: Hỏi đáp bài giảng</a>
     <h1>Chính sách quyền riêng tư</h1>
-    <p class="updated">Cập nhật lần cuối: ngày 17 tháng 10 năm 2026</p>
+    <p class="updated">Cập nhật lần cuối: ngày 13 tháng 11 năm 2026</p>
 
     <div class="callout">
       <strong>Tóm tắt:</strong> LectureQ không thu thập và không bán thông tin cá nhân.
-      Mọi nội dung bạn nhập (bài giảng, câu hỏi, câu trả lời, ghi chú) chỉ được lưu trên máy Mac của bạn.
-      Ứng dụng gửi thống kê sử dụng ẩn danh cho nhà phát triển để biết ứng dụng đang được dùng trên bao nhiêu máy Mac và để sửa lỗi (mục 5),
+      Mọi nội dung bạn nhập (bài giảng, câu hỏi, câu trả lời, ghi chú) được lưu trên thiết bị của bạn và, nếu bạn đã đăng nhập iCloud,
+      chỉ được đồng bộ giữa máy Mac, iPhone và iPad của chính bạn qua iCloud của bạn. Nhà phát triển không thể xem bất kỳ nội dung nào trong đó.
+      Ứng dụng gửi thống kê sử dụng ẩn danh cho nhà phát triển để biết ứng dụng đang được dùng trên bao nhiêu thiết bị và để sửa lỗi (mục 5),
       và những gì bạn tự gửi qua “Gửi góp ý” sẽ đến tay nhà phát triển (mục 6).
     </div>
 
@@ -71,12 +72,14 @@
 
     <h2>2. Dữ liệu do bạn tạo</h2>
     <p>Mọi dữ liệu bạn tạo trong ứng dụng, gồm bài giảng, khối thời gian, ghi chú, câu hỏi, câu trả lời và trạng thái học tập,
-    chỉ được lưu trong bộ nhớ cục bộ (SwiftData) trên máy Mac của người dùng, tại vị trí sau:</p>
+    được lưu trong bộ nhớ cục bộ (SwiftData) trên thiết bị của người dùng. Trên máy Mac, dữ liệu nằm ở vị trí sau; trên iPhone và iPad, dữ liệu nằm trong vùng lưu trữ riêng của ứng dụng.</p>
     <ul>
       <li><code>~/Library/Containers/com.lectureq.LectureQ/Data/Library/Application Support/LectureQ/</code></li>
     </ul>
-    <p>Dữ liệu này không được gửi cho bất kỳ ai bên ngoài, kể cả nhà phát triển, và không được đồng bộ lên đám mây như iCloud.</p>
-    <p>Ngoài ra, ứng dụng ghi lại ngày cài đặt đầu tiên và số lần mở ứng dụng trong phần cài đặt của ứng dụng (user defaults của macOS). Các giá trị này chỉ được dùng cho thống kê sử dụng ẩn danh ở mục 5.</p>
+    <p>Nếu thiết bị đã đăng nhập iCloud, dữ liệu này được đồng bộ giữa máy Mac, iPhone và iPad dùng cùng một Tài khoản Apple, thông qua <strong>cơ sở dữ liệu riêng tư của chính bạn</strong> trên Apple iCloud (CloudKit, <code>iCloud.com.lectureq.LectureQ</code>).
+    Cơ sở dữ liệu này thuộc về Tài khoản Apple của bạn và dùng dung lượng iCloud của bạn; không ai khác, kể cả nhà phát triển, có thể đọc hay nhận được dữ liệu đó. Trong thời gian được lưu trên iCloud, dữ liệu được xử lý theo chính sách quyền riêng tư của Apple.</p>
+    <p>Nếu bạn chưa đăng nhập iCloud, dữ liệu chỉ được lưu trên thiết bị đó và không được gửi đi đâu cả.</p>
+    <p>Ngoài ra, ứng dụng ghi lại ngày cài đặt đầu tiên và số lần mở ứng dụng trong phần cài đặt của ứng dụng (user defaults). Các giá trị này chỉ được dùng cho thống kê sử dụng ẩn danh ở mục 5.</p>
 
     <h2>3. Nhập tệp</h2>
     <p>Khi bạn dùng “Nhập từ Markdown…”, ứng dụng chỉ mở ở chế độ chỉ đọc <strong>những tệp do chính bạn chọn</strong> trong cửa sổ chọn tệp.
@@ -84,46 +87,48 @@
 
     <h2>4. Bảng nhớ tạm và dịch vụ AI bên ngoài</h2>
     <p>Khi bạn nhấn “Sao chép prompt AI”, một đoạn văn bản chứa câu hỏi đã chọn và nội dung liên quan (tên bài giảng, ghi chú tại thời điểm đó, trạng thái học tập, câu hỏi gốc, câu trả lời đã ghi)
-    được sao chép vào bảng nhớ tạm của máy Mac, <strong>chỉ vào lúc bạn nhấn</strong>.</p>
+    được sao chép vào bảng nhớ tạm của thiết bị, <strong>chỉ vào lúc bạn nhấn</strong>.</p>
     <p>LectureQ không trực tiếp gửi nội dung này đến bất kỳ dịch vụ bên ngoài nào, kể cả dịch vụ AI.
     Nếu bạn dán nội dung đã sao chép vào một dịch vụ AI bên ngoài, việc xử lý sau đó sẽ tuân theo chính sách quyền riêng tư của dịch vụ đó.
     Hãy kiểm tra những nội dung nhạy cảm trước khi dán.</p>
 
     <h2>5. Thống kê sử dụng ẩn danh</h2>
-    <p>Để biết có bao nhiêu người dùng ứng dụng và để sửa lỗi, LectureQ gửi các thống kê ẩn danh sau lên Apple iCloud (CloudKit). Chỉ nhà phát triển đọc được.</p>
+    <p>Để biết có bao nhiêu người dùng ứng dụng và để sửa lỗi, LectureQ gửi các thống kê ẩn danh sau lên không gian riêng của nhà phát triển trên Apple iCloud (CloudKit), tách biệt với việc đồng bộ dữ liệu của bạn ở mục 2. Chỉ nhà phát triển đọc được.</p>
     <ul>
-      <li>Một ID ngẫu nhiên tạo ra khi cài đặt (không gắn với máy Mac, Apple ID hay ứng dụng nào khác, và sẽ thay đổi khi cài lại)</li>
-      <li>Phiên bản ứng dụng, phiên bản macOS, cài đặt vùng và ngôn ngữ</li>
+      <li>Một ID ngẫu nhiên tạo ra khi cài đặt (không gắn với thiết bị, Tài khoản Apple hay ứng dụng nào khác, và sẽ thay đổi khi cài lại)</li>
+      <li>Phiên bản ứng dụng, phiên bản hệ điều hành (macOS, iOS hoặc iPadOS), cài đặt vùng và ngôn ngữ</li>
       <li>Số lần và những ngày mở ứng dụng, ngày cài đặt và số ngày kể từ khi cài đặt</li>
-      <li>Báo cáo lỗi khi ứng dụng bị treo hoặc thoát bất thường (phiên bản ứng dụng, phiên bản macOS, loại thiết bị, thông tin kỹ thuật về lỗi)</li>
+      <li>Báo cáo lỗi khi ứng dụng bị treo hoặc thoát bất thường (phiên bản ứng dụng, phiên bản hệ điều hành, loại thiết bị, thông tin kỹ thuật về lỗi)</li>
     </ul>
-    <p>Thống kê không bao gồm tên, thông tin liên hệ, vị trí, hay nội dung bạn viết như bài giảng, câu hỏi, câu trả lời và ghi chú. Thống kê chỉ được gửi khi máy Mac đang đăng nhập iCloud.</p>
+    <p>Thống kê không bao gồm tên, thông tin liên hệ, vị trí, hay nội dung bạn viết như bài giảng, câu hỏi, câu trả lời và ghi chú. Thống kê chỉ được gửi khi thiết bị đang đăng nhập iCloud.</p>
 
     <h2>6. Gửi góp ý</h2>
-    <p><strong>Chỉ khi bạn tự viết và gửi</strong> qua “Gửi góp ý” trong Cài đặt (⌘,) hoặc qua “Có điều chưa ổn” trong câu hỏi về mức độ hài lòng,
+    <p><strong>Chỉ khi bạn tự viết và gửi</strong> qua “Gửi góp ý” trong Cài đặt của ứng dụng (⌘, trên máy Mac) hoặc qua “Có điều chưa ổn” trong câu hỏi về mức độ hài lòng,
     các nội dung sau mới được lưu trên Apple iCloud (CloudKit) và gửi đến nhà phát triển:</p>
     <ul>
       <li>Loại góp ý và nội dung bạn viết</li>
-      <li>Phiên bản ứng dụng, phiên bản macOS, loại thiết bị, cài đặt vùng và ngôn ngữ</li>
+      <li>Phiên bản ứng dụng, phiên bản hệ điều hành, loại thiết bị, cài đặt vùng và ngôn ngữ</li>
     </ul>
     <p>Bài giảng, câu hỏi, câu trả lời và ghi chú không tự động được đính kèm vào góp ý. Vui lòng không ghi thông tin cá nhân trong nội dung góp ý.
     Khi bạn nhấn “Liên hệ qua email”, ứng dụng email mặc định sẽ mở ra và email đó được gửi qua dịch vụ email của chính bạn.</p>
     <p>Ngoài ra, để có thể tắt từ xa một tính năng đang gặp sự cố, ứng dụng <strong>chỉ đọc</strong> cài đặt bật/tắt của từng tính năng từ iCloud. Khi đó, ứng dụng không gửi đi thông tin nào của người dùng.</p>
 
     <h2>7. Kết nối mạng và theo dõi</h2>
-    <p>Những gì LectureQ gửi qua Internet chỉ gồm thống kê sử dụng ẩn danh ở mục 5 và góp ý do chính bạn gửi ở mục 6; nhà phát triển không vận hành máy chủ riêng nào.
-    Ứng dụng hoàn toàn không dùng quảng cáo hay công nghệ theo dõi của bên thứ ba. Ngoại trừ việc gửi góp ý, mọi tính năng của ứng dụng đều hoạt động mà không cần kết nối Internet.</p>
+    <p>Những gì LectureQ gửi qua Internet chỉ gồm dữ liệu của bạn được đồng bộ lên iCloud của chính bạn ở mục 2, thống kê sử dụng ẩn danh ở mục 5 và góp ý do chính bạn gửi ở mục 6; nhà phát triển không vận hành máy chủ riêng nào.
+    Ứng dụng hoàn toàn không dùng quảng cáo hay công nghệ theo dõi của bên thứ ba. Ngoại trừ việc đồng bộ iCloud và gửi góp ý, mọi tính năng của ứng dụng đều hoạt động mà không cần kết nối Internet.</p>
     <p>Liên kết “Hướng dẫn: tìm câu trả lời bằng AI” trong ứng dụng sẽ mở trang web này (GitHub Pages) bằng trình duyệt mặc định.
     Kết nối khi truy cập trang web tuân theo chính sách của trình duyệt và của GitHub.</p>
 
     <h2>8. Cung cấp cho bên thứ ba</h2>
-    <p>Vì không thu thập thông tin cá nhân, chúng tôi cũng không có thông tin nào để cung cấp hay chia sẻ với bên thứ ba. Thống kê sử dụng ẩn danh và góp ý chỉ được lưu trên Apple iCloud và không được cung cấp cho công ty nào khác.</p>
+    <p>Vì không thu thập thông tin cá nhân, chúng tôi cũng không có thông tin nào để cung cấp hay chia sẻ với bên thứ ba. Dữ liệu được đồng bộ, thống kê sử dụng ẩn danh và góp ý chỉ được lưu trên Apple iCloud và không được cung cấp cho công ty nào khác.</p>
 
     <h2>9. Lưu giữ và xóa dữ liệu</h2>
-    <p>Dữ liệu được giữ trên thiết bị cho đến khi bạn xóa.</p>
+    <p>Dữ liệu được giữ trên thiết bị, và trên iCloud của bạn nếu bạn dùng đồng bộ iCloud, cho đến khi bạn xóa.</p>
     <ul>
-      <li>Xóa từng mục: trong ứng dụng, bạn có thể xóa câu hỏi (nhấp chuột phải → Xóa), khối (Cài đặt → Xóa khối) và bài giảng (menu bài giảng → Xóa bài giảng hiện tại).</li>
-      <li>Xóa toàn bộ: thoát ứng dụng rồi xóa thư mục lưu trữ ở mục 2 phía trên. Trên macOS, thư mục này có thể vẫn còn dù bạn đã bỏ ứng dụng vào Thùng rác.</li>
+      <li>Xóa từng mục: trong ứng dụng, bạn có thể xóa câu hỏi (nhấp chuột phải → Xóa), khối (Cài đặt → Xóa khối) và bài giảng (menu bài giảng → Xóa bài giảng hiện tại). Các mục đã xóa cũng bị xóa khỏi iCloud và các thiết bị khác đang đồng bộ.</li>
+      <li>Xóa khỏi iCloud: trong cài đặt iCloud của thiết bị, mở “Quản lý dung lượng” và xóa dữ liệu của LectureQ để xóa phần dữ liệu đã đồng bộ lên iCloud.</li>
+      <li>Xóa khỏi một thiết bị: trên máy Mac, thoát ứng dụng rồi xóa thư mục lưu trữ ở mục 2 phía trên (thư mục này có thể vẫn còn dù bạn đã bỏ ứng dụng vào Thùng rác). Trên iPhone và iPad, xóa ứng dụng cũng sẽ xóa dữ liệu của ứng dụng trên thiết bị đó.
+      Nếu bạn dùng đồng bộ iCloud, hãy xóa dữ liệu trên iCloud trước, nếu không dữ liệu sẽ lại được tải về.</li>
     </ul>
 
     <h2>10. Thông tin cá nhân của trẻ em</h2>

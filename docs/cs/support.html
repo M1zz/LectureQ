@@ -205,11 +205,11 @@
     <details>
       <summary>Kde jsou uložená moje data? Jak je zálohovat?</summary>
       <div class="body">
-        <p>Všechna data se ukládají jen do následující složky v tomto Macu a nikam mimo zařízení se neodesílají.</p>
+        <p>Všechna data se ukládají ve vašem zařízení: v Macu do následující složky, v iPhonu a iPadu do vlastního úložiště aplikace. Pokud jste přihlášeni k iCloudu, synchronizují se mezi vašimi zařízeními Mac, iPhone a iPad přes váš iCloud a vývojář do nich nevidí.</p>
         <p><code>~/Library/Containers/com.lectureq.LectureQ/Data/Library/Application Support/LectureQ/</code></p>
         <ul>
           <li><strong>Záloha:</strong> ukončete aplikaci a zkopírujte celou složku (včetně souborů <code>-wal</code> a <code>-shm</code>, které leží vedle <code>LectureQ.store</code>).</li>
-          <li><strong>Obnovení do výchozího stavu:</strong> ukončete aplikaci a složku smažte. Pouhým přesunutím aplikace do koše se tato složka nesmaže.</li>
+          <li><strong>Obnovení do výchozího stavu:</strong> ukončete aplikaci a složku smažte. Pouhým přesunutím aplikace do koše se tato složka nesmaže. Pokud používáte synchronizaci s iCloudem, nejdřív smažte data aplikace LectureQ v nastavení iCloudu v části „Spravovat úložiště“, jinak se znovu stáhnou.</li>
         </ul>
       </div>
     </details>
@@ -217,7 +217,7 @@
     <details>
       <summary>Systémové požadavky · Jak aplikaci sestavit ze zdrojového kódu?</summary>
       <div class="body">
-        <p>Aplikace funguje v macOS 14 a novějším.</p>
+        <p>Aplikace funguje na Macu s macOS 14 a novějším a na iPhonu a iPadu s iOS nebo iPadOS 18 a novějším.</p>
         <p>Sestavení ze zdrojového kódu: naklonujte repozitář a spusťte <code>./run.sh</code>, nebo spusťte <code>xcodegen generate</code>, otevřete <code>LectureQ.xcodeproj</code> v Xcode a aplikaci spusťte.
         Podrobnosti najdete v <a href="https://github.com/M1zz/LectureQ">repozitáři na GitHubu</a>.</p>
       </div>

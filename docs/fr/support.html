@@ -205,11 +205,11 @@
     <details>
       <summary>Où sont enregistrées mes données ? Comment les sauvegarder ?</summary>
       <div class="body">
-        <p>Toutes vos données sont enregistrées uniquement dans le dossier suivant de ce Mac et ne quittent jamais l’appareil.</p>
+        <p>Toutes vos données sont enregistrées sur votre appareil : sur Mac, dans le dossier suivant, et sur iPhone et iPad, dans l’espace de stockage propre à l’app. Si vous êtes connecté à iCloud, elles sont synchronisées entre vos propres Mac, iPhone et iPad via votre iCloud, et le développeur ne peut pas les voir.</p>
         <p><code>~/Library/Containers/com.lectureq.LectureQ/Data/Library/Application Support/LectureQ/</code></p>
         <ul>
           <li><strong>Sauvegarde :</strong> quittez l’app, puis copiez ce dossier en entier (y compris les fichiers <code>-wal</code> et <code>-shm</code> situés à côté de <code>LectureQ.store</code>).</li>
-          <li><strong>Réinitialisation :</strong> quittez l’app, puis supprimez ce dossier. Placer l’app dans la corbeille ne suffit pas à l’effacer.</li>
+          <li><strong>Réinitialisation :</strong> quittez l’app, puis supprimez ce dossier. Placer l’app dans la corbeille ne suffit pas à l’effacer. Si vous utilisez la synchronisation iCloud, supprimez d’abord les données de LectureQ dans « Gérer le stockage » des réglages iCloud, sinon elles seront téléchargées à nouveau.</li>
         </ul>
       </div>
     </details>
@@ -217,7 +217,7 @@
     <details>
       <summary>Configuration requise · Compiler l’app depuis le code source ?</summary>
       <div class="body">
-        <p>L’app fonctionne sous macOS 14 ou version ultérieure.</p>
+        <p>L’app fonctionne sur Mac avec macOS 14 ou version ultérieure, et sur iPhone et iPad avec iOS ou iPadOS 18 ou version ultérieure.</p>
         <p>Compilation : clonez le dépôt et lancez <code>./run.sh</code>, ou exécutez <code>xcodegen generate</code>, puis ouvrez <code>LectureQ.xcodeproj</code> dans Xcode et lancez l’app.
         Plus de détails sur le <a href="https://github.com/M1zz/LectureQ">dépôt GitHub</a>.</p>
       </div>

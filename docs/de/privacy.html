@@ -56,12 +56,12 @@
 <!--langswitch:start--><nav class="langs" aria-label="Language"><a href="../privacy.html" hreflang="ko" lang="ko">한국어</a> <a href="../en/privacy.html" hreflang="en" lang="en">English</a> <a href="../en-GB/privacy.html" hreflang="en-GB" lang="en-GB">English (UK)</a> <a href="../zh-Hans/privacy.html" hreflang="zh-Hans" lang="zh-Hans">简体中文</a> <a href="../zh-Hant/privacy.html" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a> <a href="../ja/privacy.html" hreflang="ja" lang="ja">日本語</a> <a href="../ru/privacy.html" hreflang="ru" lang="ru">Русский</a> <a href="../es/privacy.html" hreflang="es" lang="es">Español</a> <a href="../de/privacy.html" hreflang="de" lang="de" aria-current="page">Deutsch</a> <a href="../fr/privacy.html" hreflang="fr" lang="fr">Français</a> <a href="../it/privacy.html" hreflang="it" lang="it">Italiano</a> <a href="../pt-BR/privacy.html" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a> <a href="../th/privacy.html" hreflang="th" lang="th">ไทย</a> <a href="../vi/privacy.html" hreflang="vi" lang="vi">Tiếng Việt</a> <a href="../cs/privacy.html" hreflang="cs" lang="cs">Čeština</a> <a href="../da/privacy.html" hreflang="da" lang="da">Dansk</a> <a href="../el/privacy.html" hreflang="el" lang="el">Ελληνικά</a> <a href="../fi/privacy.html" hreflang="fi" lang="fi">Suomi</a> <a href="../id/privacy.html" hreflang="id" lang="id">Bahasa Indonesia</a> <a href="../nb/privacy.html" hreflang="nb" lang="nb">Norsk bokmål</a> <a href="../nl/privacy.html" hreflang="nl" lang="nl">Nederlands</a> <a href="../pl/privacy.html" hreflang="pl" lang="pl">Polski</a> <a href="../sv/privacy.html" hreflang="sv" lang="sv">Svenska</a> <a href="../tr/privacy.html" hreflang="tr" lang="tr">Türkçe</a></nav><!--langswitch:end-->
     <a class="back" href="./index.html">← LectureQ</a>
     <h1>Datenschutzerklärung</h1>
-    <p class="updated">Zuletzt aktualisiert: 17. Oktober 2026</p>
+    <p class="updated">Zuletzt aktualisiert: 13. November 2026</p>
 
     <div class="callout">
       <strong>Kurz gesagt:</strong> LectureQ erhebt und verkauft keine personenbezogenen Daten.
-      Alles, was du eingibst (Vorlesungen, Fragen, Antworten, Notizen), wird ausschließlich auf deinem Mac gespeichert.
-      An den Entwickler gehen nur anonyme Nutzungsstatistiken, damit er weiß, auf wie vielen Macs die App läuft, und Fehler beheben kann (Abschnitt 5),
+      Alles, was du eingibst (Vorlesungen, Fragen, Antworten, Notizen), wird auf deinem Gerät gespeichert und – wenn du bei iCloud angemeldet bist – nur zwischen deinen eigenen Geräten (Mac, iPhone und iPad) über deine eigene iCloud synchronisiert. Der Entwickler kann nichts davon sehen.
+      An den Entwickler gehen nur anonyme Nutzungsstatistiken, damit er weiß, auf wie vielen Geräten die App läuft, und Fehler beheben kann (Abschnitt 5),
       sowie Nachrichten, die du selbst über „Feedback senden“ abschickst (Abschnitt 6).
     </div>
 
@@ -71,12 +71,14 @@
 
     <h2>2. Deine eigenen Daten</h2>
     <p>Alle Daten, die du in der App anlegst – Vorlesungen, Zeitblöcke, Notizen, Fragen, Antworten, Lernstand usw. –,
-    werden ausschließlich im lokalen Speicher deines Macs (SwiftData) abgelegt, und zwar hier:</p>
+    werden im lokalen Speicher deines Geräts (SwiftData) abgelegt. Auf dem Mac liegen sie hier; auf iPhone und iPad bleiben sie im eigenen Speicherbereich der App:</p>
     <ul>
       <li><code>~/Library/Containers/com.lectureq.LectureQ/Data/Library/Application Support/LectureQ/</code></li>
     </ul>
-    <p>Diese Daten werden an niemanden außerhalb deines Macs übertragen, auch nicht an den Entwickler, und nicht mit iCloud oder einem anderen Cloud-Dienst synchronisiert.</p>
-    <p>Außerdem speichert die App das Datum der Erstinstallation und die Anzahl der App-Starts in ihren Einstellungen (macOS-Benutzervoreinstellungen). Diese Werte dienen ausschließlich den anonymen Nutzungsstatistiken aus Abschnitt 5.</p>
+    <p>Wenn dein Gerät bei iCloud angemeldet ist, werden diese Daten zwischen deinem Mac, iPhone und iPad mit demselben Apple Account über <strong>deine eigene private Datenbank</strong> in Apple iCloud (CloudKit, <code>iCloud.com.lectureq.LectureQ</code>) synchronisiert.
+    Diese Datenbank gehört zu deinem Apple Account und nutzt deinen iCloud-Speicher; niemand sonst, auch nicht der Entwickler, kann sie lesen oder erhalten. Solange die Daten in iCloud liegen, werden sie gemäß der Datenschutzrichtlinie von Apple behandelt.</p>
+    <p>Wenn du nicht bei iCloud angemeldet bist, werden deine Daten nur auf diesem Gerät gespeichert und nirgendwohin gesendet.</p>
+    <p>Außerdem speichert die App das Datum der Erstinstallation und die Anzahl der App-Starts in ihren Einstellungen (Benutzervoreinstellungen). Diese Werte dienen ausschließlich den anonymen Nutzungsstatistiken aus Abschnitt 5.</p>
 
     <h2>3. Dateien importieren</h2>
     <p>Wenn du „Aus Markdown importieren …“ verwendest, öffnet die App <strong>nur die Datei, die du selbst</strong> im Dateiauswahlfenster ausgewählt hast, und zwar schreibgeschützt.
@@ -84,46 +86,48 @@
 
     <h2>4. Zwischenablage und externe KI-Dienste</h2>
     <p>Wenn du auf „KI-Prompt kopieren“ klickst, wird ein Text mit der gewählten Frage und dem zugehörigen Kontext (Name der Vorlesung, Notizen zu diesem Zeitpunkt, Lernstand, Ursprungsfrage, bereits notierte Antwort)
-    in die Zwischenablage deines Macs kopiert – <strong>nur in dem Moment, in dem du klickst</strong>.</p>
+    in die Zwischenablage deines Geräts kopiert – <strong>nur in dem Moment, in dem du klickst</strong>.</p>
     <p>LectureQ sendet diese Inhalte selbst an keinen externen Dienst, auch nicht an KI-Dienste.
     Fügst du den kopierten Text in einen externen KI-Dienst ein, gilt für alles Weitere dessen Datenschutzerklärung.
     Bitte prüfe sensible Inhalte, bevor du sie einfügst.</p>
 
     <h2>5. Anonyme Nutzungsstatistiken</h2>
-    <p>Um zu wissen, wie viele Menschen die App nutzen, und um Fehler beheben zu können, sendet LectureQ die folgenden anonymen Statistiken an Apple iCloud (CloudKit). Nur der Entwickler kann sie lesen.</p>
+    <p>Um zu wissen, wie viele Menschen die App nutzen, und um Fehler beheben zu können, sendet LectureQ die folgenden anonymen Statistiken an einen eigenen Bereich des Entwicklers in Apple iCloud (CloudKit), getrennt von der Synchronisierung deiner Daten aus Abschnitt 2. Nur der Entwickler kann sie lesen.</p>
     <ul>
-      <li>Eine zufällige ID, die bei der Installation erzeugt wird (nicht mit deinem Mac, deiner Apple-ID oder anderen Apps verknüpft; sie ändert sich bei einer Neuinstallation)</li>
-      <li>App-Version, macOS-Version, Region- und Spracheinstellungen</li>
+      <li>Eine zufällige ID, die bei der Installation erzeugt wird (nicht mit deinem Gerät, deinem Apple Account oder anderen Apps verknüpft; sie ändert sich bei einer Neuinstallation)</li>
+      <li>App-Version, Version des Betriebssystems (macOS, iOS oder iPadOS), Region- und Spracheinstellungen</li>
       <li>Wie oft und an welchen Tagen die App geöffnet wurde, Installationsdatum und die Anzahl der Tage seit der Installation</li>
-      <li>Fehlerberichte, wenn die App hängt oder unerwartet beendet wird (App-Version, macOS-Version, Gerätetyp, technische Angaben zum Fehler)</li>
+      <li>Fehlerberichte, wenn die App hängt oder unerwartet beendet wird (App-Version, Betriebssystemversion, Gerätetyp, technische Angaben zum Fehler)</li>
     </ul>
-    <p>Name, Kontaktdaten, Standort und von dir verfasste Inhalte wie Vorlesungen, Fragen, Antworten oder Notizen sind nicht enthalten. Die Daten werden nur gesendet, wenn dein Mac bei iCloud angemeldet ist.</p>
+    <p>Name, Kontaktdaten, Standort und von dir verfasste Inhalte wie Vorlesungen, Fragen, Antworten oder Notizen sind nicht enthalten. Die Daten werden nur gesendet, wenn dein Gerät bei iCloud angemeldet ist.</p>
 
     <h2>6. Feedback senden</h2>
-    <p>Über „Feedback senden“ in den Einstellungen (⌘,) oder „Etwas könnte besser sein“ in der Zufriedenheitsabfrage werden <strong>nur dann, wenn du selbst etwas schreibst und es abschickst</strong>,
+    <p>Über „Feedback senden“ in den Einstellungen der App (auf dem Mac ⌘,) oder „Etwas könnte besser sein“ in der Zufriedenheitsabfrage werden <strong>nur dann, wenn du selbst etwas schreibst und es abschickst</strong>,
     die folgenden Angaben in Apple iCloud (CloudKit) gespeichert und an den Entwickler übermittelt:</p>
     <ul>
       <li>Art des Feedbacks und der von dir geschriebene Text</li>
-      <li>App-Version, macOS-Version, Gerätetyp, Region- und Spracheinstellungen</li>
+      <li>App-Version, Betriebssystemversion, Gerätetyp, Region- und Spracheinstellungen</li>
     </ul>
     <p>Vorlesungen, Fragen, Antworten und Notizen werden nicht automatisch angehängt. Bitte schreib keine personenbezogenen Daten in dein Feedback.
     Wenn du auf „Per E-Mail kontaktieren“ klickst, öffnet sich deine Standard-Mail-App; die E-Mail wird dann über deinen eigenen E-Mail-Dienst versendet.</p>
     <p>Damit der Entwickler eine fehlerhafte Funktion aus der Ferne abschalten kann, <strong>liest</strong> die App außerdem pro Funktion eine Ein/Aus-Einstellung aus iCloud. Dabei werden keine Angaben über dich übertragen.</p>
 
     <h2>7. Netzwerkverbindungen und Tracking</h2>
-    <p>Über das Internet sendet LectureQ nur die anonymen Nutzungsstatistiken aus Abschnitt 5 und das Feedback, das du selbst sendest (Abschnitt 6). Der Entwickler betreibt keinen eigenen Server.
-    Werbung oder Tracking-Technologien von Drittanbietern werden nicht eingesetzt. Abgesehen vom Senden von Feedback funktionieren alle Funktionen der App ohne Internetverbindung.</p>
+    <p>Über das Internet sendet LectureQ nur deine mit deiner eigenen iCloud synchronisierten Daten (Abschnitt 2), die anonymen Nutzungsstatistiken aus Abschnitt 5 und das Feedback, das du selbst sendest (Abschnitt 6). Der Entwickler betreibt keinen eigenen Server.
+    Werbung oder Tracking-Technologien von Drittanbietern werden nicht eingesetzt. Abgesehen von der iCloud-Synchronisierung und dem Senden von Feedback funktionieren alle Funktionen der App ohne Internetverbindung.</p>
     <p>Der Link „Leitfaden: Antworten mit KI finden“ in der App öffnet diese Website (GitHub Pages) in deinem Standardbrowser.
     Für die Verbindung beim Besuch der Website gelten die Richtlinien deines Browsers und von GitHub.</p>
 
     <h2>8. Weitergabe an Dritte</h2>
-    <p>Da keine personenbezogenen Daten erhoben werden, werden auch keine an Dritte weitergegeben oder mit ihnen geteilt. Anonyme Nutzungsstatistiken und Feedback werden lediglich in Apple iCloud gespeichert und an kein anderes Unternehmen weitergegeben.</p>
+    <p>Da keine personenbezogenen Daten erhoben werden, werden auch keine an Dritte weitergegeben oder mit ihnen geteilt. Deine synchronisierten Daten, anonyme Nutzungsstatistiken und Feedback werden lediglich in Apple iCloud gespeichert und an kein anderes Unternehmen weitergegeben.</p>
 
     <h2>9. Speicherdauer und Löschung</h2>
-    <p>Deine Daten bleiben auf deinem Gerät, bis du sie löschst.</p>
+    <p>Deine Daten bleiben auf deinem Gerät – und, wenn du die iCloud-Synchronisierung nutzt, in deiner iCloud –, bis du sie löschst.</p>
     <ul>
-      <li>Einzeln löschen: In der App kannst du Fragen (Rechtsklick → Löschen), Blöcke (Einstellungen → Block löschen) und Vorlesungen (Vorlesungsmenü → Aktuelle Vorlesung löschen) entfernen.</li>
-      <li>Alles löschen: Beende die App und lösche den in Abschnitt 2 genannten Ordner. Unter macOS kann dieser Ordner bestehen bleiben, auch wenn du die App in den Papierkorb legst.</li>
+      <li>Einzeln löschen: In der App kannst du Fragen (Rechtsklick → Löschen), Blöcke (Einstellungen → Block löschen) und Vorlesungen (Vorlesungsmenü → Aktuelle Vorlesung löschen) entfernen. Gelöschtes wird auch aus iCloud und von deinen anderen synchronisierten Geräten entfernt.</li>
+      <li>Aus iCloud löschen: Öffne in den iCloud-Einstellungen deines Geräts „Speicher verwalten“ und lösche die Daten von LectureQ, um die mit iCloud synchronisierten Daten zu entfernen.</li>
+      <li>Von einem Gerät löschen: Auf dem Mac beendest du die App und löschst den in Abschnitt 2 genannten Ordner (er kann bestehen bleiben, auch wenn du die App in den Papierkorb legst). Auf iPhone und iPad werden beim Löschen der App auch ihre Daten auf diesem Gerät gelöscht.
+      Wenn du die iCloud-Synchronisierung nutzt, lösche zuerst die Daten in iCloud – sonst werden sie einfach wieder heruntergeladen.</li>
     </ul>
 
     <h2>10. Daten von Kindern</h2>

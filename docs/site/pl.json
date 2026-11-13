@@ -1,11 +1,11 @@
 {
-  "title": "LectureQ: zapisuj pytania, które przychodzą do głowy na wykładzie, na Maca",
+  "title": "LectureQ: zapisuj pytania, które przychodzą do głowy na wykładzie, na Maca, iPhone’a i iPada",
   "description": "Zapisz pytanie jednym skrótem w trakcie wykładu. Zostaje obok notatek z tamtej chwili, dopóki nie znajdziesz odpowiedzi. Za darmo do 10 wykładów.",
   "hero": {
     "headline": "Żadne pytanie z wykładu\njuż ci nie ucieknie",
     "lead": "Naciśnij `⌘⇧N`, wpisz jedną linijkę, a pytanie trafi obok notatek z dokładnie tej minuty. Słuchasz dalej, odpowiedzi szukasz później.",
     "cta": "Pobierz za darmo z App Store",
-    "note": "Dla macOS 14 lub nowszego. Bez konta, wszystko zostaje na tym Macu."
+    "note": "Na Maca (macOS 14 lub nowszy), iPhone’a i iPada (iOS 18 lub nowszy). Bez konta, synchronizacja przez Twoje własne iCloud."
   },
   "demo": {
     "title": "Wypróbuj tutaj",
@@ -171,7 +171,7 @@
       ],
       "note": "Wybierz subskrypcję tygodniową, miesięczną lub roczną albo jednorazową płatność na zawsze. Napiwki z Ustawień to osobna sprawa i niczego nie odblokowują."
     },
-    "note": "Bez reklam i bez konta. Twoje notatki zostają na tym Macu."
+    "note": "Bez reklam i bez konta. Twoje notatki zostają na Twoich urządzeniach i w Twoim własnym iCloud."
   },
   "faq": {
     "title": "Częste pytania",
@@ -202,15 +202,15 @@
       },
       {
         "q": "Gdzie są moje dane i jak zrobić kopię zapasową?",
-        "a": "Wszystko zostaje na tym Macu i nigdzie nie jest wysyłane. Zamknij aplikację i skopiuj cały folder ~/Library/Containers/com.lectureq.LectureQ/Data/Library/Application Support/LectureQ/ razem z plikami -wal i -shm. Aplikacja wysyła tylko anonimowe statystyki użycia, jak wersja i dni uruchomienia, nigdy tego, co piszesz."
+        "a": "Wszystko jest przechowywane na Twoim urządzeniu, a jeśli jesteś zalogowany(-a) do iCloud, synchronizowane między Twoimi urządzeniami Mac, iPhone i iPad przez Twoje iCloud. Deweloper nie ma do tego wglądu. Kopia zapasowa na Macu: zamknij aplikację i skopiuj cały folder ~/Library/Containers/com.lectureq.LectureQ/Data/Library/Application Support/LectureQ/ razem z plikami -wal i -shm. Aplikacja wysyła tylko anonimowe statystyki użycia, jak wersja i dni uruchomienia, nigdy tego, co piszesz."
       },
       {
         "q": "Tekst jest za mały.",
         "a": "`⌘+` go powiększa, `⌘-` zmniejsza, a `⌘0` przywraca domyślny rozmiar. Zakres to od 85% do 200%, a ustawienie jest zapamiętywane."
       },
       {
-        "q": "Na jakich Macach działa?",
-        "a": "Na każdym Macu z macOS 14 lub nowszym. Kod źródłowy jest publiczny na GitHubie: M1zz/LectureQ."
+        "q": "Na jakich urządzeniach działa?",
+        "a": "Na każdym Macu z macOS 14 lub nowszym oraz na iPhonie i iPadzie z iOS lub iPadOS 18 lub nowszym. Kod źródłowy jest publiczny na GitHubie: M1zz/LectureQ."
       },
       {
         "q": "Coś nie działa. Komu to zgłosić?",

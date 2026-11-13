@@ -6,6 +6,7 @@ options:
   developmentLanguage: ko
   deploymentTarget:
     macOS: "14.0"
+    iOS: "18.0"
   createIntermediateGroups: true
 
 # 버전·빌드 번호의 단일 소스 — DeployBar 가 배포할 때 이 파일을 고친다.
@@ -24,13 +25,15 @@ settings:
 packages:
   LeeoKit:
     url: https://github.com/M1zz/LeeoKit.git
-    majorVersion: 3.38.1
+    majorVersion: 3.43.0
 
 targets:
+  # Mac · iPhone · iPad 한 타깃 — 번들 ID 와 앱 레코드가 하나라 한 번 사면 모든 기기에서 쓴다(유니버설 구매).
+  # 공책은 사용자의 iCloud 개인 저장소(iCloud.com.lectureq.LectureQ)로 기기 사이를 오간다.
   LectureQ:
     type: application
-    platform: macOS
-    deploymentTarget: "14.0"
+    platform: auto
+    supportedDestinations: [macOS, iOS]
     sources:
       - path: LectureQ
         excludes: [AppIcon.icon]
@@ -54,9 +57,12 @@ targets:
         # 익명 사용 통계를 피드백 허브(CloudKit)로 보낸다 — 컨테이너 권한 없이 CKContainer 를 만들면 앱이 죽는다.
         com.apple.security.network.client: true
         com.apple.developer.icloud-container-identifiers:
+          - iCloud.com.lectureq.LectureQ
           - iCloud.com.Ysoup.FeedbackHub
         com.apple.developer.icloud-services:
           - CloudKit
+        # 다른 기기에서 고친 공책을 바로 받는 조용한 알림 (CloudKit 동기화)
+        com.apple.developer.aps-environment: development
     info:
       path: LectureQ/Info.plist
       properties:
@@ -73,10 +79,21 @@ targets:
         LSApplicationCategoryType: public.app-category.education
         # Finder · Spotlight 가 파일 이름(LectureQ.app) 대신 언어별 이름(InfoPlist.xcstrings, 한국어 '질문 노트')을 보이게 한다
         LSHasLocalizedDisplayName: true
+        # iPhone · iPad
+        UILaunchScreen: {}
+        UIApplicationSceneManifest:
+          UIApplicationSupportsMultipleScenes: true
+        UISupportedInterfaceOrientations~iphone: [UIInterfaceOrientationPortrait, UIInterfaceOrientationLandscapeLeft, UIInterfaceOrientationLandscapeRight]
+        UISupportedInterfaceOrientations~ipad: [UIInterfaceOrientationPortrait, UIInterfaceOrientationPortraitUpsideDown, UIInterfaceOrientationLandscapeLeft, UIInterfaceOrientationLandscapeRight]
+        UIBackgroundModes: [remote-notification]
     settings:
       base:
         PRODUCT_BUNDLE_IDENTIFIER: com.lectureq.LectureQ
         PRODUCT_NAME: LectureQ
+        TARGETED_DEVICE_FAMILY: "1,2"
+        # iOS 는 샌드박스 키가 없는 자기 권한 파일을 쓴다 (Mac 샌드박스 키를 iOS 서명이 거절한다)
+        "CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]": LectureQ/LectureQ-iOS.entitlements
+        "CODE_SIGN_ENTITLEMENTS[sdk=iphonesimulator*]": LectureQ/LectureQ-iOS.entitlements
         ENABLE_HARDENED_RUNTIME: YES
         COMBINE_HIDPI_IMAGES: YES
         ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon

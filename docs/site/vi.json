@@ -1,11 +1,11 @@
 {
-  "title": "LectureQ: ghi lại thắc mắc nảy ra giữa buổi học, cho Mac",
+  "title": "LectureQ: ghi lại thắc mắc nảy ra giữa buổi học, cho Mac, iPhone và iPad",
   "description": "Ghi lại câu hỏi bằng một phím tắt mà không lỡ bài giảng. Câu hỏi nằm cạnh ghi chú của lúc đó cho đến khi bạn có câu trả lời. Miễn phí tối đa 10 bài giảng.",
   "hero": {
     "headline": "Đừng để thắc mắc trên lớp\ntrôi mất nữa",
     "lead": "Nhấn `⌘⇧N`, gõ một dòng, câu hỏi sẽ nằm cạnh ghi chú của đúng phút đó. Bạn cứ nghe tiếp, câu trả lời tìm sau.",
     "cta": "Tải miễn phí trên App Store",
-    "note": "Dành cho macOS 14 trở lên. Không cần tài khoản, mọi thứ ở lại trên máy Mac này."
+    "note": "Dành cho Mac (macOS 14 trở lên), iPhone và iPad (iOS 18 trở lên). Không cần tài khoản, đồng bộ qua iCloud của chính bạn."
   },
   "demo": {
     "title": "Thử ngay tại đây",
@@ -171,7 +171,7 @@
       ],
       "note": "Chọn gói đăng ký theo tuần, tháng hoặc năm, hoặc trả một lần dùng trọn đời. Tip gửi trong Cài đặt là khoản riêng và không mở khóa gì."
     },
-    "note": "Không quảng cáo, không tài khoản. Ghi chú của bạn ở lại trên máy Mac này."
+    "note": "Không quảng cáo, không tài khoản. Ghi chú của bạn ở lại trên thiết bị và trong iCloud của chính bạn."
   },
   "faq": {
     "title": "Câu hỏi thường gặp",
@@ -202,15 +202,15 @@
       },
       {
         "q": "Dữ liệu được lưu ở đâu, sao lưu thế nào?",
-        "a": "Mọi thứ ở lại trên máy Mac này và không được tải lên đâu cả. Để sao lưu, thoát ứng dụng rồi sao chép nguyên thư mục ~/Library/Containers/com.lectureq.LectureQ/Data/Library/Application Support/LectureQ/ cùng các tệp -wal và -shm. Ứng dụng chỉ gửi thống kê sử dụng ẩn danh như phiên bản và những ngày đã mở, không bao giờ gửi nội dung bạn viết."
+        "a": "Mọi thứ được lưu trên thiết bị của bạn và, nếu bạn đã đăng nhập iCloud, được đồng bộ giữa máy Mac, iPhone và iPad của chính bạn qua iCloud của bạn. Nhà phát triển không thể xem được. Để sao lưu trên máy Mac, thoát ứng dụng rồi sao chép nguyên thư mục ~/Library/Containers/com.lectureq.LectureQ/Data/Library/Application Support/LectureQ/ cùng các tệp -wal và -shm. Ứng dụng chỉ gửi thống kê sử dụng ẩn danh như phiên bản và những ngày đã mở, không bao giờ gửi nội dung bạn viết."
       },
       {
         "q": "Chữ nhỏ quá.",
         "a": "`⌘+` để phóng to, `⌘-` để thu nhỏ, `⌘0` để về cỡ mặc định. Khoảng chỉnh từ 85% đến 200% và được ghi nhớ."
       },
       {
-        "q": "Dùng được trên những máy Mac nào?",
-        "a": "Mọi máy Mac chạy macOS 14 trở lên. Mã nguồn công khai trên GitHub tại M1zz/LectureQ."
+        "q": "Dùng được trên những thiết bị nào?",
+        "a": "Mọi máy Mac chạy macOS 14 trở lên, cùng iPhone và iPad chạy iOS hoặc iPadOS 18 trở lên. Mã nguồn công khai trên GitHub tại M1zz/LectureQ."
       },
       {
         "q": "Có gì đó không chạy. Tôi báo cho ai?",

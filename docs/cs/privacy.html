@@ -56,12 +56,13 @@
 <!--langswitch:start--><nav class="langs" aria-label="Language"><a href="../privacy.html" hreflang="ko" lang="ko">한국어</a> <a href="../en/privacy.html" hreflang="en" lang="en">English</a> <a href="../en-GB/privacy.html" hreflang="en-GB" lang="en-GB">English (UK)</a> <a href="../zh-Hans/privacy.html" hreflang="zh-Hans" lang="zh-Hans">简体中文</a> <a href="../zh-Hant/privacy.html" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a> <a href="../ja/privacy.html" hreflang="ja" lang="ja">日本語</a> <a href="../ru/privacy.html" hreflang="ru" lang="ru">Русский</a> <a href="../es/privacy.html" hreflang="es" lang="es">Español</a> <a href="../de/privacy.html" hreflang="de" lang="de">Deutsch</a> <a href="../fr/privacy.html" hreflang="fr" lang="fr">Français</a> <a href="../it/privacy.html" hreflang="it" lang="it">Italiano</a> <a href="../pt-BR/privacy.html" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a> <a href="../th/privacy.html" hreflang="th" lang="th">ไทย</a> <a href="../vi/privacy.html" hreflang="vi" lang="vi">Tiếng Việt</a> <a href="../cs/privacy.html" hreflang="cs" lang="cs" aria-current="page">Čeština</a> <a href="../da/privacy.html" hreflang="da" lang="da">Dansk</a> <a href="../el/privacy.html" hreflang="el" lang="el">Ελληνικά</a> <a href="../fi/privacy.html" hreflang="fi" lang="fi">Suomi</a> <a href="../id/privacy.html" hreflang="id" lang="id">Bahasa Indonesia</a> <a href="../nb/privacy.html" hreflang="nb" lang="nb">Norsk bokmål</a> <a href="../nl/privacy.html" hreflang="nl" lang="nl">Nederlands</a> <a href="../pl/privacy.html" hreflang="pl" lang="pl">Polski</a> <a href="../sv/privacy.html" hreflang="sv" lang="sv">Svenska</a> <a href="../tr/privacy.html" hreflang="tr" lang="tr">Türkçe</a></nav><!--langswitch:end-->
     <a class="back" href="./index.html">← LectureQ: Otázky z přednášek</a>
     <h1>Zásady ochrany osobních údajů</h1>
-    <p class="updated">Poslední aktualizace: 17. října 2026</p>
+    <p class="updated">Poslední aktualizace: 13. listopadu 2026</p>
 
     <div class="callout">
       <strong>Stručně:</strong> LectureQ neshromažďuje ani neprodává osobní údaje.
-      Vše, co zadáte (přednášky, otázky, odpovědi, poznámky), se ukládá výhradně ve vašem Macu.
-      Vývojáři se odesílají anonymní statistiky používání, aby věděl, na kolika Macích se aplikace používá, a mohl opravovat chyby (bod 5),
+      Vše, co zadáte (přednášky, otázky, odpovědi, poznámky), se ukládá ve vašem zařízení, a pokud jste přihlášeni k iCloudu,
+      synchronizuje se jen mezi vašimi vlastními zařízeními Mac, iPhone a iPad přes váš iCloud. Vývojář do toho nevidí.
+      Vývojáři se odesílají anonymní statistiky používání, aby věděl, na kolika zařízeních se aplikace používá, a mohl opravovat chyby (bod 5),
       a dále texty, které sami odešlete přes „Odeslat zpětnou vazbu“ (bod 6).
     </div>
 
@@ -71,59 +72,63 @@
 
     <h2>2. Data, která vytvoříte</h2>
     <p>Všechna data, která v aplikaci vytvoříte – přednášky, časové bloky, poznámky, otázky, odpovědi, stav učení a další –
-    se ukládají pouze do místního úložiště ve vašem Macu (SwiftData). Nacházejí se v této složce:</p>
+    se ukládají do místního úložiště ve vašem zařízení (SwiftData). V Macu se nacházejí v této složce, v iPhonu a iPadu zůstávají ve vlastním úložišti aplikace.</p>
     <ul>
       <li><code>~/Library/Containers/com.lectureq.LectureQ/Data/Library/Application Support/LectureQ/</code></li>
     </ul>
-    <p>Tato data se neodesílají nikomu mimo váš Mac, ani vývojáři, a nesynchronizují se do cloudu, například do iCloudu.</p>
-    <p>Kromě toho si aplikace v nastavení aplikace (uživatelské předvolby macOS) zaznamenává datum první instalace a počet spuštění. Tyto hodnoty slouží výhradně pro anonymní statistiky používání podle bodu 5.</p>
+    <p>Pokud je zařízení přihlášené k iCloudu, synchronizují se tato data mezi Macem, iPhonem a iPadem se stejným účtem Apple, a to přes <strong>vaši vlastní soukromou databázi</strong> v Apple iCloud (CloudKit, <code>iCloud.com.lectureq.LectureQ</code>).
+    Tato databáze patří k vašemu účtu Apple a využívá vaše úložiště na iCloudu. Nikdo jiný, ani vývojář, ji nemůže číst ani získat. Po dobu uložení v iCloudu se s daty nakládá podle zásad ochrany osobních údajů společnosti Apple.</p>
+    <p>Pokud k iCloudu přihlášeni nejste, data zůstávají jen v daném zařízení a nikam se neodesílají.</p>
+    <p>Kromě toho si aplikace v nastavení aplikace (uživatelské předvolby) zaznamenává datum první instalace a počet spuštění. Tyto hodnoty slouží výhradně pro anonymní statistiky používání podle bodu 5.</p>
 
     <h2>3. Import souborů</h2>
     <p>Při použití funkce „Importovat z Markdownu…“ aplikace otevře pouze pro čtení <strong>jen ten soubor, který sami vyberete</strong> v okně pro výběr souboru.
     Načtený obsah se uloží jako nová přednáška do místního úložiště aplikace. Původní soubor se nemění a aplikace nepřistupuje k žádným jiným souborům.</p>
 
     <h2>4. Schránka a externí služby AI</h2>
-    <p>Když kliknete na „Kopírovat prompt pro AI“, zkopíruje se do schránky Macu text s vybranou otázkou a souvisejícím obsahem (název přednášky, poznámky z daného okamžiku, stav učení, původní otázka a odpověď, kterou jste si zapsali),
+    <p>Když kliknete na „Kopírovat prompt pro AI“, zkopíruje se do schránky zařízení text s vybranou otázkou a souvisejícím obsahem (název přednášky, poznámky z daného okamžiku, stav učení, původní otázka a odpověď, kterou jste si zapsali),
     a to <strong>pouze ve chvíli, kdy na tlačítko kliknete</strong>.</p>
     <p>LectureQ tento obsah sám neodesílá žádné externí službě, ani službám AI.
     Pokud zkopírovaný text vložíte do externí služby AI, další zpracování se řídí zásadami ochrany osobních údajů dané služby.
     Citlivý obsah si před vložením prosím zkontrolujte.</p>
 
     <h2>5. Anonymní statistiky používání</h2>
-    <p>Aby vývojář věděl, kolik lidí aplikaci používá, a mohl opravovat chyby, odesílá LectureQ do Apple iCloud (CloudKit) následující anonymní statistiky. Číst je může pouze vývojář.</p>
+    <p>Aby vývojář věděl, kolik lidí aplikaci používá, a mohl opravovat chyby, odesílá LectureQ do vlastního prostoru vývojáře v Apple iCloud (CloudKit), odděleného od synchronizace vašich dat podle bodu 2, následující anonymní statistiky. Číst je může pouze vývojář.</p>
     <ul>
-      <li>Náhodné ID vytvořené při instalaci (není propojené s vaším Macem, Apple ID ani jinými aplikacemi a po přeinstalaci se změní)</li>
-      <li>Verze aplikace, verze macOS, nastavení oblasti a jazyka</li>
+      <li>Náhodné ID vytvořené při instalaci (není propojené s vaším zařízením, účtem Apple ani jinými aplikacemi a po přeinstalaci se změní)</li>
+      <li>Verze aplikace, verze operačního systému (macOS, iOS nebo iPadOS), nastavení oblasti a jazyka</li>
       <li>Počet spuštění aplikace a dny, kdy byla otevřena, datum instalace a počet dní od instalace</li>
-      <li>Hlášení o chybách, když aplikace zamrzne nebo se neočekávaně ukončí (verze aplikace, verze macOS, typ zařízení, technické údaje o chybě)</li>
+      <li>Hlášení o chybách, když aplikace zamrzne nebo se neočekávaně ukončí (verze aplikace, verze operačního systému, typ zařízení, technické údaje o chybě)</li>
     </ul>
-    <p>Statistiky neobsahují jméno, kontaktní údaje, polohu ani nic z toho, co napíšete (přednášky, otázky, odpovědi, poznámky). Odesílají se jen tehdy, když je Mac přihlášený k iCloudu.</p>
+    <p>Statistiky neobsahují jméno, kontaktní údaje, polohu ani nic z toho, co napíšete (přednášky, otázky, odpovědi, poznámky). Odesílají se jen tehdy, když je zařízení přihlášené k iCloudu.</p>
 
     <h2>6. Odeslání zpětné vazby</h2>
-    <p>Když v Nastavení (⌘,) použijete „Odeslat zpětnou vazbu“ nebo v otázce na spokojenost zvolíte „Něco by mohlo být lepší“, uloží se do Apple iCloud (CloudKit) a předají vývojáři následující údaje –
+    <p>Když v Nastavení aplikace (na Macu ⌘,) použijete „Odeslat zpětnou vazbu“ nebo v otázce na spokojenost zvolíte „Něco by mohlo být lepší“, uloží se do Apple iCloud (CloudKit) a předají vývojáři následující údaje –
     <strong>pouze tehdy, když text sami napíšete a odešlete</strong>:</p>
     <ul>
       <li>Typ zpětné vazby a text, který jste napsali</li>
-      <li>Verze aplikace, verze macOS, typ zařízení, nastavení oblasti a jazyka</li>
+      <li>Verze aplikace, verze operačního systému, typ zařízení, nastavení oblasti a jazyka</li>
     </ul>
     <p>Přednášky, otázky, odpovědi ani poznámky se ke zpětné vazbě automaticky nepřikládají. Do textu zpětné vazby prosím nepište osobní údaje.
     Když kliknete na „Napsat e-mail“, otevře se vaše výchozí poštovní aplikace a zpráva se odešle přes vaši e-mailovou službu.</p>
     <p>Aby bylo možné na dálku vypnout funkci, se kterou je problém, aplikace z iCloudu <strong>pouze čte</strong> nastavení zapnutí/vypnutí jednotlivých funkcí. Přitom se neodesílají žádné údaje o vás.</p>
 
     <h2>7. Síťová komunikace a sledování</h2>
-    <p>LectureQ odesílá přes internet pouze anonymní statistiky používání podle bodu 5 a zpětnou vazbu podle bodu 6, kterou sami odešlete. Vývojář neprovozuje žádný vlastní server.
-    Aplikace nepoužívá žádné reklamy ani technologie sledování třetích stran. Kromě odesílání zpětné vazby fungují všechny funkce aplikace bez připojení k internetu.</p>
+    <p>LectureQ odesílá přes internet pouze vaše data synchronizovaná do vašeho vlastního iCloudu podle bodu 2, anonymní statistiky používání podle bodu 5 a zpětnou vazbu podle bodu 6, kterou sami odešlete. Vývojář neprovozuje žádný vlastní server.
+    Aplikace nepoužívá žádné reklamy ani technologie sledování třetích stran. Kromě synchronizace s iCloudem a odesílání zpětné vazby fungují všechny funkce aplikace bez připojení k internetu.</p>
     <p>Odkaz „Průvodce: hledání odpovědí s AI“ v aplikaci otevře tento web (GitHub Pages) ve výchozím webovém prohlížeči.
     Komunikace při návštěvě webu se řídí zásadami prohlížeče a GitHubu.</p>
 
     <h2>8. Poskytování údajů třetím stranám</h2>
-    <p>Protože neshromažďujeme osobní údaje, žádné údaje ani neposkytujeme či nesdílíme s třetími stranami. Anonymní statistiky používání a zpětná vazba se pouze ukládají v Apple iCloud a jiným společnostem se neposkytují.</p>
+    <p>Protože neshromažďujeme osobní údaje, žádné údaje ani neposkytujeme či nesdílíme s třetími stranami. Synchronizovaná data, anonymní statistiky používání a zpětná vazba se pouze ukládají v Apple iCloud a jiným společnostem se neposkytují.</p>
 
     <h2>9. Uchovávání a mazání dat</h2>
-    <p>Data zůstávají ve vašem zařízení, dokud je nesmažete.</p>
+    <p>Data zůstávají ve vašem zařízení, a pokud používáte synchronizaci s iCloudem, i ve vašem iCloudu, dokud je nesmažete.</p>
     <ul>
-      <li>Mazání jednotlivých položek: v aplikaci můžete smazat otázku (pravé tlačítko → Smazat), blok (Nastavení → Smazat blok) nebo přednášku (nabídka přednášek → Smazat aktuální přednášku).</li>
-      <li>Smazání všeho: ukončete aplikaci a smažte složku z bodu 2. Po přesunutí aplikace do koše může tato složka v macOS zůstat.</li>
+      <li>Mazání jednotlivých položek: v aplikaci můžete smazat otázku (pravé tlačítko → Smazat), blok (Nastavení → Smazat blok) nebo přednášku (nabídka přednášek → Smazat aktuální přednášku). Smazané položky se odstraní i z iCloudu a z vašich dalších synchronizovaných zařízení.</li>
+      <li>Smazání z iCloudu: v nastavení iCloudu na svém zařízení otevřete „Spravovat úložiště“ a smažte data aplikace LectureQ. Tím odstraníte data synchronizovaná do iCloudu.</li>
+      <li>Smazání ze zařízení: na Macu ukončete aplikaci a smažte složku z bodu 2 (po přesunutí aplikace do koše může zůstat). V iPhonu a iPadu se smazáním aplikace smažou i její data v daném zařízení.
+      Pokud používáte synchronizaci s iCloudem, smažte nejdřív data v iCloudu, jinak se znovu stáhnou.</li>
     </ul>
 
     <h2>10. Osobní údaje dětí</h2>

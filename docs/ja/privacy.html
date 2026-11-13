@@ -56,12 +56,12 @@
 <!--langswitch:start--><nav class="langs" aria-label="Language"><a href="../privacy.html" hreflang="ko" lang="ko">한국어</a> <a href="../en/privacy.html" hreflang="en" lang="en">English</a> <a href="../en-GB/privacy.html" hreflang="en-GB" lang="en-GB">English (UK)</a> <a href="../zh-Hans/privacy.html" hreflang="zh-Hans" lang="zh-Hans">简体中文</a> <a href="../zh-Hant/privacy.html" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a> <a href="../ja/privacy.html" hreflang="ja" lang="ja" aria-current="page">日本語</a> <a href="../ru/privacy.html" hreflang="ru" lang="ru">Русский</a> <a href="../es/privacy.html" hreflang="es" lang="es">Español</a> <a href="../de/privacy.html" hreflang="de" lang="de">Deutsch</a> <a href="../fr/privacy.html" hreflang="fr" lang="fr">Français</a> <a href="../it/privacy.html" hreflang="it" lang="it">Italiano</a> <a href="../pt-BR/privacy.html" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a> <a href="../th/privacy.html" hreflang="th" lang="th">ไทย</a> <a href="../vi/privacy.html" hreflang="vi" lang="vi">Tiếng Việt</a> <a href="../cs/privacy.html" hreflang="cs" lang="cs">Čeština</a> <a href="../da/privacy.html" hreflang="da" lang="da">Dansk</a> <a href="../el/privacy.html" hreflang="el" lang="el">Ελληνικά</a> <a href="../fi/privacy.html" hreflang="fi" lang="fi">Suomi</a> <a href="../id/privacy.html" hreflang="id" lang="id">Bahasa Indonesia</a> <a href="../nb/privacy.html" hreflang="nb" lang="nb">Norsk bokmål</a> <a href="../nl/privacy.html" hreflang="nl" lang="nl">Nederlands</a> <a href="../pl/privacy.html" hreflang="pl" lang="pl">Polski</a> <a href="../sv/privacy.html" hreflang="sv" lang="sv">Svenska</a> <a href="../tr/privacy.html" hreflang="tr" lang="tr">Türkçe</a></nav><!--langswitch:end-->
     <a class="back" href="./index.html">← LectureQ：授業の疑問ノート</a>
     <h1>プライバシーポリシー</h1>
-    <p class="updated">最終更新日：2026年10月17日</p>
+    <p class="updated">最終更新日：2026年11月13日</p>
 
     <div class="callout">
       <strong>概要：</strong>LectureQは個人情報を収集することも、販売することもありません。
-      あなたが入力した内容（講義・質問・回答・メモ）はすべて、あなたのMacの中にだけ保存されます。
-      何台のMacで使われているかを把握し、不具合を直すために匿名の利用統計が開発者に送られます（第5条）。
+      あなたが入力した内容（講義・質問・回答・メモ）はすべてあなたのデバイスに保存され、iCloudにサインインしている場合は、あなた自身のiCloudを通じてあなたのMac、iPhone、iPadの間でだけ同期されます。開発者がその内容を見ることはできません。
+      何台のデバイスで使われているかを把握し、不具合を直すために匿名の利用統計が開発者に送られます（第5条）。
       また、あなたが自分で「フィードバックを送る」から送った文章は開発者に届きます（第6条）。
     </div>
 
@@ -71,12 +71,14 @@
 
     <h2>2. あなたが作成したデータ</h2>
     <p>講義、タイムブロック、メモ、質問、回答、学習状況など、アプリで作成するデータはすべて
-    ユーザーのMacのローカルストレージ（SwiftData）にのみ保存されます。保存場所は次のとおりです。</p>
+    ユーザーのデバイスのローカルストレージ（SwiftData）に保存されます。Macでの保存場所は次のとおりです。iPhoneとiPadでは、アプリ専用の保存領域の中に保存されます。</p>
     <ul>
       <li><code>~/Library/Containers/com.lectureq.LectureQ/Data/Library/Application Support/LectureQ/</code></li>
     </ul>
-    <p>このデータは、開発者を含む外部の誰にも送信されず、iCloudなどのクラウドにも同期されません。</p>
-    <p>このほか、アプリは最初にインストールした日付と起動回数をアプリの設定（macOSのユーザーデフォルト）に記録します。これらの値は第5条の匿名利用統計にのみ使われます。</p>
+    <p>デバイスがiCloudにサインインしている場合、このデータは、Apple iCloud（CloudKit、<code>iCloud.com.lectureq.LectureQ</code>）にある<strong>ユーザー自身のプライベートデータベース</strong>を通じて、同じApple Accountを使うMac、iPhone、iPadの間で同期されます。
+    このデータベースはユーザーのApple Accountに属し、ユーザーのiCloudストレージを使います。開発者を含め、ほかの誰もその内容を読んだり受け取ったりすることはできません。iCloudに保存されている間は、Appleのプライバシーポリシーに従って取り扱われます。</p>
+    <p>iCloudにサインインしていない場合、データはそのデバイスにだけ保存され、どこにも送信されません。</p>
+    <p>このほか、アプリは最初にインストールした日付と起動回数をアプリの設定（ユーザーデフォルト）に記録します。これらの値は第5条の匿名利用統計にのみ使われます。</p>
 
     <h2>3. ファイルの読み込み</h2>
     <p>「Markdownから読み込む…」を使うと、ユーザーがファイル選択画面で<strong>自分で選んだファイルだけ</strong>を読み取り専用で開きます。
@@ -84,46 +86,48 @@
 
     <h2>4. クリップボードと外部のAIサービス</h2>
     <p>「AIプロンプトをコピー」を押すと、選んだ質問とその関連情報（講義名、その時点のメモ、学習状況、元の質問、書いておいた回答）を含む文章が、
-    <strong>ユーザーが押したときにだけ</strong>Macのクリップボードにコピーされます。</p>
+    <strong>ユーザーが押したときにだけ</strong>デバイスのクリップボードにコピーされます。</p>
     <p>LectureQは、AIサービスを含むどの外部サービスにも、この内容を直接送ることはありません。
     コピーした内容を外部のAIサービスに貼り付けた場合、それ以降の取り扱いはそのサービスのプライバシーポリシーに従います。
     機密性の高い内容は、貼り付ける前にご確認ください。</p>
 
     <h2>5. 匿名の利用統計</h2>
-    <p>利用者数を把握し、不具合を直すために、LectureQは次の匿名統計をApple iCloud（CloudKit）に送ります。読めるのは開発者だけです。</p>
+    <p>利用者数を把握し、不具合を直すために、LectureQは次の匿名統計を、第2条のデータ同期とは別の、Apple iCloud（CloudKit）にある開発者専用の領域に送ります。読めるのは開発者だけです。</p>
     <ul>
-      <li>インストール時に作られるランダムなID（Mac、Apple ID、ほかのアプリとは結びつかず、再インストールすると変わります）</li>
-      <li>アプリのバージョン、macOSのバージョン、地域と言語の設定</li>
+      <li>インストール時に作られるランダムなID（デバイス、Apple Account、ほかのアプリとは結びつかず、再インストールすると変わります）</li>
+      <li>アプリのバージョン、OS（macOS、iOS、iPadOS）のバージョン、地域と言語の設定</li>
       <li>アプリを開いた回数と開いた日、インストールした日付とインストールからの経過日数</li>
-      <li>アプリが応答しなくなったり異常終了したりしたときのエラーレポート（アプリのバージョン、macOSのバージョン、機種、エラーの技術情報）</li>
+      <li>アプリが応答しなくなったり異常終了したりしたときのエラーレポート（アプリのバージョン、OSのバージョン、機種、エラーの技術情報）</li>
     </ul>
-    <p>氏名、連絡先、位置情報、および講義・質問・回答・メモなどの作成内容は含みません。送信されるのは、MacがiCloudにサインインしている場合だけです。</p>
+    <p>氏名、連絡先、位置情報、および講義・質問・回答・メモなどの作成内容は含みません。送信されるのは、デバイスがiCloudにサインインしている場合だけです。</p>
 
     <h2>6. フィードバックの送信</h2>
-    <p>設定（⌘,）の「フィードバックを送る」や、満足度の質問の「気になる点があります」から<strong>ユーザーが自分で書いて送ったときにだけ</strong>、
+    <p>アプリの設定（Macでは⌘,）の「フィードバックを送る」や、満足度の質問の「気になる点があります」から<strong>ユーザーが自分で書いて送ったときにだけ</strong>、
     次の内容がApple iCloud（CloudKit）に保存され、開発者に届きます。</p>
     <ul>
       <li>フィードバックの種類と、ユーザーが書いた文章</li>
-      <li>アプリのバージョン、macOSのバージョン、機種、地域と言語の設定</li>
+      <li>アプリのバージョン、OSのバージョン、機種、地域と言語の設定</li>
     </ul>
     <p>講義・質問・回答・メモがフィードバックに自動で添付されることはありません。フィードバックの文章に個人情報を書かないようご注意ください。
     「メールで問い合わせる」を押すと標準のメールアプリが開き、そのメールはユーザーが利用しているメールサービスを通じて送られます。</p>
     <p>また、不具合が起きた機能を遠隔でオフにできるよう、アプリは機能ごとのオン／オフ設定をiCloudから<strong>読み込むだけ</strong>です。このとき、ユーザーの情報は送信しません。</p>
 
     <h2>7. ネットワーク通信とトラッキング</h2>
-    <p>LectureQがインターネットに送るのは、第5条の匿名利用統計と、ユーザーが自分で送った第6条のフィードバックだけです。開発者が運営する独自のサーバーはありません。
-    広告や第三者によるトラッキング技術は一切使用していません。フィードバックの送信を除き、アプリのすべての機能はインターネットに接続しなくても動作します。</p>
+    <p>LectureQがインターネットに送るのは、第2条のとおりユーザー自身のiCloudに同期されるデータ、第5条の匿名利用統計、ユーザーが自分で送った第6条のフィードバックだけです。開発者が運営する独自のサーバーはありません。
+    広告や第三者によるトラッキング技術は一切使用していません。iCloud同期とフィードバックの送信を除き、アプリのすべての機能はインターネットに接続しなくても動作します。</p>
     <p>アプリ内の「AIで答えを探すガイド」のリンクは、標準のWebブラウザでこのWebサイト（GitHub Pages）を開きます。
     Webページを閲覧する際の通信は、ブラウザとGitHubのポリシーに従います。</p>
 
     <h2>8. 第三者への提供</h2>
-    <p>個人情報を収集しないため、第三者に提供したり共有したりする情報もありません。匿名利用統計とフィードバックはApple iCloudに保存されるだけで、ほかの企業に提供することはありません。</p>
+    <p>個人情報を収集しないため、第三者に提供したり共有したりする情報もありません。同期されたデータ、匿名利用統計、フィードバックはApple iCloudに保存されるだけで、ほかの企業に提供することはありません。</p>
 
     <h2>9. データの保存と削除</h2>
-    <p>データは、ユーザーが削除するまでデバイスに残ります。</p>
+    <p>データは、ユーザーが削除するまでデバイスに残り、iCloud同期を使っている場合はユーザーのiCloudにも残ります。</p>
     <ul>
-      <li>個別に削除：アプリ内で、質問（右クリック → 削除）、ブロック（設定 → ブロックを削除）、講義（講義メニュー → 現在の講義を削除）を削除できます。</li>
-      <li>すべて削除：アプリを終了してから、第2条の保存フォルダを削除してください。macOSでは、アプリをゴミ箱に入れてもこのフォルダが残ることがあります。</li>
+      <li>個別に削除：アプリ内で、質問（右クリック → 削除）、ブロック（設定 → ブロックを削除）、講義（講義メニュー → 現在の講義を削除）を削除できます。削除した項目は、iCloudと同期しているほかのデバイスからも削除されます。</li>
+      <li>iCloudから削除：デバイスのiCloud設定で「ストレージを管理」を開き、LectureQのデータを削除すると、iCloudに同期されたデータが削除されます。</li>
+      <li>デバイスから削除：Macでは、アプリを終了してから第2条の保存フォルダを削除してください（アプリをゴミ箱に入れてもこのフォルダが残ることがあります）。iPhoneとiPadでは、アプリを削除するとそのデバイスのデータも削除されます。
+      iCloud同期を使っている場合は、先にiCloudのデータを削除してください。そうしないと、データがまたダウンロードされます。</li>
     </ul>
 
     <h2>10. 子どもの個人情報</h2>

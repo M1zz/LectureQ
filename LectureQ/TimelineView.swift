@@ -1,6 +1,10 @@
 import SwiftUI
 import SwiftData
+#if os(macOS)
 import AppKit
+#else
+import UIKit
+#endif
 
 // MARK: - 질문 마커 계산 (여러 블록에 걸쳐 강의 질문을 시점순으로 배치)
 
@@ -122,7 +126,7 @@ struct TimelineView: View {
                 }
             }
         }
-        .frame(minWidth: 620, minHeight: 560)
+        .macFrame(minWidth: 620, minHeight: 560)
     }
 
     private func markers(for block: Block) -> [QMarker] {
@@ -175,8 +179,14 @@ struct BlockView: View {
         Binding(
             get: { accent },
             set: { newColor in
+                #if os(macOS)
                 let ns = NSColor(newColor).usingColorSpace(.deviceRGB) ?? NSColor(newColor)
                 block.colorHue = Double(ns.hueComponent)
+                #else
+                var hue: CGFloat = 0
+                UIColor(newColor).getHue(&hue, saturation: nil, brightness: nil, alpha: nil)
+                block.colorHue = Double(hue)
+                #endif
             }
         )
     }
@@ -339,7 +349,7 @@ struct BlockView: View {
             .font(.system(size: 17))
             .foregroundStyle(color)
             // 심볼 안쪽이 비어 있어 뒤의 세로 줄이 비치지 않도록 불투명 바탕을 깐다
-            .background(Circle().fill(Color(nsColor: .textBackgroundColor)).padding(1))
+            .background(Circle().fill(Color.textBackground).padding(1))
             .frame(width: 24, height: 24)
             .contentShape(Circle())
     }

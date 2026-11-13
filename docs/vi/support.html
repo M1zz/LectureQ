@@ -205,11 +205,11 @@
     <details>
       <summary>Dữ liệu của tôi được lưu ở đâu? Sao lưu thế nào?</summary>
       <div class="body">
-        <p>Mọi dữ liệu chỉ được lưu trong thư mục sau trên máy Mac này và không được gửi ra ngoài thiết bị.</p>
+        <p>Mọi dữ liệu được lưu trên thiết bị của bạn: trên máy Mac là trong thư mục sau, còn trên iPhone và iPad là trong vùng lưu trữ riêng của ứng dụng. Nếu bạn đã đăng nhập iCloud, dữ liệu được đồng bộ giữa máy Mac, iPhone và iPad của chính bạn qua iCloud của bạn, và nhà phát triển không thể xem được.</p>
         <p><code>~/Library/Containers/com.lectureq.LectureQ/Data/Library/Application Support/LectureQ/</code></p>
         <ul>
           <li><strong>Sao lưu:</strong> thoát ứng dụng rồi sao chép nguyên thư mục này (kể cả các tệp <code>-wal</code> và <code>-shm</code> nằm cạnh <code>LectureQ.store</code>).</li>
-          <li><strong>Đặt lại:</strong> thoát ứng dụng rồi xóa thư mục này. Chỉ bỏ ứng dụng vào Thùng rác thì thư mục này sẽ không bị xóa.</li>
+          <li><strong>Đặt lại:</strong> thoát ứng dụng rồi xóa thư mục này. Chỉ bỏ ứng dụng vào Thùng rác thì thư mục này sẽ không bị xóa. Nếu bạn dùng đồng bộ iCloud, hãy xóa dữ liệu của LectureQ trong “Quản lý dung lượng” ở cài đặt iCloud trước, nếu không dữ liệu sẽ lại được tải về.</li>
         </ul>
       </div>
     </details>
@@ -217,7 +217,7 @@
     <details>
       <summary>Yêu cầu hệ thống · Tự build từ mã nguồn thế nào?</summary>
       <div class="body">
-        <p>Ứng dụng chạy trên macOS 14 trở lên.</p>
+        <p>Ứng dụng chạy trên máy Mac có macOS 14 trở lên, và trên iPhone, iPad có iOS hoặc iPadOS 18 trở lên.</p>
         <p>Build từ mã nguồn: clone kho mã rồi chạy <code>./run.sh</code>, hoặc chạy <code>xcodegen generate</code> rồi mở <code>LectureQ.xcodeproj</code> bằng Xcode để chạy.
         Xem chi tiết tại <a href="https://github.com/M1zz/LectureQ">kho mã trên GitHub</a>.</p>
       </div>

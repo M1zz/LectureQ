@@ -205,11 +205,11 @@
     <details>
       <summary>我的資料存在哪裡？要怎麼備份？</summary>
       <div class="body">
-        <p>所有資料都只會儲存在這部 Mac 的以下資料夾中，不會傳出裝置。</p>
+        <p>所有資料都會儲存在你的裝置上：在 Mac 上儲存在以下資料夾中，在 iPhone 和 iPad 上儲存在 App 專屬的儲存區域內。如果你已登入 iCloud，資料會透過你的 iCloud 在你自己的 Mac、iPhone 和 iPad 之間同步，開發者無法看到。</p>
         <p><code>~/Library/Containers/com.lectureq.LectureQ/Data/Library/Application Support/LectureQ/</code></p>
         <ul>
           <li><strong>備份：</strong>結束 App 後，把整個資料夾拷貝一份（包括和 <code>LectureQ.store</code> 放在一起的 <code>-wal</code>、<code>-shm</code> 檔案）。</li>
-          <li><strong>重置：</strong>結束 App 後，刪除這個資料夾。只把 App 丟到垃圾桶，並不會刪除這個資料夾。</li>
+          <li><strong>重置：</strong>結束 App 後，刪除這個資料夾。只把 App 丟到垃圾桶，並不會刪除這個資料夾。如果使用 iCloud 同步，請先在 iCloud 設定的「管理儲存空間」中刪除 LectureQ 的資料，否則資料會重新下載回來。</li>
         </ul>
       </div>
     </details>
@@ -217,7 +217,7 @@
     <details>
       <summary>系統需求 · 要怎麼從原始碼自行建置？</summary>
       <div class="body">
-        <p>需要 macOS 14 或以上版本。</p>
+        <p>Mac 需要 macOS 14 或以上版本，iPhone 和 iPad 需要 iOS 或 iPadOS 18 或以上版本。</p>
         <p>從原始碼建置：複製（clone）儲存庫後執行 <code>./run.sh</code>，或先執行 <code>xcodegen generate</code>，再用 Xcode 開啟 <code>LectureQ.xcodeproj</code> 並執行。
         詳情請參考 <a href="https://github.com/M1zz/LectureQ">GitHub 儲存庫</a>。</p>
       </div>

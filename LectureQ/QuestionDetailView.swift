@@ -1,6 +1,10 @@
 import SwiftUI
 import SwiftData
+#if os(macOS)
 import AppKit
+#else
+import UIKit
+#endif
 import LeeoKit
 
 struct QuestionDetailView: View {
@@ -54,7 +58,30 @@ struct QuestionDetailView: View {
 
     // MARK: 상태 · 시점
 
+    #if os(macOS)
+    private static let timeFieldWidth: CGFloat = 64
+    #else
+    private static let timeFieldWidth: CGFloat = 80
+    #endif
+
+    // 한 줄에 다 들어가면 한 줄, 좁은 화면(iPhone)·긴 언어면 시점을 아랫줄로 내린다.
+    // (fixedSize 인 토글들이 화면보다 넓어지면 상세 화면 전체가 옆으로 밀려 잘린다)
     private var statusRow: some View {
+        ViewThatFits(in: .horizontal) {
+            HStack(spacing: 16) {
+                statusToggles
+                Spacer()
+                timeMarkField
+            }
+            VStack(alignment: .leading, spacing: 10) {
+                statusToggles
+                timeMarkField
+            }
+        }
+        .checkboxToggleStyle()
+    }
+
+    private var statusToggles: some View {
         HStack(spacing: 16) {
             Toggle("해결됨", isOn: Binding(
                 get: { question.isResolved },
@@ -64,26 +91,30 @@ struct QuestionDetailView: View {
                     if resolved { LeeoEngagement.shared.registerSignificantEvent() }
                 }
             ))
+            .fixedSize()
             // 요약의 "배운 점"은 해결됨 + 이 토글이 켜진 것만 모은다. 해결 전에는 의미가 없어 숨긴다.
             if question.isResolved {
                 Toggle("배운 점에 포함", isOn: $question.isLearned)
                     .help("요약의 ‘배운 점’ 목록에 넣을지 선택")
-            }
-            Spacer()
-            // 강의 시점 — 타임블록에서 이 질문의 위치를 정한다.
-            HStack(spacing: 6) {
-                Text("시점")
-                    .foregroundStyle(.secondary)
-                TextField("HH:mm", text: $question.timeMark)
-                    .textFieldStyle(.roundedBorder)
-                    .frame(width: 64)
-                    .help("강의 시점 (24시간 HH:mm)")
-                    .accessibilityLabel("시점")
-                Button("지금") { question.timeMark = timeMarkString() }
-                    .buttonStyle(.link)
+                    .fixedSize()
             }
         }
-        .toggleStyle(.checkbox)
+    }
+
+    // 강의 시점 — 타임블록에서 이 질문의 위치를 정한다.
+    private var timeMarkField: some View {
+        HStack(spacing: 6) {
+            Text("시점")
+                .foregroundStyle(.secondary)
+            TextField("HH:mm", text: $question.timeMark)
+                .textFieldStyle(.roundedBorder)
+                .frame(width: Self.timeFieldWidth)
+                .help("강의 시점 (24시간 HH:mm)")
+                .accessibilityLabel("시점")
+            Button("지금") { question.timeMark = timeMarkString() }
+                .linkButtonStyle()
+        }
+        .fixedSize()
     }
 
     // MARK: 답 + AI 프롬프트
@@ -150,9 +181,14 @@ struct QuestionDetailView: View {
     /// 프롬프트를 클립보드에 넣고, 어떤 단계를 복사했는지 잠깐 보여준다.
     private func copy(_ p: AIPrompt) {
         guard p.unavailableReason(for: question) == nil else { return }
+        let text = makePrompt(p, for: question)
+        #if os(macOS)
         let pb = NSPasteboard.general
         pb.clearContents()
-        pb.setString(makePrompt(p, for: question), forType: .string)
+        pb.setString(text, forType: .string)
+        #else
+        UIPasteboard.general.string = text
+        #endif
         withAnimation { copiedPrompt = p }
     }
 

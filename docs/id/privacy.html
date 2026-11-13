@@ -56,12 +56,13 @@
 <!--langswitch:start--><nav class="langs" aria-label="Language"><a href="../privacy.html" hreflang="ko" lang="ko">한국어</a> <a href="../en/privacy.html" hreflang="en" lang="en">English</a> <a href="../en-GB/privacy.html" hreflang="en-GB" lang="en-GB">English (UK)</a> <a href="../zh-Hans/privacy.html" hreflang="zh-Hans" lang="zh-Hans">简体中文</a> <a href="../zh-Hant/privacy.html" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a> <a href="../ja/privacy.html" hreflang="ja" lang="ja">日本語</a> <a href="../ru/privacy.html" hreflang="ru" lang="ru">Русский</a> <a href="../es/privacy.html" hreflang="es" lang="es">Español</a> <a href="../de/privacy.html" hreflang="de" lang="de">Deutsch</a> <a href="../fr/privacy.html" hreflang="fr" lang="fr">Français</a> <a href="../it/privacy.html" hreflang="it" lang="it">Italiano</a> <a href="../pt-BR/privacy.html" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a> <a href="../th/privacy.html" hreflang="th" lang="th">ไทย</a> <a href="../vi/privacy.html" hreflang="vi" lang="vi">Tiếng Việt</a> <a href="../cs/privacy.html" hreflang="cs" lang="cs">Čeština</a> <a href="../da/privacy.html" hreflang="da" lang="da">Dansk</a> <a href="../el/privacy.html" hreflang="el" lang="el">Ελληνικά</a> <a href="../fi/privacy.html" hreflang="fi" lang="fi">Suomi</a> <a href="../id/privacy.html" hreflang="id" lang="id" aria-current="page">Bahasa Indonesia</a> <a href="../nb/privacy.html" hreflang="nb" lang="nb">Norsk bokmål</a> <a href="../nl/privacy.html" hreflang="nl" lang="nl">Nederlands</a> <a href="../pl/privacy.html" hreflang="pl" lang="pl">Polski</a> <a href="../sv/privacy.html" hreflang="sv" lang="sv">Svenska</a> <a href="../tr/privacy.html" hreflang="tr" lang="tr">Türkçe</a></nav><!--langswitch:end-->
     <a class="back" href="./index.html">← LectureQ: Catatan Pertanyaan</a>
     <h1>Kebijakan Privasi</h1>
-    <p class="updated">Terakhir diperbarui: 17 Oktober 2026</p>
+    <p class="updated">Terakhir diperbarui: 13 November 2026</p>
 
     <div class="callout">
       <strong>Ringkasnya:</strong> LectureQ tidak mengumpulkan atau menjual data pribadi.
-      Semua yang kamu masukkan (kuliah, pertanyaan, jawaban, catatan) hanya disimpan di Mac-mu.
-      Yang dikirim ke pengembang hanyalah statistik penggunaan anonim, agar ia tahu aplikasi dipakai di berapa Mac dan bisa memperbaiki galat (butir 5),
+      Semua yang kamu masukkan (kuliah, pertanyaan, jawaban, catatan) disimpan di perangkatmu dan, jika kamu masuk ke iCloud,
+      hanya disinkronkan antara Mac, iPhone, dan iPad milikmu sendiri melalui iCloud-mu. Pengembang tidak bisa melihatnya sama sekali.
+      Yang dikirim ke pengembang hanyalah statistik penggunaan anonim, agar ia tahu aplikasi dipakai di berapa perangkat dan bisa memperbaiki galat (butir 5),
       serta tulisan yang kamu kirim sendiri lewat “Kirim Masukan” (butir 6).
     </div>
 
@@ -71,59 +72,63 @@
 
     <h2>2. Data yang kamu buat</h2>
     <p>Semua data yang kamu buat di aplikasi, seperti kuliah, blok waktu, catatan, pertanyaan, jawaban, dan status belajar,
-    hanya disimpan di penyimpanan lokal Mac-mu (SwiftData). Lokasinya sebagai berikut:</p>
+    disimpan di penyimpanan lokal perangkatmu (SwiftData). Di Mac, lokasinya sebagai berikut; di iPhone dan iPad, data berada di area penyimpanan milik aplikasi itu sendiri.</p>
     <ul>
       <li><code>~/Library/Containers/com.lectureq.LectureQ/Data/Library/Application Support/LectureQ/</code></li>
     </ul>
-    <p>Data ini tidak dikirim kepada siapa pun di luar Mac-mu, termasuk pengembang, dan tidak disinkronkan ke cloud seperti iCloud.</p>
-    <p>Selain itu, aplikasi mencatat tanggal pertama kali dipasang dan jumlah kali dibuka di pengaturan aplikasi (default pengguna macOS). Nilai ini hanya dipakai untuk statistik penggunaan anonim pada butir 5.</p>
+    <p>Jika perangkatmu masuk ke iCloud, data ini disinkronkan antara Mac, iPhone, dan iPad yang memakai Akun Apple yang sama, melalui <strong>database pribadimu sendiri</strong> di Apple iCloud (CloudKit, <code>iCloud.com.lectureq.LectureQ</code>).
+    Database tersebut milik Akun Apple-mu dan memakai penyimpanan iCloud-mu; tidak ada orang lain, termasuk pengembang, yang dapat membaca atau menerimanya. Selama disimpan di iCloud, data ini ditangani sesuai kebijakan privasi Apple.</p>
+    <p>Jika kamu tidak masuk ke iCloud, datamu hanya disimpan di perangkat tersebut dan tidak dikirim ke mana pun.</p>
+    <p>Selain itu, aplikasi mencatat tanggal pertama kali dipasang dan jumlah kali dibuka di pengaturan aplikasi (default pengguna). Nilai ini hanya dipakai untuk statistik penggunaan anonim pada butir 5.</p>
 
     <h2>3. Impor berkas</h2>
     <p>Saat kamu memakai “Impor dari Markdown…”, aplikasi hanya membuka <strong>berkas yang kamu pilih sendiri</strong> di jendela pemilih berkas, dalam mode baca saja.
     Isinya disimpan sebagai kuliah baru di penyimpanan lokal aplikasi. Berkas aslinya tidak diubah, dan aplikasi tidak mengakses berkas lain.</p>
 
     <h2>4. Papan klip dan layanan AI eksternal</h2>
-    <p>Saat kamu mengeklik “Salin Prompt AI”, teks berisi pertanyaan yang dipilih beserta isi terkait (nama kuliah, catatan pada saat itu, status belajar, pertanyaan asli, jawaban yang sudah kamu tulis) disalin ke papan klip Mac
+    <p>Saat kamu mengeklik “Salin Prompt AI”, teks berisi pertanyaan yang dipilih beserta isi terkait (nama kuliah, catatan pada saat itu, status belajar, pertanyaan asli, jawaban yang sudah kamu tulis) disalin ke papan klip perangkat
     <strong>hanya ketika kamu mengekliknya</strong>.</p>
     <p>LectureQ tidak pernah mengirim isi ini langsung ke layanan eksternal mana pun, termasuk layanan AI.
     Jika kamu menempelkan isi yang disalin ke layanan AI eksternal, pemrosesan selanjutnya mengikuti kebijakan privasi layanan tersebut.
     Periksa dulu apakah ada isi yang sensitif sebelum menempelkannya.</p>
 
     <h2>5. Statistik penggunaan anonim</h2>
-    <p>Agar tahu berapa orang yang memakai aplikasi dan bisa memperbaiki galat, LectureQ mengirim statistik anonim berikut ke Apple iCloud (CloudKit). Hanya pengembang yang dapat membacanya.</p>
+    <p>Agar tahu berapa orang yang memakai aplikasi dan bisa memperbaiki galat, LectureQ mengirim statistik anonim berikut ke ruang milik pengembang sendiri di Apple iCloud (CloudKit), terpisah dari sinkronisasi datamu pada butir 2. Hanya pengembang yang dapat membacanya.</p>
     <ul>
-      <li>ID acak yang dibuat saat pemasangan (tidak terhubung dengan Mac, Apple ID, atau aplikasi lain, dan berubah jika aplikasi dipasang ulang)</li>
-      <li>Versi aplikasi, versi macOS, pengaturan wilayah dan bahasa</li>
+      <li>ID acak yang dibuat saat pemasangan (tidak terhubung dengan perangkatmu, Akun Apple, atau aplikasi lain, dan berubah jika aplikasi dipasang ulang)</li>
+      <li>Versi aplikasi, versi sistem operasi (macOS, iOS, atau iPadOS), pengaturan wilayah dan bahasa</li>
       <li>Jumlah kali aplikasi dibuka dan hari-hari saat dibuka, tanggal pemasangan, dan jumlah hari sejak pemasangan</li>
-      <li>Laporan galat saat aplikasi macet atau tertutup secara tidak normal (versi aplikasi, versi macOS, jenis perangkat, informasi teknis galat)</li>
+      <li>Laporan galat saat aplikasi macet atau tertutup secara tidak normal (versi aplikasi, versi sistem operasi, jenis perangkat, informasi teknis galat)</li>
     </ul>
-    <p>Statistik ini tidak memuat nama, kontak, lokasi, atau isi yang kamu tulis seperti kuliah, pertanyaan, jawaban, dan catatan. Statistik hanya dikirim jika Mac masuk ke iCloud.</p>
+    <p>Statistik ini tidak memuat nama, kontak, lokasi, atau isi yang kamu tulis seperti kuliah, pertanyaan, jawaban, dan catatan. Statistik hanya dikirim jika perangkat masuk ke iCloud.</p>
 
     <h2>6. Kirim Masukan</h2>
-    <p>Saat kamu memakai “Kirim Masukan” di Pengaturan (⌘,) atau memilih “Ada yang bisa diperbaiki” pada pertanyaan kepuasan, isi berikut disimpan di Apple iCloud (CloudKit) dan diteruskan ke pengembang,
+    <p>Saat kamu memakai “Kirim Masukan” di Pengaturan aplikasi (⌘, di Mac) atau memilih “Ada yang bisa diperbaiki” pada pertanyaan kepuasan, isi berikut disimpan di Apple iCloud (CloudKit) dan diteruskan ke pengembang,
     <strong>hanya jika kamu sendiri menulis dan mengirimkannya</strong>.</p>
     <ul>
       <li>Jenis masukan dan teks yang kamu tulis</li>
-      <li>Versi aplikasi, versi macOS, jenis perangkat, pengaturan wilayah dan bahasa</li>
+      <li>Versi aplikasi, versi sistem operasi, jenis perangkat, pengaturan wilayah dan bahasa</li>
     </ul>
     <p>Kuliah, pertanyaan, jawaban, dan catatan tidak otomatis dilampirkan ke masukan. Hindari menulis informasi pribadi di teks masukan.
     Jika kamu mengeklik “Hubungi lewat Email”, aplikasi email default-mu akan terbuka, dan email tersebut dikirim melalui layanan email milikmu.</p>
     <p>Selain itu, agar fitur yang bermasalah dapat dimatikan dari jarak jauh, aplikasi <strong>hanya membaca</strong> pengaturan aktif/nonaktif tiap fitur dari iCloud. Tidak ada informasi tentang dirimu yang dikirim dalam proses ini.</p>
 
     <h2>7. Komunikasi jaringan dan pelacakan</h2>
-    <p>Yang dikirim LectureQ melalui internet hanyalah statistik penggunaan anonim pada butir 5 dan masukan pada butir 6 yang kamu kirim sendiri. Pengembang tidak mengelola server tersendiri.
-    Aplikasi sama sekali tidak memakai iklan atau teknologi pelacakan pihak ketiga. Selain pengiriman masukan, semua fitur aplikasi berfungsi tanpa koneksi internet.</p>
+    <p>Yang dikirim LectureQ melalui internet hanyalah datamu yang disinkronkan ke iCloud-mu sendiri seperti dijelaskan pada butir 2, statistik penggunaan anonim pada butir 5, dan masukan pada butir 6 yang kamu kirim sendiri. Pengembang tidak mengelola server tersendiri.
+    Aplikasi sama sekali tidak memakai iklan atau teknologi pelacakan pihak ketiga. Selain sinkronisasi iCloud dan pengiriman masukan, semua fitur aplikasi berfungsi tanpa koneksi internet.</p>
     <p>Tautan “Panduan: Cari Jawaban dengan AI” di dalam aplikasi membuka situs web ini (GitHub Pages) di peramban default-mu.
     Komunikasi saat mengunjungi situs mengikuti kebijakan peramban dan GitHub.</p>
 
     <h2>8. Pemberian kepada pihak ketiga</h2>
-    <p>Karena kami tidak mengumpulkan data pribadi, tidak ada informasi yang diberikan atau dibagikan kepada pihak ketiga. Statistik penggunaan anonim dan masukan hanya disimpan di Apple iCloud dan tidak diberikan kepada perusahaan lain.</p>
+    <p>Karena kami tidak mengumpulkan data pribadi, tidak ada informasi yang diberikan atau dibagikan kepada pihak ketiga. Data yang disinkronkan, statistik penggunaan anonim, dan masukan hanya disimpan di Apple iCloud dan tidak diberikan kepada perusahaan lain.</p>
 
     <h2>9. Penyimpanan dan penghapusan data</h2>
-    <p>Data tetap ada di perangkat sampai kamu menghapusnya.</p>
+    <p>Data tetap ada di perangkat, dan di iCloud-mu jika kamu memakai sinkronisasi iCloud, sampai kamu menghapusnya.</p>
     <ul>
-      <li>Hapus satu per satu: di aplikasi, kamu bisa menghapus pertanyaan (klik kanan → Hapus), blok (Pengaturan → Hapus Blok), dan kuliah (menu kuliah → Hapus Kuliah Ini).</li>
-      <li>Hapus semuanya: tutup aplikasi, lalu hapus folder penyimpanan pada butir 2. Di macOS, folder ini bisa tetap ada meskipun aplikasinya dibuang ke Tempat Sampah.</li>
+      <li>Hapus satu per satu: di aplikasi, kamu bisa menghapus pertanyaan (klik kanan → Hapus), blok (Pengaturan → Hapus Blok), dan kuliah (menu kuliah → Hapus Kuliah Ini). Item yang dihapus juga ikut terhapus dari iCloud dan perangkat lain yang tersinkron.</li>
+      <li>Hapus dari iCloud: di pengaturan iCloud perangkatmu, buka Kelola Penyimpanan lalu hapus data LectureQ untuk menghapus data yang tersinkron ke iCloud.</li>
+      <li>Hapus dari perangkat: di Mac, tutup aplikasi lalu hapus folder penyimpanan pada butir 2 (folder ini bisa tetap ada meskipun aplikasinya dibuang ke Tempat Sampah). Di iPhone dan iPad, menghapus aplikasi juga menghapus datanya di perangkat tersebut.
+      Jika kamu memakai sinkronisasi iCloud, hapus dulu data di iCloud, karena kalau tidak, data itu akan diunduh lagi.</li>
     </ul>
 
     <h2>10. Data pribadi anak</h2>

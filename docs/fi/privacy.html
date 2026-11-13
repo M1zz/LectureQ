@@ -56,12 +56,13 @@
 <!--langswitch:start--><nav class="langs" aria-label="Language"><a href="../privacy.html" hreflang="ko" lang="ko">한국어</a> <a href="../en/privacy.html" hreflang="en" lang="en">English</a> <a href="../en-GB/privacy.html" hreflang="en-GB" lang="en-GB">English (UK)</a> <a href="../zh-Hans/privacy.html" hreflang="zh-Hans" lang="zh-Hans">简体中文</a> <a href="../zh-Hant/privacy.html" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a> <a href="../ja/privacy.html" hreflang="ja" lang="ja">日本語</a> <a href="../ru/privacy.html" hreflang="ru" lang="ru">Русский</a> <a href="../es/privacy.html" hreflang="es" lang="es">Español</a> <a href="../de/privacy.html" hreflang="de" lang="de">Deutsch</a> <a href="../fr/privacy.html" hreflang="fr" lang="fr">Français</a> <a href="../it/privacy.html" hreflang="it" lang="it">Italiano</a> <a href="../pt-BR/privacy.html" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a> <a href="../th/privacy.html" hreflang="th" lang="th">ไทย</a> <a href="../vi/privacy.html" hreflang="vi" lang="vi">Tiếng Việt</a> <a href="../cs/privacy.html" hreflang="cs" lang="cs">Čeština</a> <a href="../da/privacy.html" hreflang="da" lang="da">Dansk</a> <a href="../el/privacy.html" hreflang="el" lang="el">Ελληνικά</a> <a href="../fi/privacy.html" hreflang="fi" lang="fi" aria-current="page">Suomi</a> <a href="../id/privacy.html" hreflang="id" lang="id">Bahasa Indonesia</a> <a href="../nb/privacy.html" hreflang="nb" lang="nb">Norsk bokmål</a> <a href="../nl/privacy.html" hreflang="nl" lang="nl">Nederlands</a> <a href="../pl/privacy.html" hreflang="pl" lang="pl">Polski</a> <a href="../sv/privacy.html" hreflang="sv" lang="sv">Svenska</a> <a href="../tr/privacy.html" hreflang="tr" lang="tr">Türkçe</a></nav><!--langswitch:end-->
     <a class="back" href="./index.html">← LectureQ: Luentokysymykset</a>
     <h1>Tietosuojakäytäntö</h1>
-    <p class="updated">Päivitetty viimeksi: 17. lokakuuta 2026</p>
+    <p class="updated">Päivitetty viimeksi: 13. marraskuuta 2026</p>
 
     <div class="callout">
       <strong>Lyhyesti:</strong> LectureQ ei kerää eikä myy henkilötietoja.
-      Kaikki, mitä kirjoitat (luennot, kysymykset, vastaukset ja muistiinpanot), tallennetaan vain omalle Macillesi.
-      Jotta tiedetään, kuinka monella Macilla sovellusta käytetään, ja jotta virheitä voidaan korjata, kehittäjälle lähetetään nimetöntä käyttötilastoa (kohta 5),
+      Kaikki, mitä kirjoitat (luennot, kysymykset, vastaukset ja muistiinpanot), tallennetaan laitteellesi, ja jos olet kirjautunut iCloudiin,
+      ne synkronoidaan oman iCloudisi kautta vain omien Maciesi, iPhonesi ja iPadisi välillä. Kehittäjä ei näe niistä mitään.
+      Jotta tiedetään, kuinka monella laitteella sovellusta käytetään, ja jotta virheitä voidaan korjata, kehittäjälle lähetetään nimetöntä käyttötilastoa (kohta 5),
       ja tekstit, jotka itse lähetät ”Lähetä palautetta” -toiminnolla, välitetään kehittäjälle (kohta 6).
     </div>
 
@@ -71,12 +72,14 @@
 
     <h2>2. Itse luomasi tiedot</h2>
     <p>Kaikki sovelluksessa luomasi tiedot, kuten luennot, aikalohkot, muistiinpanot, kysymykset, vastaukset ja oppimistilanne,
-    tallennetaan ainoastaan Macisi paikalliseen tallennustilaan (SwiftData) seuraavaan sijaintiin:</p>
+    tallennetaan laitteesi paikalliseen tallennustilaan (SwiftData). Macissa ne sijaitsevat seuraavassa sijainnissa, iPhonessa ja iPadissa sovelluksen omassa tallennusalueessa:</p>
     <ul>
       <li><code>~/Library/Containers/com.lectureq.LectureQ/Data/Library/Application Support/LectureQ/</code></li>
     </ul>
-    <p>Näitä tietoja ei lähetetä kenellekään Macisi ulkopuolelle, ei myöskään kehittäjälle, eikä niitä synkronoida iCloudiin tai muuhun pilvipalveluun.</p>
-    <p>Lisäksi sovellus tallentaa ensimmäisen asennuksen päivämäärän ja avauskertojen määrän sovelluksen asetuksiin (macOS:n käyttäjäkohtaiset oletukset). Näitä arvoja käytetään vain kohdan 5 nimettömiin käyttötilastoihin.</p>
+    <p>Jos laitteesi on kirjautunut iCloudiin, nämä tiedot synkronoidaan samaa Apple-tiliä käyttävien Macin, iPhonen ja iPadin välillä Applen iCloudissa olevan <strong>oman yksityisen tietokantasi</strong> kautta (CloudKit, <code>iCloud.com.lectureq.LectureQ</code>).
+    Tietokanta kuuluu Apple-tilillesi ja käyttää iCloud-tallennustilaasi. Kukaan muu, ei myöskään kehittäjä, voi lukea tai vastaanottaa sitä. iCloudissa säilytettäviin tietoihin sovelletaan Applen tietosuojakäytäntöä.</p>
+    <p>Jos et ole kirjautunut iCloudiin, tiedot tallennetaan vain kyseiselle laitteelle, eikä niitä lähetetä minnekään.</p>
+    <p>Lisäksi sovellus tallentaa ensimmäisen asennuksen päivämäärän ja avauskertojen määrän sovelluksen asetuksiin (käyttäjäkohtaiset oletukset). Näitä arvoja käytetään vain kohdan 5 nimettömiin käyttötilastoihin.</p>
 
     <h2>3. Tiedostojen tuonti</h2>
     <p>Kun käytät ”Tuo Markdownista…” -toimintoa, sovellus avaa vain luettavaksi <strong>ainoastaan sen tiedoston, jonka itse valitset</strong> tiedostonvalintaikkunassa.
@@ -84,46 +87,48 @@
 
     <h2>4. Leikepöytä ja ulkoiset tekoälypalvelut</h2>
     <p>Kun painat ”Kopioi tekoälykehote”, valitsemasi kysymys ja siihen liittyvä taustatieto (luennon nimi, sen hetken muistiinpano, oppimistilanne, alkuperäinen kysymys ja kirjoittamasi vastaus) kopioidaan tekstinä
-    Macin leikepöydälle <strong>vain silloin, kun itse painat</strong>.</p>
+    laitteen leikepöydälle <strong>vain silloin, kun itse painat</strong>.</p>
     <p>LectureQ ei lähetä tätä sisältöä suoraan mihinkään ulkoiseen palveluun, ei myöskään tekoälypalveluihin.
     Jos liität kopioidun sisällön ulkoiseen tekoälypalveluun, sen jälkeiseen käsittelyyn sovelletaan kyseisen palvelun tietosuojakäytäntöä.
     Tarkista arkaluonteiset tiedot ennen liittämistä.</p>
 
     <h2>5. Nimettömät käyttötilastot</h2>
-    <p>Jotta tiedetään, kuinka moni käyttää sovellusta, ja jotta virheitä voidaan korjata, LectureQ lähettää seuraavat nimettömät tilastot Applen iCloudiin (CloudKit). Vain kehittäjä voi lukea niitä.</p>
+    <p>Jotta tiedetään, kuinka moni käyttää sovellusta, ja jotta virheitä voidaan korjata, LectureQ lähettää seuraavat nimettömät tilastot kehittäjän omaan tilaan Applen iCloudissa (CloudKit), erillään kohdassa 2 kuvatusta tietojesi synkronoinnista. Vain kehittäjä voi lukea niitä.</p>
     <ul>
-      <li>Asennuksen yhteydessä luotu satunnainen tunniste (se ei ole sidoksissa Maciisi, Apple ID:hesi eikä muihin sovelluksiin, ja se vaihtuu, jos asennat sovelluksen uudelleen)</li>
-      <li>Sovelluksen versio, macOS-versio sekä alue- ja kieliasetukset</li>
+      <li>Asennuksen yhteydessä luotu satunnainen tunniste (se ei ole sidoksissa laitteeseesi, Apple-tiliisi eikä muihin sovelluksiin, ja se vaihtuu, jos asennat sovelluksen uudelleen)</li>
+      <li>Sovelluksen versio, käyttöjärjestelmän (macOS, iOS tai iPadOS) versio sekä alue- ja kieliasetukset</li>
       <li>Kuinka monta kertaa ja minä päivinä sovellus on avattu, asennuspäivä ja asennuksesta kulunut aika päivinä</li>
-      <li>Virheraportit, kun sovellus jumiutuu tai sulkeutuu odottamatta (sovelluksen versio, macOS-versio, laitetyyppi ja virheen tekniset tiedot)</li>
+      <li>Virheraportit, kun sovellus jumiutuu tai sulkeutuu odottamatta (sovelluksen versio, käyttöjärjestelmän versio, laitetyyppi ja virheen tekniset tiedot)</li>
     </ul>
-    <p>Mukana ei ole nimeä, yhteystietoja, sijaintia eikä kirjoittamaasi sisältöä, kuten luentoja, kysymyksiä, vastauksia tai muistiinpanoja. Tilastot lähetetään vain, kun Mac on kirjautunut iCloudiin.</p>
+    <p>Mukana ei ole nimeä, yhteystietoja, sijaintia eikä kirjoittamaasi sisältöä, kuten luentoja, kysymyksiä, vastauksia tai muistiinpanoja. Tilastot lähetetään vain, kun laite on kirjautunut iCloudiin.</p>
 
     <h2>6. Palautteen lähettäminen</h2>
-    <p>Kun käytät Asetusten (⌘,) ”Lähetä palautetta” -kohtaa tai tyytyväisyyskyselyn vaihtoehtoa ”Jokin voisi olla paremmin”, seuraavat tiedot tallennetaan Applen iCloudiin (CloudKit) ja välitetään kehittäjälle
+    <p>Kun käytät sovelluksen asetusten (Macissa ⌘,) ”Lähetä palautetta” -kohtaa tai tyytyväisyyskyselyn vaihtoehtoa ”Jokin voisi olla paremmin”, seuraavat tiedot tallennetaan Applen iCloudiin (CloudKit) ja välitetään kehittäjälle
     <strong>vain silloin, kun itse kirjoitat ja lähetät palautteen</strong>:</p>
     <ul>
       <li>Palautteen tyyppi ja kirjoittamasi teksti</li>
-      <li>Sovelluksen versio, macOS-versio, laitetyyppi sekä alue- ja kieliasetukset</li>
+      <li>Sovelluksen versio, käyttöjärjestelmän versio, laitetyyppi sekä alue- ja kieliasetukset</li>
     </ul>
     <p>Luentoja, kysymyksiä, vastauksia tai muistiinpanoja ei liitetä palautteeseen automaattisesti. Vältä kirjoittamasta henkilötietoja palautteeseen.
     Kun painat ”Ota yhteyttä sähköpostilla”, oletussähköpostisovellus avautuu, ja viesti lähetetään oman sähköpostipalvelusi kautta.</p>
     <p>Lisäksi sovellus <strong>vain lukee</strong> iCloudista kunkin toiminnon päällä/pois-asetuksen, jotta ongelmallinen toiminto voidaan poistaa käytöstä etänä. Tällöin sinusta ei lähetetä mitään tietoja.</p>
 
     <h2>7. Verkkoliikenne ja seuranta</h2>
-    <p>LectureQ lähettää internetin kautta vain kohdan 5 nimettömät käyttötilastot ja itse lähettämäsi palautteen (kohta 6). Kehittäjällä ei ole omaa palvelinta.
-    Mainoksia tai kolmansien osapuolten seurantateknologiaa ei käytetä lainkaan. Palautteen lähettämistä lukuun ottamatta kaikki sovelluksen toiminnot toimivat ilman internetyhteyttä.</p>
+    <p>LectureQ lähettää internetin kautta vain omaan iCloudiisi synkronoitavat tietosi (kohta 2), kohdan 5 nimettömät käyttötilastot ja itse lähettämäsi palautteen (kohta 6). Kehittäjällä ei ole omaa palvelinta.
+    Mainoksia tai kolmansien osapuolten seurantateknologiaa ei käytetä lainkaan. iCloud-synkronointia ja palautteen lähettämistä lukuun ottamatta kaikki sovelluksen toiminnot toimivat ilman internetyhteyttä.</p>
     <p>Sovelluksen linkki ”Opas: etsi vastauksia tekoälyn avulla” avaa tämän verkkosivuston (GitHub Pages) oletusselaimessa.
     Sivulla vierailun aikaiseen tiedonsiirtoon sovelletaan selaimen ja GitHubin käytäntöjä.</p>
 
     <h2>8. Tietojen luovuttaminen kolmansille osapuolille</h2>
-    <p>Koska emme kerää henkilötietoja, emme myöskään luovuta tai jaa mitään tietoja kolmansille osapuolille. Nimettömät käyttötilastot ja palaute vain tallennetaan Applen iCloudiin, eikä niitä luovuteta muille yrityksille.</p>
+    <p>Koska emme kerää henkilötietoja, emme myöskään luovuta tai jaa mitään tietoja kolmansille osapuolille. Synkronoidut tietosi, nimettömät käyttötilastot ja palaute vain tallennetaan Applen iCloudiin, eikä niitä luovuteta muille yrityksille.</p>
 
     <h2>9. Tietojen säilytys ja poistaminen</h2>
-    <p>Tiedot säilyvät laitteella, kunnes poistat ne.</p>
+    <p>Tiedot säilyvät laitteella ja iCloud-synkronointia käyttäessäsi myös iCloudissasi, kunnes poistat ne.</p>
     <ul>
-      <li>Yksittäinen poisto: sovelluksessa voit poistaa kysymyksiä (oikea painike → Poista), lohkoja (Asetukset → Poista lohko) ja luentoja (luentovalikko → Poista nykyinen luento).</li>
-      <li>Kaikkien tietojen poisto: lopeta sovellus ja poista kohdassa 2 mainittu kansio. macOSissa kansio voi jäädä jäljelle, vaikka siirtäisit sovelluksen roskakoriin.</li>
+      <li>Yksittäinen poisto: sovelluksessa voit poistaa kysymyksiä (oikea painike → Poista), lohkoja (Asetukset → Poista lohko) ja luentoja (luentovalikko → Poista nykyinen luento). Poistetut kohteet poistuvat myös iCloudista ja muilta synkronoiduilta laitteiltasi.</li>
+      <li>Poisto iCloudista: avaa laitteesi iCloud-asetuksista Hallitse tallennustilaa ja poista LectureQ:n tiedot, niin iCloudiin synkronoidut tiedot poistuvat.</li>
+      <li>Poisto laitteelta: lopeta Macissa sovellus ja poista kohdassa 2 mainittu kansio (se voi jäädä jäljelle, vaikka siirtäisit sovelluksen roskakoriin). iPhonessa ja iPadissa sovelluksen poistaminen poistaa myös sen tiedot kyseiseltä laitteelta.
+      Jos käytät iCloud-synkronointia, poista ensin iCloudin tiedot, muuten ne vain ladataan uudelleen.</li>
     </ul>
 
     <h2>10. Lasten tietosuoja</h2>

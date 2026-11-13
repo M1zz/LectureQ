@@ -1,11 +1,11 @@
 {
-  "title": "LectureQ: ders sırasında aklına gelen soruları yakala, Mac için",
+  "title": "LectureQ: ders sırasında aklına gelen soruları yakala, Mac, iPhone ve iPad için",
   "description": "Ders devam ederken bir kısayolla soruyu not al. O anki notlarının yanında, cevabını bulana kadar durur. 10 derse kadar ücretsiz.",
   "hero": {
     "headline": "Dersteki hiçbir soru\nartık aklından uçmasın",
     "lead": "`⌘⇧N` tuşuna bas, bir satır yaz; soru tam o dakikanın notlarının yanına düşer. Sen dinlemeye devam edersin, cevabı sonra bulursun.",
     "cta": "App Store'dan ücretsiz indir",
-    "note": "macOS 14 veya sonrası için. Hesap yok, her şey bu Mac'te kalır."
+    "note": "Mac (macOS 14 veya sonrası), iPhone ve iPad (iOS 18 veya sonrası) için. Hesap yok, kendi iCloud'un üzerinden eşitlenir."
   },
   "demo": {
     "title": "Burada dene",
@@ -171,7 +171,7 @@
       ],
       "note": "Haftalık, aylık ya da yıllık abonelik ya da tek seferlik ömür boyu satın alma arasından seç. Ayarlar'dan gönderilen bahşiş ayrıdır ve hiçbir şeyin kilidini açmaz."
     },
-    "note": "Reklam yok, hesap yok. Notların bu Mac'te kalır."
+    "note": "Reklam yok, hesap yok. Notların kendi aygıtlarında ve kendi iCloud'unda kalır."
   },
   "faq": {
     "title": "Sık sorulan sorular",
@@ -202,15 +202,15 @@
       },
       {
         "q": "Verilerim nerede tutuluyor, nasıl yedeklerim?",
-        "a": "Her şey bu Mac'te kalır, hiçbir yere yüklenmez. Yedeklemek için uygulamadan çık ve ~/Library/Containers/com.lectureq.LectureQ/Data/Library/Application Support/LectureQ/ klasörünü -wal ve -shm dosyalarıyla birlikte olduğu gibi kopyala. Uygulama yalnızca sürüm ve açıldığı günler gibi anonim kullanım istatistikleri gönderir, yazdıklarını asla."
+        "a": "Her şey aygıtında saklanır ve iCloud'a giriş yaptıysan iCloud'un üzerinden kendi Mac, iPhone ve iPad'in arasında eşitlenir. Geliştirici bunları göremez. Mac'te yedeklemek için uygulamadan çık ve ~/Library/Containers/com.lectureq.LectureQ/Data/Library/Application Support/LectureQ/ klasörünü -wal ve -shm dosyalarıyla birlikte olduğu gibi kopyala. Uygulama yalnızca sürüm ve açıldığı günler gibi anonim kullanım istatistikleri gönderir, yazdıklarını asla."
       },
       {
         "q": "Yazılar çok küçük.",
         "a": "`⌘+` büyütür, `⌘-` küçültür, `⌘0` varsayılana döndürür. %85 ile %200 arasında ayarlanır ve tercihin hatırlanır."
       },
       {
-        "q": "Hangi Mac'lerde çalışır?",
-        "a": "macOS 14 veya sonrası yüklü her Mac'te. Kaynak kodu GitHub'da M1zz/LectureQ adresinde herkese açık."
+        "q": "Hangi aygıtlarda çalışır?",
+        "a": "macOS 14 veya sonrası yüklü her Mac'te, iOS ya da iPadOS 18 veya sonrası yüklü iPhone ve iPad'lerde. Kaynak kodu GitHub'da M1zz/LectureQ adresinde herkese açık."
       },
       {
         "q": "Bir şey çalışmıyor. Kime bildireyim?",

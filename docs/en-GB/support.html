@@ -205,11 +205,11 @@
     <details>
       <summary>Where is my data stored? How do I back it up?</summary>
       <div class="body">
-        <p>All your data is stored only in the following folder on this Mac and is never sent off the device.</p>
+        <p>All your data is stored on your device: on a Mac in the following folder, and on iPhone and iPad inside the app’s own storage. If you’re signed in to iCloud, it syncs between your own Mac, iPhone and iPad through your iCloud, and the developer can’t see it.</p>
         <p><code>~/Library/Containers/com.lectureq.LectureQ/Data/Library/Application Support/LectureQ/</code></p>
         <ul>
           <li><strong>Back up:</strong> quit the app, then copy the whole folder (including the <code>-wal</code> and <code>-shm</code> files that sit next to <code>LectureQ.store</code>).</li>
-          <li><strong>Reset:</strong> quit the app, then delete this folder. Moving the app to the Bin alone doesn’t remove it.</li>
+          <li><strong>Reset:</strong> quit the app, then delete this folder. Moving the app to the Trash alone doesn’t remove it. If you use iCloud sync, first delete LectureQ’s data under Manage Storage in your iCloud settings, or it will download again.</li>
         </ul>
       </div>
     </details>
@@ -217,7 +217,7 @@
     <details>
       <summary>System requirements · How do I build it from source?</summary>
       <div class="body">
-        <p>LectureQ runs on macOS 14 or later.</p>
+        <p>LectureQ runs on Mac with macOS 14 or later, and on iPhone and iPad with iOS or iPadOS 18 or later.</p>
         <p>To build from source, clone the repository and run <code>./run.sh</code>, or run <code>xcodegen generate</code> and then open <code>LectureQ.xcodeproj</code> in Xcode and run it.
         See the <a href="https://github.com/M1zz/LectureQ">GitHub repository</a> for details.</p>
       </div>

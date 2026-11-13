@@ -205,11 +205,11 @@
     <details>
       <summary>Mihin tietoni tallennetaan? Entä varmuuskopiointi?</summary>
       <div class="body">
-        <p>Kaikki tiedot tallennetaan vain tämän Macin seuraavaan kansioon, eikä niitä siirretä laitteen ulkopuolelle.</p>
+        <p>Kaikki tiedot tallennetaan laitteellesi: Macissa seuraavaan kansioon, iPhonessa ja iPadissa sovelluksen omaan tallennustilaan. Jos olet kirjautunut iCloudiin, tiedot synkronoidaan oman iCloudisi kautta omien Maciesi, iPhonesi ja iPadisi välillä, eikä kehittäjä näe niitä.</p>
         <p><code>~/Library/Containers/com.lectureq.LectureQ/Data/Library/Application Support/LectureQ/</code></p>
         <ul>
           <li><strong>Varmuuskopio:</strong> lopeta sovellus ja kopioi koko kansio (myös <code>LectureQ.store</code>-tiedoston vieressä olevat <code>-wal</code>- ja <code>-shm</code>-tiedostot).</li>
-          <li><strong>Aloittaminen alusta:</strong> lopeta sovellus ja poista tämä kansio. Pelkkä sovelluksen siirtäminen roskakoriin ei poista kansiota.</li>
+          <li><strong>Aloittaminen alusta:</strong> lopeta sovellus ja poista tämä kansio. Pelkkä sovelluksen siirtäminen roskakoriin ei poista kansiota. Jos käytät iCloud-synkronointia, poista ensin LectureQ:n tiedot iCloud-asetusten kohdasta Hallitse tallennustilaa, muuten ne ladataan uudelleen.</li>
         </ul>
       </div>
     </details>
@@ -217,7 +217,7 @@
     <details>
       <summary>Järjestelmävaatimukset · miten käännän sovelluksen itse lähdekoodista?</summary>
       <div class="body">
-        <p>Sovellus toimii macOS 14:ssä ja uudemmissa.</p>
+        <p>Sovellus toimii Macissa, jossa on macOS 14 tai uudempi, sekä iPhonessa ja iPadissa, joissa on iOS tai iPadOS 18 tai uudempi.</p>
         <p>Kääntäminen lähdekoodista: kloonaa repositorio ja suorita <code>./run.sh</code>, tai suorita <code>xcodegen generate</code> ja avaa sitten <code>LectureQ.xcodeproj</code> Xcodessa.
         Lisätietoja on <a href="https://github.com/M1zz/LectureQ">GitHub-repositoriossa</a>.</p>
       </div>

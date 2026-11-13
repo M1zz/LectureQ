@@ -1,11 +1,15 @@
 import Foundation
 import SwiftData
+#if os(macOS)
 import AppKit
+#else
+import UIKit
+#endif
 
 /// 앱스토어 스크린샷용 데모 모드 (Debug 빌드 전용).
 /// 실행 인자 예: `-DemoMode YES -DemoScreen graph`
 /// - 실제 저장 파일 대신 메모리 저장소에 예시 강의·질문을 채운다(사용자 데이터는 건드리지 않음).
-/// - DemoScreen: main / capture / graph / summary / timeline / state
+/// - DemoScreen: main / capture / graph / summary / timeline / state (iPhone: list / memo)
 enum DemoMode {
     #if DEBUG
     static var isOn: Bool { UserDefaults.standard.bool(forKey: "DemoMode") }
@@ -27,12 +31,15 @@ extension DemoMode {
         let config = ModelConfiguration(schema: schema, isStoredInMemoryOnly: true, cloudKitDatabase: .none)
         let container = try! ModelContainer(for: schema, configurations: [config])
         seed(ModelContext(container))
+        #if os(macOS)
         NSApplication.shared.appearance = NSAppearance(named: .aqua)
+        #endif
         return container
     }
 
     /// 스크린샷 크기에 맞춰 메인 창 크기를 고정한다.
     static func sizeMainWindow() {
+        #if os(macOS)
         let w = UserDefaults.standard.double(forKey: "DemoWidth")
         let h = UserDefaults.standard.double(forKey: "DemoHeight")
         let size = NSSize(width: w > 0 ? w : 1280, height: h > 0 ? h : 800)
@@ -44,6 +51,12 @@ extension DemoMode {
         // 비활성 창은 툴바·선택 색이 흐리게 찍히므로 앞으로 가져온다.
         NSApp.activate(ignoringOtherApps: true)
         window.makeKeyAndOrderFront(nil)
+        #else
+        // iPad 스크린샷은 가로(2752×2064)로 — 세 칸이 넉넉히 들어간다. iPhone 은 세로 그대로.
+        guard UIDevice.current.userInterfaceIdiom == .pad,
+              let scene = UIApplication.shared.connectedScenes.first as? UIWindowScene else { return }
+        scene.requestGeometryUpdate(.iOS(interfaceOrientations: .landscapeRight)) { _ in }
+        #endif
     }
 
     private static func today(_ h: Int, _ m: Int, dayOffset: Int = 0) -> Date {

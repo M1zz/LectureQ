@@ -47,7 +47,7 @@ struct LectureSummaryView: View {
                 .frame(maxWidth: .infinity)
             }
         }
-        .frame(minWidth: 640, minHeight: 560)
+        .macFrame(minWidth: 640, minHeight: 560)
     }
 
     // MARK: Header

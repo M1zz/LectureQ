@@ -89,6 +89,16 @@ struct ContentView: View {
     @State private var showGraph = false
     @State private var showSummary = false
     @State private var showTimeline = false
+    /// iPhone · iPad 의 설정 (Mac 은 앱 메뉴 ▸ 설정… ⌘,)
+    @State private var showSettings = false
+    /// iPhone(좁은 화면)에서 보이는 칸: 질문 목록 → 질문 · 메모
+    @State private var compactColumn: NavigationSplitViewColumn = .sidebar
+    #if os(macOS)
+    private let isCompact = false
+    #else
+    @Environment(\.horizontalSizeClass) private var sizeClass
+    private var isCompact: Bool { sizeClass == .compact }
+    #endif
     @State private var showState = false
     @State private var showUnresolvedOnly = false
     @State private var showImporter = false
@@ -119,14 +129,27 @@ struct ContentView: View {
     // 앱 내 글씨 크기 배율 (− aA + 로 조절, 기본 index 1 = 1.0배)
     @AppStorage("fontScaleIndex") private var fontScaleIndex = 1
     private let fontScales: [CGFloat] = [0.85, 1.0, 1.15, 1.3, 1.5, 1.75, 2.0]
-    private var fontScale: CGFloat {
+    /// 사용자가 고른 배율 (메뉴에 보이는 %)
+    private var userFontScale: CGFloat {
         fontScales[min(max(fontScaleIndex, 0), fontScales.count - 1)]
+    }
+    /// 실제 배율. 글씨 기준값이 Mac(본문 13pt)이라 iPhone · iPad 는 17/13 을 곱해 본문 17pt 에 맞춘다.
+    private var fontScale: CGFloat {
+        #if os(macOS)
+        userFontScale
+        #else
+        userFontScale * 17 / 13
+        #endif
     }
 
     var body: some View {
-        NavigationSplitView {
+        NavigationSplitView(preferredCompactColumn: $compactColumn) {
             sidebar
                 .appFontScale(fontScale)
+                #if !os(macOS)
+                // iPhone 은 질문 목록이 첫 화면이라 거기에, iPad 는 가장 넓은 질문 칸 위에 단다.
+                .toolbar { if isCompact { mainToolbar } }
+                #endif
         } content: {
             memoColumn
                 .appFontScale(fontScale)
@@ -140,6 +163,9 @@ struct ContentView: View {
                 }
             }
             .appFontScale(fontScale)
+            #if !os(macOS)
+            .toolbar { if !isCompact { mainToolbar } }
+            #endif
         }
         .appFontScale(fontScale)
         .sheet(isPresented: $showOnboarding) {
@@ -164,7 +190,7 @@ struct ContentView: View {
         .sheet(isPresented: $showGraph) {
             if let lecture = selectedLecture {
                 GraphContainerView(lecture: lecture, onSelectQuestion: navigateToQuestion)
-                    .frame(minWidth: 900, minHeight: 640)
+                    .macFrame(minWidth: 900, minHeight: 640)
                     .appFontScale(fontScale)
             }
         }
@@ -183,6 +209,9 @@ struct ContentView: View {
                 LectureStateView(lecture: lecture)
                     .appFontScale(fontScale)
             }
+        }
+        .sheet(isPresented: $showSettings) {
+            SettingsView()
         }
         .sheet(item: $paywallFeature) { feature in
             PaywallView(highlight: feature)
@@ -259,35 +288,66 @@ struct ContentView: View {
             // 블록 밖(시점 초과) 질문이 생기면 블록을 자동 추가
             ensureCoverage(selectedLecture)
         }
-        .toolbar {
-            ToolbarItem(placement: .navigation) {
-                lectureMenu
-            }
+        #if os(macOS)
+        .toolbar { mainToolbar }
+        #endif
+        .onChange(of: selectedQuestion) { _, q in
+            if q != nil { compactColumn = .detail }
+        }
+    }
 
-            // 아이콘 없이 글자만. 자주 쓰는 것만 남기고 나머지는 "보기" 메뉴로 묶는다.
-            ToolbarItemGroup {
-                if canFilterUnresolved {
-                    Toggle("미해결만", isOn: $showUnresolvedOnly)
-                        .help("미해결 질문만 보기")
-                }
+    #if os(macOS)
+    private static let secondaryPlacement = ToolbarItemPlacement.automatic
+    private var addPlacement: ToolbarItemPlacement { .primaryAction }
+    #else
+    private static let secondaryPlacement = ToolbarItemPlacement.topBarTrailing
+    /// iPhone 은 위 막대가 좁아 질문 추가를 엄지가 닿는 아래 막대로 내린다.
+    private var addPlacement: ToolbarItemPlacement { isCompact ? .bottomBar : .primaryAction }
+    #endif
 
-                viewMenu
-            }
+    /// 강의 전환 · 미해결만 · 보기 · 질문 추가. Mac 은 창 툴바, iPhone · iPad 는 칸 위 (→ body).
+    @ToolbarContentBuilder
+    private var mainToolbar: some ToolbarContent {
+        ToolbarItem(placement: .navigation) {
+            lectureMenu
+        }
 
-            // 단축키를 거는 질문 추가는 여기 하나다 (리스트 안 버튼은 스크롤되면 단축키가 안 먹을 수 있음)
-            // 가장 자주 쓰는 동작이라 강조색으로 채운 심볼 버튼. ? 말풍선에 + 배지를 얹은 심볼 (→ AddQuestionSymbol).
-            ToolbarItem(placement: .primaryAction) {
-                Button {
-                    showQuickCapture = true
-                } label: {
-                    Label { Text("질문 추가") } icon: { AddQuestionSymbol() }
-                        .labelStyle(.iconOnly)
-                }
-                .buttonStyle(.borderedProminent)
-                .keyboardShortcut("n", modifiers: [.command, .shift])
-                .help("질문 추가 (⌘⇧N)")
+        // 아이콘 없이 글자만. 자주 쓰는 것만 남기고 나머지는 "보기" 메뉴로 묶는다.
+        // (iPhone · iPad 는 자리를 정해 두지 않으면 … 메뉴로 접힌다)
+        if canFilterUnresolved {
+            ToolbarItem(placement: Self.secondaryPlacement) {
+                Toggle("미해결만", isOn: $showUnresolvedOnly)
+                    .help("미해결 질문만 보기")
+                    .fixedSize()
             }
         }
+        ToolbarItem(placement: Self.secondaryPlacement) {
+            viewMenu
+                .fixedSize()
+        }
+
+        // 단축키를 거는 질문 추가는 여기 하나다 (리스트 안 버튼은 스크롤되면 단축키가 안 먹을 수 있음)
+        // 가장 자주 쓰는 동작이라 강조색으로 채운 심볼 버튼. ? 말풍선에 + 배지를 얹은 심볼 (→ AddQuestionSymbol).
+        ToolbarItem(placement: addPlacement) {
+            Button {
+                showQuickCapture = true
+            } label: {
+                Label { Text("질문 추가") } icon: { AddQuestionSymbol() }
+                    .labelStyle(.iconOnly)
+            }
+            .buttonStyle(.borderedProminent)
+            .fixedSize()
+            .keyboardShortcut("n", modifiers: [.command, .shift])
+            .help("질문 추가 (⌘⇧N)")
+        }
+        #if !os(macOS)
+        if isCompact {
+            ToolbarItem(placement: .bottomBar) {
+                Button("메모") { compactColumn = .content }
+                    .disabled(selectedLecture == nil)
+            }
+        }
+        #endif
     }
 
     /// 강의를 다르게 보는 화면들 + 글씨 크기를 한 곳에 모은 메뉴.
@@ -323,7 +383,7 @@ struct ContentView: View {
 
             Divider()
 
-            Menu("글씨 크기 (\(Int(fontScale * 100))%)") {
+            Menu("글씨 크기 (\(Int(userFontScale * 100))%)") {
                 Button("크게") {
                     fontScaleIndex = min(fontScales.count - 1, fontScaleIndex + 1)
                 }
@@ -346,6 +406,13 @@ struct ContentView: View {
             Divider()
 
             Link("AI로 답 찾기 가이드", destination: SiteURL.page("ai-guide.html"))
+
+            #if !os(macOS)
+            // Mac 은 앱 메뉴 ▸ 설정… (⌘,)
+            Divider()
+            Button("설정") { showSettings = true }
+                .keyboardShortcut(",", modifiers: .command)
+            #endif
         }
         .help("요약·그래프·타임블록·학습 상태·글씨 크기")
         .popoverTip(reviewTip, arrowEdge: .top)
@@ -467,7 +534,14 @@ struct ContentView: View {
                 Button("현재 강의 삭제", role: .destructive, action: deleteCurrentLecture)
             }
         } label: {
+            #if os(macOS)
             Text(selectedLecture?.title ?? String(localized: "강의 선택"))
+            #else
+            // 칸 위 막대는 좁다 — 긴 강의 이름이 다른 버튼을 … 메뉴로 밀어내지 않게 폭을 정한다.
+            Text(selectedLecture?.title ?? String(localized: "강의 선택"))
+                .lineLimit(1)
+                .frame(maxWidth: 160)
+            #endif
         }
     }
 
@@ -564,7 +638,12 @@ struct ContentView: View {
         // 강의 변경 onChange 가 질문 선택을 지우므로 다음 런루프에서 고른다.
         DispatchQueue.main.async {
             DemoMode.sizeMainWindow()
-            selectedQuestion = lecture?.questions.first { $0.text == DemoMode.focusQuestion }
+            // iPhone 의 첫 화면(질문 목록) · 메모 칸을 찍을 때는 질문을 고르지 않는다.
+            switch DemoMode.screen {
+            case "list": break
+            case "memo": compactColumn = .content
+            default: selectedQuestion = lecture?.questions.first { $0.text == DemoMode.focusQuestion }
+            }
             DispatchQueue.main.asyncAfter(deadline: .now() + 0.8) {
                 switch DemoMode.screen {
                 case "capture":  showQuickCapture = true
@@ -577,7 +656,9 @@ struct ContentView: View {
                 // 시트의 첫 TextEditor 에 잡힌 커서가 찍히지 않게 포커스를 뺀다 (질문 입력 시트는 제외).
                 if DemoMode.screen != "capture" {
                     DispatchQueue.main.asyncAfter(deadline: .now() + 0.8) {
+                        #if os(macOS)
                         NSApp.keyWindow?.makeFirstResponder(nil)
+                        #endif
                     }
                 }
             }
@@ -812,11 +893,17 @@ extension View {
     /// 툴바의 창 제목을 숨긴다 (macOS 15+. 14에서는 그대로 둔다).
     @ViewBuilder
     func hidingWindowTitle() -> some View {
+        // iPhone · iPad 도 같다 — 강의 이름은 칸 맨 위의 고칠 수 있는 제목이 이미 보여 준다.
+        #if os(macOS)
         if #available(macOS 15.0, *) {
             self.toolbar(removing: .title)
         } else {
             self
         }
+        #else
+        self.navigationBarTitleDisplayMode(.inline)
+            .toolbar(removing: .title)
+        #endif
     }
 }
 

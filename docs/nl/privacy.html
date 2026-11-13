@@ -56,12 +56,13 @@
 <!--langswitch:start--><nav class="langs" aria-label="Language"><a href="../privacy.html" hreflang="ko" lang="ko">한국어</a> <a href="../en/privacy.html" hreflang="en" lang="en">English</a> <a href="../en-GB/privacy.html" hreflang="en-GB" lang="en-GB">English (UK)</a> <a href="../zh-Hans/privacy.html" hreflang="zh-Hans" lang="zh-Hans">简体中文</a> <a href="../zh-Hant/privacy.html" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a> <a href="../ja/privacy.html" hreflang="ja" lang="ja">日本語</a> <a href="../ru/privacy.html" hreflang="ru" lang="ru">Русский</a> <a href="../es/privacy.html" hreflang="es" lang="es">Español</a> <a href="../de/privacy.html" hreflang="de" lang="de">Deutsch</a> <a href="../fr/privacy.html" hreflang="fr" lang="fr">Français</a> <a href="../it/privacy.html" hreflang="it" lang="it">Italiano</a> <a href="../pt-BR/privacy.html" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a> <a href="../th/privacy.html" hreflang="th" lang="th">ไทย</a> <a href="../vi/privacy.html" hreflang="vi" lang="vi">Tiếng Việt</a> <a href="../cs/privacy.html" hreflang="cs" lang="cs">Čeština</a> <a href="../da/privacy.html" hreflang="da" lang="da">Dansk</a> <a href="../el/privacy.html" hreflang="el" lang="el">Ελληνικά</a> <a href="../fi/privacy.html" hreflang="fi" lang="fi">Suomi</a> <a href="../id/privacy.html" hreflang="id" lang="id">Bahasa Indonesia</a> <a href="../nb/privacy.html" hreflang="nb" lang="nb">Norsk bokmål</a> <a href="../nl/privacy.html" hreflang="nl" lang="nl" aria-current="page">Nederlands</a> <a href="../pl/privacy.html" hreflang="pl" lang="pl">Polski</a> <a href="../sv/privacy.html" hreflang="sv" lang="sv">Svenska</a> <a href="../tr/privacy.html" hreflang="tr" lang="tr">Türkçe</a></nav><!--langswitch:end-->
     <a class="back" href="./index.html">← LectureQ: Collegevragen</a>
     <h1>Privacybeleid</h1>
-    <p class="updated">Laatst bijgewerkt: 17 oktober 2026</p>
+    <p class="updated">Laatst bijgewerkt: 13 november 2026</p>
 
     <div class="callout">
       <strong>Samenvatting:</strong> LectureQ verzamelt en verkoopt geen persoonsgegevens.
-      Alles wat je invoert (colleges, vragen, antwoorden en notities) wordt alleen op je eigen Mac bewaard.
-      Om te weten op hoeveel Macs de app wordt gebruikt en om fouten te verhelpen, gaan anonieme gebruiksstatistieken naar de ontwikkelaar (punt 5),
+      Alles wat je invoert (colleges, vragen, antwoorden en notities) wordt op je apparaat bewaard en, als je bij iCloud bent ingelogd,
+      alleen tussen je eigen Mac, iPhone en iPad gesynchroniseerd via je eigen iCloud. De ontwikkelaar kan er niets van zien.
+      Om te weten op hoeveel apparaten de app wordt gebruikt en om fouten te verhelpen, gaan anonieme gebruiksstatistieken naar de ontwikkelaar (punt 5),
       en teksten die je zelf via ‘Stuur feedback’ verstuurt, komen bij de ontwikkelaar terecht (punt 6).
     </div>
 
@@ -71,12 +72,14 @@
 
     <h2>2. Gegevens die je zelf maakt</h2>
     <p>Alles wat je in de app aanmaakt, zoals colleges, tijdblokken, notities, vragen, antwoorden en je leerstatus,
-    wordt uitsluitend lokaal op je Mac opgeslagen (SwiftData), op deze locatie:</p>
+    wordt lokaal op je apparaat opgeslagen (SwiftData). Op een Mac staat het op de volgende locatie; op iPhone en iPad blijft het in de eigen opslagruimte van de app.</p>
     <ul>
       <li><code>~/Library/Containers/com.lectureq.LectureQ/Data/Library/Application Support/LectureQ/</code></li>
     </ul>
-    <p>Deze gegevens worden naar niemand buiten je Mac verstuurd, ook niet naar de ontwikkelaar, en worden niet gesynchroniseerd met iCloud of een andere cloud.</p>
-    <p>Daarnaast legt de app de datum van de eerste installatie en het aantal keren dat de app is geopend vast in de app-instellingen (macOS-gebruikersstandaarden). Deze waarden worden alleen gebruikt voor de anonieme gebruiksstatistieken uit punt 5.</p>
+    <p>Als je apparaat bij iCloud is ingelogd, worden deze gegevens tussen je Mac, iPhone en iPad met hetzelfde Apple Account gesynchroniseerd via <strong>je eigen privédatabase</strong> in Apple iCloud (CloudKit, <code>iCloud.com.lectureq.LectureQ</code>).
+    Die database hoort bij je Apple Account en gebruikt je iCloud-opslag; niemand anders, ook de ontwikkelaar niet, kan hem inzien of ontvangen. Zolang de gegevens in iCloud staan, vallen ze onder het privacybeleid van Apple.</p>
+    <p>Ben je niet bij iCloud ingelogd, dan blijven je gegevens alleen op dat apparaat en worden ze nergens heen gestuurd.</p>
+    <p>Daarnaast legt de app de datum van de eerste installatie en het aantal keren dat de app is geopend vast in de app-instellingen (gebruikersstandaarden). Deze waarden worden alleen gebruikt voor de anonieme gebruiksstatistieken uit punt 5.</p>
 
     <h2>3. Bestanden importeren</h2>
     <p>Gebruik je ‘Importeren uit Markdown…’, dan opent de app <strong>alleen het bestand dat je zelf kiest</strong> in het keuzevenster, en alleen om te lezen.
@@ -84,46 +87,48 @@
 
     <h2>4. Klembord en externe AI-diensten</h2>
     <p>Als je op ‘AI-prompt kopiëren’ klikt, wordt een tekst met de gekozen vraag en de bijbehorende context (naam van het college, de notitie van dat moment, je leerstatus, de oorspronkelijke vraag en het antwoord dat je hebt genoteerd)
-    naar het klembord van je Mac gekopieerd, <strong>alleen op het moment dat je klikt</strong>.</p>
+    naar het klembord van je apparaat gekopieerd, <strong>alleen op het moment dat je klikt</strong>.</p>
     <p>LectureQ stuurt deze inhoud zelf nooit naar een externe dienst, ook niet naar AI-diensten.
     Plak je de gekopieerde tekst in een externe AI-dienst, dan valt de verdere verwerking onder het privacybeleid van die dienst.
     Controleer gevoelige informatie voordat je plakt.</p>
 
     <h2>5. Anonieme gebruiksstatistieken</h2>
-    <p>Om te weten hoeveel mensen de app gebruiken en om fouten te verhelpen, stuurt LectureQ de volgende anonieme statistieken naar Apple iCloud (CloudKit). Alleen de ontwikkelaar kan ze inzien.</p>
+    <p>Om te weten hoeveel mensen de app gebruiken en om fouten te verhelpen, stuurt LectureQ de volgende anonieme statistieken naar de eigen ruimte van de ontwikkelaar in Apple iCloud (CloudKit), los van de synchronisatie van je gegevens uit punt 2. Alleen de ontwikkelaar kan ze inzien.</p>
     <ul>
-      <li>Een willekeurige ID die bij de installatie wordt aangemaakt (niet gekoppeld aan je Mac, je Apple ID of andere apps, en anders na een herinstallatie)</li>
-      <li>Appversie, macOS-versie, regio- en taalinstellingen</li>
+      <li>Een willekeurige ID die bij de installatie wordt aangemaakt (niet gekoppeld aan je apparaat, je Apple Account of andere apps, en anders na een herinstallatie)</li>
+      <li>Appversie, versie van het besturingssysteem (macOS, iOS of iPadOS), regio- en taalinstellingen</li>
       <li>Hoe vaak en op welke dagen de app is geopend, de installatiedatum en het aantal dagen sinds de installatie</li>
-      <li>Foutrapporten als de app vastloopt of onverwacht stopt (appversie, macOS-versie, apparaattype en technische gegevens over de fout)</li>
+      <li>Foutrapporten als de app vastloopt of onverwacht stopt (appversie, versie van het besturingssysteem, apparaattype en technische gegevens over de fout)</li>
     </ul>
-    <p>Je naam, contactgegevens, locatie en wat je schrijft, zoals colleges, vragen, antwoorden en notities, worden niet meegestuurd. Er wordt alleen iets verstuurd als je Mac bij iCloud is ingelogd.</p>
+    <p>Je naam, contactgegevens, locatie en wat je schrijft, zoals colleges, vragen, antwoorden en notities, worden niet meegestuurd. Er wordt alleen iets verstuurd als je apparaat bij iCloud is ingelogd.</p>
 
     <h2>6. Feedback sturen</h2>
-    <p>Via ‘Stuur feedback’ in Instellingen (⌘,) of ‘Er kan iets beter’ bij de tevredenheidsvraag worden de volgende gegevens in Apple iCloud (CloudKit) opgeslagen en naar de ontwikkelaar gestuurd,
+    <p>Via ‘Stuur feedback’ in de instellingen van de app (⌘, op een Mac) of ‘Er kan iets beter’ bij de tevredenheidsvraag worden de volgende gegevens in Apple iCloud (CloudKit) opgeslagen en naar de ontwikkelaar gestuurd,
     <strong>alleen als je zelf iets schrijft en verstuurt</strong>:</p>
     <ul>
       <li>Het soort feedback en de tekst die je hebt geschreven</li>
-      <li>Appversie, macOS-versie, apparaattype, regio- en taalinstellingen</li>
+      <li>Appversie, versie van het besturingssysteem, apparaattype, regio- en taalinstellingen</li>
     </ul>
     <p>Colleges, vragen, antwoorden en notities worden niet automatisch aan je feedback toegevoegd. Zet liever geen persoonsgegevens in je feedback.
     Klik je op ‘Mail ons’, dan opent je standaardmailapp en wordt het bericht via je eigen e-maildienst verstuurd.</p>
     <p>Verder <strong>leest</strong> de app in iCloud per functie alleen een aan/uit-instelling, zodat een functie met problemen op afstand kan worden uitgeschakeld. Daarbij worden geen gegevens over jou verstuurd.</p>
 
     <h2>7. Netwerkverkeer en tracking</h2>
-    <p>LectureQ verstuurt via internet alleen de anonieme gebruiksstatistieken uit punt 5 en de feedback die je zelf verstuurt (punt 6). De ontwikkelaar heeft geen eigen server.
-    Er worden geen advertenties of trackingtechnieken van derden gebruikt. Op het versturen van feedback na werken alle functies van de app zonder internetverbinding.</p>
+    <p>LectureQ verstuurt via internet alleen je gegevens die met je eigen iCloud worden gesynchroniseerd (punt 2), de anonieme gebruiksstatistieken uit punt 5 en de feedback die je zelf verstuurt (punt 6). De ontwikkelaar heeft geen eigen server.
+    Er worden geen advertenties of trackingtechnieken van derden gebruikt. Op iCloud-synchronisatie en het versturen van feedback na werken alle functies van de app zonder internetverbinding.</p>
     <p>De link ‘Gids: antwoorden vinden met AI’ in de app opent deze website (GitHub Pages) in je standaardbrowser.
     Voor het verkeer bij een bezoek aan de webpagina gelden het beleid van je browser en van GitHub.</p>
 
     <h2>8. Delen met derden</h2>
-    <p>Omdat we geen persoonsgegevens verzamelen, is er ook niets wat we aan derden verstrekken of met hen delen. De anonieme gebruiksstatistieken en feedback worden alleen in Apple iCloud opgeslagen en niet aan andere bedrijven doorgegeven.</p>
+    <p>Omdat we geen persoonsgegevens verzamelen, is er ook niets wat we aan derden verstrekken of met hen delen. Je gesynchroniseerde gegevens, de anonieme gebruiksstatistieken en feedback worden alleen in Apple iCloud opgeslagen en niet aan andere bedrijven doorgegeven.</p>
 
     <h2>9. Bewaren en verwijderen van gegevens</h2>
-    <p>Je gegevens blijven op je apparaat staan totdat je ze verwijdert.</p>
+    <p>Je gegevens blijven op je apparaat staan, en in je iCloud als je iCloud-synchronisatie gebruikt, totdat je ze verwijdert.</p>
     <ul>
-      <li>Afzonderlijk verwijderen: in de app kun je vragen (rechtsklik → Verwijder), blokken (Instellingen → Blok verwijderen) en colleges (collegemenu → Huidig college verwijderen) verwijderen.</li>
-      <li>Alles verwijderen: stop de app en verwijder de opslagmap uit punt 2. Op macOS kan deze map blijven bestaan, ook als je de app naar de prullenmand sleept.</li>
+      <li>Afzonderlijk verwijderen: in de app kun je vragen (rechtsklik → Verwijder), blokken (Instellingen → Blok verwijderen) en colleges (collegemenu → Huidig college verwijderen) verwijderen. Wat je verwijdert, verdwijnt ook uit iCloud en van je andere gesynchroniseerde apparaten.</li>
+      <li>Verwijderen uit iCloud: open in de iCloud-instellingen van je apparaat ‘Beheer opslag’ en verwijder de gegevens van LectureQ om alles wat met iCloud is gesynchroniseerd te wissen.</li>
+      <li>Verwijderen van een apparaat: stop op een Mac de app en verwijder de opslagmap uit punt 2 (die kan blijven bestaan, ook als je de app naar de prullenmand sleept). Op iPhone en iPad verwijder je met de app ook de gegevens op dat apparaat.
+      Gebruik je iCloud-synchronisatie, verwijder dan eerst de gegevens in iCloud, anders worden ze gewoon opnieuw gedownload.</li>
     </ul>
 
     <h2>10. Privacy van kinderen</h2>

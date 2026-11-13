@@ -39,7 +39,9 @@ struct LectureQApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                #if os(macOS)
                 .frame(minWidth: 960, minHeight: 600)
+                #endif
                 .storeFallbackNotice()
                 .satisfactionCheckIfEnabled()
                 // 개발자가 보낸 의견에 답장하면, 앱이 앞으로 올 때 답장을 시트로 보여 준다 (LeeoKit).
@@ -49,10 +51,12 @@ struct LectureQApp: App {
         }
         .modelContainer(container)
 
-        // 앱 메뉴 ▸ 설정… (⌘,) — 피드백 · 리뷰 · 문의 · 정책 링크
+        #if os(macOS)
+        // 앱 메뉴 ▸ 설정… (⌘,) — 피드백 · 리뷰 · 문의 · 정책 링크 (iPhone · iPad 는 사이드바의 설정 버튼)
         Settings {
             SettingsView()
         }
+        #endif
     }
 
     /// XCTest 가 앱을 호스트로 실행 중인가.
@@ -61,7 +65,7 @@ struct LectureQApp: App {
     }
 
     /// 데이터가 사라지지 않도록, 눈에 보이는 실제 파일에 SwiftData 저장소를 만든다.
-    /// 경로: ~/Library/Application Support/LectureQ/LectureQ.store
+    /// 경로: (앱 컨테이너)/Library/Application Support/LectureQ/LectureQ.store
     static func makeContainer() -> ModelContainer {
         let schema = Schema([Lecture.self, Question.self, Block.self])
         #if DEBUG
@@ -82,13 +86,14 @@ struct LectureQApp: App {
         }
     }
 
-    /// 저장소 설정. **CloudKit 동기화를 명시적으로 끈다(.none).**
-    /// 기본값(.automatic)은 엔타이틀먼트의 첫 iCloud 컨테이너로 동기화를 시도하는데, 이 앱의 컨테이너
-    /// (iCloud.com.Ysoup.FeedbackHub)는 익명 통계·피드백용이다. 모델이 CloudKit 규칙(모든 속성 기본값)을
-    /// 만족하지 않아 저장소가 열리지 않고 실행 즉시 중단되며, 열린다 해도 공책 내용이 남의 컨테이너로 올라간다.
-    /// 데이터는 이 Mac 에만 둔다(개인정보 처리방침과 같다).
+    /// 저장소 설정. 공책은 **사용자 자신의 iCloud 개인 저장소**(iCloud.com.lectureq.LectureQ)로 Mac · iPhone · iPad 를 오간다.
+    /// 컨테이너를 꼭 이름으로 못박는다 — 기본값(.automatic)은 엔타이틀먼트의 첫 컨테이너를 고르는데,
+    /// 피드백 허브(iCloud.com.Ysoup.FeedbackHub)는 익명 통계·피드백용이라 공책이 그리로 가면 안 된다.
+    /// iCloud 에 로그인하지 않은 기기에서는 이 기기 안에만 저장된다.
+    static let cloudContainer = "iCloud.com.lectureq.LectureQ"
+
     static func storeConfiguration(schema: Schema, url: URL) -> ModelConfiguration {
-        ModelConfiguration(schema: schema, url: url, allowsSave: true, cloudKitDatabase: .none)
+        ModelConfiguration(schema: schema, url: url, allowsSave: true, cloudKitDatabase: .private(cloudContainer))
     }
 
     /// 저장 폴더가 없으면 만들고, 저장 파일의 전체 경로를 돌려준다.

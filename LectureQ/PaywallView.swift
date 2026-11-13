@@ -75,7 +75,7 @@ struct PaywallView: View {
             }
             .padding(16)
         }
-        .frame(width: 820, height: 680)
+        .macFrame(width: 820, height: 680)
         .task {
             LeeoAnalyticsCenter.track(.paywallShown(reason: highlight?.rawValue ?? "settings"))
             plusTerm = initialTerm
@@ -226,7 +226,7 @@ struct PaywallView: View {
                 }
                 if !showsShortTerms, product(tier, .weekly) != nil || product(tier, .monthly) != nil {
                     Button("주 · 월 구독도 보기") { showsShortTerms = true }
-                        .buttonStyle(.link)
+                        .linkButtonStyle()
                         .scaledFont(.body)
                 }
                 Button {
@@ -377,7 +377,7 @@ struct PaywallView: View {
                 }
                 Button("개인정보 처리방침") { openURL(LectureQSpec.legal.privacyURL) }
             }
-            .buttonStyle(.link)
+            .linkButtonStyle()
             .scaledFont(.body)
         }
     }

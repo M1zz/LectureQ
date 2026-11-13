@@ -1,11 +1,15 @@
 import Foundation
 import SwiftData
 
+// iCloud(CloudKit) 동기화 규칙: 모든 속성에 기본값, 관계는 옵셔널, unique 없음.
+// 관계 배열은 저장 칸(…Store)만 옵셔널로 두고, 화면 코드는 옵셔널이 아닌 계산 속성(questions · blocks …)을 쓴다.
+// originalName 으로 예전 저장 칸 이름을 이어받아 기존 Mac 기록이 그대로 열린다.
+
 @Model
 final class Lecture {
-    var uuid: UUID
-    var title: String
-    var createdAt: Date
+    var uuid: UUID = UUID()
+    var title: String = ""
+    var createdAt: Date = Date.now
 
     // 레거시(구버전) 필드 — 기존 데이터 보존용. 이제 메모/시간은 Block 으로 옮겨감.
     var notes: String = ""
@@ -21,12 +25,21 @@ final class Lecture {
     var goalState: String = ""      // 학습을 마쳤을 때 나의 상태
     var wantToLearn: String = ""    // 배우고 싶은 것
 
-    @Relationship(deleteRule: .cascade, inverse: \Question.lecture)
-    var questions: [Question] = []
+    @Relationship(deleteRule: .cascade, originalName: "questions", inverse: \Question.lecture)
+    var questionStore: [Question]? = []
 
     // 한 강의 안의 여러 시간 블록
-    @Relationship(deleteRule: .cascade, inverse: \Block.lecture)
-    var blocks: [Block] = []
+    @Relationship(deleteRule: .cascade, originalName: "blocks", inverse: \Block.lecture)
+    var blockStore: [Block]? = []
+
+    var questions: [Question] {
+        get { questionStore ?? [] }
+        set { questionStore = newValue }
+    }
+    var blocks: [Block] {
+        get { blockStore ?? [] }
+        set { blockStore = newValue }
+    }
 
     init(title: String) {
         self.uuid = UUID()
@@ -61,22 +74,32 @@ final class Block {
 
 @Model
 final class Question {
-    var uuid: UUID
-    var text: String          // the question itself
-    var answer: String        // the answer, filled in later
-    var isResolved: Bool
+    var uuid: UUID = UUID()
+    var text: String = ""          // the question itself
+    var answer: String = ""        // the answer, filled in later
+    var isResolved: Bool = false
     // "배운 점"으로 포함할지 — 해결된 질문 중에서도 실제로 배운 것만 고를 수 있게 한다.
     // 기본 true(포함), 사용자가 제외 가능. 배운 점 = isResolved && isLearned.
     var isLearned: Bool = true
-    var timeMark: String      // e.g. "12:34" — where in the lecture it came up
-    var createdAt: Date
+    var timeMark: String = ""      // e.g. "12:34" — where in the lecture it came up
+    var createdAt: Date = Date.now
 
     var lecture: Lecture?
 
     // Self-referencing many-to-many: "this question is related to..."
-    @Relationship(inverse: \Question.linkedFrom)
-    var related: [Question] = []
-    var linkedFrom: [Question] = []
+    @Relationship(originalName: "related", inverse: \Question.linkedFromStore)
+    var relatedStore: [Question]? = []
+    @Relationship(originalName: "linkedFrom")
+    var linkedFromStore: [Question]? = []
+
+    var related: [Question] {
+        get { relatedStore ?? [] }
+        set { relatedStore = newValue }
+    }
+    var linkedFrom: [Question] {
+        get { linkedFromStore ?? [] }
+        set { linkedFromStore = newValue }
+    }
 
     init(text: String, timeMark: String = "", lecture: Lecture? = nil) {
         self.uuid = UUID()

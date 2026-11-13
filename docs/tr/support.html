@@ -205,11 +205,11 @@
     <details>
       <summary>Verilerim nerede saklanıyor? Nasıl yedeklerim?</summary>
       <div class="body">
-        <p>Tüm veriler yalnızca bu Mac’teki şu klasörde saklanır ve aygıt dışına gönderilmez.</p>
+        <p>Tüm veriler aygıtınızda saklanır: Mac’te aşağıdaki klasörde, iPhone ve iPad’de ise uygulamanın kendi depolama alanında. iCloud’a giriş yaptıysanız veriler iCloud’unuz üzerinden kendi Mac, iPhone ve iPad’iniz arasında eşitlenir ve geliştirici bunları göremez.</p>
         <p><code>~/Library/Containers/com.lectureq.LectureQ/Data/Library/Application Support/LectureQ/</code></p>
         <ul>
           <li><strong>Yedekleme:</strong> Uygulamadan çıktıktan sonra bu klasörü olduğu gibi kopyalayın. (<code>LectureQ.store</code> ile birlikte duran <code>-wal</code> ve <code>-shm</code> dosyaları da dahil)</li>
-          <li><strong>Sıfırlama:</strong> Uygulamadan çıktıktan sonra bu klasörü silin. Uygulamayı Çöp Sepeti’ne atmak bu klasörü silmez.</li>
+          <li><strong>Sıfırlama:</strong> Uygulamadan çıktıktan sonra bu klasörü silin. Uygulamayı Çöp Sepeti’ne atmak bu klasörü silmez. iCloud eşitlemesini kullanıyorsanız önce iCloud ayarlarındaki Saklama Alanını Yönet bölümünden LectureQ’nun verilerini silin; aksi hâlde veriler yeniden indirilir.</li>
         </ul>
       </div>
     </details>
@@ -217,7 +217,7 @@
     <details>
       <summary>Sistem gereksinimleri · Kaynaktan nasıl derlerim?</summary>
       <div class="body">
-        <p>macOS 14 veya sonrasında çalışır.</p>
+        <p>macOS 14 veya sonrası yüklü Mac’lerde, iOS ya da iPadOS 18 veya sonrası yüklü iPhone ve iPad’lerde çalışır.</p>
         <p>Kaynaktan derleme: Depoyu klonlayıp <code>./run.sh</code> komutunu çalıştırın ya da <code>xcodegen generate</code> sonrasında <code>LectureQ.xcodeproj</code> dosyasını Xcode’da açıp çalıştırın.
         Ayrıntılar için <a href="https://github.com/M1zz/LectureQ">GitHub deposuna</a> bakın.</p>
       </div>

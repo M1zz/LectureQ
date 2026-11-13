@@ -37,7 +37,7 @@ struct QuickCaptureView: View {
                     .onSubmit { save() }
                     .help("강의 시점 (24시간 HH:mm). 지우면 시점 없이 저장돼요")
                 Button("지금") { timeMark = timeMarkString() }
-                    .buttonStyle(.link)
+                    .linkButtonStyle()
 
                 Spacer()
 
@@ -52,7 +52,7 @@ struct QuickCaptureView: View {
             .scaledFont(.callout)
         }
         .padding(20)
-        .frame(width: 480)
+        .macFrame(width: 480)
         .onAppear {
             focused = true
             if timeMark.isEmpty { timeMark = timeMarkString() }   // 열 때 지금 시각으로 채움
@@ -61,11 +61,13 @@ struct QuickCaptureView: View {
                 timeMark = DemoMode.captureTimeMark
                 text = DemoMode.captureDraft
                 // 포커스 시 전체 선택되므로, 입력 중인 모습이 되게 커서를 끝으로 옮긴다.
+                #if os(macOS)
                 DispatchQueue.main.asyncAfter(deadline: .now() + 0.6) {
                     if let editor = NSApp.keyWindow?.firstResponder as? NSTextView {
                         editor.setSelectedRange(NSRange(location: (editor.string as NSString).length, length: 0))
                     }
                 }
+                #endif
             }
             #endif
         }

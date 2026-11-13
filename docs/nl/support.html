@@ -205,11 +205,11 @@
     <details>
       <summary>Waar worden mijn gegevens opgeslagen? En hoe maak ik een back-up?</summary>
       <div class="body">
-        <p>Alle gegevens staan alleen in de volgende map op deze Mac en verlaten het apparaat nooit.</p>
+        <p>Alle gegevens staan op je apparaat: op een Mac in de volgende map, op iPhone en iPad in de eigen opslag van de app. Ben je bij iCloud ingelogd, dan worden ze via je iCloud gesynchroniseerd tussen je eigen Mac, iPhone en iPad, en de ontwikkelaar kan ze niet zien.</p>
         <p><code>~/Library/Containers/com.lectureq.LectureQ/Data/Library/Application Support/LectureQ/</code></p>
         <ul>
           <li><strong>Back-up:</strong> stop de app en kopieer de hele map (inclusief de bestanden <code>-wal</code> en <code>-shm</code> naast <code>LectureQ.store</code>).</li>
-          <li><strong>Opnieuw beginnen:</strong> stop de app en verwijder deze map. Alleen de app naar de prullenmand slepen verwijdert deze map niet.</li>
+          <li><strong>Opnieuw beginnen:</strong> stop de app en verwijder deze map. Alleen de app naar de prullenmand slepen verwijdert deze map niet. Gebruik je iCloud-synchronisatie, verwijder dan eerst de gegevens van LectureQ via ‘Beheer opslag’ in je iCloud-instellingen, anders worden ze opnieuw gedownload.</li>
         </ul>
       </div>
     </details>
@@ -217,7 +217,7 @@
     <details>
       <summary>Systeemvereisten · zelf bouwen vanuit de broncode?</summary>
       <div class="body">
-        <p>De app werkt op macOS 14 of nieuwer.</p>
+        <p>De app werkt op een Mac met macOS 14 of nieuwer, en op iPhone en iPad met iOS of iPadOS 18 of nieuwer.</p>
         <p>Zelf bouwen: kloon de repository en voer <code>./run.sh</code> uit, of voer <code>xcodegen generate</code> uit en open daarna <code>LectureQ.xcodeproj</code> in Xcode.
         Meer informatie vind je in de <a href="https://github.com/M1zz/LectureQ">GitHub-repository</a>.</p>
       </div>

@@ -205,11 +205,11 @@
     <details>
       <summary>データはどこに保存されますか？ バックアップは？</summary>
       <div class="body">
-        <p>データはすべてこのMac内の次のフォルダにだけ保存され、デバイスの外に送られることはありません。</p>
+        <p>データはすべてデバイスに保存されます。Macでは次のフォルダに、iPhoneとiPadではアプリ専用の保存領域に保存されます。iCloudにサインインしている場合は、あなたのiCloudを通じてあなたのMac、iPhone、iPadの間で同期され、開発者がその内容を見ることはできません。</p>
         <p><code>~/Library/Containers/com.lectureq.LectureQ/Data/Library/Application Support/LectureQ/</code></p>
         <ul>
           <li><strong>バックアップ：</strong>アプリを終了してから、このフォルダを丸ごとコピーしてください（<code>LectureQ.store</code> と一緒にある <code>-wal</code>、<code>-shm</code> ファイルも含めて）。</li>
-          <li><strong>初期化：</strong>アプリを終了してから、このフォルダを削除してください。アプリをゴミ箱に入れるだけでは、このフォルダは削除されません。</li>
+          <li><strong>初期化：</strong>アプリを終了してから、このフォルダを削除してください。アプリをゴミ箱に入れるだけでは、このフォルダは削除されません。iCloud同期を使っている場合は、先にiCloud設定の「ストレージを管理」からLectureQのデータを削除してください。そうしないと、データがまたダウンロードされます。</li>
         </ul>
       </div>
     </details>
@@ -217,7 +217,7 @@
     <details>
       <summary>動作環境 · ソースからビルドするには？</summary>
       <div class="body">
-        <p>macOS 14以降で動作します。</p>
+        <p>macOS 14以降のMac、iOS／iPadOS 18以降のiPhoneとiPadで動作します。</p>
         <p>ソースからのビルド：リポジトリをクローンして <code>./run.sh</code> を実行するか、<code>xcodegen generate</code> のあと <code>LectureQ.xcodeproj</code> をXcodeで開いて実行してください。
         詳しくは<a href="https://github.com/M1zz/LectureQ">GitHubリポジトリ</a>をご覧ください。</p>
       </div>

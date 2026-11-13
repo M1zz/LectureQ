@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>LectureQ: записывайте вопросы, которые возникают на лекции, для Mac</title>
+  <title>LectureQ: записывайте вопросы, которые возникают на лекции, для Mac, iPhone и iPad</title>
   <meta name="description" content="Запишите вопрос одним сочетанием клавиш, не отрываясь от лекции. Он останется рядом с заметками того момента, пока вы не найдёте ответ. До 10 лекций бесплатно.">
   <meta name="theme-color" content="#2E6BE6" media="(prefers-color-scheme: light)">
   <meta name="theme-color" content="#111214" media="(prefers-color-scheme: dark)">
@@ -35,7 +35,7 @@
   <link rel="alternate" hreflang="tr" href="https://m1zz.github.io/LectureQ/tr/">
   <link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/LectureQ/">
   <meta property="og:type" content="website">
-  <meta property="og:title" content="LectureQ: записывайте вопросы, которые возникают на лекции, для Mac">
+  <meta property="og:title" content="LectureQ: записывайте вопросы, которые возникают на лекции, для Mac, iPhone и iPad">
   <meta property="og:description" content="Запишите вопрос одним сочетанием клавиш, не отрываясь от лекции. Он останется рядом с заметками того момента, пока вы не найдёте ответ. До 10 лекций бесплатно.">
   <meta property="og:url" content="https://m1zz.github.io/LectureQ/ru/">
   <meta property="og:image" content="https://m1zz.github.io/LectureQ/img/ru/main.jpg">
@@ -60,7 +60,7 @@
         <h1>Ни один вопрос с лекции<br>больше не потеряется</h1>
         <p class="lead">Нажмите <code>⌘⇧N</code>, напишите строчку, и вопрос встанет рядом с заметками именно этой минуты. Вы слушаете дальше, а ответ ищете потом.</p>
         <div class="actions"><a class="cta" href="https://apps.apple.com/app/id6794597095">Загрузить бесплатно в App Store</a><a class="try" href="#try">Попробуйте здесь ↓</a></div>
-        <p class="muted small">Для macOS 14 и новее. Без учётной записи, всё остаётся на этом Mac.</p>
+        <p class="muted small">Для Mac (macOS 14 и новее), iPhone и iPad (iOS 18 и новее). Без учётной записи, синхронизация через ваш собственный iCloud.</p>
       </div>
       <div class="plain"><img src="../img/ru/main.jpg" alt="Ни один вопрос с лекции больше не потеряется" width="1200" height="750" decoding="async"></div>
     </section>
@@ -131,7 +131,7 @@
           <p class="muted">Можно выбрать подписку на неделю, месяц или год либо заплатить один раз навсегда. Чаевые из Настроек — отдельная вещь и ничего не открывают.</p>
         </div>
       </div>
-      <p class="muted">Ни рекламы, ни учётной записи. Заметки остаются на этом Mac.</p>
+      <p class="muted">Ни рекламы, ни учётной записи. Заметки остаются на ваших устройствах и в вашем собственном iCloud.</p>
     </section>
 
     <section class="reveal" id="faq">
@@ -142,9 +142,9 @@
 <details><summary>Как работают промпты для ИИ?</summary><p>В карточке вопроса откройте <code>Скопировать промпт для ИИ</code> рядом с полем «Ответ» и выберите шаг: Уточнить вопрос, Найти ответ, Переспросить ответ, Выделить уточняющие вопросы или Оценить мой ответ. В буфер обмена попадёт промпт с названием лекции, заметками того момента, состоянием обучения и исходным вопросом. Сам текст промпта пока на корейском; большинство ИИ-сервисов его всё равно понимают, а ответ можно попросить на русском. Чтобы получить оценку, сначала напишите собственный ответ. Само приложение никогда не подключается к ИИ-сервисам.</p></details>
 <details><summary>Можно импортировать разговор, сохранённый в Markdown?</summary><p>Выберите <code>Импорт из Markdown…</code> в меню лекций. <code># Заголовок</code> становится названием лекции, а в каждом <code>## Разделе</code> первый вопрос — исходный, следующие — уточняющие. Реплики того, кто говорит в файле первым, становятся вопросами, реплики остальных — ответом на предыдущий вопрос. Исходный файл не меняется.</p></details>
 <details><summary>Как удалить вопрос или лекцию?</summary><p>Нажмите на вопрос в списке правой кнопкой и выберите <code>Удалить</code>. Лекцию удаляет команда <code>Удалить текущую лекцию</code> в меню лекций, вместе с её вопросами и блоками. Отменить это нельзя, поэтому сначала сделайте копию важного.</p></details>
-<details><summary>Где хранятся данные и как сделать резервную копию?</summary><p>Всё остаётся на этом Mac и никуда не отправляется. Закройте приложение и скопируйте целиком папку ~/Library/Containers/com.lectureq.LectureQ/Data/Library/Application Support/LectureQ/ вместе с файлами -wal и -shm. Приложение отправляет только анонимную статистику, например версию и дни запуска, но никогда не то, что вы пишете.</p></details>
+<details><summary>Где хранятся данные и как сделать резервную копию?</summary><p>Всё хранится на вашем устройстве, а если выполнен вход в iCloud, синхронизируется между вашими собственными Mac, iPhone и iPad через ваш iCloud. Разработчик этого не видит. Чтобы сделать резервную копию на Mac, закройте приложение и скопируйте целиком папку ~/Library/Containers/com.lectureq.LectureQ/Data/Library/Application Support/LectureQ/ вместе с файлами -wal и -shm. Приложение отправляет только анонимную статистику, например версию и дни запуска, но никогда не то, что вы пишете.</p></details>
 <details><summary>Текст слишком мелкий.</summary><p><code>⌘+</code> увеличивает, <code>⌘-</code> уменьшает, <code>⌘0</code> возвращает обычный размер. Диапазон от 85 до 200 %, настройка запоминается.</p></details>
-<details><summary>На каких Mac работает приложение?</summary><p>На любом Mac с macOS 14 и новее. Исходный код открыт на GitHub: M1zz/LectureQ.</p></details>
+<details><summary>На каких устройствах работает приложение?</summary><p>На любом Mac с macOS 14 и новее, а также на iPhone и iPad с iOS или iPadOS 18 и новее. Исходный код открыт на GitHub: M1zz/LectureQ.</p></details>
 <details><summary>Что-то не работает. Куда сообщить?</summary><p>Отправьте отзыв из Настроек приложения (<code>⌘,</code>) или напишите на адрес ниже. Укажите версию macOS и что вы делали в тот момент, так мы разберёмся быстрее.</p></details></div>
       <p class="contact">Вопросы или предложения? Пишите на <a href="mailto:leeo@kakao.com">leeo@kakao.com</a>.</p>
     </section>

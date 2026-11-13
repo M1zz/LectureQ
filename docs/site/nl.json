@@ -1,11 +1,11 @@
 {
-  "title": "LectureQ: leg vragen vast die tijdens college opkomen, voor de Mac",
+  "title": "LectureQ: leg vragen vast die tijdens college opkomen, voor Mac, iPhone en iPad",
   "description": "Leg een vraag vast met één sneltoets tijdens het college. Hij staat naast je notities van dat moment tot je het antwoord hebt. Gratis voor maximaal 10 colleges.",
   "hero": {
     "headline": "Laat geen collegevraag\nmeer ontsnappen",
     "lead": "Druk op `⌘⇧N`, typ één regel en de vraag staat naast je notities van precies die minuut. Jij blijft luisteren en zoekt het antwoord later.",
     "cta": "Gratis in de App Store",
-    "note": "Voor macOS 14 of nieuwer. Geen account, alles blijft op deze Mac."
+    "note": "Voor Mac (macOS 14 of nieuwer), iPhone en iPad (iOS 18 of nieuwer). Geen account, synchroniseert via je eigen iCloud."
   },
   "demo": {
     "title": "Probeer het hier",
@@ -171,7 +171,7 @@
       ],
       "note": "Kies een abonnement per week, maand of jaar, of betaal eenmalig voor altijd. Een fooi via Instellingen staat daar los van en ontgrendelt niets."
     },
-    "note": "Geen advertenties, geen account. Je notities blijven op deze Mac."
+    "note": "Geen advertenties, geen account. Je notities blijven op je apparaten en in je eigen iCloud."
   },
   "faq": {
     "title": "Veelgestelde vragen",
@@ -202,15 +202,15 @@
       },
       {
         "q": "Waar staan mijn gegevens, en hoe maak ik een reservekopie?",
-        "a": "Alles blijft op deze Mac en wordt nergens geüpload. Stop voor een reservekopie de app en kopieer de hele map ~/Library/Containers/com.lectureq.LectureQ/Data/Library/Application Support/LectureQ/ inclusief de bestanden -wal en -shm. De app stuurt alleen anonieme gebruiksstatistieken, zoals de versie en de dagen waarop je hem opende, nooit wat je schrijft."
+        "a": "Alles wordt op je apparaat bewaard en, als je bij iCloud bent ingelogd, via je iCloud gesynchroniseerd tussen je eigen Mac, iPhone en iPad. De ontwikkelaar kan het niet zien. Stop voor een reservekopie op een Mac de app en kopieer de hele map ~/Library/Containers/com.lectureq.LectureQ/Data/Library/Application Support/LectureQ/ inclusief de bestanden -wal en -shm. De app stuurt alleen anonieme gebruiksstatistieken, zoals de versie en de dagen waarop je hem opende, nooit wat je schrijft."
       },
       {
         "q": "De tekst is te klein.",
         "a": "Met `⌘+` wordt hij groter, met `⌘-` kleiner en met `⌘0` weer standaard. Het gaat van 85% tot 200% en de instelling wordt onthouden."
       },
       {
-        "q": "Op welke Macs werkt de app?",
-        "a": "Op elke Mac met macOS 14 of nieuwer. De broncode staat openbaar op GitHub onder M1zz/LectureQ."
+        "q": "Op welke apparaten werkt de app?",
+        "a": "Op elke Mac met macOS 14 of nieuwer, en op iPhone en iPad met iOS of iPadOS 18 of nieuwer. De broncode staat openbaar op GitHub onder M1zz/LectureQ."
       },
       {
         "q": "Er werkt iets niet. Bij wie meld ik dat?",

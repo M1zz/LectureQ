@@ -1,11 +1,11 @@
 {
-  "title": "LectureQ: catch the questions you have mid-lecture, for Mac",
+  "title": "LectureQ: catch the questions you have mid-lecture, for Mac, iPhone and iPad",
   "description": "Jot down a question with one shortcut mid-lecture. It sits beside your notes from that moment until you've answered it. Free for up to 10 lectures.",
   "hero": {
     "headline": "Don't let a mid-lecture\nquestion slip away",
     "lead": "Press `⌘⇧N`, type one line, and the question lands beside your notes from that minute. Keep listening. Find the answer later.",
     "cta": "Get it free on the App Store",
-    "note": "For macOS 14 or later. No account; everything stays on this Mac."
+    "note": "For Mac (macOS 14 or later), iPhone and iPad (iOS 18 or later). No account; syncs through your own iCloud."
   },
   "demo": {
     "title": "Try it here",
@@ -171,7 +171,7 @@
       ],
       "note": "Choose a weekly, monthly or yearly subscription, or pay once for lifetime. Tips from Settings are separate and unlock nothing."
     },
-    "note": "No adverts, no account. Your notes stay on this Mac."
+    "note": "No adverts, no account. Your notes stay on your devices and in your own iCloud."
   },
   "faq": {
     "title": "Questions",
@@ -202,15 +202,15 @@
       },
       {
         "q": "Where is my data stored, and how do I back it up?",
-        "a": "Everything stays on this Mac and is never uploaded. To back up, quit the app and copy the whole folder ~/Library/Containers/com.lectureq.LectureQ/Data/Library/Application Support/LectureQ/ including the -wal and -shm files. The app only sends anonymous usage statistics, such as the app version and the days it was opened, never what you write."
+        "a": "Everything is stored on your device and, if you’re signed in to iCloud, synced between your own Mac, iPhone and iPad through your iCloud. The developer can’t see it. To back up on a Mac, quit the app and copy the whole folder ~/Library/Containers/com.lectureq.LectureQ/Data/Library/Application Support/LectureQ/ including the -wal and -shm files. The app only sends anonymous usage statistics, such as the app version and the days it was opened, never what you write."
       },
       {
         "q": "The text is too small.",
         "a": "Use `⌘+` to make it bigger, `⌘-` to make it smaller and `⌘0` to reset. It goes from 85% to 200% and remembers your setting."
       },
       {
-        "q": "Which Macs does it run on?",
-        "a": "Any Mac with macOS 14 or later. The source code is public on GitHub at M1zz/LectureQ."
+        "q": "Which devices does it run on?",
+        "a": "Any Mac with macOS 14 or later, and iPhone and iPad with iOS or iPadOS 18 or later. The source code is public on GitHub at M1zz/LectureQ."
       },
       {
         "q": "Something isn't working. Who should I tell?",

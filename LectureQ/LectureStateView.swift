@@ -42,7 +42,7 @@ struct LectureStateView: View {
                 .frame(maxWidth: .infinity)
             }
         }
-        .frame(minWidth: 560, minHeight: 560)
+        .macFrame(minWidth: 560, minHeight: 560)
     }
 
     private func editor(_ title: LocalizedStringKey, text: Binding<String>, placeholder: LocalizedStringKey) -> some View {

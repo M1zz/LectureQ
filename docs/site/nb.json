@@ -1,11 +1,11 @@
 {
-  "title": "LectureQ: fang spørsmålene som dukker opp i forelesningen, for Mac",
+  "title": "LectureQ: fang spørsmålene som dukker opp i forelesningen, for Mac, iPhone og iPad",
   "description": "Skriv ned et spørsmål med én snarvei mens forelesningen fortsetter. Det står ved notatene dine fra akkurat da, til du har svaret. Gratis for opptil 10 forelesninger.",
   "hero": {
     "headline": "Ikke la et spørsmål fra\nforelesningen gli forbi",
     "lead": "Trykk `⌘⇧N`, skriv én linje, så havner spørsmålet ved siden av notatene dine fra akkurat det minuttet. Du hører videre og finner svaret senere.",
     "cta": "Last ned gratis i App Store",
-    "note": "For macOS 14 eller nyere. Ingen konto, alt blir på denne Macen."
+    "note": "For Mac (macOS 14 eller nyere), iPhone og iPad (iOS 18 eller nyere). Ingen konto, synkroniseres via din egen iCloud."
   },
   "demo": {
     "title": "Prøv her",
@@ -171,7 +171,7 @@
       ],
       "note": "Velg ukentlig, månedlig eller årlig abonnement, eller betal én gang for alltid. Tips fra Innstillinger er noe annet og låser ikke opp noe."
     },
-    "note": "Ingen reklame, ingen konto. Notatene dine blir på denne Macen."
+    "note": "Ingen reklame, ingen konto. Notatene dine blir på enhetene dine og i din egen iCloud."
   },
   "faq": {
     "title": "Vanlige spørsmål",
@@ -202,15 +202,15 @@
       },
       {
         "q": "Hvor lagres dataene mine, og hvordan tar jeg sikkerhetskopi?",
-        "a": "Alt blir på denne Macen og lastes aldri opp. Avslutt appen og kopier hele mappen ~/Library/Containers/com.lectureq.LectureQ/Data/Library/Application Support/LectureQ/ med filene -wal og -shm. Appen sender bare anonym bruksstatistikk, som versjon og hvilke dager den er åpnet, aldri det du skriver."
+        "a": "Alt lagres på enheten din og synkroniseres, hvis du er logget på iCloud, mellom dine egne Mac-, iPhone- og iPad-enheter via din iCloud. Utvikleren kan ikke se det. For sikkerhetskopi på en Mac: Avslutt appen og kopier hele mappen ~/Library/Containers/com.lectureq.LectureQ/Data/Library/Application Support/LectureQ/ med filene -wal og -shm. Appen sender bare anonym bruksstatistikk, som versjon og hvilke dager den er åpnet, aldri det du skriver."
       },
       {
         "q": "Teksten er for liten.",
         "a": "`⌘+` gjør den større, `⌘-` mindre, og `⌘0` tilbakestiller. Det går fra 85 % til 200 %, og innstillingen huskes."
       },
       {
-        "q": "Hvilke Macer fungerer appen på?",
-        "a": "Alle Macer med macOS 14 eller nyere. Kildekoden er åpen på GitHub under M1zz/LectureQ."
+        "q": "Hvilke enheter fungerer appen på?",
+        "a": "Alle Macer med macOS 14 eller nyere, og iPhone og iPad med iOS eller iPadOS 18 eller nyere. Kildekoden er åpen på GitHub under M1zz/LectureQ."
       },
       {
         "q": "Noe fungerer ikke. Hvem sier jeg fra til?",

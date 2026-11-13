@@ -23,7 +23,7 @@ DeployBar 가 배포할 때 이 파일을 읽어 App Store 페이지에 올린�
 
 ### 설명
 
-강의를 듣다 떠오른 질문을 흘려보내지 않게 해 주는 Mac용 학습 노트입니다.
+강의를 듣다 떠오른 질문을 흘려보내지 않게 해 주는 학습 노트입니다. Mac, iPhone, iPad에서 함께 쓸 수 있고, 기록은 iCloud로 동기화됩니다.
 질문을 쉬운 말로 바로 적고, 그 시점의 메모와 함께 남겨 두었다가, 답을 찾아 내 말로 정리하면 배운 점이 됩니다.
 
 빠른 질문
@@ -53,9 +53,9 @@ AI로 답 찾기
 글씨 크기는 Command 더하기와 빼기로 조절할 수 있습니다.
 
 개인정보
-계정이 없고, 모든 기록은 이 Mac 안에만 저장됩니다.
+계정이 없습니다. 기록은 기기에 저장되고, iCloud에 로그인되어 있으면 내 iCloud를 통해서만 내 기기들 사이에 동기화됩니다. 개발자는 내 기록을 볼 수 없습니다.
 
-macOS 14 이상에서 사용할 수 있습니다.
+macOS 14 이상, iOS 18 및 iPadOS 18 이상에서 사용할 수 있습니다.
 
 구독 안내
 질문노트 Plus와 Pro 구독은 자동 갱신 구독입니다. 갱신일 24시간 전까지 해지하지 않으면 Apple 계정으로 자동 결제되며, 설정의 구독 관리에서 언제든 해지할 수 있습니다.
@@ -94,7 +94,7 @@ Capture a mid-lecture doubt with one shortcut. It sits beside your notes from th
 
 ### 설명
 
-A learning notebook for Mac that keeps the questions you have during a lecture from slipping away.
+A learning notebook that keeps the questions you have during a lecture from slipping away. Use it on Mac, iPhone and iPad, with your records synced through iCloud.
 Write a question in plain words, keep it next to your notes from that moment, then find the answer and put it in your own words to turn it into something you've learned.
 
 Quick Capture
@@ -124,9 +124,9 @@ Import Markdown made of a title, sections and speaker-by-speaker turns, and the 
 Text size can be adjusted with Command Plus and Command Minus.
 
 Privacy
-There are no accounts, and every record is stored only on this Mac.
+There are no accounts. Your records are stored on your device and, if you’re signed in to iCloud, synced between your devices only through your own iCloud. The developer can’t see them.
 
-Requires macOS 14 or later.
+Requires macOS 14, iOS 18 or iPadOS 18, or later.
 
 Subscriptions
 LectureQ Plus and Pro are auto-renewing subscriptions. Payment is charged to your Apple Account, and the subscription renews unless canceled at least 24 hours before the current period ends. Manage or cancel anytime in Settings.
@@ -165,7 +165,7 @@ Capture a mid-lecture doubt with one shortcut. It sits beside your notes from th
 
 ### 설명
 
-A learning notebook for Mac that keeps the questions you have during a lecture from slipping away.
+A learning notebook that keeps the questions you have during a lecture from slipping away. Use it on Mac, iPhone and iPad, with your records synced through iCloud.
 Write a question in plain words, keep it next to your notes from that moment, then find the answer and put it in your own words to turn it into something you've learnt.
 
 Quick Capture
@@ -195,9 +195,9 @@ Import Markdown made of a title, sections and speaker-by-speaker turns, and the 
 Text size can be adjusted with Command Plus and Command Minus.
 
 Privacy
-There are no accounts, and every record is stored only on this Mac.
+There are no accounts. Your records are stored on your device and, if you’re signed in to iCloud, synced between your devices only through your own iCloud. The developer can’t see them.
 
-Requires macOS 14 or later.
+Requires macOS 14, iOS 18 or iPadOS 18, or later.
 
 Subscriptions
 LectureQ Plus and Pro are auto-renewing subscriptions. Payment is charged to your Apple Account, and the subscription renews unless cancelled at least 24 hours before the current period ends. Manage or cancel any time in Settings.
@@ -236,7 +236,7 @@ LectureQ：听课提问笔记
 
 ### 설명
 
-这是一款 Mac 学习笔记，让你听课时冒出的问题不再溜走。
+这是一款学习笔记，让你听课时冒出的问题不再溜走。可在 Mac、iPhone 和 iPad 上使用，记录通过 iCloud 同步。
 用最简单的话直接写下问题，连同当时的备注一起留存，之后找到答案、用自己的话整理，就成了学到的内容。
 
 快速提问
@@ -266,9 +266,9 @@ LectureQ：听课提问笔记
 按 Command 加号和减号可以调整文字大小。
 
 隐私
-无需账号，所有记录只保存在这台 Mac 上。
+无需账号。记录保存在你的设备上；登录 iCloud 后，只会通过你自己的 iCloud 在你的设备之间同步，开发者无法查看。
 
-需要 macOS 14 或更高版本。
+需要 macOS 14、iOS 18 或 iPadOS 18 及更高版本。
 
 订阅说明
 LectureQ Plus 和 Pro 均为自动续期订阅。 费用从你的 Apple 账户扣除，除非在当期结束前至少 24 小时取消，否则将自动续期。可随时在“设置”中管理或取消。
@@ -307,7 +307,7 @@ LectureQ：上課提問筆記
 
 ### 설명
 
-這是一款 Mac 學習筆記，讓你上課時冒出的問題不再溜走。
+這是一款學習筆記，讓你上課時冒出的問題不再溜走。可在 Mac、iPhone 和 iPad 上使用，紀錄透過 iCloud 同步。
 用最簡單的話直接寫下問題，連同當時的筆記一起留存，之後找到答案、用自己的話整理，就成了學到的內容。
 
 快速提問
@@ -337,9 +337,9 @@ LectureQ：上課提問筆記
 按 Command 加號與減號可以調整文字大小。
 
 隱私
-不需要帳號，所有紀錄只會儲存在這部 Mac 上。
+不需要帳號。紀錄會儲存在你的裝置上；登入 iCloud 後，只會透過你自己的 iCloud 在你的裝置之間同步，開發者無法查看。
 
-需要 macOS 14 或以上版本。
+需要 macOS 14、iOS 18 或 iPadOS 18 以上版本。
 
 訂閱說明
 LectureQ Plus 與 Pro 皆為自動續訂訂閱。 費用會從你的 Apple 帳號扣款，除非在當期結束前至少 24 小時取消，否則將自動續訂。可隨時在「設定」中管理或取消。
@@ -378,7 +378,7 @@ LectureQ：授業の疑問ノート
 
 ### 설명
 
-講義を聞いていて浮かんだ疑問を、流してしまわないためのMac用学習ノートです。
+講義を聞いていて浮かんだ疑問を、流してしまわないための学習ノートです。Mac、iPhone、iPadで使え、記録はiCloudで同期されます。
 疑問をやさしい言葉でそのまま書き、そのときのメモと一緒に残しておき、答えを見つけて自分の言葉でまとめれば、それが学んだことになります。
 
 クイック入力
@@ -408,9 +408,9 @@ AIで答えを探す
 文字サイズは、Commandキーとプラス・マイナスで調整できます。
 
 プライバシー
-アカウントは不要で、すべての記録はこのMacの中だけに保存されます。
+アカウントは不要です。記録はデバイスに保存され、iCloudにサインインしていれば、自分のiCloudを通じて自分のデバイス間でだけ同期されます。開発者が記録を見ることはできません。
 
-macOS 14以降で使えます。
+macOS 14、iOS 18、iPadOS 18以降で使えます。
 
 サブスクリプションについて
 LectureQ の Plus と Pro は自動更新のサブスクリプションです。 期間終了の24時間前までに解約しない限り、Apple Account に自動で請求され更新されます。設定のサブスクリプション管理からいつでも解約できます。
@@ -449,7 +449,7 @@ LectureQ: вопросы к лекциям
 
 ### 설명
 
-Учебный блокнот для Mac, который не даёт вопросам, возникшим на лекции, ускользнуть.
+Учебный блокнот, который не даёт вопросам, возникшим на лекции, ускользнуть. Работает на Mac, iPhone и iPad, а записи синхронизируются через iCloud.
 Запишите вопрос простыми словами, сохраните его рядом с заметкой этого момента, потом найдите ответ и сформулируйте его по-своему — так вопрос станет знанием.
 
 Быстрый вопрос
@@ -479,9 +479,9 @@ LectureQ: вопросы к лекциям
 Размер текста меняется сочетаниями Command плюс и Command минус.
 
 Конфиденциальность
-Учётной записи нет, а все записи хранятся только на этом Mac.
+Учётной записи нет. Записи хранятся на вашем устройстве, а если вы вошли в iCloud, синхронизируются между вашими устройствами только через ваш собственный iCloud. Разработчик их не видит.
 
-Требуется macOS 14 или новее.
+Требуется macOS 14, iOS 18, iPadOS 18 или новее.
 
 Подписки
 LectureQ Plus и Pro — подписки с автопродлением. Оплата списывается с вашего Аккаунта Apple, и подписка продлевается, если не отменить её минимум за 24 часа до конца периода. Управлять подпиской и отменить её можно в Настройках.
@@ -520,7 +520,7 @@ Anota con un atajo la duda que te surge en plena clase. Queda junto a tus notas 
 
 ### 설명
 
-Un cuaderno de estudio para Mac que evita que se te escapen las preguntas que te surgen durante una clase.
+Un cuaderno de estudio que evita que se te escapen las preguntas que te surgen durante una clase. Úsalo en Mac, iPhone y iPad, con tus registros sincronizados mediante iCloud.
 Escribe la duda con palabras sencillas, guárdala junto a tus notas de ese momento y, más tarde, busca la respuesta y redáctala con tus palabras: así se convierte en algo aprendido.
 
 Pregunta rápida
@@ -550,9 +550,9 @@ Importa un Markdown con título, secciones e intervenciones por interlocutor, y 
 Puedes ajustar el tamaño del texto con Command más y Command menos.
 
 Privacidad
-No hay cuentas y todos tus registros se guardan solo en este Mac.
+No hay cuentas. Tus registros se guardan en tu dispositivo y, si has iniciado sesión en iCloud, se sincronizan entre tus dispositivos solo a través de tu propio iCloud. El desarrollador no puede verlos.
 
-Requiere macOS 14 o posterior.
+Requiere macOS 14, iOS 18 o iPadOS 18, o posterior.
 
 Suscripciones
 Las suscripciones a LectureQ Plus y Pro son de renovación automática. El cargo se realiza en tu cuenta de Apple y la suscripción se renueva salvo que la canceles al menos 24 horas antes de que termine el periodo. Puedes gestionarla o cancelarla cuando quieras en Ajustes.
@@ -591,7 +591,7 @@ Halte den Zweifel aus der Vorlesung per Tastenkürzel fest. Er landet neben dein
 
 ### 설명
 
-Ein Lernnotizbuch für den Mac, das Fragen aus der Vorlesung nicht verloren gehen lässt.
+Ein Lernnotizbuch, das Fragen aus der Vorlesung nicht verloren gehen lässt. Es läuft auf Mac, iPhone und iPad, und deine Einträge werden über iCloud synchronisiert.
 Schreib die Frage in einfachen Worten auf, bewahre sie neben deiner Notiz von diesem Moment auf, such später die Antwort und fasse sie in eigenen Worten zusammen – so wird daraus Gelerntes.
 
 Schnelle Frage
@@ -621,9 +621,9 @@ Importiere Markdown aus Titel, Abschnitten und Redebeiträgen nach Sprecher, und
 Die Textgröße lässt sich mit Command Plus und Command Minus ändern.
 
 Datenschutz
-Es gibt keine Konten, und alle Einträge bleiben ausschließlich auf diesem Mac.
+Es gibt keine Konten. Deine Einträge liegen auf deinem Gerät und werden, wenn du bei iCloud angemeldet bist, nur über deine eigene iCloud zwischen deinen Geräten synchronisiert. Der Entwickler kann sie nicht sehen.
 
-Erfordert macOS 14 oder neuer.
+Erfordert macOS 14, iOS 18 bzw. iPadOS 18 oder neuer.
 
 Abonnements
 LectureQ Plus und Pro sind sich automatisch verlängernde Abos. Die Zahlung erfolgt über deinen Apple Account. Das Abo verlängert sich, sofern du nicht mindestens 24 Stunden vor Ablauf des Zeitraums kündigst. Verwalten oder kündigen kannst du jederzeit in den Einstellungen.
@@ -662,7 +662,7 @@ Notez d’un raccourci le doute qui surgit en plein cours. Il se place près de 
 
 ### 설명
 
-Un carnet d’étude pour Mac qui empêche les questions surgies pendant un cours de s’envoler.
+Un carnet d’étude qui empêche les questions surgies pendant un cours de s’envoler. Il fonctionne sur Mac, iPhone et iPad, et vos enregistrements se synchronisent via iCloud.
 Écrivez la question en mots simples, gardez-la à côté de votre note du moment, puis trouvez la réponse et reformulez-la avec vos mots : elle devient alors un savoir acquis.
 
 Question express
@@ -692,9 +692,9 @@ Importez un Markdown composé d’un titre, de sections et de répliques par int
 La taille du texte se règle avec Commande Plus et Commande Moins.
 
 Confidentialité
-Pas de compte : tous vos enregistrements restent uniquement sur ce Mac.
+Pas de compte. Vos enregistrements sont stockés sur votre appareil et, si vous êtes connecté à iCloud, synchronisés entre vos appareils uniquement via votre propre iCloud. Le développeur ne peut pas les voir.
 
-Nécessite macOS 14 ou ultérieur.
+Nécessite macOS 14, iOS 18 ou iPadOS 18, ou version ultérieure.
 
 Abonnements
 Les abonnements LectureQ Plus et Pro sont à renouvellement automatique. Le paiement est débité sur votre compte Apple, et l’abonnement est reconduit sauf résiliation au moins 24 heures avant la fin de la période en cours. Gérez-le ou résiliez-le à tout moment dans Réglages.
@@ -733,7 +733,7 @@ Annota con una scorciatoia il dubbio che ti viene a lezione. Resta accanto ai tu
 
 ### 설명
 
-Un quaderno di studio per Mac che non lascia sfuggire le domande che ti vengono durante una lezione.
+Un quaderno di studio che non lascia sfuggire le domande che ti vengono durante una lezione. Funziona su Mac, iPhone e iPad, e le tue registrazioni si sincronizzano con iCloud.
 Scrivi la domanda con parole semplici, tienila accanto agli appunti di quel momento, poi trova la risposta e riscrivila con parole tue: diventa qualcosa che hai imparato.
 
 Domanda veloce
@@ -763,9 +763,9 @@ Importa un Markdown con titolo, sezioni e interventi per interlocutore, e l’ap
 Puoi regolare la dimensione del testo con Comando più e Comando meno.
 
 Privacy
-Non ci sono account e tutte le registrazioni restano soltanto su questo Mac.
+Non ci sono account. Le tue registrazioni restano sul tuo dispositivo e, se hai effettuato l’accesso a iCloud, si sincronizzano tra i tuoi dispositivi solo tramite il tuo iCloud. Lo sviluppatore non può vederle.
 
-Richiede macOS 14 o successivo.
+Richiede macOS 14, iOS 18 o iPadOS 18, o versioni successive.
 
 Abbonamenti
 Gli abbonamenti LectureQ Plus e Pro si rinnovano automaticamente. Il pagamento viene addebitato sul tuo Account Apple e l’abbonamento si rinnova se non lo disdici almeno 24 ore prima della fine del periodo. Puoi gestirlo o disdirlo in qualsiasi momento in Impostazioni.
@@ -804,7 +804,7 @@ Registre com um atalho a dúvida que surge no meio da aula. Ela fica ao lado das
 
 ### 설명
 
-Um caderno de estudos para Mac que não deixa escapar as perguntas que surgem durante uma aula.
+Um caderno de estudos que não deixa escapar as perguntas que surgem durante uma aula. Funciona no Mac, no iPhone e no iPad, com seus registros sincronizados pelo iCloud.
 Escreva a dúvida com palavras simples, guarde-a ao lado das anotações daquele momento e, depois, encontre a resposta e reescreva-a com suas palavras: assim ela vira algo que você aprendeu.
 
 Pergunta rápida
@@ -834,9 +834,9 @@ Importe um Markdown com título, seções e falas separadas por interlocutor, e 
 O tamanho do texto se ajusta com Command mais e Command menos.
 
 Privacidade
-Não há contas, e todos os registros ficam guardados apenas neste Mac.
+Não há contas. Seus registros ficam no seu dispositivo e, se você tiver iniciado sessão no iCloud, são sincronizados entre seus dispositivos apenas pelo seu próprio iCloud. O desenvolvedor não pode vê-los.
 
-Requer macOS 14 ou posterior.
+Requer macOS 14, iOS 18 ou iPadOS 18, ou posterior.
 
 Assinaturas
 As assinaturas LectureQ Plus e Pro são renovadas automaticamente. A cobrança é feita na sua Conta Apple, e a assinatura é renovada a menos que você cancele pelo menos 24 horas antes do fim do período. Gerencie ou cancele quando quiser em Ajustes.
@@ -875,7 +875,7 @@ LectureQ: จดคำถามในคลาส
 
 ### 설명
 
-สมุดบันทึกการเรียนบน Mac ที่ช่วยไม่ให้คำถามที่ผุดขึ้นระหว่างเรียนหลุดหายไป
+สมุดบันทึกการเรียนที่ช่วยไม่ให้คำถามที่ผุดขึ้นระหว่างเรียนหลุดหายไป ใช้ได้ทั้งบน Mac, iPhone และ iPad โดยบันทึกจะซิงค์ผ่าน iCloud
 เขียนคำถามด้วยคำง่ายๆ เก็บไว้ข้างบันทึกของช่วงเวลานั้น แล้วค่อยหาคำตอบและสรุปด้วยคำพูดของตัวเอง ก็จะกลายเป็นสิ่งที่เรียนรู้
 
 ถามด่วน
@@ -905,9 +905,9 @@ LectureQ: จดคำถามในคลาส
 ปรับขนาดตัวอักษรได้ด้วย Command บวก และ Command ลบ
 
 ความเป็นส่วนตัว
-ไม่มีบัญชีผู้ใช้ และบันทึกทั้งหมดถูกเก็บไว้ใน Mac เครื่องนี้เท่านั้น
+ไม่มีบัญชีผู้ใช้ บันทึกถูกเก็บไว้ในอุปกรณ์ของคุณ และหากลงชื่อเข้าใช้ iCloud ไว้ จะซิงค์ระหว่างอุปกรณ์ของคุณผ่าน iCloud ของคุณเองเท่านั้น นักพัฒนาไม่สามารถเห็นบันทึกเหล่านี้ได้
 
-ใช้ได้กับ macOS 14 ขึ้นไป
+ใช้ได้กับ macOS 14, iOS 18 และ iPadOS 18 ขึ้นไป
 
 การสมัครสมาชิก
 LectureQ Plus และ Pro เป็นการสมัครสมาชิกที่ต่ออายุอัตโนมัติ ระบบจะเรียกเก็บเงินจากบัญชี Apple ของคุณและต่ออายุให้ เว้นแต่จะยกเลิกอย่างน้อย 24 ชั่วโมงก่อนสิ้นสุดรอบ จัดการหรือยกเลิกได้ทุกเมื่อในการตั้งค่า
@@ -946,7 +946,7 @@ Ghi lại thắc mắc nảy ra giữa giờ học chỉ với một phím tắt
 
 ### 설명
 
-Cuốn sổ học tập trên Mac giúp những câu hỏi nảy ra trong lúc nghe giảng không bị trôi mất.
+Cuốn sổ học tập giúp những câu hỏi nảy ra trong lúc nghe giảng không bị trôi mất. Dùng được trên Mac, iPhone và iPad, ghi chép được đồng bộ qua iCloud.
 Hãy viết câu hỏi bằng những từ đơn giản, giữ nó cạnh ghi chú của thời điểm đó, rồi tìm câu trả lời và viết lại bằng lời của bạn để nó trở thành điều đã học.
 
 Câu hỏi nhanh
@@ -976,9 +976,9 @@ Nhập Markdown gồm tiêu đề, các phần và lời thoại theo từng ng�
 Bạn có thể chỉnh cỡ chữ bằng Command cộng và Command trừ.
 
 Quyền riêng tư
-Không cần tài khoản, và mọi ghi chép chỉ được lưu trên máy Mac này.
+Không cần tài khoản. Ghi chép được lưu trên thiết bị của bạn và, nếu bạn đã đăng nhập iCloud, chỉ được đồng bộ giữa các thiết bị của bạn qua iCloud của chính bạn. Nhà phát triển không thể xem chúng.
 
-Cần macOS 14 trở lên.
+Cần macOS 14, iOS 18 hoặc iPadOS 18 trở lên.
 
 Gói đăng ký
 LectureQ Plus và Pro là các gói đăng ký tự động gia hạn. Phí được tính vào Tài khoản Apple của bạn và gói sẽ tự gia hạn trừ khi bạn hủy ít nhất 24 giờ trước khi kỳ hạn kết thúc. Bạn có thể quản lý hoặc hủy bất cứ lúc nào trong Cài đặt.
@@ -1017,7 +1017,7 @@ Pochybnost z přednášky zapíšete jednou zkratkou. Uloží se k poznámce z t
 
 ### 설명
 
-Studijní zápisník pro Mac, který nenechá otázky z přednášky zapadnout.
+Studijní zápisník, který nenechá otázky z přednášky zapadnout. Funguje na Macu, iPhonu i iPadu a záznamy se synchronizují přes iCloud.
 Napište otázku jednoduše, uložte ji vedle poznámky z té chvíle, později najděte odpověď a shrňte ji vlastními slovy – stane se z ní něco, co jste se naučili.
 
 Rychlá otázka
@@ -1047,9 +1047,9 @@ Importujte Markdown složený z názvu, oddílů a replik podle mluvčích a apl
 Velikost textu změníte zkratkami Command plus a Command mínus.
 
 Soukromí
-Žádné účty a všechny záznamy zůstávají jen na tomto Macu.
+Žádné účty. Záznamy se ukládají ve vašem zařízení, a pokud jste přihlášeni k iCloudu, synchronizují se mezi vašimi zařízeními jen přes váš vlastní iCloud. Vývojář je nevidí.
 
-Vyžaduje macOS 14 nebo novější.
+Vyžaduje macOS 14, iOS 18 nebo iPadOS 18 či novější.
 
 Předplatné
 LectureQ Plus a Pro jsou automaticky obnovovaná předplatná. Platba se strhává z vašeho Apple účtu a předplatné se obnoví, pokud ho nezrušíte alespoň 24 hodin před koncem období. Spravovat nebo zrušit ho můžete kdykoli v Nastavení.
@@ -1088,7 +1088,7 @@ Fang tvivlen midt i forelæsningen med én genvej. Den lander ved siden af dine 
 
 ### 설명
 
-En studienotesbog til Mac, der sørger for, at de spørgsmål, du får under en forelæsning, ikke forsvinder.
+En studienotesbog, der sørger for, at de spørgsmål, du får under en forelæsning, ikke forsvinder. Den virker på Mac, iPhone og iPad, og dine optegnelser synkroniseres via iCloud.
 Skriv spørgsmålet med simple ord, gem det ved siden af dine noter fra øjeblikket, og find senere svaret og formulér det med dine egne ord – så bliver det til noget, du har lært.
 
 Hurtigt spørgsmål
@@ -1118,9 +1118,9 @@ Importér Markdown med titel, afsnit og indlæg pr. taler, og appen deler det op
 Tekststørrelsen kan ændres med Command plus og Command minus.
 
 Privatliv
-Der er ingen konti, og alle optegnelser gemmes kun på denne Mac.
+Der er ingen konti. Dine optegnelser gemmes på din enhed og synkroniseres, hvis du er logget ind på iCloud, kun mellem dine enheder via din egen iCloud. Udvikleren kan ikke se dem.
 
-Kræver macOS 14 eller nyere.
+Kræver macOS 14, iOS 18 eller iPadOS 18 eller nyere.
 
 Abonnementer
 LectureQ Plus og Pro er abonnementer, der fornyes automatisk. Betalingen trækkes på din Apple-konto, og abonnementet fornyes, medmindre du opsiger det mindst 24 timer før perioden slutter. Administrer eller opsig når som helst i Indstillinger.
@@ -1159,7 +1159,7 @@ LectureQ: Ερωτήσεις μαθημάτων
 
 ### 설명
 
-Ένα σημειωματάριο μελέτης για Mac που δεν αφήνει να χαθούν οι ερωτήσεις που γεννιούνται στη διάρκεια ενός μαθήματος.
+Ένα σημειωματάριο μελέτης που δεν αφήνει να χαθούν οι ερωτήσεις που γεννιούνται στη διάρκεια ενός μαθήματος. Λειτουργεί σε Mac, iPhone και iPad, και οι εγγραφές σου συγχρονίζονται μέσω iCloud.
 Γράψε την ερώτηση με απλά λόγια, κράτησέ την δίπλα στη σημείωση εκείνης της στιγμής και, αργότερα, βρες την απάντηση και διατύπωσέ την με δικά σου λόγια: έτσι γίνεται κάτι που έμαθες.
 
 Γρήγορη ερώτηση
@@ -1189,9 +1189,9 @@ LectureQ: Ερωτήσεις μαθημάτων
 Το μέγεθος του κειμένου αλλάζει με Command συν και Command πλην.
 
 Απόρρητο
-Δεν υπάρχουν λογαριασμοί και όλες οι εγγραφές αποθηκεύονται μόνο σε αυτό το Mac.
+Δεν υπάρχουν λογαριασμοί. Οι εγγραφές αποθηκεύονται στη συσκευή σου και, αν έχεις συνδεθεί στο iCloud, συγχρονίζονται ανάμεσα στις συσκευές σου μόνο μέσω του δικού σου iCloud. Ο προγραμματιστής δεν μπορεί να τις δει.
 
-Απαιτεί macOS 14 ή νεότερο.
+Απαιτεί macOS 14, iOS 18 ή iPadOS 18 ή νεότερη έκδοση.
 
 Συνδρομές
 Τα LectureQ Plus και Pro είναι συνδρομές με αυτόματη ανανέωση. Η χρέωση γίνεται στον λογαριασμό Apple σου και η συνδρομή ανανεώνεται, εκτός αν την ακυρώσεις τουλάχιστον 24 ώρες πριν λήξει η περίοδος. Διαχειρίσου ή ακύρωσε τη συνδρομή οποτεδήποτε από τις Ρυθμίσεις.
@@ -1230,7 +1230,7 @@ Tallenna luennolla herännyt epäilys yhdellä pikanäppäimellä. Se jää sen 
 
 ### 설명
 
-Macin opiskeluvihko, joka ei anna luennolla heränneiden kysymysten livahtaa pois.
+Opiskeluvihko, joka ei anna luennolla heränneiden kysymysten livahtaa pois. Se toimii Macilla, iPhonella ja iPadilla, ja tallenteet synkronoituvat iCloudin kautta.
 Kirjoita kysymys yksinkertaisin sanoin, säilytä se sen hetken muistiinpanojen vieressä ja etsi myöhemmin vastaus ja muotoile se omin sanoin – niin siitä tulee opittua.
 
 Pikakysymys
@@ -1260,9 +1260,9 @@ Tuo Markdown, jossa on otsikko, osiot ja puheenvuorot puhujittain, ja sovellus j
 Tekstin kokoa voi säätää Command plus- ja Command miinus -näppäimillä.
 
 Yksityisyys
-Tilejä ei ole, ja kaikki tallenteet säilyvät vain tällä Macilla.
+Tilejä ei ole. Tallenteet säilyvät laitteellasi, ja jos olet kirjautunut iCloudiin, ne synkronoituvat laitteidesi välillä vain oman iCloudisi kautta. Kehittäjä ei näe niitä.
 
-Vaatii macOS 14:n tai uudemman.
+Vaatii macOS 14:n, iOS 18:n tai iPadOS 18:n tai uudemman.
 
 Tilaukset
 LectureQ Plus ja Pro ovat automaattisesti uusiutuvia tilauksia. Maksu veloitetaan Apple-tililtäsi, ja tilaus uusiutuu, ellei sitä peruta vähintään 24 tuntia ennen jakson päättymistä. Hallitse tai peru tilaus milloin tahansa Asetuksissa.
@@ -1301,7 +1301,7 @@ Catat keraguan di tengah kuliah dengan satu pintasan. Ia tersimpan di samping ca
 
 ### 설명
 
-Buku catatan belajar untuk Mac yang menjaga pertanyaan yang muncul saat kuliah agar tidak terlewat.
+Buku catatan belajar yang menjaga pertanyaan yang muncul saat kuliah agar tidak terlewat. Bisa dipakai di Mac, iPhone, dan iPad, dengan catatan yang disinkronkan lewat iCloud.
 Tulis pertanyaan dengan kata-kata sederhana, simpan di samping catatan saat itu, lalu cari jawabannya dan tulis ulang dengan kata-katamu sendiri: itulah yang menjadi hal yang sudah kamu pelajari.
 
 Pertanyaan Cepat
@@ -1331,9 +1331,9 @@ Impor Markdown berisi judul, bagian, dan ucapan per pembicara, dan aplikasi akan
 Ukuran teks bisa diatur dengan Command plus dan Command minus.
 
 Privasi
-Tidak ada akun, dan semua catatan hanya tersimpan di Mac ini.
+Tidak ada akun. Catatan disimpan di perangkatmu dan, jika kamu masuk ke iCloud, hanya disinkronkan antarperangkatmu melalui iCloud milikmu sendiri. Pengembang tidak bisa melihatnya.
 
-Membutuhkan macOS 14 atau lebih baru.
+Membutuhkan macOS 14, iOS 18, atau iPadOS 18 atau lebih baru.
 
 Langganan
 LectureQ Plus dan Pro adalah langganan yang diperpanjang otomatis. Pembayaran ditagihkan ke Akun Apple Anda dan langganan diperpanjang kecuali dibatalkan paling lambat 24 jam sebelum periode berakhir. Kelola atau batalkan kapan saja di Pengaturan.
@@ -1372,7 +1372,7 @@ Fang tvilen midt i forelesningen med én snarvei. Den havner ved siden av notate
 
 ### 설명
 
-En studienotatbok for Mac som sørger for at spørsmålene du får under en forelesning, ikke forsvinner.
+En studienotatbok som sørger for at spørsmålene du får under en forelesning, ikke forsvinner. Den fungerer på Mac, iPhone og iPad, og notatene dine synkroniseres via iCloud.
 Skriv spørsmålet med enkle ord, ta vare på det ved siden av notatene fra øyeblikket, og finn senere svaret og formuler det med dine egne ord – da blir det til noe du har lært.
 
 Raskt spørsmål
@@ -1402,9 +1402,9 @@ Importer Markdown med tittel, avsnitt og innlegg per taler, så deler appen det 
 Tekststørrelsen justerer du med Command pluss og Command minus.
 
 Personvern
-Det finnes ingen kontoer, og alle opptak lagres bare på denne Macen.
+Det finnes ingen kontoer. Notatene dine lagres på enheten din og synkroniseres, hvis du er logget på iCloud, bare mellom enhetene dine via din egen iCloud. Utvikleren kan ikke se dem.
 
-Krever macOS 14 eller nyere.
+Krever macOS 14, iOS 18 eller iPadOS 18 eller nyere.
 
 Abonnementer
 LectureQ Plus og Pro er abonnementer som fornyes automatisk. Betalingen belastes Apple-kontoen din, og abonnementet fornyes med mindre du sier det opp minst 24 timer før perioden er over. Administrer eller si opp når som helst i Innstillinger.
@@ -1443,7 +1443,7 @@ Leg met één sneltoets de twijfel vast die midden in het college opkomt. Hij ko
 
 ### 설명
 
-Een studieschrift voor Mac dat de vragen die tijdens een college opkomen niet laat wegglippen.
+Een studieschrift dat de vragen die tijdens een college opkomen niet laat wegglippen. Het werkt op Mac, iPhone en iPad, en je notities worden via iCloud gesynchroniseerd.
 Schrijf de vraag in eenvoudige woorden op, bewaar hem naast je notities van dat moment, zoek later het antwoord en verwoord het in je eigen woorden: zo wordt het iets wat je hebt geleerd.
 
 Snelle vraag
@@ -1473,9 +1473,9 @@ Importeer Markdown met een titel, secties en beurten per spreker, en de app verd
 De tekstgrootte pas je aan met Command plus en Command min.
 
 Privacy
-Er zijn geen accounts en alle opnamen blijven alleen op deze Mac.
+Er zijn geen accounts. Je notities worden op je apparaat bewaard en, als je bij iCloud bent ingelogd, alleen via je eigen iCloud tussen je apparaten gesynchroniseerd. De ontwikkelaar kan ze niet zien.
 
-Vereist macOS 14 of nieuwer.
+Vereist macOS 14, iOS 18 of iPadOS 18 of nieuwer.
 
 Abonnementen
 LectureQ Plus en Pro zijn automatisch verlengende abonnementen. De betaling loopt via je Apple Account en het abonnement wordt verlengd, tenzij je minstens 24 uur voor het einde van de periode opzegt. Beheer of zeg op wanneer je wilt in Instellingen.
@@ -1514,7 +1514,7 @@ Zapisz skrótem wątpliwość, która pojawia się w trakcie wykładu. Trafi obo
 
 ### 설명
 
-Notatnik do nauki na Maca, który nie pozwala umknąć pytaniom rodzącym się podczas wykładu.
+Notatnik do nauki, który nie pozwala umknąć pytaniom rodzącym się podczas wykładu. Działa na Macu, iPhonie i iPadzie, a zapisy synchronizują się przez iCloud.
 Zapisz pytanie prostymi słowami, zachowaj je obok notatki z tej chwili, a później znajdź odpowiedź i ujmij ją własnymi słowami – wtedy stanie się czymś, czego się nauczyłeś(-aś).
 
 Szybkie pytanie
@@ -1544,9 +1544,9 @@ Zaimportuj Markdown złożony z tytułu, sekcji i wypowiedzi według rozmówców
 Rozmiar tekstu zmienisz skrótami Command plus i Command minus.
 
 Prywatność
-Nie ma kont, a wszystkie zapisy są przechowywane tylko na tym Macu.
+Nie ma kont. Zapisy są przechowywane na Twoim urządzeniu, a jeśli jesteś zalogowany do iCloud, synchronizują się między Twoimi urządzeniami wyłącznie przez Twój własny iCloud. Deweloper nie ma do nich dostępu.
 
-Wymaga macOS 14 lub nowszego.
+Wymaga macOS 14, iOS 18 lub iPadOS 18 albo nowszego.
 
 Subskrypcje
 LectureQ Plus i Pro to subskrypcje odnawiane automatycznie. Opłata jest pobierana z Twojego konta Apple, a subskrypcja odnawia się, jeśli nie anulujesz jej co najmniej 24 godziny przed końcem okresu. Zarządzaj subskrypcją lub anuluj ją w dowolnej chwili w Ustawieniach.
@@ -1585,7 +1585,7 @@ Fånga tvivlet mitt i föreläsningen med en genväg. Det hamnar bredvid anteckn
 
 ### 설명
 
-En studieanteckningsbok för Mac som ser till att frågorna som dyker upp under en föreläsning inte försvinner.
+En studieanteckningsbok som ser till att frågorna som dyker upp under en föreläsning inte försvinner. Den fungerar på Mac, iPhone och iPad, och dina anteckningar synkroniseras via iCloud.
 Skriv frågan med enkla ord, spara den bredvid anteckningen från ögonblicket, hitta senare svaret och formulera det med egna ord – då blir det något du har lärt dig.
 
 Snabb fråga
@@ -1615,9 +1615,9 @@ Importera Markdown med rubrik, avsnitt och inlägg per talare, så delar appen u
 Textstorleken justerar du med Command plus och Command minus.
 
 Integritet
-Det finns inga konton, och alla uppgifter sparas bara på den här Macen.
+Det finns inga konton. Dina anteckningar sparas på din enhet och synkroniseras, om du är inloggad på iCloud, bara mellan dina enheter via din egen iCloud. Utvecklaren kan inte se dem.
 
-Kräver macOS 14 eller senare.
+Kräver macOS 14, iOS 18 eller iPadOS 18 eller senare.
 
 Prenumerationer
 LectureQ Plus och Pro är prenumerationer som förnyas automatiskt. Betalningen dras från ditt Apple-konto och prenumerationen förnyas om du inte avslutar den minst 24 timmar innan perioden slutar. Hantera eller avsluta när som helst i Inställningar.
@@ -1656,7 +1656,7 @@ Ders sırasında aklınıza takılanı tek kısayolla yazın. O anın notunun ya
 
 ### 설명
 
-Ders sırasında aklınıza gelen soruların kaybolmasını önleyen, Mac için bir çalışma defteri.
+Ders sırasında aklınıza gelen soruların kaybolmasını önleyen bir çalışma defteri. Mac, iPhone ve iPad’de çalışır, kayıtlarınız iCloud üzerinden eşzamanlanır.
 Soruyu basit sözcüklerle yazın, o anın notunun yanında saklayın; sonra cevabı bulup kendi sözcüklerinizle toparlayın. Böylece öğrendiğiniz bir şeye dönüşür.
 
 Hızlı Soru
@@ -1686,9 +1686,9 @@ Başlık, bölümler ve konuşmacıya göre ayrılmış sözlerden oluşan bir M
 Yazı boyutu Command artı ve Command eksi ile ayarlanır.
 
 Gizlilik
-Hesap yoktur ve tüm kayıtlar yalnızca bu Mac’te saklanır.
+Hesap yoktur. Kayıtlarınız cihazınızda saklanır ve iCloud’a giriş yaptıysanız yalnızca kendi iCloud’unuz üzerinden cihazlarınız arasında eşzamanlanır. Geliştirici bunları göremez.
 
-macOS 14 veya üstünü gerektirir.
+macOS 14, iOS 18 veya iPadOS 18 ya da üstünü gerektirir.
 
 Abonelikler
 LectureQ Plus ve Pro otomatik yenilenen aboneliklerdir. Ödeme Apple Hesabınızdan alınır ve dönem bitmeden en az 24 saat önce iptal edilmezse abonelik yenilenir. Ayarlar'dan istediğiniz zaman yönetebilir veya iptal edebilirsiniz.

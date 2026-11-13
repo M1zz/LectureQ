@@ -1,11 +1,11 @@
 {
-  "title": "LectureQ: Fragen aus der Vorlesung festhalten, für den Mac",
+  "title": "LectureQ: Fragen aus der Vorlesung festhalten, für Mac, iPhone und iPad",
   "description": "Halte eine Frage per Kurzbefehl fest, ohne die Vorlesung zu verpassen. Sie bleibt bei deinen Notizen aus dem Moment, bis sie geklärt ist. Bis zu 10 Vorlesungen kostenlos.",
   "hero": {
     "headline": "Keine Frage aus der Vorlesung\ngeht mehr verloren",
     "lead": "`⌘⇧N` drücken, eine Zeile tippen, und die Frage steht neben deinen Notizen genau aus dieser Minute. Du hörst weiter zu und klärst sie später.",
     "cta": "Kostenlos im App Store laden",
-    "note": "Für macOS 14 oder neuer. Kein Konto, alles bleibt auf diesem Mac."
+    "note": "Für Mac (macOS 14 oder neuer), iPhone und iPad (iOS 18 oder neuer). Kein Konto, Synchronisierung über deine eigene iCloud."
   },
   "demo": {
     "title": "Probier es aus",
@@ -171,7 +171,7 @@
       ],
       "note": "Wähle ein wöchentliches, monatliches oder jährliches Abo oder zahle einmal für immer. Trinkgeld in den Einstellungen ist davon getrennt und schaltet nichts frei."
     },
-    "note": "Keine Werbung, kein Konto. Deine Notizen bleiben auf diesem Mac."
+    "note": "Keine Werbung, kein Konto. Deine Notizen bleiben auf deinen Geräten und in deiner eigenen iCloud."
   },
   "faq": {
     "title": "Häufige Fragen",
@@ -202,15 +202,15 @@
       },
       {
         "q": "Wo werden meine Daten gespeichert, und wie sichere ich sie?",
-        "a": "Alles bleibt auf diesem Mac und wird nicht hochgeladen. Zum Sichern beende die App und kopiere den ganzen Ordner ~/Library/Containers/com.lectureq.LectureQ/Data/Library/Application Support/LectureQ/ samt den Dateien -wal und -shm. Die App sendet nur anonyme Nutzungsstatistiken wie App-Version und Nutzungstage, nie deine Inhalte."
+        "a": "Alles wird auf deinem Gerät gespeichert und – wenn du bei iCloud angemeldet bist – über deine iCloud zwischen deinen eigenen Geräten (Mac, iPhone und iPad) synchronisiert. Der Entwickler kann es nicht sehen. Zum Sichern auf dem Mac beende die App und kopiere den ganzen Ordner ~/Library/Containers/com.lectureq.LectureQ/Data/Library/Application Support/LectureQ/ samt den Dateien -wal und -shm. Die App sendet nur anonyme Nutzungsstatistiken wie App-Version und Nutzungstage, nie deine Inhalte."
       },
       {
         "q": "Die Schrift ist zu klein.",
         "a": "Mit `⌘+` wird sie größer, mit `⌘-` kleiner, mit `⌘0` wieder normal. Möglich sind 85 % bis 200 %, die Einstellung bleibt gespeichert."
       },
       {
-        "q": "Auf welchen Macs läuft die App?",
-        "a": "Auf jedem Mac mit macOS 14 oder neuer. Der Quellcode ist auf GitHub unter M1zz/LectureQ öffentlich."
+        "q": "Auf welchen Geräten läuft die App?",
+        "a": "Auf jedem Mac mit macOS 14 oder neuer sowie auf iPhone und iPad mit iOS bzw. iPadOS 18 oder neuer. Der Quellcode ist auf GitHub unter M1zz/LectureQ öffentlich."
       },
       {
         "q": "Etwas funktioniert nicht. Wem sage ich Bescheid?",

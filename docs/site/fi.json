@@ -1,11 +1,11 @@
 {
-  "title": "LectureQ: tallenna luennolla heräävät kysymykset, Macille",
+  "title": "LectureQ: tallenna luennolla heräävät kysymykset, Macille, iPhonelle ja iPadille",
   "description": "Kirjaa kysymys pikanäppäimellä kesken luennon. Se pysyy sen hetken muistiinpanojesi vieressä, kunnes löydät vastauksen. Ilmainen 10 luentoon asti.",
   "hero": {
     "headline": "Älä anna luennolla heränneen\nkysymyksen karata",
     "lead": "Paina `⌘⇧N`, kirjoita rivi, ja kysymys tallentuu juuri sen minuutin muistiinpanojesi viereen. Kuuntelet eteenpäin ja etsit vastauksen myöhemmin.",
     "cta": "Lataa ilmaiseksi App Storesta",
-    "note": "macOS 14 tai uudempi. Ei tiliä, kaikki pysyy tällä Macilla."
+    "note": "Macille (macOS 14 tai uudempi), iPhonelle ja iPadille (iOS 18 tai uudempi). Ei tiliä, synkronointi oman iCloudisi kautta."
   },
   "demo": {
     "title": "Kokeile tässä",
@@ -171,7 +171,7 @@
       ],
       "note": "Valitse viikko-, kuukausi- tai vuositilaus tai kertamaksu, joka on voimassa pysyvästi. Asetuksista annettu tippi on erillinen eikä avaa mitään."
     },
-    "note": "Ei mainoksia, ei tiliä. Muistiinpanosi pysyvät tällä Macilla."
+    "note": "Ei mainoksia, ei tiliä. Muistiinpanosi pysyvät laitteillasi ja omassa iCloudissasi."
   },
   "faq": {
     "title": "Usein kysyttyä",
@@ -202,15 +202,15 @@
       },
       {
         "q": "Mihin tietoni tallentuvat ja miten varmuuskopioin ne?",
-        "a": "Kaikki pysyy tällä Macilla eikä mitään ladata verkkoon. Lopeta sovellus ja kopioi koko kansio ~/Library/Containers/com.lectureq.LectureQ/Data/Library/Application Support/LectureQ/ myös -wal- ja -shm-tiedostoineen. Sovellus lähettää vain nimettömiä käyttötilastoja, kuten version ja avauspäivät, ei koskaan kirjoittamiasi asioita."
+        "a": "Kaikki tallennetaan laitteellesi, ja jos olet kirjautunut iCloudiin, tiedot synkronoidaan oman iCloudisi kautta omien Maciesi, iPhonesi ja iPadisi välillä. Kehittäjä ei näe niitä. Varmuuskopiointi Macissa: lopeta sovellus ja kopioi koko kansio ~/Library/Containers/com.lectureq.LectureQ/Data/Library/Application Support/LectureQ/ myös -wal- ja -shm-tiedostoineen. Sovellus lähettää vain nimettömiä käyttötilastoja, kuten version ja avauspäivät, ei koskaan kirjoittamiasi asioita."
       },
       {
         "q": "Teksti on liian pientä.",
         "a": "`⌘+` suurentaa, `⌘-` pienentää ja `⌘0` palauttaa oletuskoon. Kokoa voi säätää 85 %:sta 200 %:iin, ja asetus säilyy."
       },
       {
-        "q": "Millä Maceilla sovellus toimii?",
-        "a": "Kaikilla Maceilla, joissa on macOS 14 tai uudempi. Lähdekoodi on avoimesti GitHubissa osoitteessa M1zz/LectureQ."
+        "q": "Millä laitteilla sovellus toimii?",
+        "a": "Kaikilla Maceilla, joissa on macOS 14 tai uudempi, sekä iPhoneilla ja iPadeilla, joissa on iOS tai iPadOS 18 tai uudempi. Lähdekoodi on avoimesti GitHubissa osoitteessa M1zz/LectureQ."
       },
       {
         "q": "Jokin ei toimi. Kenelle ilmoitan?",

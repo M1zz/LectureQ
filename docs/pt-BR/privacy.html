@@ -56,12 +56,13 @@
 <!--langswitch:start--><nav class="langs" aria-label="Language"><a href="../privacy.html" hreflang="ko" lang="ko">한국어</a> <a href="../en/privacy.html" hreflang="en" lang="en">English</a> <a href="../en-GB/privacy.html" hreflang="en-GB" lang="en-GB">English (UK)</a> <a href="../zh-Hans/privacy.html" hreflang="zh-Hans" lang="zh-Hans">简体中文</a> <a href="../zh-Hant/privacy.html" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a> <a href="../ja/privacy.html" hreflang="ja" lang="ja">日本語</a> <a href="../ru/privacy.html" hreflang="ru" lang="ru">Русский</a> <a href="../es/privacy.html" hreflang="es" lang="es">Español</a> <a href="../de/privacy.html" hreflang="de" lang="de">Deutsch</a> <a href="../fr/privacy.html" hreflang="fr" lang="fr">Français</a> <a href="../it/privacy.html" hreflang="it" lang="it">Italiano</a> <a href="../pt-BR/privacy.html" hreflang="pt-BR" lang="pt-BR" aria-current="page">Português (Brasil)</a> <a href="../th/privacy.html" hreflang="th" lang="th">ไทย</a> <a href="../vi/privacy.html" hreflang="vi" lang="vi">Tiếng Việt</a> <a href="../cs/privacy.html" hreflang="cs" lang="cs">Čeština</a> <a href="../da/privacy.html" hreflang="da" lang="da">Dansk</a> <a href="../el/privacy.html" hreflang="el" lang="el">Ελληνικά</a> <a href="../fi/privacy.html" hreflang="fi" lang="fi">Suomi</a> <a href="../id/privacy.html" hreflang="id" lang="id">Bahasa Indonesia</a> <a href="../nb/privacy.html" hreflang="nb" lang="nb">Norsk bokmål</a> <a href="../nl/privacy.html" hreflang="nl" lang="nl">Nederlands</a> <a href="../pl/privacy.html" hreflang="pl" lang="pl">Polski</a> <a href="../sv/privacy.html" hreflang="sv" lang="sv">Svenska</a> <a href="../tr/privacy.html" hreflang="tr" lang="tr">Türkçe</a></nav><!--langswitch:end-->
     <a class="back" href="./index.html">← LectureQ: Perguntas de aula</a>
     <h1>Política de Privacidade</h1>
-    <p class="updated">Última atualização: 17 de outubro de 2026</p>
+    <p class="updated">Última atualização: 13 de novembro de 2026</p>
 
     <div class="callout">
       <strong>Resumo:</strong> o LectureQ não coleta nem vende dados pessoais.
-      Tudo o que você digita (aulas, perguntas, respostas e anotações) fica salvo apenas no seu Mac.
-      Para sabermos em quantos Macs o app é usado e para corrigir erros, estatísticas anônimas de uso são enviadas ao desenvolvedor (item 5),
+      Tudo o que você digita (aulas, perguntas, respostas e anotações) fica salvo no seu dispositivo e, se você tiver iniciado sessão no iCloud,
+      é sincronizado apenas entre o seu Mac, iPhone e iPad pelo seu próprio iCloud. O desenvolvedor não tem acesso a nada disso.
+      Para sabermos em quantos dispositivos o app é usado e para corrigir erros, estatísticas anônimas de uso são enviadas ao desenvolvedor (item 5),
       e os textos que você mesmo envia por “Enviar feedback” chegam ao desenvolvedor (item 6).
     </div>
 
@@ -71,12 +72,14 @@
 
     <h2>2. Os dados que você cria</h2>
     <p>Todos os dados criados no app, como aulas, blocos de tempo, anotações, perguntas, respostas e estado de aprendizado,
-    ficam guardados somente no armazenamento local do seu Mac (SwiftData), no seguinte local:</p>
+    ficam guardados no armazenamento local do seu dispositivo (SwiftData). No Mac, eles ficam no local abaixo; no iPhone e no iPad, ficam dentro do espaço de armazenamento do próprio app.</p>
     <ul>
       <li><code>~/Library/Containers/com.lectureq.LectureQ/Data/Library/Application Support/LectureQ/</code></li>
     </ul>
-    <p>Esses dados não são enviados a ninguém fora do seu Mac, nem mesmo ao desenvolvedor, e não são sincronizados com o iCloud nem com outra nuvem.</p>
-    <p>Além disso, o app registra a data da primeira instalação e o número de vezes que foi aberto nos ajustes do app (padrões do usuário do macOS). Esses valores são usados apenas para as estatísticas anônimas de uso do item 5.</p>
+    <p>Se você tiver iniciado sessão no iCloud no dispositivo, esses dados são sincronizados entre o Mac, o iPhone e o iPad que usam a mesma Conta Apple, por meio do <strong>seu banco de dados privado</strong> no Apple iCloud (CloudKit, <code>iCloud.com.lectureq.LectureQ</code>).
+    Esse banco de dados pertence à sua Conta Apple e usa o seu armazenamento do iCloud; ninguém mais, nem mesmo o desenvolvedor, pode lê-lo ou recebê-lo. Enquanto estão no iCloud, os dados são tratados de acordo com a política de privacidade da Apple.</p>
+    <p>Se você não tiver iniciado sessão no iCloud, os dados ficam apenas naquele dispositivo e não são enviados a lugar nenhum.</p>
+    <p>Além disso, o app registra a data da primeira instalação e o número de vezes que foi aberto nos ajustes do app (padrões do usuário). Esses valores são usados apenas para as estatísticas anônimas de uso do item 5.</p>
 
     <h2>3. Importação de arquivos</h2>
     <p>Ao usar “Importar de Markdown…”, o app abre em modo somente leitura <strong>apenas o arquivo que você escolher</strong> na janela de seleção.
@@ -84,46 +87,48 @@
 
     <h2>4. Área de transferência e serviços de IA externos</h2>
     <p>Ao clicar em “Copiar prompt de IA”, um texto com a pergunta escolhida e o contexto relacionado (nome da aula, a anotação daquele momento, o estado de aprendizado, a pergunta original e a resposta que você escreveu)
-    é copiado para a área de transferência do Mac <strong>somente quando você clica</strong>.</p>
+    é copiado para a área de transferência do dispositivo <strong>somente quando você clica</strong>.</p>
     <p>O LectureQ não envia esse conteúdo diretamente a nenhum serviço externo, incluindo serviços de IA.
     Se você colar o conteúdo copiado em um serviço de IA externo, o tratamento a partir daí segue a política de privacidade desse serviço.
     Confira se há informações sensíveis antes de colar.</p>
 
     <h2>5. Estatísticas anônimas de uso</h2>
-    <p>Para saber quantas pessoas usam o app e corrigir erros, o LectureQ envia as estatísticas anônimas abaixo ao Apple iCloud (CloudKit). Somente o desenvolvedor tem acesso a elas.</p>
+    <p>Para saber quantas pessoas usam o app e corrigir erros, o LectureQ envia as estatísticas anônimas abaixo a um espaço do próprio desenvolvedor no Apple iCloud (CloudKit), separado da sincronização dos seus dados descrita no item 2. Somente o desenvolvedor tem acesso a elas.</p>
     <ul>
-      <li>Um ID aleatório criado na instalação (não está vinculado ao seu Mac, ao seu Apple ID nem a outros apps, e muda se você reinstalar)</li>
-      <li>Versão do app, versão do macOS, configurações de região e idioma</li>
+      <li>Um ID aleatório criado na instalação (não está vinculado ao seu dispositivo, à sua Conta Apple nem a outros apps, e muda se você reinstalar)</li>
+      <li>Versão do app, versão do sistema operacional (macOS, iOS ou iPadOS), configurações de região e idioma</li>
       <li>Quantas vezes e em quais dias o app foi aberto, a data de instalação e quantos dias se passaram desde então</li>
-      <li>Relatórios de erro quando o app trava ou fecha inesperadamente (versão do app, versão do macOS, tipo de dispositivo e informações técnicas do erro)</li>
+      <li>Relatórios de erro quando o app trava ou fecha inesperadamente (versão do app, versão do sistema operacional, tipo de dispositivo e informações técnicas do erro)</li>
     </ul>
-    <p>Nome, contatos, localização e conteúdo escrito, como aulas, perguntas, respostas e anotações, não são incluídos. O envio só acontece quando o Mac está conectado ao iCloud.</p>
+    <p>Nome, contatos, localização e conteúdo escrito, como aulas, perguntas, respostas e anotações, não são incluídos. O envio só acontece quando o dispositivo está conectado ao iCloud.</p>
 
     <h2>6. Enviar feedback</h2>
-    <p>Em “Enviar feedback”, nos Ajustes (⌘,), ou em “Algo poderia ser melhor”, na pergunta de satisfação, as informações abaixo são salvas no Apple iCloud (CloudKit) e chegam ao desenvolvedor
+    <p>Em “Enviar feedback”, nos Ajustes do app (⌘, no Mac), ou em “Algo poderia ser melhor”, na pergunta de satisfação, as informações abaixo são salvas no Apple iCloud (CloudKit) e chegam ao desenvolvedor
     <strong>somente quando você mesmo escreve e envia</strong>:</p>
     <ul>
       <li>O tipo de feedback e o texto que você escreveu</li>
-      <li>Versão do app, versão do macOS, tipo de dispositivo, configurações de região e idioma</li>
+      <li>Versão do app, versão do sistema operacional, tipo de dispositivo, configurações de região e idioma</li>
     </ul>
     <p>Aulas, perguntas, respostas e anotações não são anexadas automaticamente ao feedback. Evite incluir dados pessoais no texto.
     Ao clicar em “Fale por e-mail”, o app de e-mail padrão é aberto, e a mensagem é enviada pelo seu próprio serviço de e-mail.</p>
     <p>O app também <strong>apenas lê</strong> no iCloud as configurações de ativação/desativação de cada recurso, para que um recurso com problema possa ser desligado remotamente. Nenhuma informação sua é enviada nesse processo.</p>
 
     <h2>7. Comunicação em rede e rastreamento</h2>
-    <p>O LectureQ envia pela internet apenas as estatísticas anônimas de uso do item 5 e o feedback que você mesmo envia (item 6). O desenvolvedor não mantém nenhum servidor próprio.
-    Não usamos publicidade nem tecnologias de rastreamento de terceiros. Com exceção do envio de feedback, todos os recursos do app funcionam sem conexão com a internet.</p>
+    <p>O LectureQ envia pela internet apenas os seus dados sincronizados com o seu próprio iCloud (item 2), as estatísticas anônimas de uso do item 5 e o feedback que você mesmo envia (item 6). O desenvolvedor não mantém nenhum servidor próprio.
+    Não usamos publicidade nem tecnologias de rastreamento de terceiros. Com exceção da sincronização com o iCloud e do envio de feedback, todos os recursos do app funcionam sem conexão com a internet.</p>
     <p>O link “Guia: encontre respostas com IA” dentro do app abre este site (GitHub Pages) no navegador padrão.
     A comunicação ao visitar a página segue as políticas do navegador e do GitHub.</p>
 
     <h2>8. Compartilhamento com terceiros</h2>
-    <p>Como não coletamos dados pessoais, não há nada a fornecer ou compartilhar com terceiros. As estatísticas anônimas de uso e o feedback ficam apenas armazenados no Apple iCloud e não são repassados a outras empresas.</p>
+    <p>Como não coletamos dados pessoais, não há nada a fornecer ou compartilhar com terceiros. Os dados sincronizados, as estatísticas anônimas de uso e o feedback ficam apenas armazenados no Apple iCloud e não são repassados a outras empresas.</p>
 
     <h2>9. Retenção e exclusão de dados</h2>
-    <p>Os dados permanecem no dispositivo até que você os exclua.</p>
+    <p>Os dados permanecem no dispositivo, e no seu iCloud se você usar a sincronização com o iCloud, até que você os exclua.</p>
     <ul>
-      <li>Exclusão individual: no app, você pode excluir perguntas (clique com o botão direito → Excluir), blocos (Ajustes → Excluir bloco) e aulas (menu da aula → Excluir aula atual).</li>
-      <li>Exclusão total: feche o app e apague a pasta indicada no item 2. No macOS, essa pasta pode continuar existindo mesmo depois de você mover o app para o Lixo.</li>
+      <li>Exclusão individual: no app, você pode excluir perguntas (clique com o botão direito → Excluir), blocos (Ajustes → Excluir bloco) e aulas (menu da aula → Excluir aula atual). Os itens excluídos também são removidos do iCloud e dos seus outros dispositivos sincronizados.</li>
+      <li>Exclusão do iCloud: nos ajustes do iCloud do dispositivo, abra “Gerenciar Armazenamento” e apague os dados do LectureQ para remover o que foi sincronizado com o iCloud.</li>
+      <li>Exclusão de um dispositivo: no Mac, feche o app e apague a pasta indicada no item 2 (ela pode continuar existindo mesmo depois de você mover o app para o Lixo). No iPhone e no iPad, apagar o app também apaga os dados dele naquele dispositivo.
+      Se você usa a sincronização com o iCloud, apague primeiro os dados do iCloud; caso contrário, eles serão baixados de novo.</li>
     </ul>
 
     <h2>10. Privacidade de crianças</h2>

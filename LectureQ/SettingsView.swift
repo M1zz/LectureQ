@@ -16,6 +16,7 @@ struct SettingsView: View {
     /// 구독을 평생으로 바꾸는 시트 (→ LeeoGraduationOfferView).
     @State private var showingGraduation = false
     @State private var restoreMessage: String?
+    @Environment(\.dismiss) private var dismiss
 
     var body: some View {
         NavigationStack {
@@ -45,13 +46,27 @@ struct SettingsView: View {
                 } header: {
                     Text("연락하기")
                 } footer: {
+                    #if os(macOS)
                     Text("문의하실 때 macOS 버전과 어떤 동작에서 문제가 생겼는지 적어 주시면 빠르게 확인할 수 있어요.")
                         .foregroundStyle(.secondary)
+                    #else
+                    Text("문의하실 때 iOS 버전과 어떤 동작에서 문제가 생겼는지 적어 주시면 빠르게 확인할 수 있어요.")
+                        .foregroundStyle(.secondary)
+                    #endif
                 }
             }
             .formStyle(.grouped)
+            #if !os(macOS)
+            .navigationTitle("설정")
+            .navigationBarTitleDisplayMode(.inline)
+            .toolbar {
+                ToolbarItem(placement: .cancellationAction) {
+                    Button("닫기") { dismiss() }
+                }
+            }
+            #endif
         }
-        .frame(width: 480, height: 600)
+        .macFrame(width: 480, height: 600)
         .sheet(isPresented: $showingPaywall) {
             PaywallView(initialTerm: paywallTerm)
         }
@@ -113,10 +128,15 @@ struct SettingsView: View {
         let version = Bundle.main.object(forInfoDictionaryKey: "CFBundleShortVersionString") as? String ?? "?"
         let build = Bundle.main.object(forInfoDictionaryKey: "CFBundleVersion") as? String ?? "?"
         let os = ProcessInfo.processInfo.operatingSystemVersionString
+        #if os(macOS)
+        let body = String(localized: "\n\n\n—\n앱 버전: \(version) (\(build))\nmacOS: \(os)")
+        #else
+        let body = String(localized: "\n\n\n—\n앱 버전: \(version) (\(build))\niOS: \(os)")
+        #endif
         var c = URLComponents(string: "mailto:\(LectureQSpec.developerEmail)")
         c?.queryItems = [
             URLQueryItem(name: "subject", value: String(localized: "[\(LectureQSpec.appName)] 문의")),
-            URLQueryItem(name: "body", value: String(localized: "\n\n\n—\n앱 버전: \(version) (\(build))\nmacOS: \(os)"))
+            URLQueryItem(name: "body", value: body)
         ]
         return c?.url
     }

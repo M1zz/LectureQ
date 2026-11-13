@@ -70,6 +70,6 @@ struct LectureQOnboardingView: View {
             }
         }
         .padding(28)
-        .frame(width: 520)
+        .macFrame(width: 520)
     }
 }

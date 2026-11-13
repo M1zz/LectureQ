@@ -205,11 +205,11 @@
     <details>
       <summary>Di mana dataku disimpan? Bagaimana mencadangkannya?</summary>
       <div class="body">
-        <p>Semua data hanya disimpan di folder berikut di Mac ini dan tidak dikirim ke luar perangkat.</p>
+        <p>Semua data disimpan di perangkatmu: di Mac pada folder berikut, dan di iPhone serta iPad di dalam penyimpanan milik aplikasi. Jika kamu masuk ke iCloud, data disinkronkan antara Mac, iPhone, dan iPad milikmu sendiri melalui iCloud-mu, dan pengembang tidak bisa melihatnya.</p>
         <p><code>~/Library/Containers/com.lectureq.LectureQ/Data/Library/Application Support/LectureQ/</code></p>
         <ul>
           <li><strong>Cadangan:</strong> tutup aplikasi, lalu salin seluruh folder ini (termasuk berkas <code>-wal</code> dan <code>-shm</code> yang ada bersama <code>LectureQ.store</code>).</li>
-          <li><strong>Atur ulang:</strong> tutup aplikasi, lalu hapus folder ini. Membuang aplikasi ke Tempat Sampah saja tidak akan menghapus folder ini.</li>
+          <li><strong>Atur ulang:</strong> tutup aplikasi, lalu hapus folder ini. Membuang aplikasi ke Tempat Sampah saja tidak akan menghapus folder ini. Jika kamu memakai sinkronisasi iCloud, hapus dulu data LectureQ di Kelola Penyimpanan pada pengaturan iCloud, karena kalau tidak, data akan diunduh lagi.</li>
         </ul>
       </div>
     </details>
@@ -217,7 +217,7 @@
     <details>
       <summary>Persyaratan sistem · Bagaimana membangun dari kode sumber?</summary>
       <div class="body">
-        <p>Berjalan di macOS 14 atau yang lebih baru.</p>
+        <p>Berjalan di Mac dengan macOS 14 atau yang lebih baru, serta di iPhone dan iPad dengan iOS atau iPadOS 18 atau yang lebih baru.</p>
         <p>Membangun dari kode sumber: klon repositori lalu jalankan <code>./run.sh</code>, atau jalankan <code>xcodegen generate</code>, lalu buka <code>LectureQ.xcodeproj</code> di Xcode dan jalankan.
         Selengkapnya lihat <a href="https://github.com/M1zz/LectureQ">repositori GitHub</a>.</p>
       </div>

@@ -7,194 +7,170 @@ App Store 의 "이 버전의 새로운 기능" 에 그대로 올라가는 글이
 
 ### 앱스토어 (한국어)
 
-이제 모든 언어에서 Siri로 질문을 더해요
-Spotlight에서 질문을 바로 찾아 열어요
-매일 기록을 자동으로 백업해요
-iCloud나 파일에서 기록을 되살릴 수 있어요
+이제 iPhone과 iPad에서도 쓸 수 있어요
+iCloud로 모든 기기에서 기록이 이어져요
+Siri로 질문을 더하고 Spotlight에서 찾아요
 기록을 열지 못해도 앱이 꺼지지 않고 알려 줘요
 
 ### App Store (English)
 
-Add questions with Siri in any language
-Find and open questions in Spotlight
-Your notes are backed up every day
-Restore notes from iCloud or a file
+Now on iPhone and iPad too
+Notes sync across all devices via iCloud
+Add via Siri and find in Spotlight
 No more crash when notes can’t be opened
 
 ### App Store (en-GB)
 
-Add questions with Siri in any language
-Find and open questions in Spotlight
-Your notes are backed up every day
-Restore notes from iCloud or a file
+Now on iPhone and iPad too
+Notes sync across all devices via iCloud
+Add via Siri and find in Spotlight
 No more crash when notes can’t be opened
 
 ### 앱스토어 (중국어 간체)
 
-现在可用任何语言通过 Siri 添加问题
-在 Spotlight 中直接找到并打开问题
-每天自动备份你的记录
-可从 iCloud 或文件恢复记录
+现在也能在 iPhone 和 iPad 上使用
+通过 iCloud 在所有设备间同步记录
+用 Siri 添加问题，在 Spotlight 中查找
 记录无法打开时不再闪退，而会提示
 
 ### 앱스토어 (중국어 번체)
 
-現在可用任何語言透過 Siri 新增問題
-在 Spotlight 中直接找到並打開問題
-每天自動備份你的紀錄
-可從 iCloud 或檔案還原紀錄
+現在也能在 iPhone 和 iPad 上使用
+透過 iCloud 在所有裝置間同步紀錄
+用 Siri 新增問題，在 Spotlight 中尋找
 紀錄無法開啟時不再閃退，而會提示
 
 ### 앱스토어 (일본어)
 
-どの言語でもSiriで質問を追加できます
-Spotlightから質問をすぐ開けます
-毎日、記録を自動でバックアップします
-iCloudやファイルから記録を復元できます
+iPhoneとiPadでも使えるようになりました
+iCloudで記録がすべてのデバイスにつながります
+Siriで質問を追加し、Spotlightで探せます
 記録を開けなくても落ちずにお知らせします
 
 ### 앱스토어 (러시아어)
 
-Вопросы через Siri на любом языке
-Находите вопросы прямо в Spotlight
-Автоматическая копия каждый день
-Восстановите записи из iCloud или файла
+Теперь и на iPhone и iPad
+Записи синхронизируются через iCloud
+Вопросы через Siri, поиск в Spotlight
 Без сбоя, если записи не открываются
 
 ### 앱스토어 (스페인어)
 
-Añade preguntas con Siri en tu idioma
-Abre tus preguntas desde Spotlight
-Copia de seguridad diaria automática
-Restaura desde iCloud o un archivo
+Ahora también en iPhone y iPad
+Tus notas sincronizadas con iCloud
+Añade con Siri y busca en Spotlight
 Sin cierres si no se pueden abrir notas
 
 ### 앱스토어 (독일어)
 
-Fragen per Siri in jeder Sprache
-Fragen direkt in Spotlight öffnen
-Tägliches automatisches Backup
-Aus iCloud oder Datei wiederherstellen
+Jetzt auch auf iPhone und iPad
+Notizen per iCloud auf allen Geräten
+Fragen per Siri, Suche per Spotlight
 Kein Absturz mehr bei Ladefehlern
 
 ### 앱스토어 (프랑스어)
 
-Ajoutez des questions avec Siri
-Ouvrez vos questions depuis Spotlight
-Sauvegarde automatique chaque jour
-Restauration via iCloud ou un fichier
+Désormais sur iPhone et iPad
+Vos notes synchronisées via iCloud
+Ajoutez via Siri, cherchez via Spotlight
 Plus de plantage si les notes bloquent
 
 ### 앱스토어 (이탈리아어)
 
-Aggiungi domande con Siri in ogni lingua
-Apri le domande da Spotlight
-Backup automatico ogni giorno
-Ripristina i dati da iCloud o da un file
+Ora anche su iPhone e iPad
+Dati sincronizzati con iCloud
+Aggiungi con Siri, trova in Spotlight
 Nessun arresto se i dati non si aprono
 
 ### 앱스토어 (포르투갈어(브라질))
 
-Adicione perguntas com a Siri
-Abra perguntas direto pelo Spotlight
-Backup automático todos os dias
-Restaure seus dados do iCloud ou arquivo
+Agora também no iPhone e no iPad
+Dados sincronizados pelo iCloud
+Adicione pela Siri, busque no Spotlight
 Sem travar quando as notas não abrem
 
 ### 앱스토어 (태국어)
 
-เพิ่มคำถามด้วย Siri ได้ทุกภาษา
-เปิดคำถามได้ทันทีจาก Spotlight
-สำรองข้อมูลให้อัตโนมัติทุกวัน
-กู้คืนข้อมูลจาก iCloud หรือไฟล์ได้
+ใช้งานบน iPhone และ iPad ได้แล้ว
+ข้อมูลซิงค์ทุกอุปกรณ์ผ่าน iCloud
+เพิ่มคำถามด้วย Siri และค้นหาใน Spotlight
 แอปไม่ปิดเองเมื่อเปิดข้อมูลไม่ได้
 
 ### 앱스토어 (베트남어)
 
-Thêm câu hỏi bằng Siri ở mọi ngôn ngữ
-Mở câu hỏi ngay từ Spotlight
-Tự động sao lưu dữ liệu mỗi ngày
-Khôi phục dữ liệu từ iCloud hoặc tệp
+Giờ đã dùng được trên iPhone và iPad
+Dữ liệu đồng bộ mọi thiết bị qua iCloud
+Thêm bằng Siri, tìm trong Spotlight
 Không còn thoát app khi lỗi mở dữ liệu
 
 ### 앱스토어 (체코어)
 
-Otázky přes Siri v jakémkoli jazyce
-Otázky otevřete přímo ze Spotlightu
-Každý den automatická záloha
-Obnova dat z iCloudu nebo ze souboru
+Nově také na iPhonu a iPadu
+Data se synchronizují přes iCloud
+Přidání přes Siri, hledání ve Spotlightu
 Už žádný pád, když nejdou otevřít data
 
 ### 앱스토어 (덴마크어)
 
-Tilføj spørgsmål med Siri på alle sprog
-Åbn spørgsmål direkte fra Spotlight
-Automatisk backup hver dag
-Gendan data fra iCloud eller en fil
+Nu også på iPhone og iPad
+Data synkroniseres via iCloud
+Tilføj med Siri, find i Spotlight
 Intet nedbrud, hvis data ikke kan åbnes
 
 ### 앱스토어 (그리스어)
 
-Προσθέστε ερωτήσεις με τη Siri
-Ανοίξτε ερωτήσεις από το Spotlight
-Αυτόματο αντίγραφο ασφαλείας κάθε μέρα
-Επαναφορά από iCloud ή από αρχείο
+Τώρα και σε iPhone και iPad
+Συγχρονισμός δεδομένων μέσω iCloud
+Προσθήκη με Siri, εύρεση στο Spotlight
 Χωρίς κόλλημα αν δεν ανοίγουν δεδομένα
 
 ### 앱스토어 (핀란드어)
 
-Kysymykset Sirillä kaikilla kielillä
-Avaa kysymykset suoraan Spotlightista
-Automaattinen varmuuskopio joka päivä
-Palautus iCloudista tai tiedostosta
+Nyt myös iPhonella ja iPadilla
+Tiedot synkronoituvat iCloudin kautta
+Lisää Sirillä, etsi Spotlightista
 Ei kaatumista, vaikka tiedot eivät aukea
 
 ### 앱스토어 (인도네시아어)
 
-Tambah pertanyaan lewat Siri
-Buka pertanyaan langsung dari Spotlight
-Cadangan otomatis setiap hari
-Pulihkan data dari iCloud atau file
+Kini tersedia di iPhone dan iPad
+Data tersinkron lewat iCloud
+Tambah lewat Siri, cari di Spotlight
 Tak lagi tertutup saat data gagal dibuka
 
 ### 앱스토어 (노르웨이어 보크말, nb)
 
-Legg til spørsmål med Siri på alle språk
-Åpne spørsmål rett fra Spotlight
-Automatisk sikkerhetskopi hver dag
-Gjenopprett data fra iCloud eller en fil
+Nå også på iPhone og iPad
+Data synkroniseres via iCloud
+Legg til med Siri, finn i Spotlight
 Ingen krasj om data ikke kan åpnes
 
 ### 앱스토어 (네덜란드어)
 
-Voeg vragen toe met Siri in elke taal
-Open vragen direct vanuit Spotlight
-Elke dag een automatische back-up
-Zet gegevens terug uit iCloud of bestand
+Nu ook op iPhone en iPad
+Gegevens synchroniseren via iCloud
+Toevoegen met Siri, zoeken in Spotlight
 Geen crash meer als gegevens niet openen
 
 ### 앱스토어 (폴란드어)
 
-Pytania przez Siri w każdym języku
-Otwieraj pytania prosto ze Spotlight
-Codzienna automatyczna kopia zapasowa
-Przywróć dane z iCloud lub z pliku
+Teraz także na iPhonie i iPadzie
+Dane synchronizują się przez iCloud
+Dodawaj przez Siri, szukaj w Spotlight
 Bez awarii, gdy dane się nie otwierają
 
 ### 앱스토어 (스웨덴어)
 
-Lägg till frågor med Siri på alla språk
-Öppna frågor direkt från Spotlight
-Automatisk säkerhetskopia varje dag
-Återställ data från iCloud eller en fil
+Nu även på iPhone och iPad
+Data synkas via iCloud på alla enheter
+Lägg till med Siri, hitta i Spotlight
 Ingen krasch om data inte kan öppnas
 
 ### 앱스토어 (튀르키예어)
 
-Siri ile her dilde soru ekleyin
-Soruları doğrudan Spotlight’tan açın
-Her gün otomatik yedekleme
-iCloud’dan veya dosyadan geri yükleyin
+Artık iPhone ve iPad’de de
+Veriler iCloud ile tüm cihazlarda
+Siri ile ekleyin, Spotlight’ta bulun
 Veriler açılmasa da uygulama çökmez
 
 ## 1.0.2

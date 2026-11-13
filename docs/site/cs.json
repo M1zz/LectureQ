@@ -1,11 +1,11 @@
 {
-  "title": "LectureQ: zapisujte otázky, které vás napadnou na přednášce, pro Mac",
+  "title": "LectureQ: zapisujte otázky, které vás napadnou na přednášce, pro Mac, iPhone a iPad",
   "description": "Zapište otázku jednou zkratkou a přednáška běží dál. Zůstane u poznámek z té chvíle, dokud nenajdete odpověď. Až 10 přednášek zdarma.",
   "hero": {
     "headline": "Už vám neuteče žádná\notázka z přednášky",
     "lead": "Stiskněte `⌘⇧N`, napište jeden řádek a otázka se uloží vedle poznámek z té přesné minuty. Posloucháte dál a odpověď hledáte později.",
     "cta": "Stáhnout zdarma z App Storu",
-    "note": "Pro macOS 14 nebo novější. Bez účtu, vše zůstává na tomto Macu."
+    "note": "Pro Mac (macOS 14 nebo novější), iPhone a iPad (iOS 18 nebo novější). Bez účtu, synchronizace přes váš vlastní iCloud."
   },
   "demo": {
     "title": "Vyzkoušejte si to",
@@ -171,7 +171,7 @@
       ],
       "note": "Vyberte si týdenní, měsíční nebo roční předplatné, nebo jednorázovou doživotní platbu. Spropitné v Nastavení je zvlášť a nic neodemyká."
     },
-    "note": "Žádné reklamy ani účet. Vaše poznámky zůstávají na tomto Macu."
+    "note": "Žádné reklamy ani účet. Vaše poznámky zůstávají ve vašich zařízeních a ve vašem vlastním iCloudu."
   },
   "faq": {
     "title": "Časté dotazy",
@@ -202,15 +202,15 @@
       },
       {
         "q": "Kde jsou moje data a jak je zálohovat?",
-        "a": "Vše zůstává na tomto Macu a nikam se neodesílá. Ukončete aplikaci a zkopírujte celou složku ~/Library/Containers/com.lectureq.LectureQ/Data/Library/Application Support/LectureQ/ včetně souborů -wal a -shm. Aplikace posílá jen anonymní statistiky používání, například verzi a dny spuštění, nikdy to, co píšete."
+        "a": "Vše se ukládá ve vašem zařízení, a pokud jste přihlášeni k iCloudu, synchronizuje se mezi vašimi zařízeními Mac, iPhone a iPad přes váš iCloud. Vývojář do toho nevidí. Pro zálohu na Macu ukončete aplikaci a zkopírujte celou složku ~/Library/Containers/com.lectureq.LectureQ/Data/Library/Application Support/LectureQ/ včetně souborů -wal a -shm. Aplikace posílá jen anonymní statistiky používání, například verzi a dny spuštění, nikdy to, co píšete."
       },
       {
         "q": "Text je příliš malý.",
         "a": "`⌘+` ho zvětší, `⌘-` zmenší a `⌘0` vrátí výchozí velikost. Rozsah je 85 % až 200 % a nastavení se pamatuje."
       },
       {
-        "q": "Na kterých Macích aplikace funguje?",
-        "a": "Na každém Macu s macOS 14 nebo novějším. Zdrojový kód je veřejně na GitHubu: M1zz/LectureQ."
+        "q": "Na kterých zařízeních aplikace funguje?",
+        "a": "Na každém Macu s macOS 14 nebo novějším a na iPhonu a iPadu s iOS nebo iPadOS 18 nebo novějším. Zdrojový kód je veřejně na GitHubu: M1zz/LectureQ."
       },
       {
         "q": "Něco nefunguje. Komu to nahlásit?",

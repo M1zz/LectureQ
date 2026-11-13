@@ -1,11 +1,11 @@
 {
-  "title": "LectureQ: catat pertanyaan yang muncul saat kuliah, untuk Mac",
+  "title": "LectureQ: catat pertanyaan yang muncul saat kuliah, untuk Mac, iPhone, dan iPad",
   "description": "Catat pertanyaan dengan satu pintasan tanpa ketinggalan materi. Pertanyaan tetap di samping catatan saat itu sampai terjawab. Gratis hingga 10 kuliah.",
   "hero": {
     "headline": "Jangan biarkan pertanyaan\nsaat kuliah hilang begitu saja",
     "lead": "Tekan `⌘⇧N`, ketik satu baris, dan pertanyaanmu tersimpan di samping catatan menit itu juga. Kamu tetap menyimak, jawabannya dicari nanti.",
     "cta": "Unduh gratis di App Store",
-    "note": "Untuk macOS 14 atau lebih baru. Tanpa akun, semuanya tetap di Mac ini."
+    "note": "Untuk Mac (macOS 14 atau lebih baru), iPhone, dan iPad (iOS 18 atau lebih baru). Tanpa akun, sinkron lewat iCloud-mu sendiri."
   },
   "demo": {
     "title": "Coba di sini",
@@ -171,7 +171,7 @@
       ],
       "note": "Pilih langganan mingguan, bulanan, atau tahunan, atau bayar sekali untuk selamanya. Tip dari Pengaturan terpisah dan tidak membuka fitur apa pun."
     },
-    "note": "Tanpa iklan dan tanpa akun. Catatanmu tetap di Mac ini."
+    "note": "Tanpa iklan dan tanpa akun. Catatanmu tetap di perangkatmu dan di iCloud-mu sendiri."
   },
   "faq": {
     "title": "Pertanyaan umum",
@@ -202,15 +202,15 @@
       },
       {
         "q": "Di mana data saya disimpan, dan bagaimana mencadangkannya?",
-        "a": "Semuanya tetap di Mac ini dan tidak diunggah ke mana pun. Untuk mencadangkan, tutup aplikasi lalu salin seluruh folder ~/Library/Containers/com.lectureq.LectureQ/Data/Library/Application Support/LectureQ/ beserta file -wal dan -shm. Aplikasi hanya mengirim statistik penggunaan anonim, seperti versi dan hari dibuka, tidak pernah isi tulisanmu."
+        "a": "Semuanya disimpan di perangkatmu dan, jika kamu masuk ke iCloud, disinkronkan antara Mac, iPhone, dan iPad milikmu sendiri melalui iCloud-mu. Pengembang tidak bisa melihatnya. Untuk mencadangkan di Mac, tutup aplikasi lalu salin seluruh folder ~/Library/Containers/com.lectureq.LectureQ/Data/Library/Application Support/LectureQ/ beserta file -wal dan -shm. Aplikasi hanya mengirim statistik penggunaan anonim, seperti versi dan hari dibuka, tidak pernah isi tulisanmu."
       },
       {
         "q": "Tulisannya terlalu kecil.",
         "a": "`⌘+` memperbesar, `⌘-` memperkecil, dan `⌘0` mengembalikan ke ukuran bawaan. Rentangnya 85% sampai 200% dan pilihanmu diingat."
       },
       {
-        "q": "Bisa dipakai di Mac apa saja?",
-        "a": "Semua Mac dengan macOS 14 atau lebih baru. Kode sumbernya terbuka di GitHub: M1zz/LectureQ."
+        "q": "Bisa dipakai di perangkat apa saja?",
+        "a": "Semua Mac dengan macOS 14 atau lebih baru, serta iPhone dan iPad dengan iOS atau iPadOS 18 atau lebih baru. Kode sumbernya terbuka di GitHub: M1zz/LectureQ."
       },
       {
         "q": "Ada yang tidak berfungsi. Harus lapor ke mana?",

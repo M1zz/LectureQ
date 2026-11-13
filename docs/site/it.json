@@ -1,11 +1,11 @@
 {
-  "title": "LectureQ: annota i dubbi che nascono a lezione, per Mac",
+  "title": "LectureQ: annota i dubbi che nascono a lezione, per Mac, iPhone e iPad",
   "description": "Annota una domanda con una scorciatoia senza perdere la lezione. Resta accanto agli appunti di quel momento finché non trovi la risposta. Gratis fino a 10 lezioni.",
   "hero": {
     "headline": "Nessun dubbio della lezione\nandrà più perso",
     "lead": "Premi `⌘⇧N`, scrivi una riga e la domanda finisce accanto ai tuoi appunti di quel preciso minuto. Continui ad ascoltare e cerchi la risposta dopo.",
     "cta": "Scaricala gratis su App Store",
-    "note": "Per macOS 14 o successivo. Nessun account, tutto resta su questo Mac."
+    "note": "Per Mac (macOS 14 o successivo), iPhone e iPad (iOS 18 o successivo). Nessun account, la sincronizzazione passa dal tuo iCloud."
   },
   "demo": {
     "title": "Prova qui",
@@ -171,7 +171,7 @@
       ],
       "note": "Scegli un abbonamento settimanale, mensile o annuale, oppure un pagamento unico a vita. Le mance da Impostazioni sono a parte e non sbloccano nulla."
     },
-    "note": "Niente pubblicità, niente account. I tuoi appunti restano su questo Mac."
+    "note": "Niente pubblicità, niente account. I tuoi appunti restano sui tuoi dispositivi e nel tuo iCloud."
   },
   "faq": {
     "title": "Domande frequenti",
@@ -202,15 +202,15 @@
       },
       {
         "q": "Dove sono salvati i miei dati e come faccio un backup?",
-        "a": "Tutto resta su questo Mac e non viene caricato da nessuna parte. Per il backup chiudi l'app e copia l'intera cartella ~/Library/Containers/com.lectureq.LectureQ/Data/Library/Application Support/LectureQ/ con i file -wal e -shm. L'app invia solo statistiche d'uso anonime, come versione e giorni di apertura, mai ciò che scrivi."
+        "a": "Tutto è salvato sul tuo dispositivo e, se hai effettuato l'accesso a iCloud, sincronizzato tra i tuoi Mac, iPhone e iPad tramite il tuo iCloud. Lo sviluppatore non può vederlo. Per il backup su Mac chiudi l'app e copia l'intera cartella ~/Library/Containers/com.lectureq.LectureQ/Data/Library/Application Support/LectureQ/ con i file -wal e -shm. L'app invia solo statistiche d'uso anonime, come versione e giorni di apertura, mai ciò che scrivi."
       },
       {
         "q": "Il testo è troppo piccolo.",
         "a": "`⌘+` lo ingrandisce, `⌘-` lo rimpicciolisce e `⌘0` torna alla dimensione standard. Si va dall'85% al 200% e l'impostazione viene ricordata."
       },
       {
-        "q": "Su quali Mac funziona?",
-        "a": "Su qualsiasi Mac con macOS 14 o successivo. Il codice sorgente è pubblico su GitHub, in M1zz/LectureQ."
+        "q": "Su quali dispositivi funziona?",
+        "a": "Su qualsiasi Mac con macOS 14 o successivo e su iPhone e iPad con iOS o iPadOS 18 o successivo. Il codice sorgente è pubblico su GitHub, in M1zz/LectureQ."
       },
       {
         "q": "Qualcosa non funziona. A chi lo segnalo?",

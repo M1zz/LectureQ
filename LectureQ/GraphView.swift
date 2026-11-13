@@ -44,7 +44,7 @@ struct GraphContainerView: View {
                                     dismiss()
                                 })
                 }
-                .background(Color(nsColor: .textBackgroundColor))
+                .background(Color.textBackground)
                 .gesture(
                     MagnifyGesture()
                         .onChanged { value in
@@ -467,7 +467,7 @@ struct GraphCanvas: View {
         return VStack(spacing: 3) {
             // 답 내용 있음 = 꽉 찬 원 / 질문만 = 빈 원(색 테두리)
             Circle()
-                .fill(node.isFilled ? node.color : Color(nsColor: .textBackgroundColor))
+                .fill(node.isFilled ? node.color : Color.textBackground)
                 .overlay(Circle().strokeBorder(node.color, lineWidth: 2))
                 .overlay {
                     // 색 없이 구별: 해결된 질문은 ✓ 로도 보여 준다

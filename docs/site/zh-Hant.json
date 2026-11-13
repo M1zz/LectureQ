@@ -1,11 +1,11 @@
 {
-  "title": "LectureQ：把上課時冒出的疑問隨手記下的 Mac App",
+  "title": "LectureQ：把上課時冒出的疑問隨手記下的 Mac、iPhone 和 iPad App",
   "description": "上課時按一下快速鍵就能記下問題，問題會留在那一刻的筆記旁，直到你找到答案。最多 10 門課程可免費使用。",
   "hero": {
     "headline": "課堂上冒出的疑問，\n別再讓它溜走",
     "lead": "按下 `⌘⇧N`，寫一行，問題就會留在那一分鐘的筆記旁邊。課照聽，答案之後再找。",
     "cta": "在 App Store 免費下載",
-    "note": "適用於 macOS 14 或以上版本。不需帳號，資料只存在這台 Mac。"
+    "note": "適用於 Mac（macOS 14 或以上版本）、iPhone 和 iPad（iOS 18 或以上版本）。不需註冊帳號，資料透過你自己的 iCloud 同步。"
   },
   "demo": {
     "title": "在這裡試試看",
@@ -171,7 +171,7 @@
       ],
       "note": "可選擇按週、按月或按年訂閱，也可一次買斷永久使用。在設定裡送的小費與此無關，不會解鎖任何功能。"
     },
-    "note": "沒有廣告，也不用註冊。紀錄只存在這台 Mac。"
+    "note": "沒有廣告，也不用註冊。紀錄只存在你的裝置和你自己的 iCloud。"
   },
   "faq": {
     "title": "常見問題",
@@ -202,15 +202,15 @@
       },
       {
         "q": "資料存在哪裡？要怎麼備份？",
-        "a": "所有紀錄只存在這台 Mac，不會上傳。備份時先結束 App，再把 ~/Library/Containers/com.lectureq.LectureQ/Data/Library/Application Support/LectureQ/ 資料夾連同 -wal、-shm 檔案整個拷貝起來。App 只會傳送版本、開啟天數這類匿名使用統計，不會傳送你寫的內容。"
+        "a": "所有紀錄都存在你的裝置上；如果已登入 iCloud，會透過你的 iCloud 在你自己的 Mac、iPhone 和 iPad 之間同步，開發者無法看到。在 Mac 上備份時先結束 App，再把 ~/Library/Containers/com.lectureq.LectureQ/Data/Library/Application Support/LectureQ/ 資料夾連同 -wal、-shm 檔案整個拷貝起來。App 只會傳送版本、開啟天數這類匿名使用統計，不會傳送你寫的內容。"
       },
       {
         "q": "字太小了。",
         "a": "`⌘+` 放大，`⌘-` 縮小，`⌘0` 回到預設。可在 85% 到 200% 之間調整，設定會被記住。"
       },
       {
-        "q": "哪些 Mac 可以用？",
-        "a": "執行 macOS 14 或以上版本的 Mac 都可以。原始碼公開在 GitHub 的 M1zz/LectureQ。"
+        "q": "哪些裝置可以用？",
+        "a": "執行 macOS 14 或以上版本的 Mac，以及執行 iOS 或 iPadOS 18 或以上版本的 iPhone 和 iPad 都可以。原始碼公開在 GitHub 的 M1zz/LectureQ。"
       },
       {
         "q": "遇到問題要找誰？",

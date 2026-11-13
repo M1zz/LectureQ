@@ -205,11 +205,11 @@
     <details>
       <summary>Onde meus dados ficam salvos? E o backup?</summary>
       <div class="body">
-        <p>Todos os dados ficam apenas na pasta abaixo, neste Mac, e nunca saem do dispositivo.</p>
+        <p>Todos os dados ficam no seu dispositivo: no Mac, na pasta abaixo; no iPhone e no iPad, dentro do espaço de armazenamento do próprio app. Se você tiver iniciado sessão no iCloud, eles são sincronizados entre o seu Mac, iPhone e iPad pelo seu iCloud, e o desenvolvedor não tem acesso a eles.</p>
         <p><code>~/Library/Containers/com.lectureq.LectureQ/Data/Library/Application Support/LectureQ/</code></p>
         <ul>
           <li><strong>Backup:</strong> feche o app e copie a pasta inteira (incluindo os arquivos <code>-wal</code> e <code>-shm</code> que ficam junto com <code>LectureQ.store</code>).</li>
-          <li><strong>Começar do zero:</strong> feche o app e apague essa pasta. Mover o app para o Lixo não apaga essa pasta.</li>
+          <li><strong>Começar do zero:</strong> feche o app e apague essa pasta. Mover o app para o Lixo não apaga essa pasta. Se você usa a sincronização com o iCloud, apague antes os dados do LectureQ em “Gerenciar Armazenamento” nos ajustes do iCloud; caso contrário, eles serão baixados de novo.</li>
         </ul>
       </div>
     </details>
@@ -217,7 +217,7 @@
     <details>
       <summary>Requisitos do sistema · como compilar a partir do código-fonte?</summary>
       <div class="body">
-        <p>Funciona no macOS 14 ou posterior.</p>
+        <p>Funciona no Mac com macOS 14 ou posterior e no iPhone e no iPad com iOS ou iPadOS 18 ou posterior.</p>
         <p>Para compilar: clone o repositório e execute <code>./run.sh</code>, ou rode <code>xcodegen generate</code> e abra <code>LectureQ.xcodeproj</code> no Xcode.
         Mais detalhes no <a href="https://github.com/M1zz/LectureQ">repositório no GitHub</a>.</p>
       </div>

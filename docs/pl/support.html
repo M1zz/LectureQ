@@ -205,11 +205,11 @@
     <details>
       <summary>Gdzie są przechowywane moje dane? Jak zrobić kopię zapasową?</summary>
       <div class="body">
-        <p>Wszystkie dane są przechowywane wyłącznie w tym folderze na tym Macu i nie opuszczają urządzenia.</p>
+        <p>Wszystkie dane są przechowywane na Twoim urządzeniu: na Macu w poniższym folderze, a na iPhonie i iPadzie we własnym magazynie aplikacji. Jeśli jesteś zalogowany(-a) do iCloud, są synchronizowane między Twoimi urządzeniami Mac, iPhone i iPad przez Twoje iCloud, a deweloper nie ma do nich wglądu.</p>
         <p><code>~/Library/Containers/com.lectureq.LectureQ/Data/Library/Application Support/LectureQ/</code></p>
         <ul>
           <li><strong>Kopia zapasowa:</strong> zamknij aplikację i skopiuj cały folder (razem z plikami <code>-wal</code> i <code>-shm</code>, które leżą obok <code>LectureQ.store</code>).</li>
-          <li><strong>Reset:</strong> zamknij aplikację i usuń ten folder. Samo przeniesienie aplikacji do kosza go nie usuwa.</li>
+          <li><strong>Reset:</strong> zamknij aplikację i usuń ten folder. Samo przeniesienie aplikacji do kosza go nie usuwa. Jeśli korzystasz z synchronizacji iCloud, najpierw usuń dane LectureQ w „Zarządzaj pamięcią” w ustawieniach iCloud, bo inaczej pobiorą się ponownie.</li>
         </ul>
       </div>
     </details>
@@ -217,7 +217,7 @@
     <details>
       <summary>Wymagania systemowe · Jak zbudować aplikację ze źródeł?</summary>
       <div class="body">
-        <p>Aplikacja działa na macOS 14 i nowszych.</p>
+        <p>Aplikacja działa na Macu z macOS 14 lub nowszym oraz na iPhonie i iPadzie z iOS lub iPadOS 18 lub nowszym.</p>
         <p>Budowanie ze źródeł: sklonuj repozytorium i uruchom <code>./run.sh</code> albo wykonaj <code>xcodegen generate</code>, a następnie otwórz <code>LectureQ.xcodeproj</code> w Xcode i uruchom aplikację.
         Więcej informacji znajdziesz w <a href="https://github.com/M1zz/LectureQ">repozytorium na GitHubie</a>.</p>
       </div>

@@ -56,12 +56,12 @@
 <!--langswitch:start--><nav class="langs" aria-label="Language"><a href="../privacy.html" hreflang="ko" lang="ko">한국어</a> <a href="../en/privacy.html" hreflang="en" lang="en">English</a> <a href="../en-GB/privacy.html" hreflang="en-GB" lang="en-GB">English (UK)</a> <a href="../zh-Hans/privacy.html" hreflang="zh-Hans" lang="zh-Hans">简体中文</a> <a href="../zh-Hant/privacy.html" hreflang="zh-Hant" lang="zh-Hant" aria-current="page">繁體中文</a> <a href="../ja/privacy.html" hreflang="ja" lang="ja">日本語</a> <a href="../ru/privacy.html" hreflang="ru" lang="ru">Русский</a> <a href="../es/privacy.html" hreflang="es" lang="es">Español</a> <a href="../de/privacy.html" hreflang="de" lang="de">Deutsch</a> <a href="../fr/privacy.html" hreflang="fr" lang="fr">Français</a> <a href="../it/privacy.html" hreflang="it" lang="it">Italiano</a> <a href="../pt-BR/privacy.html" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a> <a href="../th/privacy.html" hreflang="th" lang="th">ไทย</a> <a href="../vi/privacy.html" hreflang="vi" lang="vi">Tiếng Việt</a> <a href="../cs/privacy.html" hreflang="cs" lang="cs">Čeština</a> <a href="../da/privacy.html" hreflang="da" lang="da">Dansk</a> <a href="../el/privacy.html" hreflang="el" lang="el">Ελληνικά</a> <a href="../fi/privacy.html" hreflang="fi" lang="fi">Suomi</a> <a href="../id/privacy.html" hreflang="id" lang="id">Bahasa Indonesia</a> <a href="../nb/privacy.html" hreflang="nb" lang="nb">Norsk bokmål</a> <a href="../nl/privacy.html" hreflang="nl" lang="nl">Nederlands</a> <a href="../pl/privacy.html" hreflang="pl" lang="pl">Polski</a> <a href="../sv/privacy.html" hreflang="sv" lang="sv">Svenska</a> <a href="../tr/privacy.html" hreflang="tr" lang="tr">Türkçe</a></nav><!--langswitch:end-->
     <a class="back" href="./index.html">← LectureQ：上課提問筆記</a>
     <h1>隱私權政策</h1>
-    <p class="updated">最後更新：2026 年 10 月 17 日</p>
+    <p class="updated">最後更新：2026 年 11 月 13 日</p>
 
     <div class="callout">
       <strong>摘要：</strong>LectureQ 不會蒐集、也不會販售任何個人資料。
-      你輸入的所有內容（課程、問題、答案、筆記）都只會儲存在你自己的 Mac 裡。
-      為了解 App 在幾部 Mac 上使用並修正錯誤，App 會將匿名使用統計傳送給開發者（第 5 條）；
+      你輸入的所有內容（課程、問題、答案、筆記）都會儲存在你的裝置上；如果你已登入 iCloud，這些內容只會透過你自己的 iCloud 在你的 Mac、iPhone 和 iPad 之間同步，開發者無法看到。
+      為了解 App 在幾部裝置上使用並修正錯誤，App 會將匿名使用統計傳送給開發者（第 5 條）；
       你親自透過「發送意見回饋」送出的文字也會傳給開發者（第 6 條）。
     </div>
 
@@ -71,12 +71,14 @@
 
     <h2>2. 你建立的資料</h2>
     <p>你在 App 中建立的所有資料，包括課程、時間區塊、筆記、問題、答案和學習狀態，
-    都只會保存在你 Mac 的本機儲存空間（SwiftData）中。儲存位置如下：</p>
+    都會保存在你裝置的本機儲存空間（SwiftData）中。在 Mac 上的儲存位置如下；在 iPhone 和 iPad 上，則保存在 App 專屬的儲存區域內。</p>
     <ul>
       <li><code>~/Library/Containers/com.lectureq.LectureQ/Data/Library/Application Support/LectureQ/</code></li>
     </ul>
-    <p>這些資料不會傳送給包括開發者在內的任何外部人士，也不會同步到 iCloud 等雲端服務。</p>
-    <p>此外，App 會在 App 設定（macOS 使用者預設值）中記錄首次安裝的日期與啟動次數。這些數值只會用於第 5 條所述的匿名使用統計。</p>
+    <p>如果你的裝置已登入 iCloud，這些資料會透過 Apple iCloud（CloudKit，<code>iCloud.com.lectureq.LectureQ</code>）中<strong>你自己的私人資料庫</strong>，在使用同一個 Apple 帳號的 Mac、iPhone 和 iPad 之間同步。
+    這個資料庫屬於你的 Apple 帳號，使用的是你的 iCloud 儲存空間；包括開發者在內的任何其他人，都無法讀取或接收其中的資料。資料存放在 iCloud 期間，依 Apple 的隱私權政策處理。</p>
+    <p>如果你沒有登入 iCloud，資料只會儲存在那部裝置上，不會傳送到任何地方。</p>
+    <p>此外，App 會在 App 設定（使用者預設值）中記錄首次安裝的日期與啟動次數。這些數值只會用於第 5 條所述的匿名使用統計。</p>
 
     <h2>3. 匯入檔案</h2>
     <p>使用「從 Markdown 匯入…」時，App 只會以唯讀方式開啟你在檔案選擇視窗中<strong>親自選取的檔案</strong>。
@@ -84,46 +86,48 @@
 
     <h2>4. 剪貼簿與外部 AI 服務</h2>
     <p>點一下「拷貝 AI 提示詞」時，一段包含所選問題及相關內容（課程名稱、當時的筆記、學習狀態、原問題、已寫下的答案）的文字，
-    <strong>只會在你點按的當下</strong>拷貝到 Mac 的剪貼簿。</p>
+    <strong>只會在你點按的當下</strong>拷貝到裝置的剪貼簿。</p>
     <p>LectureQ 不會將這些內容直接傳送給任何外部服務，包括 AI 服務。
     如果你把拷貝的內容貼到外部 AI 服務，之後的處理將依該服務的隱私權政策辦理。
     貼上前，請先確認其中是否含有敏感內容。</p>
 
     <h2>5. 匿名使用統計</h2>
-    <p>為了解有多少人在使用 App 並修正錯誤，LectureQ 會將以下匿名統計傳送到 Apple iCloud（CloudKit），只有開發者能讀取：</p>
+    <p>為了解有多少人在使用 App 並修正錯誤，LectureQ 會將以下匿名統計傳送到 Apple iCloud（CloudKit）中開發者自己的空間（與第 2 條所述的資料同步彼此獨立），只有開發者能讀取：</p>
     <ul>
-      <li>安裝時產生的隨機 ID（不會與你的 Mac、Apple ID 或其他 App 連結，重新安裝後會改變）</li>
-      <li>App 版本、macOS 版本、地區與語言設定</li>
+      <li>安裝時產生的隨機 ID（不會與你的裝置、Apple 帳號或其他 App 連結，重新安裝後會改變）</li>
+      <li>App 版本、作業系統（macOS、iOS 或 iPadOS）版本、地區與語言設定</li>
       <li>開啟 App 的次數與日期、安裝日期，以及安裝後經過的天數</li>
-      <li>App 停止回應或異常結束時的錯誤報告（App 版本、macOS 版本、裝置機型、錯誤的技術資訊）</li>
+      <li>App 停止回應或異常結束時的錯誤報告（App 版本、作業系統版本、裝置機型、錯誤的技術資訊）</li>
     </ul>
-    <p>統計中不包含姓名、聯絡方式、位置，也不包含課程、問題、答案、筆記等你寫下的內容。只有在 Mac 已登入 iCloud 時才會傳送。</p>
+    <p>統計中不包含姓名、聯絡方式、位置，也不包含課程、問題、答案、筆記等你寫下的內容。只有在裝置已登入 iCloud 時才會傳送。</p>
 
     <h2>6. 發送意見回饋</h2>
-    <p>只有在<strong>你親自寫下並送出</strong>時——透過設定（⌘,）中的「發送意見回饋」，或滿意度詢問中的「有點不滿意」——
+    <p>只有在<strong>你親自寫下並送出</strong>時——透過 App 設定（在 Mac 上按 ⌘,）中的「發送意見回饋」，或滿意度詢問中的「有點不滿意」——
     以下內容才會儲存到 Apple iCloud（CloudKit）並傳給開發者：</p>
     <ul>
       <li>意見回饋的類型與你寫下的文字</li>
-      <li>App 版本、macOS 版本、裝置機型、地區與語言設定</li>
+      <li>App 版本、作業系統版本、裝置機型、地區與語言設定</li>
     </ul>
     <p>課程、問題、答案和筆記不會自動附加到意見回饋中。請留意不要在意見回饋中寫入個人資料。
     點一下「以電子郵件聯絡」會開啟預設的郵件 App，該封郵件會透過你自己的郵件服務寄出。</p>
     <p>此外，為了在某項功能出問題時能遠端將其關閉，App 會從 iCloud <strong>讀取</strong>各項功能的開啟／關閉設定，僅止於讀取。過程中不會傳送任何使用者資訊。</p>
 
     <h2>7. 網路通訊與追蹤</h2>
-    <p>LectureQ 透過網際網路傳送的，只有第 5 條所述的匿名使用統計，以及你親自送出的第 6 條所述意見回饋；開發者並未另外經營任何伺服器。
-    App 完全不使用廣告或第三方追蹤技術。除了發送意見回饋之外，App 的所有功能都不需連網即可使用。</p>
+    <p>LectureQ 透過網際網路傳送的，只有第 2 條所述同步到你自己 iCloud 的資料、第 5 條所述的匿名使用統計，以及你親自送出的第 6 條所述意見回饋；開發者並未另外經營任何伺服器。
+    App 完全不使用廣告或第三方追蹤技術。除了 iCloud 同步與發送意見回饋之外，App 的所有功能都不需連網即可使用。</p>
     <p>App 內「指南：用 AI 找答案」的連結，會在預設的網頁瀏覽器中開啟本網站（GitHub Pages）。
     瀏覽網頁時的通訊，依瀏覽器與 GitHub 的政策辦理。</p>
 
     <h2>8. 提供給第三方</h2>
-    <p>由於我們不蒐集個人資料，因此也沒有任何資訊會提供或分享給第三方。匿名使用統計與意見回饋只會儲存在 Apple iCloud，不會提供給其他公司。</p>
+    <p>由於我們不蒐集個人資料，因此也沒有任何資訊會提供或分享給第三方。同步的資料、匿名使用統計與意見回饋只會儲存在 Apple iCloud，不會提供給其他公司。</p>
 
     <h2>9. 資料的保存與刪除</h2>
-    <p>在你刪除之前，資料會一直保留在裝置上。</p>
+    <p>在你刪除之前，資料會一直保留在裝置上；如果使用 iCloud 同步，也會保留在你的 iCloud 中。</p>
     <ul>
-      <li>個別刪除：可以在 App 中刪除問題（按右鍵 → 刪除）、時間區塊（設定 → 刪除時間區塊）和課程（課程選單 → 刪除目前課程）。</li>
-      <li>全部刪除：結束 App 後，刪除上方第 2 條所述的儲存資料夾。在 macOS 上，即使把 App 丟到垃圾桶，這個資料夾仍可能留著。</li>
+      <li>個別刪除：可以在 App 中刪除問題（按右鍵 → 刪除）、時間區塊（設定 → 刪除時間區塊）和課程（課程選單 → 刪除目前課程）。刪除的項目也會從 iCloud 和你其他已同步的裝置上移除。</li>
+      <li>從 iCloud 刪除：在裝置的 iCloud 設定中打開「管理儲存空間」，刪除 LectureQ 的資料，即可移除已同步到 iCloud 的資料。</li>
+      <li>從裝置刪除：在 Mac 上，結束 App 後刪除上方第 2 條所述的儲存資料夾（即使把 App 丟到垃圾桶，這個資料夾仍可能留著）。在 iPhone 和 iPad 上，刪除 App 也會一併刪除它在該裝置上的資料。
+      如果使用 iCloud 同步，請先刪除 iCloud 中的資料，否則資料會重新下載回來。</li>
     </ul>
 
     <h2>10. 兒童的個人資料</h2>

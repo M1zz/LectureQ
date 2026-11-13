@@ -205,11 +205,11 @@
     <details>
       <summary>내 데이터는 어디에 저장되나요? 백업은?</summary>
       <div class="body">
-        <p>모든 데이터는 이 Mac 안의 다음 폴더에만 저장되며, 기기 밖으로 전송되지 않습니다.</p>
+        <p>모든 데이터는 기기 안에 저장됩니다. Mac에서는 다음 폴더에 있고, iPhone과 iPad에서는 앱 전용 저장 공간 안에 있습니다. iCloud에 로그인되어 있으면 내 iCloud를 통해 내 Mac·iPhone·iPad 사이에서 동기화되며, 개발자는 이 데이터를 볼 수 없습니다.</p>
         <p><code>~/Library/Containers/com.lectureq.LectureQ/Data/Library/Application Support/LectureQ/</code></p>
         <ul>
           <li><strong>백업:</strong> 앱을 종료한 뒤 이 폴더를 통째로 복사하세요. (<code>LectureQ.store</code> 와 함께 있는 <code>-wal</code>, <code>-shm</code> 파일도 같이)</li>
-          <li><strong>초기화:</strong> 앱을 종료한 뒤 이 폴더를 삭제하세요. 앱을 휴지통에 버리는 것만으로는 이 폴더가 지워지지 않습니다.</li>
+          <li><strong>초기화:</strong> 앱을 종료한 뒤 이 폴더를 삭제하세요. 앱을 휴지통에 버리는 것만으로는 이 폴더가 지워지지 않습니다. iCloud 동기화를 쓰는 중이라면 먼저 iCloud 설정의 저장 공간 관리에서 질문 노트 데이터를 지워 주세요. 그러지 않으면 다시 내려받아집니다.</li>
         </ul>
       </div>
     </details>
@@ -217,7 +217,7 @@
     <details>
       <summary>시스템 요구 사항 · 소스에서 직접 빌드하려면?</summary>
       <div class="body">
-        <p>macOS 14 이상에서 동작합니다.</p>
+        <p>Mac은 macOS 14 이상, iPhone과 iPad는 iOS·iPadOS 18 이상에서 동작합니다.</p>
         <p>소스 빌드: 저장소를 클론한 뒤 <code>./run.sh</code> 를 실행하거나, <code>xcodegen generate</code> 후 <code>LectureQ.xcodeproj</code> 를 Xcode로 열어 실행하세요.
         자세한 내용은 <a href="https://github.com/M1zz/LectureQ">GitHub 저장소</a>를 참고하세요.</p>
       </div>
@@ -233,7 +233,7 @@
 
     <section lang="en" id="english">
       <h2>English</h2>
-      <p><strong>Question Note (LectureQ)</strong> is a Mac app for catching the questions that come up while you watch or attend a lecture, then answering them later in your own words. The app’s screens are in Korean only for now; this short guide covers the essentials.</p>
+      <p><strong>Question Note (LectureQ)</strong> is an app for Mac, iPhone and iPad for catching the questions that come up while you watch or attend a lecture, then answering them later in your own words. The app’s screens are in Korean only for now; this short guide covers the essentials.</p>
       <details>
         <summary>Getting started</summary>
         <div class="body">
@@ -248,7 +248,7 @@
       <details>
         <summary>Where is my data stored?</summary>
         <div class="body">
-          <p>Your lectures, questions and notes stay on this Mac and are never uploaded. To back them up, quit the app and copy this folder, including the <code>-wal</code> and <code>-shm</code> files:</p>
+          <p>Your lectures, questions and notes are stored on your device and, if you’re signed in to iCloud, synced only between your own devices through your iCloud. The developer can’t see them. To back them up on a Mac, quit the app and copy this folder, including the <code>-wal</code> and <code>-shm</code> files:</p>
           <p><code>~/Library/Containers/com.lectureq.LectureQ/Data/Library/Application Support/LectureQ/</code></p>
           <p>The app only sends anonymous usage statistics (such as app version and how many days it was opened) — never what you write. Details are in the <a href="./privacy.html">Privacy Policy</a>.</p>
         </div>

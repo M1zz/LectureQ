@@ -53,7 +53,7 @@ struct QuestionEntity: AppEntity {
     }
 }
 
-@available(macOS 15.0, *)
+@available(macOS 15.0, iOS 18.0, *)
 extension QuestionEntity: IndexedEntity {
     var attributeSet: CSSearchableItemAttributeSet {
         let set = defaultAttributeSet
@@ -114,7 +114,7 @@ enum QuestionLibrary {
 
     /// Spotlight 에 싣는 질문을 지금 것에 맞춘다. 앱을 열 때와 뒤로 보낼 때 부른다.
     static func reindex(_ container: ModelContainer) async {
-        guard #available(macOS 15.0, *) else { return }
+        guard #available(macOS 15.0, iOS 18.0, *) else { return }
         let index = CSSearchableIndex.default()
         try? await index.deleteAppEntities(ofType: QuestionEntity.self)
         try? await index.indexAppEntities(questions(in: container).map(QuestionEntity.init))

@@ -205,11 +205,11 @@
     <details>
       <summary>Var sparas mina data? Och hur säkerhetskopierar jag?</summary>
       <div class="body">
-        <p>Alla data sparas bara i följande mapp på den här Mac-datorn och lämnar aldrig enheten.</p>
+        <p>Alla data sparas på din enhet: på en Mac i följande mapp, och på iPhone och iPad i appens eget lagringsutrymme. Om du är inloggad på iCloud synkas de mellan din egen Mac, iPhone och iPad via din iCloud, och utvecklaren kan inte se dem.</p>
         <p><code>~/Library/Containers/com.lectureq.LectureQ/Data/Library/Application Support/LectureQ/</code></p>
         <ul>
           <li><strong>Säkerhetskopia:</strong> Avsluta appen och kopiera hela mappen (inklusive filerna <code>-wal</code> och <code>-shm</code> som ligger tillsammans med <code>LectureQ.store</code>).</li>
-          <li><strong>Börja om från början:</strong> Avsluta appen och radera mappen. Det räcker inte att flytta appen till papperskorgen – då finns mappen kvar.</li>
+          <li><strong>Börja om från början:</strong> Avsluta appen och radera mappen. Det räcker inte att flytta appen till papperskorgen – då finns mappen kvar. Om du använder iCloud-synkronisering ska du först radera LectureQ:s data under Hantera lagring i iCloud-inställningarna, annars laddas den ned igen.</li>
         </ul>
       </div>
     </details>
@@ -217,7 +217,7 @@
     <details>
       <summary>Systemkrav · bygga själv från källkoden?</summary>
       <div class="body">
-        <p>Appen kräver macOS 14 eller senare.</p>
+        <p>Appen fungerar på Mac med macOS 14 eller senare, och på iPhone och iPad med iOS eller iPadOS 18 eller senare.</p>
         <p>Bygga själv: klona repot och kör <code>./run.sh</code>, eller kör <code>xcodegen generate</code> och öppna sedan <code>LectureQ.xcodeproj</code> i Xcode.
         Mer information finns i <a href="https://github.com/M1zz/LectureQ">repot på GitHub</a>.</p>
       </div>
