@@ -275,12 +275,12 @@ struct ContentView: View {
             }
 
             // 단축키를 거는 질문 추가는 여기 하나다 (리스트 안 버튼은 스크롤되면 단축키가 안 먹을 수 있음)
-            // 가장 자주 쓰는 동작이라 강조색으로 채운 심볼 버튼. ? 하나만 두면 '도움말' 로 읽혀 + 가 붙은 말풍선을 쓴다.
+            // 가장 자주 쓰는 동작이라 강조색으로 채운 심볼 버튼. ? 말풍선에 + 배지를 얹은 심볼 (→ AddQuestionSymbol).
             ToolbarItem(placement: .primaryAction) {
                 Button {
                     showQuickCapture = true
                 } label: {
-                    Label("질문 추가", systemImage: Self.addQuestionSymbol)
+                    Label { Text("질문 추가") } icon: { AddQuestionSymbol() }
                         .labelStyle(.iconOnly)
                 }
                 .buttonStyle(.borderedProminent)
@@ -289,9 +289,6 @@ struct ContentView: View {
             }
         }
     }
-
-    /// 질문 추가 심볼 — 툴바와 빈 목록이 같은 모양을 쓴다.
-    static let addQuestionSymbol = "plus.bubble.fill"
 
     /// 강의를 다르게 보는 화면들 + 글씨 크기를 한 곳에 모은 메뉴.
     private var viewMenu: some View {
@@ -509,12 +506,12 @@ struct ContentView: View {
                     if showUnresolvedOnly {
                         EmptyHint("미해결 질문이 없어요")
                     } else {
-                        // 빈 목록이 곧 첫 질문을 남기는 자리다 — 툴바와 같은 심볼 버튼을 가운데에 둔다
+                        // 빈 목록이 곧 첫 질문을 남기는 자리다 — 툴바와 같은 심볼(AddQuestionSymbol)의 버튼을 가운데에 둔다
                         VStack(spacing: 10) {
                             Button {
                                 showQuickCapture = true
                             } label: {
-                                Label("질문 추가", systemImage: Self.addQuestionSymbol)
+                                Label { Text("질문 추가") } icon: { AddQuestionSymbol() }
                                     .padding(.horizontal, 6)
                                     .padding(.vertical, 2)
                             }
