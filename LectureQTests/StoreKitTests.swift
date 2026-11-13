@@ -43,13 +43,23 @@ final class StoreKitTests: XCTestCase {
         XCTAssertEqual(LectureQSpec.tier(owned: store.purchasedProductIDs), .free)
 
         try await session.buyProduct(identifier: LectureQSpec.plusYearlyID)
-        await store.refreshEntitlements()
+        await refresh(store, until: LectureQSpec.plusYearlyID)
         XCTAssertEqual(LectureQSpec.tier(owned: store.purchasedProductIDs), .plus)
 
         session.clearTransactions()
         try await session.buyProduct(identifier: LectureQSpec.plusLifetimeID)
         try await session.buyProduct(identifier: LectureQSpec.proUpgradeID)
-        await store.refreshEntitlements()
+        await refresh(store, until: LectureQSpec.proUpgradeID)
         XCTAssertEqual(LectureQSpec.tier(owned: store.purchasedProductIDs), .pro)
+    }
+
+    /// 가짜 스토어는 산 직후 그 거래가 보유 목록(currentEntitlements)에 오르기까지 잠깐 걸릴 때가 있다.
+    /// 바로 읽으면 테스트가 시점에 따라 갈리므로, 산 상품이 보일 때까지(최대 2초) 다시 읽는다.
+    private func refresh(_ store: LeeoStore, until productID: String) async {
+        for _ in 0..<20 {
+            await store.refreshEntitlements()
+            if store.purchasedProductIDs.contains(productID) { return }
+            try? await Task.sleep(for: .milliseconds(100))
+        }
     }
 }

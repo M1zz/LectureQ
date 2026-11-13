@@ -117,3 +117,7 @@ targets:
       base:
         PRODUCT_BUNDLE_IDENTIFIER: com.lectureq.LectureQTests
         GENERATE_INFOPLIST_FILE: YES
+        # 앱 타깃이 Mac · iOS 겸용(platform: auto)이라 xcodegen 이 iOS 식 경로(LectureQ.app/LectureQ)를 잡는다.
+        # 테스트는 Mac 에서 돌므로 Mac 앱의 실행 파일 경로를 직접 준다.
+        TEST_HOST: $(BUILT_PRODUCTS_DIR)/LectureQ.app/Contents/MacOS/LectureQ
+        BUNDLE_LOADER: $(TEST_HOST)
