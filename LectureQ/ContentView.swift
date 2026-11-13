@@ -266,8 +266,10 @@ struct ContentView: View {
 
             // 아이콘 없이 글자만. 자주 쓰는 것만 남기고 나머지는 "보기" 메뉴로 묶는다.
             ToolbarItemGroup {
-                Toggle("미해결만", isOn: $showUnresolvedOnly)
-                    .help("미해결 질문만 보기")
+                if canFilterUnresolved {
+                    Toggle("미해결만", isOn: $showUnresolvedOnly)
+                        .help("미해결 질문만 보기")
+                }
 
                 viewMenu
             }
@@ -365,6 +367,11 @@ struct ContentView: View {
         } else {
             Text(title)
         }
+    }
+
+    /// 미해결만 거르기는 걸러 낼 해결된 질문이 있을 때만 뜻이 있다. 켜 둔 동안에는 끌 수 있게 남긴다.
+    private var canFilterUnresolved: Bool {
+        showUnresolvedOnly || (selectedLecture?.questions.contains { $0.isResolved } ?? false)
     }
 
     private var selectedLectureHasState: Bool {
