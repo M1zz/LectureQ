@@ -28,6 +28,9 @@ esac
 
 t() { perl -e 'alarm shift; exec @ARGV' "$@"; }   # 시뮬레이터가 멈추면 기다리지 않는다
 
+# 아이패드 상태 막대(시각·날짜)가 그려졌는가 — 앱을 띄운 직후엔 가끔 통째로 비어 찍힌다
+has_bar() { python3 -c "import sys;from PIL import Image;p=list(Image.open(sys.argv[1]).convert('L').crop((40,12,420,52)).getdata());sys.exit(max(p)-min(p)<40)" $1; }
+
 locale_of() {
   case $1 in
     ko) echo ko_KR ;; en) echo en_US ;; en-GB) echo en_GB ;; zh-Hans) echo zh_CN ;; zh-Hant) echo zh_TW ;;
@@ -48,18 +51,26 @@ for lang in $LANGS; do
   echo "▸ $lang"
   out=docs/screenshots/marketing/$lang; mkdir -p $out
   loc=$(locale_of $lang)
+  if [[ $KIND == ipad ]]; then
+    # 아이패드 상태 막대의 날짜와 창 이름은 앱이 아니라 시스템 언어를 따른다 → 언어마다 바꾸고 홈을 다시 띄운다
+    t 30 xcrun simctl spawn $DEV defaults write .GlobalPreferences AppleLanguages -array $lang
+    t 30 xcrun simctl spawn $DEV defaults write .GlobalPreferences AppleLocale $(locale_of $lang)
+    t 30 xcrun simctl spawn $DEV launchctl stop com.apple.SpringBoard
+    # 홈이 다시 서고 상태 막대가 돌아올 때까지 — 짧으면 첫 그림에 상태 막대가 비어 나온다
+    sleep 30; t 60 xcrun simctl status_bar $DEV override --time 9:41 --dataNetwork wifi --wifiMode active --wifiBars 3 --cellularMode active --cellularBars 4 --batteryState charged --batteryLevel 100 >/dev/null 2>&1
+  fi
   n=0
   for scene in $SCENES; do
     n=$((n+1))
     file=$out/$PREFIX-0$n-$scene.png
     [[ -n ${ONLY:-} && " $ONLY " != *" $scene "* ]] && continue
-    for try in 1 2; do
+    for try in 1 2 3 4; do
       t 180 xcrun simctl launch --terminate-running-process $DEV $BUNDLE \
         -DemoMode YES -DemoScreen $scene -AppleLanguages "($lang)" -AppleLocale $loc >/dev/null 2>&1 || continue
       sleep 8
       # 시뮬레이터는 Documents 아래에 직접 못 쓸 때가 있다 → 임시 파일로 찍고 옮긴다
       tmp=${TMPDIR:-/tmp}/lq-shot-$$.png
-      t 90 xcrun simctl io $DEV screenshot $tmp >/dev/null 2>&1 && mv -f $tmp $file && break
+      t 90 xcrun simctl io $DEV screenshot $tmp >/dev/null 2>&1 && { [[ $KIND != ipad ]] || has_bar $tmp } && mv -f $tmp $file && break
     done
     [[ -f $file ]] && echo "  $file" || echo "  ✗ $file"
   done
