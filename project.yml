@@ -33,6 +33,11 @@ targets:
     deploymentTarget: "14.0"
     sources:
       - path: LectureQ
+        excludes: [AppIcon.icon]
+      # 앱 아이콘 (Icon Composer). 묶음 하나로 넣어야 안의 SVG 가 낱개 리소스로 풀리지 않는다
+      - path: LectureQ/AppIcon.icon
+        type: file
+        buildPhase: resources
     dependencies:
       - package: LeeoKit
     scheme:
@@ -72,6 +77,8 @@ targets:
         ENABLE_HARDENED_RUNTIME: YES
         COMBINE_HIDPI_IMAGES: YES
         ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        # 앱 강조색 = 아이콘의 남색 노트 (시스템 Indigo)
+        ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME: AccentColor
 
   # 핵심 순수 로직(마크다운 가져오기 해석 · 시점 계산 · 질문 블록 배치) 단위 테스트.
   # 앱을 호스트로 띄우되, 앱은 테스트 중엔 메모리 저장소만 쓴다(LectureQApp.isRunningUnitTests).

@@ -161,7 +161,7 @@ struct GraphNode: Identifiable {
 
     var color: Color {
         switch kind {
-        case .lecture: return .blue
+        case .lecture: return .accentColor
         case .question(let resolved, _): return resolved ? .green : .orange
         }
     }
@@ -365,7 +365,7 @@ struct GraphCanvas: View {
 
                     if edge.directed {
                         // 원질문 → 꼬리질문: 색이 있는 화살표
-                        let color = Color.teal.opacity(0.7)
+                        let color = Color.accentColor.opacity(0.7)
                         // 자식 노드 테두리 앞에서 화살표가 끝나도록 약간 당긴다
                         let dx = pb.x - pa.x, dy = pb.y - pa.y
                         let len = max(sqrt(dx * dx + dy * dy), 1)
