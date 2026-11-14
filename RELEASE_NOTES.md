@@ -3,6 +3,176 @@
 App Store 의 "이 버전의 새로운 기능" 에 그대로 올라가는 글이다.
 평문만 쓴다. 한 줄에 한 문장, 3~5줄, 한 줄 40자 이내.
 
+## 1.0.4
+
+### 앱스토어 (한국어)
+
+이제 iPhone과 iPad에서도 쓸 수 있어요
+iCloud로 모든 기기에서 기록이 이어져요
+Siri로 질문을 더하고 Spotlight에서 찾아요
+기록을 열지 못해도 앱이 꺼지지 않고 알려 줘요
+
+### App Store (English)
+
+Now on iPhone and iPad too
+Notes sync across all devices via iCloud
+Add via Siri and find in Spotlight
+No more crash when notes can’t be opened
+
+### App Store (en-GB)
+
+Now on iPhone and iPad too
+Notes sync across all devices via iCloud
+Add via Siri and find in Spotlight
+No more crash when notes can’t be opened
+
+### 앱스토어 (중국어 간체)
+
+现在也能在 iPhone 和 iPad 上使用
+通过 iCloud 在所有设备间同步记录
+用 Siri 添加问题，在 Spotlight 中查找
+记录无法打开时不再闪退，而会提示
+
+### 앱스토어 (중국어 번체)
+
+現在也能在 iPhone 和 iPad 上使用
+透過 iCloud 在所有裝置間同步紀錄
+用 Siri 新增問題，在 Spotlight 中尋找
+紀錄無法開啟時不再閃退，而會提示
+
+### 앱스토어 (일본어)
+
+iPhoneとiPadでも使えるようになりました
+iCloudで記録がすべてのデバイスにつながります
+Siriで質問を追加し、Spotlightで探せます
+記録を開けなくても落ちずにお知らせします
+
+### 앱스토어 (러시아어)
+
+Теперь и на iPhone и iPad
+Записи синхронизируются через iCloud
+Вопросы через Siri, поиск в Spotlight
+Без сбоя, если записи не открываются
+
+### 앱스토어 (스페인어)
+
+Ahora también en iPhone y iPad
+Tus notas sincronizadas con iCloud
+Añade con Siri y busca en Spotlight
+Sin cierres si no se pueden abrir notas
+
+### 앱스토어 (독일어)
+
+Jetzt auch auf iPhone und iPad
+Notizen per iCloud auf allen Geräten
+Fragen per Siri, Suche per Spotlight
+Kein Absturz mehr bei Ladefehlern
+
+### 앱스토어 (프랑스어)
+
+Désormais sur iPhone et iPad
+Vos notes synchronisées via iCloud
+Ajoutez via Siri, cherchez via Spotlight
+Plus de plantage si les notes bloquent
+
+### 앱스토어 (이탈리아어)
+
+Ora anche su iPhone e iPad
+Dati sincronizzati con iCloud
+Aggiungi con Siri, trova in Spotlight
+Nessun arresto se i dati non si aprono
+
+### 앱스토어 (포르투갈어(브라질))
+
+Agora também no iPhone e no iPad
+Dados sincronizados pelo iCloud
+Adicione pela Siri, busque no Spotlight
+Sem travar quando as notas não abrem
+
+### 앱스토어 (태국어)
+
+ใช้งานบน iPhone และ iPad ได้แล้ว
+ข้อมูลซิงค์ทุกอุปกรณ์ผ่าน iCloud
+เพิ่มคำถามด้วย Siri และค้นหาใน Spotlight
+แอปไม่ปิดเองเมื่อเปิดข้อมูลไม่ได้
+
+### 앱스토어 (베트남어)
+
+Giờ đã dùng được trên iPhone và iPad
+Dữ liệu đồng bộ mọi thiết bị qua iCloud
+Thêm bằng Siri, tìm trong Spotlight
+Không còn thoát app khi lỗi mở dữ liệu
+
+### 앱스토어 (체코어)
+
+Nově také na iPhonu a iPadu
+Data se synchronizují přes iCloud
+Přidání přes Siri, hledání ve Spotlightu
+Už žádný pád, když nejdou otevřít data
+
+### 앱스토어 (덴마크어)
+
+Nu også på iPhone og iPad
+Data synkroniseres via iCloud
+Tilføj med Siri, find i Spotlight
+Intet nedbrud, hvis data ikke kan åbnes
+
+### 앱스토어 (그리스어)
+
+Τώρα και σε iPhone και iPad
+Συγχρονισμός δεδομένων μέσω iCloud
+Προσθήκη με Siri, εύρεση στο Spotlight
+Χωρίς κόλλημα αν δεν ανοίγουν δεδομένα
+
+### 앱스토어 (핀란드어)
+
+Nyt myös iPhonella ja iPadilla
+Tiedot synkronoituvat iCloudin kautta
+Lisää Sirillä, etsi Spotlightista
+Ei kaatumista, vaikka tiedot eivät aukea
+
+### 앱스토어 (인도네시아어)
+
+Kini tersedia di iPhone dan iPad
+Data tersinkron lewat iCloud
+Tambah lewat Siri, cari di Spotlight
+Tak lagi tertutup saat data gagal dibuka
+
+### 앱스토어 (노르웨이어 보크말, nb)
+
+Nå også på iPhone og iPad
+Data synkroniseres via iCloud
+Legg til med Siri, finn i Spotlight
+Ingen krasj om data ikke kan åpnes
+
+### 앱스토어 (네덜란드어)
+
+Nu ook op iPhone en iPad
+Gegevens synchroniseren via iCloud
+Toevoegen met Siri, zoeken in Spotlight
+Geen crash meer als gegevens niet openen
+
+### 앱스토어 (폴란드어)
+
+Teraz także na iPhonie i iPadzie
+Dane synchronizują się przez iCloud
+Dodawaj przez Siri, szukaj w Spotlight
+Bez awarii, gdy dane się nie otwierają
+
+### 앱스토어 (스웨덴어)
+
+Nu även på iPhone och iPad
+Data synkas via iCloud på alla enheter
+Lägg till med Siri, hitta i Spotlight
+Ingen krasch om data inte kan öppnas
+
+### 앱스토어 (튀르키예어)
+
+Artık iPhone ve iPad’de de
+Veriler iCloud ile tüm cihazlarda
+Siri ile ekleyin, Spotlight’ta bulun
+Veriler açılmasa da uygulama çökmez
+
 ## 1.0.3
 
 ### 앱스토어 (한국어)
