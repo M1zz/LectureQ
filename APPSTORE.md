@@ -23,7 +23,7 @@ DeployBar 가 배포할 때 이 파일을 읽어 App Store 페이지에 올린�
 
 ### 설명
 
-강의를 듣다 떠오른 질문을 흘려보내지 않게 해 주는 학습 노트입니다. Mac, iPhone, iPad에서 함께 쓸 수 있고, 기록은 iCloud로 동기화됩니다.
+강의를 듣다 떠오른 질문을 흘려보내지 않게 해 주는 학습 노트입니다.
 질문을 쉬운 말로 바로 적고, 그 시점의 메모와 함께 남겨 두었다가, 답을 찾아 내 말로 정리하면 배운 점이 됩니다.
 
 빠른 질문
@@ -55,6 +55,7 @@ AI로 답 찾기
 개인정보
 계정이 없습니다. 기록은 기기에 저장되고, iCloud에 로그인되어 있으면 내 iCloud를 통해서만 내 기기들 사이에 동기화됩니다. 개발자는 내 기록을 볼 수 없습니다.
 
+Mac, iPhone, iPad에서 함께 쓸 수 있고, 기록은 iCloud로 동기화됩니다.
 macOS 14 이상, iOS 18 및 iPadOS 18 이상에서 사용할 수 있습니다.
 
 구독 안내
@@ -94,7 +95,7 @@ Capture a mid-lecture doubt with one shortcut. It sits beside your notes from th
 
 ### 설명
 
-A learning notebook that keeps the questions you have during a lecture from slipping away. Use it on Mac, iPhone and iPad, with your records synced through iCloud.
+A learning notebook that keeps the questions you have during a lecture from slipping away.
 Write a question in plain words, keep it next to your notes from that moment, then find the answer and put it in your own words to turn it into something you've learned.
 
 Quick Capture
@@ -126,6 +127,7 @@ Text size can be adjusted with Command Plus and Command Minus.
 Privacy
 There are no accounts. Your records are stored on your device and, if you’re signed in to iCloud, synced between your devices only through your own iCloud. The developer can’t see them.
 
+Use it on Mac, iPhone and iPad, with your records synced through iCloud.
 Requires macOS 14, iOS 18 or iPadOS 18, or later.
 
 Subscriptions
@@ -165,7 +167,7 @@ Capture a mid-lecture doubt with one shortcut. It sits beside your notes from th
 
 ### 설명
 
-A learning notebook that keeps the questions you have during a lecture from slipping away. Use it on Mac, iPhone and iPad, with your records synced through iCloud.
+A learning notebook that keeps the questions you have during a lecture from slipping away.
 Write a question in plain words, keep it next to your notes from that moment, then find the answer and put it in your own words to turn it into something you've learnt.
 
 Quick Capture
@@ -197,6 +199,7 @@ Text size can be adjusted with Command Plus and Command Minus.
 Privacy
 There are no accounts. Your records are stored on your device and, if you’re signed in to iCloud, synced between your devices only through your own iCloud. The developer can’t see them.
 
+Use it on Mac, iPhone and iPad, with your records synced through iCloud.
 Requires macOS 14, iOS 18 or iPadOS 18, or later.
 
 Subscriptions
@@ -236,7 +239,7 @@ LectureQ：听课提问笔记
 
 ### 설명
 
-这是一款学习笔记，让你听课时冒出的问题不再溜走。可在 Mac、iPhone 和 iPad 上使用，记录通过 iCloud 同步。
+这是一款学习笔记，让你听课时冒出的问题不再溜走。
 用最简单的话直接写下问题，连同当时的备注一起留存，之后找到答案、用自己的话整理，就成了学到的内容。
 
 快速提问
@@ -268,6 +271,7 @@ LectureQ：听课提问笔记
 隐私
 无需账号。记录保存在你的设备上；登录 iCloud 后，只会通过你自己的 iCloud 在你的设备之间同步，开发者无法查看。
 
+可在 Mac、iPhone 和 iPad 上使用，记录通过 iCloud 同步。
 需要 macOS 14、iOS 18 或 iPadOS 18 及更高版本。
 
 订阅说明
@@ -307,7 +311,7 @@ LectureQ：上課提問筆記
 
 ### 설명
 
-這是一款學習筆記，讓你上課時冒出的問題不再溜走。可在 Mac、iPhone 和 iPad 上使用，紀錄透過 iCloud 同步。
+這是一款學習筆記，讓你上課時冒出的問題不再溜走。
 用最簡單的話直接寫下問題，連同當時的筆記一起留存，之後找到答案、用自己的話整理，就成了學到的內容。
 
 快速提問
@@ -339,6 +343,7 @@ LectureQ：上課提問筆記
 隱私
 不需要帳號。紀錄會儲存在你的裝置上；登入 iCloud 後，只會透過你自己的 iCloud 在你的裝置之間同步，開發者無法查看。
 
+可在 Mac、iPhone 和 iPad 上使用，紀錄透過 iCloud 同步。
 需要 macOS 14、iOS 18 或 iPadOS 18 以上版本。
 
 訂閱說明
@@ -378,7 +383,7 @@ LectureQ：授業の疑問ノート
 
 ### 설명
 
-講義を聞いていて浮かんだ疑問を、流してしまわないための学習ノートです。Mac、iPhone、iPadで使え、記録はiCloudで同期されます。
+講義を聞いていて浮かんだ疑問を、流してしまわないための学習ノートです。
 疑問をやさしい言葉でそのまま書き、そのときのメモと一緒に残しておき、答えを見つけて自分の言葉でまとめれば、それが学んだことになります。
 
 クイック入力
@@ -410,6 +415,7 @@ AIで答えを探す
 プライバシー
 アカウントは不要です。記録はデバイスに保存され、iCloudにサインインしていれば、自分のiCloudを通じて自分のデバイス間でだけ同期されます。開発者が記録を見ることはできません。
 
+Mac、iPhone、iPadで使え、記録はiCloudで同期されます。
 macOS 14、iOS 18、iPadOS 18以降で使えます。
 
 サブスクリプションについて
@@ -449,7 +455,7 @@ LectureQ: вопросы к лекциям
 
 ### 설명
 
-Учебный блокнот, который не даёт вопросам, возникшим на лекции, ускользнуть. Работает на Mac, iPhone и iPad, а записи синхронизируются через iCloud.
+Учебный блокнот, который не даёт вопросам, возникшим на лекции, ускользнуть.
 Запишите вопрос простыми словами, сохраните его рядом с заметкой этого момента, потом найдите ответ и сформулируйте его по-своему — так вопрос станет знанием.
 
 Быстрый вопрос
@@ -481,6 +487,7 @@ LectureQ: вопросы к лекциям
 Конфиденциальность
 Учётной записи нет. Записи хранятся на вашем устройстве, а если вы вошли в iCloud, синхронизируются между вашими устройствами только через ваш собственный iCloud. Разработчик их не видит.
 
+Работает на Mac, iPhone и iPad, а записи синхронизируются через iCloud.
 Требуется macOS 14, iOS 18, iPadOS 18 или новее.
 
 Подписки
@@ -520,7 +527,7 @@ Anota con un atajo la duda que te surge en plena clase. Queda junto a tus notas 
 
 ### 설명
 
-Un cuaderno de estudio que evita que se te escapen las preguntas que te surgen durante una clase. Úsalo en Mac, iPhone y iPad, con tus registros sincronizados mediante iCloud.
+Un cuaderno de estudio que evita que se te escapen las preguntas que te surgen durante una clase.
 Escribe la duda con palabras sencillas, guárdala junto a tus notas de ese momento y, más tarde, busca la respuesta y redáctala con tus palabras: así se convierte en algo aprendido.
 
 Pregunta rápida
@@ -552,6 +559,7 @@ Puedes ajustar el tamaño del texto con Command más y Command menos.
 Privacidad
 No hay cuentas. Tus registros se guardan en tu dispositivo y, si has iniciado sesión en iCloud, se sincronizan entre tus dispositivos solo a través de tu propio iCloud. El desarrollador no puede verlos.
 
+Úsalo en Mac, iPhone y iPad, con tus registros sincronizados mediante iCloud.
 Requiere macOS 14, iOS 18 o iPadOS 18, o posterior.
 
 Suscripciones
@@ -591,7 +599,7 @@ Halte den Zweifel aus der Vorlesung per Tastenkürzel fest. Er landet neben dein
 
 ### 설명
 
-Ein Lernnotizbuch, das Fragen aus der Vorlesung nicht verloren gehen lässt. Es läuft auf Mac, iPhone und iPad, und deine Einträge werden über iCloud synchronisiert.
+Ein Lernnotizbuch, das Fragen aus der Vorlesung nicht verloren gehen lässt.
 Schreib die Frage in einfachen Worten auf, bewahre sie neben deiner Notiz von diesem Moment auf, such später die Antwort und fasse sie in eigenen Worten zusammen – so wird daraus Gelerntes.
 
 Schnelle Frage
@@ -623,6 +631,7 @@ Die Textgröße lässt sich mit Command Plus und Command Minus ändern.
 Datenschutz
 Es gibt keine Konten. Deine Einträge liegen auf deinem Gerät und werden, wenn du bei iCloud angemeldet bist, nur über deine eigene iCloud zwischen deinen Geräten synchronisiert. Der Entwickler kann sie nicht sehen.
 
+Es läuft auf Mac, iPhone und iPad, und deine Einträge werden über iCloud synchronisiert.
 Erfordert macOS 14, iOS 18 bzw. iPadOS 18 oder neuer.
 
 Abonnements
@@ -662,7 +671,7 @@ Notez d’un raccourci le doute qui surgit en plein cours. Il se place près de 
 
 ### 설명
 
-Un carnet d’étude qui empêche les questions surgies pendant un cours de s’envoler. Il fonctionne sur Mac, iPhone et iPad, et vos enregistrements se synchronisent via iCloud.
+Un carnet d’étude qui empêche les questions surgies pendant un cours de s’envoler.
 Écrivez la question en mots simples, gardez-la à côté de votre note du moment, puis trouvez la réponse et reformulez-la avec vos mots : elle devient alors un savoir acquis.
 
 Question express
@@ -694,6 +703,7 @@ La taille du texte se règle avec Commande Plus et Commande Moins.
 Confidentialité
 Pas de compte. Vos enregistrements sont stockés sur votre appareil et, si vous êtes connecté à iCloud, synchronisés entre vos appareils uniquement via votre propre iCloud. Le développeur ne peut pas les voir.
 
+Il fonctionne sur Mac, iPhone et iPad, et vos enregistrements se synchronisent via iCloud.
 Nécessite macOS 14, iOS 18 ou iPadOS 18, ou version ultérieure.
 
 Abonnements
@@ -733,7 +743,7 @@ Annota con una scorciatoia il dubbio che ti viene a lezione. Resta accanto ai tu
 
 ### 설명
 
-Un quaderno di studio che non lascia sfuggire le domande che ti vengono durante una lezione. Funziona su Mac, iPhone e iPad, e le tue registrazioni si sincronizzano con iCloud.
+Un quaderno di studio che non lascia sfuggire le domande che ti vengono durante una lezione.
 Scrivi la domanda con parole semplici, tienila accanto agli appunti di quel momento, poi trova la risposta e riscrivila con parole tue: diventa qualcosa che hai imparato.
 
 Domanda veloce
@@ -765,6 +775,7 @@ Puoi regolare la dimensione del testo con Comando più e Comando meno.
 Privacy
 Non ci sono account. Le tue registrazioni restano sul tuo dispositivo e, se hai effettuato l’accesso a iCloud, si sincronizzano tra i tuoi dispositivi solo tramite il tuo iCloud. Lo sviluppatore non può vederle.
 
+Funziona su Mac, iPhone e iPad, e le tue registrazioni si sincronizzano con iCloud.
 Richiede macOS 14, iOS 18 o iPadOS 18, o versioni successive.
 
 Abbonamenti
@@ -804,7 +815,7 @@ Registre com um atalho a dúvida que surge no meio da aula. Ela fica ao lado das
 
 ### 설명
 
-Um caderno de estudos que não deixa escapar as perguntas que surgem durante uma aula. Funciona no Mac, no iPhone e no iPad, com seus registros sincronizados pelo iCloud.
+Um caderno de estudos que não deixa escapar as perguntas que surgem durante uma aula.
 Escreva a dúvida com palavras simples, guarde-a ao lado das anotações daquele momento e, depois, encontre a resposta e reescreva-a com suas palavras: assim ela vira algo que você aprendeu.
 
 Pergunta rápida
@@ -836,6 +847,7 @@ O tamanho do texto se ajusta com Command mais e Command menos.
 Privacidade
 Não há contas. Seus registros ficam no seu dispositivo e, se você tiver iniciado sessão no iCloud, são sincronizados entre seus dispositivos apenas pelo seu próprio iCloud. O desenvolvedor não pode vê-los.
 
+Funciona no Mac, no iPhone e no iPad, com seus registros sincronizados pelo iCloud.
 Requer macOS 14, iOS 18 ou iPadOS 18, ou posterior.
 
 Assinaturas
@@ -875,7 +887,7 @@ LectureQ: จดคำถามในคลาส
 
 ### 설명
 
-สมุดบันทึกการเรียนที่ช่วยไม่ให้คำถามที่ผุดขึ้นระหว่างเรียนหลุดหายไป ใช้ได้ทั้งบน Mac, iPhone และ iPad โดยบันทึกจะซิงค์ผ่าน iCloud
+สมุดบันทึกการเรียนที่ช่วยไม่ให้คำถามที่ผุดขึ้นระหว่างเรียนหลุดหายไป
 เขียนคำถามด้วยคำง่ายๆ เก็บไว้ข้างบันทึกของช่วงเวลานั้น แล้วค่อยหาคำตอบและสรุปด้วยคำพูดของตัวเอง ก็จะกลายเป็นสิ่งที่เรียนรู้
 
 ถามด่วน
@@ -907,6 +919,7 @@ LectureQ: จดคำถามในคลาส
 ความเป็นส่วนตัว
 ไม่มีบัญชีผู้ใช้ บันทึกถูกเก็บไว้ในอุปกรณ์ของคุณ และหากลงชื่อเข้าใช้ iCloud ไว้ จะซิงค์ระหว่างอุปกรณ์ของคุณผ่าน iCloud ของคุณเองเท่านั้น นักพัฒนาไม่สามารถเห็นบันทึกเหล่านี้ได้
 
+ใช้ได้ทั้งบน Mac, iPhone และ iPad โดยบันทึกจะซิงค์ผ่าน iCloud
 ใช้ได้กับ macOS 14, iOS 18 และ iPadOS 18 ขึ้นไป
 
 การสมัครสมาชิก
@@ -946,7 +959,7 @@ Ghi lại thắc mắc nảy ra giữa giờ học chỉ với một phím tắt
 
 ### 설명
 
-Cuốn sổ học tập giúp những câu hỏi nảy ra trong lúc nghe giảng không bị trôi mất. Dùng được trên Mac, iPhone và iPad, ghi chép được đồng bộ qua iCloud.
+Cuốn sổ học tập giúp những câu hỏi nảy ra trong lúc nghe giảng không bị trôi mất.
 Hãy viết câu hỏi bằng những từ đơn giản, giữ nó cạnh ghi chú của thời điểm đó, rồi tìm câu trả lời và viết lại bằng lời của bạn để nó trở thành điều đã học.
 
 Câu hỏi nhanh
@@ -978,6 +991,7 @@ Bạn có thể chỉnh cỡ chữ bằng Command cộng và Command trừ.
 Quyền riêng tư
 Không cần tài khoản. Ghi chép được lưu trên thiết bị của bạn và, nếu bạn đã đăng nhập iCloud, chỉ được đồng bộ giữa các thiết bị của bạn qua iCloud của chính bạn. Nhà phát triển không thể xem chúng.
 
+Dùng được trên Mac, iPhone và iPad, ghi chép được đồng bộ qua iCloud.
 Cần macOS 14, iOS 18 hoặc iPadOS 18 trở lên.
 
 Gói đăng ký
@@ -1017,7 +1031,7 @@ Pochybnost z přednášky zapíšete jednou zkratkou. Uloží se k poznámce z t
 
 ### 설명
 
-Studijní zápisník, který nenechá otázky z přednášky zapadnout. Funguje na Macu, iPhonu i iPadu a záznamy se synchronizují přes iCloud.
+Studijní zápisník, který nenechá otázky z přednášky zapadnout.
 Napište otázku jednoduše, uložte ji vedle poznámky z té chvíle, později najděte odpověď a shrňte ji vlastními slovy – stane se z ní něco, co jste se naučili.
 
 Rychlá otázka
@@ -1049,6 +1063,7 @@ Velikost textu změníte zkratkami Command plus a Command mínus.
 Soukromí
 Žádné účty. Záznamy se ukládají ve vašem zařízení, a pokud jste přihlášeni k iCloudu, synchronizují se mezi vašimi zařízeními jen přes váš vlastní iCloud. Vývojář je nevidí.
 
+Funguje na Macu, iPhonu i iPadu a záznamy se synchronizují přes iCloud.
 Vyžaduje macOS 14, iOS 18 nebo iPadOS 18 či novější.
 
 Předplatné
@@ -1088,7 +1103,7 @@ Fang tvivlen midt i forelæsningen med én genvej. Den lander ved siden af dine 
 
 ### 설명
 
-En studienotesbog, der sørger for, at de spørgsmål, du får under en forelæsning, ikke forsvinder. Den virker på Mac, iPhone og iPad, og dine optegnelser synkroniseres via iCloud.
+En studienotesbog, der sørger for, at de spørgsmål, du får under en forelæsning, ikke forsvinder.
 Skriv spørgsmålet med simple ord, gem det ved siden af dine noter fra øjeblikket, og find senere svaret og formulér det med dine egne ord – så bliver det til noget, du har lært.
 
 Hurtigt spørgsmål
@@ -1120,6 +1135,7 @@ Tekststørrelsen kan ændres med Command plus og Command minus.
 Privatliv
 Der er ingen konti. Dine optegnelser gemmes på din enhed og synkroniseres, hvis du er logget ind på iCloud, kun mellem dine enheder via din egen iCloud. Udvikleren kan ikke se dem.
 
+Den virker på Mac, iPhone og iPad, og dine optegnelser synkroniseres via iCloud.
 Kræver macOS 14, iOS 18 eller iPadOS 18 eller nyere.
 
 Abonnementer
@@ -1159,7 +1175,7 @@ LectureQ: Ερωτήσεις μαθημάτων
 
 ### 설명
 
-Ένα σημειωματάριο μελέτης που δεν αφήνει να χαθούν οι ερωτήσεις που γεννιούνται στη διάρκεια ενός μαθήματος. Λειτουργεί σε Mac, iPhone και iPad, και οι εγγραφές σου συγχρονίζονται μέσω iCloud.
+Ένα σημειωματάριο μελέτης που δεν αφήνει να χαθούν οι ερωτήσεις που γεννιούνται στη διάρκεια ενός μαθήματος.
 Γράψε την ερώτηση με απλά λόγια, κράτησέ την δίπλα στη σημείωση εκείνης της στιγμής και, αργότερα, βρες την απάντηση και διατύπωσέ την με δικά σου λόγια: έτσι γίνεται κάτι που έμαθες.
 
 Γρήγορη ερώτηση
@@ -1191,6 +1207,7 @@ LectureQ: Ερωτήσεις μαθημάτων
 Απόρρητο
 Δεν υπάρχουν λογαριασμοί. Οι εγγραφές αποθηκεύονται στη συσκευή σου και, αν έχεις συνδεθεί στο iCloud, συγχρονίζονται ανάμεσα στις συσκευές σου μόνο μέσω του δικού σου iCloud. Ο προγραμματιστής δεν μπορεί να τις δει.
 
+Λειτουργεί σε Mac, iPhone και iPad, και οι εγγραφές σου συγχρονίζονται μέσω iCloud.
 Απαιτεί macOS 14, iOS 18 ή iPadOS 18 ή νεότερη έκδοση.
 
 Συνδρομές
@@ -1230,7 +1247,7 @@ Tallenna luennolla herännyt epäilys yhdellä pikanäppäimellä. Se jää sen 
 
 ### 설명
 
-Opiskeluvihko, joka ei anna luennolla heränneiden kysymysten livahtaa pois. Se toimii Macilla, iPhonella ja iPadilla, ja tallenteet synkronoituvat iCloudin kautta.
+Opiskeluvihko, joka ei anna luennolla heränneiden kysymysten livahtaa pois.
 Kirjoita kysymys yksinkertaisin sanoin, säilytä se sen hetken muistiinpanojen vieressä ja etsi myöhemmin vastaus ja muotoile se omin sanoin – niin siitä tulee opittua.
 
 Pikakysymys
@@ -1262,6 +1279,7 @@ Tekstin kokoa voi säätää Command plus- ja Command miinus -näppäimillä.
 Yksityisyys
 Tilejä ei ole. Tallenteet säilyvät laitteellasi, ja jos olet kirjautunut iCloudiin, ne synkronoituvat laitteidesi välillä vain oman iCloudisi kautta. Kehittäjä ei näe niitä.
 
+Se toimii Macilla, iPhonella ja iPadilla, ja tallenteet synkronoituvat iCloudin kautta.
 Vaatii macOS 14:n, iOS 18:n tai iPadOS 18:n tai uudemman.
 
 Tilaukset
@@ -1301,7 +1319,7 @@ Catat keraguan di tengah kuliah dengan satu pintasan. Ia tersimpan di samping ca
 
 ### 설명
 
-Buku catatan belajar yang menjaga pertanyaan yang muncul saat kuliah agar tidak terlewat. Bisa dipakai di Mac, iPhone, dan iPad, dengan catatan yang disinkronkan lewat iCloud.
+Buku catatan belajar yang menjaga pertanyaan yang muncul saat kuliah agar tidak terlewat.
 Tulis pertanyaan dengan kata-kata sederhana, simpan di samping catatan saat itu, lalu cari jawabannya dan tulis ulang dengan kata-katamu sendiri: itulah yang menjadi hal yang sudah kamu pelajari.
 
 Pertanyaan Cepat
@@ -1333,6 +1351,7 @@ Ukuran teks bisa diatur dengan Command plus dan Command minus.
 Privasi
 Tidak ada akun. Catatan disimpan di perangkatmu dan, jika kamu masuk ke iCloud, hanya disinkronkan antarperangkatmu melalui iCloud milikmu sendiri. Pengembang tidak bisa melihatnya.
 
+Bisa dipakai di Mac, iPhone, dan iPad, dengan catatan yang disinkronkan lewat iCloud.
 Membutuhkan macOS 14, iOS 18, atau iPadOS 18 atau lebih baru.
 
 Langganan
@@ -1372,7 +1391,7 @@ Fang tvilen midt i forelesningen med én snarvei. Den havner ved siden av notate
 
 ### 설명
 
-En studienotatbok som sørger for at spørsmålene du får under en forelesning, ikke forsvinner. Den fungerer på Mac, iPhone og iPad, og notatene dine synkroniseres via iCloud.
+En studienotatbok som sørger for at spørsmålene du får under en forelesning, ikke forsvinner.
 Skriv spørsmålet med enkle ord, ta vare på det ved siden av notatene fra øyeblikket, og finn senere svaret og formuler det med dine egne ord – da blir det til noe du har lært.
 
 Raskt spørsmål
@@ -1404,6 +1423,7 @@ Tekststørrelsen justerer du med Command pluss og Command minus.
 Personvern
 Det finnes ingen kontoer. Notatene dine lagres på enheten din og synkroniseres, hvis du er logget på iCloud, bare mellom enhetene dine via din egen iCloud. Utvikleren kan ikke se dem.
 
+Den fungerer på Mac, iPhone og iPad, og notatene dine synkroniseres via iCloud.
 Krever macOS 14, iOS 18 eller iPadOS 18 eller nyere.
 
 Abonnementer
@@ -1443,7 +1463,7 @@ Leg met één sneltoets de twijfel vast die midden in het college opkomt. Hij ko
 
 ### 설명
 
-Een studieschrift dat de vragen die tijdens een college opkomen niet laat wegglippen. Het werkt op Mac, iPhone en iPad, en je notities worden via iCloud gesynchroniseerd.
+Een studieschrift dat de vragen die tijdens een college opkomen niet laat wegglippen.
 Schrijf de vraag in eenvoudige woorden op, bewaar hem naast je notities van dat moment, zoek later het antwoord en verwoord het in je eigen woorden: zo wordt het iets wat je hebt geleerd.
 
 Snelle vraag
@@ -1475,6 +1495,7 @@ De tekstgrootte pas je aan met Command plus en Command min.
 Privacy
 Er zijn geen accounts. Je notities worden op je apparaat bewaard en, als je bij iCloud bent ingelogd, alleen via je eigen iCloud tussen je apparaten gesynchroniseerd. De ontwikkelaar kan ze niet zien.
 
+Het werkt op Mac, iPhone en iPad, en je notities worden via iCloud gesynchroniseerd.
 Vereist macOS 14, iOS 18 of iPadOS 18 of nieuwer.
 
 Abonnementen
@@ -1514,7 +1535,7 @@ Zapisz skrótem wątpliwość, która pojawia się w trakcie wykładu. Trafi obo
 
 ### 설명
 
-Notatnik do nauki, który nie pozwala umknąć pytaniom rodzącym się podczas wykładu. Działa na Macu, iPhonie i iPadzie, a zapisy synchronizują się przez iCloud.
+Notatnik do nauki, który nie pozwala umknąć pytaniom rodzącym się podczas wykładu.
 Zapisz pytanie prostymi słowami, zachowaj je obok notatki z tej chwili, a później znajdź odpowiedź i ujmij ją własnymi słowami – wtedy stanie się czymś, czego się nauczyłeś(-aś).
 
 Szybkie pytanie
@@ -1546,6 +1567,7 @@ Rozmiar tekstu zmienisz skrótami Command plus i Command minus.
 Prywatność
 Nie ma kont. Zapisy są przechowywane na Twoim urządzeniu, a jeśli jesteś zalogowany do iCloud, synchronizują się między Twoimi urządzeniami wyłącznie przez Twój własny iCloud. Deweloper nie ma do nich dostępu.
 
+Działa na Macu, iPhonie i iPadzie, a zapisy synchronizują się przez iCloud.
 Wymaga macOS 14, iOS 18 lub iPadOS 18 albo nowszego.
 
 Subskrypcje
@@ -1585,7 +1607,7 @@ Fånga tvivlet mitt i föreläsningen med en genväg. Det hamnar bredvid anteckn
 
 ### 설명
 
-En studieanteckningsbok som ser till att frågorna som dyker upp under en föreläsning inte försvinner. Den fungerar på Mac, iPhone och iPad, och dina anteckningar synkroniseras via iCloud.
+En studieanteckningsbok som ser till att frågorna som dyker upp under en föreläsning inte försvinner.
 Skriv frågan med enkla ord, spara den bredvid anteckningen från ögonblicket, hitta senare svaret och formulera det med egna ord – då blir det något du har lärt dig.
 
 Snabb fråga
@@ -1617,6 +1639,7 @@ Textstorleken justerar du med Command plus och Command minus.
 Integritet
 Det finns inga konton. Dina anteckningar sparas på din enhet och synkroniseras, om du är inloggad på iCloud, bara mellan dina enheter via din egen iCloud. Utvecklaren kan inte se dem.
 
+Den fungerar på Mac, iPhone och iPad, och dina anteckningar synkroniseras via iCloud.
 Kräver macOS 14, iOS 18 eller iPadOS 18 eller senare.
 
 Prenumerationer
@@ -1656,7 +1679,7 @@ Ders sırasında aklınıza takılanı tek kısayolla yazın. O anın notunun ya
 
 ### 설명
 
-Ders sırasında aklınıza gelen soruların kaybolmasını önleyen bir çalışma defteri. Mac, iPhone ve iPad’de çalışır, kayıtlarınız iCloud üzerinden eşzamanlanır.
+Ders sırasında aklınıza gelen soruların kaybolmasını önleyen bir çalışma defteri.
 Soruyu basit sözcüklerle yazın, o anın notunun yanında saklayın; sonra cevabı bulup kendi sözcüklerinizle toparlayın. Böylece öğrendiğiniz bir şeye dönüşür.
 
 Hızlı Soru
@@ -1688,6 +1711,7 @@ Yazı boyutu Command artı ve Command eksi ile ayarlanır.
 Gizlilik
 Hesap yoktur. Kayıtlarınız cihazınızda saklanır ve iCloud’a giriş yaptıysanız yalnızca kendi iCloud’unuz üzerinden cihazlarınız arasında eşzamanlanır. Geliştirici bunları göremez.
 
+Mac, iPhone ve iPad’de çalışır, kayıtlarınız iCloud üzerinden eşzamanlanır.
 macOS 14, iOS 18 veya iPadOS 18 ya da üstünü gerektirir.
 
 Abonelikler
