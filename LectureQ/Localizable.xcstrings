@@ -3,6 +3,12 @@
   "strings" : {
     "\n\n\n—\n앱 버전: %@ (%@)\niOS: %@" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "\n\n\n—\nإصدار التطبيق: %@ (%@)\niOS: %@"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -151,6 +157,12 @@
     },
     "\n\n\n—\n앱 버전: %@ (%@)\nmacOS: %@" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "\n\n\n—\nإصدار التطبيق: %@ (%@)\nmacOS: %@"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -303,6 +315,12 @@
     "%@ / 월" : {
       "comment" : "Monthly price. %@ = price",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ / شهريًا"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -452,6 +470,12 @@
     "%@ / 주" : {
       "comment" : "Weekly price. %@ = price",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ / أسبوعيًا"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -601,6 +625,12 @@
     "%@ 결제" : {
       "comment" : "Paywall buy button. %@ = price",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ادفع %@"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -749,6 +779,12 @@
     },
     "%@ 복사됨" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تم نسخ %@"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -901,6 +937,12 @@
     "%@에서 열려요" : {
       "comment" : "Paywall: the feature opens with this plan. %@ = plan name",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "متاحة مع %@"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1050,6 +1092,12 @@
     "%lld개" : {
       "comment" : "Comparison table: count of lectures",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1199,6 +1247,48 @@
     "%lld단계" : {
       "comment" : "Comparison table: number of AI prompt steps",
       "localizations" : {
+        "ar" : {
+          "variations" : {
+            "plural" : {
+              "zero" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld خطوة"
+                }
+              },
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "خطوة واحدة"
+                }
+              },
+              "two" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "خطوتان"
+                }
+              },
+              "few" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld خطوات"
+                }
+              },
+              "many" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld خطوة"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld خطوة"
+                }
+              }
+            }
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1347,6 +1437,12 @@
     },
     "%lld단계, %@. %@" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الخطوة %lld، %@. %@"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1495,6 +1591,48 @@
     },
     "%lld분" : {
       "localizations" : {
+        "ar" : {
+          "variations" : {
+            "plural" : {
+              "zero" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld دقيقة"
+                }
+              },
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "دقيقة واحدة"
+                }
+              },
+              "two" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "دقيقتان"
+                }
+              },
+              "few" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld دقائق"
+                }
+              },
+              "many" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld دقيقة"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld دقيقة"
+                }
+              }
+            }
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1644,6 +1782,12 @@
     "AI 프롬프트" : {
       "comment" : "Comparison table row: AI prompts",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "أوامر الذكاء الاصطناعي"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1792,6 +1936,12 @@
     },
     "AI 프롬프트 복사" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "نسخ أمر للذكاء الاصطناعي"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1940,6 +2090,12 @@
     },
     "AI로 답 찾기 가이드" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "دليل البحث عن الإجابة بالذكاء الاصطناعي"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2089,6 +2245,12 @@
     "Plus 평생을 가지고 계셔서 올리는 값만 받아요." : {
       "comment" : "Paywall: Plus lifetime owners pay only the upgrade price for Pro lifetime",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "لديك Plus مدى الحياة، لذا تدفع فرق الترقية فقط."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2238,6 +2400,12 @@
     "Pro에 포함" : {
       "comment" : "Paywall: Plus is part of the Pro plan you have",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ضمن Pro"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2387,6 +2555,12 @@
     "Siri에게 앱 이름을 말하지 않아도 지난 질문을 찾아 열고, 새 질문을 바로 적어요." : {
       "comment" : "Roadmap item detail: Siri without saying the app name",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "اطلب من Siri فتح أسئلتك السابقة أو تدوين سؤال جديد دون ذكر اسم التطبيق."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2536,6 +2710,12 @@
     "Touch ID 잠금" : {
       "comment" : "Roadmap item: Touch ID lock",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "القفل ببصمة الإصبع"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2685,6 +2865,12 @@
     "Touch ID로 앱을 잠가 내 질문 노트를 지켜요." : {
       "comment" : "Roadmap item detail: Touch ID lock",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "اقفل التطبيق بـ Touch ID لتبقى أسئلتك وملاحظاتك خاصة بك."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2834,6 +3020,12 @@
     "VoiceOver로 더 편하게" : {
       "comment" : "Roadmap item: better VoiceOver support",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تجربة أسهل مع VoiceOver"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2982,6 +3174,12 @@
     },
     "[%@] 문의" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "استفسار عن %@"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3131,6 +3329,12 @@
     "⌘⇧N 으로 질문을 추가하세요" : {
       "extractionState" : "stale",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "اضغط ⌘⇧N لإضافة سؤال"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3279,6 +3483,12 @@
     },
     "가이드 열기" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "فتح الدليل"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3427,6 +3637,12 @@
     },
     "가져오기 실패" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تعذّر الاستيراد"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3575,6 +3791,12 @@
     },
     "가져온 대화" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "محادثة مستوردة"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3724,6 +3946,12 @@
     "강의" : {
       "comment" : "Comparison table row: lectures",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "المحاضرات"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3873,6 +4101,48 @@
     "강의 %lld개를 기록했어요" : {
       "comment" : "Paywall reason: the free lecture limit is reached",
       "localizations" : {
+        "ar" : {
+          "variations" : {
+            "plural" : {
+              "zero" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "لم تسجّل أي محاضرة بعد"
+                }
+              },
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "سجّلت محاضرة واحدة"
+                }
+              },
+              "two" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "سجّلت محاضرتين"
+                }
+              },
+              "few" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "سجّلت %lld محاضرات"
+                }
+              },
+              "many" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "سجّلت %lld محاضرة"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "سجّلت %lld محاضرة"
+                }
+              }
+            }
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4022,6 +4292,12 @@
     "강의 10개까지, 질문을 남기고 답을 찾아 배운 점으로 정리해 보세요." : {
       "comment" : "Paywall: free tier tagline",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "حتى 10 محاضرات: دوّن أسئلتك، وابحث عن إجاباتها، وحوّلها إلى ما تعلّمته."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4170,6 +4446,12 @@
     },
     "강의 맥락을 채운 프롬프트를 클립보드에 복사합니다" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ينسخ إلى الحافظة أمرًا جاهزًا يتضمن سياق محاضرتك"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4318,6 +4600,12 @@
     },
     "강의 선택" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "اختيار محاضرة"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4467,6 +4755,12 @@
     "강의 수 걱정 없이, AI 프롬프트 다섯 단계 전부." : {
       "comment" : "Paywall: Plus tagline",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "محاضرات بلا حدود، وخطوات أوامر الذكاء الاصطناعي الخمس كاملة."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4615,6 +4909,12 @@
     },
     "강의 시점" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "التوقيت في المحاضرة"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4763,6 +5063,12 @@
     },
     "강의 시점 (24시간 HH:mm)" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "التوقيت في المحاضرة (نظام 24 ساعة HH:mm)"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4911,6 +5217,12 @@
     },
     "강의 시점 (24시간 HH:mm). 지우면 시점 없이 저장돼요" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "التوقيت في المحاضرة (نظام 24 ساعة HH:mm). امسحه ليُحفظ السؤال بلا توقيت"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5059,6 +5371,12 @@
     },
     "강의 없음" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "لا توجد محاضرة"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5207,6 +5525,12 @@
     },
     "강의 이름" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "اسم المحاضرة"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5355,6 +5679,12 @@
     },
     "강의 중 생긴 질문을 놓치지 않고, 나중에 내 말로 답하는 노트예요." : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "دفتر يحفظ الأسئلة التي تخطر لك أثناء المحاضرة، لتجيب عنها لاحقًا بأسلوبك."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5503,6 +5833,12 @@
     },
     "강의 추가" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "إضافة محاضرة"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5651,6 +5987,12 @@
     },
     "강의를 듣다 떠오른 질문을 가장 쉬운 말로 적어 두세요. 시점은 지금 시각으로 채워져요." : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "دوّن السؤال الذي يخطر لك أثناء المحاضرة بأبسط الكلمات. يُملأ التوقيت تلقائيًا بالوقت الحالي."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5799,6 +6141,12 @@
     },
     "강의를 만들어요" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "أنشئ محاضرة"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5947,6 +6295,12 @@
     },
     "강의를 선택하세요" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "اختر محاضرة"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6096,6 +6450,12 @@
     "강의와 질문을 파일로 저장하고 다시 불러올 수 있어요." : {
       "comment" : "Roadmap item detail: backup and export",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "احفظ محاضراتك وأسئلتك في ملف واستعدها متى شئت."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6245,6 +6605,12 @@
     "개인정보 처리방침" : {
       "comment" : "Paywall: privacy policy link",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "سياسة الخصوصية"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6394,6 +6760,12 @@
     "고른 질문을 그 강의와 함께 앱에서 엽니다." : {
       "comment" : "Siri: open question description",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "يفتح السؤال المختار في التطبيق مع محاضرته."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6543,6 +6915,12 @@
     "구독은 기간이 끝나기 24시간 전까지 해지하지 않으면 같은 값으로 자동 갱신되며, Apple 계정으로 결제됩니다. 처음 구독하는 분께는 연 구독 첫 해 할인이 한 번 적용되고, 그 뒤에는 정가로 갱신됩니다. 해지와 관리는 App Store 계정 설정에서 합니다. 평생은 한 번만 결제하고 갱신되지 않습니다." : {
       "comment" : "Paywall: subscription terms (auto-renewal, intro offer, cancel, lifetime)",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "يتجدد الاشتراك تلقائيًا بالسعر نفسه ما لم تُلغه قبل انتهاء المدة بـ 24 ساعة على الأقل، ويُخصم المبلغ من حساب Apple. يحصل المشتركون الجدد على خصم السنة الأولى في الاشتراك السنوي مرة واحدة، ثم يتجدد بالسعر المعتاد. يمكنك إدارة الاشتراك أو إلغاؤه من إعدادات حسابك في App Store. خيار مدى الحياة دفعة واحدة لا تتجدد."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6692,6 +7070,12 @@
     "구매 복원" : {
       "comment" : "Button: restore purchases",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "استعادة المشتريات"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6841,6 +7225,12 @@
     "궁금증을 끝까지 배운 점으로. 연 구독이나 평생 중에 고르세요." : {
       "comment" : "Paywall subtitle",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "حوّل كل سؤال إلى معرفة راسخة. اختر الاشتراك السنوي أو مدى الحياة."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6989,6 +7379,12 @@
     },
     "궁금하면 바로 ⌘⇧N" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "خطر لك سؤال؟ اضغط ⌘⇧N"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7137,6 +7533,12 @@
     },
     "궁금한 점을 최대한 쉬운 말로…" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "اكتب سؤالك بأبسط الكلمات…"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7285,6 +7687,12 @@
     },
     "그래프" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "المخطط"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7433,6 +7841,12 @@
     },
     "글씨 크기 (%lld%%)" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "حجم الخط (%lld%%)"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7582,6 +7996,12 @@
     "글자 크기를 키워도 잘리지 않고 보기 좋게 다시 배치돼요." : {
       "comment" : "Roadmap item detail: large text layouts",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "عند تكبير الخط تُعاد ترتيب الشاشات بوضوح دون أن يُقتطع شيء."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7730,6 +8150,12 @@
     },
     "기간" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "المدة"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7879,6 +8305,12 @@
     "기능" : {
       "comment" : "Comparison table header: feature column",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الميزة"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8027,6 +8459,12 @@
     },
     "기록을 열지 못했어요" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تعذّر فتح سجلاتك"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8169,6 +8607,12 @@
     },
     "기본 크기" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الحجم الافتراضي"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8317,6 +8761,12 @@
     },
     "기존 질문을 꼬리질문으로 연결" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ربط سؤال موجود كسؤال متابعة"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8465,6 +8915,12 @@
     },
     "꼬리질문" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "أسئلة المتابعة"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8613,6 +9069,12 @@
     },
     "꼬리질문 뽑기" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "استخراج أسئلة المتابعة"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8761,6 +9223,12 @@
     },
     "나중에 내 말로 답을 정리하고, 질문 앞 ? 를 눌러 해결로 바꾸세요. 보기 메뉴의 요약에 배운 점이 모여요." : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "لاحقًا اكتب الإجابة بأسلوبك، ثم انقر على علامة ? بجانب السؤال لتعليمه محلولًا. ستجد ما تعلّمته مجمّعًا في الملخص من قائمة العرض."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8909,6 +9377,12 @@
     },
     "내 답 채점받기" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تقييم إجابتي"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9058,6 +9532,12 @@
     "내 데이터 한 번에 지우기" : {
       "comment" : "Roadmap item: delete all data",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "حذف كل بياناتك"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9206,6 +9686,12 @@
     },
     "내 말로 정리해 적어보세요" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "اكتبها بأسلوبك"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9354,6 +9840,12 @@
     },
     "누르면 미해결로 바꿉니다" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "يعلّم السؤال غير محلول"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9502,6 +9994,12 @@
     },
     "누르면 이 질문으로 이동합니다" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ينتقل إلى هذا السؤال"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9650,6 +10148,12 @@
     },
     "누르면 해결됨으로 바꿉니다" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "يعلّم السؤال محلولًا"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9799,6 +10303,12 @@
     "다른 맥에서도 같은 강의와 질문을 이어서 써요." : {
       "comment" : "Roadmap item detail: sync across devices",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تابع المحاضرات والأسئلة نفسها على أي جهاز Mac لديك."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9947,6 +10457,12 @@
     },
     "다시 넣기" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "إعادة الإضافة"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10095,6 +10611,12 @@
     },
     "다시 배운 점으로" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "إعادتها إلى ما تعلّمته"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10244,6 +10766,12 @@
     "다시 불러오기" : {
       "comment" : "Paywall: retry loading plans",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "إعادة المحاولة"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10393,6 +10921,12 @@
     "단축어 · Siri 질문 추가" : {
       "comment" : "Feature: add a question with Shortcuts or Siri",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "إضافة الأسئلة عبر الاختصارات وSiri"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10541,6 +11075,12 @@
     },
     "닫기" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "إغلاق"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10689,6 +11229,12 @@
     },
     "답" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الإجابة"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10837,6 +11383,12 @@
     },
     "답 되묻기" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "مساءلة الإجابة"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10985,6 +11537,12 @@
     },
     "답 메모가 비어 있어요" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ملاحظة الإجابة فارغة"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11133,6 +11691,12 @@
     },
     "답 없음" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "بلا إجابة"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11282,6 +11846,12 @@
     "답 있음" : {
       "extractionState" : "manual",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "له إجابة"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11424,6 +11994,12 @@
     },
     "답 찾기" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "البحث عن الإجابة"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11572,6 +12148,12 @@
     },
     "답을 적고 해결해요" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "اكتب الإجابة وأغلق السؤال"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11721,6 +12303,12 @@
     "대비를 높이거나 색을 구별하기 어려워도 내용을 알아볼 수 있어요." : {
       "comment" : "Roadmap item detail: colors and contrast",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "يبقى كل شيء واضحًا مع زيادة التباين أو عند صعوبة تمييز الألوان."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11870,6 +12458,12 @@
     "더 많은 나라 말로 앱을 쓸 수 있게 해요." : {
       "comment" : "Roadmap item detail: more languages",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "استخدم التطبيق بلغات أكثر."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12019,6 +12613,12 @@
     "더 많은 언어" : {
       "comment" : "Roadmap item: more languages",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "لغات أكثر"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12167,6 +12767,12 @@
     },
     "던질 질문" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "أسئلة للطرح"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12316,6 +12922,12 @@
     "데스크탑 위젯" : {
       "comment" : "Roadmap item: desktop widgets",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "أدوات سطح المكتب"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12464,6 +13076,12 @@
     },
     "둘러보기" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "جولة سريعة"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12613,6 +13231,12 @@
     "마크다운 가져오기" : {
       "comment" : "Feature: import a conversation from Markdown",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "استيراد Markdown"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12761,6 +13385,12 @@
     },
     "마크다운에서 가져오기…" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "استيراد من Markdown…"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12909,6 +13539,12 @@
     },
     "먼저 답 칸에 내 말로 한두 줄 적어 주세요" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "اكتب أولًا سطرًا أو سطرين بأسلوبك في خانة الإجابة"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13057,6 +13693,12 @@
     },
     "메모" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الملاحظات"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13205,6 +13847,12 @@
     },
     "메일로 문의하기" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "راسلنا بالبريد"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13353,6 +14001,12 @@
     },
     "모두 해결했어요" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "كل الأسئلة محلولة"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13502,6 +14156,12 @@
     "무료" : {
       "comment" : "Plan name: free tier",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "مجاني"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13651,6 +14311,12 @@
     "무제한" : {
       "comment" : "Comparison table: no limit",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "بلا حدود"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13799,6 +14465,12 @@
     },
     "문의하실 때 iOS 버전과 어떤 동작에서 문제가 생겼는지 적어 주시면 빠르게 확인할 수 있어요." : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "عند مراسلتنا، اذكر إصدار iOS وما كنت تفعله حين ظهرت المشكلة لنتحقق منها بسرعة."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13947,6 +14619,12 @@
     },
     "문의하실 때 macOS 버전과 어떤 동작에서 문제가 생겼는지 적어 주시면 빠르게 확인할 수 있어요." : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "عند مراسلتنا، اذكر إصدار macOS وما كنت تفعله حين ظهرت المشكلة لنتحقق منها بسرعة."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14095,6 +14773,12 @@
     },
     "미해결" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "غير محلول"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14243,6 +14927,12 @@
     },
     "미해결 — 눌러서 해결됨으로" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "غير محلول، انقر لتعليمه محلولًا"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14391,6 +15081,12 @@
     },
     "미해결 질문만 보기" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "عرض الأسئلة غير المحلولة فقط"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14539,6 +15235,12 @@
     },
     "미해결 질문이 없어요" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "لا توجد أسئلة غير محلولة"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14687,6 +15389,12 @@
     },
     "미해결만" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "غير المحلولة فقط"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14835,6 +15543,12 @@
     },
     "배우고 싶은 것" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ما أريد تعلّمه"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14983,6 +15697,12 @@
     },
     "배운 점" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ما تعلّمته"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15131,6 +15851,12 @@
     },
     "배운 점에 포함" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "إدراجه فيما تعلّمته"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15279,6 +16005,12 @@
     },
     "배운 점에서 제외 (답은 그대로 남아요)" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "استبعاده مما تعلّمته (تبقى الإجابة كما هي)"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15428,6 +16160,12 @@
     "백업과 내보내기" : {
       "comment" : "Roadmap item: backup and export",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "النسخ الاحتياطي والتصدير"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15576,6 +16314,12 @@
     },
     "보기" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "العرض"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15724,6 +16468,12 @@
     },
     "보기 메뉴의 요약(⌘1)에서 던질 질문과 배운 점을, 그래프(⌘2)에서 질문 사이의 연결을 한눈에 볼 수 있어요." : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "من قائمة العرض، يجمع الملخص (⌘1) الأسئلة التي ستطرحها وما تعلّمته، ويُظهر المخطط (⌘2) كيف ترتبط أسئلتك ببعضها."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15873,6 +16623,12 @@
     "보기 편한 색과 대비" : {
       "comment" : "Roadmap item: better colors and contrast",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ألوان وتباين أوضح"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16021,6 +16777,12 @@
     },
     "블록 메모" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ملاحظات الفترة"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16169,6 +16931,12 @@
     },
     "블록 삭제" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "حذف الفترة"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16317,6 +17085,12 @@
     },
     "블록 색상" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "لون الفترة"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16465,6 +17239,12 @@
     },
     "블록 설정" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "إعدادات الفترة"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16613,6 +17393,12 @@
     },
     "블록 시작 시각" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "وقت بدء الفترة"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16761,6 +17547,12 @@
     },
     "블록 추가" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "إضافة فترة"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16909,6 +17701,12 @@
     },
     "블록이 없어요" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "لا توجد فترات"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17057,6 +17855,12 @@
     },
     "삭제" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "حذف"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17205,6 +18009,12 @@
     },
     "새 강의" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "محاضرة جديدة"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17353,6 +18163,12 @@
     },
     "새 꼬리질문 — Return으로 추가" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "سؤال متابعة جديد، اضغط Return للإضافة"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17501,6 +18317,12 @@
     },
     "색상" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "اللون"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17650,6 +18472,12 @@
     "생각이 뻗어 간 지도와, 대화 기록을 바로 가져오기까지." : {
       "comment" : "Paywall: Pro tagline",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "خريطة لتفرّع أفكارك، واستيراد فوري لسجلات المحادثات."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17798,6 +18626,12 @@
     },
     "설정" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الإعدادات"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17946,6 +18780,12 @@
     },
     "시작" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "البدء"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18094,6 +18934,12 @@
     },
     "시점" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "التوقيت"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18243,6 +19089,12 @@
     "아직 답을 못 찾은 질문을 잊지 않도록 알맞은 때에 알려 줘요." : {
       "comment" : "Roadmap item detail: notifications",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تذكير في الوقت المناسب بالأسئلة التي لم تجد إجابتها بعد."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18392,6 +19244,12 @@
     "알림" : {
       "comment" : "Roadmap item: notifications",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "التذكيرات"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18541,6 +19399,12 @@
     "앱 이름 없이 Siri에게" : {
       "comment" : "Roadmap item: Siri without saying the app name",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Siri دون ذكر اسم التطبيق"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18690,6 +19554,12 @@
     "앱을 열지 않고 데스크탑에서 남은 질문을 바로 확인해요." : {
       "comment" : "Roadmap item detail: desktop widgets",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "اطّلع على أسئلتك المفتوحة من سطح المكتب مباشرة دون فتح التطبيق."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18839,6 +19709,12 @@
     "앱을 영어로도 쓸 수 있어요." : {
       "comment" : "Roadmap item detail: English",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "استخدم التطبيق كاملًا باللغة الإنجليزية."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18988,6 +19864,12 @@
     "업데이트 뒤 처음 열 때 무엇이 새로 생겼는지 알려 줘요." : {
       "comment" : "Roadmap item detail: what's new",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "عند أول فتح بعد كل تحديث نعرّفك بالجديد."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19137,6 +20019,12 @@
     "업데이트 소식" : {
       "comment" : "Roadmap item: what's new",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الجديد في التحديثات"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19286,6 +20174,12 @@
     "없음" : {
       "comment" : "Comparison table: not included",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "غير متاح"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19435,6 +20329,12 @@
     "여러 맥에서 이어 쓰기" : {
       "comment" : "Roadmap item: sync across devices",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "المزامنة بين أجهزة Mac"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19583,6 +20483,12 @@
     },
     "연결 해제 (질문은 지워지지 않아요)" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "إلغاء الربط (لن يُحذف السؤال)"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19731,6 +20637,12 @@
     },
     "연락하기" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تواصل معنا"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19880,6 +20792,12 @@
     "열 질문. 질문이나 답, 강의 이름으로 찾습니다." : {
       "comment" : "Siri: question parameter description",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "السؤال المراد فتحه. ابحث عنه بنص السؤال أو إجابته أو اسم المحاضرة."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20029,6 +20947,12 @@
     "영어 지원" : {
       "comment" : "Roadmap item: English",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "دعم كامل للإنجليزية"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20178,6 +21102,12 @@
     "요금제" : {
       "comment" : "Settings section: plans",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الخطط"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20327,6 +21257,12 @@
     "요금제 보기" : {
       "comment" : "Settings: open the plans screen",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "عرض الخطط"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20476,6 +21412,12 @@
     "요금제를 불러오는 중…" : {
       "comment" : "Paywall: loading plans",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "جارٍ تحميل الخطط…"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20625,6 +21567,12 @@
     "요금제를 불러오지 못했어요. 인터넷 연결을 확인하고 다시 불러와 주세요." : {
       "comment" : "Paywall: plans failed to load",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تعذّر تحميل الخطط. تحقّق من اتصالك بالإنترنت ثم أعد المحاولة."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20773,6 +21721,12 @@
     },
     "요약" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الملخص"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20921,6 +21875,12 @@
     },
     "요약·그래프·타임블록·학습 상태·글씨 크기" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الملخص والمخطط والفترات الزمنية وحالة التعلّم وحجم الخط"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -21069,6 +22029,12 @@
     },
     "요약의 ‘배운 점’ 목록에 넣을지 선택" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "اختر إن كان سيظهر ضمن «ما تعلّمته» في الملخص"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -21218,6 +22184,12 @@
     "움직임 줄이기" : {
       "comment" : "Roadmap item: reduce motion",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تقليل الحركة"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -21367,6 +22339,12 @@
     "움직임 줄이기를 켜면 화면 효과가 차분해져요." : {
       "comment" : "Roadmap item detail: reduce motion",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "عند تفعيل تقليل الحركة تصبح مؤثرات الشاشة أهدأ."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -21515,6 +22493,12 @@
     },
     "원질문" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "السؤال الأصلي"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -21664,6 +22648,12 @@
     "원하면 앱 안에서 강의와 질문을 모두 지울 수 있어요." : {
       "comment" : "Roadmap item detail: delete all data",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "امسح كل محاضراتك وأسئلتك من داخل التطبيق متى شئت."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -21813,6 +22803,12 @@
     "월 구독" : {
       "comment" : "Plan term: monthly subscription",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "شهري"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -21962,6 +22958,12 @@
     "이 Apple 계정에서 구매한 기록을 찾지 못했어요." : {
       "comment" : "Restore purchases: nothing found",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "لم نعثر على مشتريات مرتبطة بحساب Apple هذا."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -22110,6 +23112,12 @@
     },
     "이 강의를 다 이해하면 어떤 상태이고 싶은지…" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ما الذي أريد أن أصبح قادرًا عليه بعد فهم هذه المحاضرة…"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -22258,6 +23266,12 @@
     },
     "이 강의를 듣기 전/지금 내가 아는 정도, 막히는 점…" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ما أعرفه قبل المحاضرة أو حتى الآن، وأين أتعثّر…"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -22406,6 +23420,12 @@
     },
     "이 강의에서 꼭 얻고 싶은 것·궁금한 주제…" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "أهم ما أريد الخروج به من هذه المحاضرة، والمواضيع التي تثير فضولي…"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -22554,6 +23574,12 @@
     },
     "이 블록을 지울까요? 메모도 함께 사라져요." : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "حذف هذه الفترة؟ ستُحذف ملاحظاتها أيضًا."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -22702,6 +23728,12 @@
     },
     "이 블록의 색상·시작 시각·기간을 바꾸거나 블록을 지웁니다" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "غيّر لون هذه الفترة أو وقت بدئها أو مدتها، أو احذفها"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -22850,6 +23882,12 @@
     },
     "이 시간에 배운 내용·기억할 점을 메모하세요…" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "دوّن ما تعلّمته أو ما تريد تذكّره في هذه الفترة…"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -22998,6 +24036,12 @@
     },
     "이 질문으로 이동" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الانتقال إلى هذا السؤال"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -23146,6 +24190,12 @@
     },
     "이 질문의 답을 내 말로 정리해 적습니다" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "اكتب إجابة هذا السؤال بأسلوبك"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -23295,6 +24345,12 @@
     "이용약관" : {
       "comment" : "Paywall: terms of use link",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "شروط الاستخدام"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -23443,6 +24499,12 @@
     },
     "인스타그램에서 소식 보기" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تابعنا على Instagram"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -23591,6 +24653,12 @@
     },
     "작게" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تصغير الخط"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -23739,6 +24807,12 @@
     },
     "작성 %@" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "أُنشئ في %@"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -23887,6 +24961,12 @@
     },
     "저장" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "حفظ"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -24035,6 +25115,12 @@
     },
     "저장된 기록은 지워지지 않았어요. 다만 지금 적는 내용은 저장되지 않으니, 앱을 껐다 켜 보세요." : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "سجلاتك المحفوظة لم تُحذف، لكن ما تكتبه الآن لن يُحفظ، لذا أغلق التطبيق وافتحه من جديد."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -24177,6 +25263,12 @@
     },
     "저장하고 계속" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "حفظ ومتابعة"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -24325,6 +25417,12 @@
     },
     "제외" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "استبعاد"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -24473,6 +25571,12 @@
     },
     "제외한 답" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الإجابات المستبعدة"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -24622,6 +25726,12 @@
     "주 · 월 구독도 보기" : {
       "comment" : "Paywall: reveal weekly and monthly subscriptions",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "عرض الأسبوعي والشهري أيضًا"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -24771,6 +25881,12 @@
     "주 구독" : {
       "comment" : "Plan term: weekly subscription",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "أسبوعي"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -24919,6 +26035,12 @@
     },
     "지금" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الآن"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -25067,6 +26189,12 @@
     },
     "지금 나의 상태" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "أين أنا الآن"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -25216,6 +26344,12 @@
     "지금 쓰는 중" : {
       "comment" : "Paywall: this is the plan you have now",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "خطتك الحالية"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -25365,6 +26499,12 @@
     "지금 쓰는 칸" : {
       "comment" : "Settings: the plan in use now",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "خطتك الحالية"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -25514,6 +26654,48 @@
     "지금까지 강의에서 질문 %lld개를 남겼어요" : {
       "comment" : "Tip ask card: how many lecture questions the person has written so far",
       "localizations" : {
+        "ar" : {
+          "variations" : {
+            "plural" : {
+              "zero" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "لم تدوّن أي سؤال في المحاضرات بعد"
+                }
+              },
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "دوّنت حتى الآن سؤالًا واحدًا في المحاضرات"
+                }
+              },
+              "two" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "دوّنت حتى الآن سؤالين في المحاضرات"
+                }
+              },
+              "few" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "دوّنت حتى الآن %lld أسئلة في المحاضرات"
+                }
+              },
+              "many" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "دوّنت حتى الآن %lld سؤالًا في المحاضرات"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "دوّنت حتى الآن %lld سؤال في المحاضرات"
+                }
+              }
+            }
+          }
+        },
         "cs" : {
           "variations" : {
             "plural" : {
@@ -25926,6 +27108,12 @@
     },
     "지원" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الدعم"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -26074,6 +27262,12 @@
     },
     "질문" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "السؤال"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -26222,6 +27416,12 @@
     },
     "질문 %lld · 던질 질문 %lld · 배운 점 %lld · 꼬리질문 %lld" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الأسئلة %lld · للطرح %lld · ما تعلّمته %lld · المتابعة %lld"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -26371,6 +27571,12 @@
     "질문 · 꼬리질문" : {
       "comment" : "Comparison table row: questions and follow-up questions",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الأسئلة وأسئلة المتابعة"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -26520,6 +27726,12 @@
     "질문 그래프" : {
       "comment" : "Feature: graph of questions and follow-ups",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "مخطط الأسئلة"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -26669,6 +27881,12 @@
     "질문 노트 Plus · Pro" : {
       "comment" : "Paywall title",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "LectureQ Plus · Pro"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -26817,6 +28035,12 @@
     },
     "질문 노트를 열고 지금 보고 있는 강의에 질문을 적는 창을 띄웁니다." : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "يفتح LectureQ ويعرض نافذة لتدوين سؤال في المحاضرة التي تشاهدها."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -26965,6 +28189,12 @@
     },
     "질문 노트에 오신 걸 환영해요" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "مرحبًا بك في LectureQ"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -27113,6 +28343,12 @@
     },
     "질문 다듬기" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تحسين السؤال"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -27262,6 +28498,12 @@
     "질문 열기" : {
       "comment" : "Siri/Spotlight: open a saved question",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "فتح سؤال"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -27410,6 +28652,12 @@
     },
     "질문 추가" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "إضافة سؤال"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -27558,6 +28806,12 @@
     },
     "질문 추가 (⌘⇧N)" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "إضافة سؤال (⌘⇧N)"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -27706,6 +28960,12 @@
     },
     "질문을 선택하세요" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "اختر سؤالًا"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -27854,6 +29114,12 @@
     },
     "질문을 해결로 표시하면 여기 모여요" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تظهر هنا الأسئلة التي تعلّمها محلولة"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -28002,6 +29268,12 @@
     },
     "질문이 쌓였다면 돌아보세요" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تراكمت أسئلتك؟ حان وقت المراجعة"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -28151,6 +29423,12 @@
     "처음부터 함께해 주셔서 Pro를 그대로 드려요." : {
       "comment" : "Settings: early users keep Pro for free",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "شكرًا لأنك معنا منذ البداية، Pro لك على الدوام."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -28299,6 +29577,12 @@
     },
     "첫 강의 만들기" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "إنشاء أول محاضرة"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -28448,6 +29732,12 @@
     "추천" : {
       "comment" : "Paywall: recommended plan badge",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "موصى به"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -28596,6 +29886,12 @@
     },
     "축소" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تصغير"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -28744,6 +30040,12 @@
     },
     "취소" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "إلغاء"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -28892,6 +30194,12 @@
     },
     "크게" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تكبير الخط"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -29041,6 +30349,12 @@
     "큰 글씨에 맞춘 화면" : {
       "comment" : "Roadmap item: layouts that fit large text sizes",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "شاشات تناسب الخط الكبير"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -29189,6 +30503,12 @@
     },
     "타임블록" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الفترات الزمنية"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -29338,6 +30658,12 @@
     "타임블록 메모 · 강의 요약" : {
       "comment" : "Comparison table row: time block notes and lecture summary",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ملاحظات الفترات وملخص المحاضرة"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -29487,6 +30813,12 @@
     "타임블록 모아보기" : {
       "comment" : "Feature: every lecture's time blocks in one timeline",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "كل الفترات الزمنية"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -29635,6 +30967,12 @@
     },
     "툴바 왼쪽 강의 메뉴에서 새 강의를 추가하거나, 대화 마크다운 파일을 가져올 수 있어요." : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "أضف محاضرة جديدة من قائمة المحاضرات في شريط الأدوات، أو استورد ملف Markdown لمحادثة."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -29784,6 +31122,12 @@
     "포함" : {
       "comment" : "Comparison table: included",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "متاح"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -29932,6 +31276,12 @@
     },
     "학습 상태" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "حالة التعلّم"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -30080,6 +31430,12 @@
     },
     "학습을 마쳤을 때 나의 상태" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "أين أريد أن أكون في النهاية"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -30228,6 +31584,12 @@
     },
     "해결" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "محلول"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -30376,6 +31738,12 @@
     },
     "해결 여부" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "حالة الحل"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -30524,6 +31892,12 @@
     },
     "해결됨" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "محلول"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -30672,6 +32046,12 @@
     },
     "해결됨 — 눌러서 미해결로" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "محلول، انقر لتعليمه غير محلول"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -30820,6 +32200,12 @@
     },
     "해제" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "إلغاء الربط"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -30968,6 +32354,12 @@
     },
     "현재 강의 삭제" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "حذف المحاضرة الحالية"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -31117,6 +32509,12 @@
     "화면 읽기 기능이 단추와 내용을 빠짐없이, 알맞은 순서로 읽어 줘요." : {
       "comment" : "Roadmap item detail: better VoiceOver support",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "يقرأ VoiceOver كل الأزرار والملاحظات كاملة وبالترتيب الصحيح."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -31265,6 +32663,12 @@
     },
     "화면에 맞추기" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ملاءمة النافذة"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -31413,6 +32817,12 @@
     },
     "확대" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تكبير"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -31561,6 +32971,12 @@
     },
     "확인" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "حسنًا"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",

@@ -3,6 +3,12 @@
   "strings" : {
     "${applicationName}에 질문 추가" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "أضف سؤالًا في ${applicationName}"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -145,6 +151,12 @@
     },
     "${applicationName}에서 질문 적기" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "دوّن سؤالًا في ${applicationName}"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -287,6 +299,12 @@
     },
     "${applicationName} 질문 추가" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "سؤال جديد في ${applicationName}"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",

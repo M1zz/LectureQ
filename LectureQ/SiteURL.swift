@@ -8,7 +8,7 @@ enum SiteURL {
     /// docs/ 아래에 페이지 폴더가 있는 로케일 (deploy.env LOCALES 에서 ko 를 뺀 것).
     static let localizedFolders: Set<String> = [
         "en", "en-GB", "zh-Hans", "zh-Hant", "ja", "ru", "es", "de", "fr", "it", "pt-BR", "th",
-        "vi", "cs", "da", "el", "fi", "id", "nb", "nl", "pl", "sv", "tr",
+        "vi", "cs", "da", "el", "fi", "id", "nb", "nl", "pl", "sv", "tr", "ar",
     ]
 
     static var folder: String {
