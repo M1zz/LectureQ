@@ -4,7 +4,7 @@
 # PNG 는 한 장에 수 MB 라 JPEG(품질 92)로 둔다 — 방 장면이라 차이가 보이지 않고 레포가 가볍다.
 #
 # 사용법:
-#   zsh scripts/capture_vision.sh <Vision Pro 시뮬레이터 UDID> [언어 ...]     (언어를 안 주면 24개 모두)
+#   zsh scripts/capture_vision.sh <Vision Pro 시뮬레이터 UDID> [언어 ...]     (언어를 안 주면 25개 모두)
 #   - Debug 빌드가 build/dd/Build/Products/Debug-xrsimulator/LectureQ.app 에 있어야 한다(데모 모드는 DEBUG 전용).
 #   - 장면은 iPad 와 같다(→ LectureQ/DemoData.swift 의 DemoScreen): main · capture · summary · graph
 set -u
@@ -13,7 +13,7 @@ cd "$(dirname "$0")/.."
 DEV=$1; shift
 APP=build/dd/Build/Products/Debug-xrsimulator/LectureQ.app
 BUNDLE=com.lectureq.LectureQ
-ALL=(ko en en-GB zh-Hans zh-Hant ja ru es de fr it pt-BR th vi cs da el fi id nb nl pl sv tr)
+ALL=(ko en en-GB zh-Hans zh-Hant ja ru es de fr it pt-BR th vi cs da el fi id nb nl pl sv tr ar)
 if (( $# )); then LANGS=($@); else LANGS=($ALL); fi
 SCENES=(main capture summary graph)
 
@@ -25,7 +25,7 @@ locale_of() {
     ja) echo ja_JP ;; ru) echo ru_RU ;; es) echo es_ES ;; de) echo de_DE ;; fr) echo fr_FR ;; it) echo it_IT ;;
     pt-BR) echo pt_BR ;; th) echo th_TH ;; vi) echo vi_VN ;; cs) echo cs_CZ ;; da) echo da_DK ;; el) echo el_GR ;;
     fi) echo fi_FI ;; id) echo id_ID ;; nb) echo nb_NO ;; nl) echo nl_NL ;; pl) echo pl_PL ;; sv) echo sv_SE ;;
-    tr) echo tr_TR ;; *) echo en_US ;;
+    tr) echo tr_TR ;; ar) echo ar_SA ;; *) echo en_US ;;
   esac
 }
 

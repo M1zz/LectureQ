@@ -19,9 +19,12 @@ case "$LOCALE" in
   ko) REGION=ko_KR ;; en) REGION=en_US ;; en-GB) REGION=en_GB ;;
   zh-Hans) REGION=zh_CN ;; zh-Hant) REGION=zh_TW ;; ja) REGION=ja_JP ;;
   pt-BR) REGION=pt_BR ;; cs) REGION=cs_CZ ;; da) REGION=da_DK ;; el) REGION=el_GR ;;
-  nb) REGION=nb_NO ;; sv) REGION=sv_SE ;; vi) REGION=vi_VN ;;
+  nb) REGION=nb_NO ;; sv) REGION=sv_SE ;; vi) REGION=vi_VN ;; ar) REGION=ar_SA ;;
   *) REGION="${LOCALE}_$(echo "$LOCALE" | tr '[:lower:]' '[:upper:]')" ;;
 esac
+# 아랍어: 시스템 언어가 아랍어인 Mac 처럼 창 전체를 오른쪽에서 왼쪽으로 (AppKit 은 -AppleLanguages 만으로는 뒤집지 않는다)
+RTL=()
+[ "$LOCALE" = ar ] && RTL=(-AppleTextDirection YES)
 RAW="$ROOT/docs/screenshots/raw/$LOCALE"
 OUT="$ROOT/docs/screenshots/marketing/$LOCALE"
 WIN_W=1440; WIN_H=990; FONT_INDEX=1
@@ -42,7 +45,7 @@ for SCREEN in "${SCREENS[@]}"; do
   echo "▶ 캡처: $LOCALE $SCREEN"
   open -n "$APP" --args -DemoMode YES -DemoScreen "$SCREEN" -fontScaleIndex "$FONT_INDEX" \
     -DemoWidth "$WIN_W" -DemoHeight "$WIN_H" -ApplePersistenceIgnoreState YES \
-    -AppleLanguages "($LOCALE)" -AppleLocale "$REGION"
+    -AppleLanguages "($LOCALE)" -AppleLocale "$REGION" "${RTL[@]}"
 
   PID=""
   for i in $(seq 1 50); do

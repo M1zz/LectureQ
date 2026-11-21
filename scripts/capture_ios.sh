@@ -3,7 +3,7 @@
 # (Mac 그림 01_main.png … 과 한 폴더. DeployBar 가 크기로 기기를 가른다: 1320×2868 iPhone 6.9", 2064×2752 iPad 13")
 #
 # 사용법:
-#   zsh scripts/capture_ios.sh <iphone|ipad> <시뮬레이터 UDID> [언어 ...]     (언어를 안 주면 24개 모두)
+#   zsh scripts/capture_ios.sh <iphone|ipad> <시뮬레이터 UDID> [언어 ...]     (언어를 안 주면 25개 모두)
 #   - Debug 빌드가 build/dd/Build/Products/Debug-iphonesimulator/LectureQ.app 에 있어야 한다(데모 모드는 DEBUG 전용).
 #   - ONLY="main capture" 처럼 주면 그 장면만 다시 찍는다(번호는 그대로).
 #   - 시뮬레이터는 한 번에 하나만 켠다. 이 스크립트가 켜고, 끝나면 끄지 않는다.
@@ -17,7 +17,7 @@ cd "$(dirname "$0")/.."
 KIND=$1; DEV=$2; shift 2
 APP=build/dd/Build/Products/Debug-iphonesimulator/LectureQ.app
 BUNDLE=com.lectureq.LectureQ
-ALL=(ko en en-GB zh-Hans zh-Hant ja ru es de fr it pt-BR th vi cs da el fi id nb nl pl sv tr)
+ALL=(ko en en-GB zh-Hans zh-Hant ja ru es de fr it pt-BR th vi cs da el fi id nb nl pl sv tr ar)
 if (( $# )); then LANGS=($@); else LANGS=($ALL); fi
 
 case $KIND in
@@ -37,7 +37,7 @@ locale_of() {
     ja) echo ja_JP ;; ru) echo ru_RU ;; es) echo es_ES ;; de) echo de_DE ;; fr) echo fr_FR ;; it) echo it_IT ;;
     pt-BR) echo pt_BR ;; th) echo th_TH ;; vi) echo vi_VN ;; cs) echo cs_CZ ;; da) echo da_DK ;; el) echo el_GR ;;
     fi) echo fi_FI ;; id) echo id_ID ;; nb) echo nb_NO ;; nl) echo nl_NL ;; pl) echo pl_PL ;; sv) echo sv_SE ;;
-    tr) echo tr_TR ;; *) echo en_US ;;
+    tr) echo tr_TR ;; ar) echo ar_SA ;; *) echo en_US ;;
   esac
 }
 

@@ -5,9 +5,12 @@ usage: python3 compose.py <raw_dir> <out_dir> [locale]
 locale 을 주면 appstore/captions.json 의 그 언어 문구와 그 언어 글꼴을 쓴다 (기본 ko).
 raw_dir 에는 capture.sh 가 만든 <screen>.png (창 캡처, 투명 모서리) 가 있어야 한다.
 """
+import html
 import json
 import os
+import subprocess
 import sys
+import tempfile
 
 from PIL import Image, ImageDraw, ImageFilter, ImageFont
 
@@ -41,6 +44,11 @@ SCRIPT_FONTS = {
     "zh-Hant": ((PINGFANG, 10), (PINGFANG, 6)),
     "th": (("/System/Library/Fonts/Supplemental/SukhumvitSet.ttc", 5), ("/System/Library/Fonts/Supplemental/SukhumvitSet.ttc", 3)),
 }
+
+# 오른쪽에서 왼쪽으로 쓰는 언어. Pillow 는 아랍 글자를 잇지 못하므로(raqm 없음) 문구 띠만 Chrome 으로 그린다.
+RTL = {"ar"}
+CHROME = "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
+CAPTION_H = 420   # 문구 띠 높이 (창 캡처는 440 부터)
 
 FONT_DIRS = [os.path.expanduser("~/Library/Fonts"), "/Library/Fonts"]
 
@@ -91,6 +99,30 @@ def fit(draw, text, make, size, max_w=2640):
     return make(size)
 
 
+def rtl_caption(title, subtitle, locale):
+    """제목 · 부제를 오른쪽에서 왼쪽 글로 그린 투명 띠 (W × CAPTION_H). 자리 · 크기는 Pillow 판과 같다."""
+    page = f"""<!doctype html><html lang="{locale}" dir="rtl"><head><meta charset="utf-8"><style>
+* {{ margin:0; padding:0; }}
+html,body {{ width:{W}px; height:{CAPTION_H}px; background:transparent; overflow:hidden; }}
+body {{ font-family:"SF Arabic", "Geeza Pro", -apple-system, sans-serif; color:#fff; text-align:center; }}
+div {{ white-space:nowrap; margin:0 auto; width:fit-content; }}
+#t {{ font-weight:800; font-size:108px; line-height:1.25; margin-top:130px; }}
+#s {{ font-weight:500; font-size:50px; line-height:1.3; margin-top:26px; opacity:.85; }}
+</style></head><body><div id="t">{html.escape(title)}</div><div id="s">{html.escape(subtitle)}</div>
+<script>for (const [id, min] of [["t", 40], ["s", 40]]) {{
+  const el = document.getElementById(id); let z = parseFloat(getComputedStyle(el).fontSize);
+  while (z > min && el.getBoundingClientRect().width > 2640) {{ z -= 4; el.style.fontSize = z + "px"; }}
+}}</script></body></html>"""
+    tmp = tempfile.mkdtemp()
+    src, png = os.path.join(tmp, "caption.html"), os.path.join(tmp, "caption.png")
+    open(src, "w", encoding="utf-8").write(page)
+    subprocess.run([CHROME, "--headless=new", f"--screenshot={png}", "--hide-scrollbars",
+                    f"--window-size={W},{CAPTION_H}", "--force-device-scale-factor=1",
+                    "--default-background-color=00000000", "--virtual-time-budget=2000", "file://" + src],
+                   capture_output=True, timeout=90, check=True)
+    return Image.open(png).convert("RGBA")
+
+
 def compose(raw_dir, out_dir, locale="ko"):
     os.makedirs(out_dir, exist_ok=True)
     shots = SHOTS
@@ -115,9 +147,12 @@ def compose(raw_dir, out_dir, locale="ko"):
             continue
 
         img = background()
-        draw = ImageDraw.Draw(img)
-        y = centered(draw, 150, title, title_font, (255, 255, 255, 255))
-        centered(draw, y + 44, subtitle, sub_font, (255, 255, 255, 215))
+        if locale in RTL:
+            img.alpha_composite(rtl_caption(title, subtitle, locale), (0, 0))
+        else:
+            draw = ImageDraw.Draw(img)
+            y = centered(draw, 150, title, title_font, (255, 255, 255, 255))
+            centered(draw, y + 44, subtitle, sub_font, (255, 255, 255, 215))
 
         win = Image.open(src).convert("RGBA")
         target_w = 2360
