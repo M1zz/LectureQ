@@ -3,6 +3,158 @@
 App Store 의 "이 버전의 새로운 기능" 에 그대로 올라가는 글이다.
 평문만 쓴다. 한 줄에 한 문장, 3~5줄, 한 줄 40자 이내.
 
+## 1.0.5
+
+### 앱스토어 (한국어)
+
+이제 아랍어로도 쓸 수 있어요
+아랍어에서는 화면이 오른쪽에서 왼쪽으로 놓여요
+설정에서 Siri와 단축어 쓰는 법을 볼 수 있어요
+
+### App Store (English)
+
+Now available in Arabic
+Arabic screens run right to left
+Siri and Shortcuts guide in Settings
+
+### App Store (en-GB)
+
+Now available in Arabic
+Arabic screens run right to left
+Siri and Shortcuts guide in Settings
+
+### 앱스토어 (중국어 간체)
+
+现已支持阿拉伯语
+阿拉伯语界面从右向左排列
+可在设置中查看 Siri 与快捷指令的用法
+
+### 앱스토어 (중국어 번체)
+
+現已支援阿拉伯語
+阿拉伯語介面由右至左排列
+可在設定中查看 Siri 與捷徑的用法
+
+### 앱스토어 (일본어)
+
+アラビア語で使えるようになりました
+アラビア語では画面が右から左に並びます
+設定でSiriとショートカットの使い方を確認できます
+
+### 앱스토어 (러시아어)
+
+Теперь доступен арабский язык
+На арабском экраны идут справа налево
+Справка по Siri и Командам в настройках
+
+### 앱스토어 (스페인어)
+
+Ya disponible en árabe
+El árabe se lee de derecha a izquierda
+Guía de Siri y Atajos en Ajustes
+
+### 앱스토어 (독일어)
+
+Jetzt auch auf Arabisch
+Arabisch läuft von rechts nach links
+Neue Hilfe zu Siri und Kurzbefehlen
+
+### 앱스토어 (프랑스어)
+
+Désormais disponible en arabe
+L’arabe s’affiche de droite à gauche
+Guide Siri et Raccourcis dans Réglages
+
+### 앱스토어 (이탈리아어)
+
+Ora disponibile in arabo
+L’arabo va da destra a sinistra
+Guida a Siri e Comandi in Impostazioni
+
+### 앱스토어 (포르투갈어(브라질))
+
+Agora disponível em árabe
+Em árabe, tudo vai da direita à esquerda
+Guia da Siri e Atalhos nos Ajustes
+
+### 앱스토어 (태국어)
+
+ใช้งานเป็นภาษาอาหรับได้แล้ว
+ภาษาอาหรับแสดงหน้าจอจากขวาไปซ้าย
+คู่มือ Siri และคำสั่งลัดในการตั้งค่า
+
+### 앱스토어 (베트남어)
+
+Đã hỗ trợ tiếng Ả Rập
+Tiếng Ả Rập hiển thị từ phải sang trái
+Hướng dẫn Siri và Phím tắt trong Cài đặt
+
+### 앱스토어 (체코어)
+
+Nově také v arabštině
+Arabština běží zprava doleva
+Nápověda k Siri a Zkratkám v Nastavení
+
+### 앱스토어 (덴마크어)
+
+Nu også på arabisk
+Arabisk vises fra højre mod venstre
+Ny guide til Siri og Genveje
+
+### 앱스토어 (그리스어)
+
+Διαθέσιμο πλέον στα αραβικά
+Αραβικά από δεξιά προς τα αριστερά
+Οδηγός για Siri και Συντομεύσεις
+
+### 앱스토어 (핀란드어)
+
+Nyt myös arabiaksi
+Arabia näkyy oikealta vasemmalle
+Opas Siriin ja Pikakomentoihin
+
+### 앱스토어 (인도네시아어)
+
+Kini tersedia dalam bahasa Arab
+Bahasa Arab tampil dari kanan ke kiri
+Panduan Siri dan Pintasan di Pengaturan
+
+### 앱스토어 (노르웨이어 보크말, nb)
+
+Nå også på arabisk
+Arabisk vises fra høyre mot venstre
+Ny guide til Siri og Snarveier
+
+### 앱스토어 (네덜란드어)
+
+Nu ook in het Arabisch
+Arabisch loopt van rechts naar links
+Uitleg over Siri en Opdrachten
+
+### 앱스토어 (폴란드어)
+
+Teraz także po arabsku
+Arabski czyta się od prawej do lewej
+Poradnik Siri i Skrótów w Ustawieniach
+
+### 앱스토어 (스웨덴어)
+
+Nu även på arabiska
+Arabiska visas från höger till vänster
+Ny guide till Siri och Genvägar
+
+### 앱스토어 (튀르키예어)
+
+Artık Arapça da var
+Arapçada ekranlar sağdan sola dizilir
+Siri ve Kestirmeler rehberi Ayarlar’da
+
+### 앱스토어 (아랍어)
+
+صار التطبيق متوفرًا باللغة العربية
+الشاشات بالعربية من اليمين إلى اليسار
+دليل Siri والاختصارات في الإعدادات
+
 ## 1.0.4
 
 ### 앱스토어 (한국어)
