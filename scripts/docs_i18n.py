@@ -12,7 +12,8 @@ import re
 
 BASE = "https://m1zz.github.io/LectureQ/"
 ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "docs")
-PAGES = ["index.html", "privacy.html", "support.html", "ai-guide.html"]
+# index.html 은 공용 생성기(sitegen)가 언어 링크까지 만든다 → scripts/build_site.sh
+PAGES = ["privacy.html", "support.html", "ai-guide.html"]
 # (로케일 폴더, hreflang, 그 언어로 쓴 이름)
 LANGS = [
     ("", "ko", "한국어"), ("en", "en", "English"), ("en-GB", "en-GB", "English (UK)"),
@@ -22,6 +23,7 @@ LANGS = [
     ("vi", "vi", "Tiếng Việt"), ("cs", "cs", "Čeština"), ("da", "da", "Dansk"), ("el", "el", "Ελληνικά"),
     ("fi", "fi", "Suomi"), ("id", "id", "Bahasa Indonesia"), ("nb", "nb", "Norsk bokmål"),
     ("nl", "nl", "Nederlands"), ("pl", "pl", "Polski"), ("sv", "sv", "Svenska"), ("tr", "tr", "Türkçe"),
+    ("ar", "ar", "العربية"),
 ]
 
 HEAD_RE = re.compile(r"<!--HREFLANG-->|<!--hreflang:start-->.*?<!--hreflang:end-->", re.S)
@@ -32,8 +34,7 @@ SWITCH_CSS = ("<style>.langs{display:flex;flex-wrap:wrap;gap:4px 12px;font-size:
 
 
 def url(folder, page):
-    name = "" if page == "index.html" else page
-    return BASE + (folder + "/" if folder else "") + name
+    return BASE + (folder + "/" if folder else "") + page
 
 
 def rel(from_folder, to_folder, page):

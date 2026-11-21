@@ -35,7 +35,7 @@
 .lq-time input:focus { border-color: var(--accent); outline: none; }
 .lq-btn { min-height: 44px; padding: 0 var(--s4); border-radius: 999px; font: inherit; font-weight: 600; cursor: pointer;
           border: 0; background: transparent; color: var(--accent); }
-.lq-save { margin-left: auto; background: var(--accent); color: var(--on-accent); padding: 0 var(--s5); }
+.lq-save { margin-inline-start: auto; background: var(--accent); color: var(--on-accent); padding: 0 var(--s5); }
 .lq-save:active, .lq-now:active { transform: scale(.96); }
 
 .lq-list { list-style: none; margin: 0 0 var(--s3); padding: 0; max-height: 380px; overflow: auto;
@@ -51,3 +51,6 @@
   .lq-list li.fresh { background: color-mix(in srgb, var(--accent) 12%, transparent); }
 }
 @media (max-width: 760px) { .demo-card { grid-template-columns: 1fr; } .lq-block { grid-template-columns: 64px 1fr; } }
+
+/* 오른쪽에서 왼쪽으로 쓰는 언어: 아랍 글자는 자간을 주면 이음이 끊긴다 */
+[dir="rtl"] .lq-title { letter-spacing: 0; }

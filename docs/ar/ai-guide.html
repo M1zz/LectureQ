@@ -1,0 +1,217 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>LectureQ · دليل البحث عن الإجابة بالذكاء الاصطناعي</title>
+<!--hreflang:start-->
+<link rel="canonical" href="https://m1zz.github.io/LectureQ/ar/ai-guide.html">
+<link rel="alternate" hreflang="ko" href="https://m1zz.github.io/LectureQ/ai-guide.html">
+<link rel="alternate" hreflang="en" href="https://m1zz.github.io/LectureQ/en/ai-guide.html">
+<link rel="alternate" hreflang="en-GB" href="https://m1zz.github.io/LectureQ/en-GB/ai-guide.html">
+<link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/LectureQ/zh-Hans/ai-guide.html">
+<link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/LectureQ/zh-Hant/ai-guide.html">
+<link rel="alternate" hreflang="ja" href="https://m1zz.github.io/LectureQ/ja/ai-guide.html">
+<link rel="alternate" hreflang="ru" href="https://m1zz.github.io/LectureQ/ru/ai-guide.html">
+<link rel="alternate" hreflang="es" href="https://m1zz.github.io/LectureQ/es/ai-guide.html">
+<link rel="alternate" hreflang="de" href="https://m1zz.github.io/LectureQ/de/ai-guide.html">
+<link rel="alternate" hreflang="fr" href="https://m1zz.github.io/LectureQ/fr/ai-guide.html">
+<link rel="alternate" hreflang="it" href="https://m1zz.github.io/LectureQ/it/ai-guide.html">
+<link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/LectureQ/pt-BR/ai-guide.html">
+<link rel="alternate" hreflang="th" href="https://m1zz.github.io/LectureQ/th/ai-guide.html">
+<link rel="alternate" hreflang="vi" href="https://m1zz.github.io/LectureQ/vi/ai-guide.html">
+<link rel="alternate" hreflang="cs" href="https://m1zz.github.io/LectureQ/cs/ai-guide.html">
+<link rel="alternate" hreflang="da" href="https://m1zz.github.io/LectureQ/da/ai-guide.html">
+<link rel="alternate" hreflang="el" href="https://m1zz.github.io/LectureQ/el/ai-guide.html">
+<link rel="alternate" hreflang="fi" href="https://m1zz.github.io/LectureQ/fi/ai-guide.html">
+<link rel="alternate" hreflang="id" href="https://m1zz.github.io/LectureQ/id/ai-guide.html">
+<link rel="alternate" hreflang="nb" href="https://m1zz.github.io/LectureQ/nb/ai-guide.html">
+<link rel="alternate" hreflang="nl" href="https://m1zz.github.io/LectureQ/nl/ai-guide.html">
+<link rel="alternate" hreflang="pl" href="https://m1zz.github.io/LectureQ/pl/ai-guide.html">
+<link rel="alternate" hreflang="sv" href="https://m1zz.github.io/LectureQ/sv/ai-guide.html">
+<link rel="alternate" hreflang="tr" href="https://m1zz.github.io/LectureQ/tr/ai-guide.html">
+<link rel="alternate" hreflang="ar" href="https://m1zz.github.io/LectureQ/ar/ai-guide.html">
+<link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/LectureQ/ai-guide.html">
+<style>.langs{display:flex;flex-wrap:wrap;gap:4px 12px;font-size:13px;margin:0 0 18px;}.langs a{color:var(--muted);text-decoration:none;}.langs a[aria-current]{color:var(--fg);font-weight:600;}.langs a:hover{color:var(--teal);}</style>
+<!--hreflang:end-->
+<style>
+  :root{--blue:#2E6BE6;--teal:#17B3A3;--bg:#ffffff;--fg:#1c1c1e;--muted:#6b6b70;--card:#f5f6f8;--border:#e6e7ea;}
+  @media (prefers-color-scheme:dark){:root{--bg:#111214;--fg:#f2f2f5;--muted:#9a9aa0;--card:#1b1c1f;--border:#2a2b2f;}}
+  *{box-sizing:border-box;}
+  body{margin:0;font-family:"SF Arabic","Geeza Pro",-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Segoe UI",Roboto,sans-serif;background:var(--bg);color:var(--fg);line-height:1.7;}
+  .wrap{max-width:760px;margin:0 auto;padding:40px 20px 80px;}
+  a.back{color:var(--teal);text-decoration:none;font-size:14px;}
+  h1{font-size:30px;margin:18px 0 4px;}
+  .lead{color:var(--muted);font-size:16px;margin:0 0 28px;}
+  h2{font-size:20px;margin:38px 0 10px;padding-top:14px;border-top:1px solid var(--border);}
+  h3{font-size:16px;margin:24px 0 6px;}
+  code{background:var(--card);border:1px solid var(--border);border-radius:6px;padding:1px 6px;font-size:13px;}
+  kbd{background:var(--card);border:1px solid var(--border);border-bottom-width:2px;border-radius:6px;padding:1px 7px;font-size:13px;font-family:inherit;}
+  pre{background:var(--card);border:1px solid var(--border);border-inline-start:4px solid var(--teal);border-radius:10px;padding:14px 16px;overflow-x:auto;font-size:13.5px;line-height:1.6;white-space:pre-wrap;}
+  .step{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:16px 20px;margin:14px 0;}
+  .step .n{display:inline-block;min-width:26px;height:26px;line-height:26px;text-align:center;border-radius:8px;background:var(--teal);color:#fff;font-weight:700;font-size:14px;margin-inline-end:8px;}
+  .step h3{display:inline;font-size:17px;}
+  .inapp{color:var(--blue);font-size:13.5px;margin:8px 0 0;}
+  @media (prefers-color-scheme:dark){.inapp{color:#7aa5ff;}}
+  table{border-collapse:collapse;width:100%;margin:14px 0;font-size:14.5px;}
+  th,td{border:1px solid var(--border);padding:10px 12px;text-align:start;vertical-align:top;}
+  th{background:var(--card);font-size:14px;}
+  td .kw{color:var(--muted);font-size:13.5px;}
+  ul{padding-inline-start:20px;}
+  li{margin:5px 0;}
+  .trap{border-inline-start:4px solid #E6892E;background:var(--card);border-radius:10px;padding:12px 16px;margin:10px 0;}
+  .trap b{color:#E6892E;}
+  footer{margin-top:48px;color:var(--muted);font-size:13px;border-top:1px solid var(--border);padding-top:18px;}
+  footer a{color:var(--teal);}
+</style>
+</head>
+<body>
+  <div class="wrap">
+<!--langswitch:start--><nav class="langs" aria-label="Language"><a href="../ai-guide.html" hreflang="ko" lang="ko">한국어</a> <a href="../en/ai-guide.html" hreflang="en" lang="en">English</a> <a href="../en-GB/ai-guide.html" hreflang="en-GB" lang="en-GB">English (UK)</a> <a href="../zh-Hans/ai-guide.html" hreflang="zh-Hans" lang="zh-Hans">简体中文</a> <a href="../zh-Hant/ai-guide.html" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a> <a href="../ja/ai-guide.html" hreflang="ja" lang="ja">日本語</a> <a href="../ru/ai-guide.html" hreflang="ru" lang="ru">Русский</a> <a href="../es/ai-guide.html" hreflang="es" lang="es">Español</a> <a href="../de/ai-guide.html" hreflang="de" lang="de">Deutsch</a> <a href="../fr/ai-guide.html" hreflang="fr" lang="fr">Français</a> <a href="../it/ai-guide.html" hreflang="it" lang="it">Italiano</a> <a href="../pt-BR/ai-guide.html" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a> <a href="../th/ai-guide.html" hreflang="th" lang="th">ไทย</a> <a href="../vi/ai-guide.html" hreflang="vi" lang="vi">Tiếng Việt</a> <a href="../cs/ai-guide.html" hreflang="cs" lang="cs">Čeština</a> <a href="../da/ai-guide.html" hreflang="da" lang="da">Dansk</a> <a href="../el/ai-guide.html" hreflang="el" lang="el">Ελληνικά</a> <a href="../fi/ai-guide.html" hreflang="fi" lang="fi">Suomi</a> <a href="../id/ai-guide.html" hreflang="id" lang="id">Bahasa Indonesia</a> <a href="../nb/ai-guide.html" hreflang="nb" lang="nb">Norsk bokmål</a> <a href="../nl/ai-guide.html" hreflang="nl" lang="nl">Nederlands</a> <a href="../pl/ai-guide.html" hreflang="pl" lang="pl">Polski</a> <a href="../sv/ai-guide.html" hreflang="sv" lang="sv">Svenska</a> <a href="../tr/ai-guide.html" hreflang="tr" lang="tr">Türkçe</a> <a href="../ar/ai-guide.html" hreflang="ar" lang="ar" aria-current="page">العربية</a></nav><!--langswitch:end-->
+    <a class="back" href="./index.html">→ LectureQ</a>
+    <h1>دليل البحث عن الإجابة بالذكاء الاصطناعي</h1>
+    <p class="lead">بعد أن تدوّن سؤالك في LectureQ، يحين وقت البحث عن الإجابة.
+    واليوم تأتي معظم الإجابات من محادثة مع الذكاء الاصطناعي. لكن المشكلة: <b>قد يسأل شخصان السؤال نفسه ويخرج كل منهما بشيء مختلف تمامًا</b>.
+    يتبع هذا الدليل مسار LectureQ (سؤال ← إجابة ← ما تعلّمته) ويبيّن كيف تجعل هذا الفرق في صالحك.</p>
+
+    <p><b>المهارة الوحيدة التي يسعى هذا الدليل إلى بنائها:</b><br>
+    <b>أن تحوّل أسئلتك إلى «معرفة موثّقة» بمساعدة الذكاء الاصطناعي.</b>
+    ليست القدرة على تلقّي الإجابات، بل القدرة على مساءلة ما تتلقاه وجعله ملكك.</p>
+
+    <h2>خمس خطوات نحو الإجابة</h2>
+    <p>سؤال واحد، محادثة واحدة. إذا حشرت عدة أسئلة في محادثة واحدة تداخلت الإجابات، ولن تستطيع فرزها لاحقًا.</p>
+
+    <div class="step">
+      <span class="n">1</span><h3>أعد صياغة السؤال ليصبح قابلًا للإجابة</h3>
+      <p>السؤال الذي يُكتب على عجل أثناء المحاضرة غالبًا ما يكون غامضًا، والأسئلة الغامضة تجلب إجابات غامضة.
+      لا تطلب الإجابة فورًا، بل أعد كتابة السؤال أولًا.</p>
+<pre>هذا سؤال دوّنته على عجل أثناء المحاضرة، وما زال غامضًا.
+
+"{السؤال كما كتبته في LectureQ}"
+
+أعد صياغته في 3 أسئلة يمكن الإجابة عنها فعلًا.
+وأضف لكل منها سطرًا عمّا سأستطيع فعله حين أعرف إجابته.
+لا تُجب الآن، اعرض الأسئلة المعاد صياغتها فقط.</pre>
+      <p class="inapp">◂ حين تحصل على صيغة تعجبك، حدّث السؤال في LectureQ ليطابقها. إنه استثمار لنفسك في المستقبل.</p>
+    </div>
+
+    <div class="step">
+      <span class="n">2</span><h3>اسأل مع ثلاثة أنواع من السياق</h3>
+      <p>لا يعرف الذكاء الاصطناعي مقدار ما تعرفه. مجرد إضافة <b>من أين جاء السؤال / ماذا تعرف الآن / أي نوع من الإجابة تريد</b>
+      يُحدث فرقًا لافتًا في جودة الإجابة. والثلاثة مكتوبة أصلًا في التطبيق.</p>
+<pre>[سؤالي]
+{السؤال بعد تحسينه}
+
+[السياق]
+- من أين جاء: {اسم المحاضرة} / {ملاحظات الفترة الزمنية في تلك اللحظة}
+- ما أعرفه الآن: {«أين أنا الآن» من حالة التعلّم}
+- أين أريد أن أصل: {«أين أريد أن أكون في النهاية» من حالة التعلّم}
+
+[الإجابة التي أريدها]
+1) الإجابة الأساسية في 3 إلى 5 أسطر
+2) فقرة واحدة عن السبب
+3) أمر أو أمران يُرجَّح أنني أسأت فهمهما
+4) أصغر مثال أو تجربة أستطيع تنفيذها بنفسي للتحقق
+
+ميّز بوضوح بين المؤكد والتخمين. وإن كنت لا تعرف فقل ذلك.</pre>
+      <p class="inapp">◂ أين تجد السياق: <b>العرض ثم حالة التعلّم</b> في شريط الأدوات، و<b>ملاحظات الفترة الزمنية</b> التي يقع فيها السؤال.</p>
+    </div>
+
+    <div class="step">
+      <span class="n">3</span><h3>لا تعدّ الإجابة الأولى الكلمة الأخيرة</h3>
+      <p>الإجابة المقنعة ليست إجابة موثّقة. اعترض مرة واحدة على الأقل.</p>
+<pre>أي جزء من إجابتك هو الأرجح أن يكون خاطئًا؟
+
+- الافتراضات التي يجب أن تكون صحيحة لتصحّ هذه الإجابة
+- الرأي المعارض، أو الحالات التي لا تنطبق فيها هذه الإجابة
+- ما الذي عليّ الرجوع إليه للتحقق من المصادر الأولية؟ (أسماء الوثائق الرسمية أو المواصفات أو النصوص الأصلية)</pre>
+      <p>المعلومات مثل الإصدارات والأرقام وأسماء الواجهات البرمجية والسنوات، <b>وكلما كانت أدق كان اكتشاف خطئها أصعب</b>، تحقّق منها دائمًا في مصدرها الأصلي.</p>
+    </div>
+
+    <div class="step">
+      <span class="n">4</span><h3>لا تدع الأسئلة الجديدة تفوتك</h3>
+      <p>الإجابة الجيدة تكشف دائمًا شيئًا جديدًا لا تعرفه. هذا هو سؤالك التالي، أو ما يسميه التطبيق <b>سؤال متابعة</b>.</p>
+<pre>بناءً على محادثتنا حتى الآن، اكتب لي 3 أسئلة عن أشياء لا أعرفها بعد وينبغي أن أعرفها.
+بلا شرح، الأسئلة فقط. قصيرة ومحددة.</pre>
+      <p class="inapp">◂ الصق هذه الأسئلة مباشرة في حقل <b>«سؤال متابعة جديد»</b> في تفاصيل السؤال. تُحفظ على هيئة سؤال أصلي ثم أسئلة متابعة،
+      ويُظهر <b>المخطط</b> كيف تفرّع فهمك.</p>
+    </div>
+
+    <div class="step">
+      <span class="n">5</span><h3>أعد كتابتها بأسلوبك واطلب تقييمها</h3>
+      <p>نسخ إجابة الذكاء الاصطناعي ولصقها يترك سجلًا، لكنه لا يترك معرفة.
+      اكتب خانة <b>الإجابة</b> بأسلوبك، ثم اطلب تقييم ما كتبت.</p>
+<pre>سأكتب ما فهمته بأسلوبي.
+
+"{الملخص الذي كتبته بنفسي}"
+
+أشر إلى أي خطأ أو نقص أو مبالغة.
+وبدل الدرجة، اعرض عليّ صيغة مصحّحة.</pre>
+      <p class="inapp">◂ لا تعلّم السؤال <b>محلولًا</b> وتدرجه في <b>ما تعلّمته (★)</b> إلا بعد أن يصل إلى هذه المرحلة.
+      فقائمة «ما تعلّمته» في <b>العرض ثم الملخص</b> لا قيمة لها إلا إذا لم تضم سوى ما صفّيته بهذه الطريقة.</p>
+    </div>
+
+    <h2>ما تحتاج إلى معرفته</h2>
+    <p>هذه الخطوات الخمس نفسها مصوغةً على هيئة مهارات. ابدأ بالتدرّب على الصف الذي تشعر أنك الأضعف فيه.</p>
+
+    <table>
+      <tr><th style="width:24%">المهارة</th><th style="width:38%">أستطيع أن…</th><th>ما أعرفه / كلمات مفتاحية</th></tr>
+      <tr>
+        <td><b>تحسين الأسئلة</b></td>
+        <td>أعيد كتابة ملاحظة غامضة في ثلاثة أسئلة قابلة للإجابة</td>
+        <td class="kw">ما يجعل السؤال جيدًا، الأسئلة القابلة للإجابة وغير القابلة، صياغة المشكلة</td>
+      </tr>
+      <tr>
+        <td><b>تقديم السياق</b></td>
+        <td>أسأل مع الخلفية ومستواي الحالي وشكل الإجابة الذي أريده</td>
+        <td class="kw">الأوامر المنظّمة، تحديد الدور والسياق وشكل المخرجات، تصميم السياق</td>
+      </tr>
+      <tr>
+        <td><b>التحقق من الإجابات</b></td>
+        <td>أفرّق الحقيقة عن الخيال بالضغط على افتراضات الإجابة وأمثلتها المضادة ومصادرها الأولية</td>
+        <td class="kw">الهلوسة، الأدلة والمصادر، قابلية الدحض، الانحياز التأكيدي</td>
+      </tr>
+      <tr>
+        <td><b>كشف ما لا أعرفه</b></td>
+        <td>أستخرج أسئلة جديدة من الإجابة وأحفظها كأسئلة متابعة</td>
+        <td class="kw">ما وراء المعرفة، الفجوات المعرفية، أشجار الأسئلة</td>
+      </tr>
+      <tr>
+        <td><b>تثبيت المعرفة</b></td>
+        <td>أعيد كتابتها بأسلوبي وأطلب تقييمها وأثبّتها في «ما تعلّمته»</td>
+        <td class="kw">تقنية فاينمان، ممارسة الاسترجاع، التكرار المتباعد</td>
+      </tr>
+    </table>
+
+    <h2>أربعة فخاخ شائعة</h2>
+    <div class="trap"><b>1. ما يبدو صحيحًا نظنه صحيحًا.</b> الذكاء الاصطناعي يكتب دائمًا بثقة.
+    ودرجة يقينك تأتي من الدليل لا من النبرة. لا تضع ★ (ما تعلّمته) إلا بعد التحقق.</div>
+    <div class="trap"><b>2. أن تسأل عن كل شيء في محادثة واحدة.</b> اجمع خمسة أسئلة في محادثة واحدة فتصبح الإجابات سطحية ويستحيل فرزها.
+    سؤال واحد = محادثة واحدة = عنصر واحد في LectureQ.</div>
+    <div class="trap"><b>3. الاكتفاء بنسخ الإجابة ولصقها.</b> الإجابة الملصوقة تبدو جديدة في كل مرة تعيد قراءتها (أي أنها لم ترسخ).
+    أعد كتابة سطر واحد على الأقل بأسلوبك.</div>
+    <div class="trap"><b>4. المحادثة تختفي حين تنتهي.</b> نوافذ المحادثة تأتي وتذهب، ولا يبقى إلا السؤال.
+    انقل المحادثة كاملة إلى التطبيق كما هو موضح أدناه، فتحتفظ حتى بـ«لماذا فهمتها بهذه الطريقة».</div>
+
+    <h2>استيراد محادثة كاملة مع الذكاء الاصطناعي</h2>
+    <p>احفظ محادثتك مع الذكاء الاصطناعي بصيغة Markdown، فيحوّلها التطبيق إلى <b>شجرة أسئلة</b>
+    (من <b>قائمة المحاضرات</b> في شريط الأدوات ثم <b>استيراد من Markdown…</b>).</p>
+<pre dir="rtl"># هذا السطر يصبح عنوان المحاضرة
+
+## الموضوع (أول سؤال هنا يصبح السؤال الأصلي، وما بعده أسئلة متابعة)
+
+**أنا** — هنا السؤال الذي طرحته
+
+**AI** — هنا الإجابة التي تلقيتها (لا بأس بعدة أسطر وكتل برمجية)</pre>
+    <p>بعد الاستيراد يكون لكل سؤال إجابته ويُعلَّم محلولًا.
+    ثم في <b>الملخص</b> أبقِ بعلامة ★ ما تعلّمته فعلًا و«استبعد» الباقي،
+    فتصبح المحادثة كلها قائمة بما تعلّمته.</p>
+
+    <h2>في جملة واحدة</h2>
+    <p style="font-size:17px;"><b>لا تطلب من الذكاء الاصطناعي الإجابات، بل اتخذه شريكًا يختبر أسئلتك.</b>
+    أنت من يسأل، وأنت من يشكّ، وأنت من يكتب الجملة الأخيرة. وLectureQ هو المكان الذي تُحفظ فيه هذه الرحلة.</p>
+
+    <footer>© 2026 LectureQ · <a href="./support.html">الدعم</a> · <a href="./privacy.html">سياسة الخصوصية</a> · <a href="https://github.com/M1zz/LectureQ">GitHub</a></footer>
+  </div>
+</body>
+</html>
