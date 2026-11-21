@@ -48,6 +48,7 @@ struct LectureQApp: App {
                 .leeoFeedbackReplyNotice(LectureQSpec.self)
                 // 영수증 · 상품 · 구독을 읽는다 (→ Purchases.swift). 팁 결제도 같은 리스너가 받는다.
                 .task { if !Self.isRunningUnitTests { await PurchaseManager.shared.refresh() } }
+                .appLocale()
         }
         .modelContainer(container)
 
@@ -55,6 +56,7 @@ struct LectureQApp: App {
         // 앱 메뉴 ▸ 설정… (⌘,) — 피드백 · 리뷰 · 문의 · 정책 링크 (iPhone · iPad 는 사이드바의 설정 버튼)
         Settings {
             SettingsView()
+                .appLocale()
         }
         #endif
     }

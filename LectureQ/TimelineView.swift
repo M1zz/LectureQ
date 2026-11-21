@@ -261,7 +261,7 @@ struct BlockView: View {
 
     private var timeGutter: some View {
         VStack(spacing: 2) {
-            Text(block.startTime.formatted(date: .omitted, time: .shortened))
+            Text(block.startTime.formatted(AppLocale.dateStyle(date: .omitted, time: .shortened)))
                 .scaledFont(.caption, weight: .semibold, monospacedDigit: true)
 
             GeometryReader { geo in
@@ -293,7 +293,7 @@ struct BlockView: View {
             }
             .frame(maxHeight: .infinity)
 
-            Text(block.endTime.formatted(date: .omitted, time: .shortened))
+            Text(block.endTime.formatted(AppLocale.dateStyle(date: .omitted, time: .shortened)))
                 .scaledFont(.caption2, monospacedDigit: true)
                 .foregroundStyle(.secondary)
         }
@@ -366,6 +366,7 @@ struct BlockView: View {
                     .help("이 블록의 색상·시작 시각·기간을 바꾸거나 블록을 지웁니다")
                     .popover(isPresented: $showSettings, arrowEdge: .top) {
                         settingsPopover
+                            .appLocale()
                     }
             }
 

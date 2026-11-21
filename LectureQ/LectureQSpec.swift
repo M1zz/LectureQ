@@ -108,6 +108,7 @@ enum LectureQTipMoments {
         questions.filter { n >= $0 }.map { threshold in
             LeeoTipMoment(id: "questions.\(threshold)",
                           message: String(localized: "지금까지 강의에서 질문 \(n)개를 남겼어요",
+                                          locale: AppLocale.locale,
                                           comment: "Tip ask card: how many lecture questions the person has written so far"))
         }
     }

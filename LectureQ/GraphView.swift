@@ -337,11 +337,15 @@ struct GraphCanvas: View {
     @State private var hoveredID: UUID?
     @State private var tappedID: UUID?      // 이동 팝오버를 띄운 질문 노드
     @Environment(\.accessibilityDifferentiateWithoutColor) private var differentiateWithoutColor
+    @Environment(\.layoutDirection) private var layoutDirection   // 앱의 글 방향 (그림 좌표는 늘 왼쪽에서 오른쪽)
 
     var body: some View {
         let content = model.contentSize
         let scale = model.scale
         graph
+            // 좌표로 그린 그림이다 — 선(Canvas)은 뒤집히지 않고 노드 자리(.position)만 뒤집히면 선이 어긋난다.
+            // 아랍어에서도 왼쪽에서 오른쪽 좌표로 두고, 노드 안 글만 그 언어 방향을 따른다(→ nodeView).
+            .environment(\.layoutDirection, .leftToRight)
             .frame(width: max(content.width, 1),
                    height: max(content.height, 1),
                    alignment: .topLeading)
@@ -410,6 +414,7 @@ struct GraphCanvas: View {
                             set: { if !$0 { tappedID = nil } }
                         ), arrowEdge: .top) {
                             nodeActionPopover(node)
+                                .environment(\.layoutDirection, layoutDirection)
                         }
                         .position(pos)
                         .gesture(
@@ -487,6 +492,7 @@ struct GraphCanvas: View {
                 .padding(.horizontal, 5)
                 .padding(.vertical, 2)
                 .background(.regularMaterial, in: RoundedRectangle(cornerRadius: 4))
+                .environment(\.layoutDirection, layoutDirection)
         }
         .scaleEffect(isHovered ? 1.08 : 1)
         .animation(.snappy(duration: 0.15), value: isHovered)

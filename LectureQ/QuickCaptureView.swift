@@ -33,6 +33,7 @@ struct QuickCaptureView: View {
                 TextField("HH:mm", text: $timeMark)
                     .textFieldStyle(.roundedBorder)
                     .accessibilityLabel("강의 시점")
+                    .latinDigits($timeMark)
                     .frame(width: 64)
                     .onSubmit { save() }
                     .help("강의 시점 (24시간 HH:mm). 지우면 시점 없이 저장돼요")

@@ -181,47 +181,56 @@ struct ContentView: View {
                 }
             )
             .appFontScale(fontScale)
+            .appLocale()
             .interactiveDismissDisabled()
         }
         .sheet(isPresented: $showQuickCapture) {
             QuickCaptureView(lecture: selectedLecture ?? lectures.first)
                 .appFontScale(fontScale)
+                .appLocale()
         }
         .sheet(isPresented: $showGraph) {
             if let lecture = selectedLecture {
                 GraphContainerView(lecture: lecture, onSelectQuestion: navigateToQuestion)
                     .macFrame(minWidth: 900, minHeight: 640)
                     .appFontScale(fontScale)
+                    .appLocale()
             }
         }
         .sheet(isPresented: $showSummary) {
             if let lecture = selectedLecture {
                 LectureSummaryView(lecture: lecture)
                     .appFontScale(fontScale)
+                    .appLocale()
             }
         }
         .sheet(isPresented: $showTimeline) {
             TimelineView()
                 .appFontScale(fontScale)
+                .appLocale()
         }
         .sheet(isPresented: $showState) {
             if let lecture = selectedLecture {
                 LectureStateView(lecture: lecture)
                     .appFontScale(fontScale)
+                    .appLocale()
             }
         }
         .sheet(isPresented: $showSettings) {
             SettingsView()
+                .appLocale()
         }
         .sheet(item: $paywallFeature) { feature in
             PaywallView(highlight: feature)
                 .appFontScale(fontScale)
+                .appLocale()
         }
         .sheet(isPresented: $showGraduation) {
             LeeoGraduationOfferView(graduate: purchases.graduateProduct) {
                 await purchases.refresh()
             }
             .appFontScale(fontScale)
+            .appLocale()
         }
         .onChange(of: purchases.subscription, initial: true) { _, _ in
             if purchases.takeGraduationOffer() { showGraduation = true }

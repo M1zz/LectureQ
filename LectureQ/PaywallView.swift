@@ -404,15 +404,15 @@ private struct ComparisonTable: View {
         let unlimited = String(localized: "무제한", comment: "Comparison table: no limit")
         return [
             Row(title: String(localized: "강의"),
-                cells: [.text(String(localized: "\(LectureQSpec.freeLectureLimit)개", comment: "Comparison table: count of lectures")),
+                cells: [.text(String(localized: "\(LectureQSpec.freeLectureLimit)개", locale: AppLocale.locale, comment: "Comparison table: count of lectures")),
                         .text(unlimited), .text(unlimited)],
                 feature: .unlimitedLectures),
             Row(title: String(localized: "질문 · 꼬리질문"), cells: [.text(unlimited), .text(unlimited), .text(unlimited)]),
             Row(title: String(localized: "타임블록 메모 · 강의 요약"), cells: [.included, .included, .included]),
             Row(title: String(localized: "AI 프롬프트"),
-                cells: [.text(String(localized: "\(2)단계", comment: "Comparison table: number of AI prompt steps")),
-                        .text(String(localized: "\(5)단계", comment: "Comparison table: number of AI prompt steps")),
-                        .text(String(localized: "\(5)단계", comment: "Comparison table: number of AI prompt steps"))],
+                cells: [.text(String(localized: "\(2)단계", locale: AppLocale.locale, comment: "Comparison table: number of AI prompt steps")),
+                        .text(String(localized: "\(5)단계", locale: AppLocale.locale, comment: "Comparison table: number of AI prompt steps")),
+                        .text(String(localized: "\(5)단계", locale: AppLocale.locale, comment: "Comparison table: number of AI prompt steps"))],
                 feature: .allPrompts),
             Row(title: String(localized: "학습 상태"), cells: [.excluded, .included, .included], feature: .learningState),
             Row(title: ProFeature.graph.reasonTitle, cells: [.excluded, .excluded, .included], feature: .graph),
@@ -478,6 +478,7 @@ extension ProFeature {
         switch self {
         case .unlimitedLectures:
             String(localized: "강의 \(LectureQSpec.freeLectureLimit)개를 기록했어요",
+                   locale: AppLocale.locale,
                    comment: "Paywall reason: the free lecture limit is reached")
         case .allPrompts:
             [AIPrompt.verify, .followUps, .grade].map(\.title).joined(separator: " · ")

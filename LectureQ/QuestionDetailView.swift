@@ -47,7 +47,7 @@ struct QuestionDetailView: View {
                 answerSection
                 followUpSection
 
-                Text("작성 \(question.createdAt.formatted(date: .abbreviated, time: .shortened))")
+                Text("작성 \(question.createdAt.formatted(AppLocale.dateStyle(date: .abbreviated, time: .shortened)))")
                     .scaledFont(.caption)
                     .foregroundStyle(.secondary)
             }
@@ -111,6 +111,7 @@ struct QuestionDetailView: View {
                 .frame(width: Self.timeFieldWidth)
                 .help("강의 시점 (24시간 HH:mm)")
                 .accessibilityLabel("시점")
+                .latinDigits($question.timeMark)
             Button("지금") { question.timeMark = timeMarkString() }
                 .linkButtonStyle()
         }
@@ -175,6 +176,7 @@ struct QuestionDetailView: View {
         .sheet(item: $paywallFeature) { feature in
             PaywallView(highlight: feature)
                 .appFontScale(fontScale)
+                .appLocale()
         }
     }
 

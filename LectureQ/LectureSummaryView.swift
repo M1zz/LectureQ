@@ -58,7 +58,7 @@ struct LectureSummaryView: View {
                 Text(lecture.title)
                     .scaledFont(.title2, weight: .bold)
                     .accessibilityAddTraits(.isHeader)
-                Text(lecture.createdAt.formatted(date: .long, time: .omitted))
+                Text(lecture.createdAt.formatted(AppLocale.dateStyle(date: .long, time: .omitted)))
                     .scaledFont(.caption)
                     .foregroundStyle(.secondary)
             }

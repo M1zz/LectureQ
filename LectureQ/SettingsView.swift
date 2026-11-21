@@ -69,11 +69,13 @@ struct SettingsView: View {
         .macFrame(width: 480, height: 600)
         .sheet(isPresented: $showingPaywall) {
             PaywallView(initialTerm: paywallTerm)
+                .appLocale()
         }
         .sheet(isPresented: $showingGraduation) {
             LeeoGraduationOfferView(graduate: purchases.graduateProduct) {
                 await purchases.refresh()
             }
+            .appLocale()
         }
     }
 
