@@ -54,6 +54,7 @@ HEADER = {
     "pl":      ("LectureQ", "Pytania z wykładu<br>zamieniasz w wiedzę"),
     "sv":      ("LectureQ", "Frågor från föreläsningen<br>blir kunskap"),
     "tr":      ("LectureQ", "Dersteki sorular<br>bilgiye dönüşür"),
+    "ar":      ("LectureQ", "أسئلة المحاضرة<br>تصبح معرفة"),
 }
 
 # 검색 결과는 스크린샷 1장(질문 목록)과 같은 이야기다. 눈썹글은 그 나라 사람이 검색창에 치는 말.
@@ -82,7 +83,11 @@ SEARCH = {
     "pl":      ("Notatki z wykładów", "Zapisz pytanie<br>od razu", "Każde pytanie z chwilą wykładu"),
     "sv":      ("Föreläsningsanteckningar", "Skriv ner frågan<br>direkt", "Varje fråga med tidpunkten i föreläsningen"),
     "tr":      ("Ders notları", "Aklına geleni<br>o an yaz", "Sorular ders saatiyle birlikte sıralanır"),
+    "ar":      ("تدوين المحاضرات", "دوّن سؤالك<br>في لحظته", "كل سؤال يحتفظ بلحظته من المحاضرة"),
 }
+
+# 오른쪽에서 왼쪽으로 쓰는 언어 — 글은 오른쪽에 붙이고, 검색 결과의 기기는 거울처럼 왼쪽에 둔다.
+RTL = {"ar"}
 
 # ⚠️ 색은 앱과 같다: 밝은 바탕, 강조색은 아이콘의 남색(AccentColor, 시스템 Indigo).
 BASE_CSS = """
@@ -100,6 +105,10 @@ body { background:#f4f4f9; position:relative;
 :lang(ja) .headline, :lang(zh) .headline { letter-spacing:0; }
 :lang(th) .headline { line-height:1.3; }
 :lang(ko) .headline, :lang(ko) .sub, :lang(ko) .eyebrow { word-break:keep-all; }
+/* 아랍 글자는 자간을 주면 이음이 끊긴다 */
+:lang(ar) body, :lang(ar) .headline, :lang(ar) .eyebrow, :lang(ar) .sub { letter-spacing:0; }
+:lang(ar) body { font-family:"SF Arabic", "Geeza Pro", -apple-system, sans-serif; }
+:lang(ar) .headline { line-height:1.3; }
 .phone { position:absolute; background:#1c1c1e; padding:26px; border-radius:170px;
   box-shadow: 0 70px 160px rgba(40,38,120,.22), 0 0 0 3px #3a3a3e inset; }
 .phone img { width:100%%; display:block; border-radius:146px; }
@@ -155,11 +164,15 @@ def search_html(lang):
     col = int(sw * 0.58)
     ph_w = 1000
     ph_left = l + col + int(sw * 0.04)
+    text_left = l
+    if lang in RTL:   # 거울 배치: 기기는 왼쪽, 글 칸은 안전 영역 오른쪽 끝에 붙인다
+        ph_left = W - ph_left - ph_w
+        text_left = r - col
     return f"""
 <div class="glow" style="left:{ph_left - 400}px;top:300px;width:1900px;height:1900px;background:rgba(94,92,230,.20)"></div>
 <div class="glow" style="left:{l - 700}px;top:{t - 500}px;width:1400px;height:1000px;background:rgba(94,92,230,.08)"></div>
 {phone(shot(lang, "iphone-01-list"), ph_left, t - 380, ph_w)}
-<div class="text" style="left:{l}px;top:{t}px;width:{col}px;height:{sh}px">
+<div class="text" style="left:{text_left}px;top:{t}px;width:{col}px;height:{sh}px">
   <div class="eyebrow" style="font-size:100px">{eyebrow}</div>
   <div class="headline" data-max="230" data-min="130" style="margin-top:36px">{headline}</div>
   <div class="sub" style="font-size:84px;margin-top:52px">{sub}</div>
@@ -183,7 +196,8 @@ def header_html(lang):
 def render(lang, kind):
     W, H, _ = SPEC[kind]
     body = search_html(lang) if kind == "search" else header_html(lang)
-    page = (f'<!doctype html><html lang="{lang}"><head><meta charset="utf-8"><style>'
+    direction = "rtl" if lang in RTL else "ltr"
+    page = (f'<!doctype html><html lang="{lang}" dir="{direction}"><head><meta charset="utf-8"><style>'
             f'{BASE_CSS % {"W": W, "H": H}}</style></head><body>{body}{FIT_JS}</body></html>')
     html_path = pathlib.Path(tempfile.gettempdir()) / f"lectureq-creative-{lang}-{kind}.html"
     html_path.write_text(page, encoding="utf-8")
