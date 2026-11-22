@@ -46,6 +46,8 @@ struct LectureQApp: App {
                 .satisfactionCheckIfEnabled()
                 // 개발자가 보낸 의견에 답장하면, 앱이 앞으로 올 때 답장을 시트로 보여 준다 (LeeoKit).
                 .leeoFeedbackReplyNotice(LectureQSpec.self)
+                // App Store 이벤트 링크(<번들 ID>://paywall)로 열리면 요금제를 띄운다 (LeeoKit).
+                .leeoPaywallLink { PaywallView() }
                 // 영수증 · 상품 · 구독을 읽는다 (→ Purchases.swift). 팁 결제도 같은 리스너가 받는다.
                 .task { if !Self.isRunningUnitTests { await PurchaseManager.shared.refresh() } }
                 .appLocale()

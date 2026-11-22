@@ -26,7 +26,7 @@ settings:
 packages:
   LeeoKit:
     url: https://github.com/M1zz/LeeoKit.git
-    majorVersion: 3.46.4
+    majorVersion: 3.47.1
 
 targets:
   # Mac · iPhone · iPad · Vision Pro 한 타깃 — 번들 ID 와 앱 레코드가 하나라 한 번 사면 모든 기기에서 쓴다(유니버설 구매).
@@ -75,6 +75,11 @@ targets:
         # 기본값은 번들 파일 이름(LectureQ.app)과 같아야 Finder 가 언어별 이름(한국어 '질문 노트')을 쓴다 — 다르면 사용자가 바꾼 이름으로 여겨 파일 이름을 보인다
         CFBundleName: LectureQ
         CFBundleDisplayName: LectureQ
+        # App Store 이벤트 링크(com.lectureq.lectureq://paywall)로 열리면 요금제를 띄운다 (LeeoKit LeeoPaywallLink)
+        CFBundleURLTypes:
+          - CFBundleURLName: com.lectureq.lectureq
+            CFBundleURLSchemes:
+              - com.lectureq.lectureq
         LSMinimumSystemVersion: "14.0"
         NSHumanReadableCopyright: ""
         LSApplicationCategoryType: public.app-category.education
