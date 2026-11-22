@@ -84,6 +84,7 @@ Guida a Siri e Comandi in Impostazioni
 
 ### 앱스토어 (포르투갈어(브라질))
 
+Ofertas da App Store abrem os planos
 Agora disponível em árabe
 Em árabe, tudo vai da direita à esquerda
 Guia da Siri e Atalhos nos Ajustes
