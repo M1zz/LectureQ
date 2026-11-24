@@ -11,6 +11,7 @@ App Store 세일 소식에서 바로 요금제가 열려요
 이제 아랍어로도 쓸 수 있어요
 아랍어에서는 화면이 오른쪽에서 왼쪽으로 놓여요
 설정에서 Siri와 단축어 쓰는 법을 볼 수 있어요
+할인 기간에는 앱을 열 때 소식을 알려 드려요
 
 ### App Store (English)
 
@@ -18,6 +19,7 @@ App Store sales open your plans directly
 Now available in Arabic
 Arabic screens run right to left
 Siri and Shortcuts guide in Settings
+The app now tells you when a sale is on
 
 ### App Store (en-GB)
 
@@ -25,6 +27,7 @@ App Store sales open your plans directly
 Now available in Arabic
 Arabic screens run right to left
 Siri and Shortcuts guide in Settings
+The app now tells you when a sale is on
 
 ### 앱스토어 (중국어 간체)
 
@@ -32,6 +35,7 @@ Siri and Shortcuts guide in Settings
 现已支持阿拉伯语
 阿拉伯语界面从右向左排列
 可在设置中查看 Siri 与快捷指令的用法
+优惠期间打开应用时会通知你
 
 ### 앱스토어 (중국어 번체)
 
@@ -39,6 +43,7 @@ Siri and Shortcuts guide in Settings
 現已支援阿拉伯語
 阿拉伯語介面由右至左排列
 可在設定中查看 Siri 與捷徑的用法
+優惠期間開啟 App 時會通知你
 
 ### 앱스토어 (일본어)
 
@@ -46,6 +51,7 @@ App Storeのセールから料金プランをすぐ開けます
 アラビア語で使えるようになりました
 アラビア語では画面が右から左に並びます
 設定でSiriとショートカットの使い方を確認できます
+セール期間中はアプリを開くとお知らせします
 
 ### 앱스토어 (러시아어)
 
@@ -53,6 +59,7 @@ App Storeのセールから料金プランをすぐ開けます
 Теперь доступен арабский язык
 На арабском экраны идут справа налево
 Справка по Siri и Командам в настройках
+Приложение сообщит о скидках при запуске
 
 ### 앱스토어 (스페인어)
 
@@ -60,6 +67,7 @@ Las ofertas de App Store abren tu plan
 Ya disponible en árabe
 El árabe se lee de derecha a izquierda
 Guía de Siri y Atajos en Ajustes
+La app te avisa cuando hay ofertas
 
 ### 앱스토어 (독일어)
 
@@ -67,6 +75,7 @@ App-Store-Angebote öffnen die Tarife
 Jetzt auch auf Arabisch
 Arabisch läuft von rechts nach links
 Neue Hilfe zu Siri und Kurzbefehlen
+Die App zeigt dir laufende Angebote
 
 ### 앱스토어 (프랑스어)
 
@@ -74,6 +83,7 @@ Les offres App Store ouvrent les forfaits
 Désormais disponible en arabe
 L’arabe s’affiche de droite à gauche
 Guide Siri et Raccourcis dans Réglages
+L’app vous prévient pendant les promos
 
 ### 앱스토어 (이탈리아어)
 
@@ -81,6 +91,7 @@ Le offerte dell’App Store aprono i piani
 Ora disponibile in arabo
 L’arabo va da destra a sinistra
 Guida a Siri e Comandi in Impostazioni
+L’app ti avvisa quando c’è un’offerta
 
 ### 앱스토어 (포르투갈어(브라질))
 
@@ -88,6 +99,7 @@ Ofertas da App Store abrem os planos
 Agora disponível em árabe
 Em árabe, tudo vai da direita à esquerda
 Guia da Siri e Atalhos nos Ajustes
+O app avisa quando há promoção
 
 ### 앱스토어 (태국어)
 
@@ -95,6 +107,7 @@ Guia da Siri e Atalhos nos Ajustes
 ใช้งานเป็นภาษาอาหรับได้แล้ว
 ภาษาอาหรับแสดงหน้าจอจากขวาไปซ้าย
 คู่มือ Siri และคำสั่งลัดในการตั้งค่า
+ช่วงลดราคา เราจะแจ้งเมื่อคุณเปิดแอป
 
 ### 앱스토어 (베트남어)
 
@@ -102,6 +115,7 @@ Guia da Siri e Atalhos nos Ajustes
 Đã hỗ trợ tiếng Ả Rập
 Tiếng Ả Rập hiển thị từ phải sang trái
 Hướng dẫn Siri và Phím tắt trong Cài đặt
+Khi có ưu đãi, ứng dụng sẽ báo cho bạn
 
 ### 앱스토어 (체코어)
 
@@ -109,6 +123,7 @@ Akce v App Storu otevřou předplatné
 Nově také v arabštině
 Arabština běží zprava doleva
 Nápověda k Siri a Zkratkám v Nastavení
+Během slev vám dáme vědět po otevření
 
 ### 앱스토어 (덴마크어)
 
@@ -116,6 +131,7 @@ Tilbud i App Store åbner abonnementerne
 Nu også på arabisk
 Arabisk vises fra højre mod venstre
 Ny guide til Siri og Genveje
+Appen fortæller dig, når der er udsalg
 
 ### 앱스토어 (그리스어)
 
@@ -123,6 +139,7 @@ Ny guide til Siri og Genveje
 Διαθέσιμο πλέον στα αραβικά
 Αραβικά από δεξιά προς τα αριστερά
 Οδηγός για Siri και Συντομεύσεις
+Η εφαρμογή σας ενημερώνει για προσφορές
 
 ### 앱스토어 (핀란드어)
 
@@ -130,6 +147,7 @@ App Storen tarjoukset avaavat tilaukset
 Nyt myös arabiaksi
 Arabia näkyy oikealta vasemmalle
 Opas Siriin ja Pikakomentoihin
+Alennuksista kerrotaan, kun avaat apin
 
 ### 앱스토어 (인도네시아어)
 
@@ -137,6 +155,7 @@ Promo App Store langsung membuka paket
 Kini tersedia dalam bahasa Arab
 Bahasa Arab tampil dari kanan ke kiri
 Panduan Siri dan Pintasan di Pengaturan
+App memberi tahu saat ada diskon
 
 ### 앱스토어 (노르웨이어 보크말, nb)
 
@@ -144,6 +163,7 @@ Tilbud i App Store åpner abonnementene
 Nå også på arabisk
 Arabisk vises fra høyre mot venstre
 Ny guide til Siri og Snarveier
+Appen sier fra når det er salg
 
 ### 앱스토어 (네덜란드어)
 
@@ -151,6 +171,7 @@ App Store-acties openen de abonnementen
 Nu ook in het Arabisch
 Arabisch loopt van rechts naar links
 Uitleg over Siri en Opdrachten
+De app laat weten wanneer er korting is
 
 ### 앱스토어 (폴란드어)
 
@@ -158,6 +179,7 @@ Promocje w App Store otwierają plany
 Teraz także po arabsku
 Arabski czyta się od prawej do lewej
 Poradnik Siri i Skrótów w Ustawieniach
+Aplikacja powie Ci o promocjach
 
 ### 앱스토어 (스웨덴어)
 
@@ -165,6 +187,7 @@ Erbjudanden i App Store öppnar planerna
 Nu även på arabiska
 Arabiska visas från höger till vänster
 Ny guide till Siri och Genvägar
+Appen berättar nu när det är rea
 
 ### 앱스토어 (튀르키예어)
 
@@ -172,6 +195,7 @@ App Store fırsatları planları açar
 Artık Arapça da var
 Arapçada ekranlar sağdan sola dizilir
 Siri ve Kestirmeler rehberi Ayarlar’da
+Uygulama indirimleri size haber verir
 
 ### 앱스토어 (아랍어)
 
@@ -179,6 +203,7 @@ Siri ve Kestirmeler rehberi Ayarlar’da
 صار التطبيق متوفرًا باللغة العربية
 الشاشات بالعربية من اليمين إلى اليسار
 دليل Siri والاختصارات في الإعدادات
+نخبرك بالعروض عند فتح التطبيق
 
 ## 1.0.4
 
