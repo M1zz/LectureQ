@@ -171,11 +171,14 @@ struct ContentView: View {
         .sheet(isPresented: $showOnboarding) {
             LectureQOnboardingView(
                 onCreateLecture: {
+                    LeeoAnalyticsCenter.track(.custom(name: "onboarding_completed", parameters: [:]))
                     hasSeenOnboarding = true
                     showOnboarding = false
                     addLecture()
                 },
                 onDismiss: {
+                    // [둘러보기] — 첫 강의를 만들지 않고 닫았다
+                    LeeoAnalyticsCenter.track(.custom(name: "onboarding_skipped", parameters: [:]))
                     hasSeenOnboarding = true
                     showOnboarding = false
                 }

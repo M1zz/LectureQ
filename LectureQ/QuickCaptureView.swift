@@ -1,5 +1,6 @@
 import SwiftUI
 import SwiftData
+import LeeoKit
 
 /// The core capture flow: while listening to a lecture, hit ⌘⇧N,
 /// type the question in the simplest words possible, press Return, done.
@@ -82,6 +83,8 @@ struct QuickCaptureView: View {
                          lecture: lecture)
         context.insert(q)
         FeatureTips.donateQuestionSaved()
+        // 강의 중 질문을 붙잡는 순간 — 허브 품질 탭의 '핵심 기능' 칸 (docs/usage-spec.json)
+        LeeoAnalyticsCenter.track(.custom(name: "question_captured", parameters: [:]))
         text = ""
         timeMark = timeMarkString()   // 이어서 적을 다음 질문은 그때의 지금 시각으로
         if keepOpen {
