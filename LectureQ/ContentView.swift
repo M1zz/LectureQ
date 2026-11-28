@@ -103,6 +103,9 @@ struct ContentView: View {
     @State private var showUnresolvedOnly = false
     @State private var showImporter = false
     @State private var importError: String?
+    /// 이름을 바꾸는 중인 강의. 새 강의를 만들면 바로 묻는다 — 메모 칸까지 가지 않아도 되게.
+    @State private var renamingLecture: Lecture?
+    @State private var renameText = ""
 
     // 무료 · Plus · Pro (→ Purchases.swift). 잠긴 자리를 누르면 그 기능이 든 칸을 앞세운 페이월이 뜬다.
     @State private var purchases = PurchaseManager.shared
@@ -262,6 +265,17 @@ struct ContentView: View {
             Button("확인", role: .cancel) { importError = nil }
         } message: {
             Text(importError ?? "")
+        }
+        .alert("강의 이름", isPresented: .init(
+            get: { renamingLecture != nil },
+            set: { if !$0 { renamingLecture = nil } }
+        ), presenting: renamingLecture) { lecture in
+            TextField(lecture.title, text: $renameText)
+            Button("취소", role: .cancel) {}
+            Button("저장") {
+                let name = renameText.trimmingCharacters(in: .whitespacesAndNewlines)
+                if !name.isEmpty { lecture.title = name }
+            }
         }
         .onAppear {
             restoreSelection()
@@ -467,7 +481,17 @@ struct ContentView: View {
             paywallFeature = .unlimitedLectures
             return
         }
-        addLectureQuick()
+        let lecture = addLectureQuick()
+        // 온보딩 창이 닫히는 중이면 겹쳐서 뜨지 않으므로 닫힌 뒤에 묻는다.
+        DispatchQueue.main.asyncAfter(deadline: .now() + 0.4) {
+            askName(lecture, current: "")
+        }
+    }
+
+    /// 강의 이름을 묻는다. 새 강의는 빈 칸(자리 글자 "새 강의")으로 열어 바로 칠 수 있게 한다.
+    private func askName(_ lecture: Lecture, current: String) {
+        renameText = current
+        renamingLecture = lecture
     }
 
     /// 처음 쓰는 사람(강의 0개)에게만 안내를 띄운다. 이미 강의가 있으면 업데이트 사용자이므로 띄우지 않고 본 것으로 둔다.
@@ -542,7 +566,8 @@ struct ContentView: View {
             Button {
                 unlock(.markdownImport) { showImporter = true }
             } label: { gatedLabel("마크다운에서 가져오기…", .markdownImport) }
-            if selectedLecture != nil {
+            if let lecture = selectedLecture {
+                Button("강의 이름 바꾸기…") { askName(lecture, current: lecture.title) }
                 Button("현재 강의 삭제", role: .destructive, action: deleteCurrentLecture)
             }
         } label: {
@@ -679,7 +704,8 @@ struct ContentView: View {
     #endif
 
     /// 새 강의를 만들고(초기 블록 1개 포함) 바로 선택해 메인에 표시한다.
-    private func addLectureQuick() {
+    @discardableResult
+    private func addLectureQuick() -> Lecture {
         let lecture = Lecture(title: String(localized: "새 강의"))
         context.insert(lecture)
         let block = Block(startTime: .now)
@@ -687,6 +713,7 @@ struct ContentView: View {
         context.insert(block)
         selectedLecture = lecture
         selectedQuestion = nil
+        return lecture
     }
 
     private func deleteCurrentLecture() {
